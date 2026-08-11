@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3864,
+  "questionId": "3864",
+  "questionFrontendId": "3577",
+  "titleSlug": "count-the-number-of-computer-unlocking-permutations",
+  "title": "Count the Number of Computer Unlocking Permutations",
+  "translatedTitle": "统计计算机解锁顺序排列数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-computer-unlocking-permutations/",
+  "createdAt": "2026-08-11T22:15:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

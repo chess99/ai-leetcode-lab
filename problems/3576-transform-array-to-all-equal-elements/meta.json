@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3876,
+  "questionId": "3876",
+  "questionFrontendId": "3576",
+  "titleSlug": "transform-array-to-all-equal-elements",
+  "title": "Transform Array to All Equal Elements",
+  "translatedTitle": "数组元素相等转换",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/transform-array-to-all-equal-elements/",
+  "createdAt": "2026-08-11T22:15:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

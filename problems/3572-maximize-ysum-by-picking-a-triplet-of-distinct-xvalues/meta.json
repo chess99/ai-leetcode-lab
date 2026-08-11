@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3894,
+  "questionId": "3894",
+  "questionFrontendId": "3572",
+  "titleSlug": "maximize-ysum-by-picking-a-triplet-of-distinct-xvalues",
+  "title": "Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values",
+  "translatedTitle": "选择不同 X 值三元组使 Y 值之和最大",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues/",
+  "createdAt": "2026-08-11T22:15:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

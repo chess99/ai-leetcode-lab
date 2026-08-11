@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3820,
+  "questionId": "3820",
+  "questionFrontendId": "3514",
+  "titleSlug": "number-of-unique-xor-triplets-ii",
+  "title": "Number of Unique XOR Triplets II",
+  "translatedTitle": "不同 XOR 三元组的数目 II",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-unique-xor-triplets-ii/",
+  "createdAt": "2026-08-11T22:15:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

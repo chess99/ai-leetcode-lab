@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3943,
+  "questionId": "3943",
+  "questionFrontendId": "3611",
+  "titleSlug": "find-overbooked-employees",
+  "title": "Find Overbooked Employees",
+  "translatedTitle": "查找超预订员工",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-overbooked-employees/",
+  "createdAt": "2026-08-11T22:15:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

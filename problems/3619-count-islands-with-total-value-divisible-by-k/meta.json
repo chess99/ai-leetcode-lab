@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3823,
+  "questionId": "3823",
+  "questionFrontendId": "3619",
+  "titleSlug": "count-islands-with-total-value-divisible-by-k",
+  "title": "Count Islands With Total Value Divisible by K",
+  "translatedTitle": "总价值可以被 K 整除的岛屿数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-islands-with-total-value-divisible-by-k/",
+  "createdAt": "2026-08-11T22:15:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

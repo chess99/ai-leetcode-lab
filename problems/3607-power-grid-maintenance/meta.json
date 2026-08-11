@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3863,
+  "questionId": "3863",
+  "questionFrontendId": "3607",
+  "titleSlug": "power-grid-maintenance",
+  "title": "Power Grid Maintenance",
+  "translatedTitle": "电网维护",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/power-grid-maintenance/",
+  "createdAt": "2026-08-11T22:15:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

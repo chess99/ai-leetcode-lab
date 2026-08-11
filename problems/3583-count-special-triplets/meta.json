@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3885,
+  "questionId": "3885",
+  "questionFrontendId": "3583",
+  "titleSlug": "count-special-triplets",
+  "title": "Count Special Triplets",
+  "translatedTitle": "统计特殊三元组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-special-triplets/",
+  "createdAt": "2026-08-11T22:15:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

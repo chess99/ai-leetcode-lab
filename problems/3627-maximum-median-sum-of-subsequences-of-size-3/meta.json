@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3766,
+  "questionId": "3766",
+  "questionFrontendId": "3627",
+  "titleSlug": "maximum-median-sum-of-subsequences-of-size-3",
+  "title": "Maximum Median Sum of Subsequences of Size 3",
+  "translatedTitle": "中位数之和的最大值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-median-sum-of-subsequences-of-size-3/",
+  "createdAt": "2026-08-11T22:15:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

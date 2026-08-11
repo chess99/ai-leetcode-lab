@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3932,
+  "questionId": "3932",
+  "questionFrontendId": "3586",
+  "titleSlug": "find-covid-recovery-patients",
+  "title": "Find COVID Recovery Patients",
+  "translatedTitle": "寻找 COVID 康复患者",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-covid-recovery-patients/",
+  "createdAt": "2026-08-11T22:15:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3755,
+  "questionId": "3755",
+  "questionFrontendId": "3584",
+  "titleSlug": "maximum-product-of-first-and-last-elements-of-a-subsequence",
+  "title": "Maximum Product of First and Last Elements of a Subsequence",
+  "translatedTitle": "子序列首尾元素的最大乘积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-product-of-first-and-last-elements-of-a-subsequence/",
+  "createdAt": "2026-08-11T22:15:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3886,
+  "questionId": "3886",
+  "questionFrontendId": "3623",
+  "titleSlug": "count-number-of-trapezoids-i",
+  "title": "Count Number of Trapezoids I",
+  "translatedTitle": "统计梯形的数目 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-trapezoids-i/",
+  "createdAt": "2026-08-11T22:15:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

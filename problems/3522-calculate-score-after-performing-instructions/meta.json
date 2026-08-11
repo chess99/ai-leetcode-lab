@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3732,
+  "questionId": "3732",
+  "questionFrontendId": "3522",
+  "titleSlug": "calculate-score-after-performing-instructions",
+  "title": "Calculate Score After Performing Instructions",
+  "translatedTitle": "执行指令后的得分",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/calculate-score-after-performing-instructions/",
+  "createdAt": "2026-08-11T22:15:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

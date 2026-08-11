@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3835,
+  "questionId": "3835",
+  "questionFrontendId": "3578",
+  "titleSlug": "count-partitions-with-max-min-difference-at-most-k",
+  "title": "Count Partitions With Max-Min Difference at Most K",
+  "translatedTitle": "统计极差最大为 K 的分割方式数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-partitions-with-max-min-difference-at-most-k/",
+  "createdAt": "2026-08-11T22:15:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

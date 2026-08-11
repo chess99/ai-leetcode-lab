@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3800,
+  "questionId": "3800",
+  "questionFrontendId": "3598",
+  "titleSlug": "longest-common-prefix-between-adjacent-strings-after-removals",
+  "title": "Longest Common Prefix Between Adjacent Strings After Removals",
+  "translatedTitle": "相邻字符串之间的最长公共前缀",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-common-prefix-between-adjacent-strings-after-removals/",
+  "createdAt": "2026-08-11T22:15:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

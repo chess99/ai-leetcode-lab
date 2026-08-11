@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3904,
+  "questionId": "3904",
+  "questionFrontendId": "3587",
+  "titleSlug": "minimum-adjacent-swaps-to-alternate-parity",
+  "title": "Minimum Adjacent Swaps to Alternate Parity",
+  "translatedTitle": "最小相邻交换至奇偶交替",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-adjacent-swaps-to-alternate-parity/",
+  "createdAt": "2026-08-11T22:15:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

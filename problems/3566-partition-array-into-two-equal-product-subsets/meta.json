@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3843,
+  "questionId": "3843",
+  "questionFrontendId": "3566",
+  "titleSlug": "partition-array-into-two-equal-product-subsets",
+  "title": "Partition Array into Two Equal Product Subsets",
+  "translatedTitle": "等积子集的划分方案",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-array-into-two-equal-product-subsets/",
+  "createdAt": "2026-08-11T22:15:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

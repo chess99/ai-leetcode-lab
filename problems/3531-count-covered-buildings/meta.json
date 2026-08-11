@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3819,
+  "questionId": "3819",
+  "questionFrontendId": "3531",
+  "titleSlug": "count-covered-buildings",
+  "title": "Count Covered Buildings",
+  "translatedTitle": "统计被覆盖的建筑",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-covered-buildings/",
+  "createdAt": "2026-08-11T22:15:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3865,
+  "questionId": "3865",
+  "questionFrontendId": "3521",
+  "titleSlug": "find-product-recommendation-pairs",
+  "title": "Find Product Recommendation Pairs",
+  "translatedTitle": "查找推荐产品对",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-product-recommendation-pairs/",
+  "createdAt": "2026-08-11T22:15:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

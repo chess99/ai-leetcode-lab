@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3834,
+  "questionId": "3834",
+  "questionFrontendId": "3542",
+  "titleSlug": "minimum-operations-to-convert-all-elements-to-zero",
+  "title": "Minimum Operations to Convert All Elements to Zero",
+  "translatedTitle": "将所有元素变为 0 的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-convert-all-elements-to-zero/",
+  "createdAt": "2026-08-11T22:15:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

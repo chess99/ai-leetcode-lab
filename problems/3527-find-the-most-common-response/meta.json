@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3707,
+  "questionId": "3707",
+  "questionFrontendId": "3527",
+  "titleSlug": "find-the-most-common-response",
+  "title": "Find the Most Common Response",
+  "translatedTitle": "找到最常见的回答",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-most-common-response/",
+  "createdAt": "2026-08-11T22:15:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

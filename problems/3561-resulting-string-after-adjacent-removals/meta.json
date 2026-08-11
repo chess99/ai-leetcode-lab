@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3860,
+  "questionId": "3860",
+  "questionFrontendId": "3561",
+  "titleSlug": "resulting-string-after-adjacent-removals",
+  "title": "Resulting String After Adjacent Removals",
+  "translatedTitle": "移除相邻字符",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/resulting-string-after-adjacent-removals/",
+  "createdAt": "2026-08-11T22:15:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

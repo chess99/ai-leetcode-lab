@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3907,
+  "questionId": "3907",
+  "questionFrontendId": "3589",
+  "titleSlug": "count-prime-gap-balanced-subarrays",
+  "title": "Count Prime-Gap Balanced Subarrays",
+  "translatedTitle": "计数质数间隔平衡子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-prime-gap-balanced-subarrays/",
+  "createdAt": "2026-08-11T22:15:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

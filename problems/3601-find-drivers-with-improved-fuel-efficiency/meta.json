@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3942,
+  "questionId": "3942",
+  "questionFrontendId": "3601",
+  "titleSlug": "find-drivers-with-improved-fuel-efficiency",
+  "title": "Find Drivers with Improved Fuel Efficiency",
+  "translatedTitle": "寻找燃油效率提升的驾驶员",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-drivers-with-improved-fuel-efficiency/",
+  "createdAt": "2026-08-11T22:15:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

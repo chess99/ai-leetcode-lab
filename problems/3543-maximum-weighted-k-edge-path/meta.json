@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3856,
+  "questionId": "3856",
+  "questionFrontendId": "3543",
+  "titleSlug": "maximum-weighted-k-edge-path",
+  "title": "Maximum Weighted K-Edge Path",
+  "translatedTitle": "K 条边路径的最大边权和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-weighted-k-edge-path/",
+  "createdAt": "2026-08-11T22:15:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3821,
+  "questionId": "3821",
+  "questionFrontendId": "3529",
+  "titleSlug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+  "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+  "translatedTitle": "统计水平子串和垂直子串重叠格子的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/",
+  "createdAt": "2026-08-11T22:15:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
