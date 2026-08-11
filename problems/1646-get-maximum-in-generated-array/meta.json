@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1769,
+  "questionId": "1769",
+  "questionFrontendId": "1646",
+  "titleSlug": "get-maximum-in-generated-array",
+  "title": "Get Maximum in Generated Array",
+  "translatedTitle": "获取生成数组中的最大值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/get-maximum-in-generated-array/",
+  "createdAt": "2026-08-11T12:21:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

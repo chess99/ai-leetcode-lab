@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1811,
+  "questionId": "1811",
+  "questionFrontendId": "1667",
+  "titleSlug": "fix-names-in-a-table",
+  "title": "Fix Names in a Table",
+  "translatedTitle": "修复表中的名字",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/fix-names-in-a-table/",
+  "createdAt": "2026-08-11T12:24:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1801,
+  "questionId": "1801",
+  "questionFrontendId": "1661",
+  "titleSlug": "average-time-of-process-per-machine",
+  "title": "Average Time of Process per Machine",
+  "translatedTitle": "每台机器的进程平均运行时间",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/average-time-of-process-per-machine/",
+  "createdAt": "2026-08-11T12:24:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

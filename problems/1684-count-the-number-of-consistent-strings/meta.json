@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1786,
+  "questionId": "1786",
+  "questionFrontendId": "1684",
+  "titleSlug": "count-the-number-of-consistent-strings",
+  "title": "Count the Number of Consistent Strings",
+  "translatedTitle": "统计一致字符串的数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-consistent-strings/",
+  "createdAt": "2026-08-11T12:19:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

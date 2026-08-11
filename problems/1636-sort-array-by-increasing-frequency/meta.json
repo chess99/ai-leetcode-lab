@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1741,
+  "questionId": "1741",
+  "questionFrontendId": "1636",
+  "titleSlug": "sort-array-by-increasing-frequency",
+  "title": "Sort Array by Increasing Frequency",
+  "translatedTitle": "按照频率将数组升序排序",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-array-by-increasing-frequency/",
+  "createdAt": "2026-08-11T12:18:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1773,
+  "questionId": "1773",
+  "questionFrontendId": "1633",
+  "titleSlug": "percentage-of-users-attended-a-contest",
+  "title": "Percentage of Users Attended a Contest",
+  "translatedTitle": "各赛事的用户注册率",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/percentage-of-users-attended-a-contest/",
+  "createdAt": "2026-08-11T12:23:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

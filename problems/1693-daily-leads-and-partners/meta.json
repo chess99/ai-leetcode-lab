@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1837,
+  "questionId": "1837",
+  "questionFrontendId": "1693",
+  "titleSlug": "daily-leads-and-partners",
+  "title": "Daily Leads and Partners",
+  "translatedTitle": "每天的领导和合伙人",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/daily-leads-and-partners/",
+  "createdAt": "2026-08-11T12:23:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

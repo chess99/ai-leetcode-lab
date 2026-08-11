@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1827,
+  "questionId": "1827",
+  "questionFrontendId": "1683",
+  "titleSlug": "invalid-tweets",
+  "title": "Invalid Tweets",
+  "translatedTitle": "无效的推文",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/invalid-tweets/",
+  "createdAt": "2026-08-11T12:26:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

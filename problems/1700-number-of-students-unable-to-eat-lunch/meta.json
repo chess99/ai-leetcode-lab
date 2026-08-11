@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1802,
+  "questionId": "1802",
+  "questionFrontendId": "1700",
+  "titleSlug": "number-of-students-unable-to-eat-lunch",
+  "title": "Number of Students Unable to Eat Lunch",
+  "translatedTitle": "无法吃午餐的学生数量",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/",
+  "createdAt": "2026-08-11T12:24:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

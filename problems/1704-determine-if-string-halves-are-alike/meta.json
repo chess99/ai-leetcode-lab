@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1823,
+  "questionId": "1823",
+  "questionFrontendId": "1704",
+  "titleSlug": "determine-if-string-halves-are-alike",
+  "title": "Determine if String Halves Are Alike",
+  "translatedTitle": "判断字符串的两半是否相似",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/determine-if-string-halves-are-alike/",
+  "createdAt": "2026-08-11T12:26:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

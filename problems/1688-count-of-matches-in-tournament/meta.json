@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1806,
+  "questionId": "1806",
+  "questionFrontendId": "1688",
+  "titleSlug": "count-of-matches-in-tournament",
+  "title": "Count of Matches in Tournament",
+  "translatedTitle": "比赛中的配对次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-of-matches-in-tournament/",
+  "createdAt": "2026-08-11T12:24:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

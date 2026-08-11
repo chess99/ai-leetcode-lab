@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1742,
+  "questionId": "1742",
+  "questionFrontendId": "1637",
+  "titleSlug": "widest-vertical-area-between-two-points-containing-no-points",
+  "title": "Widest Vertical Area Between Two Points Containing No Points",
+  "translatedTitle": "两点之间不包含任何点的最宽垂直区域",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/widest-vertical-area-between-two-points-containing-no-points/",
+  "createdAt": "2026-08-11T12:18:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

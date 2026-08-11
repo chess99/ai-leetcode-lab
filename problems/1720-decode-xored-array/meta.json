@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1839,
+  "questionId": "1839",
+  "questionFrontendId": "1720",
+  "titleSlug": "decode-xored-array",
+  "title": "Decode XORed Array",
+  "translatedTitle": "解码异或后的数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/decode-xored-array/",
+  "createdAt": "2026-08-11T12:23:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

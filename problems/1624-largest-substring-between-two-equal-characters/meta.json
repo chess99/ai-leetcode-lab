@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1746,
+  "questionId": "1746",
+  "questionFrontendId": "1624",
+  "titleSlug": "largest-substring-between-two-equal-characters",
+  "title": "Largest Substring Between Two Equal Characters",
+  "translatedTitle": "两个相同字符之间的最长子字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-substring-between-two-equal-characters/",
+  "createdAt": "2026-08-11T12:18:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

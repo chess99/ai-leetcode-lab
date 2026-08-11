@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1764,
+  "questionId": "1764",
+  "questionFrontendId": "1668",
+  "titleSlug": "maximum-repeating-substring",
+  "title": "Maximum Repeating Substring",
+  "translatedTitle": "最大重复子字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-repeating-substring/",
+  "createdAt": "2026-08-11T12:20:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
