@@ -1,0 +1,33 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T16:07:30Z
+# Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
+from typing import Optional
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        dummy = ListNode()
+        tail = dummy
+        carry = 0
+        while l1 or l2 or carry:
+            total = carry
+            if l1:
+                total += l1.val
+                l1 = l1.next
+            if l2:
+                total += l2.val
+                l2 = l2.next
+            carry, digit = divmod(total, 10)
+            tail.next = ListNode(digit)
+            tail = tail.next
+        return dummy.next

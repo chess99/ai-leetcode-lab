@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 80,
+  "questionId": "80",
+  "questionFrontendId": "80",
+  "titleSlug": "remove-duplicates-from-sorted-array-ii",
+  "title": "Remove Duplicates from Sorted Array II",
+  "translatedTitle": "删除有序数组中的重复项 II",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/",
+  "createdAt": "2026-08-11T16:16:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

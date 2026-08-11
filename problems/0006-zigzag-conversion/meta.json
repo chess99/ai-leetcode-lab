@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 6,
+  "questionId": "6",
+  "questionFrontendId": "6",
+  "titleSlug": "zigzag-conversion",
+  "title": "Zigzag Conversion",
+  "translatedTitle": "Z 字形变换",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/zigzag-conversion/",
+  "createdAt": "2026-08-11T16:07:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

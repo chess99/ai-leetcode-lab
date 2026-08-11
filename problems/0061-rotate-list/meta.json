@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 61,
+  "questionId": "61",
+  "questionFrontendId": "61",
+  "titleSlug": "rotate-list",
+  "title": "Rotate List",
+  "translatedTitle": "旋转链表",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/rotate-list/",
+  "createdAt": "2026-08-11T16:14:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

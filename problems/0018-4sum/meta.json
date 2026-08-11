@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 18,
+  "questionId": "18",
+  "questionFrontendId": "18",
+  "titleSlug": "4sum",
+  "title": "4Sum",
+  "translatedTitle": "四数之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/4sum/",
+  "createdAt": "2026-08-11T16:08:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

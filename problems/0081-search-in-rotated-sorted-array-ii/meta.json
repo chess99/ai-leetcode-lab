@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 81,
+  "questionId": "81",
+  "questionFrontendId": "81",
+  "titleSlug": "search-in-rotated-sorted-array-ii",
+  "title": "Search in Rotated Sorted Array II",
+  "translatedTitle": "搜索旋转排序数组 II",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/",
+  "createdAt": "2026-08-11T16:16:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

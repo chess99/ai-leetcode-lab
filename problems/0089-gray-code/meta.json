@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 89,
+  "questionId": "89",
+  "questionFrontendId": "89",
+  "titleSlug": "gray-code",
+  "title": "Gray Code",
+  "translatedTitle": "格雷编码",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/gray-code/",
+  "createdAt": "2026-08-11T16:17:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

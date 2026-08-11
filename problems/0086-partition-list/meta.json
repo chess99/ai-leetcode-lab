@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 86,
+  "questionId": "86",
+  "questionFrontendId": "86",
+  "titleSlug": "partition-list",
+  "title": "Partition List",
+  "translatedTitle": "分隔链表",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-list/",
+  "createdAt": "2026-08-11T16:17:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

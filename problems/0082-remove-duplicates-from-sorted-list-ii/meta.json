@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 82,
+  "questionId": "82",
+  "questionFrontendId": "82",
+  "titleSlug": "remove-duplicates-from-sorted-list-ii",
+  "title": "Remove Duplicates from Sorted List II",
+  "translatedTitle": "删除排序链表中的重复元素 II",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/",
+  "createdAt": "2026-08-11T16:17:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

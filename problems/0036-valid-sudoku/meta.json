@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 36,
+  "questionId": "36",
+  "questionFrontendId": "36",
+  "titleSlug": "valid-sudoku",
+  "title": "Valid Sudoku",
+  "translatedTitle": "有效的数独",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/valid-sudoku/",
+  "createdAt": "2026-08-11T16:10:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

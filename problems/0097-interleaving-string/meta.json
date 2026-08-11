@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 97,
+  "questionId": "97",
+  "questionFrontendId": "97",
+  "titleSlug": "interleaving-string",
+  "title": "Interleaving String",
+  "translatedTitle": "交错字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/interleaving-string/",
+  "createdAt": "2026-08-11T16:18:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 38,
+  "questionId": "38",
+  "questionFrontendId": "38",
+  "titleSlug": "count-and-say",
+  "title": "Count and Say",
+  "translatedTitle": "外观数列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-and-say/",
+  "createdAt": "2026-08-11T16:11:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 93,
+  "questionId": "93",
+  "questionFrontendId": "93",
+  "titleSlug": "restore-ip-addresses",
+  "title": "Restore IP Addresses",
+  "translatedTitle": "复原 IP 地址",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/restore-ip-addresses/",
+  "createdAt": "2026-08-11T16:18:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

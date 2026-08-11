@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 46,
+  "questionId": "46",
+  "questionFrontendId": "46",
+  "titleSlug": "permutations",
+  "title": "Permutations",
+  "translatedTitle": "全排列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/permutations/",
+  "createdAt": "2026-08-11T16:12:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

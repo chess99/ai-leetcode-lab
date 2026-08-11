@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 29,
+  "questionId": "29",
+  "questionFrontendId": "29",
+  "titleSlug": "divide-two-integers",
+  "title": "Divide Two Integers",
+  "translatedTitle": "两数相除",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/divide-two-integers/",
+  "createdAt": "2026-08-11T16:10:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 74,
+  "questionId": "74",
+  "questionFrontendId": "74",
+  "titleSlug": "search-a-2d-matrix",
+  "title": "Search a 2D Matrix",
+  "translatedTitle": "搜索二维矩阵",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/search-a-2d-matrix/",
+  "createdAt": "2026-08-11T16:16:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

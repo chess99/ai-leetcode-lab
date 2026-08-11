@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 71,
+  "questionId": "71",
+  "questionFrontendId": "71",
+  "titleSlug": "simplify-path",
+  "title": "Simplify Path",
+  "translatedTitle": "简化路径",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/simplify-path/",
+  "createdAt": "2026-08-11T16:16:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

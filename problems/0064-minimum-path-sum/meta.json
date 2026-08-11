@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 64,
+  "questionId": "64",
+  "questionFrontendId": "64",
+  "titleSlug": "minimum-path-sum",
+  "title": "Minimum Path Sum",
+  "translatedTitle": "最小路径和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-path-sum/",
+  "createdAt": "2026-08-11T16:14:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

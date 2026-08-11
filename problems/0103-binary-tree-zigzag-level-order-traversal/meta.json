@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 103,
+  "questionId": "103",
+  "questionFrontendId": "103",
+  "titleSlug": "binary-tree-zigzag-level-order-traversal",
+  "title": "Binary Tree Zigzag Level Order Traversal",
+  "translatedTitle": "二叉树的锯齿形层序遍历",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/",
+  "createdAt": "2026-08-11T16:19:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

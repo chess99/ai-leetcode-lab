@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 8,
+  "questionId": "8",
+  "questionFrontendId": "8",
+  "titleSlug": "string-to-integer-atoi",
+  "title": "String to Integer (atoi)",
+  "translatedTitle": "字符串转换整数 (atoi)",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/string-to-integer-atoi/",
+  "createdAt": "2026-08-11T16:07:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

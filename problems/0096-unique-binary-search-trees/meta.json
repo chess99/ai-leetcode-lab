@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 96,
+  "questionId": "96",
+  "questionFrontendId": "96",
+  "titleSlug": "unique-binary-search-trees",
+  "title": "Unique Binary Search Trees",
+  "translatedTitle": "不同的二叉搜索树",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/unique-binary-search-trees/",
+  "createdAt": "2026-08-11T16:18:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

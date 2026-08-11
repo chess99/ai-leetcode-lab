@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 19,
+  "questionId": "19",
+  "questionFrontendId": "19",
+  "titleSlug": "remove-nth-node-from-end-of-list",
+  "title": "Remove Nth Node From End of List",
+  "translatedTitle": "删除链表的倒数第 N 个结点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-nth-node-from-end-of-list/",
+  "createdAt": "2026-08-11T16:08:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

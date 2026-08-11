@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 43,
+  "questionId": "43",
+  "questionFrontendId": "43",
+  "titleSlug": "multiply-strings",
+  "title": "Multiply Strings",
+  "translatedTitle": "字符串相乘",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/multiply-strings/",
+  "createdAt": "2026-08-11T16:11:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

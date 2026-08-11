@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 17,
+  "questionId": "17",
+  "questionFrontendId": "17",
+  "titleSlug": "letter-combinations-of-a-phone-number",
+  "title": "Letter Combinations of a Phone Number",
+  "translatedTitle": "电话号码的字母组合",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/letter-combinations-of-a-phone-number/",
+  "createdAt": "2026-08-11T16:08:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

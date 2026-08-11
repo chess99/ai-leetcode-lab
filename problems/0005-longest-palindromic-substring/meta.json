@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 5,
+  "questionId": "5",
+  "questionFrontendId": "5",
+  "titleSlug": "longest-palindromic-substring",
+  "title": "Longest Palindromic Substring",
+  "translatedTitle": "最长回文子串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-palindromic-substring/",
+  "createdAt": "2026-08-11T16:07:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

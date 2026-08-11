@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 91,
+  "questionId": "91",
+  "questionFrontendId": "91",
+  "titleSlug": "decode-ways",
+  "title": "Decode Ways",
+  "translatedTitle": "解码方法",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/decode-ways/",
+  "createdAt": "2026-08-11T16:17:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

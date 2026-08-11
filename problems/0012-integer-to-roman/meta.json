@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 12,
+  "questionId": "12",
+  "questionFrontendId": "12",
+  "titleSlug": "integer-to-roman",
+  "title": "Integer to Roman",
+  "translatedTitle": "整数转罗马数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/integer-to-roman/",
+  "createdAt": "2026-08-11T16:08:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 50,
+  "questionId": "50",
+  "questionFrontendId": "50",
+  "titleSlug": "powx-n",
+  "title": "Pow(x, n)",
+  "translatedTitle": "Pow(x, n)",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/powx-n/",
+  "createdAt": "2026-08-11T16:12:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

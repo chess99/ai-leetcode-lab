@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2,
+  "questionId": "2",
+  "questionFrontendId": "2",
+  "titleSlug": "add-two-numbers",
+  "title": "Add Two Numbers",
+  "translatedTitle": "两数相加",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/add-two-numbers/",
+  "createdAt": "2026-08-11T16:07:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 15,
+  "questionId": "15",
+  "questionFrontendId": "15",
+  "titleSlug": "3sum",
+  "title": "3Sum",
+  "translatedTitle": "三数之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/3sum/",
+  "createdAt": "2026-08-11T16:08:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

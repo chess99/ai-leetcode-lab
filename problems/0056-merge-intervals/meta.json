@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 56,
+  "questionId": "56",
+  "questionFrontendId": "56",
+  "titleSlug": "merge-intervals",
+  "title": "Merge Intervals",
+  "translatedTitle": "合并区间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/merge-intervals/",
+  "createdAt": "2026-08-11T16:12:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

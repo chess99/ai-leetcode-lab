@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 16,
+  "questionId": "16",
+  "questionFrontendId": "16",
+  "titleSlug": "3sum-closest",
+  "title": "3Sum Closest",
+  "translatedTitle": "最接近的三数之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/3sum-closest/",
+  "createdAt": "2026-08-11T16:08:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

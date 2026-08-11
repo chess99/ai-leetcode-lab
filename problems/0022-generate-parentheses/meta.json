@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 22,
+  "questionId": "22",
+  "questionFrontendId": "22",
+  "titleSlug": "generate-parentheses",
+  "title": "Generate Parentheses",
+  "translatedTitle": "括号生成",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/generate-parentheses/",
+  "createdAt": "2026-08-11T16:08:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 7,
+  "questionId": "7",
+  "questionFrontendId": "7",
+  "titleSlug": "reverse-integer",
+  "title": "Reverse Integer",
+  "translatedTitle": "整数反转",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reverse-integer/",
+  "createdAt": "2026-08-11T16:07:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 105,
+  "questionId": "105",
+  "questionFrontendId": "105",
+  "titleSlug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+  "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+  "translatedTitle": "从前序与中序遍历序列构造二叉树",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+  "createdAt": "2026-08-11T16:19:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

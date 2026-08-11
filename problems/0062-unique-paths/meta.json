@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 62,
+  "questionId": "62",
+  "questionFrontendId": "62",
+  "titleSlug": "unique-paths",
+  "title": "Unique Paths",
+  "translatedTitle": "不同路径",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/unique-paths/",
+  "createdAt": "2026-08-11T16:14:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
