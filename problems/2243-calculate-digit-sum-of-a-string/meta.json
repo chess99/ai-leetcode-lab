@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2361,
+  "questionId": "2361",
+  "questionFrontendId": "2243",
+  "titleSlug": "calculate-digit-sum-of-a-string",
+  "title": "Calculate Digit Sum of a String",
+  "translatedTitle": "计算字符串的数字和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/calculate-digit-sum-of-a-string/",
+  "createdAt": "2026-08-11T13:24:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

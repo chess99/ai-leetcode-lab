@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2288,
+  "questionId": "2288",
+  "questionFrontendId": "2169",
+  "titleSlug": "count-operations-to-obtain-zero",
+  "title": "Count Operations to Obtain Zero",
+  "translatedTitle": "得到 0 的操作数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-operations-to-obtain-zero/",
+  "createdAt": "2026-08-11T13:18:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

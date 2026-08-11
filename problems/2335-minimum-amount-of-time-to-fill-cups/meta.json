@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2412,
+  "questionId": "2412",
+  "questionFrontendId": "2335",
+  "titleSlug": "minimum-amount-of-time-to-fill-cups",
+  "title": "Minimum Amount of Time to Fill Cups",
+  "translatedTitle": "装满杯子需要的最短总时长",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-amount-of-time-to-fill-cups/",
+  "createdAt": "2026-08-11T13:20:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

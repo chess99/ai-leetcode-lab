@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2341,
+  "questionId": "2341",
+  "questionFrontendId": "2255",
+  "titleSlug": "count-prefixes-of-a-given-string",
+  "title": "Count Prefixes of a Given String",
+  "translatedTitle": "统计是给定字符串前缀的字符串数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-prefixes-of-a-given-string/",
+  "createdAt": "2026-08-11T13:18:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

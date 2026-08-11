@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2304,
+  "questionId": "2304",
+  "questionFrontendId": "2194",
+  "titleSlug": "cells-in-a-range-on-an-excel-sheet",
+  "title": "Cells in a Range on an Excel Sheet",
+  "translatedTitle": "Excel 表中某个范围内的单元格",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/cells-in-a-range-on-an-excel-sheet/",
+  "createdAt": "2026-08-11T13:18:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

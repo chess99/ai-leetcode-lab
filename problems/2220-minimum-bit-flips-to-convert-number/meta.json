@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2323,
+  "questionId": "2323",
+  "questionFrontendId": "2220",
+  "titleSlug": "minimum-bit-flips-to-convert-number",
+  "title": "Minimum Bit Flips to Convert Number",
+  "translatedTitle": "转换数字的最少位翻转次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-bit-flips-to-convert-number/",
+  "createdAt": "2026-08-11T13:21:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2406,
+  "questionId": "2406",
+  "questionFrontendId": "2325",
+  "titleSlug": "decode-the-message",
+  "title": "Decode the Message",
+  "translatedTitle": "解密消息",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/decode-the-message/",
+  "createdAt": "2026-08-11T13:20:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

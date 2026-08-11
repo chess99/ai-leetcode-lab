@@ -26,6 +26,7 @@ sol-low（可选） → sol-medium → sol-high → sol-xhigh → sol-max（可�
 - 统计首次成功 Profile × 难度、首投通过率、失败/defer、墙钟时间、远程耗时和 Token 覆盖率。
 - 只有客户端提供精确 Token 数据时才记录；缺失值不会估算。
 - 多 worker 可并行推理不同题，远程动作通过共享锁串行化。
+- 连续 HTTP 429 使用 60 秒起步、最高 15 分钟的指数退避；任一正常判题响应会重置退避级别。
 - Git 提交前扫描 LeetCode 会话和常见密钥格式。
 
 ## 快速开始

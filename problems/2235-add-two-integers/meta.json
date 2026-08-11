@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2383,
+  "questionId": "2383",
+  "questionFrontendId": "2235",
+  "titleSlug": "add-two-integers",
+  "title": "Add Two Integers",
+  "translatedTitle": "两整数相加",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/add-two-integers/",
+  "createdAt": "2026-08-11T13:23:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2298,
+  "questionId": "2298",
+  "questionFrontendId": "2180",
+  "titleSlug": "count-integers-with-even-digit-sum",
+  "title": "Count Integers With Even Digit Sum",
+  "translatedTitle": "统计各位数字之和为偶数的整数个数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-integers-with-even-digit-sum/",
+  "createdAt": "2026-08-11T13:18:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

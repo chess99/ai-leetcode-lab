@@ -124,15 +124,44 @@ class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
             self.acquired = True
             return self
 
-    def register_backoff(self, seconds: float = 30) -> None:
+    def register_backoff(self, seconds: float = 60, max_seconds: float = 900) -> float:
+        now = time.time()
+        consecutive_429 = 1
+        try:
+            previous = json.loads(self.backoff_path.read_text(encoding="utf-8"))
+            registered_unix = float(
+                previous.get("registeredUnix")
+                or (
+                    float(previous.get("untilUnix", 0))
+                    - float(previous.get("delaySeconds", 30))
+                )
+            )
+            if (
+                previous.get("reason") == "LeetCode HTTP 429"
+                and now - registered_unix < 3600
+            ):
+                consecutive_429 = int(previous.get("consecutive429", 1)) + 1
+        except (FileNotFoundError, json.JSONDecodeError, OSError, TypeError, ValueError):
+            pass
+        delay_seconds = min(seconds * (2 ** (consecutive_429 - 1)), max_seconds)
         atomic_write_json(
             self.backoff_path,
             {
-                "untilUnix": time.time() + seconds,
+                "untilUnix": now + delay_seconds,
                 "registeredAt": utc_now(),
+                "registeredUnix": now,
                 "reason": "LeetCode HTTP 429",
+                "consecutive429": consecutive_429,
+                "delaySeconds": delay_seconds,
             },
         )
+        return delay_seconds
+
+    def clear_backoff(self) -> None:
+        try:
+            self.backoff_path.unlink()
+        except FileNotFoundError:
+            pass
 
     def __exit__(self, exc_type: object, exc_value: object, traceback: object) -> None:
         try:
@@ -210,6 +239,7 @@ def run_remote_test(
             task_sent = True
             actual = client.poll_judge(task.task_id)
             expected = client.poll_judge(task.expected_id) if task.expected_id else None
+            remote_lock.clear_backoff()
             no_errors = not _judge_errors(actual)
             outputs_match = expected is None or actual.get("code_answer") == expected.get("code_answer")
             passed = bool(actual.get("run_success")) and no_errors and outputs_match
@@ -231,8 +261,9 @@ def run_remote_test(
                 expected_result=_safe_judge_result(expected) if expected else None,
             )
         except ApiError as exc:
+            backoff_seconds = None
             if "HTTP 429" in str(exc):
-                remote_lock.register_backoff()
+                backoff_seconds = remote_lock.register_backoff()
             events.append(
                 "remote_test_result",
                 action_id=reservation["action_id"],
@@ -247,6 +278,7 @@ def run_remote_test(
                 profile_id=identity.profile_id,
                 remote_elapsed_ms=round((time.monotonic() - action_started) * 1000),
                 error=str(exc),
+                backoff_seconds=backoff_seconds,
             )
             raise
 
@@ -280,6 +312,7 @@ def submit_solution(
             task = client.submit_code(str(problem["titleSlug"]), int(meta["questionId"]), language, code)
             task_sent = True
             raw = client.poll_judge(task.task_id)
+            remote_lock.clear_backoff()
             status = str(raw.get("status_msg") or "")
             accepted = status == "Accepted" and bool(raw.get("run_success", True))
             return events.append(
@@ -299,8 +332,9 @@ def submit_solution(
                 result=_safe_judge_result(raw),
             )
         except ApiError as exc:
+            backoff_seconds = None
             if "HTTP 429" in str(exc):
-                remote_lock.register_backoff()
+                backoff_seconds = remote_lock.register_backoff()
             events.append(
                 "submission_result",
                 action_id=reservation["action_id"],
@@ -315,5 +349,6 @@ def submit_solution(
                 profile_id=identity.profile_id,
                 remote_elapsed_ms=round((time.monotonic() - action_started) * 1000),
                 error=str(exc),
+                backoff_seconds=backoff_seconds,
             )
             raise

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2292,
+  "questionId": "2292",
+  "questionFrontendId": "2185",
+  "titleSlug": "counting-words-with-a-given-prefix",
+  "title": "Counting Words With a Given Prefix",
+  "translatedTitle": "统计包含给定前缀的字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/counting-words-with-a-given-prefix/",
+  "createdAt": "2026-08-11T13:18:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

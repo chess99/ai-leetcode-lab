@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2312,
+  "questionId": "2312",
+  "questionFrontendId": "2190",
+  "titleSlug": "most-frequent-number-following-key-in-an-array",
+  "title": "Most Frequent Number Following Key In an Array",
+  "translatedTitle": "数组中紧跟 key 之后出现最频繁的数字",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/most-frequent-number-following-key-in-an-array/",
+  "createdAt": "2026-08-11T13:18:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

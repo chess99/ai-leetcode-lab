@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2320,
+  "questionId": "2320",
+  "questionFrontendId": "2200",
+  "titleSlug": "find-all-k-distant-indices-in-an-array",
+  "title": "Find All K-Distant Indices in an Array",
+  "translatedTitle": "找出数组中的所有 K 近邻下标",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-all-k-distant-indices-in-an-array/",
+  "createdAt": "2026-08-11T13:20:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

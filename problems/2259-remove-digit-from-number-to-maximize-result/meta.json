@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2337,
+  "questionId": "2337",
+  "questionFrontendId": "2259",
+  "titleSlug": "remove-digit-from-number-to-maximize-result",
+  "title": "Remove Digit From Number to Maximize Result",
+  "translatedTitle": "移除指定数字得到的最大结果",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-digit-from-number-to-maximize-result/",
+  "createdAt": "2026-08-11T13:18:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

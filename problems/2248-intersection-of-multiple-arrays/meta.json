@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2331,
+  "questionId": "2331",
+  "questionFrontendId": "2248",
+  "titleSlug": "intersection-of-multiple-arrays",
+  "title": "Intersection of Multiple Arrays",
+  "translatedTitle": "多个数组求交集",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/intersection-of-multiple-arrays/",
+  "createdAt": "2026-08-11T13:18:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

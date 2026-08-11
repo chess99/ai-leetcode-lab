@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2377,
+  "questionId": "2377",
+  "questionFrontendId": "2283",
+  "titleSlug": "check-if-number-has-equal-digit-count-and-digit-value",
+  "title": "Check if Number Has Equal Digit Count and Digit Value",
+  "translatedTitle": "判断一个数的数字计数是否等于数位的值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-number-has-equal-digit-count-and-digit-value/",
+  "createdAt": "2026-08-11T13:23:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

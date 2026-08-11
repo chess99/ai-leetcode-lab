@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2283,
+  "questionId": "2283",
+  "questionFrontendId": "2164",
+  "titleSlug": "sort-even-and-odd-indices-independently",
+  "title": "Sort Even and Odd Indices Independently",
+  "translatedTitle": "对奇偶下标分别排序",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-even-and-odd-indices-independently/",
+  "createdAt": "2026-08-11T13:18:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

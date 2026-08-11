@@ -1,0 +1,10 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T13:18:37Z
+# Experiment: ai-leetcode-lab, round 1
+class Solution:
+    def intersection(self, nums: List[List[int]]) -> List[int]:
+        return sorted(set.intersection(*(set(row) for row in nums)))

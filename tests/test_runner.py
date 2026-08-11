@@ -131,6 +131,19 @@ class RunnerTests(unittest.TestCase):
             pass
         self.assertGreaterEqual(time.monotonic() - started, 0.04)
 
+    def test_remote_lock_uses_exponential_429_backoff_and_can_reset(self) -> None:
+        with RemoteActionLock(self.root, min_interval_seconds=0) as lock:
+            first = lock.register_backoff(1, max_seconds=10)
+            second = lock.register_backoff(1, max_seconds=10)
+            third = lock.register_backoff(1, max_seconds=3)
+            state = json.loads(lock.backoff_path.read_text(encoding="utf-8"))
+            lock.clear_backoff()
+
+        self.assertEqual((first, second, third), (1, 2, 3))
+        self.assertEqual(state["consecutive429"], 3)
+        self.assertEqual(state["delaySeconds"], 3)
+        self.assertFalse(lock.backoff_path.exists())
+
     def test_remote_lock_retries_transient_windows_release_error(self) -> None:
         lock = RemoteActionLock(self.root, poll_seconds=0.001, min_interval_seconds=0)
         lock.__enter__()
