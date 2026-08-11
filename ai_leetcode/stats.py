@@ -26,6 +26,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         accepted_by_slug.setdefault(str(event["slug"]), event)
     accepted = set(accepted_by_slug)
     submission_starts = [event for event in events if event.get("type") == "submission_started"]
+    submission_starts_by_action = {event.get("action_id"): event for event in submission_starts}
     test_starts = [event for event in events if event.get("type") == "remote_test_started"]
     review_required: set[str] = set()
     store = EventStore(root)
@@ -38,9 +39,14 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
     difficulty_accepted = Counter(
         str(by_slug[slug].get("difficulty", "UNKNOWN")) for slug in accepted if slug in by_slug
     )
-    accepted_by_model = Counter(
-        f"{event.get('client', 'unknown')} / {event.get('model', 'unknown')}" for event in accepted_by_slug.values()
-    )
+    accepted_by_model: Counter[str] = Counter()
+    for event in accepted_by_slug.values():
+        identity_event = event
+        if not event.get("client") or not event.get("model"):
+            identity_event = submission_starts_by_action.get(event.get("action_id"), event)
+        accepted_by_model[
+            f"{identity_event.get('client', 'unknown')} / {identity_event.get('model', 'unknown')}"
+        ] += 1
     first_submission_accepts = sum(
         1
         for event in accepted_by_slug.values()

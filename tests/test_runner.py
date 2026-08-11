@@ -93,6 +93,8 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(client.submitted["language"], "python3")  # type: ignore[index]
         self.assertEqual(store.usage("two-sum").submissions, 1)
         self.assertTrue(store.usage("two-sum").accepted)
+        self.assertEqual(event["client"], "test-client")
+        self.assertEqual(event["model"], "test-model")
 
 
 if __name__ == "__main__":

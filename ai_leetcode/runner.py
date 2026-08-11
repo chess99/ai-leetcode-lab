@@ -143,6 +143,8 @@ def run_remote_test(
                 attempt=reservation["attempt"],
                 outcome="passed" if passed else "failed",
                 counts_against_budget=True,
+                client=identity.client,
+                model=identity.model,
                 judge_task_id=task.task_id,
                 result=_safe_judge_result(actual),
                 expected_result=_safe_judge_result(expected) if expected else None,
@@ -156,6 +158,8 @@ def run_remote_test(
                 attempt=reservation["attempt"],
                 outcome="infrastructure_error" if exc.infrastructure or exc.authentication else "rejected",
                 counts_against_budget=task_sent or not (exc.infrastructure or exc.authentication),
+                client=identity.client,
+                model=identity.model,
                 error=str(exc),
             )
             raise
@@ -197,6 +201,8 @@ def submit_solution(
                 attempt=reservation["attempt"],
                 outcome="accepted" if accepted else "failed",
                 counts_against_budget=True,
+                client=identity.client,
+                model=identity.model,
                 submission_id=task.task_id,
                 result=_safe_judge_result(raw),
             )
@@ -209,6 +215,8 @@ def submit_solution(
                 attempt=reservation["attempt"],
                 outcome="infrastructure_error" if exc.infrastructure or exc.authentication else "rejected",
                 counts_against_budget=task_sent or not (exc.infrastructure or exc.authentication),
+                client=identity.client,
+                model=identity.model,
                 error=str(exc),
             )
             raise
