@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 981,
+  "questionId": "981",
+  "questionFrontendId": "944",
+  "titleSlug": "delete-columns-to-make-sorted",
+  "title": "Delete Columns to Make Sorted",
+  "translatedTitle": "删列造序",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/delete-columns-to-make-sorted/",
+  "createdAt": "2026-08-11T11:15:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1079,
+  "questionId": "1079",
+  "questionFrontendId": "1022",
+  "titleSlug": "sum-of-root-to-leaf-binary-numbers",
+  "title": "Sum of Root To Leaf Binary Numbers",
+  "translatedTitle": "从根到叶的二进制数之和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-root-to-leaf-binary-numbers/",
+  "createdAt": "2026-08-11T11:16:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,6 +1,6 @@
 # AI 刷题实验统计
 
-更新时间：2026-08-11T11:14:32Z
+更新时间：2026-08-11T11:25:53Z
 
 ## 总览
 
@@ -12,19 +12,19 @@
 | 已归档完整题面 | 4406 |
 | 归档中可读题面 | 3628 |
 | 归档中锁定/不可用题面 | 778 |
-| 已开始 | 196 |
-| Accepted | 196 |
+| 已开始 | 226 |
+| Accepted | 226 |
 | 已 defer 的题 | 0 |
 | 等待复盘的 Profile/题组合 | 0 |
 | 远程试跑 | 1 |
-| 正式提交 | 228 |
+| 正式提交 | 262 |
 
 ## 通过质量
 
-- 首次提交通过：194
-- 第一轮内通过：196
-- 首投通过占已通过题比例：98.98%
-- 正式提交整体通过率：85.96%
+- 首次提交通过：224
+- 第一轮内通过：226
+- 首投通过占已通过题比例：99.12%
+- 正式提交整体通过率：86.26%
 
 ## Profile 阶梯
 
@@ -37,7 +37,7 @@
 | sol-max | gpt-5.6-sol | max | 0 | 0 | 0 | 0 | 0.00% |
 | sol-ultra | gpt-5.6-sol | ultra | 0 | 0 | 0 | 0 | 0.00% |
 | terra-low | gpt-5.6-terra | low | 0 | 0 | 0 | 0 | 0.00% |
-| terra-medium | gpt-5.6-terra | medium | 195 | 195 | 0 | 227 | 0.00% |
+| terra-medium | gpt-5.6-terra | medium | 225 | 225 | 0 | 261 | 0.00% |
 
 > “首次成功 Profile”表示按既定升档流程首次获得 Accepted 的档位；高档可能继承低档失败产物，
 > 因此它衡量的是阶梯实验结果，不等同于各模型从空白起步的独立盲测能力。
@@ -46,20 +46,20 @@
 
 | 难度 | 总数 | 已通过 |
 |---|---:|---:|
-| EASY | 1078 | 195 |
+| EASY | 1078 | 225 |
 | HARD | 1032 | 0 |
 | MEDIUM | 2296 | 1 |
 
 ## 首次成功 Profile × 难度
 
-- EASY：sol-xhigh: 1，terra-medium: 194
+- EASY：sol-xhigh: 1，terra-medium: 224
 - HARD：尚无
 - MEDIUM：terra-medium: 1
 
 ## Agent 贡献
 
 - Codex Desktop / gpt-5.6-sol: 1
-- Codex Desktop / gpt-5.6-terra: 195
+- Codex Desktop / gpt-5.6-terra: 225
 
 ## Token 数据完整性
 

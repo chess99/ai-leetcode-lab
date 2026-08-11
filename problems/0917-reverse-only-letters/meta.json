@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 953,
+  "questionId": "953",
+  "questionFrontendId": "917",
+  "titleSlug": "reverse-only-letters",
+  "title": "Reverse Only Letters",
+  "translatedTitle": "仅仅反转字母",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reverse-only-letters/",
+  "createdAt": "2026-08-11T11:15:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

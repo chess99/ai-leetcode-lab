@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1001,
+  "questionId": "1001",
+  "questionFrontendId": "961",
+  "titleSlug": "n-repeated-element-in-size-2n-array",
+  "title": "N-Repeated Element in Size 2N Array",
+  "translatedTitle": "在长度 2N 的数组中找出重复 N 次的元素",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/",
+  "createdAt": "2026-08-11T11:16:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

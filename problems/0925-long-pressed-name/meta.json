@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 961,
+  "questionId": "961",
+  "questionFrontendId": "925",
+  "titleSlug": "long-pressed-name",
+  "title": "Long Pressed Name",
+  "translatedTitle": "长按键入",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/long-pressed-name/",
+  "createdAt": "2026-08-11T11:15:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

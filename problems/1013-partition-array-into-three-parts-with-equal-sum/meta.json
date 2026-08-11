@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1062,
+  "questionId": "1062",
+  "questionFrontendId": "1013",
+  "titleSlug": "partition-array-into-three-parts-with-equal-sum",
+  "title": "Partition Array Into Three Parts With Equal Sum",
+  "translatedTitle": "将数组分成和相等的三个部分",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/",
+  "createdAt": "2026-08-11T11:16:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

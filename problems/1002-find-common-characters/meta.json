@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1044,
+  "questionId": "1044",
+  "questionFrontendId": "1002",
+  "titleSlug": "find-common-characters",
+  "title": "Find Common Characters",
+  "translatedTitle": "查找共用字符",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-common-characters/",
+  "createdAt": "2026-08-11T11:23:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 975,
+  "questionId": "975",
+  "questionFrontendId": "938",
+  "titleSlug": "range-sum-of-bst",
+  "title": "Range Sum of BST",
+  "translatedTitle": "二叉搜索树的范围和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/range-sum-of-bst/",
+  "createdAt": "2026-08-11T11:15:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

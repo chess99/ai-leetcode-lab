@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1019,
+  "questionId": "1019",
+  "questionFrontendId": "977",
+  "titleSlug": "squares-of-a-sorted-array",
+  "title": "Squares of a Sorted Array",
+  "translatedTitle": "有序数组的平方",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/squares-of-a-sorted-array/",
+  "createdAt": "2026-08-11T11:18:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

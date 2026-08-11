@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1018,
+  "questionId": "1018",
+  "questionFrontendId": "976",
+  "titleSlug": "largest-perimeter-triangle",
+  "title": "Largest Perimeter Triangle",
+  "translatedTitle": "三角形的最大周长",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-perimeter-triangle/",
+  "createdAt": "2026-08-11T11:17:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

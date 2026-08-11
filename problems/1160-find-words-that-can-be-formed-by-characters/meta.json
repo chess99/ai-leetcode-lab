@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1112,
+  "questionId": "1112",
+  "questionFrontendId": "1160",
+  "titleSlug": "find-words-that-can-be-formed-by-characters",
+  "title": "Find Words That Can Be Formed by Characters",
+  "translatedTitle": "拼写单词",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters/",
+  "createdAt": "2026-08-11T11:16:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
