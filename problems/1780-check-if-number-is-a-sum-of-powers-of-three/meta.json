@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1889,
+  "questionId": "1889",
+  "questionFrontendId": "1780",
+  "titleSlug": "check-if-number-is-a-sum-of-powers-of-three",
+  "title": "Check if Number is a Sum of Powers of Three",
+  "translatedTitle": "判断一个数字是否可以表示成三的幂的和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three/",
+  "createdAt": "2026-08-11T19:34:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

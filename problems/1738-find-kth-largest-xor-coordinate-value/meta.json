@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1860,
+  "questionId": "1860",
+  "questionFrontendId": "1738",
+  "titleSlug": "find-kth-largest-xor-coordinate-value",
+  "title": "Find Kth Largest XOR Coordinate Value",
+  "translatedTitle": "找出第 K 大的异或坐标值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value/",
+  "createdAt": "2026-08-11T19:34:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

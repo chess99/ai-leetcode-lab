@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1951,
+  "questionId": "1951",
+  "questionFrontendId": "1823",
+  "titleSlug": "find-the-winner-of-the-circular-game",
+  "title": "Find the Winner of the Circular Game",
+  "translatedTitle": "找出游戏的获胜者",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-winner-of-the-circular-game/",
+  "createdAt": "2026-08-11T19:34:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

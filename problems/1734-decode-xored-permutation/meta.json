@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1835,
+  "questionId": "1835",
+  "questionFrontendId": "1734",
+  "titleSlug": "decode-xored-permutation",
+  "title": "Decode XORed Permutation",
+  "translatedTitle": "解码异或后的排列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/decode-xored-permutation/",
+  "createdAt": "2026-08-11T19:34:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

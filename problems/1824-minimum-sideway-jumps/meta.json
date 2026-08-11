@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1952,
+  "questionId": "1952",
+  "questionFrontendId": "1824",
+  "titleSlug": "minimum-sideway-jumps",
+  "title": "Minimum Sideway Jumps",
+  "translatedTitle": "最少侧跳次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-sideway-jumps/",
+  "createdAt": "2026-08-11T19:34:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

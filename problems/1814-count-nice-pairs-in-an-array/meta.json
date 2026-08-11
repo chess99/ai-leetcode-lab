@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1925,
+  "questionId": "1925",
+  "questionFrontendId": "1814",
+  "titleSlug": "count-nice-pairs-in-an-array",
+  "title": "Count Nice Pairs in an Array",
+  "translatedTitle": "统计一个数组中好对子的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-nice-pairs-in-an-array/",
+  "createdAt": "2026-08-11T19:34:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1929,
+  "questionId": "1929",
+  "questionFrontendId": "1802",
+  "titleSlug": "maximum-value-at-a-given-index-in-a-bounded-array",
+  "title": "Maximum Value at a Given Index in a Bounded Array",
+  "translatedTitle": "有界数组中指定下标处的最大值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/",
+  "createdAt": "2026-08-11T19:34:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

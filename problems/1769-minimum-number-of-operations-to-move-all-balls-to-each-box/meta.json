@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1895,
+  "questionId": "1895",
+  "questionFrontendId": "1769",
+  "titleSlug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
+  "title": "Minimum Number of Operations to Move All Balls to Each Box",
+  "translatedTitle": "移动所有球到每个盒子所需的最小操作数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/",
+  "createdAt": "2026-08-11T19:34:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

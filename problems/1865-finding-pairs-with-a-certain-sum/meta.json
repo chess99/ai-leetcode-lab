@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1995,
+  "questionId": "1995",
+  "questionFrontendId": "1865",
+  "titleSlug": "finding-pairs-with-a-certain-sum",
+  "title": "Finding Pairs With a Certain Sum",
+  "translatedTitle": "找出和为指定值的下标对",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/finding-pairs-with-a-certain-sum/",
+  "createdAt": "2026-08-11T19:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

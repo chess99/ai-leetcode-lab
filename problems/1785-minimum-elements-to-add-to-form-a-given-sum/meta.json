@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1911,
+  "questionId": "1911",
+  "questionFrontendId": "1785",
+  "titleSlug": "minimum-elements-to-add-to-form-a-given-sum",
+  "title": "Minimum Elements to Add to Form a Given Sum",
+  "translatedTitle": "构成特定和需要添加的最少元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum/",
+  "createdAt": "2026-08-11T19:34:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

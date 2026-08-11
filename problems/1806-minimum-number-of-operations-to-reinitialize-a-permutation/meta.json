@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1935,
+  "questionId": "1935",
+  "questionFrontendId": "1806",
+  "titleSlug": "minimum-number-of-operations-to-reinitialize-a-permutation",
+  "title": "Minimum Number of Operations to Reinitialize a Permutation",
+  "translatedTitle": "还原排列的最少操作步数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/",
+  "createdAt": "2026-08-11T19:34:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

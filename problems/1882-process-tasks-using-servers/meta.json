@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2012,
+  "questionId": "2012",
+  "questionFrontendId": "1882",
+  "titleSlug": "process-tasks-using-servers",
+  "title": "Process Tasks Using Servers",
+  "translatedTitle": "使用服务器处理任务",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/process-tasks-using-servers/",
+  "createdAt": "2026-08-11T19:34:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

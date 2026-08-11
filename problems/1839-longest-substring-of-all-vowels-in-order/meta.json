@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1967,
+  "questionId": "1967",
+  "questionFrontendId": "1839",
+  "titleSlug": "longest-substring-of-all-vowels-in-order",
+  "title": "Longest Substring Of All Vowels in Order",
+  "translatedTitle": "所有元音按顺序排布的最长子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-substring-of-all-vowels-in-order/",
+  "createdAt": "2026-08-11T19:34:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

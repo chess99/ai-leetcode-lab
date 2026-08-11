@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1834,
+  "questionId": "1834",
+  "questionFrontendId": "1733",
+  "titleSlug": "minimum-number-of-people-to-teach",
+  "title": "Minimum Number of People to Teach",
+  "translatedTitle": "需要教语言的最少人数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-people-to-teach/",
+  "createdAt": "2026-08-11T19:34:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

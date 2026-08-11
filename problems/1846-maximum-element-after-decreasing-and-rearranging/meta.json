@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1956,
+  "questionId": "1956",
+  "questionFrontendId": "1846",
+  "titleSlug": "maximum-element-after-decreasing-and-rearranging",
+  "title": "Maximum Element After Decreasing and Rearranging",
+  "translatedTitle": "减小和重新排列数组后的最大元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-element-after-decreasing-and-rearranging/",
+  "createdAt": "2026-08-11T19:34:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1940,
+  "questionId": "1940",
+  "questionFrontendId": "1829",
+  "titleSlug": "maximum-xor-for-each-query",
+  "title": "Maximum XOR for Each Query",
+  "translatedTitle": "每个查询的最大异或值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-xor-for-each-query/",
+  "createdAt": "2026-08-11T19:34:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

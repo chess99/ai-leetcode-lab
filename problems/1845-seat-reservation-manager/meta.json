@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1955,
+  "questionId": "1955",
+  "questionFrontendId": "1845",
+  "titleSlug": "seat-reservation-manager",
+  "title": "Seat Reservation Manager",
+  "translatedTitle": "座位预约管理系统",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/seat-reservation-manager/",
+  "createdAt": "2026-08-11T19:34:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

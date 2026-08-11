@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1874,
+  "questionId": "1874",
+  "questionFrontendId": "1764",
+  "titleSlug": "form-array-by-concatenating-subarrays-of-another-array",
+  "title": "Form Array by Concatenating Subarrays of Another Array",
+  "translatedTitle": "通过连接另一个数组的子数组得到一个数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/form-array-by-concatenating-subarrays-of-another-array/",
+  "createdAt": "2026-08-11T19:34:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

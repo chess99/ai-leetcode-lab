@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1840,
+  "questionId": "1840",
+  "questionFrontendId": "1722",
+  "titleSlug": "minimize-hamming-distance-after-swap-operations",
+  "title": "Minimize Hamming Distance After Swap Operations",
+  "translatedTitle": "执行交换操作后的最小汉明距离",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimize-hamming-distance-after-swap-operations/",
+  "createdAt": "2026-08-11T19:34:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

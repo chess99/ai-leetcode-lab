@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1994,
+  "questionId": "1994",
+  "questionFrontendId": "1864",
+  "titleSlug": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
+  "title": "Minimum Number of Swaps to Make the Binary String Alternating",
+  "translatedTitle": "构成交替字符串需要的最小交换次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/",
+  "createdAt": "2026-08-11T19:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

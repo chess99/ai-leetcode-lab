@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1945,
+  "questionId": "1945",
+  "questionFrontendId": "1817",
+  "titleSlug": "finding-the-users-active-minutes",
+  "title": "Finding the Users Active Minutes",
+  "translatedTitle": "查找用户活跃分钟数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/finding-the-users-active-minutes/",
+  "createdAt": "2026-08-11T19:34:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

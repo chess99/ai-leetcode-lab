@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1901,
+  "questionId": "1901",
+  "questionFrontendId": "1775",
+  "titleSlug": "equal-sum-arrays-with-minimum-number-of-operations",
+  "title": "Equal Sum Arrays With Minimum Number of Operations",
+  "translatedTitle": "通过最少操作次数使数组的和相等",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations/",
+  "createdAt": "2026-08-11T19:34:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

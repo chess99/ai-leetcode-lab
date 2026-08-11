@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1976,
+  "questionId": "1976",
+  "questionFrontendId": "1849",
+  "titleSlug": "splitting-a-string-into-descending-consecutive-values",
+  "title": "Splitting a String Into Descending Consecutive Values",
+  "translatedTitle": "将字符串拆分为递减的连续值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/splitting-a-string-into-descending-consecutive-values/",
+  "createdAt": "2026-08-11T19:34:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

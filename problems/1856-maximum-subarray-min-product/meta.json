@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1985,
+  "questionId": "1985",
+  "questionFrontendId": "1856",
+  "titleSlug": "maximum-subarray-min-product",
+  "title": "Maximum Subarray Min-Product",
+  "translatedTitle": "子数组最小乘积的最大值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-subarray-min-product/",
+  "createdAt": "2026-08-11T19:34:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1866,
+  "questionId": "1866",
+  "questionFrontendId": "1743",
+  "titleSlug": "restore-the-array-from-adjacent-pairs",
+  "title": "Restore the Array From Adjacent Pairs",
+  "translatedTitle": "从相邻元素对还原数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/restore-the-array-from-adjacent-pairs/",
+  "createdAt": "2026-08-11T19:34:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

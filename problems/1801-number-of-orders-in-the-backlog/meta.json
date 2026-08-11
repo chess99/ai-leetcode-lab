@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1928,
+  "questionId": "1928",
+  "questionFrontendId": "1801",
+  "titleSlug": "number-of-orders-in-the-backlog",
+  "title": "Number of Orders in the Backlog",
+  "translatedTitle": "积压订单中的订单总数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-orders-in-the-backlog/",
+  "createdAt": "2026-08-11T19:34:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

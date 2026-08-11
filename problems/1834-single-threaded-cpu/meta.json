@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1962,
+  "questionId": "1962",
+  "questionFrontendId": "1834",
+  "titleSlug": "single-threaded-cpu",
+  "title": "Single-Threaded CPU",
+  "translatedTitle": "单线程 CPU",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/single-threaded-cpu/",
+  "createdAt": "2026-08-11T19:34:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

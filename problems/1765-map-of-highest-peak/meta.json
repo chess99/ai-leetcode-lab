@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1876,
+  "questionId": "1876",
+  "questionFrontendId": "1765",
+  "titleSlug": "map-of-highest-peak",
+  "title": "Map of Highest Peak",
+  "translatedTitle": "地图中的最高点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/map-of-highest-peak/",
+  "createdAt": "2026-08-11T19:34:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1978,
+  "questionId": "1978",
+  "questionFrontendId": "1850",
+  "titleSlug": "minimum-adjacent-swaps-to-reach-the-kth-smallest-number",
+  "title": "Minimum Adjacent Swaps to Reach the Kth Smallest Number",
+  "translatedTitle": "邻位交换的最小次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/",
+  "createdAt": "2026-08-11T19:34:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

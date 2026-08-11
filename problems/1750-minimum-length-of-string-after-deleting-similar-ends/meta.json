@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1850,
+  "questionId": "1850",
+  "questionFrontendId": "1750",
+  "titleSlug": "minimum-length-of-string-after-deleting-similar-ends",
+  "title": "Minimum Length of String After Deleting Similar Ends",
+  "translatedTitle": "删除字符串两端相同字符后的最短长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends/",
+  "createdAt": "2026-08-11T19:34:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

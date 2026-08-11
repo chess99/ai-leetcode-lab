@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1930,
+  "questionId": "1930",
+  "questionFrontendId": "1798",
+  "titleSlug": "maximum-number-of-consecutive-values-you-can-make",
+  "title": "Maximum Number of Consecutive Values You Can Make",
+  "translatedTitle": "你能构造出连续值的最大数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/",
+  "createdAt": "2026-08-11T19:34:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

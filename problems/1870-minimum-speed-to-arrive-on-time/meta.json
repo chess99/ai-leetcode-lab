@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2000,
+  "questionId": "2000",
+  "questionFrontendId": "1870",
+  "titleSlug": "minimum-speed-to-arrive-on-time",
+  "title": "Minimum Speed to Arrive on Time",
+  "translatedTitle": "准时到达的列车最小时速",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-speed-to-arrive-on-time/",
+  "createdAt": "2026-08-11T19:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

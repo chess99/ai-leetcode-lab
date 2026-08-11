@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1990,
+  "questionId": "1990",
+  "questionFrontendId": "1878",
+  "titleSlug": "get-biggest-three-rhombus-sums-in-a-grid",
+  "title": "Get Biggest Three Rhombus Sums in a Grid",
+  "translatedTitle": "矩阵中最大的三个菱形和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/get-biggest-three-rhombus-sums-in-a-grid/",
+  "createdAt": "2026-08-11T19:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

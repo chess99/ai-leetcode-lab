@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1912,
+  "questionId": "1912",
+  "questionFrontendId": "1786",
+  "titleSlug": "number-of-restricted-paths-from-first-to-last-node",
+  "title": "Number of Restricted Paths From First to Last Node",
+  "translatedTitle": "从第一个节点出发到最后一个节点的受限路径数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-restricted-paths-from-first-to-last-node/",
+  "createdAt": "2026-08-11T19:34:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

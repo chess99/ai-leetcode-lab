@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1885,
+  "questionId": "1885",
+  "questionFrontendId": "1759",
+  "titleSlug": "count-number-of-homogenous-substrings",
+  "title": "Count Number of Homogenous Substrings",
+  "translatedTitle": "统计同质子字符串的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-homogenous-substrings/",
+  "createdAt": "2026-08-11T19:34:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

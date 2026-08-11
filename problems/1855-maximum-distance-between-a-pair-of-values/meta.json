@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1984,
+  "questionId": "1984",
+  "questionFrontendId": "1855",
+  "titleSlug": "maximum-distance-between-a-pair-of-values",
+  "title": "Maximum Distance Between a Pair of Values",
+  "translatedTitle": "下标对中的最大距离",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values/",
+  "createdAt": "2026-08-11T19:34:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

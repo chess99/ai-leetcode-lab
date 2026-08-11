@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1849,
+  "questionId": "1849",
+  "questionFrontendId": "1749",
+  "titleSlug": "maximum-absolute-sum-of-any-subarray",
+  "title": "Maximum Absolute Sum of Any Subarray",
+  "translatedTitle": "任意子数组和的绝对值的最大值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/",
+  "createdAt": "2026-08-11T19:34:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

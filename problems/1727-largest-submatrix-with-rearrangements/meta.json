@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1845,
+  "questionId": "1845",
+  "questionFrontendId": "1727",
+  "titleSlug": "largest-submatrix-with-rearrangements",
+  "title": "Largest Submatrix With Rearrangements",
+  "translatedTitle": "重新排列后的最大子矩阵",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-submatrix-with-rearrangements/",
+  "createdAt": "2026-08-11T19:34:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

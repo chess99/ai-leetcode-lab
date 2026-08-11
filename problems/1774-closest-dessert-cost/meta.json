@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1900,
+  "questionId": "1900",
+  "questionFrontendId": "1774",
+  "titleSlug": "closest-dessert-cost",
+  "title": "Closest Dessert Cost",
+  "translatedTitle": "最接近目标价格的甜点成本",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/closest-dessert-cost/",
+  "createdAt": "2026-08-11T19:34:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

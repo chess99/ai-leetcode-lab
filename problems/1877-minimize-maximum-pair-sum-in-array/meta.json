@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1988,
+  "questionId": "1988",
+  "questionFrontendId": "1877",
+  "titleSlug": "minimize-maximum-pair-sum-in-array",
+  "title": "Minimize Maximum Pair Sum in Array",
+  "translatedTitle": "数组中最大数对和的最小值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/",
+  "createdAt": "2026-08-11T19:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
