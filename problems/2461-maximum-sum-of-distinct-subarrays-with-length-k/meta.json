@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2552,
+  "questionId": "2552",
+  "questionFrontendId": "2461",
+  "titleSlug": "maximum-sum-of-distinct-subarrays-with-length-k",
+  "title": "Maximum Sum of Distinct Subarrays With Length K",
+  "translatedTitle": "长度为 K 子数组中的最大和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-sum-of-distinct-subarrays-with-length-k/",
+  "createdAt": "2026-08-11T20:37:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

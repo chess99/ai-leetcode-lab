@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2487,
+  "questionId": "2487",
+  "questionFrontendId": "2405",
+  "titleSlug": "optimal-partition-of-string",
+  "title": "Optimal Partition of String",
+  "translatedTitle": "子字符串的最优划分",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/optimal-partition-of-string/",
+  "createdAt": "2026-08-11T20:37:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2482,
+  "questionId": "2482",
+  "questionFrontendId": "2397",
+  "titleSlug": "maximum-rows-covered-by-columns",
+  "title": "Maximum Rows Covered by Columns",
+  "translatedTitle": "被列覆盖的最多行数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-rows-covered-by-columns/",
+  "createdAt": "2026-08-11T20:37:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

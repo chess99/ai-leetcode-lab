@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2557,
+  "questionId": "2557",
+  "questionFrontendId": "2470",
+  "titleSlug": "number-of-subarrays-with-lcm-equal-to-k",
+  "title": "Number of Subarrays With LCM Equal to K",
+  "translatedTitle": "最小公倍数等于 K 的子数组数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-subarrays-with-lcm-equal-to-k/",
+  "createdAt": "2026-08-11T20:37:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2553,
+  "questionId": "2553",
+  "questionFrontendId": "2462",
+  "titleSlug": "total-cost-to-hire-k-workers",
+  "title": "Total Cost to Hire K Workers",
+  "translatedTitle": "雇佣 K 位工人的总代价",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/total-cost-to-hire-k-workers/",
+  "createdAt": "2026-08-11T20:37:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

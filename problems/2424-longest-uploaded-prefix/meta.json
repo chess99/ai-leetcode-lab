@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2512,
+  "questionId": "2512",
+  "questionFrontendId": "2424",
+  "titleSlug": "longest-uploaded-prefix",
+  "title": "Longest Uploaded Prefix",
+  "translatedTitle": "最长上传前缀",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-uploaded-prefix/",
+  "createdAt": "2026-08-11T20:37:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

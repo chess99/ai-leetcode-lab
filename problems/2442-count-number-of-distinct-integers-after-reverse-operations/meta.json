@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2525,
+  "questionId": "2525",
+  "questionFrontendId": "2442",
+  "titleSlug": "count-number-of-distinct-integers-after-reverse-operations",
+  "title": "Count Number of Distinct Integers After Reverse Operations",
+  "translatedTitle": "反转之后不同整数的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-distinct-integers-after-reverse-operations/",
+  "createdAt": "2026-08-11T20:37:18Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

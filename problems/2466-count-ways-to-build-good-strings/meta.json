@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2562,
+  "questionId": "2562",
+  "questionFrontendId": "2466",
+  "titleSlug": "count-ways-to-build-good-strings",
+  "title": "Count Ways To Build Good Strings",
+  "translatedTitle": "统计构造好字符串的方案数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-ways-to-build-good-strings/",
+  "createdAt": "2026-08-11T20:37:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

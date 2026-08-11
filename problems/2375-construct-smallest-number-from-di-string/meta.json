@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2456,
+  "questionId": "2456",
+  "questionFrontendId": "2375",
+  "titleSlug": "construct-smallest-number-from-di-string",
+  "title": "Construct Smallest Number From DI String",
+  "translatedTitle": "根据模式串构造最小数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/construct-smallest-number-from-di-string/",
+  "createdAt": "2026-08-11T20:37:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

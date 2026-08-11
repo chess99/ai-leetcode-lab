@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2475,
+  "questionId": "2475",
+  "questionFrontendId": "2384",
+  "titleSlug": "largest-palindromic-number",
+  "title": "Largest Palindromic Number",
+  "translatedTitle": "最大回文数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-palindromic-number/",
+  "createdAt": "2026-08-11T20:37:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

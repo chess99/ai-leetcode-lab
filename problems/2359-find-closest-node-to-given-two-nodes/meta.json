@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2438,
+  "questionId": "2438",
+  "questionFrontendId": "2359",
+  "titleSlug": "find-closest-node-to-given-two-nodes",
+  "title": "Find Closest Node to Given Two Nodes",
+  "translatedTitle": "找到离给定两个节点最近的节点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-closest-node-to-given-two-nodes/",
+  "createdAt": "2026-08-11T20:37:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2498,
+  "questionId": "2498",
+  "questionFrontendId": "2411",
+  "titleSlug": "smallest-subarrays-with-maximum-bitwise-or",
+  "title": "Smallest Subarrays With Maximum Bitwise OR",
+  "translatedTitle": "按位或最大的最小子数组长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/",
+  "createdAt": "2026-08-11T20:37:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2448,
+  "questionId": "2448",
+  "questionFrontendId": "2364",
+  "titleSlug": "count-number-of-bad-pairs",
+  "title": "Count Number of Bad Pairs",
+  "translatedTitle": "统计坏数对的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-bad-pairs/",
+  "createdAt": "2026-08-11T20:37:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

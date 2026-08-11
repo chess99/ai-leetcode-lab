@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2493,
+  "questionId": "2493",
+  "questionFrontendId": "2415",
+  "titleSlug": "reverse-odd-levels-of-binary-tree",
+  "title": "Reverse Odd Levels of Binary Tree",
+  "translatedTitle": "反转二叉树的奇数层",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reverse-odd-levels-of-binary-tree/",
+  "createdAt": "2026-08-11T20:37:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

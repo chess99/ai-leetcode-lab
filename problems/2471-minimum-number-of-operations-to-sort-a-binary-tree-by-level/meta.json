@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2558,
+  "questionId": "2558",
+  "questionFrontendId": "2471",
+  "titleSlug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+  "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+  "translatedTitle": "逐层排序二叉树所需的最少操作数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/",
+  "createdAt": "2026-08-11T20:37:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

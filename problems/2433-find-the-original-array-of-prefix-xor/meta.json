@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2519,
+  "questionId": "2519",
+  "questionFrontendId": "2433",
+  "titleSlug": "find-the-original-array-of-prefix-xor",
+  "title": "Find The Original Array of Prefix Xor",
+  "translatedTitle": "找出前缀异或的原始数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-original-array-of-prefix-xor/",
+  "createdAt": "2026-08-11T20:37:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

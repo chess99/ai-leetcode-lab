@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2477,
+  "questionId": "2477",
+  "questionFrontendId": "2400",
+  "titleSlug": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+  "title": "Number of Ways to Reach a Position After Exactly k Steps",
+  "translatedTitle": "恰好移动 k 步到达某一位置的方法数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/",
+  "createdAt": "2026-08-11T20:37:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

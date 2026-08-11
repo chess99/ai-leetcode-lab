@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2461,
+  "questionId": "2461",
+  "questionFrontendId": "2385",
+  "titleSlug": "amount-of-time-for-binary-tree-to-be-infected",
+  "title": "Amount of Time for Binary Tree to Be Infected",
+  "translatedTitle": "感染二叉树需要的总时间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/",
+  "createdAt": "2026-08-11T20:37:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

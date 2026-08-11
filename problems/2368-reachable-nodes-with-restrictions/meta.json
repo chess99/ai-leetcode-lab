@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2445,
+  "questionId": "2445",
+  "questionFrontendId": "2368",
+  "titleSlug": "reachable-nodes-with-restrictions",
+  "title": "Reachable Nodes With Restrictions",
+  "translatedTitle": "受限条件下可到达节点的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reachable-nodes-with-restrictions/",
+  "createdAt": "2026-08-11T20:37:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

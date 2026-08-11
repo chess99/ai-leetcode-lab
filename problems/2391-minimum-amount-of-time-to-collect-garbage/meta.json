@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2471,
+  "questionId": "2471",
+  "questionFrontendId": "2391",
+  "titleSlug": "minimum-amount-of-time-to-collect-garbage",
+  "title": "Minimum Amount of Time to Collect Garbage",
+  "translatedTitle": "收集垃圾的最少总时间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-amount-of-time-to-collect-garbage/",
+  "createdAt": "2026-08-11T20:37:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

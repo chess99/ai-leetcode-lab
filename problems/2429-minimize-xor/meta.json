@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2509,
+  "questionId": "2509",
+  "questionFrontendId": "2429",
+  "titleSlug": "minimize-xor",
+  "title": "Minimize XOR",
+  "translatedTitle": "最小异或",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimize-xor/",
+  "createdAt": "2026-08-11T20:37:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

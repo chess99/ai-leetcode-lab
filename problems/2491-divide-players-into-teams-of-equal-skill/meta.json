@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2581,
+  "questionId": "2581",
+  "questionFrontendId": "2491",
+  "titleSlug": "divide-players-into-teams-of-equal-skill",
+  "title": "Divide Players Into Teams of Equal Skill",
+  "translatedTitle": "划分技能点相等的团队",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/divide-players-into-teams-of-equal-skill/",
+  "createdAt": "2026-08-11T20:37:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2488,
+  "questionId": "2488",
+  "questionFrontendId": "2406",
+  "titleSlug": "divide-intervals-into-minimum-number-of-groups",
+  "title": "Divide Intervals Into Minimum Number of Groups",
+  "translatedTitle": "将区间分为最少组数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/",
+  "createdAt": "2026-08-11T20:37:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

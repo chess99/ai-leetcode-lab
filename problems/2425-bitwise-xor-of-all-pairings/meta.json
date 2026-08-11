@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2533,
+  "questionId": "2533",
+  "questionFrontendId": "2425",
+  "titleSlug": "bitwise-xor-of-all-pairings",
+  "title": "Bitwise XOR of All Pairings",
+  "translatedTitle": "所有数对的异或和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/bitwise-xor-of-all-pairings/",
+  "createdAt": "2026-08-11T20:37:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

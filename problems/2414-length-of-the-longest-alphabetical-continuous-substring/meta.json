@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2492,
+  "questionId": "2492",
+  "questionFrontendId": "2414",
+  "titleSlug": "length-of-the-longest-alphabetical-continuous-substring",
+  "title": "Length of the Longest Alphabetical Continuous Substring",
+  "translatedTitle": "最长的字母序连续子字符串的长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring/",
+  "createdAt": "2026-08-11T20:37:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
