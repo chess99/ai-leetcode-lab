@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T08:50:34Z",
+  "generatedAt": "2026-08-11T09:05:37Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "catalogTotal": 4406,
   "accessibleWithoutPremium": 3628,
@@ -8,20 +8,20 @@
   "archivedDetails": 4406,
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
-  "started": 0,
-  "accepted": 0,
+  "started": 1,
+  "accepted": 1,
   "reviewRequired": 0,
-  "remainingAccessible": 3628,
-  "remoteTests": 0,
-  "submissions": 0,
-  "firstSubmissionAccepted": 0,
-  "firstRoundAccepted": 0,
-  "firstSubmissionAcceptanceRate": 0.0,
-  "overallSubmissionAcceptanceRate": 0.0,
+  "remainingAccessible": 3627,
+  "remoteTests": 1,
+  "submissions": 1,
+  "firstSubmissionAccepted": 1,
+  "firstRoundAccepted": 1,
+  "firstSubmissionAcceptanceRate": 1.0,
+  "overallSubmissionAcceptanceRate": 1.0,
   "byDifficulty": {
     "EASY": {
       "total": 1078,
-      "accepted": 0
+      "accepted": 1
     },
     "HARD": {
       "total": 1032,
@@ -32,6 +32,8 @@
       "accepted": 0
     }
   },
-  "acceptedByAgent": {},
+  "acceptedByAgent": {
+    "unknown / unknown": 1
+  },
   "reviewRequiredSlugs": []
 }
