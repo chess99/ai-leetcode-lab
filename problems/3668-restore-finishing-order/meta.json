@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4008,
+  "questionId": "4008",
+  "questionFrontendId": "3668",
+  "titleSlug": "restore-finishing-order",
+  "title": "Restore Finishing Order",
+  "translatedTitle": "重排完成顺序",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/restore-finishing-order/",
+  "createdAt": "2026-08-11T15:08:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

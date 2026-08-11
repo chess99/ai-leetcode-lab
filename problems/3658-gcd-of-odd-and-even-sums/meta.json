@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3995,
+  "questionId": "3995",
+  "questionFrontendId": "3658",
+  "titleSlug": "gcd-of-odd-and-even-sums",
+  "title": "GCD of Odd and Even Sums",
+  "translatedTitle": "奇数和与偶数和的最大公约数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/gcd-of-odd-and-even-sums/",
+  "createdAt": "2026-08-11T15:07:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

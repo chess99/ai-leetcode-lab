@@ -1,0 +1,12 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T15:02:15Z
+# Experiment: ai-leetcode-lab, round 1
+import pandas as pd
+
+def find_valid_serial_products(products: pd.DataFrame) -> pd.DataFrame:
+    pattern = r"SN\d{4}-\d{4}(?!\d)"
+    return products[products["description"].str.contains(pattern, regex=True, na=False)].sort_values("product_id")

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3708,
+  "questionId": "3708",
+  "questionFrontendId": "3417",
+  "titleSlug": "zigzag-grid-traversal-with-skip",
+  "title": "Zigzag Grid Traversal With Skip",
+  "translatedTitle": "跳过交替单元格的之字形遍历",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/zigzag-grid-traversal-with-skip/",
+  "createdAt": "2026-08-11T14:59:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

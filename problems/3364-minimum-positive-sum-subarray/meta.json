@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3644,
+  "questionId": "3644",
+  "questionFrontendId": "3364",
+  "titleSlug": "minimum-positive-sum-subarray",
+  "title": "Minimum Positive Sum Subarray ",
+  "translatedTitle": "最小正和子数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-positive-sum-subarray/",
+  "createdAt": "2026-08-11T14:57:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

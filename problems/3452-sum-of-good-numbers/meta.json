@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3723,
+  "questionId": "3723",
+  "questionFrontendId": "3452",
+  "titleSlug": "sum-of-good-numbers",
+  "title": "Sum of Good Numbers",
+  "translatedTitle": "好数字之和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-good-numbers/",
+  "createdAt": "2026-08-11T15:00:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3747,
+  "questionId": "3747",
+  "questionFrontendId": "3423",
+  "titleSlug": "maximum-difference-between-adjacent-elements-in-a-circular-array",
+  "title": "Maximum Difference Between Adjacent Elements in a Circular Array",
+  "translatedTitle": "循环数组中相邻元素的最大差值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/",
+  "createdAt": "2026-08-11T14:59:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

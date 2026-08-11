@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4053,
+  "questionId": "4053",
+  "questionFrontendId": "3692",
+  "titleSlug": "majority-frequency-characters",
+  "title": "Majority Frequency Characters",
+  "translatedTitle": "众数频率字符",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/majority-frequency-characters/",
+  "createdAt": "2026-08-11T15:08:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

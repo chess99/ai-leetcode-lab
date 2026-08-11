@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3832,
+  "questionId": "3832",
+  "questionFrontendId": "3502",
+  "titleSlug": "minimum-cost-to-reach-every-position",
+  "title": "Minimum Cost to Reach Every Position",
+  "translatedTitle": "到达每个位置的最小费用",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-reach-every-position/",
+  "createdAt": "2026-08-11T15:03:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

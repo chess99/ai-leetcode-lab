@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3685,
+  "questionId": "3685",
+  "questionFrontendId": "3392",
+  "titleSlug": "count-subarrays-of-length-three-with-a-condition",
+  "title": "Count Subarrays of Length Three With a Condition",
+  "translatedTitle": "统计符合条件长度为 3 的子数组数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-subarrays-of-length-three-with-a-condition/",
+  "createdAt": "2026-08-11T14:59:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

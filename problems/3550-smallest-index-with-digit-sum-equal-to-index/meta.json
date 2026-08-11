@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3869,
+  "questionId": "3869",
+  "questionFrontendId": "3550",
+  "titleSlug": "smallest-index-with-digit-sum-equal-to-index",
+  "title": "Smallest Index With Digit Sum Equal to Index",
+  "translatedTitle": "数位和等于下标的最小下标",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-index-with-digit-sum-equal-to-index/",
+  "createdAt": "2026-08-11T15:04:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

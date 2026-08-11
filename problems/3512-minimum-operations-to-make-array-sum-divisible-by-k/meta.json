@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3846,
+  "questionId": "3846",
+  "questionFrontendId": "3512",
+  "titleSlug": "minimum-operations-to-make-array-sum-divisible-by-k",
+  "title": "Minimum Operations to Make Array Sum Divisible by K",
+  "translatedTitle": "使数组和能被 K 整除的最少操作次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-array-sum-divisible-by-k/",
+  "createdAt": "2026-08-11T15:04:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

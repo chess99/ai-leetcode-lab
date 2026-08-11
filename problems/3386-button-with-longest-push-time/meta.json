@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3632,
+  "questionId": "3632",
+  "questionFrontendId": "3386",
+  "titleSlug": "button-with-longest-push-time",
+  "title": "Button with Longest Push Time",
+  "translatedTitle": "按下时间最长的按钮",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/button-with-longest-push-time/",
+  "createdAt": "2026-08-11T14:59:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

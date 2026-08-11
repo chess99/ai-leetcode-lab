@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3871,
+  "questionId": "3871",
+  "questionFrontendId": "3545",
+  "titleSlug": "minimum-deletions-for-at-most-k-distinct-characters",
+  "title": "Minimum Deletions for At Most K Distinct Characters",
+  "translatedTitle": "不同字符数量最多为 K 时的最少删除数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-deletions-for-at-most-k-distinct-characters/",
+  "createdAt": "2026-08-11T15:04:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3704,
+  "questionId": "3704",
+  "questionFrontendId": "3432",
+  "titleSlug": "count-partitions-with-even-sum-difference",
+  "title": "Count Partitions with Even Sum Difference",
+  "translatedTitle": "统计元素和差值为偶数的分区方案",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-partitions-with-even-sum-difference/",
+  "createdAt": "2026-08-11T15:00:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

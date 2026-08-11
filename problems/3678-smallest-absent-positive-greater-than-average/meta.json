@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4011,
+  "questionId": "4011",
+  "questionFrontendId": "3678",
+  "titleSlug": "smallest-absent-positive-greater-than-average",
+  "title": "Smallest Absent Positive Greater Than Average",
+  "translatedTitle": "大于平均值的最小未出现正整数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-absent-positive-greater-than-average/",
+  "createdAt": "2026-08-11T15:08:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

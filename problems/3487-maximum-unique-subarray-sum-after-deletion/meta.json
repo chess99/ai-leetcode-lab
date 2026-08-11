@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3788,
+  "questionId": "3788",
+  "questionFrontendId": "3487",
+  "titleSlug": "maximum-unique-subarray-sum-after-deletion",
+  "title": "Maximum Unique Subarray Sum After Deletion",
+  "translatedTitle": "删除后的最大子数组元素和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-unique-subarray-sum-after-deletion/",
+  "createdAt": "2026-08-11T15:02:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

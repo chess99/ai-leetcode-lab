@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4009,
+  "questionId": "4009",
+  "questionFrontendId": "3688",
+  "titleSlug": "bitwise-or-of-even-numbers-in-an-array",
+  "title": "Bitwise OR of Even Numbers in an Array",
+  "translatedTitle": "偶数的按位或运算",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/bitwise-or-of-even-numbers-in-an-array/",
+  "createdAt": "2026-08-11T15:08:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

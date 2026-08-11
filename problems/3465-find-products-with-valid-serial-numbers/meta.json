@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3803,
+  "questionId": "3803",
+  "questionFrontendId": "3465",
+  "titleSlug": "find-products-with-valid-serial-numbers",
+  "title": "Find Products with Valid Serial Numbers",
+  "translatedTitle": "查找具有有效序列号的产品",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "pythondata",
+  "solutionFile": "solution.pythondata",
+  "source": "https://leetcode.cn/problems/find-products-with-valid-serial-numbers/",
+  "createdAt": "2026-08-11T15:02:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3702,
+  "questionId": "3702",
+  "questionFrontendId": "3411",
+  "titleSlug": "maximum-subarray-with-equal-products",
+  "title": "Maximum Subarray With Equal Products",
+  "translatedTitle": "最长乘积等价子数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-subarray-with-equal-products/",
+  "createdAt": "2026-08-11T14:59:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

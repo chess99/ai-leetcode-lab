@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3582,
+  "questionId": "3582",
+  "questionFrontendId": "3285",
+  "titleSlug": "find-indices-of-stable-mountains",
+  "title": "Find Indices of Stable Mountains",
+  "translatedTitle": "找到稳定山的下标",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-indices-of-stable-mountains/",
+  "createdAt": "2026-08-11T14:57:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

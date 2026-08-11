@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3684,
+  "questionId": "3684",
+  "questionFrontendId": "3407",
+  "titleSlug": "substring-matching-pattern",
+  "title": "Substring Matching Pattern",
+  "translatedTitle": "子字符串匹配模式",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/substring-matching-pattern/",
+  "createdAt": "2026-08-11T14:59:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

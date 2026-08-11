@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3736,
+  "questionId": "3736",
+  "questionFrontendId": "3438",
+  "titleSlug": "find-valid-pair-of-adjacent-digits-in-string",
+  "title": "Find Valid Pair of Adjacent Digits in String",
+  "translatedTitle": "找到字符串中合法的相邻数字",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-valid-pair-of-adjacent-digits-in-string/",
+  "createdAt": "2026-08-11T15:00:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

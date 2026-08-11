@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3994,
+  "questionId": "3994",
+  "questionFrontendId": "3663",
+  "titleSlug": "find-the-least-frequent-digit",
+  "title": "Find The Least Frequent Digit",
+  "translatedTitle": "出现频率最低的数字",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-least-frequent-digit/",
+  "createdAt": "2026-08-11T15:08:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

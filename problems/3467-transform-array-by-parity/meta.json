@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3778,
+  "questionId": "3778",
+  "questionFrontendId": "3467",
+  "titleSlug": "transform-array-by-parity",
+  "title": "Transform Array by Parity",
+  "translatedTitle": "将数组按照奇偶性转化",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/transform-array-by-parity/",
+  "createdAt": "2026-08-11T15:02:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

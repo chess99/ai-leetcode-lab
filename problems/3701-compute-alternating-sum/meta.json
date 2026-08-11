@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4058,
+  "questionId": "4058",
+  "questionFrontendId": "3701",
+  "titleSlug": "compute-alternating-sum",
+  "title": "Compute Alternating Sum",
+  "translatedTitle": "计算交替和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/compute-alternating-sum/",
+  "createdAt": "2026-08-11T15:08:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3918,
+  "questionId": "3918",
+  "questionFrontendId": "3622",
+  "titleSlug": "check-divisibility-by-digit-sum-and-product",
+  "title": "Check Divisibility by Digit Sum and Product",
+  "translatedTitle": "判断整除性",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-divisibility-by-digit-sum-and-product/",
+  "createdAt": "2026-08-11T15:04:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3830,
+  "questionId": "3830",
+  "questionFrontendId": "3516",
+  "titleSlug": "find-closest-person",
+  "title": "Find Closest Person",
+  "translatedTitle": "找到最近的人",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-closest-person/",
+  "createdAt": "2026-08-11T15:04:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

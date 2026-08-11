@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3893,
+  "questionId": "3893",
+  "questionFrontendId": "3582",
+  "titleSlug": "generate-tag-for-video-caption",
+  "title": "Generate Tag for Video Caption",
+  "translatedTitle": "为视频标题生成标签",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/generate-tag-for-video-caption/",
+  "createdAt": "2026-08-11T15:04:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

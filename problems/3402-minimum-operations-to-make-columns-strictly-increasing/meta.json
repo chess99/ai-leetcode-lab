@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3691,
+  "questionId": "3691",
+  "questionFrontendId": "3402",
+  "titleSlug": "minimum-operations-to-make-columns-strictly-increasing",
+  "title": "Minimum Operations to Make Columns Strictly Increasing",
+  "translatedTitle": "使每一列严格递增的最少操作次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-columns-strictly-increasing/",
+  "createdAt": "2026-08-11T14:59:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

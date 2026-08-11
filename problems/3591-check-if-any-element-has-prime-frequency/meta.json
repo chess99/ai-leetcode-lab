@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3914,
+  "questionId": "3914",
+  "questionFrontendId": "3591",
+  "titleSlug": "check-if-any-element-has-prime-frequency",
+  "title": "Check if Any Element Has Prime Frequency",
+  "translatedTitle": "检查元素频次是否为质数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-any-element-has-prime-frequency/",
+  "createdAt": "2026-08-11T15:04:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

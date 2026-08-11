@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4012,
+  "questionId": "4012",
+  "questionFrontendId": "3683",
+  "titleSlug": "earliest-time-to-finish-one-task",
+  "title": "Earliest Time to Finish One Task",
+  "translatedTitle": "完成一个任务的最早时间",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/earliest-time-to-finish-one-task/",
+  "createdAt": "2026-08-11T15:08:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

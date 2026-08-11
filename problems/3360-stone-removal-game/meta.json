@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3625,
+  "questionId": "3625",
+  "questionFrontendId": "3360",
+  "titleSlug": "stone-removal-game",
+  "title": "Stone Removal Game",
+  "translatedTitle": "移除石头游戏",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/stone-removal-game/",
+  "createdAt": "2026-08-11T14:57:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

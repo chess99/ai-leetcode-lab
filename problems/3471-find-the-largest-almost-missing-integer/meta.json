@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3705,
+  "questionId": "3705",
+  "questionFrontendId": "3471",
+  "titleSlug": "find-the-largest-almost-missing-integer",
+  "title": "Find the Largest Almost Missing Integer",
+  "translatedTitle": "找出最大的几近缺失整数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-largest-almost-missing-integer/",
+  "createdAt": "2026-08-11T15:02:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

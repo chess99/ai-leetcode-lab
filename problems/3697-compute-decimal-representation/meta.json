@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4039,
+  "questionId": "4039",
+  "questionFrontendId": "3697",
+  "titleSlug": "compute-decimal-representation",
+  "title": "Compute Decimal Representation",
+  "translatedTitle": "计算十进制表示",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/compute-decimal-representation/",
+  "createdAt": "2026-08-11T15:08:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

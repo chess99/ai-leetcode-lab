@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3676,
+  "questionId": "3676",
+  "questionFrontendId": "3370",
+  "titleSlug": "smallest-number-with-all-set-bits",
+  "title": "Smallest Number With All Set Bits",
+  "translatedTitle": "仅含置位位的最小整数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-number-with-all-set-bits/",
+  "createdAt": "2026-08-11T14:57:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

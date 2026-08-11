@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3817,
+  "questionId": "3817",
+  "questionFrontendId": "3492",
+  "titleSlug": "maximum-containers-on-a-ship",
+  "title": "Maximum Containers on a Ship",
+  "translatedTitle": "船上可以装载的最大集装箱数量",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-containers-on-a-ship/",
+  "createdAt": "2026-08-11T15:02:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

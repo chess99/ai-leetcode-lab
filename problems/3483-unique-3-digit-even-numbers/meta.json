@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3799,
+  "questionId": "3799",
+  "questionFrontendId": "3483",
+  "titleSlug": "unique-3-digit-even-numbers",
+  "title": "Unique 3-Digit Even Numbers",
+  "translatedTitle": "不同三位偶数的数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/unique-3-digit-even-numbers/",
+  "createdAt": "2026-08-11T15:02:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

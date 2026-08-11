@@ -1,0 +1,16 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T14:57:38Z
+# Experiment: ai-leetcode-lab, round 1
+class Solution:
+    def canAliceWin(self, n: int) -> bool:
+        remove = 10
+        alice_turn = True
+        while n >= remove:
+            n -= remove
+            remove -= 1
+            alice_turn = not alice_turn
+        return not alice_turn
