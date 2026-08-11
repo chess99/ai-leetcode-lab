@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2730,
+  "questionId": "2730",
+  "questionFrontendId": "2680",
+  "titleSlug": "maximum-or",
+  "title": "Maximum OR",
+  "translatedTitle": "最大或值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-or/",
+  "createdAt": "2026-08-11T21:14:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

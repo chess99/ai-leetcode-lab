@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2797,
+  "questionId": "2797",
+  "questionFrontendId": "2694",
+  "titleSlug": "event-emitter",
+  "title": "Event Emitter",
+  "translatedTitle": "事件发射器",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/event-emitter/",
+  "createdAt": "2026-08-11T21:14:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

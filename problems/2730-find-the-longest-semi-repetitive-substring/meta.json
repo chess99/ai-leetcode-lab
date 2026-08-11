@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2786,
+  "questionId": "2786",
+  "questionFrontendId": "2730",
+  "titleSlug": "find-the-longest-semi-repetitive-substring",
+  "title": "Find the Longest Semi-Repetitive Substring",
+  "translatedTitle": "找到最长的半重复子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-longest-semi-repetitive-substring/",
+  "createdAt": "2026-08-11T21:14:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

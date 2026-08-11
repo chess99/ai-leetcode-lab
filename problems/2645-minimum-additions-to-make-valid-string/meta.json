@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2736,
+  "questionId": "2736",
+  "questionFrontendId": "2645",
+  "titleSlug": "minimum-additions-to-make-valid-string",
+  "title": "Minimum Additions to Make Valid String",
+  "translatedTitle": "构造有效字符串的最少插入数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-additions-to-make-valid-string/",
+  "createdAt": "2026-08-11T21:14:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

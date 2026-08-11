@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2778,
+  "questionId": "2778",
+  "questionFrontendId": "2671",
+  "titleSlug": "frequency-tracker",
+  "title": "Frequency Tracker",
+  "translatedTitle": "频率跟踪器",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/frequency-tracker/",
+  "createdAt": "2026-08-11T21:14:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

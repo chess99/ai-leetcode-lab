@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2828,
+  "questionId": "2828",
+  "questionFrontendId": "2734",
+  "titleSlug": "lexicographically-smallest-string-after-substring-operation",
+  "title": "Lexicographically Smallest String After Substring Operation",
+  "translatedTitle": "执行子串操作后的字典序最小字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lexicographically-smallest-string-after-substring-operation/",
+  "createdAt": "2026-08-11T21:14:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

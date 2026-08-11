@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2856,
+  "questionId": "2856",
+  "questionFrontendId": "2799",
+  "titleSlug": "count-complete-subarrays-in-an-array",
+  "title": "Count Complete Subarrays in an Array",
+  "translatedTitle": "统计完全子数组的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-complete-subarrays-in-an-array/",
+  "createdAt": "2026-08-11T21:14:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

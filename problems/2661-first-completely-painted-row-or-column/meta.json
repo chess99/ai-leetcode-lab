@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2685,
+  "questionId": "2685",
+  "questionFrontendId": "2661",
+  "titleSlug": "first-completely-painted-row-or-column",
+  "title": "First Completely Painted Row or Column",
+  "translatedTitle": "找出叠涂元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/first-completely-painted-row-or-column/",
+  "createdAt": "2026-08-11T21:14:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

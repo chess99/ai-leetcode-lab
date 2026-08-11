@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2837,
+  "questionId": "2837",
+  "questionFrontendId": "2749",
+  "titleSlug": "minimum-operations-to-make-the-integer-zero",
+  "title": "Minimum Operations to Make the Integer Zero",
+  "translatedTitle": "得到整数零需要执行的最少操作数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-the-integer-zero/",
+  "createdAt": "2026-08-11T21:14:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2858,
+  "questionId": "2858",
+  "questionFrontendId": "2722",
+  "titleSlug": "join-two-arrays-by-id",
+  "title": "Join Two Arrays by ID",
+  "translatedTitle": "根据 ID 合并两个数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/join-two-arrays-by-id/",
+  "createdAt": "2026-08-11T21:14:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

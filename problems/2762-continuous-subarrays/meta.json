@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2868,
+  "questionId": "2868",
+  "questionFrontendId": "2762",
+  "titleSlug": "continuous-subarrays",
+  "title": "Continuous Subarrays",
+  "translatedTitle": "不间断子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/continuous-subarrays/",
+  "createdAt": "2026-08-11T21:14:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

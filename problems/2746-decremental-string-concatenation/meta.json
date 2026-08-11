@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2854,
+  "questionId": "2854",
+  "questionFrontendId": "2746",
+  "titleSlug": "decremental-string-concatenation",
+  "title": "Decremental String Concatenation",
+  "translatedTitle": "字符串连接删减字母",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/decremental-string-concatenation/",
+  "createdAt": "2026-08-11T21:14:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2833,
+  "questionId": "2833",
+  "questionFrontendId": "2747",
+  "titleSlug": "count-zero-request-servers",
+  "title": "Count Zero Request Servers",
+  "translatedTitle": "统计没有收到请求的服务器数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-zero-request-servers/",
+  "createdAt": "2026-08-11T21:14:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

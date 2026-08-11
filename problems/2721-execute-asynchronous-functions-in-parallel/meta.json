@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2807,
+  "questionId": "2807",
+  "questionFrontendId": "2721",
+  "titleSlug": "execute-asynchronous-functions-in-parallel",
+  "title": "Execute Asynchronous Functions in Parallel",
+  "translatedTitle": "并行执行异步函数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/execute-asynchronous-functions-in-parallel/",
+  "createdAt": "2026-08-11T21:14:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

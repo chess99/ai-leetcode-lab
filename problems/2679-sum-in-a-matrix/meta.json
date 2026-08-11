@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2728,
+  "questionId": "2728",
+  "questionFrontendId": "2679",
+  "titleSlug": "sum-in-a-matrix",
+  "title": "Sum in a Matrix",
+  "translatedTitle": "矩阵中的和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-in-a-matrix/",
+  "createdAt": "2026-08-11T21:14:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

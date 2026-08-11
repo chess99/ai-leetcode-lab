@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2753,
+  "questionId": "2753",
+  "questionFrontendId": "2654",
+  "titleSlug": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+  "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
+  "translatedTitle": "使数组所有元素变成 1 的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/",
+  "createdAt": "2026-08-11T21:14:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

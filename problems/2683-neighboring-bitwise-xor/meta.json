@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2792,
+  "questionId": "2792",
+  "questionFrontendId": "2683",
+  "titleSlug": "neighboring-bitwise-xor",
+  "title": "Neighboring Bitwise XOR",
+  "translatedTitle": "相邻值的按位异或",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/neighboring-bitwise-xor/",
+  "createdAt": "2026-08-11T21:14:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

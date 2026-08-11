@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2920,
+  "questionId": "2920",
+  "questionFrontendId": "2808",
+  "titleSlug": "minimum-seconds-to-equalize-a-circular-array",
+  "title": "Minimum Seconds to Equalize a Circular Array",
+  "translatedTitle": "使循环数组所有元素相等的最少秒数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-seconds-to-equalize-a-circular-array/",
+  "createdAt": "2026-08-11T21:14:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2794,
+  "questionId": "2794",
+  "questionFrontendId": "2684",
+  "titleSlug": "maximum-number-of-moves-in-a-grid",
+  "title": "Maximum Number of Moves in a Grid",
+  "translatedTitle": "矩阵中移动的最大次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid/",
+  "createdAt": "2026-08-11T21:14:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
