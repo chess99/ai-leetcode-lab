@@ -9,34 +9,34 @@ param(
 $ErrorActionPreference = "Stop"
 $repoRoot = (git rev-parse --show-toplevel 2>$null).Trim()
 if (-not $repoRoot) {
-    throw "当前目录不在 Git 仓库中。"
+    throw "The current directory is not inside a Git repository."
 }
 Set-Location -LiteralPath $repoRoot
 
 $alreadyStaged = @(git diff --cached --name-only)
 if ($alreadyStaged.Count -gt 0) {
-    throw "暂存区已有内容，为避免混入他人修改，本次提交已停止。"
+    throw "The staging area is not empty; refusing to mix unrelated changes."
 }
 
 foreach ($path in $Paths) {
     if (-not (Test-Path -LiteralPath $path -PathType Leaf)) {
-        throw "只接受明确存在的文件路径：$path"
+        throw "Only explicit existing file paths are accepted: $path"
     }
 }
 
 & git add -- @Paths
 if ($LASTEXITCODE -ne 0) {
-    throw "git add 失败。"
+    throw "git add failed."
 }
 
 $staged = @(git diff --cached --name-only)
 if ($staged.Count -eq 0) {
-    throw "没有可提交的变更。"
+    throw "There are no changes to commit."
 }
 
 git diff --staged --check
 if ($LASTEXITCODE -ne 0) {
-    throw "暂存内容存在空白或冲突问题。"
+    throw "The staged diff contains whitespace errors or conflict markers."
 }
 
 git diff --staged
