@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4051,
+  "questionId": "4051",
+  "questionFrontendId": "3726",
+  "titleSlug": "remove-zeros-in-decimal-representation",
+  "title": "Remove Zeros in Decimal Representation",
+  "translatedTitle": "移除十进制表示中的所有零",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-zeros-in-decimal-representation/",
+  "createdAt": "2026-08-11T15:15:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

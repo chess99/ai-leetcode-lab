@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4068,
+  "questionId": "4068",
+  "questionFrontendId": "3712",
+  "titleSlug": "sum-of-elements-with-frequency-divisible-by-k",
+  "title": "Sum of Elements With Frequency Divisible by K",
+  "translatedTitle": "出现次数能被 K 整除的元素总和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-elements-with-frequency-divisible-by-k/",
+  "createdAt": "2026-08-11T15:15:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4229,
+  "questionId": "4229",
+  "questionFrontendId": "3856",
+  "titleSlug": "trim-trailing-vowels",
+  "title": "Trim Trailing Vowels",
+  "translatedTitle": "移除尾部元音字母",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/trim-trailing-vowels/",
+  "createdAt": "2026-08-11T15:18:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4214,
+  "questionId": "4214",
+  "questionFrontendId": "3833",
+  "titleSlug": "count-dominant-indices",
+  "title": "Count Dominant Indices",
+  "translatedTitle": "统计主导元素下标数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-dominant-indices/",
+  "createdAt": "2026-08-11T15:18:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

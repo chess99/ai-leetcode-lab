@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4177,
+  "questionId": "4177",
+  "questionFrontendId": "3794",
+  "titleSlug": "reverse-string-prefix",
+  "title": "Reverse String Prefix",
+  "translatedTitle": "反转字符串前缀",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reverse-string-prefix/",
+  "createdAt": "2026-08-11T15:16:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

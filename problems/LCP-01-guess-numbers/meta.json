@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100107,
+  "questionId": "100107",
+  "questionFrontendId": "LCP 01",
+  "titleSlug": "guess-numbers",
+  "title": "Guess Numbers",
+  "translatedTitle": "猜数字",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/guess-numbers/",
+  "createdAt": "2026-08-11T15:24:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

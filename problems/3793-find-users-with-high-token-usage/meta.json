@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4195,
+  "questionId": "4195",
+  "questionFrontendId": "3793",
+  "titleSlug": "find-users-with-high-token-usage",
+  "title": "Find Users with High Token Usage",
+  "translatedTitle": "查找高 tokens 使用量的用户",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-users-with-high-token-usage/",
+  "createdAt": "2026-08-11T15:16:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

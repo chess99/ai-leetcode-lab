@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4357,
+  "questionId": "4357",
+  "questionFrontendId": "3986",
+  "titleSlug": "number-of-elapsed-seconds-between-two-times",
+  "title": "Number of Elapsed Seconds Between Two Times",
+  "translatedTitle": "统计起止时间经过的秒数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-elapsed-seconds-between-two-times/",
+  "createdAt": "2026-08-11T15:24:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

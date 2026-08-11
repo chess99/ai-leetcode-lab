@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4252,
+  "questionId": "4252",
+  "questionFrontendId": "3866",
+  "titleSlug": "first-unique-even-element",
+  "title": "First Unique Even Element",
+  "translatedTitle": "找到第一个唯一偶数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/first-unique-even-element/",
+  "createdAt": "2026-08-11T15:19:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

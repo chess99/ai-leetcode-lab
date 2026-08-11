@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4200,
+  "questionId": "4200",
+  "questionFrontendId": "3823",
+  "titleSlug": "reverse-letters-then-special-characters-in-a-string",
+  "title": "Reverse Letters Then Special Characters in a String",
+  "translatedTitle": "反转一个字符串里的字母后反转特殊字符",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reverse-letters-then-special-characters-in-a-string/",
+  "createdAt": "2026-08-11T15:18:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

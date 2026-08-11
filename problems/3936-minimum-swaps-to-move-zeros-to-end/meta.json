@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4316,
+  "questionId": "4316",
+  "questionFrontendId": "3936",
+  "titleSlug": "minimum-swaps-to-move-zeros-to-end",
+  "title": "Minimum Swaps to Move Zeros to End",
+  "translatedTitle": "将 0 移到末尾的最少交换次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-swaps-to-move-zeros-to-end/",
+  "createdAt": "2026-08-11T15:21:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

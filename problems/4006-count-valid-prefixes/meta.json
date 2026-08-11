@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4365,
+  "questionId": "4365",
+  "questionFrontendId": "4006",
+  "titleSlug": "count-valid-prefixes",
+  "title": "Count Valid Prefixes",
+  "translatedTitle": "统计有效前缀数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-valid-prefixes/",
+  "createdAt": "2026-08-11T15:24:18Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4295,
+  "questionId": "4295",
+  "questionFrontendId": "3917",
+  "titleSlug": "count-indices-with-opposite-parity",
+  "title": "Count Indices With Opposite Parity",
+  "translatedTitle": "统计下标的相反奇偶性得分",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-indices-with-opposite-parity/",
+  "createdAt": "2026-08-11T15:21:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

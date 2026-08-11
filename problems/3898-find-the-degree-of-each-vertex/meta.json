@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4271,
+  "questionId": "4271",
+  "questionFrontendId": "3898",
+  "titleSlug": "find-the-degree-of-each-vertex",
+  "title": "Find the Degree of Each Vertex",
+  "translatedTitle": "统计每个顶点的度",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-degree-of-each-vertex/",
+  "createdAt": "2026-08-11T15:20:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

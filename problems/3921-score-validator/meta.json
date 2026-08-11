@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4281,
+  "questionId": "4281",
+  "questionFrontendId": "3921",
+  "titleSlug": "score-validator",
+  "title": "Score Validator",
+  "translatedTitle": "分数验证器",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/score-validator/",
+  "createdAt": "2026-08-11T15:21:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

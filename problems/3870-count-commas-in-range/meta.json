@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4245,
+  "questionId": "4245",
+  "questionFrontendId": "3870",
+  "titleSlug": "count-commas-in-range",
+  "title": "Count Commas in Range",
+  "translatedTitle": "统计范围内的逗号",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-commas-in-range/",
+  "createdAt": "2026-08-11T15:19:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

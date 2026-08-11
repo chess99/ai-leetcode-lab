@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100092,
+  "questionId": "100092",
+  "questionFrontendId": "LCP 02",
+  "titleSlug": "deep-dark-fraction",
+  "title": "Deep Dark Fraction",
+  "translatedTitle": "分式化简",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/deep-dark-fraction/",
+  "createdAt": "2026-08-11T15:26:45Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

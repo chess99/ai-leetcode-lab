@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4150,
+  "questionId": "4150",
+  "questionFrontendId": "3769",
+  "titleSlug": "sort-integers-by-binary-reflection",
+  "title": "Sort Integers by Binary Reflection",
+  "translatedTitle": "二进制反射排序",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-integers-by-binary-reflection/",
+  "createdAt": "2026-08-11T15:16:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

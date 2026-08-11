@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4247,
+  "questionId": "4247",
+  "questionFrontendId": "3861",
+  "titleSlug": "minimum-capacity-box",
+  "title": "Minimum Capacity Box",
+  "translatedTitle": "容量最小的箱子",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-capacity-box/",
+  "createdAt": "2026-08-11T15:18:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

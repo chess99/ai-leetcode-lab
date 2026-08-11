@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4158,
+  "questionId": "4158",
+  "questionFrontendId": "3774",
+  "titleSlug": "absolute-difference-between-maximum-and-minimum-k-elements",
+  "title": "Absolute Difference Between Maximum and Minimum K Elements",
+  "translatedTitle": "最大和最小 K 个元素的绝对差",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/absolute-difference-between-maximum-and-minimum-k-elements/",
+  "createdAt": "2026-08-11T15:15:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

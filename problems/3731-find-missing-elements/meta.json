@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4107,
+  "questionId": "4107",
+  "questionFrontendId": "3731",
+  "titleSlug": "find-missing-elements",
+  "title": "Find Missing Elements",
+  "translatedTitle": "找出缺失的元素",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-missing-elements/",
+  "createdAt": "2026-08-11T15:15:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

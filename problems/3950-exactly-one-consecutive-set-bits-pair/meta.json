@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4307,
+  "questionId": "4307",
+  "questionFrontendId": "3950",
+  "titleSlug": "exactly-one-consecutive-set-bits-pair",
+  "title": "Exactly One Consecutive Set Bits Pair",
+  "translatedTitle": "恰好一对连续置位",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/exactly-one-consecutive-set-bits-pair/",
+  "createdAt": "2026-08-11T15:23:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

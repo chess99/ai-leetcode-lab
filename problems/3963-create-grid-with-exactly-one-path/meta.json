@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4342,
+  "questionId": "4342",
+  "questionFrontendId": "3963",
+  "titleSlug": "create-grid-with-exactly-one-path",
+  "title": "Create Grid With Exactly One Path",
+  "translatedTitle": "构造恰好一条路径的网格",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/create-grid-with-exactly-one-path/",
+  "createdAt": "2026-08-11T15:24:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4194,
+  "questionId": "4194",
+  "questionFrontendId": "3827",
+  "titleSlug": "count-monobit-integers",
+  "title": "Count Monobit Integers",
+  "translatedTitle": "统计单比特整数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-monobit-integers/",
+  "createdAt": "2026-08-11T15:18:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

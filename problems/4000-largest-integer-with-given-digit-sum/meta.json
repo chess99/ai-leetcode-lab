@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4353,
+  "questionId": "4353",
+  "questionFrontendId": "4000",
+  "titleSlug": "largest-integer-with-given-digit-sum",
+  "title": "Largest Integer With Given Digit Sum",
+  "translatedTitle": "给定数位和的最大整数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-integer-with-given-digit-sum/",
+  "createdAt": "2026-08-11T15:24:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

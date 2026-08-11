@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4212,
+  "questionId": "4212",
+  "questionFrontendId": "3842",
+  "titleSlug": "toggle-light-bulbs",
+  "title": "Toggle Light Bulbs",
+  "translatedTitle": "切换打开灯泡",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/toggle-light-bulbs/",
+  "createdAt": "2026-08-11T15:18:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
