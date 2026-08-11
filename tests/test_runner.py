@@ -2,13 +2,14 @@ from __future__ import annotations
 
 import json
 import tempfile
+import threading
 import unittest
 from pathlib import Path
 
 from ai_leetcode.client import JudgeTask
 from ai_leetcode.config import ArchiveConfig, AttemptBudget, ExperimentConfig, Identity
 from ai_leetcode.events import EventStore
-from ai_leetcode.runner import submit_solution
+from ai_leetcode.runner import RemoteActionLock, submit_solution
 
 
 class AcceptedClient:
@@ -98,6 +99,17 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(event["profile_id"], "sol-medium")
         self.assertEqual(event["reasoning_effort"], "medium")
         self.assertIn("remote_elapsed_ms", event)
+
+    def test_remote_lock_queues_parallel_workers(self) -> None:
+        first = RemoteActionLock(self.root, wait_seconds=1, poll_seconds=0.01)
+        first.__enter__()
+        release = threading.Timer(0.05, lambda: first.__exit__(None, None, None))
+        release.start()
+        try:
+            with RemoteActionLock(self.root, wait_seconds=1, poll_seconds=0.01) as second:
+                self.assertTrue(second.acquired)
+        finally:
+            release.join()
 
 
 if __name__ == "__main__":

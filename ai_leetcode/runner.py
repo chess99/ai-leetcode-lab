@@ -36,30 +36,55 @@ RESULT_FIELDS = (
 
 
 class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
-    def __init__(self, root: Path = ROOT, stale_seconds: int = 900):
+    def __init__(
+        self,
+        root: Path = ROOT,
+        stale_seconds: int = 900,
+        wait_seconds: float = 300,
+        poll_seconds: float = 0.2,
+    ):
         self.path = root / ".runtime" / "remote-action.lock"
         self.stale_seconds = stale_seconds
+        self.wait_seconds = wait_seconds
+        self.poll_seconds = poll_seconds
         self.acquired = False
 
     def __enter__(self) -> "RemoteActionLock":
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        if self.path.exists():
+        deadline = time.monotonic() + self.wait_seconds
+        while True:
+            if self.path.exists():
+                try:
+                    info = json.loads(self.path.read_text(encoding="utf-8"))
+                    age = time.time() - float(info.get("unixTime", 0))
+                except (json.JSONDecodeError, OSError, ValueError, TypeError):
+                    age = 0
+                if age > self.stale_seconds:
+                    try:
+                        self.path.unlink()
+                    except FileNotFoundError:
+                        pass
+                else:
+                    if time.monotonic() >= deadline:
+                        raise RuntimeError(f"等待远程动作锁超时：{self.path}")
+                    time.sleep(self.poll_seconds)
+                    continue
             try:
-                info = json.loads(self.path.read_text(encoding="utf-8"))
-                age = time.time() - float(info.get("unixTime", 0))
-            except (json.JSONDecodeError, OSError, ValueError, TypeError):
-                age = 0
-            if age <= self.stale_seconds:
-                raise RuntimeError(f"已有远程动作在执行：{self.path}")
-            self.path.unlink()
-        descriptor = os.open(self.path, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
-        try:
-            payload = json.dumps({"pid": os.getpid(), "unixTime": time.time(), "createdAt": utc_now()})
-            os.write(descriptor, payload.encode("utf-8"))
-        finally:
-            os.close(descriptor)
-        self.acquired = True
-        return self
+                descriptor = os.open(self.path, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            except FileExistsError:
+                if time.monotonic() >= deadline:
+                    raise RuntimeError(f"等待远程动作锁超时：{self.path}")
+                time.sleep(self.poll_seconds)
+                continue
+            try:
+                payload = json.dumps(
+                    {"pid": os.getpid(), "unixTime": time.time(), "createdAt": utc_now()}
+                )
+                os.write(descriptor, payload.encode("utf-8"))
+            finally:
+                os.close(descriptor)
+            self.acquired = True
+            return self
 
     def __exit__(self, exc_type: object, exc_value: object, traceback: object) -> None:
         if self.acquired and self.path.exists():
