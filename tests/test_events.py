@@ -14,7 +14,7 @@ class EventBudgetTests(unittest.TestCase):
         self.root = Path(self.temp.name)
         self.store = EventStore(self.root)
         self.budget = AttemptBudget(2, 2, 2, 0.01, 1)
-        self.identity = Identity("test-client", "test-model")
+        self.identity = Identity("test-client", "test-model", "medium", "sol-medium")
         self.problem = {"titleSlug": "two-sum", "id": 1, "questionFrontendId": "1"}
 
     def tearDown(self) -> None:
@@ -33,6 +33,8 @@ class EventBudgetTests(unittest.TestCase):
     def test_unfinished_action_conservatively_counts(self) -> None:
         self.reserve_submission()
         self.assertEqual(self.store.usage("two-sum").submissions, 1)
+        self.assertEqual(self.store.usage("two-sum", "sol-medium").submissions, 1)
+        self.assertEqual(self.store.usage("two-sum", "sol-high").submissions, 0)
 
     def test_infrastructure_failure_does_not_count_before_send(self) -> None:
         action = self.reserve_submission()
@@ -55,6 +57,41 @@ class EventBudgetTests(unittest.TestCase):
         self.assertEqual(self.store.usage("two-sum").round_number, 2)
         with self.assertRaises(BudgetError):
             self.store.open_retry("two-sum", "再次尝试完全不同的算法方案", self.budget, self.identity)
+
+    def test_defer_is_isolated_to_current_profile(self) -> None:
+        self.store.ensure_profile_started(self.problem, "python3", self.identity)
+        self.store.defer_profile("two-sum", "当前档位先跳过", self.identity)
+        self.assertTrue(self.store.usage("two-sum", "sol-medium").deferred)
+        self.assertFalse(self.store.usage("two-sum", "sol-high").deferred)
+        with self.assertRaises(BudgetError):
+            self.reserve_submission()
+
+    def test_profile_annotation_projects_without_rewriting_history(self) -> None:
+        historical = self.store.append("problem_started", slug="two-sum", client="old", model="old")
+        original = self.store.path.read_text(encoding="utf-8")
+        self.store.annotate_profile(
+            "two-sum",
+            [historical["event_id"]],
+            self.identity,
+            "用户确认了当时运行配置",
+        )
+        effective = self.store.effective_events()[0]
+        self.assertEqual(effective["profile_id"], "sol-medium")
+        self.assertEqual(effective["model"], "test-model")
+        self.assertTrue(self.store.path.read_text(encoding="utf-8").startswith(original))
+
+    def test_usage_report_requires_source_and_keeps_exact_values(self) -> None:
+        self.store.ensure_profile_started(self.problem, "python3", self.identity)
+        event = self.store.report_usage(
+            "two-sum",
+            self.identity,
+            source="client usage API",
+            input_tokens=120,
+            output_tokens=30,
+            elapsed_seconds=1.25,
+        )
+        self.assertEqual(event["input_tokens"], 120)
+        self.assertNotIn("cached_input_tokens", event)
 
 
 if __name__ == "__main__":

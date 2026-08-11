@@ -118,15 +118,18 @@ def run_remote_test(
         raise ArchiveError("缺少测试输入；请使用 --input 或 --input-file")
 
     with RemoteActionLock(root):
+        working_problem = {**problem, "questionId": meta["questionId"]}
+        events.ensure_profile_started(working_problem, language, identity)
         reservation = events.reserve_action(
             kind="remote_test",
-            problem={**problem, "questionId": meta["questionId"]},
+            problem=working_problem,
             identity=identity,
             language=language,
             code_hash=code_hash,
             budget=config.attempt_budget,
         )
         task_sent = False
+        action_started = time.monotonic()
         try:
             task = client.run_code(str(problem["titleSlug"]), int(meta["questionId"]), language, code, sample)
             task_sent = True
@@ -145,6 +148,9 @@ def run_remote_test(
                 counts_against_budget=True,
                 client=identity.client,
                 model=identity.model,
+                reasoning_effort=identity.reasoning_effort,
+                profile_id=identity.profile_id,
+                remote_elapsed_ms=round((time.monotonic() - action_started) * 1000),
                 judge_task_id=task.task_id,
                 result=_safe_judge_result(actual),
                 expected_result=_safe_judge_result(expected) if expected else None,
@@ -160,6 +166,9 @@ def run_remote_test(
                 counts_against_budget=task_sent or not (exc.infrastructure or exc.authentication),
                 client=identity.client,
                 model=identity.model,
+                reasoning_effort=identity.reasoning_effort,
+                profile_id=identity.profile_id,
+                remote_elapsed_ms=round((time.monotonic() - action_started) * 1000),
                 error=str(exc),
             )
             raise
@@ -178,15 +187,18 @@ def submit_solution(
     code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
     language = str(meta["language"])
     with RemoteActionLock(root):
+        working_problem = {**problem, "questionId": meta["questionId"]}
+        events.ensure_profile_started(working_problem, language, identity)
         reservation = events.reserve_action(
             kind="submission",
-            problem={**problem, "questionId": meta["questionId"]},
+            problem=working_problem,
             identity=identity,
             language=language,
             code_hash=code_hash,
             budget=config.attempt_budget,
         )
         task_sent = False
+        action_started = time.monotonic()
         try:
             task = client.submit_code(str(problem["titleSlug"]), int(meta["questionId"]), language, code)
             task_sent = True
@@ -203,6 +215,9 @@ def submit_solution(
                 counts_against_budget=True,
                 client=identity.client,
                 model=identity.model,
+                reasoning_effort=identity.reasoning_effort,
+                profile_id=identity.profile_id,
+                remote_elapsed_ms=round((time.monotonic() - action_started) * 1000),
                 submission_id=task.task_id,
                 result=_safe_judge_result(raw),
             )
@@ -217,6 +232,9 @@ def submit_solution(
                 counts_against_budget=task_sent or not (exc.infrastructure or exc.authentication),
                 client=identity.client,
                 model=identity.model,
+                reasoning_effort=identity.reasoning_effort,
+                profile_id=identity.profile_id,
+                remote_elapsed_ms=round((time.monotonic() - action_started) * 1000),
                 error=str(exc),
             )
             raise

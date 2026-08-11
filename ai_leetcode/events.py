@@ -20,6 +20,7 @@ class Usage:
     remote_tests: int
     submissions: int
     accepted: bool
+    deferred: bool
 
 
 class EventStore:
@@ -58,12 +59,46 @@ class EventStore:
             os.close(descriptor)
         return event
 
-    def for_problem(self, slug: str) -> list[dict[str, Any]]:
-        return [event for event in self.load() if event.get("slug") == slug]
+    def effective_events(self) -> list[dict[str, Any]]:
+        """Return events with append-only profile annotations projected onto their targets."""
+        events = self.load()
+        known_ids = {str(event.get("event_id")) for event in events}
+        patches: dict[str, dict[str, Any]] = {}
+        for annotation in events:
+            if annotation.get("type") != "profile_annotation":
+                continue
+            targets = annotation.get("target_event_ids") or annotation.get("targetEventIds") or []
+            if not isinstance(targets, list):
+                continue
+            patch = {
+                key: annotation[key]
+                for key in ("profile_id", "client", "model", "reasoning_effort")
+                if annotation.get(key) not in (None, "")
+            }
+            for target in targets:
+                target_id = str(target)
+                if target_id in known_ids:
+                    patches.setdefault(target_id, {}).update(patch)
+        return [
+            {**event, **patches.get(str(event.get("event_id")), {})}
+            if event.get("type") != "profile_annotation"
+            else dict(event)
+            for event in events
+        ]
 
-    def usage(self, slug: str) -> Usage:
+    def for_problem(self, slug: str) -> list[dict[str, Any]]:
+        return [event for event in self.effective_events() if event.get("slug") == slug]
+
+    def usage(self, slug: str, profile_id: str | None = None) -> Usage:
         events = self.for_problem(slug)
-        round_number = 1 + sum(1 for event in events if event.get("type") == "retry_opened")
+        profile_events = [
+            event
+            for event in events
+            if profile_id is None or event.get("profile_id") == profile_id
+        ]
+        round_number = 1 + sum(
+            1 for event in profile_events if event.get("type") == "retry_opened"
+        )
         results_by_action = {
             event.get("action_id"): event
             for event in events
@@ -72,7 +107,7 @@ class EventStore:
 
         def charged_starts(kind: str) -> int:
             count = 0
-            for event in events:
+            for event in profile_events:
                 if event.get("type") != kind or int(event.get("round", 1)) != round_number:
                     continue
                 result = results_by_action.get(event.get("action_id"))
@@ -84,11 +119,13 @@ class EventStore:
             event.get("type") == "submission_result" and event.get("outcome") == "accepted"
             for event in events
         )
+        deferred = any(event.get("type") == "profile_deferred" for event in profile_events)
         return Usage(
             round_number=round_number,
             remote_tests=charged_starts("remote_test_started"),
             submissions=charged_starts("submission_started"),
             accepted=accepted,
+            deferred=deferred,
         )
 
     def reserve_action(
@@ -101,9 +138,11 @@ class EventStore:
         code_hash: str,
         budget: AttemptBudget,
     ) -> dict[str, Any]:
-        usage = self.usage(str(problem["titleSlug"]))
+        usage = self.usage(str(problem["titleSlug"]), identity.profile_id)
         if usage.accepted:
             raise BudgetError("该题已经 Accepted，不允许继续消耗远程尝试")
+        if usage.deferred:
+            raise BudgetError(f"该题已在 Profile {identity.profile_id} 标记为 defer")
         if usage.round_number > budget.max_rounds:
             raise BudgetError("该题已用完全部轮次")
         if kind == "remote_test":
@@ -127,13 +166,17 @@ class EventStore:
             language=language,
             client=identity.client,
             model=identity.model,
+            reasoning_effort=identity.reasoning_effort,
+            profile_id=identity.profile_id,
             code_sha256=code_hash,
         )
 
     def open_retry(self, slug: str, reason: str, budget: AttemptBudget, identity: Identity) -> dict[str, Any]:
-        usage = self.usage(slug)
+        usage = self.usage(slug, identity.profile_id)
         if usage.accepted:
             raise BudgetError("该题已经 Accepted，无需开启重试轮")
+        if usage.deferred:
+            raise BudgetError(f"该题已在 Profile {identity.profile_id} 标记为 defer")
         if usage.round_number >= budget.max_rounds:
             raise BudgetError("该题已达到最大轮数")
         if usage.submissions < budget.submissions_per_round:
@@ -150,4 +193,137 @@ class EventStore:
             reason=reason.strip(),
             client=identity.client,
             model=identity.model,
+            reasoning_effort=identity.reasoning_effort,
+            profile_id=identity.profile_id,
         )
+
+    def ensure_profile_started(
+        self,
+        problem: dict[str, Any],
+        language: str,
+        identity: Identity,
+    ) -> dict[str, Any] | None:
+        slug = str(problem["titleSlug"])
+        events = self.for_problem(slug)
+        if any(
+            event.get("type") in {"problem_started", "profile_started"}
+            and event.get("profile_id") == identity.profile_id
+            for event in events
+        ):
+            return None
+        if any(
+            event.get("type") == "submission_result" and event.get("outcome") == "accepted"
+            for event in events
+        ):
+            raise BudgetError("该题已经 Accepted，无需再为其他 Profile 开始作答")
+        return self.append(
+            "profile_started",
+            slug=slug,
+            question_id=str(problem.get("questionId") or problem.get("id", "")),
+            frontend_id=str(problem.get("questionFrontendId", "")),
+            language=language,
+            client=identity.client,
+            model=identity.model,
+            reasoning_effort=identity.reasoning_effort,
+            profile_id=identity.profile_id,
+        )
+
+    def defer_profile(self, slug: str, reason: str, identity: Identity) -> dict[str, Any]:
+        if not any(
+            event.get("type") in {"problem_started", "profile_started"}
+            and event.get("profile_id") == identity.profile_id
+            for event in self.for_problem(slug)
+        ):
+            raise BudgetError(f"请先用 Profile {identity.profile_id} start 该题，再执行 defer")
+        usage = self.usage(slug, identity.profile_id)
+        if usage.accepted:
+            raise BudgetError("该题已经 Accepted，无需 defer")
+        if usage.deferred:
+            raise BudgetError(f"该题已在 Profile {identity.profile_id} 标记为 defer")
+        if not reason.strip():
+            raise BudgetError("defer 必须说明原因")
+        return self.append(
+            "profile_deferred",
+            slug=slug,
+            round=usage.round_number,
+            remote_tests=usage.remote_tests,
+            submissions=usage.submissions,
+            reason=reason.strip(),
+            client=identity.client,
+            model=identity.model,
+            reasoning_effort=identity.reasoning_effort,
+            profile_id=identity.profile_id,
+        )
+
+    def annotate_profile(
+        self,
+        slug: str,
+        target_event_ids: list[str],
+        identity: Identity,
+        reason: str,
+    ) -> dict[str, Any]:
+        raw_events = self.load()
+        eligible = {
+            str(event.get("event_id"))
+            for event in raw_events
+            if event.get("slug") == slug and event.get("type") != "profile_annotation"
+        }
+        targets = list(dict.fromkeys(str(item) for item in target_event_ids))
+        missing = [item for item in targets if item not in eligible]
+        if not targets:
+            raise BudgetError("至少需要一个待校正的事件 ID")
+        if missing:
+            raise BudgetError(f"事件不属于题目 {slug} 或不存在：{', '.join(missing)}")
+        if not reason.strip():
+            raise BudgetError("历史校正必须说明依据")
+        return self.append(
+            "profile_annotation",
+            slug=slug,
+            target_event_ids=targets,
+            profile_id=identity.profile_id,
+            client=identity.client,
+            model=identity.model,
+            reasoning_effort=identity.reasoning_effort,
+            reason=reason.strip(),
+        )
+
+    def report_usage(
+        self,
+        slug: str,
+        identity: Identity,
+        *,
+        source: str,
+        input_tokens: int | None = None,
+        output_tokens: int | None = None,
+        cached_input_tokens: int | None = None,
+        elapsed_seconds: float | None = None,
+    ) -> dict[str, Any]:
+        if not any(
+            event.get("type") in {"problem_started", "profile_started"}
+            and event.get("profile_id") == identity.profile_id
+            for event in self.for_problem(slug)
+        ):
+            raise BudgetError(f"请先用 Profile {identity.profile_id} start 该题，再报告用量")
+        values = (input_tokens, output_tokens, cached_input_tokens, elapsed_seconds)
+        if all(value is None for value in values):
+            raise BudgetError("至少报告一种 Token 用量或 elapsed_seconds")
+        if any(value is not None and value < 0 for value in values):
+            raise BudgetError("用量和耗时不能为负数")
+        if not source.strip():
+            raise BudgetError("用量报告必须注明可核验的数据来源")
+        fields: dict[str, Any] = {
+            "slug": slug,
+            "source": source.strip(),
+            "client": identity.client,
+            "model": identity.model,
+            "reasoning_effort": identity.reasoning_effort,
+            "profile_id": identity.profile_id,
+        }
+        optional = {
+            "input_tokens": input_tokens,
+            "output_tokens": output_tokens,
+            "cached_input_tokens": cached_input_tokens,
+            "elapsed_seconds": elapsed_seconds,
+        }
+        fields.update({key: value for key, value in optional.items() if value is not None})
+        return self.append("usage_reported", **fields)

@@ -292,6 +292,8 @@ def materialize_problem(
             f"{prefix} AI solution attribution",
             f"{prefix} Client: {identity.client}",
             f"{prefix} Model: {identity.model}",
+            f"{prefix} Reasoning effort: {identity.reasoning_effort}",
+            f"{prefix} Profile: {identity.profile_id}",
             f"{prefix} Created: {utc_now()}",
             f"{prefix} Experiment: ai-leetcode-lab, round 1",
             "",
@@ -304,6 +306,8 @@ def materialize_problem(
         "# 解题记录\n\n"
         f"- AI 客户端：{identity.client}\n"
         f"- 模型：{identity.model}\n"
+        f"- 推理档位：{identity.reasoning_effort}\n"
+        f"- Profile：{identity.profile_id}\n"
         "- 轮次：1\n\n"
         "## 思路\n\n待填写。\n\n"
         "## 复杂度\n\n待填写。\n\n"
@@ -323,7 +327,12 @@ def materialize_problem(
         "solutionFile": solution_name,
         "source": f"{config.endpoint}/problems/{problem['titleSlug']}/",
         "createdAt": utc_now(),
-        "createdBy": {"client": identity.client, "model": identity.model},
+        "createdBy": {
+            "client": identity.client,
+            "model": identity.model,
+            "reasoningEffort": identity.reasoning_effort,
+            "profileId": identity.profile_id,
+        },
     }
     atomic_write_json(meta_path, meta)
     events.append(
@@ -334,5 +343,7 @@ def materialize_problem(
         language=language,
         client=identity.client,
         model=identity.model,
+        reasoning_effort=identity.reasoning_effort,
+        profile_id=identity.profile_id,
     )
     return directory

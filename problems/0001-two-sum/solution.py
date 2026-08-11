@@ -1,6 +1,8 @@
 # AI solution attribution
 # Client: Codex Desktop
-# Model: GPT-5
+# Model: gpt-5.6-sol
+# Reasoning effort: xhigh
+# Profile: sol-xhigh
 # Created: 2026-08-11T09:03:57Z
 # Experiment: ai-leetcode-lab, round 1
 from typing import List

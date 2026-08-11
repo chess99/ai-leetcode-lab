@@ -24,6 +24,7 @@ class AttemptBudget:
     max_rounds: int
     poll_interval_seconds: float
     poll_timeout_seconds: float
+    scope: str = "problem_profile"
 
 
 @dataclass(frozen=True)
@@ -56,6 +57,31 @@ class Credentials:
 class Identity:
     client: str
     model: str
+    reasoning_effort: str = "unspecified"
+    profile_id: str = "unprofiled"
+
+
+@dataclass(frozen=True)
+class Profile:
+    id: str
+    model: str
+    reasoning_effort: str
+    cohort: str
+    stage: int
+    enabled: bool
+    description: str
+
+
+@dataclass(frozen=True)
+class ProfilesConfig:
+    default_profile: str
+    profiles: tuple[Profile, ...]
+
+    def get(self, profile_id: str) -> Profile:
+        for profile in self.profiles:
+            if profile.id == profile_id:
+                return profile
+        raise ConfigError(f"未知实验 Profile：{profile_id}")
 
 
 LANGUAGE_EXTENSIONS = {
@@ -116,6 +142,7 @@ def load_config(root: Path = ROOT) -> ExperimentConfig:
             max_rounds=int(budget.get("max_rounds", 2)),
             poll_interval_seconds=float(budget.get("poll_interval_seconds", 1.5)),
             poll_timeout_seconds=float(budget.get("poll_timeout_seconds", 120)),
+            scope=str(budget.get("scope", "problem_profile")),
         ),
         identity_required=bool(raw.get("identity_required", True)),
     )
@@ -127,7 +154,50 @@ def load_config(root: Path = ROOT) -> ExperimentConfig:
         config.attempt_budget.max_rounds,
     ) < 1:
         raise ConfigError("尝试预算必须大于 0")
+    if config.attempt_budget.scope != "problem_profile":
+        raise ConfigError("attempt_budget.scope 目前只支持 problem_profile")
     return config
+
+
+def load_profiles(root: Path = ROOT) -> ProfilesConfig:
+    raw = load_json(root / "config" / "profiles.json")
+    raw_profiles = raw.get("profiles")
+    if not isinstance(raw_profiles, list) or not raw_profiles:
+        raise ConfigError("config/profiles.json 至少需要一个 Profile")
+    allowed_efforts = {"low", "medium", "high", "xhigh", "max", "ultra"}
+    profiles: list[Profile] = []
+    seen: set[str] = set()
+    for raw_profile in raw_profiles:
+        if not isinstance(raw_profile, dict):
+            raise ConfigError("Profile 配置必须是 JSON 对象")
+        profile_id = str(raw_profile.get("id", "")).strip()
+        model = str(raw_profile.get("model", "")).strip()
+        reasoning_effort = str(raw_profile.get("reasoningEffort", "")).strip().lower()
+        if not profile_id or profile_id in seen:
+            raise ConfigError(f"Profile ID 为空或重复：{profile_id or '<empty>'}")
+        if not model:
+            raise ConfigError(f"Profile {profile_id} 缺少 model")
+        if reasoning_effort not in allowed_efforts:
+            raise ConfigError(
+                f"Profile {profile_id} 的 reasoningEffort 必须是 "
+                f"{', '.join(sorted(allowed_efforts))} 之一"
+            )
+        seen.add(profile_id)
+        profiles.append(
+            Profile(
+                id=profile_id,
+                model=model,
+                reasoning_effort=reasoning_effort,
+                cohort=str(raw_profile.get("cohort", "unspecified")).strip() or "unspecified",
+                stage=int(raw_profile.get("stage", 0)),
+                enabled=bool(raw_profile.get("enabled", True)),
+                description=str(raw_profile.get("description", "")).strip(),
+            )
+        )
+    default_profile = str(raw.get("defaultProfile", "")).strip()
+    if default_profile not in seen:
+        raise ConfigError(f"defaultProfile 不存在：{default_profile}")
+    return ProfilesConfig(default_profile=default_profile, profiles=tuple(profiles))
 
 
 def read_env_file(path: Path) -> dict[str, str]:
@@ -161,18 +231,40 @@ def load_credentials(root: Path = ROOT, required: bool = True) -> Credentials | 
     return Credentials(csrf_token=csrf, session=session)
 
 
-def load_identity(root: Path = ROOT, required: bool = True) -> Identity | None:
+def load_identity(
+    root: Path = ROOT,
+    required: bool = True,
+    profile_id: str | None = None,
+) -> Identity | None:
     local = read_env_file(root / ".ai" / "identity.env")
     client = os.environ.get("AI_CLIENT_NAME") or local.get("AI_CLIENT_NAME", "")
-    model = os.environ.get("AI_MODEL_NAME") or local.get("AI_MODEL_NAME", "")
+    selected_profile = profile_id or os.environ.get("AI_PROFILE_ID") or local.get("AI_PROFILE_ID", "")
+    selected_profile = selected_profile.strip()
+    if selected_profile:
+        profile = load_profiles(root).get(selected_profile)
+        model = profile.model
+        reasoning_effort = profile.reasoning_effort
+    else:
+        model = os.environ.get("AI_MODEL_NAME") or local.get("AI_MODEL_NAME", "")
+        reasoning_effort = (
+            os.environ.get("AI_REASONING_EFFORT")
+            or local.get("AI_REASONING_EFFORT", "unspecified")
+        ).strip().lower()
+        selected_profile = "unprofiled"
     placeholders = {"your-ai-client", "your-model", "unknown", ""}
     if client.strip().lower() in placeholders or model.strip().lower() in placeholders:
         if required:
             raise ConfigError(
-                "缺少 AI 身份；请在 .ai/identity.env 填写当前 AI_CLIENT_NAME 与 AI_MODEL_NAME"
+                "缺少 AI 身份；请在 .ai/identity.env 填写 AI_CLIENT_NAME，并配置 "
+                "AI_PROFILE_ID（推荐）或 AI_MODEL_NAME"
             )
         return None
-    return Identity(client=client.strip(), model=model.strip())
+    return Identity(
+        client=client.strip(),
+        model=model.strip(),
+        reasoning_effort=reasoning_effort,
+        profile_id=selected_profile,
+    )
 
 
 def atomic_write_text(path: Path, content: str) -> None:

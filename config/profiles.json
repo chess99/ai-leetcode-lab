@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "defaultProfile": "sol-medium",
+  "profiles": [
+    {
+      "id": "sol-low",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "low",
+      "cohort": "sol-escalation",
+      "stage": 0,
+      "enabled": true,
+      "description": "可选低成本预扫档"
+    },
+    {
+      "id": "sol-medium",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium",
+      "cohort": "sol-escalation",
+      "stage": 1,
+      "enabled": true,
+      "description": "正式批刷基线"
+    },
+    {
+      "id": "sol-high",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "cohort": "sol-escalation",
+      "stage": 2,
+      "enabled": true,
+      "description": "第一次升档重试"
+    },
+    {
+      "id": "sol-xhigh",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "xhigh",
+      "cohort": "sol-escalation",
+      "stage": 3,
+      "enabled": true,
+      "description": "Extra High，统一记作 xhigh"
+    },
+    {
+      "id": "sol-max",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "max",
+      "cohort": "sol-escalation",
+      "stage": 4,
+      "enabled": true,
+      "description": "可选的 xhigh 与 ultra 中间档"
+    },
+    {
+      "id": "sol-ultra",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "ultra",
+      "cohort": "sol-escalation",
+      "stage": 5,
+      "enabled": true,
+      "description": "最高推理预算档"
+    },
+    {
+      "id": "terra-low",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "low",
+      "cohort": "terra-control",
+      "stage": 0,
+      "enabled": true,
+      "description": "不同模型家族的低档对照组"
+    },
+    {
+      "id": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium",
+      "cohort": "terra-control",
+      "stage": 1,
+      "enabled": true,
+      "description": "不同模型家族的中档对照组"
+    }
+  ]
+}

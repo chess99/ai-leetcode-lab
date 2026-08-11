@@ -59,7 +59,7 @@ class ArchiveTests(unittest.TestCase):
             self.problem,
             detail,
             self.config,
-            Identity("client-a", "model-b"),
+            Identity("client-a", "model-b", "high", "sol-high"),
             EventStore(self.root),
             language="python3",
             root=self.root,
@@ -67,6 +67,8 @@ class ArchiveTests(unittest.TestCase):
         solution = (directory / "solution.py").read_text(encoding="utf-8")
         self.assertIn("Client: client-a", solution)
         self.assertIn("Model: model-b", solution)
+        self.assertIn("Reasoning effort: high", solution)
+        self.assertIn("Profile: sol-high", solution)
         self.assertIn("class Solution", solution)
         self.assertEqual(len(EventStore(self.root).load()), 1)
 

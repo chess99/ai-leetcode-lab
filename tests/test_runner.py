@@ -85,7 +85,7 @@ class RunnerTests(unittest.TestCase):
             "two-sum",
             client,  # type: ignore[arg-type]
             self.config,
-            Identity("test-client", "test-model"),
+            Identity("test-client", "test-model", "medium", "sol-medium"),
             store,
             root=self.root,
         )
@@ -95,6 +95,9 @@ class RunnerTests(unittest.TestCase):
         self.assertTrue(store.usage("two-sum").accepted)
         self.assertEqual(event["client"], "test-client")
         self.assertEqual(event["model"], "test-model")
+        self.assertEqual(event["profile_id"], "sol-medium")
+        self.assertEqual(event["reasoning_effort"], "medium")
+        self.assertIn("remote_elapsed_ms", event)
 
 
 if __name__ == "__main__":

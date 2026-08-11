@@ -28,13 +28,30 @@ def _git_ignored(root: Path, relative: str) -> bool:
     return result.returncode == 0
 
 
-def run_doctor(config: ExperimentConfig, *, offline: bool = False, root: Path = ROOT) -> list[Check]:
+def run_doctor(
+    config: ExperimentConfig,
+    *,
+    offline: bool = False,
+    profile_id: str | None = None,
+    root: Path = ROOT,
+) -> list[Check]:
     checks: list[Check] = []
     checks.append(Check("Python", sys.version_info >= (3, 11), sys.version.split()[0]))
     checks.append(Check("Git 仓库", (root / ".git").exists(), str(root)))
     try:
-        identity = load_identity(root, required=config.identity_required)
-        checks.append(Check("AI 身份", True, f"{identity.client} / {identity.model}" if identity else "未要求"))
+        identity = load_identity(root, required=config.identity_required, profile_id=profile_id)
+        checks.append(
+            Check(
+                "AI 身份",
+                True,
+                (
+                    f"{identity.client} / {identity.model} / {identity.reasoning_effort} "
+                    f"({identity.profile_id})"
+                )
+                if identity
+                else "未要求",
+            )
+        )
     except ConfigError as exc:
         checks.append(Check("AI 身份", False, str(exc)))
 

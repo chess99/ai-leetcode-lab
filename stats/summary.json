@@ -1,7 +1,8 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-08-11T09:08:19Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-11T09:45:11Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
+  "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
   "accessibleWithoutPremium": 3628,
   "paidOnly": 778,
@@ -10,6 +11,8 @@
   "archivedLockedOrUnavailable": 778,
   "started": 1,
   "accepted": 1,
+  "deferredProblems": 0,
+  "deferredProfileAssignments": 0,
   "reviewRequired": 0,
   "remainingAccessible": 3627,
   "remoteTests": 1,
@@ -32,8 +35,415 @@
       "accepted": 0
     }
   },
+  "firstSuccessByDifficulty": {
+    "EASY": {
+      "sol-xhigh": 1
+    },
+    "HARD": {},
+    "MEDIUM": {}
+  },
+  "firstSuccessByProblem": {
+    "two-sum": {
+      "frontendId": "1",
+      "difficulty": "EASY",
+      "profileId": "sol-xhigh",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "xhigh"
+    }
+  },
+  "acceptedByProfile": {
+    "sol-xhigh": 1
+  },
   "acceptedByAgent": {
-    "Codex Desktop / GPT-5": 1
+    "Codex Desktop / gpt-5.6-sol": 1
+  },
+  "profiles": {
+    "sol-low": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "low",
+      "cohort": "sol-escalation",
+      "stage": 0,
+      "enabled": true,
+      "started": 0,
+      "accepted": 0,
+      "deferred": 0,
+      "reviewRequired": 0,
+      "remoteTests": 0,
+      "submissions": 0,
+      "failedSubmissions": 0,
+      "firstSubmissionAccepted": 0,
+      "remoteElapsedReports": 0,
+      "remoteElapsedSeconds": null,
+      "averageSolveWallSeconds": null,
+      "medianSolveWallSeconds": null,
+      "byDifficulty": {
+        "EASY": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "HARD": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "MEDIUM": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        }
+      },
+      "usage": {
+        "reports": 0,
+        "coveredProblems": 0,
+        "coverageOfStarted": 0.0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cachedInputTokens": 0,
+        "elapsedSeconds": 0
+      }
+    },
+    "sol-medium": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium",
+      "cohort": "sol-escalation",
+      "stage": 1,
+      "enabled": true,
+      "started": 0,
+      "accepted": 0,
+      "deferred": 0,
+      "reviewRequired": 0,
+      "remoteTests": 0,
+      "submissions": 0,
+      "failedSubmissions": 0,
+      "firstSubmissionAccepted": 0,
+      "remoteElapsedReports": 0,
+      "remoteElapsedSeconds": null,
+      "averageSolveWallSeconds": null,
+      "medianSolveWallSeconds": null,
+      "byDifficulty": {
+        "EASY": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "HARD": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "MEDIUM": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        }
+      },
+      "usage": {
+        "reports": 0,
+        "coveredProblems": 0,
+        "coverageOfStarted": 0.0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cachedInputTokens": 0,
+        "elapsedSeconds": 0
+      }
+    },
+    "sol-high": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "cohort": "sol-escalation",
+      "stage": 2,
+      "enabled": true,
+      "started": 0,
+      "accepted": 0,
+      "deferred": 0,
+      "reviewRequired": 0,
+      "remoteTests": 0,
+      "submissions": 0,
+      "failedSubmissions": 0,
+      "firstSubmissionAccepted": 0,
+      "remoteElapsedReports": 0,
+      "remoteElapsedSeconds": null,
+      "averageSolveWallSeconds": null,
+      "medianSolveWallSeconds": null,
+      "byDifficulty": {
+        "EASY": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "HARD": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "MEDIUM": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        }
+      },
+      "usage": {
+        "reports": 0,
+        "coveredProblems": 0,
+        "coverageOfStarted": 0.0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cachedInputTokens": 0,
+        "elapsedSeconds": 0
+      }
+    },
+    "sol-xhigh": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "xhigh",
+      "cohort": "sol-escalation",
+      "stage": 3,
+      "enabled": true,
+      "started": 1,
+      "accepted": 1,
+      "deferred": 0,
+      "reviewRequired": 0,
+      "remoteTests": 1,
+      "submissions": 1,
+      "failedSubmissions": 0,
+      "firstSubmissionAccepted": 1,
+      "remoteElapsedReports": 0,
+      "remoteElapsedSeconds": null,
+      "averageSolveWallSeconds": 76.0,
+      "medianSolveWallSeconds": 76.0,
+      "byDifficulty": {
+        "EASY": {
+          "started": 1,
+          "accepted": 1,
+          "deferred": 0
+        },
+        "HARD": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "MEDIUM": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        }
+      },
+      "usage": {
+        "reports": 0,
+        "coveredProblems": 0,
+        "coverageOfStarted": 0.0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cachedInputTokens": 0,
+        "elapsedSeconds": 0
+      }
+    },
+    "sol-max": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "max",
+      "cohort": "sol-escalation",
+      "stage": 4,
+      "enabled": true,
+      "started": 0,
+      "accepted": 0,
+      "deferred": 0,
+      "reviewRequired": 0,
+      "remoteTests": 0,
+      "submissions": 0,
+      "failedSubmissions": 0,
+      "firstSubmissionAccepted": 0,
+      "remoteElapsedReports": 0,
+      "remoteElapsedSeconds": null,
+      "averageSolveWallSeconds": null,
+      "medianSolveWallSeconds": null,
+      "byDifficulty": {
+        "EASY": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "HARD": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "MEDIUM": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        }
+      },
+      "usage": {
+        "reports": 0,
+        "coveredProblems": 0,
+        "coverageOfStarted": 0.0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cachedInputTokens": 0,
+        "elapsedSeconds": 0
+      }
+    },
+    "sol-ultra": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "ultra",
+      "cohort": "sol-escalation",
+      "stage": 5,
+      "enabled": true,
+      "started": 0,
+      "accepted": 0,
+      "deferred": 0,
+      "reviewRequired": 0,
+      "remoteTests": 0,
+      "submissions": 0,
+      "failedSubmissions": 0,
+      "firstSubmissionAccepted": 0,
+      "remoteElapsedReports": 0,
+      "remoteElapsedSeconds": null,
+      "averageSolveWallSeconds": null,
+      "medianSolveWallSeconds": null,
+      "byDifficulty": {
+        "EASY": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "HARD": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "MEDIUM": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        }
+      },
+      "usage": {
+        "reports": 0,
+        "coveredProblems": 0,
+        "coverageOfStarted": 0.0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cachedInputTokens": 0,
+        "elapsedSeconds": 0
+      }
+    },
+    "terra-low": {
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "low",
+      "cohort": "terra-control",
+      "stage": 0,
+      "enabled": true,
+      "started": 0,
+      "accepted": 0,
+      "deferred": 0,
+      "reviewRequired": 0,
+      "remoteTests": 0,
+      "submissions": 0,
+      "failedSubmissions": 0,
+      "firstSubmissionAccepted": 0,
+      "remoteElapsedReports": 0,
+      "remoteElapsedSeconds": null,
+      "averageSolveWallSeconds": null,
+      "medianSolveWallSeconds": null,
+      "byDifficulty": {
+        "EASY": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "HARD": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "MEDIUM": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        }
+      },
+      "usage": {
+        "reports": 0,
+        "coveredProblems": 0,
+        "coverageOfStarted": 0.0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cachedInputTokens": 0,
+        "elapsedSeconds": 0
+      }
+    },
+    "terra-medium": {
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium",
+      "cohort": "terra-control",
+      "stage": 1,
+      "enabled": true,
+      "started": 0,
+      "accepted": 0,
+      "deferred": 0,
+      "reviewRequired": 0,
+      "remoteTests": 0,
+      "submissions": 0,
+      "failedSubmissions": 0,
+      "firstSubmissionAccepted": 0,
+      "remoteElapsedReports": 0,
+      "remoteElapsedSeconds": null,
+      "averageSolveWallSeconds": null,
+      "medianSolveWallSeconds": null,
+      "byDifficulty": {
+        "EASY": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "HARD": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        },
+        "MEDIUM": {
+          "started": 0,
+          "accepted": 0,
+          "deferred": 0
+        }
+      },
+      "usage": {
+        "reports": 0,
+        "coveredProblems": 0,
+        "coverageOfStarted": 0.0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cachedInputTokens": 0,
+        "elapsedSeconds": 0
+      }
+    }
+  },
+  "deferredByProfile": {
+    "sol-low": [],
+    "sol-medium": [],
+    "sol-high": [],
+    "sol-xhigh": [],
+    "sol-max": [],
+    "sol-ultra": [],
+    "terra-low": [],
+    "terra-medium": []
+  },
+  "reviewRequiredByProfile": {
+    "sol-low": [],
+    "sol-medium": [],
+    "sol-high": [],
+    "sol-xhigh": [],
+    "sol-max": [],
+    "sol-ultra": [],
+    "terra-low": [],
+    "terra-medium": []
+  },
+  "usageCoverage": {
+    "startedProfileAssignments": 1,
+    "reportedProfileAssignments": 0,
+    "coverage": 0.0,
+    "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"
   },
   "reviewRequiredSlugs": []
 }

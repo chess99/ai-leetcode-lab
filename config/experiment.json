@@ -7,6 +7,7 @@
     "request_delay_ms": 200
   },
   "attempt_budget": {
+    "scope": "problem_profile",
     "remote_tests_per_round": 5,
     "submissions_per_round": 3,
     "max_rounds": 2,
