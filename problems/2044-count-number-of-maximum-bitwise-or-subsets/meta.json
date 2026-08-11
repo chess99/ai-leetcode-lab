@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2170,
+  "questionId": "2170",
+  "questionFrontendId": "2044",
+  "titleSlug": "count-number-of-maximum-bitwise-or-subsets",
+  "title": "Count Number of Maximum Bitwise-OR Subsets",
+  "translatedTitle": "统计按位或能得到最大值的子集数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/",
+  "createdAt": "2026-08-11T20:05:18Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

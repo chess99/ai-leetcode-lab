@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2227,
+  "questionId": "2227",
+  "questionFrontendId": "2104",
+  "titleSlug": "sum-of-subarray-ranges",
+  "title": "Sum of Subarray Ranges",
+  "translatedTitle": "子数组范围和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-subarray-ranges/",
+  "createdAt": "2026-08-11T20:05:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

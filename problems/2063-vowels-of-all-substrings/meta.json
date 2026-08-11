@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2187,
+  "questionId": "2187",
+  "questionFrontendId": "2063",
+  "titleSlug": "vowels-of-all-substrings",
+  "title": "Vowels of All Substrings",
+  "translatedTitle": "所有子字符串中的元音",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/vowels-of-all-substrings/",
+  "createdAt": "2026-08-11T20:05:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

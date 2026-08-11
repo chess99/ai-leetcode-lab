@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-11T20:04:12Z",
+  "generatedAt": "2026-08-11T20:20:25Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -9,7 +9,7 @@
   "archivedDetails": 4406,
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
-  "started": 1810,
+  "started": 1870,
   "accepted": 487,
   "deferredProblems": 1,
   "deferredProfileAssignments": 1,
@@ -3786,7 +3786,7 @@
       "cohort": "terra-control",
       "stage": 1,
       "enabled": true,
-      "started": 1809,
+      "started": 1869,
       "accepted": 486,
       "deferred": 1,
       "reviewRequired": 0,
@@ -3810,7 +3810,7 @@
           "deferred": 0
         },
         "MEDIUM": {
-          "started": 861,
+          "started": 921,
           "accepted": 1,
           "deferred": 0
         }
@@ -3849,7 +3849,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 1810,
+    "startedProfileAssignments": 1870,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"

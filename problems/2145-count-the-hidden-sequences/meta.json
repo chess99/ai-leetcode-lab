@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2249,
+  "questionId": "2249",
+  "questionFrontendId": "2145",
+  "titleSlug": "count-the-hidden-sequences",
+  "title": "Count the Hidden Sequences",
+  "translatedTitle": "统计隐藏数组数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-hidden-sequences/",
+  "createdAt": "2026-08-11T20:05:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

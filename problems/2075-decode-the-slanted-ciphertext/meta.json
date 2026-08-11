@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2197,
+  "questionId": "2197",
+  "questionFrontendId": "2075",
+  "titleSlug": "decode-the-slanted-ciphertext",
+  "title": "Decode the Slanted Ciphertext",
+  "translatedTitle": "解码斜向换位密码",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/decode-the-slanted-ciphertext/",
+  "createdAt": "2026-08-11T20:05:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

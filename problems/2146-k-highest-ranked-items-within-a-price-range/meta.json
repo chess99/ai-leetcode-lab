@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2250,
+  "questionId": "2250",
+  "questionFrontendId": "2146",
+  "titleSlug": "k-highest-ranked-items-within-a-price-range",
+  "title": "K Highest Ranked Items Within a Price Range",
+  "translatedTitle": "价格范围内最高排名的 K 样物品",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/k-highest-ranked-items-within-a-price-range/",
+  "createdAt": "2026-08-11T20:05:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

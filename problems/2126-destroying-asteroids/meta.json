@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2245,
+  "questionId": "2245",
+  "questionFrontendId": "2126",
+  "titleSlug": "destroying-asteroids",
+  "title": "Destroying Asteroids",
+  "translatedTitle": "摧毁小行星",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/destroying-asteroids/",
+  "createdAt": "2026-08-11T20:05:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

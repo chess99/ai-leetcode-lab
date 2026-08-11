@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1431,
+  "questionId": "1431",
+  "questionFrontendId": "2192",
+  "titleSlug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+  "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+  "translatedTitle": "有向无环图中一个节点的所有祖先",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/",
+  "createdAt": "2026-08-11T20:05:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

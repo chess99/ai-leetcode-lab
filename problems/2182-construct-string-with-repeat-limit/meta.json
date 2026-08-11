@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2300,
+  "questionId": "2300",
+  "questionFrontendId": "2182",
+  "titleSlug": "construct-string-with-repeat-limit",
+  "title": "Construct String With Repeat Limit",
+  "translatedTitle": "构造限制重复的字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/construct-string-with-repeat-limit/",
+  "createdAt": "2026-08-11T20:05:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

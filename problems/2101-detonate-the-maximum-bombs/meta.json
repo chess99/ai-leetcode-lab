@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2206,
+  "questionId": "2206",
+  "questionFrontendId": "2101",
+  "titleSlug": "detonate-the-maximum-bombs",
+  "title": "Detonate the Maximum Bombs",
+  "translatedTitle": "引爆最多的炸弹",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/detonate-the-maximum-bombs/",
+  "createdAt": "2026-08-11T20:05:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2240,
+  "questionId": "2240",
+  "questionFrontendId": "2121",
+  "titleSlug": "intervals-between-identical-elements",
+  "title": "Intervals Between Identical Elements",
+  "translatedTitle": "相同元素的间隔之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/intervals-between-identical-elements/",
+  "createdAt": "2026-08-11T20:05:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

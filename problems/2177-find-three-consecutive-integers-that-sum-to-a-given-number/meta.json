@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2278,
+  "questionId": "2278",
+  "questionFrontendId": "2177",
+  "titleSlug": "find-three-consecutive-integers-that-sum-to-a-given-number",
+  "title": "Find Three Consecutive Integers That Sum to a Given Number",
+  "translatedTitle": "找到和为给定整数的三个连续整数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-three-consecutive-integers-that-sum-to-a-given-number/",
+  "createdAt": "2026-08-11T20:05:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

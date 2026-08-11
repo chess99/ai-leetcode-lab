@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2271,
+  "questionId": "2271",
+  "questionFrontendId": "2149",
+  "titleSlug": "rearrange-array-elements-by-sign",
+  "title": "Rearrange Array Elements by Sign",
+  "translatedTitle": "按符号重排数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/rearrange-array-elements-by-sign/",
+  "createdAt": "2026-08-11T20:05:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

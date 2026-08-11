@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2244,
+  "questionId": "2244",
+  "questionFrontendId": "2125",
+  "titleSlug": "number-of-laser-beams-in-a-bank",
+  "title": "Number of Laser Beams in a Bank",
+  "translatedTitle": "银行中的激光束数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-laser-beams-in-a-bank/",
+  "createdAt": "2026-08-11T20:05:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

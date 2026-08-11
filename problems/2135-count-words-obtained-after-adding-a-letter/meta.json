@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2256,
+  "questionId": "2256",
+  "questionFrontendId": "2135",
+  "titleSlug": "count-words-obtained-after-adding-a-letter",
+  "title": "Count Words Obtained After Adding a Letter",
+  "translatedTitle": "统计追加字母可以获得的单词数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-words-obtained-after-adding-a-letter/",
+  "createdAt": "2026-08-11T20:05:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

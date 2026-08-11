@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2237,
+  "questionId": "2237",
+  "questionFrontendId": "2131",
+  "titleSlug": "longest-palindrome-by-concatenating-two-letter-words",
+  "title": "Longest Palindrome by Concatenating Two Letter Words",
+  "translatedTitle": "连接两字母单词得到的最长回文串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-palindrome-by-concatenating-two-letter-words/",
+  "createdAt": "2026-08-11T20:05:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

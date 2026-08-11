@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2196,
+  "questionId": "2196",
+  "questionFrontendId": "2074",
+  "titleSlug": "reverse-nodes-in-even-length-groups",
+  "title": "Reverse Nodes in Even Length Groups",
+  "translatedTitle": "反转偶数长度组的节点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reverse-nodes-in-even-length-groups/",
+  "createdAt": "2026-08-11T20:05:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

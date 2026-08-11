@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1294,
+  "questionId": "1294",
+  "questionFrontendId": "2080",
+  "titleSlug": "range-frequency-queries",
+  "title": "Range Frequency Queries",
+  "translatedTitle": "区间内查询数字的频率",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/range-frequency-queries/",
+  "createdAt": "2026-08-11T20:05:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

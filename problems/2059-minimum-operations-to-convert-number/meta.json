@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2183,
+  "questionId": "2183",
+  "questionFrontendId": "2059",
+  "titleSlug": "minimum-operations-to-convert-number",
+  "title": "Minimum Operations to Convert Number",
+  "translatedTitle": "转化数字的最小运算数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-convert-number/",
+  "createdAt": "2026-08-11T20:05:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

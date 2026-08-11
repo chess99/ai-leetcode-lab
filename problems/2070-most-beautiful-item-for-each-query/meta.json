@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2179,
+  "questionId": "2179",
+  "questionFrontendId": "2070",
+  "titleSlug": "most-beautiful-item-for-each-query",
+  "title": "Most Beautiful Item for Each Query",
+  "translatedTitle": "每一个查询的最大美丽值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/most-beautiful-item-for-each-query/",
+  "createdAt": "2026-08-11T20:05:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

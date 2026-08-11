@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2216,
+  "questionId": "2216",
+  "questionFrontendId": "2095",
+  "titleSlug": "delete-the-middle-node-of-a-linked-list",
+  "title": "Delete the Middle Node of a Linked List",
+  "translatedTitle": "删除链表的中间节点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/",
+  "createdAt": "2026-08-11T20:05:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

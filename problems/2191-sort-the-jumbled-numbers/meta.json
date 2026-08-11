@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1333,
+  "questionId": "1333",
+  "questionFrontendId": "2191",
+  "titleSlug": "sort-the-jumbled-numbers",
+  "title": "Sort the Jumbled Numbers",
+  "translatedTitle": "将杂乱无章的数字排序",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-the-jumbled-numbers/",
+  "createdAt": "2026-08-11T20:05:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

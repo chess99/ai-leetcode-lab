@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2164,
+  "questionId": "2164",
+  "questionFrontendId": "2054",
+  "titleSlug": "two-best-non-overlapping-events",
+  "title": "Two Best Non-Overlapping Events",
+  "translatedTitle": "两个最好的不重叠活动",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/two-best-non-overlapping-events/",
+  "createdAt": "2026-08-11T20:05:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

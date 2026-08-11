@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2233,
+  "questionId": "2233",
+  "questionFrontendId": "2110",
+  "titleSlug": "number-of-smooth-descent-periods-of-a-stock",
+  "title": "Number of Smooth Descent Periods of a Stock",
+  "translatedTitle": "股票平滑下跌阶段的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-smooth-descent-periods-of-a-stock/",
+  "createdAt": "2026-08-11T20:05:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

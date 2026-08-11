@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2211,
+  "questionId": "2211",
+  "questionFrontendId": "2090",
+  "titleSlug": "k-radius-subarray-averages",
+  "title": "K Radius Subarray Averages",
+  "translatedTitle": "半径为 k 的子数组平均值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/k-radius-subarray-averages/",
+  "createdAt": "2026-08-11T20:05:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

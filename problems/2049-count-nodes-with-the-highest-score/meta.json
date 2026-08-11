@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2175,
+  "questionId": "2175",
+  "questionFrontendId": "2049",
+  "titleSlug": "count-nodes-with-the-highest-score",
+  "title": "Count Nodes With the Highest Score",
+  "translatedTitle": "统计最高分的节点数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-nodes-with-the-highest-score/",
+  "createdAt": "2026-08-11T20:05:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

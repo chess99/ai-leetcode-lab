@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2299,
+  "questionId": "2299",
+  "questionFrontendId": "2181",
+  "titleSlug": "merge-nodes-in-between-zeros",
+  "title": "Merge Nodes in Between Zeros",
+  "translatedTitle": "合并零之间的节点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/merge-nodes-in-between-zeros/",
+  "createdAt": "2026-08-11T20:05:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
