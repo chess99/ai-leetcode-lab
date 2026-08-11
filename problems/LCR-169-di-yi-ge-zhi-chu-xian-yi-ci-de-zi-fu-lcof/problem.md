@@ -1,0 +1,39 @@
+# LCR 169. 招式拆解 II
+
+- 难度：EASY
+- 标签：队列, 哈希表, 字符串, 计数
+- 来源：https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/
+- 归档：2026-08-11T15:45:39Z
+
+## 题目
+
+<p>某套连招动作记作仅由小写字母组成的序列 <code>arr</code>，其中 <code>arr[i]</code> 第 <code>i</code> 个招式的名字。请返回第一个只出现一次的招式名称，如不存在请返回空格。</p>
+
+<p>&nbsp;</p>
+
+<p><strong>示例 1：</strong></p>
+
+<pre>
+<strong>输入：</strong>arr = "abbccdeff"
+<strong>输出：</strong>'a'
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>arr = "ccdd"
+<strong>输出：</strong>' '
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>限制：</strong></p>
+
+<p><code>0 &lt;= arr.length&nbsp;&lt;= 50000</code></p>
+
+
+## 样例输入
+
+```text
+"abbccdeff"
+```
