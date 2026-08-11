@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2333,
+  "questionId": "2333",
+  "questionFrontendId": "2250",
+  "titleSlug": "count-number-of-rectangles-containing-each-point",
+  "title": "Count Number of Rectangles Containing Each Point",
+  "translatedTitle": "统计包含每个点的矩形数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-rectangles-containing-each-point/",
+  "createdAt": "2026-08-11T20:21:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

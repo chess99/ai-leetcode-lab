@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2428,
+  "questionId": "2428",
+  "questionFrontendId": "2352",
+  "titleSlug": "equal-row-and-column-pairs",
+  "title": "Equal Row and Column Pairs",
+  "translatedTitle": "相等行列对",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/equal-row-and-column-pairs/",
+  "createdAt": "2026-08-11T20:21:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

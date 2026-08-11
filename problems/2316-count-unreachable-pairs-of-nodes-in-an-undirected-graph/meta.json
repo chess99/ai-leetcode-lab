@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2403,
+  "questionId": "2403",
+  "questionFrontendId": "2316",
+  "titleSlug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+  "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+  "translatedTitle": "统计无向图中无法互相到达点对数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/",
+  "createdAt": "2026-08-11T20:21:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

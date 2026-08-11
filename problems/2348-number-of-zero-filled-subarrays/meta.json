@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2432,
+  "questionId": "2432",
+  "questionFrontendId": "2348",
+  "titleSlug": "number-of-zero-filled-subarrays",
+  "title": "Number of Zero-Filled Subarrays",
+  "translatedTitle": "全 0 子数组的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-zero-filled-subarrays/",
+  "createdAt": "2026-08-11T20:21:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

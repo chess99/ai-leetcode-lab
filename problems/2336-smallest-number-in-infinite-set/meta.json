@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2413,
+  "questionId": "2413",
+  "questionFrontendId": "2336",
+  "titleSlug": "smallest-number-in-infinite-set",
+  "title": "Smallest Number in Infinite Set",
+  "translatedTitle": "无限集中的最小数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-number-in-infinite-set/",
+  "createdAt": "2026-08-11T20:21:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

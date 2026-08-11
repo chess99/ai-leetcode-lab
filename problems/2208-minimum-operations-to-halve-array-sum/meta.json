@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2310,
+  "questionId": "2310",
+  "questionFrontendId": "2208",
+  "titleSlug": "minimum-operations-to-halve-array-sum",
+  "title": "Minimum Operations to Halve Array Sum",
+  "translatedTitle": "将数组和减半的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/",
+  "createdAt": "2026-08-11T20:21:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

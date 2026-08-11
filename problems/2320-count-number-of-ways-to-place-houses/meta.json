@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2397,
+  "questionId": "2397",
+  "questionFrontendId": "2320",
+  "titleSlug": "count-number-of-ways-to-place-houses",
+  "title": "Count Number of Ways to Place Houses",
+  "translatedTitle": "统计放置房子的方式数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-ways-to-place-houses/",
+  "createdAt": "2026-08-11T20:21:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

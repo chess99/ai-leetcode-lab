@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2305,
+  "questionId": "2305",
+  "questionFrontendId": "2195",
+  "titleSlug": "append-k-integers-with-minimal-sum",
+  "title": "Append K Integers With Minimal Sum",
+  "translatedTitle": "向数组中追加 K 个整数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/append-k-integers-with-minimal-sum/",
+  "createdAt": "2026-08-11T20:21:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

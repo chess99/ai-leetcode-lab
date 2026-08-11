@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2347,
+  "questionId": "2347",
+  "questionFrontendId": "2265",
+  "titleSlug": "count-nodes-equal-to-average-of-subtree",
+  "title": "Count Nodes Equal to Average of Subtree",
+  "translatedTitle": "统计值等于子树平均值的节点数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-nodes-equal-to-average-of-subtree/",
+  "createdAt": "2026-08-11T20:21:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

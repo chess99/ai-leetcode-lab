@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2356,
+  "questionId": "2356",
+  "questionFrontendId": "2275",
+  "titleSlug": "largest-combination-with-bitwise-and-greater-than-zero",
+  "title": "Largest Combination With Bitwise AND Greater Than Zero",
+  "translatedTitle": "按位与结果大于零的最长组合",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-combination-with-bitwise-and-greater-than-zero/",
+  "createdAt": "2026-08-11T20:21:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

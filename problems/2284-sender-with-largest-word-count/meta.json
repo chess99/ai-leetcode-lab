@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2378,
+  "questionId": "2378",
+  "questionFrontendId": "2284",
+  "titleSlug": "sender-with-largest-word-count",
+  "title": "Sender With Largest Word Count",
+  "translatedTitle": "最多单词数的发件人",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sender-with-largest-word-count/",
+  "createdAt": "2026-08-11T20:21:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

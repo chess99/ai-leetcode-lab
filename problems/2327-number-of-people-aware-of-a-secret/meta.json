@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2408,
+  "questionId": "2408",
+  "questionFrontendId": "2327",
+  "titleSlug": "number-of-people-aware-of-a-secret",
+  "title": "Number of People Aware of a Secret",
+  "translatedTitle": "知道秘密的人数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-people-aware-of-a-secret/",
+  "createdAt": "2026-08-11T20:21:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

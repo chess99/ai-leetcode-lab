@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2363,
+  "questionId": "2363",
+  "questionFrontendId": "2245",
+  "titleSlug": "maximum-trailing-zeros-in-a-cornered-path",
+  "title": "Maximum Trailing Zeros in a Cornered Path",
+  "translatedTitle": "转角路径的乘积中最多能有几个尾随零",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-trailing-zeros-in-a-cornered-path/",
+  "createdAt": "2026-08-11T20:21:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2342,
+  "questionId": "2342",
+  "questionFrontendId": "2256",
+  "titleSlug": "minimum-average-difference",
+  "title": "Minimum Average Difference",
+  "translatedTitle": "最小平均差",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-average-difference/",
+  "createdAt": "2026-08-11T20:21:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

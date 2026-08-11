@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2355,
+  "questionId": "2355",
+  "questionFrontendId": "2274",
+  "titleSlug": "maximum-consecutive-floors-without-special-floors",
+  "title": "Maximum Consecutive Floors Without Special Floors",
+  "translatedTitle": "不含特殊楼层的最大连续楼层数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-consecutive-floors-without-special-floors/",
+  "createdAt": "2026-08-11T20:21:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

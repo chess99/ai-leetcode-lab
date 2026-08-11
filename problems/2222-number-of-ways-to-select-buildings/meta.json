@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2325,
+  "questionId": "2325",
+  "questionFrontendId": "2222",
+  "titleSlug": "number-of-ways-to-select-buildings",
+  "title": "Number of Ways to Select Buildings",
+  "translatedTitle": "选择建筑的方案数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-select-buildings/",
+  "createdAt": "2026-08-11T20:21:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

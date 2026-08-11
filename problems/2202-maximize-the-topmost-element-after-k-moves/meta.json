@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1346,
+  "questionId": "1346",
+  "questionFrontendId": "2202",
+  "titleSlug": "maximize-the-topmost-element-after-k-moves",
+  "title": "Maximize the Topmost Element After K Moves",
+  "translatedTitle": "K 次操作后最大化顶端元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-the-topmost-element-after-k-moves/",
+  "createdAt": "2026-08-11T20:21:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

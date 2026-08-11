@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2387,
+  "questionId": "2387",
+  "questionFrontendId": "2294",
+  "titleSlug": "partition-array-such-that-maximum-difference-is-k",
+  "title": "Partition Array Such That Maximum Difference Is K",
+  "translatedTitle": "划分数组使最大差为 K",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-array-such-that-maximum-difference-is-k/",
+  "createdAt": "2026-08-11T20:21:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

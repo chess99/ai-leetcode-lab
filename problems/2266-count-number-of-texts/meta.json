@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2348,
+  "questionId": "2348",
+  "questionFrontendId": "2266",
+  "titleSlug": "count-number-of-texts",
+  "title": "Count Number of Texts",
+  "translatedTitle": "统计打字方案数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-texts/",
+  "createdAt": "2026-08-11T20:21:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

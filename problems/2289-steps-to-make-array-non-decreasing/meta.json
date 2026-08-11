@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2374,
+  "questionId": "2374",
+  "questionFrontendId": "2289",
+  "titleSlug": "steps-to-make-array-non-decreasing",
+  "title": "Steps to Make Array Non-decreasing",
+  "translatedTitle": "使数组按非递减顺序排列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/steps-to-make-array-non-decreasing/",
+  "createdAt": "2026-08-11T20:21:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

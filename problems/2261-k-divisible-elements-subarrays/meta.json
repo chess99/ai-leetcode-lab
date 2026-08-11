@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2339,
+  "questionId": "2339",
+  "questionFrontendId": "2261",
+  "titleSlug": "k-divisible-elements-subarrays",
+  "title": "K Divisible Elements Subarrays",
+  "translatedTitle": "含最多 K 个可整除元素的子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/k-divisible-elements-subarrays/",
+  "createdAt": "2026-08-11T20:21:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

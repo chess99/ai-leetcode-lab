@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2332,
+  "questionId": "2332",
+  "questionFrontendId": "2249",
+  "titleSlug": "count-lattice-points-inside-a-circle",
+  "title": "Count Lattice Points Inside a Circle",
+  "translatedTitle": "统计圆内格点数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-lattice-points-inside-a-circle/",
+  "createdAt": "2026-08-11T20:21:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2367,
+  "questionId": "2367",
+  "questionFrontendId": "2280",
+  "titleSlug": "minimum-lines-to-represent-a-line-chart",
+  "title": "Minimum Lines to Represent a Line Chart",
+  "translatedTitle": "表示一个折线图的最少线段数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-lines-to-represent-a-line-chart/",
+  "createdAt": "2026-08-11T20:21:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

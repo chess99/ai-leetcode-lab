@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2306,
+  "questionId": "2306",
+  "questionFrontendId": "2196",
+  "titleSlug": "create-binary-tree-from-descriptions",
+  "title": "Create Binary Tree From Descriptions",
+  "translatedTitle": "根据描述创建二叉树",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/create-binary-tree-from-descriptions/",
+  "createdAt": "2026-08-11T20:21:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2338,
+  "questionId": "2338",
+  "questionFrontendId": "2260",
+  "titleSlug": "minimum-consecutive-cards-to-pick-up",
+  "title": "Minimum Consecutive Cards to Pick Up",
+  "translatedTitle": "必须拿起的最小连续卡牌数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-consecutive-cards-to-pick-up/",
+  "createdAt": "2026-08-11T20:21:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

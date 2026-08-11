@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2418,
+  "questionId": "2418",
+  "questionFrontendId": "2333",
+  "titleSlug": "minimum-sum-of-squared-difference",
+  "title": "Minimum Sum of Squared Difference",
+  "translatedTitle": "最小差值平方和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-sum-of-squared-difference/",
+  "createdAt": "2026-08-11T20:21:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1375,
+  "questionId": "1375",
+  "questionFrontendId": "2217",
+  "titleSlug": "find-palindrome-with-fixed-length",
+  "title": "Find Palindrome With Fixed Length",
+  "translatedTitle": "找到指定长度的回文数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-palindrome-with-fixed-length/",
+  "createdAt": "2026-08-11T20:21:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

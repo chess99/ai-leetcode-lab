@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2373,
+  "questionId": "2373",
+  "questionFrontendId": "2288",
+  "titleSlug": "apply-discount-to-prices",
+  "title": "Apply Discount to Prices",
+  "translatedTitle": "价格减免",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/apply-discount-to-prices/",
+  "createdAt": "2026-08-11T20:21:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

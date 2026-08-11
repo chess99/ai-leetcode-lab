@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2343,
+  "questionId": "2343",
+  "questionFrontendId": "2257",
+  "titleSlug": "count-unguarded-cells-in-the-grid",
+  "title": "Count Unguarded Cells in the Grid",
+  "translatedTitle": "统计网格图中没有被保卫的格子数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-unguarded-cells-in-the-grid/",
+  "createdAt": "2026-08-11T20:21:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

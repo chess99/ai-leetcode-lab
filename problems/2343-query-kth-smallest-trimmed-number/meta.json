@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2422,
+  "questionId": "2422",
+  "questionFrontendId": "2343",
+  "titleSlug": "query-kth-smallest-trimmed-number",
+  "title": "Query Kth Smallest Trimmed Number",
+  "translatedTitle": "裁剪数字后查询第 K 小的数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/query-kth-smallest-trimmed-number/",
+  "createdAt": "2026-08-11T20:21:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
