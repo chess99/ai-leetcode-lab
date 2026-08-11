@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1585,
+  "questionId": "1585",
+  "questionFrontendId": "1492",
+  "titleSlug": "the-kth-factor-of-n",
+  "title": "The kth Factor of n",
+  "translatedTitle": "n 的第 k 个因子",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/the-kth-factor-of-n/",
+  "createdAt": "2026-08-11T18:53:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

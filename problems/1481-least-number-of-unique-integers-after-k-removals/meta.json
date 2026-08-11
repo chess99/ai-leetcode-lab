@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1604,
+  "questionId": "1604",
+  "questionFrontendId": "1481",
+  "titleSlug": "least-number-of-unique-integers-after-k-removals",
+  "title": "Least Number of Unique Integers after K Removals",
+  "translatedTitle": "不同整数的最少数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/least-number-of-unique-integers-after-k-removals/",
+  "createdAt": "2026-08-11T18:53:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

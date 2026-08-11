@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1615,
+  "questionId": "1615",
+  "questionFrontendId": "1508",
+  "titleSlug": "range-sum-of-sorted-subarray-sums",
+  "title": "Range Sum of Sorted Subarray Sums",
+  "translatedTitle": "子数组和排序后的区间和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/",
+  "createdAt": "2026-08-11T18:54:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

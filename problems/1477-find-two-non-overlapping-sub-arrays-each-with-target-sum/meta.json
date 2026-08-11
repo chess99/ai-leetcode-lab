@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1573,
+  "questionId": "1573",
+  "questionFrontendId": "1477",
+  "titleSlug": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+  "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+  "translatedTitle": "找两个和为目标值且不重叠的子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/",
+  "createdAt": "2026-08-11T18:53:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

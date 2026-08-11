@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1667,
+  "questionId": "1667",
+  "questionFrontendId": "1545",
+  "titleSlug": "find-kth-bit-in-nth-binary-string",
+  "title": "Find Kth Bit in Nth Binary String",
+  "translatedTitle": "找出第 N 个二进制字符串中的第 K 位",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-kth-bit-in-nth-binary-string/",
+  "createdAt": "2026-08-11T18:56:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

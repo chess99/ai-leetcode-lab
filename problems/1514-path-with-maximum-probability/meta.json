@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1325,
+  "questionId": "1325",
+  "questionFrontendId": "1514",
+  "titleSlug": "path-with-maximum-probability",
+  "title": "Path with Maximum Probability",
+  "translatedTitle": "概率最大的路径",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/path-with-maximum-probability/",
+  "createdAt": "2026-08-11T18:55:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

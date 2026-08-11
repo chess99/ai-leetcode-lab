@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1620,
+  "questionId": "1620",
+  "questionFrontendId": "1497",
+  "titleSlug": "check-if-array-pairs-are-divisible-by-k",
+  "title": "Check If Array Pairs Are Divisible by k",
+  "translatedTitle": "检查数组对是否可以被 k 整除",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-array-pairs-are-divisible-by-k/",
+  "createdAt": "2026-08-11T18:53:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

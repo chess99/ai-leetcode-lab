@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1658,
+  "questionId": "1658",
+  "questionFrontendId": "1536",
+  "titleSlug": "minimum-swaps-to-arrange-a-binary-grid",
+  "title": "Minimum Swaps to Arrange a Binary Grid",
+  "translatedTitle": "排布二进制网格的最少交换次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-swaps-to-arrange-a-binary-grid/",
+  "createdAt": "2026-08-11T18:55:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

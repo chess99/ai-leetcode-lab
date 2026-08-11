@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1632,
+  "questionId": "1632",
+  "questionFrontendId": "1525",
+  "titleSlug": "number-of-good-ways-to-split-a-string",
+  "title": "Number of Good Ways to Split a String",
+  "translatedTitle": "字符串的好分割数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-good-ways-to-split-a-string/",
+  "createdAt": "2026-08-11T18:55:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1649,
+  "questionId": "1649",
+  "questionFrontendId": "1546",
+  "titleSlug": "maximum-number-of-non-overlapping-subarrays-with-sum-equals-target",
+  "title": "Maximum Number of Non-Overlapping Subarrays With Sum Equals Target",
+  "translatedTitle": "和为目标值且不重叠的非空子数组的最大数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/",
+  "createdAt": "2026-08-11T18:56:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

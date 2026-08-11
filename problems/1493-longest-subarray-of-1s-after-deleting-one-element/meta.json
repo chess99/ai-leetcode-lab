@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1586,
+  "questionId": "1586",
+  "questionFrontendId": "1493",
+  "titleSlug": "longest-subarray-of-1s-after-deleting-one-element",
+  "title": "Longest Subarray of 1's After Deleting One Element",
+  "translatedTitle": "删掉一个元素以后全为 1 的最长子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/",
+  "createdAt": "2026-08-11T18:53:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

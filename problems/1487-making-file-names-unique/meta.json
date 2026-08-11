@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1611,
+  "questionId": "1611",
+  "questionFrontendId": "1487",
+  "titleSlug": "making-file-names-unique",
+  "title": "Making File Names Unique",
+  "translatedTitle": "保证文件名唯一",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/making-file-names-unique/",
+  "createdAt": "2026-08-11T18:53:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

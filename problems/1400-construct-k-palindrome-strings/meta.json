@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1502,
+  "questionId": "1502",
+  "questionFrontendId": "1400",
+  "titleSlug": "construct-k-palindrome-strings",
+  "title": "Construct K Palindrome Strings",
+  "translatedTitle": "构造 K 个回文字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/construct-k-palindrome-strings/",
+  "createdAt": "2026-08-11T18:49:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

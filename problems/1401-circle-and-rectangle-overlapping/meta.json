@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1501,
+  "questionId": "1501",
+  "questionFrontendId": "1401",
+  "titleSlug": "circle-and-rectangle-overlapping",
+  "title": "Circle and Rectangle Overlapping",
+  "translatedTitle": "圆和矩形是否有重叠",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/circle-and-rectangle-overlapping/",
+  "createdAt": "2026-08-11T18:49:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

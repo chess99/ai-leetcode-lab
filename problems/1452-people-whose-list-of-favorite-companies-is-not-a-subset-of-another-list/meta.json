@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1562,
+  "questionId": "1562",
+  "questionFrontendId": "1452",
+  "titleSlug": "people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+  "title": "People Whose List of Favorite Companies Is Not a Subset of Another List",
+  "translatedTitle": "收藏清单",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/",
+  "createdAt": "2026-08-11T18:51:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
