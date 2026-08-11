@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 455,
+  "questionId": "455",
+  "questionFrontendId": "455",
+  "titleSlug": "assign-cookies",
+  "title": "Assign Cookies",
+  "translatedTitle": "分发饼干",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/assign-cookies/",
+  "createdAt": "2026-08-11T10:38:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

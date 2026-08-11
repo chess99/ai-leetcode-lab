@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import tempfile
 import threading
+import time
 import unittest
 from pathlib import Path
 
@@ -120,6 +121,14 @@ class RunnerTests(unittest.TestCase):
                 self.assertTrue(second.acquired)
         finally:
             release.join()
+
+    def test_remote_lock_honors_registered_backoff(self) -> None:
+        with RemoteActionLock(self.root, min_interval_seconds=0) as first:
+            first.register_backoff(0.05)
+        started = time.monotonic()
+        with RemoteActionLock(self.root, min_interval_seconds=0):
+            pass
+        self.assertGreaterEqual(time.monotonic() - started, 0.04)
 
 
 if __name__ == "__main__":

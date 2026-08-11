@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 520,
+  "questionId": "520",
+  "questionFrontendId": "520",
+  "titleSlug": "detect-capital",
+  "title": "Detect Capital",
+  "translatedTitle": "检测大写字母",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/detect-capital/",
+  "createdAt": "2026-08-11T10:43:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

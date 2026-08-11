@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1013,
+  "questionId": "1013",
+  "questionFrontendId": "509",
+  "titleSlug": "fibonacci-number",
+  "title": "Fibonacci Number",
+  "translatedTitle": "斐波那契数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/fibonacci-number/",
+  "createdAt": "2026-08-11T10:42:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

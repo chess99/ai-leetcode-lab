@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 500,
+  "questionId": "500",
+  "questionFrontendId": "500",
+  "titleSlug": "keyboard-row",
+  "title": "Keyboard Row",
+  "translatedTitle": "键盘行",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/keyboard-row/",
+  "createdAt": "2026-08-11T10:39:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

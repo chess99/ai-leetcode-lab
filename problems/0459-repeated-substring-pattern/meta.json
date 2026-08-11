@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 459,
+  "questionId": "459",
+  "questionFrontendId": "459",
+  "titleSlug": "repeated-substring-pattern",
+  "title": "Repeated Substring Pattern",
+  "translatedTitle": "重复的子字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/repeated-substring-pattern/",
+  "createdAt": "2026-08-11T10:39:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 463,
+  "questionId": "463",
+  "questionFrontendId": "463",
+  "titleSlug": "island-perimeter",
+  "title": "Island Perimeter",
+  "translatedTitle": "岛屿的周长",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/island-perimeter/",
+  "createdAt": "2026-08-11T10:40:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

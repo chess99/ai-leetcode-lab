@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 404,
+  "questionId": "404",
+  "questionFrontendId": "404",
+  "titleSlug": "sum-of-left-leaves",
+  "title": "Sum of Left Leaves",
+  "translatedTitle": "左叶子之和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-left-leaves/",
+  "createdAt": "2026-08-11T10:37:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

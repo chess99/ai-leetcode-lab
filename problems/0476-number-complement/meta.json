@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 476,
+  "questionId": "476",
+  "questionFrontendId": "476",
+  "titleSlug": "number-complement",
+  "title": "Number Complement",
+  "translatedTitle": "数字的补数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-complement/",
+  "createdAt": "2026-08-11T10:40:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

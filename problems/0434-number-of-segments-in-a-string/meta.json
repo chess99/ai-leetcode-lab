@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 434,
+  "questionId": "434",
+  "questionFrontendId": "434",
+  "titleSlug": "number-of-segments-in-a-string",
+  "title": "Number of Segments in a String",
+  "translatedTitle": "字符串中的单词数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-segments-in-a-string/",
+  "createdAt": "2026-08-11T10:37:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 461,
+  "questionId": "461",
+  "questionFrontendId": "461",
+  "titleSlug": "hamming-distance",
+  "title": "Hamming Distance",
+  "translatedTitle": "汉明距离",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/hamming-distance/",
+  "createdAt": "2026-08-11T10:39:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

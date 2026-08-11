@@ -46,6 +46,7 @@ class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
     ):
         self.path = root / ".runtime" / "remote-action.lock"
         self.last_action_path = root / ".runtime" / "last-remote-action.json"
+        self.backoff_path = root / ".runtime" / "remote-backoff.json"
         self.stale_seconds = stale_seconds
         self.wait_seconds = wait_seconds
         self.poll_seconds = poll_seconds
@@ -87,6 +88,13 @@ class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
             finally:
                 os.close(descriptor)
             try:
+                backoff = json.loads(self.backoff_path.read_text(encoding="utf-8"))
+                backoff_seconds = float(backoff.get("untilUnix", 0)) - time.time()
+            except (FileNotFoundError, json.JSONDecodeError, OSError, TypeError, ValueError):
+                backoff_seconds = 0
+            if backoff_seconds > 0:
+                time.sleep(backoff_seconds)
+            try:
                 previous = json.loads(self.last_action_path.read_text(encoding="utf-8"))
                 since_previous = time.time() - float(previous.get("unixTime", 0))
             except (FileNotFoundError, json.JSONDecodeError, OSError, TypeError, ValueError):
@@ -100,6 +108,16 @@ class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
             )
             self.acquired = True
             return self
+
+    def register_backoff(self, seconds: float = 30) -> None:
+        atomic_write_json(
+            self.backoff_path,
+            {
+                "untilUnix": time.time() + seconds,
+                "registeredAt": utc_now(),
+                "reason": "LeetCode HTTP 429",
+            },
+        )
 
     def __exit__(self, exc_type: object, exc_value: object, traceback: object) -> None:
         if self.acquired and self.path.exists():
@@ -157,7 +175,7 @@ def run_remote_test(
     if not sample:
         raise ArchiveError("缺少测试输入；请使用 --input 或 --input-file")
 
-    with RemoteActionLock(root):
+    with RemoteActionLock(root) as remote_lock:
         working_problem = {**problem, "questionId": meta["questionId"]}
         events.ensure_profile_started(working_problem, language, identity)
         reservation = events.reserve_action(
@@ -196,6 +214,8 @@ def run_remote_test(
                 expected_result=_safe_judge_result(expected) if expected else None,
             )
         except ApiError as exc:
+            if "HTTP 429" in str(exc):
+                remote_lock.register_backoff()
             events.append(
                 "remote_test_result",
                 action_id=reservation["action_id"],
@@ -226,7 +246,7 @@ def submit_solution(
     problem, meta, _, code = _working_problem(selector, root)
     code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
     language = str(meta["language"])
-    with RemoteActionLock(root):
+    with RemoteActionLock(root) as remote_lock:
         working_problem = {**problem, "questionId": meta["questionId"]}
         events.ensure_profile_started(working_problem, language, identity)
         reservation = events.reserve_action(
@@ -262,6 +282,8 @@ def submit_solution(
                 result=_safe_judge_result(raw),
             )
         except ApiError as exc:
+            if "HTTP 429" in str(exc):
+                remote_lock.register_backoff()
             events.append(
                 "submission_result",
                 action_id=reservation["action_id"],
