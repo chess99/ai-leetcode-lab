@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 494,
+  "questionId": "494",
+  "questionFrontendId": "494",
+  "titleSlug": "target-sum",
+  "title": "Target Sum",
+  "translatedTitle": "目标和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/target-sum/",
+  "createdAt": "2026-08-11T17:11:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

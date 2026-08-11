@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 915,
+  "questionId": "915",
+  "questionFrontendId": "478",
+  "titleSlug": "generate-random-point-in-a-circle",
+  "title": "Generate Random Point in a Circle",
+  "translatedTitle": "在圆内随机生成点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/generate-random-point-in-a-circle/",
+  "createdAt": "2026-08-11T17:10:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

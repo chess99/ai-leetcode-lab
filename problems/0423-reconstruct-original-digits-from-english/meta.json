@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 423,
+  "questionId": "423",
+  "questionFrontendId": "423",
+  "titleSlug": "reconstruct-original-digits-from-english",
+  "title": "Reconstruct Original Digits from English",
+  "translatedTitle": "从英文中重建数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reconstruct-original-digits-from-english/",
+  "createdAt": "2026-08-11T17:03:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

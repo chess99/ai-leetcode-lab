@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 513,
+  "questionId": "513",
+  "questionFrontendId": "513",
+  "titleSlug": "find-bottom-left-tree-value",
+  "title": "Find Bottom Left Tree Value",
+  "translatedTitle": "找树左下角的值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-bottom-left-tree-value/",
+  "createdAt": "2026-08-11T17:13:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

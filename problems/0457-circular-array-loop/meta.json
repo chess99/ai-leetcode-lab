@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 457,
+  "questionId": "457",
+  "questionFrontendId": "457",
+  "titleSlug": "circular-array-loop",
+  "title": "Circular Array Loop",
+  "translatedTitle": "环形数组是否存在循环",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/circular-array-loop/",
+  "createdAt": "2026-08-11T17:06:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

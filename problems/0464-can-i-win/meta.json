@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 464,
+  "questionId": "464",
+  "questionFrontendId": "464",
+  "titleSlug": "can-i-win",
+  "title": "Can I Win",
+  "translatedTitle": "我能赢吗",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/can-i-win/",
+  "createdAt": "2026-08-11T17:06:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

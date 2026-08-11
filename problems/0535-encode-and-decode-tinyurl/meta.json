@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 535,
+  "questionId": "535",
+  "questionFrontendId": "535",
+  "titleSlug": "encode-and-decode-tinyurl",
+  "title": "Encode and Decode TinyURL",
+  "translatedTitle": "TinyURL 的加密与解密",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/encode-and-decode-tinyurl/",
+  "createdAt": "2026-08-11T17:14:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 764,
+  "questionId": "764",
+  "questionFrontendId": "429",
+  "titleSlug": "n-ary-tree-level-order-traversal",
+  "title": "N-ary Tree Level Order Traversal",
+  "translatedTitle": "N 叉树的层序遍历",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/n-ary-tree-level-order-traversal/",
+  "createdAt": "2026-08-11T17:03:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

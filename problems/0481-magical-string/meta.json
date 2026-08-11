@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 481,
+  "questionId": "481",
+  "questionFrontendId": "481",
+  "titleSlug": "magical-string",
+  "title": "Magical String",
+  "translatedTitle": "神奇字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/magical-string/",
+  "createdAt": "2026-08-11T17:10:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

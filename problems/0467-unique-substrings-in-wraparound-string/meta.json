@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 467,
+  "questionId": "467",
+  "questionFrontendId": "467",
+  "titleSlug": "unique-substrings-in-wraparound-string",
+  "title": "Unique Substrings in Wraparound String",
+  "translatedTitle": "环绕字符串中唯一的子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/unique-substrings-in-wraparound-string/",
+  "createdAt": "2026-08-11T17:08:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

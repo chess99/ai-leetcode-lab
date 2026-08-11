@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 421,
+  "questionId": "421",
+  "questionFrontendId": "421",
+  "titleSlug": "maximum-xor-of-two-numbers-in-an-array",
+  "title": "Maximum XOR of Two Numbers in an Array",
+  "translatedTitle": "数组中两个数的最大异或值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/",
+  "createdAt": "2026-08-11T17:03:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

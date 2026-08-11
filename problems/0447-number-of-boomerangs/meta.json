@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 447,
+  "questionId": "447",
+  "questionFrontendId": "447",
+  "titleSlug": "number-of-boomerangs",
+  "title": "Number of Boomerangs",
+  "translatedTitle": "回旋镖的数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-boomerangs/",
+  "createdAt": "2026-08-11T17:03:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

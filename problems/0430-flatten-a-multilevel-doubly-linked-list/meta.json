@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 766,
+  "questionId": "766",
+  "questionFrontendId": "430",
+  "titleSlug": "flatten-a-multilevel-doubly-linked-list",
+  "title": "Flatten a Multilevel Doubly Linked List",
+  "translatedTitle": "扁平化多级双向链表",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/",
+  "createdAt": "2026-08-11T17:03:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

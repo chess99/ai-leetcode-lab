@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 486,
+  "questionId": "486",
+  "questionFrontendId": "486",
+  "titleSlug": "predict-the-winner",
+  "title": "Predict the Winner",
+  "translatedTitle": "预测赢家",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/predict-the-winner/",
+  "createdAt": "2026-08-11T17:10:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

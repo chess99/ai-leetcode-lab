@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 451,
+  "questionId": "451",
+  "questionFrontendId": "451",
+  "titleSlug": "sort-characters-by-frequency",
+  "title": "Sort Characters By Frequency",
+  "translatedTitle": "根据字符出现频率排序",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-characters-by-frequency/",
+  "createdAt": "2026-08-11T17:05:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

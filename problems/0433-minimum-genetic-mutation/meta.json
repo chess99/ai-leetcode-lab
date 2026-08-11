@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 433,
+  "questionId": "433",
+  "questionFrontendId": "433",
+  "titleSlug": "minimum-genetic-mutation",
+  "title": "Minimum Genetic Mutation",
+  "translatedTitle": "最小基因变化",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-genetic-mutation/",
+  "createdAt": "2026-08-11T17:03:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 524,
+  "questionId": "524",
+  "questionFrontendId": "524",
+  "titleSlug": "longest-word-in-dictionary-through-deleting",
+  "title": "Longest Word in Dictionary through Deleting",
+  "translatedTitle": "通过删除字母匹配到字典里最长单词",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/",
+  "createdAt": "2026-08-11T17:13:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 913,
+  "questionId": "913",
+  "questionFrontendId": "519",
+  "titleSlug": "random-flip-matrix",
+  "title": "Random Flip Matrix",
+  "translatedTitle": "随机翻转矩阵",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/random-flip-matrix/",
+  "createdAt": "2026-08-11T17:13:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 515,
+  "questionId": "515",
+  "questionFrontendId": "515",
+  "titleSlug": "find-largest-value-in-each-tree-row",
+  "title": "Find Largest Value in Each Tree Row",
+  "translatedTitle": "在每个树行中找最大值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-largest-value-in-each-tree-row/",
+  "createdAt": "2026-08-11T17:13:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
