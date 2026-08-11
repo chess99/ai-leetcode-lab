@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1915,
+  "questionId": "1915",
+  "questionFrontendId": "1790",
+  "titleSlug": "check-if-one-string-swap-can-make-strings-equal",
+  "title": "Check if One String Swap Can Make Strings Equal",
+  "translatedTitle": "仅执行一次字符串交换能否使两个字符串相等",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/",
+  "createdAt": "2026-08-11T12:31:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

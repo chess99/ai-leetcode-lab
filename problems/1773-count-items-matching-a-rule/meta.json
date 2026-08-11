@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1899,
+  "questionId": "1899",
+  "questionFrontendId": "1773",
+  "titleSlug": "count-items-matching-a-rule",
+  "title": "Count Items Matching a Rule",
+  "translatedTitle": "统计匹配检索规则的物品数量",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-items-matching-a-rule/",
+  "createdAt": "2026-08-11T12:35:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

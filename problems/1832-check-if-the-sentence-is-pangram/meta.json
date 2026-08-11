@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1960,
+  "questionId": "1960",
+  "questionFrontendId": "1832",
+  "titleSlug": "check-if-the-sentence-is-pangram",
+  "title": "Check if the Sentence Is Pangram",
+  "translatedTitle": "判断句子是否为全字母句",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-the-sentence-is-pangram/",
+  "createdAt": "2026-08-11T12:39:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

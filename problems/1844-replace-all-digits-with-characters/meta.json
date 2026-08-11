@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1954,
+  "questionId": "1954",
+  "questionFrontendId": "1844",
+  "titleSlug": "replace-all-digits-with-characters",
+  "title": "Replace All Digits with Characters",
+  "translatedTitle": "将所有数字用字符替换",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/replace-all-digits-with-characters/",
+  "createdAt": "2026-08-11T12:39:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1884,
+  "questionId": "1884",
+  "questionFrontendId": "1758",
+  "titleSlug": "minimum-changes-to-make-alternating-binary-string",
+  "title": "Minimum Changes To Make Alternating Binary String",
+  "translatedTitle": "生成交替二进制字符串的最少操作数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/",
+  "createdAt": "2026-08-11T12:31:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

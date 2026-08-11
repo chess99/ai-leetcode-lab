@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1878,
+  "questionId": "1878",
+  "questionFrontendId": "1752",
+  "titleSlug": "check-if-array-is-sorted-and-rotated",
+  "title": "Check if Array Is Sorted and Rotated",
+  "translatedTitle": "检查数组是否经排序和轮转得到",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/",
+  "createdAt": "2026-08-11T12:31:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

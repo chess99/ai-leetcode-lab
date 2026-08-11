@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1888,
+  "questionId": "1888",
+  "questionFrontendId": "1779",
+  "titleSlug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+  "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+  "translatedTitle": "找到最近的有相同 X 或 Y 坐标的点",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/",
+  "createdAt": "2026-08-11T12:31:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

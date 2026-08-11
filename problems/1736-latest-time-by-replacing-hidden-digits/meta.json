@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1858,
+  "questionId": "1858",
+  "questionFrontendId": "1736",
+  "titleSlug": "latest-time-by-replacing-hidden-digits",
+  "title": "Latest Time by Replacing Hidden Digits",
+  "translatedTitle": "替换隐藏数字得到的最晚时间",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/latest-time-by-replacing-hidden-digits/",
+  "createdAt": "2026-08-11T12:31:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

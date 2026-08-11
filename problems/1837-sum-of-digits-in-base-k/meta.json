@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1965,
+  "questionId": "1965",
+  "questionFrontendId": "1837",
+  "titleSlug": "sum-of-digits-in-base-k",
+  "title": "Sum of Digits in Base K",
+  "translatedTitle": "K 进制表示下的各位数字总和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-digits-in-base-k/",
+  "createdAt": "2026-08-11T12:32:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

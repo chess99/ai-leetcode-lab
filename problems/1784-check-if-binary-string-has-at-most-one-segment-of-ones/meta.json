@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1910,
+  "questionId": "1910",
+  "questionFrontendId": "1784",
+  "titleSlug": "check-if-binary-string-has-at-most-one-segment-of-ones",
+  "title": "Check if Binary String Has at Most One Segment of Ones",
+  "translatedTitle": "检查二进制字符串字段",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/",
+  "createdAt": "2026-08-11T12:31:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

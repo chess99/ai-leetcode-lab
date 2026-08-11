@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1908,
+  "questionId": "1908",
+  "questionFrontendId": "1757",
+  "titleSlug": "recyclable-and-low-fat-products",
+  "title": "Recyclable and Low Fat Products",
+  "translatedTitle": "可回收且低脂的产品",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/recyclable-and-low-fat-products/",
+  "createdAt": "2026-08-11T12:31:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

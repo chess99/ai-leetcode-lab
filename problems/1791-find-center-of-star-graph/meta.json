@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1916,
+  "questionId": "1916",
+  "questionFrontendId": "1791",
+  "titleSlug": "find-center-of-star-graph",
+  "title": "Find Center of Star Graph",
+  "translatedTitle": "找出星型图的中心节点",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-center-of-star-graph/",
+  "createdAt": "2026-08-11T12:31:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

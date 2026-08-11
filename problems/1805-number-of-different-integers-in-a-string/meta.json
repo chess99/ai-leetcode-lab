@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1933,
+  "questionId": "1933",
+  "questionFrontendId": "1805",
+  "titleSlug": "number-of-different-integers-in-a-string",
+  "title": "Number of Different Integers in a String",
+  "translatedTitle": "字符串中不同整数的数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-different-integers-in-a-string/",
+  "createdAt": "2026-08-11T12:37:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

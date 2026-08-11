@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1920,
+  "questionId": "1920",
+  "questionFrontendId": "1812",
+  "titleSlug": "determine-color-of-a-chessboard-square",
+  "title": "Determine Color of a Chessboard Square",
+  "translatedTitle": "判断国际象棋棋盘中一个格子的颜色",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/determine-color-of-a-chessboard-square/",
+  "createdAt": "2026-08-11T12:37:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

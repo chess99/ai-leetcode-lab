@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1944,
+  "questionId": "1944",
+  "questionFrontendId": "1816",
+  "titleSlug": "truncate-sentence",
+  "title": "Truncate Sentence",
+  "translatedTitle": "截断句子",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/truncate-sentence/",
+  "createdAt": "2026-08-11T12:37:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

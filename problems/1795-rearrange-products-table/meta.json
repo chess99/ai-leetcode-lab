@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1948,
+  "questionId": "1948",
+  "questionFrontendId": "1795",
+  "titleSlug": "rearrange-products-table",
+  "title": "Rearrange Products Table",
+  "translatedTitle": "每个产品在不同商店的价格",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/rearrange-products-table/",
+  "createdAt": "2026-08-11T12:38:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

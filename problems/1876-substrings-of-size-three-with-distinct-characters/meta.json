@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1987,
+  "questionId": "1987",
+  "questionFrontendId": "1876",
+  "titleSlug": "substrings-of-size-three-with-distinct-characters",
+  "title": "Substrings of Size Three with Distinct Characters",
+  "translatedTitle": "长度为三且各字符不同的子字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/substrings-of-size-three-with-distinct-characters/",
+  "createdAt": "2026-08-11T12:32:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
