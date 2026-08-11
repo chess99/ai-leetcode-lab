@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 560,
+  "questionId": "560",
+  "questionFrontendId": "560",
+  "titleSlug": "subarray-sum-equals-k",
+  "title": "Subarray Sum Equals K",
+  "translatedTitle": "和为 K 的子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/subarray-sum-equals-k/",
+  "createdAt": "2026-08-11T17:24:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

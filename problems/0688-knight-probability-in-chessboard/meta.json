@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 688,
+  "questionId": "688",
+  "questionFrontendId": "688",
+  "titleSlug": "knight-probability-in-chessboard",
+  "title": "Knight Probability in Chessboard",
+  "translatedTitle": "骑士在棋盘上的概率",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/knight-probability-in-chessboard/",
+  "createdAt": "2026-08-11T17:31:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 659,
+  "questionId": "659",
+  "questionFrontendId": "659",
+  "titleSlug": "split-array-into-consecutive-subsequences",
+  "title": "Split Array into Consecutive Subsequences",
+  "translatedTitle": "分割数组为连续子序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/split-array-into-consecutive-subsequences/",
+  "createdAt": "2026-08-11T17:29:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

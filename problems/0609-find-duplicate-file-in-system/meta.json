@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 609,
+  "questionId": "609",
+  "questionFrontendId": "609",
+  "titleSlug": "find-duplicate-file-in-system",
+  "title": "Find Duplicate File in System",
+  "translatedTitle": "在系统中查找重复文件",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-duplicate-file-in-system/",
+  "createdAt": "2026-08-11T17:24:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

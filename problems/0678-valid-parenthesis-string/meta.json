@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 678,
+  "questionId": "678",
+  "questionFrontendId": "678",
+  "titleSlug": "valid-parenthesis-string",
+  "title": "Valid Parenthesis String",
+  "translatedTitle": "有效的括号字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/valid-parenthesis-string/",
+  "createdAt": "2026-08-11T17:30:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

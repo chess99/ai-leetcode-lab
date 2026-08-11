@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 712,
+  "questionId": "712",
+  "questionFrontendId": "712",
+  "titleSlug": "minimum-ascii-delete-sum-for-two-strings",
+  "title": "Minimum ASCII Delete Sum for Two Strings",
+  "translatedTitle": "两个字符串的最小ASCII删除和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-ascii-delete-sum-for-two-strings/",
+  "createdAt": "2026-08-11T17:33:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

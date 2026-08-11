@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 567,
+  "questionId": "567",
+  "questionFrontendId": "567",
+  "titleSlug": "permutation-in-string",
+  "title": "Permutation in String",
+  "translatedTitle": "字符串的排列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/permutation-in-string/",
+  "createdAt": "2026-08-11T17:24:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

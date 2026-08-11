@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 652,
+  "questionId": "652",
+  "questionFrontendId": "652",
+  "titleSlug": "find-duplicate-subtrees",
+  "title": "Find Duplicate Subtrees",
+  "translatedTitle": "寻找重复的子树",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-duplicate-subtrees/",
+  "createdAt": "2026-08-11T17:29:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

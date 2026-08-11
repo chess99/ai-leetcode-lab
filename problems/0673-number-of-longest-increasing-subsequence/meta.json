@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 673,
+  "questionId": "673",
+  "questionFrontendId": "673",
+  "titleSlug": "number-of-longest-increasing-subsequence",
+  "title": "Number of Longest Increasing Subsequence",
+  "translatedTitle": "最长递增子序列的个数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-longest-increasing-subsequence/",
+  "createdAt": "2026-08-11T17:30:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

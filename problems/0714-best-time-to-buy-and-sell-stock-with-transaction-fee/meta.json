@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 714,
+  "questionId": "714",
+  "questionFrontendId": "714",
+  "titleSlug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+  "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+  "translatedTitle": "买卖股票的最佳时机含手续费",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+  "createdAt": "2026-08-11T17:33:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

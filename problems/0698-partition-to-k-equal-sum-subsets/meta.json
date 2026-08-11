@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 698,
+  "questionId": "698",
+  "questionFrontendId": "698",
+  "titleSlug": "partition-to-k-equal-sum-subsets",
+  "title": "Partition to K Equal Sum Subsets",
+  "translatedTitle": "划分为k个相等的子集",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/",
+  "createdAt": "2026-08-11T17:31:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

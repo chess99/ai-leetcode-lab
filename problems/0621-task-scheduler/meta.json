@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 621,
+  "questionId": "621",
+  "questionFrontendId": "621",
+  "titleSlug": "task-scheduler",
+  "title": "Task Scheduler",
+  "translatedTitle": "任务调度器",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/task-scheduler/",
+  "createdAt": "2026-08-11T17:26:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

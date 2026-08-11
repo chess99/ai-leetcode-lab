@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 570,
+  "questionId": "570",
+  "questionFrontendId": "570",
+  "titleSlug": "managers-with-at-least-5-direct-reports",
+  "title": "Managers with at Least 5 Direct Reports",
+  "translatedTitle": "至少有5名直接下属的经理",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/managers-with-at-least-5-direct-reports/",
+  "createdAt": "2026-08-11T17:24:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 581,
+  "questionId": "581",
+  "questionFrontendId": "581",
+  "titleSlug": "shortest-unsorted-continuous-subarray",
+  "title": "Shortest Unsorted Continuous Subarray",
+  "translatedTitle": "最短无序连续子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/",
+  "createdAt": "2026-08-11T17:24:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

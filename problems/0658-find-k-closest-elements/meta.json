@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 658,
+  "questionId": "658",
+  "questionFrontendId": "658",
+  "titleSlug": "find-k-closest-elements",
+  "title": "Find K Closest Elements",
+  "translatedTitle": "找到 K 个最接近的元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-k-closest-elements/",
+  "createdAt": "2026-08-11T17:29:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

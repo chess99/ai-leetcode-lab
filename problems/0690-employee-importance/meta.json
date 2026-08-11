@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 690,
+  "questionId": "690",
+  "questionFrontendId": "690",
+  "titleSlug": "employee-importance",
+  "title": "Employee Importance",
+  "translatedTitle": "员工的重要性",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/employee-importance/",
+  "createdAt": "2026-08-11T17:31:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

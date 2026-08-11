@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 633,
+  "questionId": "633",
+  "questionFrontendId": "633",
+  "titleSlug": "sum-of-square-numbers",
+  "title": "Sum of Square Numbers",
+  "translatedTitle": "平方数之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-square-numbers/",
+  "createdAt": "2026-08-11T17:27:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 592,
+  "questionId": "592",
+  "questionFrontendId": "592",
+  "titleSlug": "fraction-addition-and-subtraction",
+  "title": "Fraction Addition and Subtraction",
+  "translatedTitle": "分数加减运算",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/fraction-addition-and-subtraction/",
+  "createdAt": "2026-08-11T17:24:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

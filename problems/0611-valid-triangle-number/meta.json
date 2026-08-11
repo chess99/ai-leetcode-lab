@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 611,
+  "questionId": "611",
+  "questionFrontendId": "611",
+  "titleSlug": "valid-triangle-number",
+  "title": "Valid Triangle Number",
+  "translatedTitle": "有效三角形的个数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/valid-triangle-number/",
+  "createdAt": "2026-08-11T17:24:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 640,
+  "questionId": "640",
+  "questionFrontendId": "640",
+  "titleSlug": "solve-the-equation",
+  "title": "Solve the Equation",
+  "translatedTitle": "求解方程",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/solve-the-equation/",
+  "createdAt": "2026-08-11T17:27:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

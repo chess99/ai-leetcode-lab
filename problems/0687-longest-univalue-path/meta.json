@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 687,
+  "questionId": "687",
+  "questionFrontendId": "687",
+  "titleSlug": "longest-univalue-path",
+  "title": "Longest Univalue Path",
+  "translatedTitle": "最长同值路径",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-univalue-path/",
+  "createdAt": "2026-08-11T17:31:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
