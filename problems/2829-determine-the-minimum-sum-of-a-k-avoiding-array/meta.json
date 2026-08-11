@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2811,
+  "questionId": "2811",
+  "questionFrontendId": "2829",
+  "titleSlug": "determine-the-minimum-sum-of-a-k-avoiding-array",
+  "title": "Determine the Minimum Sum of a k-avoiding Array",
+  "translatedTitle": "k-avoiding 数组的最小总和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/determine-the-minimum-sum-of-a-k-avoiding-array/",
+  "createdAt": "2026-08-11T21:23:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

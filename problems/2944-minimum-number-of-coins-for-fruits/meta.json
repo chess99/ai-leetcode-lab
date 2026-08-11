@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3209,
+  "questionId": "3209",
+  "questionFrontendId": "2944",
+  "titleSlug": "minimum-number-of-coins-for-fruits",
+  "title": "Minimum Number of Coins for Fruits",
+  "translatedTitle": "购买水果需要的最少金币数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-coins-for-fruits/",
+  "createdAt": "2026-08-11T21:23:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

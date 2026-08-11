@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3151,
+  "questionId": "3151",
+  "questionFrontendId": "2895",
+  "titleSlug": "minimum-processing-time",
+  "title": "Minimum Processing Time",
+  "translatedTitle": "最小处理时间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-processing-time/",
+  "createdAt": "2026-08-11T21:23:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

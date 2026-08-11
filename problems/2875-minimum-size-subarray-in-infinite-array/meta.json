@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3141,
+  "questionId": "3141",
+  "questionFrontendId": "2875",
+  "titleSlug": "minimum-size-subarray-in-infinite-array",
+  "title": "Minimum Size Subarray in Infinite Array",
+  "translatedTitle": "无限数组的最短子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-size-subarray-in-infinite-array/",
+  "createdAt": "2026-08-11T21:23:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

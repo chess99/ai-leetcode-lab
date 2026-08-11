@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3241,
+  "questionId": "3241",
+  "questionFrontendId": "2966",
+  "titleSlug": "divide-array-into-arrays-with-max-difference",
+  "title": "Divide Array Into Arrays With Max Difference",
+  "translatedTitle": "划分数组并满足最大差限制",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/divide-array-into-arrays-with-max-difference/",
+  "createdAt": "2026-08-11T21:23:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

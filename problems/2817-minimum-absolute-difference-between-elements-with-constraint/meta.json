@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3000,
+  "questionId": "3000",
+  "questionFrontendId": "2817",
+  "titleSlug": "minimum-absolute-difference-between-elements-with-constraint",
+  "title": "Minimum Absolute Difference Between Elements With Constraint",
+  "translatedTitle": "限制条件下元素之间的最小绝对差",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-absolute-difference-between-elements-with-constraint/",
+  "createdAt": "2026-08-11T21:23:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

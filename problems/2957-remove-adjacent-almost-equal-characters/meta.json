@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3230,
+  "questionId": "3230",
+  "questionFrontendId": "2957",
+  "titleSlug": "remove-adjacent-almost-equal-characters",
+  "title": "Remove Adjacent Almost-Equal Characters",
+  "translatedTitle": "消除相邻近似相等字符",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-adjacent-almost-equal-characters/",
+  "createdAt": "2026-08-11T21:23:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

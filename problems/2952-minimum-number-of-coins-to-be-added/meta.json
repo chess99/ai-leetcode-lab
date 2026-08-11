@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3231,
+  "questionId": "3231",
+  "questionFrontendId": "2952",
+  "titleSlug": "minimum-number-of-coins-to-be-added",
+  "title": "Minimum Number of Coins to be Added",
+  "translatedTitle": "需要添加的硬币的最小数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-coins-to-be-added/",
+  "createdAt": "2026-08-11T21:23:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

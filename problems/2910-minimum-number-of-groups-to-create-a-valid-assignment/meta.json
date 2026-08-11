@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3166,
+  "questionId": "3166",
+  "questionFrontendId": "2910",
+  "titleSlug": "minimum-number-of-groups-to-create-a-valid-assignment",
+  "title": "Minimum Number of Groups to Create a Valid Assignment",
+  "translatedTitle": "合法分组的最少组数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-groups-to-create-a-valid-assignment/",
+  "createdAt": "2026-08-11T21:23:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

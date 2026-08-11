@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3094,
+  "questionId": "3094",
+  "questionFrontendId": "2870",
+  "titleSlug": "minimum-number-of-operations-to-make-array-empty",
+  "title": "Minimum Number of Operations to Make Array Empty",
+  "translatedTitle": "使数组为空的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-empty/",
+  "createdAt": "2026-08-11T21:23:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

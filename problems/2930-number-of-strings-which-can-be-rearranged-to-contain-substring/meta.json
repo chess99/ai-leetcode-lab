@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3200,
+  "questionId": "3200",
+  "questionFrontendId": "2930",
+  "titleSlug": "number-of-strings-which-can-be-rearranged-to-contain-substring",
+  "title": "Number of Strings Which Can Be Rearranged to Contain Substring",
+  "translatedTitle": "重新排列后包含指定子字符串的字符串数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/",
+  "createdAt": "2026-08-11T21:23:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

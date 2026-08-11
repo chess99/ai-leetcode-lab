@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3092,
+  "questionId": "3092",
+  "questionFrontendId": "2850",
+  "titleSlug": "minimum-moves-to-spread-stones-over-grid",
+  "title": "Minimum Moves to Spread Stones Over Grid",
+  "translatedTitle": "将石头分散到网格图的最少移动次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/",
+  "createdAt": "2026-08-11T21:23:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

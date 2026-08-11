@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2832,
+  "questionId": "2832",
+  "questionFrontendId": "2831",
+  "titleSlug": "find-the-longest-equal-subarray",
+  "title": "Find the Longest Equal Subarray",
+  "translatedTitle": "找出最长等值子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-longest-equal-subarray/",
+  "createdAt": "2026-08-11T21:23:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

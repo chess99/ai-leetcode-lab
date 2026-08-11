@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3081,
+  "questionId": "3081",
+  "questionFrontendId": "2856",
+  "titleSlug": "minimum-array-length-after-pair-removals",
+  "title": "Minimum Array Length After Pair Removals",
+  "translatedTitle": "删除数对后的最小数组长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-array-length-after-pair-removals/",
+  "createdAt": "2026-08-11T21:23:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

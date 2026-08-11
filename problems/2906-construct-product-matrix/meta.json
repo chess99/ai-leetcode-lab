@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3031,
+  "questionId": "3031",
+  "questionFrontendId": "2906",
+  "titleSlug": "construct-product-matrix",
+  "title": "Construct Product Matrix",
+  "translatedTitle": "构造乘积矩阵",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/construct-product-matrix/",
+  "createdAt": "2026-08-11T21:23:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

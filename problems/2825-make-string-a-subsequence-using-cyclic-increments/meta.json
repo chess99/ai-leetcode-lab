@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3018,
+  "questionId": "3018",
+  "questionFrontendId": "2825",
+  "titleSlug": "make-string-a-subsequence-using-cyclic-increments",
+  "title": "Make String a Subsequence Using Cyclic Increments",
+  "translatedTitle": "循环增长使字符串子序列等于另一个字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/make-string-a-subsequence-using-cyclic-increments/",
+  "createdAt": "2026-08-11T21:23:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

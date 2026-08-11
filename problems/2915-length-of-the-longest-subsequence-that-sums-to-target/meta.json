@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3106,
+  "questionId": "3106",
+  "questionFrontendId": "2915",
+  "titleSlug": "length-of-the-longest-subsequence-that-sums-to-target",
+  "title": "Length of the Longest Subsequence That Sums to Target",
+  "translatedTitle": "和为目标值的最长子序列的长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/length-of-the-longest-subsequence-that-sums-to-target/",
+  "createdAt": "2026-08-11T21:23:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

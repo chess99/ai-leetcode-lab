@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3225,
+  "questionId": "3225",
+  "questionFrontendId": "2958",
+  "titleSlug": "length-of-longest-subarray-with-at-most-k-frequency",
+  "title": "Length of Longest Subarray With at Most K Frequency",
+  "translatedTitle": "最多 K 个重复元素的最长子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/length-of-longest-subarray-with-at-most-k-frequency/",
+  "createdAt": "2026-08-11T21:23:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

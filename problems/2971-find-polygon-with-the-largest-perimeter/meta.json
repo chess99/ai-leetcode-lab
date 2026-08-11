@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3262,
+  "questionId": "3262",
+  "questionFrontendId": "2971",
+  "titleSlug": "find-polygon-with-the-largest-perimeter",
+  "title": "Find Polygon With the Largest Perimeter",
+  "translatedTitle": "找到最大周长的多边形",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-polygon-with-the-largest-perimeter/",
+  "createdAt": "2026-08-11T21:23:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

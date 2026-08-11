@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3056,
+  "questionId": "3056",
+  "questionFrontendId": "2849",
+  "titleSlug": "determine-if-a-cell-is-reachable-at-a-given-time",
+  "title": "Determine if a Cell Is Reachable at a Given Time",
+  "translatedTitle": "判断能否在给定时间到达单元格",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/determine-if-a-cell-is-reachable-at-a-given-time/",
+  "createdAt": "2026-08-11T21:23:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

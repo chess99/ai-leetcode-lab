@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2954,
+  "questionId": "2954",
+  "questionFrontendId": "2841",
+  "titleSlug": "maximum-sum-of-almost-unique-subarray",
+  "title": "Maximum Sum of Almost Unique Subarray",
+  "translatedTitle": "几乎唯一子数组的最大和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-sum-of-almost-unique-subarray/",
+  "createdAt": "2026-08-11T21:23:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

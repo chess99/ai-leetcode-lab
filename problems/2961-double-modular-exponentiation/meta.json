@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3234,
+  "questionId": "3234",
+  "questionFrontendId": "2961",
+  "titleSlug": "double-modular-exponentiation",
+  "title": "Double Modular Exponentiation",
+  "translatedTitle": "双模幂运算",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/double-modular-exponentiation/",
+  "createdAt": "2026-08-11T21:23:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3104,
+  "questionId": "3104",
+  "questionFrontendId": "2860",
+  "titleSlug": "happy-students",
+  "title": "Happy Students",
+  "translatedTitle": "让所有学生保持开心的分组方法数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/happy-students/",
+  "createdAt": "2026-08-11T21:23:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

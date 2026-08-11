@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3213,
+  "questionId": "3213",
+  "questionFrontendId": "2962",
+  "titleSlug": "count-subarrays-where-max-element-appears-at-least-k-times",
+  "title": "Count Subarrays Where Max Element Appears at Least K Times",
+  "translatedTitle": "统计最大元素出现至少 K 次的子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/",
+  "createdAt": "2026-08-11T21:23:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
