@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2723,
+  "questionId": "2723",
+  "questionFrontendId": "2609",
+  "titleSlug": "find-the-longest-balanced-substring-of-a-binary-string",
+  "title": "Find the Longest Balanced Substring of a Binary String",
+  "translatedTitle": "最长平衡子字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-longest-balanced-substring-of-a-binary-string/",
+  "createdAt": "2026-08-11T14:10:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

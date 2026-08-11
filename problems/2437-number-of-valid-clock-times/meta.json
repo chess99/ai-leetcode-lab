@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2528,
+  "questionId": "2528",
+  "questionFrontendId": "2437",
+  "titleSlug": "number-of-valid-clock-times",
+  "title": "Number of Valid Clock Times",
+  "translatedTitle": "有效时间的数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-valid-clock-times/",
+  "createdAt": "2026-08-11T14:03:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

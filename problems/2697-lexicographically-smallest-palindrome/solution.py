@@ -1,0 +1,12 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T14:12:22Z
+# Experiment: ai-leetcode-lab, round 1
+class Solution:
+    def makeSmallestPalindrome(self, s: str) -> str:
+        chars=list(s)
+        for i in range(len(chars)//2):chars[-i-1]=chars[i]=min(chars[i],chars[-i-1])
+        return ''.join(chars)

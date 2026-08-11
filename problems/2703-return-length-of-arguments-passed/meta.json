@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2820,
+  "questionId": "2820",
+  "questionFrontendId": "2703",
+  "titleSlug": "return-length-of-arguments-passed",
+  "title": "Return Length of Arguments Passed",
+  "translatedTitle": "返回传递的参数的长度",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/return-length-of-arguments-passed/",
+  "createdAt": "2026-08-11T14:12:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2594,
+  "questionId": "2594",
+  "questionFrontendId": "2506",
+  "titleSlug": "count-pairs-of-similar-strings",
+  "title": "Count Pairs Of Similar Strings",
+  "translatedTitle": "统计相似字符串对的数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-pairs-of-similar-strings/",
+  "createdAt": "2026-08-11T14:05:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

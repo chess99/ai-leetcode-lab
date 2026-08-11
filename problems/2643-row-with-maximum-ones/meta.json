@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2737,
+  "questionId": "2737",
+  "questionFrontendId": "2643",
+  "titleSlug": "row-with-maximum-ones",
+  "title": "Row With Maximum Ones",
+  "translatedTitle": "一最多的行",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/row-with-maximum-ones/",
+  "createdAt": "2026-08-11T14:10:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

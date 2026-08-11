@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2556,
+  "questionId": "2556",
+  "questionFrontendId": "2469",
+  "titleSlug": "convert-the-temperature",
+  "title": "Convert the Temperature",
+  "translatedTitle": "温度转换",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/convert-the-temperature/",
+  "createdAt": "2026-08-11T14:03:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

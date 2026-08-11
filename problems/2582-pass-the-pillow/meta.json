@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2645,
+  "questionId": "2645",
+  "questionFrontendId": "2582",
+  "titleSlug": "pass-the-pillow",
+  "title": "Pass the Pillow",
+  "translatedTitle": "递枕头",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/pass-the-pillow/",
+  "createdAt": "2026-08-11T14:06:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

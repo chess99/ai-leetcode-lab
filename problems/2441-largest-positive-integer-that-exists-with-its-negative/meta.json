@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2524,
+  "questionId": "2524",
+  "questionFrontendId": "2441",
+  "titleSlug": "largest-positive-integer-that-exists-with-its-negative",
+  "title": "Largest Positive Integer That Exists With Its Negative",
+  "translatedTitle": "与对应负数同时存在的最大正整数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative/",
+  "createdAt": "2026-08-11T14:03:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

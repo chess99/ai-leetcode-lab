@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2650,
+  "questionId": "2650",
+  "questionFrontendId": "2578",
+  "titleSlug": "split-with-minimum-sum",
+  "title": "Split With Minimum Sum",
+  "translatedTitle": "最小和分割",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/split-with-minimum-sum/",
+  "createdAt": "2026-08-11T14:07:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2421,
+  "questionId": "2421",
+  "questionFrontendId": "2341",
+  "titleSlug": "maximum-number-of-pairs-in-array",
+  "title": "Maximum Number of Pairs in Array",
+  "translatedTitle": "数组能形成多少数对",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-pairs-in-array/",
+  "createdAt": "2026-08-11T13:58:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

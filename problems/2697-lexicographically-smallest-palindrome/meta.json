@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2816,
+  "questionId": "2816",
+  "questionFrontendId": "2697",
+  "titleSlug": "lexicographically-smallest-palindrome",
+  "title": "Lexicographically Smallest Palindrome",
+  "translatedTitle": "字典序最小回文串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lexicographically-smallest-palindrome/",
+  "createdAt": "2026-08-11T14:12:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

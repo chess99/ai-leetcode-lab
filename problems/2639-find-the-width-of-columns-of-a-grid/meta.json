@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2675,
+  "questionId": "2675",
+  "questionFrontendId": "2639",
+  "titleSlug": "find-the-width-of-columns-of-a-grid",
+  "title": "Find the Width of Columns of a Grid",
+  "translatedTitle": "查询网格图中每一列的宽度",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-width-of-columns-of-a-grid/",
+  "createdAt": "2026-08-11T14:07:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

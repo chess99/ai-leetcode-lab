@@ -1,0 +1,17 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T14:12:07Z
+# Experiment: ai-leetcode-lab, round 1
+class Solution:
+    def semiOrderedPermutation(self, nums: List[int]) -> int:
+        one_index = nums.index(1)
+        n_index = nums.index(len(nums))
+        moves = one_index + len(nums) - 1 - n_index
+
+        if one_index > n_index:
+            moves -= 1
+
+        return moves

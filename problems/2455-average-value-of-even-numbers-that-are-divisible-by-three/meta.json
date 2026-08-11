@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2542,
+  "questionId": "2542",
+  "questionFrontendId": "2455",
+  "titleSlug": "average-value-of-even-numbers-that-are-divisible-by-three",
+  "title": "Average Value of Even Numbers That Are Divisible by Three",
+  "translatedTitle": "可被三整除的偶数的平均值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three/",
+  "createdAt": "2026-08-11T14:03:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

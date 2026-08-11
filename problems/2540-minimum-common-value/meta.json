@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2634,
+  "questionId": "2634",
+  "questionFrontendId": "2540",
+  "titleSlug": "minimum-common-value",
+  "title": "Minimum Common Value",
+  "translatedTitle": "最小公共值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-common-value/",
+  "createdAt": "2026-08-11T14:06:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

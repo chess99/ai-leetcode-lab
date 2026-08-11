@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2507,
+  "questionId": "2507",
+  "questionFrontendId": "2427",
+  "titleSlug": "number-of-common-factors",
+  "title": "Number of Common Factors",
+  "translatedTitle": "公因子的数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-common-factors/",
+  "createdAt": "2026-08-11T14:03:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

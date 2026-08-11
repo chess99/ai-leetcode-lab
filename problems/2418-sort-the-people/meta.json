@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2502,
+  "questionId": "2502",
+  "questionFrontendId": "2418",
+  "titleSlug": "sort-the-people",
+  "title": "Sort the People",
+  "translatedTitle": "按身高排序",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-the-people/",
+  "createdAt": "2026-08-11T14:03:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

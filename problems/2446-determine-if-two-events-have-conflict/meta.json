@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2536,
+  "questionId": "2536",
+  "questionFrontendId": "2446",
+  "titleSlug": "determine-if-two-events-have-conflict",
+  "title": "Determine if Two Events Have Conflict",
+  "translatedTitle": "判断两个事件是否存在冲突",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/determine-if-two-events-have-conflict/",
+  "createdAt": "2026-08-11T14:03:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

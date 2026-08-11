@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2608,
+  "questionId": "2608",
+  "questionFrontendId": "2520",
+  "titleSlug": "count-the-digits-that-divide-a-number",
+  "title": "Count the Digits That Divide a Number",
+  "translatedTitle": "统计能整除数字的位数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-digits-that-divide-a-number/",
+  "createdAt": "2026-08-11T14:05:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

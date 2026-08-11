@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2819,
+  "questionId": "2819",
+  "questionFrontendId": "2710",
+  "titleSlug": "remove-trailing-zeros-from-a-string",
+  "title": "Remove Trailing Zeros From a String",
+  "translatedTitle": "移除字符串中的尾随零",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-trailing-zeros-from-a-string/",
+  "createdAt": "2026-08-11T14:12:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

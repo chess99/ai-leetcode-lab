@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2775,
+  "questionId": "2775",
+  "questionFrontendId": "2648",
+  "titleSlug": "generate-fibonacci-sequence",
+  "title": "Generate Fibonacci Sequence",
+  "translatedTitle": "生成斐波那契数列",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/generate-fibonacci-sequence/",
+  "createdAt": "2026-08-11T14:12:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

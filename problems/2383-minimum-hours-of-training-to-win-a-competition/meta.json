@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2459,
+  "questionId": "2459",
+  "questionFrontendId": "2383",
+  "titleSlug": "minimum-hours-of-training-to-win-a-competition",
+  "title": "Minimum Hours of Training to Win a Competition",
+  "translatedTitle": "赢得比赛需要的最少训练时长",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-hours-of-training-to-win-a-competition/",
+  "createdAt": "2026-08-11T13:58:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

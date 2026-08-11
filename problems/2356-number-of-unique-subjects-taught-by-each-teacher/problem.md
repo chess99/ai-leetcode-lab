@@ -1,0 +1,72 @@
+# 2356. 每位教师所教授的科目种类的数量
+
+- 难度：EASY
+- 标签：数据库
+- 来源：https://leetcode.cn/problems/number-of-unique-subjects-taught-by-each-teacher/
+- 归档：2026-08-11T13:59:16Z
+
+## 题目
+
+<p>表: <code>Teacher</code></p>
+
+<pre>
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| teacher_id  | int  |
+| subject_id  | int  |
+| dept_id     | int  |
++-------------+------+
+在 SQL 中，(subject_id, dept_id) 是该表的主键。
+该表中的每一行都表示，该教师(teacher_id)在该系(dept_id)里教授的课程(subject_id)。
+</pre>
+
+<p>&nbsp;</p>
+
+<p>查询每位老师在大学里教授的科目种类的数量。</p>
+
+<p data-group="1-1">以 <strong>任意顺序</strong> 返回结果表。</p>
+
+<p>查询结果格式示例如下。</p>
+
+<p>&nbsp;</p>
+
+<p><strong>示例 1:</strong></p>
+
+<pre>
+<strong>输入:</strong>
+Teacher 表:
++------------+------------+---------+
+| teacher_id | subject_id | dept_id |
++------------+------------+---------+
+| 1          | 2          | 3       |
+| 1          | 2          | 4       |
+| 1          | 3          | 3       |
+| 2          | 1          | 1       |
+| 2          | 2          | 1       |
+| 2          | 3          | 1       |
+| 2          | 4          | 1       |
++------------+------------+---------+
+<strong>输出:</strong>
++------------+-----+
+| teacher_id | cnt |
++------------+-----+
+| 1          | 2   |
+| 2          | 4   |
++------------+-----+
+<strong>解释:</strong>
+教师 1:
+  - 他在 3、4 系教科目 2。
+  - 他在 3 系教科目 3。
+教师 2:
+  - 他在 1 系教科目 1。
+  - 他在 1 系教科目 2。
+  - 他在 1 系教科目 3。
+  - 他在 1 系教科目 4。</pre>
+
+
+## 样例输入
+
+```text
+{"headers":{"Teacher":["teacher_id","subject_id","dept_id"]},"rows":{"Teacher":[[1,2,3],[1,2,4],[1,3,3],[2,1,1],[2,2,1],[2,3,1],[2,4,1]]}}
+```

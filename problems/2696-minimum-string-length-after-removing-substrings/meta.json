@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2800,
+  "questionId": "2800",
+  "questionFrontendId": "2696",
+  "titleSlug": "minimum-string-length-after-removing-substrings",
+  "title": "Minimum String Length After Removing Substrings",
+  "translatedTitle": "删除子串后的字符串最小长度",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-string-length-after-removing-substrings/",
+  "createdAt": "2026-08-11T14:12:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

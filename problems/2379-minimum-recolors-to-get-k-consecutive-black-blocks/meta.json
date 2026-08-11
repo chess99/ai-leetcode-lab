@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2463,
+  "questionId": "2463",
+  "questionFrontendId": "2379",
+  "titleSlug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+  "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+  "translatedTitle": "得到 K 个黑块的最少涂色次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/",
+  "createdAt": "2026-08-11T13:58:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

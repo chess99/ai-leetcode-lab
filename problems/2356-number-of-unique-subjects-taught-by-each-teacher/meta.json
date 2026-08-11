@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2495,
+  "questionId": "2495",
+  "questionFrontendId": "2356",
+  "titleSlug": "number-of-unique-subjects-taught-by-each-teacher",
+  "title": "Number of Unique Subjects Taught by Each Teacher",
+  "translatedTitle": "每位教师所教授的科目种类的数量",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/number-of-unique-subjects-taught-by-each-teacher/",
+  "createdAt": "2026-08-11T13:59:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

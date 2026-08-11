@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2454,
+  "questionId": "2454",
+  "questionFrontendId": "2373",
+  "titleSlug": "largest-local-values-in-a-matrix",
+  "title": "Largest Local Values in a Matrix",
+  "translatedTitle": "矩阵中的局部最大值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-local-values-in-a-matrix/",
+  "createdAt": "2026-08-11T13:58:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

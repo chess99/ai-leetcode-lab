@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2496,
+  "questionId": "2496",
+  "questionFrontendId": "2409",
+  "titleSlug": "count-days-spent-together",
+  "title": "Count Days Spent Together",
+  "translatedTitle": "统计共同度过的日子数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-days-spent-together/",
+  "createdAt": "2026-08-11T14:03:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

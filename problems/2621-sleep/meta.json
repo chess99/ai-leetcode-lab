@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2733,
+  "questionId": "2733",
+  "questionFrontendId": "2621",
+  "titleSlug": "sleep",
+  "title": "Sleep",
+  "translatedTitle": "睡眠函数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/sleep/",
+  "createdAt": "2026-08-11T14:10:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

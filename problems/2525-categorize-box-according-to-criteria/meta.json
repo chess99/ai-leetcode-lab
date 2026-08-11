@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2619,
+  "questionId": "2619",
+  "questionFrontendId": "2525",
+  "titleSlug": "categorize-box-according-to-criteria",
+  "title": "Categorize Box According to Criteria",
+  "translatedTitle": "根据规则将箱子分类",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/categorize-box-according-to-criteria/",
+  "createdAt": "2026-08-11T14:05:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

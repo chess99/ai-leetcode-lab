@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2722,
+  "questionId": "2722",
+  "questionFrontendId": "2614",
+  "titleSlug": "prime-in-diagonal",
+  "title": "Prime In Diagonal",
+  "translatedTitle": "对角线上的质数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/prime-in-diagonal/",
+  "createdAt": "2026-08-11T14:10:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2480,
+  "questionId": "2480",
+  "questionFrontendId": "2395",
+  "titleSlug": "find-subarrays-with-equal-sum",
+  "title": "Find Subarrays With Equal Sum",
+  "translatedTitle": "和相等的子数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-subarrays-with-equal-sum/",
+  "createdAt": "2026-08-11T13:59:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

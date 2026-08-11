@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2767,
+  "questionId": "2767",
+  "questionFrontendId": "2656",
+  "titleSlug": "maximum-sum-with-exactly-k-elements",
+  "title": "Maximum Sum With Exactly K Elements ",
+  "translatedTitle": "K 个元素的最大和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-sum-with-exactly-k-elements/",
+  "createdAt": "2026-08-11T14:10:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
