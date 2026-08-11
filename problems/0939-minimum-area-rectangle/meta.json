@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 976,
+  "questionId": "976",
+  "questionFrontendId": "939",
+  "titleSlug": "minimum-area-rectangle",
+  "title": "Minimum Area Rectangle",
+  "translatedTitle": "最小面积矩形",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-area-rectangle/",
+  "createdAt": "2026-08-11T18:00:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

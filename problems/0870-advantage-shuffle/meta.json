@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 901,
+  "questionId": "901",
+  "questionFrontendId": "870",
+  "titleSlug": "advantage-shuffle",
+  "title": "Advantage Shuffle",
+  "translatedTitle": "优势洗牌",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/advantage-shuffle/",
+  "createdAt": "2026-08-11T17:53:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

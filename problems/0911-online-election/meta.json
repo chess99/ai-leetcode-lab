@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 947,
+  "questionId": "947",
+  "questionFrontendId": "911",
+  "titleSlug": "online-election",
+  "title": "Online Election",
+  "translatedTitle": "在线选举",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/online-election/",
+  "createdAt": "2026-08-11T17:58:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

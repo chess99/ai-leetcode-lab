@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1002,
+  "questionId": "1002",
+  "questionFrontendId": "962",
+  "titleSlug": "maximum-width-ramp",
+  "title": "Maximum Width Ramp",
+  "translatedTitle": "最大宽度坡",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-width-ramp/",
+  "createdAt": "2026-08-11T18:01:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

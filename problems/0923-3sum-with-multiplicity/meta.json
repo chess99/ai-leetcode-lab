@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 959,
+  "questionId": "959",
+  "questionFrontendId": "923",
+  "titleSlug": "3sum-with-multiplicity",
+  "title": "3Sum With Multiplicity",
+  "translatedTitle": "三数之和的多种可能",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/3sum-with-multiplicity/",
+  "createdAt": "2026-08-11T17:58:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

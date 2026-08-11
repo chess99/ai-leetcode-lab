@@ -1,0 +1,49 @@
+# 912. 排序数组
+
+- 难度：MEDIUM
+- 标签：数组, 分治, 桶排序, 计数排序, 基数排序, 排序, 堆（优先队列）, 归并排序
+- 来源：https://leetcode.cn/problems/sort-an-array/
+- 归档：2026-08-11T17:58:19Z
+
+## 题目
+
+<p>给你一个整数数组&nbsp;<code>nums</code>，请你将该数组升序排列。</p>
+
+<p>你必须在 <strong>不使用任何内置函数</strong> 的情况下解决问题，时间复杂度为 <code>O(nlog(n))</code>，并且空间复杂度尽可能小。</p>
+
+<p>&nbsp;</p>
+
+<ol>
+</ol>
+
+<p><strong>示例 1：</strong></p>
+
+<pre>
+<strong>输入：</strong>nums = [5,2,3,1]
+<strong>输出：</strong>[1,2,3,5]
+<strong>解释：</strong>数组排序后，某些数字的位置没有改变（例如，2 和 3），而其他数字的位置发生了改变（例如，1 和 5）。
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>nums = [5,1,1,2,0,0]
+<strong>输出：</strong>[0,0,1,1,2,5]
+<strong>解释：</strong>请注意，nums 的值不一定唯一。
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 5 * 10<sup>4</sup></code></li>
+	<li><code>-5 * 10<sup>4</sup> &lt;= nums[i] &lt;= 5 * 10<sup>4</sup></code></li>
+</ul>
+
+
+## 样例输入
+
+```text
+[5,2,3,1]
+```

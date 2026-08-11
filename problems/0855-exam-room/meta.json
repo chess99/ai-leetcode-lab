@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 885,
+  "questionId": "885",
+  "questionFrontendId": "855",
+  "titleSlug": "exam-room",
+  "title": "Exam Room",
+  "translatedTitle": "考场就座",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/exam-room/",
+  "createdAt": "2026-08-11T17:53:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

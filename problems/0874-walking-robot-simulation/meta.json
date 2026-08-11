@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 906,
+  "questionId": "906",
+  "questionFrontendId": "874",
+  "titleSlug": "walking-robot-simulation",
+  "title": "Walking Robot Simulation",
+  "translatedTitle": "模拟行走机器人",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/walking-robot-simulation/",
+  "createdAt": "2026-08-11T17:53:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

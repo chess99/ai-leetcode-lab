@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 967,
+  "questionId": "967",
+  "questionFrontendId": "931",
+  "titleSlug": "minimum-falling-path-sum",
+  "title": "Minimum Falling Path Sum",
+  "translatedTitle": "下降路径最小和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-falling-path-sum/",
+  "createdAt": "2026-08-11T17:58:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

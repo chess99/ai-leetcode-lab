@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 986,
+  "questionId": "986",
+  "questionFrontendId": "949",
+  "titleSlug": "largest-time-for-given-digits",
+  "title": "Largest Time for Given Digits",
+  "translatedTitle": "给定数字能组成的最大时间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-time-for-given-digits/",
+  "createdAt": "2026-08-11T18:00:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

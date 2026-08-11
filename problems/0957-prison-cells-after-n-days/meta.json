@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 994,
+  "questionId": "994",
+  "questionFrontendId": "957",
+  "titleSlug": "prison-cells-after-n-days",
+  "title": "Prison Cells After N Days",
+  "translatedTitle": "N 天后的牢房",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/prison-cells-after-n-days/",
+  "createdAt": "2026-08-11T18:01:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

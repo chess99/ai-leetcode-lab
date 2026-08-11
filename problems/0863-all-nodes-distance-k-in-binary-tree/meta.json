@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 893,
+  "questionId": "893",
+  "questionFrontendId": "863",
+  "titleSlug": "all-nodes-distance-k-in-binary-tree",
+  "title": "All Nodes Distance K in Binary Tree",
+  "translatedTitle": "二叉树中所有距离为 K 的结点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/",
+  "createdAt": "2026-08-11T17:53:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

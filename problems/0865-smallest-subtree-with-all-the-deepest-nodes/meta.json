@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 896,
+  "questionId": "896",
+  "questionFrontendId": "865",
+  "titleSlug": "smallest-subtree-with-all-the-deepest-nodes",
+  "title": "Smallest Subtree with all the Deepest Nodes",
+  "translatedTitle": "具有所有最深节点的最小子树",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-subtree-with-all-the-deepest-nodes/",
+  "createdAt": "2026-08-11T17:53:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

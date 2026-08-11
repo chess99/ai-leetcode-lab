@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 900,
+  "questionId": "900",
+  "questionFrontendId": "869",
+  "titleSlug": "reordered-power-of-2",
+  "title": "Reordered Power of 2",
+  "translatedTitle": "重新排序得到 2 的幂",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reordered-power-of-2/",
+  "createdAt": "2026-08-11T17:53:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

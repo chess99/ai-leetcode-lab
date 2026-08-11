@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 983,
+  "questionId": "983",
+  "questionFrontendId": "946",
+  "titleSlug": "validate-stack-sequences",
+  "title": "Validate Stack Sequences",
+  "translatedTitle": "验证栈序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/validate-stack-sequences/",
+  "createdAt": "2026-08-11T18:00:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

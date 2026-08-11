@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 987,
+  "questionId": "987",
+  "questionFrontendId": "950",
+  "titleSlug": "reveal-cards-in-increasing-order",
+  "title": "Reveal Cards In Increasing Order",
+  "translatedTitle": "按递增顺序显示卡牌",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reveal-cards-in-increasing-order/",
+  "createdAt": "2026-08-11T18:00:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

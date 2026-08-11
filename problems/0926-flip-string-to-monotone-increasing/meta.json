@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 962,
+  "questionId": "962",
+  "questionFrontendId": "926",
+  "titleSlug": "flip-string-to-monotone-increasing",
+  "title": "Flip String to Monotone Increasing",
+  "translatedTitle": "将字符串翻转到单调递增",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/flip-string-to-monotone-increasing/",
+  "createdAt": "2026-08-11T17:58:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

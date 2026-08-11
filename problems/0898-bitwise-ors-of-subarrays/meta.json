@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 934,
+  "questionId": "934",
+  "questionFrontendId": "898",
+  "titleSlug": "bitwise-ors-of-subarrays",
+  "title": "Bitwise ORs of Subarrays",
+  "translatedTitle": "子数组按位或操作",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/bitwise-ors-of-subarrays/",
+  "createdAt": "2026-08-11T17:56:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
