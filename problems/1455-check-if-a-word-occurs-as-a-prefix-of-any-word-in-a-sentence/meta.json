@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1566,
+  "questionId": "1566",
+  "questionFrontendId": "1455",
+  "titleSlug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+  "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+  "translatedTitle": "检查单词是否为句中其他单词的前缀",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/",
+  "createdAt": "2026-08-11T11:54:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

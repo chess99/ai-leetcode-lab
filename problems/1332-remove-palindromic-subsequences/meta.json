@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1454,
+  "questionId": "1454",
+  "questionFrontendId": "1332",
+  "titleSlug": "remove-palindromic-subsequences",
+  "title": "Remove Palindromic Subsequences",
+  "translatedTitle": "删除回文子序列",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-palindromic-subsequences/",
+  "createdAt": "2026-08-11T11:53:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

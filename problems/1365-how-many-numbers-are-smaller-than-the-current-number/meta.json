@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1482,
+  "questionId": "1482",
+  "questionFrontendId": "1365",
+  "titleSlug": "how-many-numbers-are-smaller-than-the-current-number",
+  "title": "How Many Numbers Are Smaller Than the Current Number",
+  "translatedTitle": "有多少小于当前数字的数字",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/",
+  "createdAt": "2026-08-11T11:53:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1476,
+  "questionId": "1476",
+  "questionFrontendId": "1351",
+  "titleSlug": "count-negative-numbers-in-a-sorted-matrix",
+  "title": "Count Negative Numbers in a Sorted Matrix",
+  "translatedTitle": "统计有序矩阵中的负数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/",
+  "createdAt": "2026-08-11T11:53:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

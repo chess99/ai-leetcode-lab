@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1514,
+  "questionId": "1514",
+  "questionFrontendId": "1413",
+  "titleSlug": "minimum-value-to-get-positive-step-by-step-sum",
+  "title": "Minimum Value to Get Positive Step by Step Sum",
+  "translatedTitle": "逐步求和得到正数的最小值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/",
+  "createdAt": "2026-08-11T11:58:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

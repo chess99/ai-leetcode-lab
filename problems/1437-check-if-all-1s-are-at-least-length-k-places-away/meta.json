@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1548,
+  "questionId": "1548",
+  "questionFrontendId": "1437",
+  "titleSlug": "check-if-all-1s-are-at-least-length-k-places-away",
+  "title": "Check If All 1's Are at Least Length K Places Away",
+  "translatedTitle": "是否所有 1 都至少相隔 k 个元素",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-all-1s-are-at-least-length-k-places-away/",
+  "createdAt": "2026-08-11T11:54:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

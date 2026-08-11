@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1462,
+  "questionId": "1462",
+  "questionFrontendId": "1327",
+  "titleSlug": "list-the-products-ordered-in-a-period",
+  "title": "List the Products Ordered in a Period",
+  "translatedTitle": "列出指定时间段内所有的下单产品",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/list-the-products-ordered-in-a-period/",
+  "createdAt": "2026-08-11T11:53:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

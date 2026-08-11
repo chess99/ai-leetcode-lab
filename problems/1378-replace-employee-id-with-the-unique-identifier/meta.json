@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1509,
+  "questionId": "1509",
+  "questionFrontendId": "1378",
+  "titleSlug": "replace-employee-id-with-the-unique-identifier",
+  "title": "Replace Employee ID With The Unique Identifier",
+  "translatedTitle": "使用唯一标识码替换员工ID",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/replace-employee-id-with-the-unique-identifier/",
+  "createdAt": "2026-08-11T11:53:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

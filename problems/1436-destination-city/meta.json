@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1547,
+  "questionId": "1547",
+  "questionFrontendId": "1436",
+  "titleSlug": "destination-city",
+  "title": "Destination City",
+  "translatedTitle": "旅行终点站",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/destination-city/",
+  "createdAt": "2026-08-11T11:59:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1500,
+  "questionId": "1500",
+  "questionFrontendId": "1399",
+  "titleSlug": "count-largest-group",
+  "title": "Count Largest Group",
+  "translatedTitle": "统计最大组的数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-largest-group/",
+  "createdAt": "2026-08-11T11:53:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
