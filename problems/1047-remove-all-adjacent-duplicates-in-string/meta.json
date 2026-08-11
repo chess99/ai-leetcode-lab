@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1128,
+  "questionId": "1128",
+  "questionFrontendId": "1047",
+  "titleSlug": "remove-all-adjacent-duplicates-in-string",
+  "title": "Remove All Adjacent Duplicates In String",
+  "translatedTitle": "删除字符串中的所有相邻重复项",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/",
+  "createdAt": "2026-08-11T11:27:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1231,
+  "questionId": "1231",
+  "questionFrontendId": "1299",
+  "titleSlug": "replace-elements-with-greatest-element-on-right-side",
+  "title": "Replace Elements with Greatest Element on Right Side",
+  "translatedTitle": "将每个元素替换为右侧最大元素",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/replace-elements-with-greatest-element-on-right-side/",
+  "createdAt": "2026-08-11T11:38:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

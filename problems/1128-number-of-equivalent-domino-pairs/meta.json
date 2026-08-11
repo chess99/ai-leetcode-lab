@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1227,
+  "questionId": "1227",
+  "questionFrontendId": "1128",
+  "titleSlug": "number-of-equivalent-domino-pairs",
+  "title": "Number of Equivalent Domino Pairs",
+  "translatedTitle": "等价多米诺骨牌对的数量",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-equivalent-domino-pairs/",
+  "createdAt": "2026-08-11T11:38:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1236,
+  "questionId": "1236",
+  "questionFrontendId": "1137",
+  "titleSlug": "n-th-tribonacci-number",
+  "title": "N-th Tribonacci Number",
+  "translatedTitle": "第 N 个泰波那契数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/n-th-tribonacci-number/",
+  "createdAt": "2026-08-11T11:39:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1179,
+  "questionId": "1179",
+  "questionFrontendId": "511",
+  "titleSlug": "game-play-analysis-i",
+  "title": "Game Play Analysis I",
+  "translatedTitle": "游戏玩法分析 I",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/game-play-analysis-i/",
+  "createdAt": "2026-08-11T11:27:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

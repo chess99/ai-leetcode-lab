@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1203,
+  "questionId": "1203",
+  "questionFrontendId": "1114",
+  "titleSlug": "print-in-order",
+  "title": "Print in Order",
+  "translatedTitle": "按序打印",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/print-in-order/",
+  "createdAt": "2026-08-11T11:28:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

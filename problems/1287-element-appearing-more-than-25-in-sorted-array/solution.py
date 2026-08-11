@@ -1,0 +1,12 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T11:37:52Z
+# Experiment: ai-leetcode-lab, round 1
+class Solution:
+    def findSpecialInteger(self, arr: List[int]) -> int:
+        span = len(arr) // 4
+        for i in range(len(arr) - span):
+            if arr[i] == arr[i + span]: return arr[i]

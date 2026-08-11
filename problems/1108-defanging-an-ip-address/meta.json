@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1205,
+  "questionId": "1205",
+  "questionFrontendId": "1108",
+  "titleSlug": "defanging-an-ip-address",
+  "title": "Defanging an IP Address",
+  "translatedTitle": "IP 地址无效化",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/defanging-an-ip-address/",
+  "createdAt": "2026-08-11T11:30:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

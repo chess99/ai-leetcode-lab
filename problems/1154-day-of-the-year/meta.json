@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1260,
+  "questionId": "1260",
+  "questionFrontendId": "1154",
+  "titleSlug": "day-of-the-year",
+  "title": "Day of the Year",
+  "translatedTitle": "一年中的第几天",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/day-of-the-year/",
+  "createdAt": "2026-08-11T11:27:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

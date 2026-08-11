@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1241,
+  "questionId": "1241",
+  "questionFrontendId": "1313",
+  "titleSlug": "decompress-run-length-encoded-list",
+  "title": "Decompress Run-Length Encoded List",
+  "translatedTitle": "解压缩编码列表",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/decompress-run-length-encoded-list/",
+  "createdAt": "2026-08-11T11:27:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

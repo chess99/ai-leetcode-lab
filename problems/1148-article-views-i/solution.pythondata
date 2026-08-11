@@ -1,0 +1,11 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T11:28:08Z
+# Experiment: ai-leetcode-lab, round 1
+import pandas as pd
+
+def article_views(views: pd.DataFrame) -> pd.DataFrame:
+    return pd.DataFrame({'id': sorted(views.loc[views['author_id'] == views['viewer_id'], 'author_id'].unique())})

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1137,
+  "questionId": "1137",
+  "questionFrontendId": "1051",
+  "titleSlug": "height-checker",
+  "title": "Height Checker",
+  "translatedTitle": "高度检查器",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/height-checker/",
+  "createdAt": "2026-08-11T11:27:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

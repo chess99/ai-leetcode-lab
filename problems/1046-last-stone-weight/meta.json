@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1127,
+  "questionId": "1127",
+  "questionFrontendId": "1046",
+  "titleSlug": "last-stone-weight",
+  "title": "Last Stone Weight",
+  "translatedTitle": "最后一块石头的重量",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/last-stone-weight/",
+  "createdAt": "2026-08-11T11:27:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

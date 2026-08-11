@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1245,
+  "questionId": "1245",
+  "questionFrontendId": "1141",
+  "titleSlug": "user-activity-for-the-past-30-days-i",
+  "title": "User Activity for the Past 30 Days I",
+  "translatedTitle": "查询近30天活跃用户数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "pythondata",
+  "solutionFile": "solution.pythondata",
+  "source": "https://leetcode.cn/problems/user-activity-for-the-past-30-days-i/",
+  "createdAt": "2026-08-11T11:28:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

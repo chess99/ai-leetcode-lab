@@ -1,0 +1,12 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T11:28:08Z
+# Experiment: ai-leetcode-lab, round 1
+import pandas as pd
+
+def user_activity(activity: pd.DataFrame) -> pd.DataFrame:
+    mask = (activity['activity_date'] >= '2019-06-28') & (activity['activity_date'] <= '2019-07-27')
+    return activity.loc[mask].groupby('activity_date', as_index=False)['user_id'].nunique().rename(columns={'activity_date': 'day', 'user_id': 'active_users'})
