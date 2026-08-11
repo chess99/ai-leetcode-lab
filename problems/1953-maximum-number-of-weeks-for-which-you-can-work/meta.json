@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2084,
+  "questionId": "2084",
+  "questionFrontendId": "1953",
+  "titleSlug": "maximum-number-of-weeks-for-which-you-can-work",
+  "title": "Maximum Number of Weeks for Which You Can Work",
+  "translatedTitle": "你可以工作的最大周数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-weeks-for-which-you-can-work/",
+  "createdAt": "2026-08-11T19:48:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

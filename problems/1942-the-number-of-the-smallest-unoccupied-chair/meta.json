@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2054,
+  "questionId": "2054",
+  "questionFrontendId": "1942",
+  "titleSlug": "the-number-of-the-smallest-unoccupied-chair",
+  "title": "The Number of the Smallest Unoccupied Chair",
+  "translatedTitle": "最小未被占据椅子的编号",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/",
+  "createdAt": "2026-08-11T19:48:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2117,
+  "questionId": "2117",
+  "questionFrontendId": "2007",
+  "titleSlug": "find-original-array-from-doubled-array",
+  "title": "Find Original Array From Doubled Array",
+  "translatedTitle": "从双倍数组中还原原数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-original-array-from-doubled-array/",
+  "createdAt": "2026-08-11T19:48:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

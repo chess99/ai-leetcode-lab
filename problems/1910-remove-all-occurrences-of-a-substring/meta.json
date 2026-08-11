@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2021,
+  "questionId": "2021",
+  "questionFrontendId": "1910",
+  "titleSlug": "remove-all-occurrences-of-a-substring",
+  "title": "Remove All Occurrences of a Substring",
+  "translatedTitle": "删除一个字符串中所有出现的给定子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-all-occurrences-of-a-substring/",
+  "createdAt": "2026-08-11T19:48:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

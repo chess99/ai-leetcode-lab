@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2022,
+  "questionId": "2022",
+  "questionFrontendId": "1911",
+  "titleSlug": "maximum-alternating-subsequence-sum",
+  "title": "Maximum Alternating Subsequence Sum",
+  "translatedTitle": "最大交替子序列和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-alternating-subsequence-sum/",
+  "createdAt": "2026-08-11T19:48:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

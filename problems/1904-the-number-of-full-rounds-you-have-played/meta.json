@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2033,
+  "questionId": "2033",
+  "questionFrontendId": "1904",
+  "titleSlug": "the-number-of-full-rounds-you-have-played",
+  "title": "The Number of Full Rounds You Have Played",
+  "translatedTitle": "你完成的完整对局数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/the-number-of-full-rounds-you-have-played/",
+  "createdAt": "2026-08-11T19:47:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

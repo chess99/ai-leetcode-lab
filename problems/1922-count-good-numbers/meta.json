@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2050,
+  "questionId": "2050",
+  "questionFrontendId": "1922",
+  "titleSlug": "count-good-numbers",
+  "title": "Count Good Numbers",
+  "translatedTitle": "统计好数字的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-good-numbers/",
+  "createdAt": "2026-08-11T19:48:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

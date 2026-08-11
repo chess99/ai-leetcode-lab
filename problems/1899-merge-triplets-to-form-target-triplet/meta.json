@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2026,
+  "questionId": "2026",
+  "questionFrontendId": "1899",
+  "titleSlug": "merge-triplets-to-form-target-triplet",
+  "title": "Merge Triplets to Form Target Triplet",
+  "translatedTitle": "合并若干三元组以形成目标三元组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/merge-triplets-to-form-target-triplet/",
+  "createdAt": "2026-08-11T19:47:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

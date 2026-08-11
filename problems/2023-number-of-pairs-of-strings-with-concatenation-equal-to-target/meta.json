@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2133,
+  "questionId": "2133",
+  "questionFrontendId": "2023",
+  "titleSlug": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+  "title": "Number of Pairs of Strings With Concatenation Equal to Target",
+  "translatedTitle": "连接后等于目标字符串的字符串对",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/",
+  "createdAt": "2026-08-11T19:48:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

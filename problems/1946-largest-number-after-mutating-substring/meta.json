@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2077,
+  "questionId": "2077",
+  "questionFrontendId": "1946",
+  "titleSlug": "largest-number-after-mutating-substring",
+  "title": "Largest Number After Mutating Substring",
+  "translatedTitle": "子字符串突变后可能得到的最大整数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-number-after-mutating-substring/",
+  "createdAt": "2026-08-11T19:48:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

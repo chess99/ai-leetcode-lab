@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2085,
+  "questionId": "2085",
+  "questionFrontendId": "1968",
+  "titleSlug": "array-with-elements-not-equal-to-average-of-neighbors",
+  "title": "Array With Elements Not Equal to Average of Neighbors",
+  "translatedTitle": "构造元素不等于两相邻元素平均值的数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/array-with-elements-not-equal-to-average-of-neighbors/",
+  "createdAt": "2026-08-11T19:48:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2055,
+  "questionId": "2055",
+  "questionFrontendId": "1943",
+  "titleSlug": "describe-the-painting",
+  "title": "Describe the Painting",
+  "translatedTitle": "描述绘画结果",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/describe-the-painting/",
+  "createdAt": "2026-08-11T19:48:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

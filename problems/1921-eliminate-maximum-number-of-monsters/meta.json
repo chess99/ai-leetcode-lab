@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2049,
+  "questionId": "2049",
+  "questionFrontendId": "1921",
+  "titleSlug": "eliminate-maximum-number-of-monsters",
+  "title": "Eliminate Maximum Number of Monsters",
+  "translatedTitle": "消灭怪物的最大数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/eliminate-maximum-number-of-monsters/",
+  "createdAt": "2026-08-11T19:48:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2130,
+  "questionId": "2130",
+  "questionFrontendId": "2002",
+  "titleSlug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+  "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+  "translatedTitle": "两个回文子序列长度的最大乘积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/",
+  "createdAt": "2026-08-11T19:48:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2114,
+  "questionId": "2114",
+  "questionFrontendId": "1986",
+  "titleSlug": "minimum-number-of-work-sessions-to-finish-the-tasks",
+  "title": "Minimum Number of Work Sessions to Finish the Tasks",
+  "translatedTitle": "完成任务的最少工作时间段",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/",
+  "createdAt": "2026-08-11T19:48:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

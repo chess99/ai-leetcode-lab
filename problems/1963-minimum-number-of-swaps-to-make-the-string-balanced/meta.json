@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2095,
+  "questionId": "2095",
+  "questionFrontendId": "1963",
+  "titleSlug": "minimum-number-of-swaps-to-make-the-string-balanced",
+  "title": "Minimum Number of Swaps to Make the String Balanced",
+  "translatedTitle": "使字符串平衡的最小交换次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-string-balanced/",
+  "createdAt": "2026-08-11T19:48:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

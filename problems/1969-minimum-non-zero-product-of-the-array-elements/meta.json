@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2100,
+  "questionId": "2100",
+  "questionFrontendId": "1969",
+  "titleSlug": "minimum-non-zero-product-of-the-array-elements",
+  "title": "Minimum Non-Zero Product of the Array Elements",
+  "translatedTitle": "数组元素的最小非零乘积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-non-zero-product-of-the-array-elements/",
+  "createdAt": "2026-08-11T19:48:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

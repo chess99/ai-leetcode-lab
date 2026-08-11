@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2129,
+  "questionId": "2129",
+  "questionFrontendId": "2001",
+  "titleSlug": "number-of-pairs-of-interchangeable-rectangles",
+  "title": "Number of Pairs of Interchangeable Rectangles",
+  "translatedTitle": "可互换矩形的组数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles/",
+  "createdAt": "2026-08-11T19:48:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

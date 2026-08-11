@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2043,
+  "questionId": "2043",
+  "questionFrontendId": "1914",
+  "titleSlug": "cyclically-rotating-a-grid",
+  "title": "Cyclically Rotating a Grid",
+  "translatedTitle": "循环轮转矩阵",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/cyclically-rotating-a-grid/",
+  "createdAt": "2026-08-11T19:48:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

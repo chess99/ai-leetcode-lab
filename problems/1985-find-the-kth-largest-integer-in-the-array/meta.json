@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2113,
+  "questionId": "2113",
+  "questionFrontendId": "1985",
+  "titleSlug": "find-the-kth-largest-integer-in-the-array",
+  "title": "Find the Kth Largest Integer in the Array",
+  "translatedTitle": "找出数组中的第 K 大整数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-kth-largest-integer-in-the-array/",
+  "createdAt": "2026-08-11T19:48:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

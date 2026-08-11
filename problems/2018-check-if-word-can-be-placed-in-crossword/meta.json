@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2146,
+  "questionId": "2146",
+  "questionFrontendId": "2018",
+  "titleSlug": "check-if-word-can-be-placed-in-crossword",
+  "title": "Check if Word Can Be Placed In Crossword",
+  "translatedTitle": "判断单词是否能放入填字游戏内",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-word-can-be-placed-in-crossword/",
+  "createdAt": "2026-08-11T19:48:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

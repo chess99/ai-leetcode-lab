@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2035,
+  "questionId": "2035",
+  "questionFrontendId": "1905",
+  "titleSlug": "count-sub-islands",
+  "title": "Count Sub Islands",
+  "translatedTitle": "统计子岛屿",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-sub-islands/",
+  "createdAt": "2026-08-11T19:47:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2027,
+  "questionId": "2027",
+  "questionFrontendId": "1898",
+  "titleSlug": "maximum-number-of-removable-characters",
+  "title": "Maximum Number of Removable Characters",
+  "translatedTitle": "可移除字符的最大数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-removable-characters/",
+  "createdAt": "2026-08-11T19:47:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

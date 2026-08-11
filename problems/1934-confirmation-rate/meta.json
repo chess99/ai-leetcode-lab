@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2087,
+  "questionId": "2087",
+  "questionFrontendId": "1934",
+  "titleSlug": "confirmation-rate",
+  "title": "Confirmation Rate",
+  "translatedTitle": "确认率",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/confirmation-rate/",
+  "createdAt": "2026-08-11T19:48:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

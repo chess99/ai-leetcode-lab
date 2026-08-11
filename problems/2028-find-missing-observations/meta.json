@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2155,
+  "questionId": "2155",
+  "questionFrontendId": "2028",
+  "titleSlug": "find-missing-observations",
+  "title": "Find Missing Observations",
+  "translatedTitle": "找出缺失的观测数据",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-missing-observations/",
+  "createdAt": "2026-08-11T19:48:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

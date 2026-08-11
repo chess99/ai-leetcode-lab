@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2059,
+  "questionId": "2059",
+  "questionFrontendId": "1930",
+  "titleSlug": "unique-length-3-palindromic-subsequences",
+  "title": "Unique Length-3 Palindromic Subsequences",
+  "translatedTitle": "长度为 3 的不同回文子序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/unique-length-3-palindromic-subsequences/",
+  "createdAt": "2026-08-11T19:48:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

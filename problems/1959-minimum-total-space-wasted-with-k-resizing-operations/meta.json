@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2081,
+  "questionId": "2081",
+  "questionFrontendId": "1959",
+  "titleSlug": "minimum-total-space-wasted-with-k-resizing-operations",
+  "title": "Minimum Total Space Wasted With K Resizing Operations",
+  "translatedTitle": "K 次调整数组大小浪费的最小总空间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-total-space-wasted-with-k-resizing-operations/",
+  "createdAt": "2026-08-11T19:48:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

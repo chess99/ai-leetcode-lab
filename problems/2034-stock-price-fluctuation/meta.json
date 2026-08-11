@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2161,
+  "questionId": "2161",
+  "questionFrontendId": "2034",
+  "titleSlug": "stock-price-fluctuation",
+  "title": "Stock Price Fluctuation ",
+  "translatedTitle": "股票价格波动",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/stock-price-fluctuation/",
+  "createdAt": "2026-08-11T19:48:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

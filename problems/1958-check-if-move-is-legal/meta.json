@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2080,
+  "questionId": "2080",
+  "questionFrontendId": "1958",
+  "titleSlug": "check-if-move-is-legal",
+  "title": "Check if Move is Legal",
+  "translatedTitle": "检查操作是否合法",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-move-is-legal/",
+  "createdAt": "2026-08-11T19:48:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2006,
+  "questionId": "2006",
+  "questionFrontendId": "1894",
+  "titleSlug": "find-the-student-that-will-replace-the-chalk",
+  "title": "Find the Student that Will Replace the Chalk",
+  "translatedTitle": "找到需要补充粉笔的学生编号",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-student-that-will-replace-the-chalk/",
+  "createdAt": "2026-08-11T19:47:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

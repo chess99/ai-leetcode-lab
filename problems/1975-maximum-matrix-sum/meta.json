@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2089,
+  "questionId": "2089",
+  "questionFrontendId": "1975",
+  "titleSlug": "maximum-matrix-sum",
+  "title": "Maximum Matrix Sum",
+  "translatedTitle": "最大方阵和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-matrix-sum/",
+  "createdAt": "2026-08-11T19:48:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

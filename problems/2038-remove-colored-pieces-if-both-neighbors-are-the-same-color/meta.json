@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2149,
+  "questionId": "2149",
+  "questionFrontendId": "2038",
+  "titleSlug": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+  "title": "Remove Colored Pieces if Both Neighbors are the Same Color",
+  "translatedTitle": "如果相邻两个颜色均相同则删除当前颜色",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/",
+  "createdAt": "2026-08-11T19:48:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
