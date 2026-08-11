@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 345,
+  "questionId": "345",
+  "questionFrontendId": "345",
+  "titleSlug": "reverse-vowels-of-a-string",
+  "title": "Reverse Vowels of a String",
+  "translatedTitle": "反转字符串中的元音字母",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reverse-vowels-of-a-string/",
+  "createdAt": "2026-08-11T10:31:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

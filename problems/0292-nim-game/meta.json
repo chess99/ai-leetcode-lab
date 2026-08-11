@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 292,
+  "questionId": "292",
+  "questionFrontendId": "292",
+  "titleSlug": "nim-game",
+  "title": "Nim Game",
+  "translatedTitle": "Nim 游戏",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/nim-game/",
+  "createdAt": "2026-08-11T10:31:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

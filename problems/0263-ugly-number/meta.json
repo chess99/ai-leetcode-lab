@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 263,
+  "questionId": "263",
+  "questionFrontendId": "263",
+  "titleSlug": "ugly-number",
+  "title": "Ugly Number",
+  "translatedTitle": "丑数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/ugly-number/",
+  "createdAt": "2026-08-11T10:29:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

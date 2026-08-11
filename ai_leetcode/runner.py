@@ -42,11 +42,14 @@ class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
         stale_seconds: int = 900,
         wait_seconds: float = 300,
         poll_seconds: float = 0.2,
+        min_interval_seconds: float = 6.0,
     ):
         self.path = root / ".runtime" / "remote-action.lock"
+        self.last_action_path = root / ".runtime" / "last-remote-action.json"
         self.stale_seconds = stale_seconds
         self.wait_seconds = wait_seconds
         self.poll_seconds = poll_seconds
+        self.min_interval_seconds = min_interval_seconds
         self.acquired = False
 
     def __enter__(self) -> "RemoteActionLock":
@@ -83,6 +86,18 @@ class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
                 os.write(descriptor, payload.encode("utf-8"))
             finally:
                 os.close(descriptor)
+            try:
+                previous = json.loads(self.last_action_path.read_text(encoding="utf-8"))
+                since_previous = time.time() - float(previous.get("unixTime", 0))
+            except (FileNotFoundError, json.JSONDecodeError, OSError, TypeError, ValueError):
+                since_previous = self.min_interval_seconds
+            cooldown = self.min_interval_seconds - since_previous
+            if cooldown > 0:
+                time.sleep(cooldown)
+            atomic_write_json(
+                self.last_action_path,
+                {"unixTime": time.time(), "startedAt": utc_now()},
+            )
             self.acquired = True
             return self
 

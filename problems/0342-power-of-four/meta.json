@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 342,
+  "questionId": "342",
+  "questionFrontendId": "342",
+  "titleSlug": "power-of-four",
+  "title": "Power of Four",
+  "translatedTitle": "4的幂",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/power-of-four/",
+  "createdAt": "2026-08-11T10:29:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

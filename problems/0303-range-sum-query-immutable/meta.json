@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 303,
+  "questionId": "303",
+  "questionFrontendId": "303",
+  "titleSlug": "range-sum-query-immutable",
+  "title": "Range Sum Query - Immutable",
+  "translatedTitle": "区域和检索 - 数组不可变",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/range-sum-query-immutable/",
+  "createdAt": "2026-08-11T10:32:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

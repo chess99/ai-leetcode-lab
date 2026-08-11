@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 242,
+  "questionId": "242",
+  "questionFrontendId": "242",
+  "titleSlug": "valid-anagram",
+  "title": "Valid Anagram",
+  "translatedTitle": "有效的字母异位词",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/valid-anagram/",
+  "createdAt": "2026-08-11T10:28:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

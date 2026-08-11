@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 326,
+  "questionId": "326",
+  "questionFrontendId": "326",
+  "titleSlug": "power-of-three",
+  "title": "Power of Three",
+  "translatedTitle": "3 的幂",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/power-of-three/",
+  "createdAt": "2026-08-11T10:28:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

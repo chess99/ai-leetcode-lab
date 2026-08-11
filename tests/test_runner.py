@@ -101,12 +101,22 @@ class RunnerTests(unittest.TestCase):
         self.assertIn("remote_elapsed_ms", event)
 
     def test_remote_lock_queues_parallel_workers(self) -> None:
-        first = RemoteActionLock(self.root, wait_seconds=1, poll_seconds=0.01)
+        first = RemoteActionLock(
+            self.root,
+            wait_seconds=1,
+            poll_seconds=0.01,
+            min_interval_seconds=0,
+        )
         first.__enter__()
         release = threading.Timer(0.05, lambda: first.__exit__(None, None, None))
         release.start()
         try:
-            with RemoteActionLock(self.root, wait_seconds=1, poll_seconds=0.01) as second:
+            with RemoteActionLock(
+                self.root,
+                wait_seconds=1,
+                poll_seconds=0.01,
+                min_interval_seconds=0,
+            ) as second:
                 self.assertTrue(second.acquired)
         finally:
             release.join()

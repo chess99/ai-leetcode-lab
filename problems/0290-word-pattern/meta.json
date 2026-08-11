@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 290,
+  "questionId": "290",
+  "questionFrontendId": "290",
+  "titleSlug": "word-pattern",
+  "title": "Word Pattern",
+  "translatedTitle": "单词规律",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/word-pattern/",
+  "createdAt": "2026-08-11T10:31:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

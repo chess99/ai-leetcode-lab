@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 278,
+  "questionId": "278",
+  "questionFrontendId": "278",
+  "titleSlug": "first-bad-version",
+  "title": "First Bad Version",
+  "translatedTitle": "第一个错误的版本",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/first-bad-version/",
+  "createdAt": "2026-08-11T10:30:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 338,
+  "questionId": "338",
+  "questionFrontendId": "338",
+  "titleSlug": "counting-bits",
+  "title": "Counting Bits",
+  "translatedTitle": "比特位计数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/counting-bits/",
+  "createdAt": "2026-08-11T10:29:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

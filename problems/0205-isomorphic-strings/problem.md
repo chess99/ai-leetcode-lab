@@ -1,0 +1,73 @@
+# 205. 同构字符串
+
+- 难度：EASY
+- 标签：哈希表, 字符串
+- 来源：https://leetcode.cn/problems/isomorphic-strings/
+- 归档：2026-08-11T10:28:16Z
+
+## 题目
+
+<p>给定两个字符串&nbsp;<code>s</code>&nbsp;和&nbsp;<code>t</code>&nbsp;，判断它们是否是同构的。</p>
+
+<p>如果&nbsp;<code>s</code>&nbsp;中的字符可以按某种映射关系替换得到&nbsp;<code>t</code>&nbsp;，那么这两个字符串是同构的。</p>
+
+<p>每个出现的字符都应当映射到另一个字符，同时不改变字符的顺序。不同字符不能映射到同一个字符上，相同字符只能映射到同一个字符上，字符可以映射到自己本身。</p>
+
+<p>&nbsp;</p>
+
+<p><strong class="example">示例 1：</strong></p>
+
+<div class="example-block">
+<p><span class="example-io"><b>输入：</b>s = "egg", t = "add"</span></p>
+
+<p><span class="example-io"><b>输出：</b>true</span></p>
+
+<p><strong>解释：</strong></p>
+
+<p>字符串 <code>s</code> 和 <code>t</code> 可以通过以下方式变得相同：</p>
+
+<ul>
+	<li>将&nbsp;<code>'e'</code>&nbsp;映射为&nbsp;<code>'a'</code>。</li>
+	<li>将&nbsp;<code>'g'</code> 映射为&nbsp;<code>'d'</code>。</li>
+</ul>
+</div>
+
+<p><strong class="example">示例 2：</strong></p>
+
+<div class="example-block">
+<p><span class="example-io"><b>输入：</b>s = "f11", t = "b23"</span></p>
+
+<p><span class="example-io"><b>输出：</b>false</span></p>
+
+<p><strong>解释：</strong></p>
+
+<p>字符串 <code>s</code> 和 <code>t</code> 无法变得相同，因为 <code>'1'</code> 需要同时映射到 <code>'2'</code> 和 <code>'3'</code>。</p>
+</div>
+
+<p><strong class="example">示例 3：</strong></p>
+
+<div class="example-block">
+<p><span class="example-io"><b>输入：</b>s = "paper", t = "title"</span></p>
+
+<p><span class="example-io"><b>输出：</b>true</span></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<p><meta charset="UTF-8" /></p>
+
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 5 * 10<sup>4</sup></code></li>
+	<li><code>t.length == s.length</code></li>
+	<li><code>s</code>&nbsp;和&nbsp;<code>t</code>&nbsp;由任意有效的 ASCII 字符组成</li>
+</ul>
+
+
+## 样例输入
+
+```text
+"egg"
+"add"
+```
