@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3265,
+  "questionId": "3265",
+  "questionFrontendId": "3026",
+  "titleSlug": "maximum-good-subarray-sum",
+  "title": "Maximum Good Subarray Sum",
+  "translatedTitle": "最大好子数组和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-good-subarray-sum/",
+  "createdAt": "2026-08-11T21:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

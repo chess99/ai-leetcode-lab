@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3360,
+  "questionId": "3360",
+  "questionFrontendId": "3085",
+  "titleSlug": "minimum-deletions-to-make-string-k-special",
+  "title": "Minimum Deletions to Make String K-Special",
+  "translatedTitle": "成为 K 特殊字符串需要删除的最少字符数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-deletions-to-make-string-k-special/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3240,
+  "questionId": "3240",
+  "questionFrontendId": "3007",
+  "titleSlug": "maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k",
+  "title": "Maximum Number That Sum of the Prices Is Less Than or Equal to K",
+  "translatedTitle": "价值和小于等于 K 的最大数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/",
+  "createdAt": "2026-08-11T21:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

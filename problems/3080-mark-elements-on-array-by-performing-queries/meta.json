@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3306,
+  "questionId": "3306",
+  "questionFrontendId": "3080",
+  "titleSlug": "mark-elements-on-array-by-performing-queries",
+  "title": "Mark Elements on Array by Performing Queries",
+  "translatedTitle": "执行操作标记数组中的元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/mark-elements-on-array-by-performing-queries/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

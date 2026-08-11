@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3299,
+  "questionId": "3299",
+  "questionFrontendId": "3020",
+  "titleSlug": "find-the-maximum-number-of-elements-in-subset",
+  "title": "Find the Maximum Number of Elements in Subset",
+  "translatedTitle": "子集中元素的最大数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-maximum-number-of-elements-in-subset/",
+  "createdAt": "2026-08-11T21:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3272,
+  "questionId": "3272",
+  "questionFrontendId": "3030",
+  "titleSlug": "find-the-grid-of-region-average",
+  "title": "Find the Grid of Region Average",
+  "translatedTitle": "找出网格的区域平均强度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-grid-of-region-average/",
+  "createdAt": "2026-08-11T21:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

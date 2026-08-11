@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3335,
+  "questionId": "3335",
+  "questionFrontendId": "3071",
+  "titleSlug": "minimum-operations-to-write-the-letter-y-on-a-grid",
+  "title": "Minimum Operations to Write the Letter Y on a Grid",
+  "translatedTitle": "在矩阵上写出字母 Y 所需的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-write-the-letter-y-on-a-grid/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

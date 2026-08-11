@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3420,
+  "questionId": "3420",
+  "questionFrontendId": "3159",
+  "titleSlug": "find-occurrences-of-an-element-in-an-array",
+  "title": "Find Occurrences of an Element in an Array",
+  "translatedTitle": "查询数组中元素的出现位置",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-occurrences-of-an-element-in-an-array/",
+  "createdAt": "2026-08-11T21:34:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

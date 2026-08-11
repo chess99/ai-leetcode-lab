@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3403,
+  "questionId": "3403",
+  "questionFrontendId": "3144",
+  "titleSlug": "minimum-substring-partition-of-equal-character-frequency",
+  "title": "Minimum Substring Partition of Equal Character Frequency",
+  "translatedTitle": "分割字符频率相等的最少子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-substring-partition-of-equal-character-frequency/",
+  "createdAt": "2026-08-11T21:34:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

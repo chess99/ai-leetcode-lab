@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3384,
+  "questionId": "3384",
+  "questionFrontendId": "3137",
+  "titleSlug": "minimum-number-of-operations-to-make-word-k-periodic",
+  "title": "Minimum Number of Operations to Make Word K-Periodic",
+  "translatedTitle": "K 周期字符串需要的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-operations-to-make-word-k-periodic/",
+  "createdAt": "2026-08-11T21:34:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

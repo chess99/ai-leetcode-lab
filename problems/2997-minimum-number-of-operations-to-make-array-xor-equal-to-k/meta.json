@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3249,
+  "questionId": "3249",
+  "questionFrontendId": "2997",
+  "titleSlug": "minimum-number-of-operations-to-make-array-xor-equal-to-k",
+  "title": "Minimum Number of Operations to Make Array XOR Equal to K",
+  "translatedTitle": "使数组异或和等于 K 的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/",
+  "createdAt": "2026-08-11T21:34:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

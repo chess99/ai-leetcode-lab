@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3416,
+  "questionId": "3416",
+  "questionFrontendId": "3153",
+  "titleSlug": "sum-of-digit-differences-of-all-pairs",
+  "title": "Sum of Digit Differences of All Pairs",
+  "translatedTitle": "所有数对中数位差之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-digit-differences-of-all-pairs/",
+  "createdAt": "2026-08-11T21:34:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

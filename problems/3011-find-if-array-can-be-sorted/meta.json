@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3291,
+  "questionId": "3291",
+  "questionFrontendId": "3011",
+  "titleSlug": "find-if-array-can-be-sorted",
+  "title": "Find if Array Can Be Sorted",
+  "translatedTitle": "判断一个数组是否可以变为有序",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-if-array-can-be-sorted/",
+  "createdAt": "2026-08-11T21:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

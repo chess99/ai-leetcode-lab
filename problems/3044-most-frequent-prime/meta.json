@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3314,
+  "questionId": "3314",
+  "questionFrontendId": "3044",
+  "titleSlug": "most-frequent-prime",
+  "title": "Most Frequent Prime",
+  "translatedTitle": "出现频率最高的质数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/most-frequent-prime/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

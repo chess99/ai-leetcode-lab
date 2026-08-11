@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3390,
+  "questionId": "3390",
+  "questionFrontendId": "3111",
+  "titleSlug": "minimum-rectangles-to-cover-points",
+  "title": "Minimum Rectangles to Cover Points",
+  "translatedTitle": "覆盖所有点的最少矩形数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-rectangles-to-cover-points/",
+  "createdAt": "2026-08-11T21:34:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

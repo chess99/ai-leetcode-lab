@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3338,
+  "questionId": "3338",
+  "questionFrontendId": "3070",
+  "titleSlug": "count-submatrices-with-top-left-element-and-sum-less-than-k",
+  "title": "Count Submatrices with Top-Left Element and Sum Less Than k",
+  "translatedTitle": "元素和小于等于 k 的子矩阵的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

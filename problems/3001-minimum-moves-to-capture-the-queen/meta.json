@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3270,
+  "questionId": "3270",
+  "questionFrontendId": "3001",
+  "titleSlug": "minimum-moves-to-capture-the-queen",
+  "title": "Minimum Moves to Capture The Queen",
+  "translatedTitle": "捕获黑皇后需要的最少移动次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-moves-to-capture-the-queen/",
+  "createdAt": "2026-08-11T21:34:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3317,
+  "questionId": "3317",
+  "questionFrontendId": "3035",
+  "titleSlug": "maximum-palindromes-after-operations",
+  "title": "Maximum Palindromes After Operations",
+  "translatedTitle": "回文字符串的最大数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-palindromes-after-operations/",
+  "createdAt": "2026-08-11T21:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

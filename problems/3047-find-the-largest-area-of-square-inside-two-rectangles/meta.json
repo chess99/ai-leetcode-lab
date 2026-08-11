@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3325,
+  "questionId": "3325",
+  "questionFrontendId": "3047",
+  "titleSlug": "find-the-largest-area-of-square-inside-two-rectangles",
+  "title": "Find the Largest Area of Square Inside Two Rectangles",
+  "translatedTitle": "求交集区域内的最大正方形面积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-largest-area-of-square-inside-two-rectangles/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

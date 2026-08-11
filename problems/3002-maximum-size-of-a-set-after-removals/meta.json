@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3228,
+  "questionId": "3228",
+  "questionFrontendId": "3002",
+  "titleSlug": "maximum-size-of-a-set-after-removals",
+  "title": "Maximum Size of a Set After Removals",
+  "translatedTitle": "移除后集合的最多元素数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-size-of-a-set-after-removals/",
+  "createdAt": "2026-08-11T21:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3269,
+  "questionId": "3269",
+  "questionFrontendId": "3034",
+  "titleSlug": "number-of-subarrays-that-match-a-pattern-i",
+  "title": "Number of Subarrays That Match a Pattern I",
+  "translatedTitle": "匹配模式数组的子数组数目 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-subarrays-that-match-a-pattern-i/",
+  "createdAt": "2026-08-11T21:34:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

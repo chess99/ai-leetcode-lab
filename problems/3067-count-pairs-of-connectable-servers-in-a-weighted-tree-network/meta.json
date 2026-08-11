@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3326,
+  "questionId": "3326",
+  "questionFrontendId": "3067",
+  "titleSlug": "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+  "title": "Count Pairs of Connectable Servers in a Weighted Tree Network",
+  "translatedTitle": "在带权树网络中统计可连接服务器对数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

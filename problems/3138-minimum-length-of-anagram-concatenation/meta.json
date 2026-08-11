@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3395,
+  "questionId": "3395",
+  "questionFrontendId": "3138",
+  "titleSlug": "minimum-length-of-anagram-concatenation",
+  "title": "Minimum Length of Anagram Concatenation",
+  "translatedTitle": "同位字符串连接的最小长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-length-of-anagram-concatenation/",
+  "createdAt": "2026-08-11T21:34:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

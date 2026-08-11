@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3351,
+  "questionId": "3351",
+  "questionFrontendId": "3075",
+  "titleSlug": "maximize-happiness-of-selected-children",
+  "title": "Maximize Happiness of Selected Children",
+  "translatedTitle": "幸福值最大化的选择方案",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-happiness-of-selected-children/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

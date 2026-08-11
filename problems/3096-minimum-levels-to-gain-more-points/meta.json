@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3355,
+  "questionId": "3355",
+  "questionFrontendId": "3096",
+  "titleSlug": "minimum-levels-to-gain-more-points",
+  "title": "Minimum Levels to Gain More Points",
+  "translatedTitle": "得到更多分数的最少关卡数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-levels-to-gain-more-points/",
+  "createdAt": "2026-08-11T21:34:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3356,
+  "questionId": "3356",
+  "questionFrontendId": "3076",
+  "titleSlug": "shortest-uncommon-substring-in-an-array",
+  "title": "Shortest Uncommon Substring in an Array",
+  "translatedTitle": "数组中的最短非公共子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/shortest-uncommon-substring-in-an-array/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

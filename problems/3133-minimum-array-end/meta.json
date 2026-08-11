@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3394,
+  "questionId": "3394",
+  "questionFrontendId": "3133",
+  "titleSlug": "minimum-array-end",
+  "title": "Minimum Array End",
+  "translatedTitle": "数组最后一个元素的最小值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-array-end/",
+  "createdAt": "2026-08-11T21:34:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

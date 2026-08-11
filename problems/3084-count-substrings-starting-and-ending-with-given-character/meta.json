@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3337,
+  "questionId": "3337",
+  "questionFrontendId": "3084",
+  "titleSlug": "count-substrings-starting-and-ending-with-given-character",
+  "title": "Count Substrings Starting and Ending with Given Character",
+  "translatedTitle": "统计以给定字符开头和结尾的子字符串总数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-substrings-starting-and-ending-with-given-character/",
+  "createdAt": "2026-08-11T21:34:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
