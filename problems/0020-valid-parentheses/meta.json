@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 20,
+  "questionId": "20",
+  "questionFrontendId": "20",
+  "titleSlug": "valid-parentheses",
+  "title": "Valid Parentheses",
+  "translatedTitle": "有效的括号",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/valid-parentheses/",
+  "createdAt": "2026-08-11T10:12:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

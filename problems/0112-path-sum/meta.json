@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 112,
+  "questionId": "112",
+  "questionFrontendId": "112",
+  "titleSlug": "path-sum",
+  "title": "Path Sum",
+  "translatedTitle": "路径总和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/path-sum/",
+  "createdAt": "2026-08-11T10:18:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

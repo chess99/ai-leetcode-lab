@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 168,
+  "questionId": "168",
+  "questionFrontendId": "168",
+  "titleSlug": "excel-sheet-column-title",
+  "title": "Excel Sheet Column Title",
+  "translatedTitle": "Excel 表列名称",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/excel-sheet-column-title/",
+  "createdAt": "2026-08-11T10:22:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

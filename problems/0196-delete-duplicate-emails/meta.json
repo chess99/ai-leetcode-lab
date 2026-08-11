@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 196,
+  "questionId": "196",
+  "questionFrontendId": "196",
+  "titleSlug": "delete-duplicate-emails",
+  "title": "Delete Duplicate Emails",
+  "translatedTitle": "删除重复的电子邮箱",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/delete-duplicate-emails/",
+  "createdAt": "2026-08-11T10:23:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

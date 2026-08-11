@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 21,
+  "questionId": "21",
+  "questionFrontendId": "21",
+  "titleSlug": "merge-two-sorted-lists",
+  "title": "Merge Two Sorted Lists",
+  "translatedTitle": "合并两个有序链表",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/merge-two-sorted-lists/",
+  "createdAt": "2026-08-11T10:13:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

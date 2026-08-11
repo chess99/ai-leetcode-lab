@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 9,
+  "questionId": "9",
+  "questionFrontendId": "9",
+  "titleSlug": "palindrome-number",
+  "title": "Palindrome Number",
+  "translatedTitle": "回文数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/palindrome-number/",
+  "createdAt": "2026-08-11T10:11:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

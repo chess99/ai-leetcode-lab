@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 145,
+  "questionId": "145",
+  "questionFrontendId": "145",
+  "titleSlug": "binary-tree-postorder-traversal",
+  "title": "Binary Tree Postorder Traversal",
+  "translatedTitle": "二叉树的后序遍历",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/binary-tree-postorder-traversal/",
+  "createdAt": "2026-08-11T10:20:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
