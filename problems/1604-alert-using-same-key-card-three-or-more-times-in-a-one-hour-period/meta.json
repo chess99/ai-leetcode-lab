@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1709,
+  "questionId": "1709",
+  "questionFrontendId": "1604",
+  "titleSlug": "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+  "title": "Alert Using Same Key-Card Three or More Times in a One Hour Period",
+  "translatedTitle": "警告一小时内使用相同员工卡大于等于三次的人",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/",
+  "createdAt": "2026-08-11T19:16:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

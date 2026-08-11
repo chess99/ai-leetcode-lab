@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1684,
+  "questionId": "1684",
+  "questionFrontendId": "1562",
+  "titleSlug": "find-latest-group-of-size-m",
+  "title": "Find Latest Group of Size M",
+  "translatedTitle": "查找大小为 M 的最新分组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-latest-group-of-size-m/",
+  "createdAt": "2026-08-11T19:14:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

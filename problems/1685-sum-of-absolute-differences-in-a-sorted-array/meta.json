@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1787,
+  "questionId": "1787",
+  "questionFrontendId": "1685",
+  "titleSlug": "sum-of-absolute-differences-in-a-sorted-array",
+  "title": "Sum of Absolute Differences in a Sorted Array",
+  "translatedTitle": "有序数组中差绝对值之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array/",
+  "createdAt": "2026-08-11T19:16:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

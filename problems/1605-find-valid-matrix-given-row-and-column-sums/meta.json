@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1711,
+  "questionId": "1711",
+  "questionFrontendId": "1605",
+  "titleSlug": "find-valid-matrix-given-row-and-column-sums",
+  "title": "Find Valid Matrix Given Row and Column Sums",
+  "translatedTitle": "给定行和列的和求可行矩阵",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-valid-matrix-given-row-and-column-sums/",
+  "createdAt": "2026-08-11T19:16:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1770,
+  "questionId": "1770",
+  "questionFrontendId": "1647",
+  "titleSlug": "minimum-deletions-to-make-character-frequencies-unique",
+  "title": "Minimum Deletions to Make Character Frequencies Unique",
+  "translatedTitle": "字符频次唯一的最小删除次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/",
+  "createdAt": "2026-08-11T19:16:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

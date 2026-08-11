@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1813,
+  "questionId": "1813",
+  "questionFrontendId": "1695",
+  "titleSlug": "maximum-erasure-value",
+  "title": "Maximum Erasure Value",
+  "translatedTitle": "删除子数组的最大得分",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-erasure-value/",
+  "createdAt": "2026-08-11T19:16:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -74,6 +74,18 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         for event in events
         if event.get("type") in {"remote_test_result", "submission_result"}
     ]
+    results_by_action = {event.get("action_id"): event for event in result_events}
+
+    def charged_starts(starts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        charged: list[dict[str, Any]] = []
+        for start in starts:
+            result = results_by_action.get(start.get("action_id"))
+            if result is None or result.get("counts_against_budget", True):
+                charged.append(start)
+        return charged
+
+    charged_submission_starts = charged_starts(submission_starts)
+    charged_test_starts = charged_starts(test_starts)
     deferred_pairs = {
         (str(event["slug"]), str(event["profile_id"]))
         for event in events
@@ -153,10 +165,12 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         }
         profile_deferred_slugs = {slug for slug, pid in deferred_pairs if pid == profile_id}
         profile_tests = [
-            event for event in test_starts if str(event.get("profile_id")) == profile_id
+            event for event in charged_test_starts if str(event.get("profile_id")) == profile_id
         ]
         profile_submissions = [
-            event for event in submission_starts if str(event.get("profile_id")) == profile_id
+            event
+            for event in charged_submission_starts
+            if str(event.get("profile_id")) == profile_id
         ]
         profile_results = [
             event
@@ -304,12 +318,16 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         "deferredProfileAssignments": len(deferred_pairs),
         "reviewRequired": len(review_required_pairs),
         "remainingAccessible": max(accessible - accessible_accepted, 0),
-        "remoteTests": len(test_starts),
-        "submissions": len(submission_starts),
+        "remoteTests": len(charged_test_starts),
+        "submissions": len(charged_submission_starts),
         "firstSubmissionAccepted": first_submission_accepts,
         "firstRoundAccepted": first_round_accepts,
         "firstSubmissionAcceptanceRate": first_submission_accepts / accepted_count if accepted_count else 0.0,
-        "overallSubmissionAcceptanceRate": accepted_count / len(submission_starts) if submission_starts else 0.0,
+        "overallSubmissionAcceptanceRate": (
+            accepted_count / len(charged_submission_starts)
+            if charged_submission_starts
+            else 0.0
+        ),
         "byDifficulty": {
             level: {"total": difficulty_total[level], "accepted": difficulty_accepted[level]}
             for level in sorted(difficulty_total)

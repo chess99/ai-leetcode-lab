@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1782,
+  "questionId": "1782",
+  "questionFrontendId": "1663",
+  "titleSlug": "smallest-string-with-a-given-numeric-value",
+  "title": "Smallest String With A Given Numeric Value",
+  "translatedTitle": "具有给定数值的最小字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-string-with-a-given-numeric-value/",
+  "createdAt": "2026-08-11T19:16:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

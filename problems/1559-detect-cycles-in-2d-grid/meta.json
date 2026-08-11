@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1663,
+  "questionId": "1663",
+  "questionFrontendId": "1559",
+  "titleSlug": "detect-cycles-in-2d-grid",
+  "title": "Detect Cycles in 2D Grid",
+  "translatedTitle": "二维网格图中探测环",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/detect-cycles-in-2d-grid/",
+  "createdAt": "2026-08-11T19:14:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

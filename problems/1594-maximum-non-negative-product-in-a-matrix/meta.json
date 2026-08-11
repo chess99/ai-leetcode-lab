@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1716,
+  "questionId": "1716",
+  "questionFrontendId": "1594",
+  "titleSlug": "maximum-non-negative-product-in-a-matrix",
+  "title": "Maximum Non Negative Product in a Matrix",
+  "translatedTitle": "矩阵的最大非负积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-non-negative-product-in-a-matrix/",
+  "createdAt": "2026-08-11T19:14:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

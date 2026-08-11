@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1725,
+  "questionId": "1725",
+  "questionFrontendId": "1621",
+  "titleSlug": "number-of-sets-of-k-non-overlapping-line-segments",
+  "title": "Number of Sets of K Non-Overlapping Line Segments",
+  "translatedTitle": "大小为 K 的不重叠线段的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-sets-of-k-non-overlapping-line-segments/",
+  "createdAt": "2026-08-11T19:16:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

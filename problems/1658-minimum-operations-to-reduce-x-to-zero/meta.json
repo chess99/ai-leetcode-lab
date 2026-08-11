@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1776,
+  "questionId": "1776",
+  "questionFrontendId": "1658",
+  "titleSlug": "minimum-operations-to-reduce-x-to-zero",
+  "title": "Minimum Operations to Reduce X to Zero",
+  "translatedTitle": "将 x 减到 0 的最小操作数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/",
+  "createdAt": "2026-08-11T19:16:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

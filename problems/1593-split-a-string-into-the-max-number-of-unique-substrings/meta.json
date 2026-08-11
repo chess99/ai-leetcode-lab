@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1715,
+  "questionId": "1715",
+  "questionFrontendId": "1593",
+  "titleSlug": "split-a-string-into-the-max-number-of-unique-substrings",
+  "title": "Split a String Into the Max Number of Unique Substrings",
+  "translatedTitle": "拆分字符串使唯一子字符串的数目最大",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings/",
+  "createdAt": "2026-08-11T19:14:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

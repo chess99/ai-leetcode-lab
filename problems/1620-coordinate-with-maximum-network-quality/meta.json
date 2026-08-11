@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1726,
+  "questionId": "1726",
+  "questionFrontendId": "1620",
+  "titleSlug": "coordinate-with-maximum-network-quality",
+  "title": "Coordinate With Maximum Network Quality",
+  "translatedTitle": "网络信号最好的坐标",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/coordinate-with-maximum-network-quality/",
+  "createdAt": "2026-08-11T19:16:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

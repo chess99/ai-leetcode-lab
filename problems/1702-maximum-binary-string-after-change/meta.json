@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1804,
+  "questionId": "1804",
+  "questionFrontendId": "1702",
+  "titleSlug": "maximum-binary-string-after-change",
+  "title": "Maximum Binary String After Change",
+  "translatedTitle": "修改后的最大二进制字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-binary-string-after-change/",
+  "createdAt": "2026-08-11T19:16:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

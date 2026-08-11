@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1761,
+  "questionId": "1761",
+  "questionFrontendId": "1641",
+  "titleSlug": "count-sorted-vowel-strings",
+  "title": "Count Sorted Vowel Strings",
+  "translatedTitle": "统计字典序元音字符串的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-sorted-vowel-strings/",
+  "createdAt": "2026-08-11T19:16:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

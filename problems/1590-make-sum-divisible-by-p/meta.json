@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1694,
+  "questionId": "1694",
+  "questionFrontendId": "1590",
+  "titleSlug": "make-sum-divisible-by-p",
+  "title": "Make Sum Divisible by P",
+  "translatedTitle": "使数组和能被 P 整除",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/make-sum-divisible-by-p/",
+  "createdAt": "2026-08-11T19:14:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1807,
+  "questionId": "1807",
+  "questionFrontendId": "1689",
+  "titleSlug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+  "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+  "translatedTitle": "十-二进制数的最少数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers/",
+  "createdAt": "2026-08-11T19:16:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

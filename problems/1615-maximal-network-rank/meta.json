@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1738,
+  "questionId": "1738",
+  "questionFrontendId": "1615",
+  "titleSlug": "maximal-network-rank",
+  "title": "Maximal Network Rank",
+  "translatedTitle": "最大网络秩",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximal-network-rank/",
+  "createdAt": "2026-08-11T19:16:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1777,
+  "questionId": "1777",
+  "questionFrontendId": "1657",
+  "titleSlug": "determine-if-two-strings-are-close",
+  "title": "Determine if Two Strings Are Close",
+  "translatedTitle": "确定两个字符串是否接近",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/determine-if-two-strings-are-close/",
+  "createdAt": "2026-08-11T19:16:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

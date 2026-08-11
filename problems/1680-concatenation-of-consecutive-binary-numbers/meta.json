@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1800,
+  "questionId": "1800",
+  "questionFrontendId": "1680",
+  "titleSlug": "concatenation-of-consecutive-binary-numbers",
+  "title": "Concatenation of Consecutive Binary Numbers",
+  "translatedTitle": "连接连续二进制数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/",
+  "createdAt": "2026-08-11T19:16:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

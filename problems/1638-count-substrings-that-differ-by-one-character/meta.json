@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1743,
+  "questionId": "1743",
+  "questionFrontendId": "1638",
+  "titleSlug": "count-substrings-that-differ-by-one-character",
+  "title": "Count Substrings That Differ by One Character",
+  "translatedTitle": "统计只差一个字符的子串数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-substrings-that-differ-by-one-character/",
+  "createdAt": "2026-08-11T19:16:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

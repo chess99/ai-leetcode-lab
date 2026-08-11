@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1690,
+  "questionId": "1690",
+  "questionFrontendId": "1567",
+  "titleSlug": "maximum-length-of-subarray-with-positive-product",
+  "title": "Maximum Length of Subarray With Positive Product",
+  "translatedTitle": "乘积为正数的最长子数组长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-length-of-subarray-with-positive-product/",
+  "createdAt": "2026-08-11T19:14:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

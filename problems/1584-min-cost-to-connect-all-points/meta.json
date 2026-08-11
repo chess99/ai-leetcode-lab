@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1706,
+  "questionId": "1706",
+  "questionFrontendId": "1584",
+  "titleSlug": "min-cost-to-connect-all-points",
+  "title": "Min Cost to Connect All Points",
+  "translatedTitle": "连接所有点的最小费用",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/min-cost-to-connect-all-points/",
+  "createdAt": "2026-08-11T19:14:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

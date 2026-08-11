@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1756,
+  "questionId": "1756",
+  "questionFrontendId": "1653",
+  "titleSlug": "minimum-deletions-to-make-string-balanced",
+  "title": "Minimum Deletions to Make String Balanced",
+  "translatedTitle": "使字符串平衡的最少删除次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-deletions-to-make-string-balanced/",
+  "createdAt": "2026-08-11T19:16:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

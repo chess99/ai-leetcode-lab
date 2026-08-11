@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1830,
+  "questionId": "1830",
+  "questionFrontendId": "1711",
+  "titleSlug": "count-good-meals",
+  "title": "Count Good Meals",
+  "translatedTitle": "大餐计数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-good-meals/",
+  "createdAt": "2026-08-11T19:16:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

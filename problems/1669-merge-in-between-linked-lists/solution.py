@@ -1,0 +1,29 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T19:16:28Z
+# Experiment: ai-leetcode-lab, round 1
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+from __future__ import annotations
+
+
+class Solution:
+    def mergeInBetween(self, list1: ListNode, a: int, b: int, list2: ListNode) -> ListNode:
+        before = list1
+        for _ in range(a - 1):
+            before = before.next
+        after = before
+        for _ in range(b - a + 2):
+            after = after.next
+        before.next = list2
+        tail = list2
+        while tail.next:
+            tail = tail.next
+        tail.next = after
+        return list1

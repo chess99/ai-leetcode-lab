@@ -150,6 +150,74 @@ class StatsTests(unittest.TestCase):
             self.assertEqual(summary["profiles"]["sol-medium"]["usage"]["inputTokens"], 100)
             self.assertEqual(summary["usageCoverage"]["coverage"], 1.0)
 
+    def test_infrastructure_failures_do_not_lower_submission_acceptance_rate(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.write_profiles(root)
+            (root / "archive").mkdir()
+            (root / "archive" / "catalog.json").write_text(
+                json.dumps(
+                    {
+                        "problems": [
+                            {
+                                "titleSlug": "two-sum",
+                                "questionFrontendId": "1",
+                                "difficulty": "EASY",
+                                "paidOnly": False,
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            store = EventStore(root)
+            identity = {
+                "client": "Codex Desktop",
+                "model": "gpt-5.6-sol",
+                "reasoning_effort": "medium",
+                "profile_id": "sol-medium",
+            }
+            store.append("problem_started", slug="two-sum", **identity)
+            store.append(
+                "remote_test_started", action_id="test-429", slug="two-sum", **identity
+            )
+            store.append(
+                "remote_test_result",
+                action_id="test-429",
+                slug="two-sum",
+                outcome="infrastructure_error",
+                counts_against_budget=False,
+                **identity,
+            )
+            store.append(
+                "submission_started", action_id="submit-429", slug="two-sum", **identity
+            )
+            store.append(
+                "submission_result",
+                action_id="submit-429",
+                slug="two-sum",
+                outcome="infrastructure_error",
+                counts_against_budget=False,
+                **identity,
+            )
+            store.append(
+                "submission_started", action_id="submit-ok", slug="two-sum", **identity
+            )
+            store.append(
+                "submission_result",
+                action_id="submit-ok",
+                slug="two-sum",
+                outcome="accepted",
+                **identity,
+            )
+
+            summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
+            self.assertEqual(summary["remoteTests"], 0)
+            self.assertEqual(summary["submissions"], 1)
+            self.assertEqual(summary["overallSubmissionAcceptanceRate"], 1.0)
+            self.assertEqual(summary["profiles"]["sol-medium"]["remoteTests"], 0)
+            self.assertEqual(summary["profiles"]["sol-medium"]["submissions"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()

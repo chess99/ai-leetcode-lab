@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1705,
+  "questionId": "1705",
+  "questionFrontendId": "1583",
+  "titleSlug": "count-unhappy-friends",
+  "title": "Count Unhappy Friends",
+  "translatedTitle": "统计不开心的朋友",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-unhappy-friends/",
+  "createdAt": "2026-08-11T19:14:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

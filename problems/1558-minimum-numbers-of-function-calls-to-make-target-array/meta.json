@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1662,
+  "questionId": "1662",
+  "questionFrontendId": "1558",
+  "titleSlug": "minimum-numbers-of-function-calls-to-make-target-array",
+  "title": "Minimum Numbers of Function Calls to Make Target Array",
+  "translatedTitle": "得到目标数组的最少函数调用次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/",
+  "createdAt": "2026-08-11T19:14:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

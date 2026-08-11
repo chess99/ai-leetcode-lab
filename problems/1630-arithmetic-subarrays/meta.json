@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1752,
+  "questionId": "1752",
+  "questionFrontendId": "1630",
+  "titleSlug": "arithmetic-subarrays",
+  "title": "Arithmetic Subarrays",
+  "translatedTitle": "等差子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/arithmetic-subarrays/",
+  "createdAt": "2026-08-11T19:16:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
