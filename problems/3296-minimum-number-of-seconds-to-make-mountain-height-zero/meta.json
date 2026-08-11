@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3496,
+  "questionId": "3496",
+  "questionFrontendId": "3296",
+  "titleSlug": "minimum-number-of-seconds-to-make-mountain-height-zero",
+  "title": "Minimum Number of Seconds to Make Mountain Height Zero",
+  "translatedTitle": "移山所需的最少秒数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-seconds-to-make-mountain-height-zero/",
+  "createdAt": "2026-08-11T21:46:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

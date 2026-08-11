@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3584,
+  "questionId": "3584",
+  "questionFrontendId": "3302",
+  "titleSlug": "find-the-lexicographically-smallest-valid-sequence",
+  "title": "Find the Lexicographically Smallest Valid Sequence",
+  "translatedTitle": "字典序最小的合法序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-lexicographically-smallest-valid-sequence/",
+  "createdAt": "2026-08-11T21:46:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

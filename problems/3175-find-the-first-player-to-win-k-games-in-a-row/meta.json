@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3413,
+  "questionId": "3413",
+  "questionFrontendId": "3175",
+  "titleSlug": "find-the-first-player-to-win-k-games-in-a-row",
+  "title": "Find The First Player to win K Games in a Row",
+  "translatedTitle": "找到连续赢 K 场比赛的第一位玩家",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-first-player-to-win-k-games-in-a-row/",
+  "createdAt": "2026-08-11T21:46:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

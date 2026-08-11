@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3502,
+  "questionId": "3502",
+  "questionFrontendId": "3325",
+  "titleSlug": "count-substrings-with-k-frequency-characters-i",
+  "title": "Count Substrings With K-Frequency Characters I",
+  "translatedTitle": "字符至少出现 K 次的子字符串 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-substrings-with-k-frequency-characters-i/",
+  "createdAt": "2026-08-11T21:46:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

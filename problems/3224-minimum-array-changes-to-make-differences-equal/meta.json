@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3498,
+  "questionId": "3498",
+  "questionFrontendId": "3224",
+  "titleSlug": "minimum-array-changes-to-make-differences-equal",
+  "title": "Minimum Array Changes to Make Differences Equal",
+  "translatedTitle": "使差值相等的最少数组改动次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-array-changes-to-make-differences-equal/",
+  "createdAt": "2026-08-11T21:46:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3453,
+  "questionId": "3453",
+  "questionFrontendId": "3211",
+  "titleSlug": "generate-binary-strings-without-adjacent-zeros",
+  "title": "Generate Binary Strings Without Adjacent Zeros",
+  "translatedTitle": "生成不含相邻零的二进制字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/generate-binary-strings-without-adjacent-zeros/",
+  "createdAt": "2026-08-11T21:46:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3445,
+  "questionId": "3445",
+  "questionFrontendId": "3170",
+  "titleSlug": "lexicographically-minimum-string-after-removing-stars",
+  "title": "Lexicographically Minimum String After Removing Stars",
+  "translatedTitle": "删除星号以后字典序最小的字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lexicographically-minimum-string-after-removing-stars/",
+  "createdAt": "2026-08-11T21:46:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

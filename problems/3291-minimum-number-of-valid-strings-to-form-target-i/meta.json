@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3559,
+  "questionId": "3559",
+  "questionFrontendId": "3291",
+  "titleSlug": "minimum-number-of-valid-strings-to-form-target-i",
+  "title": "Minimum Number of Valid Strings to Form Target I",
+  "translatedTitle": "形成目标字符串需要的最少字符串数 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-valid-strings-to-form-target-i/",
+  "createdAt": "2026-08-11T21:46:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

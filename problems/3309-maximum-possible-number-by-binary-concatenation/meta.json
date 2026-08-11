@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3579,
+  "questionId": "3579",
+  "questionFrontendId": "3309",
+  "titleSlug": "maximum-possible-number-by-binary-concatenation",
+  "title": "Maximum Possible Number by Binary Concatenation",
+  "translatedTitle": "连接二进制表示可形成的最大数值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-possible-number-by-binary-concatenation/",
+  "createdAt": "2026-08-11T21:46:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

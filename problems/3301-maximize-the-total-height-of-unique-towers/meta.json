@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3510,
+  "questionId": "3510",
+  "questionFrontendId": "3301",
+  "titleSlug": "maximize-the-total-height-of-unique-towers",
+  "title": "Maximize the Total Height of Unique Towers",
+  "translatedTitle": "高度互不相同的最大塔高和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-the-total-height-of-unique-towers/",
+  "createdAt": "2026-08-11T21:46:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

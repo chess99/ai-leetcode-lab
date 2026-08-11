@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3430,
+  "questionId": "3430",
+  "questionFrontendId": "3169",
+  "titleSlug": "count-days-without-meetings",
+  "title": "Count Days Without Meetings",
+  "translatedTitle": "无需开会的工作日",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-days-without-meetings/",
+  "createdAt": "2026-08-11T21:46:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

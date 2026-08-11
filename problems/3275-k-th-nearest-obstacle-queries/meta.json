@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3495,
+  "questionId": "3495",
+  "questionFrontendId": "3275",
+  "titleSlug": "k-th-nearest-obstacle-queries",
+  "title": "K-th Nearest Obstacle Queries",
+  "translatedTitle": "第 K 近障碍物查询",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/k-th-nearest-obstacle-queries/",
+  "createdAt": "2026-08-11T21:46:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3607,
+  "questionId": "3607",
+  "questionFrontendId": "3326",
+  "titleSlug": "minimum-division-operations-to-make-array-non-decreasing",
+  "title": "Minimum Division Operations to Make Array Non Decreasing",
+  "translatedTitle": "使数组非递减的最少除法操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-division-operations-to-make-array-non-decreasing/",
+  "createdAt": "2026-08-11T21:46:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

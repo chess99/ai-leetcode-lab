@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3422,
+  "questionId": "3422",
+  "questionFrontendId": "3179",
+  "titleSlug": "find-the-n-th-value-after-k-seconds",
+  "title": "Find the N-th Value After K Seconds",
+  "translatedTitle": "K 秒后第 N 个元素的值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-n-th-value-after-k-seconds/",
+  "createdAt": "2026-08-11T21:46:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

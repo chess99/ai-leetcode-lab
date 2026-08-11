@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3507,
+  "questionId": "3507",
+  "questionFrontendId": "3233",
+  "titleSlug": "find-the-count-of-numbers-which-are-not-special",
+  "title": "Find the Count of Numbers Which Are Not Special",
+  "translatedTitle": "统计不是特殊数字的数字数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-count-of-numbers-which-are-not-special/",
+  "createdAt": "2026-08-11T21:46:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

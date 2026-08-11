@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3523,
+  "questionId": "3523",
+  "questionFrontendId": "3255",
+  "titleSlug": "find-the-power-of-k-size-subarrays-ii",
+  "title": "Find the Power of K-Size Subarrays II",
+  "translatedTitle": "长度为 K 的子数组的能量值 II",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-power-of-k-size-subarrays-ii/",
+  "createdAt": "2026-08-11T21:46:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

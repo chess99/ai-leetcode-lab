@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3530,
+  "questionId": "3530",
+  "questionFrontendId": "3220",
+  "titleSlug": "odd-and-even-transactions",
+  "title": "Odd and Even Transactions",
+  "translatedTitle": "奇数和偶数交易",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/odd-and-even-transactions/",
+  "createdAt": "2026-08-11T21:46:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

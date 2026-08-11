@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3264,
+  "questionId": "3264",
+  "questionFrontendId": "3207",
+  "titleSlug": "maximum-points-after-enemy-battles",
+  "title": "Maximum Points After Enemy Battles",
+  "translatedTitle": "与敌人战斗后的最大分数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-points-after-enemy-battles/",
+  "createdAt": "2026-08-11T21:46:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

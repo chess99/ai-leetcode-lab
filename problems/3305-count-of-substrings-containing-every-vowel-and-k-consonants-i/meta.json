@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3570,
+  "questionId": "3570",
+  "questionFrontendId": "3305",
+  "titleSlug": "count-of-substrings-containing-every-vowel-and-k-consonants-i",
+  "title": "Count of Substrings Containing Every Vowel and K Consonants I",
+  "translatedTitle": "元音辅音字符串计数 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/",
+  "createdAt": "2026-08-11T21:46:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

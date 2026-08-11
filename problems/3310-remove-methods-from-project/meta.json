@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3561,
+  "questionId": "3561",
+  "questionFrontendId": "3310",
+  "titleSlug": "remove-methods-from-project",
+  "title": "Remove Methods From Project",
+  "translatedTitle": "移除可疑的方法",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-methods-from-project/",
+  "createdAt": "2026-08-11T21:46:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

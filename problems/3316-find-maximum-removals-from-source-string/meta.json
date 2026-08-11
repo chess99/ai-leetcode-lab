@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3487,
+  "questionId": "3487",
+  "questionFrontendId": "3316",
+  "titleSlug": "find-maximum-removals-from-source-string",
+  "title": "Find Maximum Removals From Source String",
+  "translatedTitle": "从原字符串里进行删除操作的最多次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-maximum-removals-from-source-string/",
+  "createdAt": "2026-08-11T21:46:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

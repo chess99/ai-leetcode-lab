@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3526,
+  "questionId": "3526",
+  "questionFrontendId": "3239",
+  "titleSlug": "minimum-number-of-flips-to-make-binary-grid-palindromic-i",
+  "title": "Minimum Number of Flips to Make Binary Grid Palindromic I",
+  "translatedTitle": "最少翻转次数使二进制矩阵回文 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/",
+  "createdAt": "2026-08-11T21:46:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

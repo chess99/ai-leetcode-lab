@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3501,
+  "questionId": "3501",
+  "questionFrontendId": "3217",
+  "titleSlug": "delete-nodes-from-linked-list-present-in-array",
+  "title": "Delete Nodes From Linked List Present in Array",
+  "translatedTitle": "从链表中移除在数组中存在的节点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/delete-nodes-from-linked-list-present-in-array/",
+  "createdAt": "2026-08-11T21:46:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
