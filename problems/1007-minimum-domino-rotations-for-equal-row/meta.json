@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1049,
+  "questionId": "1049",
+  "questionFrontendId": "1007",
+  "titleSlug": "minimum-domino-rotations-for-equal-row",
+  "title": "Minimum Domino Rotations For Equal Row",
+  "translatedTitle": "行相等的最少多米诺旋转",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-domino-rotations-for-equal-row/",
+  "createdAt": "2026-08-11T18:08:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

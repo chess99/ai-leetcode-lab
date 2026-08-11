@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1014,
+  "questionId": "1014",
+  "questionFrontendId": "973",
+  "titleSlug": "k-closest-points-to-origin",
+  "title": "K Closest Points to Origin",
+  "translatedTitle": "最接近原点的 K 个点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/k-closest-points-to-origin/",
+  "createdAt": "2026-08-11T18:05:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

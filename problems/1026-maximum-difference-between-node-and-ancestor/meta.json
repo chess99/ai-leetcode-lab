@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1092,
+  "questionId": "1092",
+  "questionFrontendId": "1026",
+  "titleSlug": "maximum-difference-between-node-and-ancestor",
+  "title": "Maximum Difference Between Node and Ancestor",
+  "translatedTitle": "节点与其祖先之间的最大差值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor/",
+  "createdAt": "2026-08-11T18:12:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

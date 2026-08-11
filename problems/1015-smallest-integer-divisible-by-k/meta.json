@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1064,
+  "questionId": "1064",
+  "questionFrontendId": "1015",
+  "titleSlug": "smallest-integer-divisible-by-k",
+  "title": "Smallest Integer Divisible by K",
+  "translatedTitle": "可被 K 整除的最小整数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-integer-divisible-by-k/",
+  "createdAt": "2026-08-11T18:10:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

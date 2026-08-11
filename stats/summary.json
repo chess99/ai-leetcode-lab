@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-11T18:03:52Z",
+  "generatedAt": "2026-08-11T18:17:46Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -9,18 +9,18 @@
   "archivedDetails": 4406,
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
-  "started": 1390,
+  "started": 1450,
   "accepted": 487,
   "deferredProblems": 1,
   "deferredProfileAssignments": 1,
   "reviewRequired": 0,
   "remainingAccessible": 3141,
   "remoteTests": 1,
-  "submissions": 603,
+  "submissions": 604,
   "firstSubmissionAccepted": 478,
   "firstRoundAccepted": 487,
   "firstSubmissionAcceptanceRate": 0.9815195071868583,
-  "overallSubmissionAcceptanceRate": 0.8076285240464345,
+  "overallSubmissionAcceptanceRate": 0.8062913907284768,
   "byDifficulty": {
     "EASY": {
       "total": 1078,
@@ -3786,16 +3786,16 @@
       "cohort": "terra-control",
       "stage": 1,
       "enabled": true,
-      "started": 1389,
+      "started": 1449,
       "accepted": 486,
       "deferred": 1,
       "reviewRequired": 0,
       "remoteTests": 0,
-      "submissions": 602,
+      "submissions": 603,
       "failedSubmissions": 13,
       "firstSubmissionAccepted": 477,
-      "remoteElapsedReports": 602,
-      "remoteElapsedSeconds": 2343.343,
+      "remoteElapsedReports": 603,
+      "remoteElapsedSeconds": 2347.734,
       "averageSolveWallSeconds": 126.11728395061728,
       "medianSolveWallSeconds": 86.5,
       "byDifficulty": {
@@ -3810,7 +3810,7 @@
           "deferred": 0
         },
         "MEDIUM": {
-          "started": 441,
+          "started": 501,
           "accepted": 1,
           "deferred": 0
         }
@@ -3849,7 +3849,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 1390,
+    "startedProfileAssignments": 1450,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"

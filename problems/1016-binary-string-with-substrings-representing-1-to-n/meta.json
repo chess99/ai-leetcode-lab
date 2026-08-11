@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1065,
+  "questionId": "1065",
+  "questionFrontendId": "1016",
+  "titleSlug": "binary-string-with-substrings-representing-1-to-n",
+  "title": "Binary String With Substrings Representing 1 To N",
+  "translatedTitle": "子串能表示从 1 到 N 数字的二进制串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n/",
+  "createdAt": "2026-08-11T18:10:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

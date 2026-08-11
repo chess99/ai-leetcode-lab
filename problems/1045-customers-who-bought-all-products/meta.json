@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1135,
+  "questionId": "1135",
+  "questionFrontendId": "1045",
+  "titleSlug": "customers-who-bought-all-products",
+  "title": "Customers Who Bought All Products",
+  "translatedTitle": "买下所有产品的客户",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/customers-who-bought-all-products/",
+  "createdAt": "2026-08-11T18:13:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

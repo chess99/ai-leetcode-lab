@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1055,
+  "questionId": "1055",
+  "questionFrontendId": "1010",
+  "titleSlug": "pairs-of-songs-with-total-durations-divisible-by-60",
+  "title": "Pairs of Songs With Total Durations Divisible by 60",
+  "translatedTitle": "总持续时间可被 60 整除的歌曲",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/",
+  "createdAt": "2026-08-11T18:10:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1027,
+  "questionId": "1027",
+  "questionFrontendId": "985",
+  "titleSlug": "sum-of-even-numbers-after-queries",
+  "title": "Sum of Even Numbers After Queries",
+  "translatedTitle": "查询后的偶数和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-even-numbers-after-queries/",
+  "createdAt": "2026-08-11T18:05:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

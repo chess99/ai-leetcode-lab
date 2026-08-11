@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1119,
+  "questionId": "1119",
+  "questionFrontendId": "1041",
+  "titleSlug": "robot-bounded-in-circle",
+  "title": "Robot Bounded In Circle",
+  "translatedTitle": "困于环中的机器人",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/robot-bounded-in-circle/",
+  "createdAt": "2026-08-11T18:13:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

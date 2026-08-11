@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1113,
+  "questionId": "1113",
+  "questionFrontendId": "1040",
+  "titleSlug": "moving-stones-until-consecutive-ii",
+  "title": "Moving Stones Until Consecutive II",
+  "translatedTitle": "移动石子直到连续 II",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/moving-stones-until-consecutive-ii/",
+  "createdAt": "2026-08-11T18:12:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

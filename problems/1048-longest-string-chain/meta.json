@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1129,
+  "questionId": "1129",
+  "questionFrontendId": "1048",
+  "titleSlug": "longest-string-chain",
+  "title": "Longest String Chain",
+  "translatedTitle": "最长字符串链",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-string-chain/",
+  "createdAt": "2026-08-11T18:13:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

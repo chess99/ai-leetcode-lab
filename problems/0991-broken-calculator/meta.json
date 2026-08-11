@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1033,
+  "questionId": "1033",
+  "questionFrontendId": "991",
+  "titleSlug": "broken-calculator",
+  "title": "Broken Calculator",
+  "translatedTitle": "坏了的计算器",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/broken-calculator/",
+  "createdAt": "2026-08-11T18:06:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

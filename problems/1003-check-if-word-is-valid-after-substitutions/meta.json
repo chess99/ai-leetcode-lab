@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1045,
+  "questionId": "1045",
+  "questionFrontendId": "1003",
+  "titleSlug": "check-if-word-is-valid-after-substitutions",
+  "title": "Check If Word Is Valid After Substitutions",
+  "translatedTitle": "检查替换后的词是否有效",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-word-is-valid-after-substitutions/",
+  "createdAt": "2026-08-11T18:08:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

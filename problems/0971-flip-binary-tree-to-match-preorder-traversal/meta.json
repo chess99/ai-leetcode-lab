@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1011,
+  "questionId": "1011",
+  "questionFrontendId": "971",
+  "titleSlug": "flip-binary-tree-to-match-preorder-traversal",
+  "title": "Flip Binary Tree To Match Preorder Traversal",
+  "translatedTitle": "翻转二叉树以匹配先序遍历",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/flip-binary-tree-to-match-preorder-traversal/",
+  "createdAt": "2026-08-11T18:05:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

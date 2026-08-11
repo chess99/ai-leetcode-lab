@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1157,
+  "questionId": "1157",
+  "questionFrontendId": "1080",
+  "titleSlug": "insufficient-nodes-in-root-to-leaf-paths",
+  "title": "Insufficient Nodes in Root to Leaf Paths",
+  "translatedTitle": "根到叶路径上的不足节点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/insufficient-nodes-in-root-to-leaf-paths/",
+  "createdAt": "2026-08-11T18:15:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1105,
+  "questionId": "1105",
+  "questionFrontendId": "1035",
+  "titleSlug": "uncrossed-lines",
+  "title": "Uncrossed Lines",
+  "translatedTitle": "不相交的线",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/uncrossed-lines/",
+  "createdAt": "2026-08-11T18:12:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1028,
+  "questionId": "1028",
+  "questionFrontendId": "986",
+  "titleSlug": "interval-list-intersections",
+  "title": "Interval List Intersections",
+  "translatedTitle": "区间列表的交集",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/interval-list-intersections/",
+  "createdAt": "2026-08-11T18:05:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

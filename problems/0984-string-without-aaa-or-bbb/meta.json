@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1026,
+  "questionId": "1026",
+  "questionFrontendId": "984",
+  "titleSlug": "string-without-aaa-or-bbb",
+  "title": "String Without AAA or BBB",
+  "translatedTitle": "不含 AAA 或 BBB 的字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/string-without-aaa-or-bbb/",
+  "createdAt": "2026-08-11T18:05:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

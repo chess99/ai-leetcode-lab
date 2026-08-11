@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1025,
+  "questionId": "1025",
+  "questionFrontendId": "983",
+  "titleSlug": "minimum-cost-for-tickets",
+  "title": "Minimum Cost For Tickets",
+  "translatedTitle": "最低票价",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-for-tickets/",
+  "createdAt": "2026-08-11T18:05:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
