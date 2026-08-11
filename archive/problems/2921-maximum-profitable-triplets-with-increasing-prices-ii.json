@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:39Z",
+  "source": "https://leetcode.cn/problems/maximum-profitable-triplets-with-increasing-prices-ii/",
+  "question": {
+    "questionId": "3204",
+    "questionFrontendId": "2921",
+    "title": "Maximum Profitable Triplets With Increasing Prices II",
+    "titleSlug": "maximum-profitable-triplets-with-increasing-prices-ii",
+    "translatedTitle": "价格递增的最大利润三元组 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[10,2,3,4]\n[100,2,7,10]\n[1,2,3,4,5]\n[1,5,3,4,6]\n[4,3,2,1]\n[33,20,19,87]",
+    "sampleTestCase": "[10,2,3,4]\n[100,2,7,10]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxProfit\",\n  \"params\": [\n    {\n      \"name\": \"prices\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"profits\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"385\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 385, \"totalSubmissionRaw\": 1641, \"acRate\": \"23.5%\"}",
+    "topicTags": [
+      {
+        "name": "Binary Indexed Tree",
+        "slug": "binary-indexed-tree",
+        "translatedName": "树状数组"
+      },
+      {
+        "name": "Segment Tree",
+        "slug": "segment-tree",
+        "translatedName": "线段树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

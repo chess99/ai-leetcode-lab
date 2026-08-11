@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:15Z",
+  "source": "https://leetcode.cn/problems/walls-and-gates/",
+  "question": {
+    "questionId": "286",
+    "questionFrontendId": "286",
+    "title": "Walls and Gates",
+    "titleSlug": "walls-and-gates",
+    "translatedTitle": "墙与门",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 309,
+    "dislikes": 0,
+    "exampleTestcases": "[[2147483647,-1,0,2147483647],[2147483647,2147483647,2147483647,-1],[2147483647,-1,2147483647,-1],[0,-1,2147483647,2147483647]]\n[[-1]]",
+    "sampleTestCase": "[[2147483647,-1,0,2147483647],[2147483647,2147483647,2147483647,-1],[2147483647,-1,2147483647,-1],[0,-1,2147483647,2147483647]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"wallsAndGates\",\n  \"params\": [\n    {\n      \"name\": \"rooms\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"void\"\n  },\n  \"output\": {\n    \"paramindex\": 0\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"24.8K\", \"totalSubmission\": \"43.5K\", \"totalAcceptedRaw\": 24823, \"totalSubmissionRaw\": 43500, \"acRate\": \"57.1%\"}",
+    "topicTags": [
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

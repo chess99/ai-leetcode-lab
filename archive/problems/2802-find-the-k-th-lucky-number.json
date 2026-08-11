@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:19Z",
+  "source": "https://leetcode.cn/problems/find-the-k-th-lucky-number/",
+  "question": {
+    "questionId": "3030",
+    "questionFrontendId": "2802",
+    "title": "Find The K-th Lucky Number",
+    "titleSlug": "find-the-k-th-lucky-number",
+    "translatedTitle": "找出第 K 个幸运数字",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "4\n10\n1000",
+    "sampleTestCase": "4",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"kthLuckyNumber\",\n  \"params\": [\n    {\n      \"name\": \"k\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"396\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 396, \"totalSubmissionRaw\": 1467, \"acRate\": \"27.0%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

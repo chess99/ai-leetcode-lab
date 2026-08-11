@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:40Z",
+  "source": "https://leetcode.cn/problems/countries-you-can-safely-invest-in/",
+  "question": {
+    "questionId": "1641",
+    "questionFrontendId": "1501",
+    "title": "Countries You Can Safely Invest In",
+    "titleSlug": "countries-you-can-safely-invest-in",
+    "translatedTitle": "可以放心投资的国家",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 80,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Person\":[\"id\",\"name\",\"phone_number\"],\"Country\":[\"name\",\"country_code\"],\"Calls\":[\"caller_id\",\"callee_id\",\"duration\"]},\"rows\":{\"Person\":[[3,\"Jonathan\",\"051-1234567\"],[12,\"Elvis\",\"051-7654321\"],[1,\"Moncef\",\"212-1234567\"],[2,\"Maroua\",\"212-6523651\"],[7,\"Meir\",\"972-1234567\"],[9,\"Rachel\",\"972-0011100\"]],\"Country\":[[\"Peru\",\"051\"],[\"Israel\",\"972\"],[\"Morocco\",\"212\"],[\"Germany\",\"049\"],[\"Ethiopia\",\"251\"]],\"Calls\":[[1,9,33],[2,9,4],[1,2,59],[3,12,102],[3,12,330],[12,3,5],[7,9,13],[7,1,3],[9,7,1],[1,7,7]]}}",
+    "sampleTestCase": "{\"headers\":{\"Person\":[\"id\",\"name\",\"phone_number\"],\"Country\":[\"name\",\"country_code\"],\"Calls\":[\"caller_id\",\"callee_id\",\"duration\"]},\"rows\":{\"Person\":[[3,\"Jonathan\",\"051-1234567\"],[12,\"Elvis\",\"051-7654321\"],[1,\"Moncef\",\"212-1234567\"],[2,\"Maroua\",\"212-6523651\"],[7,\"Meir\",\"972-1234567\"],[9,\"Rachel\",\"972-0011100\"]],\"Country\":[[\"Peru\",\"051\"],[\"Israel\",\"972\"],[\"Morocco\",\"212\"],[\"Germany\",\"049\"],[\"Ethiopia\",\"251\"]],\"Calls\":[[1,9,33],[2,9,4],[1,2,59],[3,12,102],[3,12,330],[12,3,5],[7,9,13],[7,1,3],[9,7,1],[1,7,7]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Person (id int, name varchar(15), phone_number varchar(11))\",\"Create table If Not Exists Country (name varchar(15), country_code varchar(3))\",\"Create table If Not Exists Calls (caller_id int, callee_id int, duration int)\"],\"mssql\":[\"Create table Person (id int, name varchar(15), phone_number varchar(11))\",\"Create table Country (name varchar(15), country_code varchar(3))\",\"Create table Calls (caller_id int, callee_id int, duration int)\"],\"oraclesql\":[\"Create table Person (id int, name varchar(15), phone_number varchar(11))\",\"Create table Country (name varchar(15), country_code varchar(3))\",\"Create table Calls (caller_id int, callee_id int, duration int)\"],\"database\":true,\"name\":\"find_safe_countries\",\"pythondata\":[\"Person = pd.DataFrame([], columns=['id', 'name', 'phone_number']).astype({'id':'Int64', 'name':'object', 'phone_number':'object'})\",\"Country = pd.DataFrame([], columns=['name', 'country_code']).astype({'name':'object', 'country_code':'object'})\",\"Calls = pd.DataFrame([], columns=['caller_id', 'callee_id', 'duration']).astype({'caller_id':'Int64', 'callee_id':'Int64', 'duration':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Person (id int, name varchar(15), phone_number varchar(11))\\n\",\"Create table If Not Exists Country (name varchar(15), country_code varchar(3))\",\"Create table If Not Exists Calls (caller_id int, callee_id int, duration int)\"],\"database_schema\":{\"Person\":{\"id\":\"INT\",\"name\":\"VARCHAR(15)\",\"phone_number\":\"VARCHAR(11)\"},\"Country\":{\"name\":\"VARCHAR(15)\",\"country_code\":\"VARCHAR(3)\"},\"Calls\":{\"caller_id\":\"INT\",\"callee_id\":\"INT\",\"duration\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"21.7K\", \"totalSubmission\": \"39.7K\", \"totalAcceptedRaw\": 21699, \"totalSubmissionRaw\": 39654, \"acRate\": \"54.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

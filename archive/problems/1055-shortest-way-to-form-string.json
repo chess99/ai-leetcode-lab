@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:26Z",
+  "source": "https://leetcode.cn/problems/shortest-way-to-form-string/",
+  "question": {
+    "questionId": "1051",
+    "questionFrontendId": "1055",
+    "title": "Shortest Way to Form String",
+    "titleSlug": "shortest-way-to-form-string",
+    "translatedTitle": "形成字符串的最短路径",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 146,
+    "dislikes": 0,
+    "exampleTestcases": "\"abc\"\n\"abcbc\"\n\"abc\"\n\"acdbc\"\n\"xyz\"\n\"xzyxz\"",
+    "sampleTestCase": "\"abc\"\n\"abcbc\"",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"shortestWay\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"source\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"16.4K\", \"totalSubmission\": \"26.6K\", \"totalAcceptedRaw\": 16446, \"totalSubmissionRaw\": 26616, \"acRate\": \"61.8%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      }
+    ]
+  }
+}

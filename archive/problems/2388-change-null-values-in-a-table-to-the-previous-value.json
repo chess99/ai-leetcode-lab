@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:10Z",
+  "source": "https://leetcode.cn/problems/change-null-values-in-a-table-to-the-previous-value/",
+  "question": {
+    "questionId": "2523",
+    "questionFrontendId": "2388",
+    "title": "Change Null Values in a Table to the Previous Value",
+    "titleSlug": "change-null-values-in-a-table-to-the-previous-value",
+    "translatedTitle": "将表中的空值更改为前一个值",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 12,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"CoffeeShop\": [\"id\", \"drink\"]}, \"rows\": {\"CoffeeShop\": [[9, \"Rum and Coke\"], [6, null], [7, null], [3, \"St Germain Spritz\"], [1, \"Orange Margarita\"], [2, null]]}}",
+    "sampleTestCase": "{\"headers\": {\"CoffeeShop\": [\"id\", \"drink\"]}, \"rows\": {\"CoffeeShop\": [[9, \"Rum and Coke\"], [6, null], [7, null], [3, \"St Germain Spritz\"], [1, \"Orange Margarita\"], [2, null]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists CoffeeShop (id int, drink varchar(20))\"],\"mssql\":[\"Create table CoffeeShop (id int, drink varchar(20))\"],\"oraclesql\":[\"Create table CoffeeShop (id int, drink varchar(20))\"],\"database\":true,\"name\":\"change_null_values\",\"pythondata\":[\"CoffeeShop = pd.DataFrame([], columns=['id', 'drink']).astype({'id':'Int64', 'drink':'object'})\"],\"postgresql\":[\"Create table If Not Exists CoffeeShop (id int, drink varchar(20))\"],\"database_schema\":{\"CoffeeShop\":{\"id\":\"INT\",\"drink\":\"VARCHAR(20)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.4K\", \"totalSubmission\": \"3.9K\", \"totalAcceptedRaw\": 2413, \"totalSubmissionRaw\": 3883, \"acRate\": \"62.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

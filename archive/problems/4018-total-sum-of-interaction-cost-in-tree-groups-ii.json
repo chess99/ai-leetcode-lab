@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:53Z",
+  "source": "https://leetcode.cn/problems/total-sum-of-interaction-cost-in-tree-groups-ii/",
+  "question": {
+    "questionId": "4163",
+    "questionFrontendId": "4018",
+    "title": "Total Sum of Interaction Cost in Tree Groups II",
+    "titleSlug": "total-sum-of-interaction-cost-in-tree-groups-ii",
+    "translatedTitle": null,
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "3\n[[0,1],[1,2]]\n[1,1,1]\n3\n[[0,1],[1,2]]\n[3,2,3]\n4\n[[0,1],[0,2],[0,3]]\n[1,1,4,4]\n2\n[[0,1]]\n[1,2]",
+    "sampleTestCase": "3\n[[0,1],[1,2]]\n[1,1,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"interactionCosts\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"edges\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"group\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6\", \"totalSubmission\": \"8\", \"totalAcceptedRaw\": 6, \"totalSubmissionRaw\": 8, \"acRate\": \"75.0%\"}",
+    "topicTags": []
+  }
+}

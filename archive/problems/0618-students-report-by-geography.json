@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:11Z",
+  "source": "https://leetcode.cn/problems/students-report-by-geography/",
+  "question": {
+    "questionId": "618",
+    "questionFrontendId": "618",
+    "title": "Students Report By Geography",
+    "titleSlug": "students-report-by-geography",
+    "translatedTitle": "学生地理信息报告",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 96,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Student\":[\"name\",\"continent\"]},\"rows\":{\"Student\":[[\"Jane\",\"America\"],[\"Pascal\",\"Europe\"],[\"Xi\",\"Asia\"],[\"Jack\",\"America\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Student\":[\"name\",\"continent\"]},\"rows\":{\"Student\":[[\"Jane\",\"America\"],[\"Pascal\",\"Europe\"],[\"Xi\",\"Asia\"],[\"Jack\",\"America\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Student (name varchar(50), continent varchar(7))\"],\"mssql\":[\"Create table Student (name varchar(50), continent varchar(7))\"],\"oraclesql\":[\"Create table Student (name varchar(50), continent varchar(7))\"],\"database\":true,\"name\":\"geography_report\",\"pythondata\":[\"Student = pd.DataFrame([], columns=['name', 'continent']).astype({'name':'object', 'continent':'object'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Student (name varchar(50), continent varchar(7))\"],\"database_schema\":{\"Student\":{\"name\":\"VARCHAR(50)\",\"continent\":\"VARCHAR(7)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"12.9K\", \"totalSubmission\": \"20.9K\", \"totalAcceptedRaw\": 12881, \"totalSubmissionRaw\": 20912, \"acRate\": \"61.6%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

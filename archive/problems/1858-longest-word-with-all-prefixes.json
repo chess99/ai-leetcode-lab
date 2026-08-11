@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:41Z",
+  "source": "https://leetcode.cn/problems/longest-word-with-all-prefixes/",
+  "question": {
+    "questionId": "2009",
+    "questionFrontendId": "1858",
+    "title": "Longest Word With All Prefixes",
+    "titleSlug": "longest-word-with-all-prefixes",
+    "translatedTitle": "包含所有前缀的最长单词",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 18,
+    "dislikes": 0,
+    "exampleTestcases": "[\"k\",\"ki\",\"kir\",\"kira\",\"kiran\"]\n[\"a\",\"banana\",\"app\",\"appl\",\"ap\",\"apply\",\"apple\"]\n[\"abc\",\"bc\",\"ab\",\"qwe\"]",
+    "sampleTestCase": "[\"k\",\"ki\",\"kir\",\"kira\",\"kiran\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"longestWord\",\n  \"params\": [\n    {\n      \"name\": \"words\",\n      \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.7K\", \"totalSubmission\": \"2.6K\", \"totalAcceptedRaw\": 1737, \"totalSubmissionRaw\": 2572, \"acRate\": \"67.5%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

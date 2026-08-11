@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:07Z",
+  "source": "https://leetcode.cn/problems/minimize-maximum-value-in-a-grid/",
+  "question": {
+    "questionId": "2506",
+    "questionFrontendId": "2371",
+    "title": "Minimize Maximum Value in a Grid",
+    "titleSlug": "minimize-maximum-value-in-a-grid",
+    "translatedTitle": "最小化网格中的最大值",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "[[3,1],[2,5]]\n[[10]]",
+    "sampleTestCase": "[[3,1],[2,5]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minScore\",\n  \"params\": [\n    {\n      \"name\": \"grid\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[][]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"543\", \"totalSubmission\": \"874\", \"totalAcceptedRaw\": 543, \"totalSubmissionRaw\": 874, \"acRate\": \"62.1%\"}",
+    "topicTags": [
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Topological Sort",
+        "slug": "topological-sort",
+        "translatedName": "拓扑排序"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

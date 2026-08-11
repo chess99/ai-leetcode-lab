@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:21Z",
+  "source": "https://leetcode.cn/problems/sort-array-by-moving-items-to-empty-space/",
+  "question": {
+    "questionId": "2489",
+    "questionFrontendId": "2459",
+    "title": "Sort Array by Moving Items to Empty Space",
+    "titleSlug": "sort-array-by-moving-items-to-empty-space",
+    "translatedTitle": "通过移动项目到空白区域来排序数组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[4,2,0,3,1]\n[1,2,3,4,0]\n[1,0,2,4,3]",
+    "sampleTestCase": "[4,2,0,3,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"sortArray\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"476\", \"totalSubmission\": \"991\", \"totalAcceptedRaw\": 476, \"totalSubmissionRaw\": 991, \"acRate\": \"48.0%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

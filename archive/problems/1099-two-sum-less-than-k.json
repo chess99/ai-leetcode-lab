@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:33Z",
+  "source": "https://leetcode.cn/problems/two-sum-less-than-k/",
+  "question": {
+    "questionId": "1083",
+    "questionFrontendId": "1099",
+    "title": "Two Sum Less Than K",
+    "titleSlug": "two-sum-less-than-k",
+    "translatedTitle": "小于 K 的两数之和",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 108,
+    "dislikes": 0,
+    "exampleTestcases": "[34,23,1,24,75,33,54,8]\n60\n[10,20,30]\n15",
+    "sampleTestCase": "[34,23,1,24,75,33,54,8]\n60",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"twoSumLessThanK\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"k\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"12.4K\", \"totalSubmission\": \"20.1K\", \"totalAcceptedRaw\": 12369, \"totalSubmissionRaw\": 20090, \"acRate\": \"61.6%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

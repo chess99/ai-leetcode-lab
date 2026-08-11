@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:59Z",
+  "source": "https://leetcode.cn/problems/maximum-transactions-without-negative-balance/",
+  "question": {
+    "questionId": "4081",
+    "questionFrontendId": "3711",
+    "title": "Maximum Transactions Without Negative Balance",
+    "titleSlug": "maximum-transactions-without-negative-balance",
+    "translatedTitle": "不出现负余额的最大交易额",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[2,-5,3,-1,-2]\n[-1,-2,-3]\n[3,-2,3,-2,1,-1]",
+    "sampleTestCase": "[2,-5,3,-1,-2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxTransactions\",\n  \"params\": [\n    {\n      \"name\": \"transactions\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"142\", \"totalSubmission\": \"222\", \"totalAcceptedRaw\": 142, \"totalSubmissionRaw\": 222, \"acRate\": \"64.0%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

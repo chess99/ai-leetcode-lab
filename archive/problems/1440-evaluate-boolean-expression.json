@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:29Z",
+  "source": "https://leetcode.cn/problems/evaluate-boolean-expression/",
+  "question": {
+    "questionId": "1565",
+    "questionFrontendId": "1440",
+    "title": "Evaluate Boolean Expression",
+    "titleSlug": "evaluate-boolean-expression",
+    "translatedTitle": "计算布尔表达式的值",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 76,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Variables\":[\"name\",\"value\"],\"Expressions\":[\"left_operand\",\"operator\",\"right_operand\"]},\"rows\":{\"Variables\":[[\"x\",66],[\"y\",77]],\"Expressions\":[[\"x\",\">\",\"y\"],[\"x\",\"<\",\"y\"],[\"x\",\"=\",\"y\"],[\"y\",\">\",\"x\"],[\"y\",\"<\",\"x\"],[\"x\",\"=\",\"x\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Variables\":[\"name\",\"value\"],\"Expressions\":[\"left_operand\",\"operator\",\"right_operand\"]},\"rows\":{\"Variables\":[[\"x\",66],[\"y\",77]],\"Expressions\":[[\"x\",\">\",\"y\"],[\"x\",\"<\",\"y\"],[\"x\",\"=\",\"y\"],[\"y\",\">\",\"x\"],[\"y\",\"<\",\"x\"],[\"x\",\"=\",\"x\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create Table If Not Exists Variables (name varchar(3), value int)\",\"Create Table If Not Exists Expressions (left_operand varchar(3), operator ENUM('>', '<', '='), right_operand varchar(3))\"],\"mssql\":[\"Create Table Variables (name varchar(3), value int)\",\"Create Table Expressions (left_operand varchar(3), operator varchar(3) NOT NULL CHECK (operator IN ('>', '<', '=')), right_operand varchar(3))\"],\"oraclesql\":[\"Create Table Variables (name varchar(3), value int)\",\"Create Table Expressions (left_operand varchar(3), operator varchar(3) NOT NULL CHECK (operator IN ('>', '<', '=')), right_operand varchar(3))\"],\"database\":true,\"name\":\"eval_expression\",\"pythondata\":[\"Variables = pd.DataFrame([], columns=['name', 'value']).astype({'name':'object', 'value':'Int64'})\",\"Expressions = pd.DataFrame([], columns=['left_operand', 'operator', 'right_operand']).astype({'left_operand':'object', 'operator':'object', 'right_operand':'object'})\"],\"postgresql\":[\"Create Table If Not Exists Variables (name varchar(3), value int)\\n\",\"Create Table If Not Exists Expressions (left_operand varchar(3), operator VARCHAR(30) CHECK (operator IN ('>', '<', '=')), right_operand varchar(3))\\n\"],\"database_schema\":{\"Variables\":{\"name\":\"VARCHAR(3)\",\"value\":\"INT\"},\"Expressions\":{\"left_operand\":\"VARCHAR(3)\",\"operator\":\"ENUM('>', '<', '=')\",\"right_operand\":\"VARCHAR(3)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"17.7K\", \"totalSubmission\": \"26.5K\", \"totalAcceptedRaw\": 17714, \"totalSubmissionRaw\": 26485, \"acRate\": \"66.9%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

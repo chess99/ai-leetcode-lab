@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:28Z",
+  "source": "https://leetcode.cn/problems/rolling-average-steps/",
+  "question": {
+    "questionId": "3156",
+    "questionFrontendId": "2854",
+    "title": "Rolling Average Steps",
+    "titleSlug": "rolling-average-steps",
+    "translatedTitle": "滚动平均步数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Steps\": [\"user_id\", \"steps_count\", \"steps_date\"]}, \"rows\": {\"Steps\": [[1,687,\"2021-09-02\"],[1,395,\"2021-09-04\"],[1,499,\"2021-09-05\"],[1,712,\"2021-09-06\"],[1,576,\"2021-09-07\"],[2,153,\"2021-09-06\"],[2,171,\"2021-09-07\"],[2,530,\"2021-09-08\"],[3,945,\"2021-09-04\"],[3,120,\"2021-09-07\"],[3,557,\"2021-09-08\"],[3,840,\"2021-09-09\"],[3,627,\"2021-09-10\"],[5,382,\"2021-09-05\"],[6,480,\"2021-09-01\"],[6,191,\"2021-09-02\"],[6,303,\"2021-09-05\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Steps\": [\"user_id\", \"steps_count\", \"steps_date\"]}, \"rows\": {\"Steps\": [[1,687,\"2021-09-02\"],[1,395,\"2021-09-04\"],[1,499,\"2021-09-05\"],[1,712,\"2021-09-06\"],[1,576,\"2021-09-07\"],[2,153,\"2021-09-06\"],[2,171,\"2021-09-07\"],[2,530,\"2021-09-08\"],[3,945,\"2021-09-04\"],[3,120,\"2021-09-07\"],[3,557,\"2021-09-08\"],[3,840,\"2021-09-09\"],[3,627,\"2021-09-10\"],[5,382,\"2021-09-05\"],[6,480,\"2021-09-01\"],[6,191,\"2021-09-02\"],[6,303,\"2021-09-05\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists Steps(user_id int, steps_count int, steps_date date)\"],\"mssql\":[\"Create table Steps(user_id int, steps_count int, steps_date date)\"],\"oraclesql\":[\"Create table Steps(user_id int, steps_count int, steps_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"rolling_average\",\"pythondata\":[\"Steps = pd.DataFrame([], columns=['user_id', 'steps_count', 'steps_date']).astype({'user_id':'Int64', 'steps_count':'Int64', 'steps_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table if not exists Steps(user_id int, steps_count int, steps_date date)\"],\"database_schema\":{\"Steps\":{\"user_id\":\"INT\",\"steps_count\":\"INT\",\"steps_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.6K\", \"totalSubmission\": \"2.4K\", \"totalAcceptedRaw\": 1562, \"totalSubmissionRaw\": 2387, \"acRate\": \"65.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

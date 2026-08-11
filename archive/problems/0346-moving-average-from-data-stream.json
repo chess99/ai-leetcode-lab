@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:26Z",
+  "source": "https://leetcode.cn/problems/moving-average-from-data-stream/",
+  "question": {
+    "questionId": "346",
+    "questionFrontendId": "346",
+    "title": "Moving Average from Data Stream",
+    "titleSlug": "moving-average-from-data-stream",
+    "translatedTitle": "数据流中的移动平均值",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 124,
+    "dislikes": 0,
+    "exampleTestcases": "[\"MovingAverage\",\"next\",\"next\",\"next\",\"next\"]\n[[3],[1],[10],[3],[5]]",
+    "sampleTestCase": "[\"MovingAverage\",\"next\",\"next\",\"next\",\"next\"]\n[[3],[1],[10],[3],[5]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"MovingAverage\",\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"integer\",\n        \"name\": \"size\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"val\"\n        }\n      ],\n      \"name\": \"next\",\n      \"return\": {\n        \"type\": \"double\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"27.9K\", \"totalSubmission\": \"38K\", \"totalAcceptedRaw\": 27934, \"totalSubmissionRaw\": 37983, \"acRate\": \"73.5%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Queue",
+        "slug": "queue",
+        "translatedName": "队列"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Data Stream",
+        "slug": "data-stream",
+        "translatedName": "数据流"
+      }
+    ]
+  }
+}

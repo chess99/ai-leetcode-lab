@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:09Z",
+  "source": "https://leetcode.cn/problems/design-compressed-string-iterator/",
+  "question": {
+    "questionId": "604",
+    "questionFrontendId": "604",
+    "title": "Design Compressed String Iterator",
+    "titleSlug": "design-compressed-string-iterator",
+    "translatedTitle": "迭代压缩字符串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 67,
+    "dislikes": 0,
+    "exampleTestcases": "[\"StringIterator\",\"next\",\"next\",\"next\",\"next\",\"next\",\"next\",\"hasNext\",\"next\",\"hasNext\"]\n[[\"L1e2t1C1o1d1e1\"],[],[],[],[],[],[],[],[],[]]",
+    "sampleTestCase": "[\"StringIterator\",\"next\",\"next\",\"next\",\"next\",\"next\",\"next\",\"hasNext\",\"next\",\"hasNext\"]\n[[\"L1e2t1C1o1d1e1\"],[],[],[],[],[],[],[],[],[]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n    \"classname\": \"StringIterator\",\r\n    \"maxbytesperline\": 200000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n            {\r\n            \"type\": \"string\",\r\n            \"name\": \"compressedString\"\r\n            }\r\n        ]\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"next\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"character\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"hasNext\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.9K\", \"totalSubmission\": \"15.2K\", \"totalAcceptedRaw\": 5856, \"totalSubmissionRaw\": 15165, \"acRate\": \"38.6%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Iterator",
+        "slug": "iterator",
+        "translatedName": "迭代器"
+      }
+    ]
+  }
+}

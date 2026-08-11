@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:27Z",
+  "source": "https://leetcode.cn/problems/design-snake-game/",
+  "question": {
+    "questionId": "353",
+    "questionFrontendId": "353",
+    "title": "Design Snake Game",
+    "titleSlug": "design-snake-game",
+    "translatedTitle": "贪吃蛇",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 117,
+    "dislikes": 0,
+    "exampleTestcases": "[\"SnakeGame\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\"]\n[[3,2,[[1,2],[0,1]]],[\"R\"],[\"D\"],[\"R\"],[\"U\"],[\"L\"],[\"U\"]]",
+    "sampleTestCase": "[\"SnakeGame\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\"]\n[[3,2,[[1,2],[0,1]]],[\"R\"],[\"D\"],[\"R\"],[\"U\"],[\"L\"],[\"U\"]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"SnakeGame\",\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"integer\",\n        \"name\": \"width\"\n      },\n      {\n        \"type\": \"integer\",\n        \"name\": \"height\"\n      },\n      {\n        \"type\": \"integer[][]\",\n        \"name\": \"food\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"string\",\n          \"name\": \"direction\"\n        }\n      ],\n      \"name\": \"move\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true,\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.7K\", \"totalSubmission\": \"15.7K\", \"totalAcceptedRaw\": 6679, \"totalSubmissionRaw\": 15695, \"acRate\": \"42.6%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Queue",
+        "slug": "queue",
+        "translatedName": "队列"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

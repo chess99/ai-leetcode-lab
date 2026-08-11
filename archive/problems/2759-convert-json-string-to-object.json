@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:12Z",
+  "source": "https://leetcode.cn/problems/convert-json-string-to-object/",
+  "question": {
+    "questionId": "2851",
+    "questionFrontendId": "2759",
+    "title": "Convert JSON String to Object",
+    "titleSlug": "convert-json-string-to-object",
+    "translatedTitle": "将 JSON 字符串转换为对象",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "'{\"a\":2,\"b\":[1,2,3]}'\n'true'\n'[1,5,\"false\",{\"a\":2}]'",
+    "sampleTestCase": "'{\"a\":2,\"b\":[1,2,3]}'",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"jsonParse\",\n  \"params\": [\n    {\n      \"name\": \"str\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"249\", \"totalSubmission\": \"439\", \"totalAcceptedRaw\": 249, \"totalSubmissionRaw\": 439, \"acRate\": \"56.7%\"}",
+    "topicTags": []
+  }
+}

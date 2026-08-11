@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:33Z",
+  "source": "https://leetcode.cn/problems/count-triplets-with-even-xor-set-bits-ii/",
+  "question": {
+    "questionId": "3521",
+    "questionFrontendId": "3215",
+    "title": "Count Triplets with Even XOR Set Bits II",
+    "titleSlug": "count-triplets-with-even-xor-set-bits-ii",
+    "translatedTitle": "用偶数异或设置位计数三元组 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "[1]\n[2]\n[3]\n[1,1]\n[2,3]\n[1,5]",
+    "sampleTestCase": "[1]\n[2]\n[3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"tripletCount\",\n  \"params\": [\n    {\n      \"name\": \"a\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"b\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"c\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"291\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 291, \"totalSubmissionRaw\": 1097, \"acRate\": \"26.5%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

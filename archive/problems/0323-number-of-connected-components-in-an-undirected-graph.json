@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:22Z",
+  "source": "https://leetcode.cn/problems/number-of-connected-components-in-an-undirected-graph/",
+  "question": {
+    "questionId": "323",
+    "questionFrontendId": "323",
+    "title": "Number of Connected Components in an Undirected Graph",
+    "titleSlug": "number-of-connected-components-in-an-undirected-graph",
+    "translatedTitle": "无向图中连通分量的数目",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 221,
+    "dislikes": 0,
+    "exampleTestcases": "5\n[[0,1],[1,2],[3,4]]\n5\n[[0,1],[1,2],[2,3],[3,4]]",
+    "sampleTestCase": "5\n[[0,1],[1,2],[3,4]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"countComponents\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"edges\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"33.9K\", \"totalSubmission\": \"51.4K\", \"totalAcceptedRaw\": 33872, \"totalSubmissionRaw\": 51380, \"acRate\": \"65.9%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      }
+    ]
+  }
+}

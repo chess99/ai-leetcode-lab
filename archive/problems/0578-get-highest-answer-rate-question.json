@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:04Z",
+  "source": "https://leetcode.cn/problems/get-highest-answer-rate-question/",
+  "question": {
+    "questionId": "578",
+    "questionFrontendId": "578",
+    "title": "Get Highest Answer Rate Question",
+    "titleSlug": "get-highest-answer-rate-question",
+    "translatedTitle": "查询回答率最高的问题",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 47,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"SurveyLog\": [\"id\", \"action\", \"question_id\", \"answer_id\", \"q_num\", \"timestamp\"]},\"rows\": {\"SurveyLog\": [[5, \"show\", 285, null, 1, 123], [5, \"answer\", 285, 124124, 1, 124], [5, \"show\", 369, null, 2, 125], [5, \"skip\", 369, null, 2, 126]]}}",
+    "sampleTestCase": "{\"headers\": {\"SurveyLog\": [\"id\", \"action\", \"question_id\", \"answer_id\", \"q_num\", \"timestamp\"]},\"rows\": {\"SurveyLog\": [[5, \"show\", 285, null, 1, 123], [5, \"answer\", 285, 124124, 1, 124], [5, \"show\", 369, null, 2, 125], [5, \"skip\", 369, null, 2, 126]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists SurveyLog (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"],\"mssql\":[\"Create table SurveyLog (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"],\"oraclesql\":[\"Create table SurveyLog (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"],\"database\":true,\"name\":\"get_the_question\",\"pythondata\":[\"SurveyLog = pd.DataFrame([], columns=['id', 'action', 'question_id', 'answer_id', 'q_num', 'timestamp']).astype({'id':'Int64', 'action':'object', 'question_id':'Int64', 'answer_id':'Int64', 'q_num':'Int64', 'timestamp':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists SurveyLog (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"],\"database_schema\":{\"SurveyLog\":{\"id\":\"INT\",\"action\":\"VARCHAR(255)\",\"question_id\":\"INT\",\"answer_id\":\"INT\",\"q_num\":\"INT\",\"timestamp\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"25.9K\", \"totalSubmission\": \"62.1K\", \"totalAcceptedRaw\": 25890, \"totalSubmissionRaw\": 62067, \"acRate\": \"41.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

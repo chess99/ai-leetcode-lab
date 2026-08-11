@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:45Z",
+  "source": "https://leetcode.cn/problems/make-the-prefix-sum-non-negative/",
+  "question": {
+    "questionId": "2674",
+    "questionFrontendId": "2599",
+    "title": "Make the Prefix Sum Non-negative",
+    "titleSlug": "make-the-prefix-sum-non-negative",
+    "translatedTitle": "使前缀和数组非负",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "[2,3,-5,4]\n[3,-5,-2,6]",
+    "sampleTestCase": "[2,3,-5,4]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"makePrefSumNonNegative\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"592\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 592, \"totalSubmissionRaw\": 1253, \"acRate\": \"47.2%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

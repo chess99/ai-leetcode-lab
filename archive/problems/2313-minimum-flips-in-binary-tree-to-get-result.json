@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:58Z",
+  "source": "https://leetcode.cn/problems/minimum-flips-in-binary-tree-to-get-result/",
+  "question": {
+    "questionId": "2399",
+    "questionFrontendId": "2313",
+    "title": "Minimum Flips in Binary Tree to Get Result",
+    "titleSlug": "minimum-flips-in-binary-tree-to-get-result",
+    "translatedTitle": "二叉树中得到结果所需的最少翻转次数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 10,
+    "dislikes": 0,
+    "exampleTestcases": "[3,5,4,2,null,1,1,1,0]\ntrue\n[0]\nfalse",
+    "sampleTestCase": "[3,5,4,2,null,1,1,1,0]\ntrue",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumFlips\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    },\n    {\n      \"type\": \"boolean\",\n      \"name\": \"result\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"566\", \"totalSubmission\": \"985\", \"totalAcceptedRaw\": 566, \"totalSubmissionRaw\": 985, \"acRate\": \"57.5%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

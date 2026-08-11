@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:31Z",
+  "source": "https://leetcode.cn/problems/check-if-there-is-a-path-with-equal-number-of-0s-and-1s/",
+  "question": {
+    "questionId": "2653",
+    "questionFrontendId": "2510",
+    "title": "Check if There is a Path With Equal Number of 0's And 1's",
+    "titleSlug": "check-if-there-is-a-path-with-equal-number-of-0s-and-1s",
+    "translatedTitle": "检查是否有路径经过相同数量的 0 和 1",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,1,0,0],[0,1,0,0],[1,0,1,0]]\n[[1,1,0],[0,0,1],[1,0,0]]",
+    "sampleTestCase": "[[0,1,0,0],[0,1,0,0],[1,0,1,0]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"isThereAPath\",\n  \"params\": [\n    {\n      \"name\": \"grid\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"974\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 974, \"totalSubmissionRaw\": 1515, \"acRate\": \"64.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

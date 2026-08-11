@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:33Z",
+  "source": "https://leetcode.cn/problems/lexicographical-numbers/",
+  "question": {
+    "questionId": "386",
+    "questionFrontendId": "386",
+    "title": "Lexicographical Numbers",
+    "titleSlug": "lexicographical-numbers",
+    "translatedTitle": "字典序排数",
+    "content": "<p>Given an integer <code>n</code>, return all the numbers in the range <code>[1, n]</code> sorted in lexicographical order.</p>\n\n<p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time and uses <code>O(1)</code> extra space.&nbsp;</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> n = 13\n<strong>Output:</strong> [1,10,11,12,13,2,3,4,5,6,7,8,9]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> n = 2\n<strong>Output:</strong> [1,2]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>\n</ul>\n",
+    "translatedContent": "<p>给你一个整数 <code>n</code> ，按字典序返回范围 <code>[1, n]</code> 内所有整数。</p>\n\n<p>你必须设计一个时间复杂度为 <code>O(n)</code> 且使用 <code>O(1)</code> 额外空间的算法。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>n = 13\n<strong>输出：</strong>[1,10,11,12,13,2,3,4,5,6,7,8,9]\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>n = 2\n<strong>输出：</strong>[1,2]\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 553,
+    "dislikes": 0,
+    "exampleTestcases": "13\n2",
+    "sampleTestCase": "13",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"lexicalOrder\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    vector<int> lexicalOrder(int n) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public List<Integer> lexicalOrder(int n) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def lexicalOrder(self, n: int) -> List[int]:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def lexicalOrder(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: List[int]\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number} n\n * @return {number[]}\n */\nvar lexicalOrder = function(n) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function lexicalOrder(n: number): number[] {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public IList<int> LexicalOrder(int n) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* lexicalOrder(int n, int* returnSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func lexicalOrder(n int) []int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun lexicalOrder(n: Int): List<Int> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func lexicalOrder(_ n: Int) -> [Int] {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn lexical_order(n: i32) -> Vec<i32> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer} n\n# @return {Integer[]}\ndef lexical_order(n)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer[]\n     */\n    function lexicalOrder($n) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  List<int> lexicalOrder(int n) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def lexicalOrder(n: Int): List[Int] = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec lexical_order(n :: integer) :: [integer]\n  def lexical_order(n) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec lexical_order(N :: integer()) -> [integer()].\nlexical_order(N) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (lexical-order n)\n  (-> exact-integer? (listof exact-integer?))\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func lexicalOrder(n: Int64): ArrayList<Int64> {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"101.3K\", \"totalSubmission\": \"134.7K\", \"totalAcceptedRaw\": 101342, \"totalSubmissionRaw\": 134724, \"acRate\": \"75.2%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      }
+    ]
+  }
+}

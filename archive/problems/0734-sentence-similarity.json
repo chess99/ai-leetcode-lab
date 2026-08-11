@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:30Z",
+  "source": "https://leetcode.cn/problems/sentence-similarity/",
+  "question": {
+    "questionId": "734",
+    "questionFrontendId": "734",
+    "title": "Sentence Similarity",
+    "titleSlug": "sentence-similarity",
+    "translatedTitle": "句子相似性",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 48,
+    "dislikes": 0,
+    "exampleTestcases": "[\"great\",\"acting\",\"skills\"]\n[\"fine\",\"drama\",\"talent\"]\n[[\"great\",\"fine\"],[\"drama\",\"acting\"],[\"skills\",\"talent\"]]\n[\"great\"]\n[\"great\"]\n[]\n[\"great\"]\n[\"doubleplus\",\"good\"]\n[[\"great\",\"doubleplus\"]]",
+    "sampleTestCase": "[\"great\",\"acting\",\"skills\"]\n[\"fine\",\"drama\",\"talent\"]\n[[\"great\",\"fine\"],[\"drama\",\"acting\"],[\"skills\",\"talent\"]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"areSentencesSimilar\",\n  \"params\": [\n    {\n      \"name\": \"sentence1\",\n      \"type\": \"string[]\"\n    },\n    {\n      \"name\": \"sentence2\",\n      \"type\": \"string[]\"\n    },\n    {\n      \"name\": \"similarPairs\",\n      \"type\": \"list<list<string>>\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"9.2K\", \"totalSubmission\": \"18.8K\", \"totalAcceptedRaw\": 9244, \"totalSubmissionRaw\": 18778, \"acRate\": \"49.2%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

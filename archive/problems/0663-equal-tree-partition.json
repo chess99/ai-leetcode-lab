@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:18Z",
+  "source": "https://leetcode.cn/problems/equal-tree-partition/",
+  "question": {
+    "questionId": "663",
+    "questionFrontendId": "663",
+    "title": "Equal Tree Partition",
+    "titleSlug": "equal-tree-partition",
+    "translatedTitle": "均匀树划分",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 65,
+    "dislikes": 0,
+    "exampleTestcases": "[5,10,10,null,null,2,3]\n[1,2,10,null,null,2,20]",
+    "sampleTestCase": "[5,10,10,null,null,2,3]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"checkEqualTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.1K\", \"totalSubmission\": \"9.7K\", \"totalAcceptedRaw\": 4105, \"totalSubmissionRaw\": 9679, \"acRate\": \"42.4%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

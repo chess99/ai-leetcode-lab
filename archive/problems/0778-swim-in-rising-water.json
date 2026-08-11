@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:39Z",
+  "source": "https://leetcode.cn/problems/swim-in-rising-water/",
+  "question": {
+    "questionId": "794",
+    "questionFrontendId": "778",
+    "title": "Swim in Rising Water",
+    "titleSlug": "swim-in-rising-water",
+    "translatedTitle": "水位上升的泳池中游泳",
+    "content": "<p>You are given an <code>n x n</code> integer matrix <code>grid</code> where each value <code>grid[i][j]</code> represents the elevation at that point <code>(i, j)</code>.</p>\n\n<p>It starts raining, and water gradually rises over time. At time <code>t</code>, the water level is <code>t</code>, meaning <strong>any</strong> cell with elevation less than equal to <code>t</code> is submerged or reachable.</p>\n\n<p>You can swim from a square to another 4-directionally adjacent square if and only if the elevation of both squares individually are at most <code>t</code>. You can swim infinite distances in zero time. Of course, you must stay within the boundaries of the grid during your swim.</p>\n\n<p>Return <em>the minimum time until you can reach the bottom right square </em><code>(n - 1, n - 1)</code><em> if you start at the top left square </em><code>(0, 0)</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/06/29/swim1-grid.jpg\" style=\"width: 164px; height: 165px;\" />\n<pre>\n<strong>Input:</strong> grid = [[0,2],[1,3]]\n<strong>Output:</strong> 3\nExplanation:\nAt time 0, you are in grid location (0, 0).\nYou cannot go anywhere else because 4-directionally adjacent neighbors have a higher elevation than t = 0.\nYou cannot reach point (1, 1) until time 3.\nWhen the depth of water is 3, we can swim anywhere inside the grid.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/06/29/swim2-grid-1.jpg\" style=\"width: 404px; height: 405px;\" />\n<pre>\n<strong>Input:</strong> grid = [[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]\n<strong>Output:</strong> 16\n<strong>Explanation:</strong> The final route is shown.\nWe need to wait until time 16 so that (0, 0) and (4, 4) are connected.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == grid.length</code></li>\n\t<li><code>n == grid[i].length</code></li>\n\t<li><code>1 &lt;= n &lt;= 50</code></li>\n\t<li><code>0 &lt;= grid[i][j] &lt;&nbsp;n<sup>2</sup></code></li>\n\t<li>Each value <code>grid[i][j]</code> is <strong>unique</strong>.</li>\n</ul>\n",
+    "translatedContent": "<p>在一个 <code>n x n</code>&nbsp;的整数矩阵&nbsp;<code>grid</code> 中，每一个方格的值 <code>grid[i][j]</code> 表示位置 <code>(i, j)</code> 的平台高度。</p>\n\n<p>当开始下雨时，在时间为&nbsp;<code>t</code>&nbsp;时，水池中的水位为&nbsp;<code>t</code>&nbsp;。你可以从一个平台游向四周相邻的任意一个平台，但是前提是此时水位必须同时淹没这两个平台。假定你可以瞬间移动无限距离，也就是默认在方格内部游动是不耗时的。当然，在你游泳的时候你必须待在坐标方格里面。</p>\n\n<p>你从坐标方格的左上平台&nbsp;<code>(0，0)</code> 出发。返回 <em>你到达坐标方格的右下平台&nbsp;<code>(n-1, n-1)</code>&nbsp;所需的最少时间 。</em></p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1:</strong></p>\n\n<p><img src=\"https://assets.leetcode.com/uploads/2021/06/29/swim1-grid.jpg\" /></p>\n\n<pre>\n<strong>输入:</strong> grid = [[0,2],[1,3]]\n<strong>输出:</strong> 3\n<strong>解释:</strong>\n时间为0时，你位于坐标方格的位置为 <code>(0, 0)。</code>\n此时你不能游向任意方向，因为四个相邻方向平台的高度都大于当前时间为 0 时的水位。\n等时间到达 3 时，你才可以游向平台 (1, 1). 因为此时的水位是 3，坐标方格中的平台没有比水位 3 更高的，所以你可以游向坐标方格中的任意位置\n</pre>\n\n<p><strong>示例 2:</strong></p>\n\n<p><img src=\"https://assets.leetcode.com/uploads/2021/06/29/swim2-grid-1.jpg\" /></p>\n\n<pre>\n<strong>输入:</strong> grid = [[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]\n<strong>输出:</strong> 16\n<strong>解释: </strong>最终的路线用加粗进行了标记。\n我们必须等到时间为 16，此时才能保证平台 (0, 0) 和 (4, 4) 是连通的\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示:</strong></p>\n\n<ul>\n\t<li><code>n == grid.length</code></li>\n\t<li><code>n == grid[i].length</code></li>\n\t<li><code>1 &lt;= n &lt;= 50</code></li>\n\t<li><code>0 &lt;= grid[i][j] &lt;&nbsp;n<sup>2</sup></code></li>\n\t<li><code>grid[i][j]</code>&nbsp;中每个值&nbsp;<strong>均无重复</strong></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 376,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,2],[1,3]]\n[[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]",
+    "sampleTestCase": "[[0,2],[1,3]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"swimInWater\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int swimInWater(vector<vector<int>>& grid) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int swimInWater(int[][] grid) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def swimInWater(self, grid: List[List[int]]) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def swimInWater(self, grid):\n        \"\"\"\n        :type grid: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar swimInWater = function(grid) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function swimInWater(grid: number[][]): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int SwimInWater(int[][] grid) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int swimInWater(int** grid, int gridSize, int* gridColSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func swimInWater(grid [][]int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun swimInWater(grid: Array<IntArray>): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func swimInWater(_ grid: [[Int]]) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn swim_in_water(grid: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[][]} grid\n# @return {Integer}\ndef swim_in_water(grid)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @return Integer\n     */\n    function swimInWater($grid) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int swimInWater(List<List<int>> grid) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def swimInWater(grid: Array[Array[Int]]): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec swim_in_water(grid :: [[integer]]) :: integer\n  def swim_in_water(grid) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec swim_in_water(Grid :: [[integer()]]) -> integer().\nswim_in_water(Grid) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (swim-in-water grid)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func swimInWater(grid: Array<Array<Int64>>): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"53.1K\", \"totalSubmission\": \"85.9K\", \"totalAcceptedRaw\": 53069, \"totalSubmissionRaw\": 85873, \"acRate\": \"61.8%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Minimax",
+        "slug": "minimax-algorithm",
+        "translatedName": "极小化极大"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Dijkstra 算法",
+        "slug": "dijkstra",
+        "translatedName": null
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

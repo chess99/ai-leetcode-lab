@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:43Z",
+  "source": "https://leetcode.cn/problems/delete-middle-node-lcci/",
+  "question": {
+    "questionId": "100187",
+    "questionFrontendId": "面试题 02.03",
+    "title": "Delete Middle Node LCCI",
+    "titleSlug": "delete-middle-node-lcci",
+    "translatedTitle": "删除中间节点",
+    "content": "<p>Implement an algorithm to delete a node in the middle (i.e., any node but the first and last node, not necessarily the exact middle) of a singly linked list, given only access to that node.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Example: </strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>the node c from the linked list a-&gt;b-&gt;c-&gt;d-&gt;e-&gt;f\r\n<strong>Output: </strong>nothing is returned, but the new linked list looks like a-&gt;b-&gt;d-&gt;e-&gt;f\r\n</pre>\r\n",
+    "translatedContent": "<p>若链表中的某个节点，既不是链表头节点，也不是链表尾节点，则称其为该链表的「中间节点」。</p>\n\n<p>假定已知链表的某一个中间节点，请实现一种算法，将该节点从链表中删除。</p>\n\n<p>例如，传入节点 <code>c</code>（位于单向链表 <code>a->b->c->d->e->f</code> 中），将其删除后，剩余链表为 <code>a->b->d->e->f</code></p>\n\n<p> </p>\n\n<p><strong>示例：</strong></p>\n\n<pre>\n<strong>输入：</strong>节点 5 （位于单向链表 4->5->1->9 中）\n<strong>输出：</strong>不返回任何数据，从链表中删除传入的节点 5，使链表变为 4->1->9\n</pre>\n\n<p> </p>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 218,
+    "dislikes": 0,
+    "exampleTestcases": "[4,5,1,9]\n5",
+    "sampleTestCase": "[4,5,1,9]\n5",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"deleteNode\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"node\",\r\n      \"type\": \"ListNode\"\r\n    },\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"void\"\r\n  },\r\n  \"output\": {\r\n    \"paramindex\": 0\r\n  },\r\n  \"languages\": [\r\n    \"cpp\",\r\n    \"java\",\r\n    \"python\",\r\n    \"c\",\r\n    \"csharp\",\r\n    \"javascript\",\r\n    \"ruby\",\r\n    \"golang\",\r\n    \"python3\"\r\n  ],\r\n  \"manual\": true\r\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "/**\n * Definition for singly-linked list.\n * struct ListNode {\n *     int val;\n *     ListNode *next;\n *     ListNode(int x) : val(x), next(NULL) {}\n * };\n */\nclass Solution {\npublic:\n    void deleteNode(ListNode* node) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "/**\n * Definition for singly-linked list.\n * public class ListNode {\n *     int val;\n *     ListNode next;\n *     ListNode(int x) { val = x; }\n * }\n */\nclass Solution {\n    public void deleteNode(ListNode node) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def deleteNode(self, node):\n        \"\"\"\n        :type node: ListNode\n        :rtype: void Do not return anything, modify node in-place instead.\n        \"\"\"\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "# Definition for singly-linked list.\n# class ListNode(object):\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution(object):\n    def deleteNode(self, node):\n        \"\"\"\n        :type node: ListNode\n        :rtype: void Do not return anything, modify node in-place instead.\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * Definition for singly-linked list.\n * function ListNode(val) {\n *     this.val = val;\n *     this.next = null;\n * }\n */\n/**\n * @param {ListNode} node\n * @return {void} Do not return anything, modify node in-place instead.\n */\nvar deleteNode = function(node) {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "/**\n * Definition for singly-linked list.\n * public class ListNode {\n *     public int val;\n *     public ListNode next;\n *     public ListNode(int x) { val = x; }\n * }\n */\npublic class Solution {\n    public void DeleteNode(ListNode node) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "/**\n * Definition for singly-linked list.\n * struct ListNode {\n *     int val;\n *     struct ListNode *next;\n * };\n */\nvoid deleteNode(struct ListNode* node) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "/**\n * Definition for singly-linked list.\n * type ListNode struct {\n *     Val int\n *     Next *ListNode\n * }\n */\nfunc deleteNode(node *ListNode) {\n    \n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# Definition for singly-linked list.\n# class ListNode\n#     attr_accessor :val, :next\n#     def initialize(val)\n#         @val = val\n#         @next = nil\n#     end\n# end\n\n# @param {ListNode} node\n# @return {Void} Do not return anything, modify node in-place instead.\ndef delete_node(node)\n    \nend"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"112.9K\", \"totalSubmission\": \"131.2K\", \"totalAcceptedRaw\": 112857, \"totalSubmissionRaw\": 131207, \"acRate\": \"86.0%\"}",
+    "topicTags": [
+      {
+        "name": "Linked List",
+        "slug": "linked-list",
+        "translatedName": "链表"
+      }
+    ]
+  }
+}

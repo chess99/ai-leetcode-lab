@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:20Z",
+  "source": "https://leetcode.cn/problems/consecutive-available-seats-ii/",
+  "question": {
+    "questionId": "3448",
+    "questionFrontendId": "3140",
+    "title": "Consecutive Available Seats II",
+    "titleSlug": "consecutive-available-seats-ii",
+    "translatedTitle": "连续空余座位 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Cinema\":[\"seat_id\",\"free\"]},\"rows\":{\"Cinema\":[[1,1],[2,0],[3,1],[4,1],[5,1]]}}",
+    "sampleTestCase": "{\"headers\":{\"Cinema\":[\"seat_id\",\"free\"]},\"rows\":{\"Cinema\":[[1,1],[2,0],[3,1],[4,1],[5,1]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"CREATE TABLE if Not exists Cinema (\\n    seat_id INT PRIMARY KEY AUTO_INCREMENT,\\n    free BOOLEAN\\n)\\n\"],\"mssql\":[\"Create table Cinema (seat_id int primary key, free BIT)\\n\"],\"oraclesql\":[\"CREATE TABLE Cinema (\\n    seat_id INT PRIMARY KEY,\\n    free NUMBER(1,0)\\n)\\n\"],\"database\":true,\"name\":\"consecutive_available_seats\",\"postgresql\":[\"CREATE TABLE Cinema (\\n    seat_id INT PRIMARY KEY,\\n    free INT CHECK (free IN (0, 1))\\n);\"],\"pythondata\":[\"Cinema = pd.DataFrame({'seat_id': pd.Series(dtype='int'), 'free': pd.Series(dtype='bool')})\"],\"database_schema\":{\"Cinema\":{\"seat_id\":\"INT\",\"free\":\"BOOLEAN\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"985\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 985, \"totalSubmissionRaw\": 1862, \"acRate\": \"52.9%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

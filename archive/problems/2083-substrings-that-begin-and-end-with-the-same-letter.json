@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:19Z",
+  "source": "https://leetcode.cn/problems/substrings-that-begin-and-end-with-the-same-letter/",
+  "question": {
+    "questionId": "2225",
+    "questionFrontendId": "2083",
+    "title": "Substrings That Begin and End With the Same Letter",
+    "titleSlug": "substrings-that-begin-and-end-with-the-same-letter",
+    "translatedTitle": "求以相同字母开头和结尾的子串总数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 9,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcba\"\n\"abacad\"\n\"a\"",
+    "sampleTestCase": "\"abcba\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfSubstrings\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"798\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 798, \"totalSubmissionRaw\": 1383, \"acRate\": \"57.7%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

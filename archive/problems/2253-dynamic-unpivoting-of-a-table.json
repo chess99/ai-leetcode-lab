@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:48Z",
+  "source": "https://leetcode.cn/problems/dynamic-unpivoting-of-a-table/",
+  "question": {
+    "questionId": "2382",
+    "questionFrontendId": "2253",
+    "title": "Dynamic Unpivoting of a Table",
+    "titleSlug": "dynamic-unpivoting-of-a-table",
+    "translatedTitle": "动态取消表的旋转",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Products\": [\"product_id\", \"LC_Store\", \"Nozama\", \"Shop\", \"Souq\"]}, \"rows\": {\"Products\": [[1, 100, null, 110, null], [2, null, 200, null, 190], [3, null, null, 1000, 1900]]}}",
+    "sampleTestCase": "{\"headers\": {\"Products\": [\"product_id\", \"LC_Store\", \"Nozama\", \"Shop\", \"Souq\"]}, \"rows\": {\"Products\": [[1, 100, null, 110, null], [2, null, 200, null, 190], [3, null, null, 1000, 1900]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\": [], \"mssql\": [], \"oraclesql\": [], \"database\": true, \"manual\": true, \"name\": \"dynamic_unpivoting_of_a_table\"}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"669\", \"totalSubmission\": \"956\", \"totalAcceptedRaw\": 669, \"totalSubmissionRaw\": 956, \"acRate\": \"70.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

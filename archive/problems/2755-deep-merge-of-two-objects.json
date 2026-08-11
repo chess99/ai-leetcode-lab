@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:11Z",
+  "source": "https://leetcode.cn/problems/deep-merge-of-two-objects/",
+  "question": {
+    "questionId": "2795",
+    "questionFrontendId": "2755",
+    "title": "Deep Merge of Two Objects",
+    "titleSlug": "deep-merge-of-two-objects",
+    "translatedTitle": "深度合并两个对象",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "{\"a\": 1, \"c\": 3}\n{\"a\": 2, \"b\": 2}\n[{}, 2, 3]\n[[], 5]\n{\"a\": 1, \"b\": {\"c\": [1,[2,7],5], \"d\": 2}}\n{\"a\": 1, \"b\": {\"c\": [6,[6],[9]], \"e\": 3}}\ntrue\nnull",
+    "sampleTestCase": "{\"a\": 1, \"c\": 3}\n{\"a\": 2, \"b\": 2}",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"deepMerge\",\n  \"params\": [\n    {\n      \"name\": \"obj1\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"obj2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"452\", \"totalSubmission\": \"804\", \"totalAcceptedRaw\": 452, \"totalSubmissionRaw\": 804, \"acRate\": \"56.2%\"}",
+    "topicTags": []
+  }
+}

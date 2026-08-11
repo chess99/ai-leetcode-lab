@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:10Z",
+  "source": "https://leetcode.cn/problems/factor-combinations/",
+  "question": {
+    "questionId": "254",
+    "questionFrontendId": "254",
+    "title": "Factor Combinations",
+    "titleSlug": "factor-combinations",
+    "translatedTitle": "因子的组合",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 194,
+    "dislikes": 0,
+    "exampleTestcases": "1\n12\n37",
+    "sampleTestCase": "1",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"getFactors\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"14.8K\", \"totalSubmission\": \"25.5K\", \"totalAcceptedRaw\": 14789, \"totalSubmissionRaw\": 25477, \"acRate\": \"58.0%\"}",
+    "topicTags": [
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      },
+      {
+        "name": "质因数分解",
+        "slug": "prime-factorization",
+        "translatedName": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:37:54Z",
+  "source": "https://leetcode.cn/problems/one-edit-distance/",
+  "question": {
+    "questionId": "161",
+    "questionFrontendId": "161",
+    "title": "One Edit Distance",
+    "titleSlug": "one-edit-distance",
+    "translatedTitle": "相隔为 1 的编辑距离",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 164,
+    "dislikes": 0,
+    "exampleTestcases": "\"ab\"\n\"acb\"\n\"\"\n\"\"",
+    "sampleTestCase": "\"ab\"\n\"acb\"",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"isOneEditDistance\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"t\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"23.8K\", \"totalSubmission\": \"68.6K\", \"totalAcceptedRaw\": 23826, \"totalSubmissionRaw\": 68589, \"acRate\": \"34.7%\"}",
+    "topicTags": [
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

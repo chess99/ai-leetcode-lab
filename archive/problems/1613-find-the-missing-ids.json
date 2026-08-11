@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:58Z",
+  "source": "https://leetcode.cn/problems/find-the-missing-ids/",
+  "question": {
+    "questionId": "1759",
+    "questionFrontendId": "1613",
+    "title": "Find the Missing IDs",
+    "titleSlug": "find-the-missing-ids",
+    "translatedTitle": "找到遗失的ID",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 50,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Customers\": [\"customer_id\", \"customer_name\"]}, \"rows\": {\"Customers\": [[1, \"Alice\"], [4, \"Bob\"], [5, \"Charlie\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Customers\": [\"customer_id\", \"customer_name\"]}, \"rows\": {\"Customers\": [[1, \"Alice\"], [4, \"Bob\"], [5, \"Charlie\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Customers (customer_id int, customer_name varchar(20))\"],\"mssql\":[\"Create table Customers (customer_id int, customer_name varchar(20))\\n\"],\"oraclesql\":[\"Create table Customers (customer_id int, customer_name varchar(20))\\n\"],\"database\":true,\"name\":\"find_missing_ids\",\"pythondata\":[\"Customers = pd.DataFrame([], columns=['customer_id', 'customer_name']).astype({'customer_id':'Int64', 'customer_name':'object'})\"],\"postgresql\":[\"Create table If Not Exists Customers (customer_id int, customer_name varchar(20))\"],\"database_schema\":{\"Customers\":{\"customer_id\":\"INT\",\"customer_name\":\"VARCHAR(20)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.6K\", \"totalSubmission\": \"10.5K\", \"totalAcceptedRaw\": 7640, \"totalSubmissionRaw\": 10494, \"acRate\": \"72.8%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

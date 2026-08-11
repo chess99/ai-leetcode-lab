@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:24Z",
+  "source": "https://leetcode.cn/problems/elements-in-array-after-removing-and-replacing-elements/",
+  "question": {
+    "questionId": "2258",
+    "questionFrontendId": "2113",
+    "title": "Elements in Array After Removing and Replacing Elements",
+    "titleSlug": "elements-in-array-after-removing-and-replacing-elements",
+    "translatedTitle": "查询删除和添加元素后的数组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "[0,1,2]\n[[0,2],[2,0],[3,2],[5,0]]\n[2]\n[[0,0],[1,0],[2,0],[3,0]]",
+    "sampleTestCase": "[0,1,2]\n[[0,2],[2,0],[3,2],[5,0]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"elementInNums\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"queries\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"524\", \"totalSubmission\": \"983\", \"totalAcceptedRaw\": 524, \"totalSubmissionRaw\": 983, \"acRate\": \"53.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:01Z",
+  "source": "https://leetcode.cn/problems/count-numbers-with-unique-digits-ii/",
+  "question": {
+    "questionId": "3343",
+    "questionFrontendId": "3032",
+    "title": "Count Numbers With Unique Digits II",
+    "titleSlug": "count-numbers-with-unique-digits-ii",
+    "translatedTitle": "统计各位数字都不同的数字个数 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "1\n20\n9\n19\n80\n120",
+    "sampleTestCase": "1\n20",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberCount\",\n  \"params\": [\n    {\n      \"name\": \"a\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"b\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"835\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 835, \"totalSubmissionRaw\": 1853, \"acRate\": \"45.1%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

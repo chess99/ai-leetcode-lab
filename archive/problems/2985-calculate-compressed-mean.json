@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:52Z",
+  "source": "https://leetcode.cn/problems/calculate-compressed-mean/",
+  "question": {
+    "questionId": "3282",
+    "questionFrontendId": "2985",
+    "title": "Calculate Compressed Mean",
+    "titleSlug": "calculate-compressed-mean",
+    "translatedTitle": "计算订单平均商品数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Orders\":[\"order_id\",\"item_count\",\"order_occurrences\"]},\"rows\":{\"Orders\":[[10,1,500],[11,2,1000],[12,3,800],[13,4,1000]]}}",
+    "sampleTestCase": "{\"headers\":{\"Orders\":[\"order_id\",\"item_count\",\"order_occurrences\"]},\"rows\":{\"Orders\":[[10,1,500],[11,2,1000],[12,3,800],[13,4,1000]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create Table if Not Exists Orders ( order_id int, item_count int, order_occurrences int)\"],\"mssql\":[\"Create Table Orders ( order_id int, item_count int, order_occurrences int)\"],\"oraclesql\":[\"Create Table Orders ( order_id int, item_count int, order_occurrences int)\"],\"database\":true,\"name\":\"compressed_mean\",\"postgresql\":[\"CREATE TABLE Orders (\\n  order_id SERIAL PRIMARY KEY,\\n  item_count INT,\\n  order_occurrences INT\\n);\\n\"],\"pythondata\":[\"Orders = pd.DataFrame([], columns=['order_id', 'item_count', 'order_occurrences']).astype({'order_id':'Int64', 'item_count':'Int64', 'order_occurrences':'Int64'})\\n\"],\"database_schema\":{\"Orders\":{\"order_id\":\"INT\",\"item_count\":\"INT\",\"order_occurrences\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 1296, \"totalSubmissionRaw\": 1513, \"acRate\": \"85.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:58Z",
+  "source": "https://leetcode.cn/problems/the-first-day-of-the-maximum-recorded-degree-in-each-city/",
+  "question": {
+    "questionId": "2446",
+    "questionFrontendId": "2314",
+    "title": "The First Day of the Maximum Recorded Degree in Each City",
+    "titleSlug": "the-first-day-of-the-maximum-recorded-degree-in-each-city",
+    "translatedTitle": "每个城市最高气温的第一天",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Weather\": [\"city_id\", \"day\", \"degree\"]}, \"rows\": {\"Weather\": [[1, \"2022-01-07\", -12], [1, \"2022-03-07\", 5], [1, \"2022-07-07\", 24], [2, \"2022-08-07\", 37], [2, \"2022-08-17\", 37], [3, \"2022-02-07\", -7], [3, \"2022-12-07\", -6]]}}",
+    "sampleTestCase": "{\"headers\": {\"Weather\": [\"city_id\", \"day\", \"degree\"]}, \"rows\": {\"Weather\": [[1, \"2022-01-07\", -12], [1, \"2022-03-07\", 5], [1, \"2022-07-07\", 24], [2, \"2022-08-07\", 37], [2, \"2022-08-17\", 37], [3, \"2022-02-07\", -7], [3, \"2022-12-07\", -6]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Weather (city_id int, day date, degree int)\"],\"mssql\":[\"Create table Weather (city_id int, day date, degree int)\"],\"oraclesql\":[\"Create table Weather (city_id int, day date, degree int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"find_the_first_day\",\"pythondata\":[\"Weather = pd.DataFrame([], columns=['city_id', 'day', 'degree']).astype({'city_id':'Int64', 'day':'datetime64[ns]', 'degree':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Weather (city_id int, day date, degree int)\"],\"database_schema\":{\"Weather\":{\"city_id\":\"INT\",\"day\":\"DATE\",\"degree\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.7K\", \"totalSubmission\": \"3.7K\", \"totalAcceptedRaw\": 2731, \"totalSubmissionRaw\": 3725, \"acRate\": \"73.3%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

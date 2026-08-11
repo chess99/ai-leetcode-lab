@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:54Z",
+  "source": "https://leetcode.cn/problems/loan-types/",
+  "question": {
+    "questionId": "3287",
+    "questionFrontendId": "2990",
+    "title": "Loan Types",
+    "titleSlug": "loan-types",
+    "translatedTitle": "贷款类型",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Loans\":[\"loan_id\",\"user_id\",\"loan_type\"]},\"rows\":{\"Loans\":[[683,101,\"Mortgage\"],[218,101,\"AutoLoan\"],[802,101,\"Inschool\"],[593,102,\"Mortgage\"],[138,102,\"Refinance\"],[294,102,\"Inschool\"],[308,103,\"Refinance\"],[389,104,\"Mortgage\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Loans\":[\"loan_id\",\"user_id\",\"loan_type\"]},\"rows\":{\"Loans\":[[683,101,\"Mortgage\"],[218,101,\"AutoLoan\"],[802,101,\"Inschool\"],[593,102,\"Mortgage\"],[138,102,\"Refinance\"],[294,102,\"Inschool\"],[308,103,\"Refinance\"],[389,104,\"Mortgage\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create Table if not Exists Loans ( loan_id int, user_id int, loan_type varchar(40))\"],\"mssql\":[\"Create Table  Loans (loan_id int, user_id int, loan_type varchar(40))\"],\"oraclesql\":[\"Create Table  Loans ( loan_id int, user_id int, loan_type varchar(40))\"],\"database\":true,\"name\":\"loan_types\",\"pythondata\":[\"Loans = pd.DataFrame([], columns=['loan_id', 'user_id', 'loan_type']).astype({'loan_id':'Int64', 'user_id':'Int64', 'loan_type':'object'})\\n\"],\"postgresql\":[\"CREATE TABLE IF NOT EXISTS Loans (\\n  loan_id INT,\\n  user_id INT,\\n  loan_type VARCHAR(40)\\n);\\n\"],\"database_schema\":{\"Loans\":{\"loan_id\":\"INT\",\"user_id\":\"INT\",\"loan_type\":\"VARCHAR(40)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 1376, \"totalSubmissionRaw\": 2288, \"acRate\": \"60.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

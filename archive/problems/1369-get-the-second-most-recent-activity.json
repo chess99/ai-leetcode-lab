@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:17Z",
+  "source": "https://leetcode.cn/problems/get-the-second-most-recent-activity/",
+  "question": {
+    "questionId": "1504",
+    "questionFrontendId": "1369",
+    "title": "Get the Second Most Recent Activity",
+    "titleSlug": "get-the-second-most-recent-activity",
+    "translatedTitle": "获取最近第二次的活动",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 23,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"UserActivity\":[\"username\",\"activity\",\"startDate\",\"endDate\"]},\"rows\":{\"UserActivity\":[[\"Alice\",\"Travel\",\"2020-02-12\",\"2020-02-20\"],[\"Alice\",\"Dancing\",\"2020-02-21\",\"2020-02-23\"],[\"Alice\",\"Travel\",\"2020-02-24\",\"2020-02-28\"],[\"Bob\",\"Travel\",\"2020-02-11\",\"2020-02-18\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"UserActivity\":[\"username\",\"activity\",\"startDate\",\"endDate\"]},\"rows\":{\"UserActivity\":[[\"Alice\",\"Travel\",\"2020-02-12\",\"2020-02-20\"],[\"Alice\",\"Dancing\",\"2020-02-21\",\"2020-02-23\"],[\"Alice\",\"Travel\",\"2020-02-24\",\"2020-02-28\"],[\"Bob\",\"Travel\",\"2020-02-11\",\"2020-02-18\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists UserActivity (username varchar(30), activity varchar(30), startDate date, endDate date)\"],\"mssql\":[\"Create table UserActivity (username varchar(30), activity varchar(30), startDate date, endDate date)\"],\"oraclesql\":[\"Create table UserActivity (username varchar(30), activity varchar(30), startDate date, endDate date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"second_most_recent\",\"pythondata\":[\"UserActivity = pd.DataFrame([], columns=['username', 'activity', 'startDate', 'endDate']).astype({'username':'object', 'activity':'object', 'startDate':'datetime64[ns]', 'endDate':'datetime64[ns]'})\\n\"],\"postgresql\":[\"\\nCreate table If Not Exists UserActivity (username varchar(30), activity varchar(30), startDate date, endDate date)\"],\"database_schema\":{\"UserActivity\":{\"username\":\"VARCHAR(30)\",\"activity\":\"VARCHAR(30)\",\"startDate\":\"DATE\",\"endDate\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"8.8K\", \"totalSubmission\": \"14.1K\", \"totalAcceptedRaw\": 8790, \"totalSubmissionRaw\": 14120, \"acRate\": \"62.3%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

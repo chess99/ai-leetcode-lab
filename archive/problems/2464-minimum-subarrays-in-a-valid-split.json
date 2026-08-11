@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:23Z",
+  "source": "https://leetcode.cn/problems/minimum-subarrays-in-a-valid-split/",
+  "question": {
+    "questionId": "2607",
+    "questionFrontendId": "2464",
+    "title": "Minimum Subarrays in a Valid Split",
+    "titleSlug": "minimum-subarrays-in-a-valid-split",
+    "translatedTitle": "有效分割中的最少子数组数目",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "[2,6,3,4,3]\n[3,5]\n[1,2,1]",
+    "sampleTestCase": "[2,6,3,4,3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"validSubarraySplit\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"1.7K\", \"totalAcceptedRaw\": 1113, \"totalSubmissionRaw\": 1698, \"acRate\": \"65.5%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Number Theory",
+        "slug": "number-theory",
+        "translatedName": "数论"
+      }
+    ]
+  }
+}

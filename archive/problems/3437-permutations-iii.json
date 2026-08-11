@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:12Z",
+  "source": "https://leetcode.cn/problems/permutations-iii/",
+  "question": {
+    "questionId": "3780",
+    "questionFrontendId": "3437",
+    "title": "Permutations III",
+    "titleSlug": "permutations-iii",
+    "translatedTitle": "全排列 III",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "4\n2\n3",
+    "sampleTestCase": "4",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"permute\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[][]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"409\", \"totalSubmission\": \"518\", \"totalAcceptedRaw\": 409, \"totalSubmissionRaw\": 518, \"acRate\": \"79.0%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

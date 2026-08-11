@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:35Z",
+  "source": "https://leetcode.cn/problems/maximum-transaction-each-day/",
+  "question": {
+    "questionId": "1981",
+    "questionFrontendId": "1831",
+    "title": "Maximum Transaction Each Day",
+    "titleSlug": "maximum-transaction-each-day",
+    "translatedTitle": "每天的最大交易",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 23,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Transactions\": [\"transaction_id\", \"day\", \"amount\"]}, \"rows\": {\"Transactions\": [[8, \"2021-4-3 15:57:28\", 57], [9, \"2021-4-28 08:47:25\", 21], [1, \"2021-4-29 13:28:30\", 58], [5, \"2021-4-28 16:39:59\", 40], [6, \"2021-4-29 23:39:28\", 58]]}}",
+    "sampleTestCase": "{\"headers\": {\"Transactions\": [\"transaction_id\", \"day\", \"amount\"]}, \"rows\": {\"Transactions\": [[8, \"2021-4-3 15:57:28\", 57], [9, \"2021-4-28 08:47:25\", 21], [1, \"2021-4-29 13:28:30\", 58], [5, \"2021-4-28 16:39:59\", 40], [6, \"2021-4-29 23:39:28\", 58]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Transactions (transaction_id int, day date, amount int)\"],\"mssql\":[\"Create table Transactions (transaction_id int, day datetime, amount int)\"],\"oraclesql\":[\"Create table Transactions (transaction_id int, day date, amount int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"],\"database\":true,\"name\":\"find_maximum_transaction\",\"pythondata\":[\"Transactions = pd.DataFrame([], columns=['transaction_id', 'day', 'amount']).astype({'transaction_id':'Int64', 'day':'datetime64[ns]', 'amount':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Transactions (transaction_id int, day datetime, amount int)\"],\"database_schema\":{\"Transactions\":{\"transaction_id\":\"INT\",\"day\":\"DATE\",\"amount\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"11.7K\", \"totalSubmission\": \"15.4K\", \"totalAcceptedRaw\": 11722, \"totalSubmissionRaw\": 15382, \"acRate\": \"76.2%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:37Z",
+  "source": "https://leetcode.cn/problems/count-odd-letters-from-number/",
+  "question": {
+    "questionId": "3924",
+    "questionFrontendId": "3581",
+    "title": "Count Odd Letters from Number",
+    "titleSlug": "count-odd-letters-from-number",
+    "translatedTitle": "计算数字中的奇数字母数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "41\n20",
+    "sampleTestCase": "41",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countOddLetters\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"255\", \"totalSubmission\": \"307\", \"totalAcceptedRaw\": 255, \"totalSubmissionRaw\": 307, \"acRate\": \"83.1%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

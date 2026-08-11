@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:54Z",
+  "source": "https://leetcode.cn/problems/manager-of-the-largest-department/",
+  "question": {
+    "questionId": "3285",
+    "questionFrontendId": "2988",
+    "title": "Manager of the Largest Department",
+    "titleSlug": "manager-of-the-largest-department",
+    "translatedTitle": "最大部门的经理",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Employees\":[\"emp_id\",\"emp_name\",\"dep_id\",\"position\"]},\"rows\":{\"Employees\":[[156,\"Michael\",107,\"Manager\"],[112,\"Lucas\",107,\"Consultant\"],[8,\"Isabella\",101,\"Manager\"],[160,\"Joseph\",100,\"Manager\"],[80,\"Aiden\",100,\"Engineer\"],[190,\"Skylar\",100,\"Freelancer\"],[196,\"Stella\",101,\"Coordinator\"],[167,\"Audrey\",100,\"Consultant\"],[97,\"Nathan\",101,\"Supervisor\"],[128,\"Ian\",101,\"Administrator\"],[81,\"Ethan\",107,\"Administrator\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Employees\":[\"emp_id\",\"emp_name\",\"dep_id\",\"position\"]},\"rows\":{\"Employees\":[[156,\"Michael\",107,\"Manager\"],[112,\"Lucas\",107,\"Consultant\"],[8,\"Isabella\",101,\"Manager\"],[160,\"Joseph\",100,\"Manager\"],[80,\"Aiden\",100,\"Engineer\"],[190,\"Skylar\",100,\"Freelancer\"],[196,\"Stella\",101,\"Coordinator\"],[167,\"Audrey\",100,\"Consultant\"],[97,\"Nathan\",101,\"Supervisor\"],[128,\"Ian\",101,\"Administrator\"],[81,\"Ethan\",107,\"Administrator\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists Employees ( emp_id int, emp_name varchar(50), dep_id int, position varchar(30))\"],\"mssql\":[\"Create table  Employees ( emp_id int, emp_name varchar(50), dep_id int, position varchar(30))\"],\"oraclesql\":[\"Create table  Employees ( emp_id int, emp_name varchar(50), dep_id int, position varchar(30))\"],\"database\":true,\"name\":\"find_manager\",\"postgresql\":[\"CREATE TABLE Employees (\\n  emp_id INT PRIMARY KEY,\\n  emp_name VARCHAR(50),\\n  dep_id INT,\\n  position VARCHAR(30)\\n);\\n\"],\"pythondata\":[\"Employees = pd.DataFrame([], columns=['emp_id', 'emp_name', 'dep_id', 'position']).astype({\\n    'emp_id': 'Int64', \\n    'emp_name': 'object', \\n    'dep_id': 'Int64', \\n    'position': 'object'\\n})\"],\"database_schema\":{\"Employees\":{\"emp_id\":\"INT\",\"emp_name\":\"VARCHAR(50)\",\"dep_id\":\"INT\",\"position\":\"VARCHAR(30)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"1.7K\", \"totalAcceptedRaw\": 1265, \"totalSubmissionRaw\": 1656, \"acRate\": \"76.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

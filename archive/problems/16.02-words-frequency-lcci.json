@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:52Z",
+  "source": "https://leetcode.cn/problems/words-frequency-lcci/",
+  "question": {
+    "questionId": "100259",
+    "questionFrontendId": "面试题 16.02",
+    "title": "Words Frequency LCCI",
+    "titleSlug": "words-frequency-lcci",
+    "translatedTitle": "单词频率",
+    "content": "<p>Design a method to find the frequency of occurrences of any given word in a book. What if we were running this algorithm multiple times?</p>\r\n\r\n<p>You should implement following methods:</p>\r\n\r\n<ul>\r\n\t<li><code>WordsFrequency(book)</code> constructor, parameter is a array of strings, representing the book.</li>\r\n\t<li><code>get(word)</code>&nbsp;get the frequency of <code>word</code> in the book.&nbsp;</li>\r\n</ul>\r\n\r\n<p><strong>Example: </strong></p>\r\n\r\n<pre>\r\nWordsFrequency wordsFrequency = new WordsFrequency({&quot;i&quot;, &quot;have&quot;, &quot;an&quot;, &quot;apple&quot;, &quot;he&quot;, &quot;have&quot;, &quot;a&quot;, &quot;pen&quot;});\r\nwordsFrequency.get(&quot;you&quot;); //returns 0，&quot;you&quot; is not in the book\r\nwordsFrequency.get(&quot;have&quot;); //returns 2，&quot;have&quot; occurs twice in the book\r\nwordsFrequency.get(&quot;an&quot;); //returns 1\r\nwordsFrequency.get(&quot;apple&quot;); //returns 1\r\nwordsFrequency.get(&quot;pen&quot;); //returns 1\r\n</pre>\r\n\r\n<p><strong>Note: </strong></p>\r\n\r\n<ul>\r\n\t<li><code>There are only lowercase letters in book[i].</code></li>\r\n\t<li><code>1 &lt;= book.length &lt;= 100000</code></li>\r\n\t<li><code>1 &lt;= book[i].length &lt;= 10</code></li>\r\n\t<li><code>get</code>&nbsp;function will not be called more than&nbsp;100000 times.</li>\r\n</ul>\r\n",
+    "translatedContent": "<p>设计一个方法，找出任意指定单词在一本书中的出现频率。</p>\n\n<p>你的实现应该支持如下操作：</p>\n\n<ul>\n\t<li><code>WordsFrequency(book)</code>构造函数，参数为字符串数组构成的一本书</li>\n\t<li><code>get(word)</code>查询指定单词在书中出现的频率</li>\n</ul>\n\n<p><strong>示例：</strong></p>\n\n<pre>WordsFrequency wordsFrequency = new WordsFrequency({&quot;i&quot;, &quot;have&quot;, &quot;an&quot;, &quot;apple&quot;, &quot;he&quot;, &quot;have&quot;, &quot;a&quot;, &quot;pen&quot;});\nwordsFrequency.get(&quot;you&quot;); //返回0，&quot;you&quot;没有出现过\nwordsFrequency.get(&quot;have&quot;); //返回2，&quot;have&quot;出现2次\nwordsFrequency.get(&quot;an&quot;); //返回1\nwordsFrequency.get(&quot;apple&quot;); //返回1\nwordsFrequency.get(&quot;pen&quot;); //返回1\n</pre>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>book[i]</code>中只包含小写字母</li>\n\t<li><code>1 &lt;= book.length &lt;= 100000</code></li>\n\t<li><code>1 &lt;= book[i].length &lt;= 10</code></li>\n\t<li><code>get</code>函数的调用次数不会超过100000</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 47,
+    "dislikes": 0,
+    "exampleTestcases": "[\"WordsFrequency\",\"get\",\"get\",\"get\",\"get\",\"get\"]\n[[[\"i\",\"have\",\"an\",\"apple\",\"he\",\"have\",\"a\",\"pen\"]],[\"you\"],[\"have\"],[\"an\"],[\"apple\"],[\"pen\"]]",
+    "sampleTestCase": "[\"WordsFrequency\",\"get\",\"get\",\"get\",\"get\",\"get\"]\n[[[\"i\",\"have\",\"an\",\"apple\",\"he\",\"have\",\"a\",\"pen\"]],[\"you\"],[\"have\"],[\"an\"],[\"apple\"],[\"pen\"]]",
+    "enableRunCode": true,
+    "metaData": "{\"classname\": \"WordsFrequency\", \"maxbytesperline\": 200000, \"systemdesign\": true, \"constructor\": {\"params\": [{\"name\": \"book\", \"type\": \"string[]\"}]}, \"methods\": [{\"name\": \"get\", \"params\": [{\"name\": \"word\", \"type\": \"string\"}], \"return\": {\"type\": \"integer\"}}], \"params\": [{\"name\": \"inputs\", \"type\": \"integer[]\"}, {\"name\": \"inputs\", \"type\": \"integer[]\"}], \"return\": {\"type\": \"list<String>\", \"dealloc\": true}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class WordsFrequency {\npublic:\n    WordsFrequency(vector<string>& book) {\n        \n    }\n    \n    int get(string word) {\n        \n    }\n};\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * WordsFrequency* obj = new WordsFrequency(book);\n * int param_1 = obj->get(word);\n */"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class WordsFrequency {\n\n    public WordsFrequency(String[] book) {\n        \n    }\n    \n    public int get(String word) {\n        \n    }\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * WordsFrequency obj = new WordsFrequency(book);\n * int param_1 = obj.get(word);\n */"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class WordsFrequency:\n\n    def __init__(self, book: List[str]):\n        \n\n    def get(self, word: str) -> int:\n        \n\n\n# Your WordsFrequency object will be instantiated and called as such:\n# obj = WordsFrequency(book)\n# param_1 = obj.get(word)"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class WordsFrequency(object):\n\n    def __init__(self, book):\n        \"\"\"\n        :type book: List[str]\n        \"\"\"\n        \n\n    def get(self, word):\n        \"\"\"\n        :type word: str\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your WordsFrequency object will be instantiated and called as such:\n# obj = WordsFrequency(book)\n# param_1 = obj.get(word)"
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string[]} book\n */\nvar WordsFrequency = function(book) {\n    \n};\n\n/** \n * @param {string} word\n * @return {number}\n */\nWordsFrequency.prototype.get = function(word) {\n    \n};\n\n/** \n * Your WordsFrequency object will be instantiated and called as such:\n * var obj = new WordsFrequency(book)\n * var param_1 = obj.get(word)\n */"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "class WordsFrequency {\n    constructor(book: string[]) {\n        \n    }\n\n    get(word: string): number {\n        \n    }\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * var obj = new WordsFrequency(book)\n * var param_1 = obj.get(word)\n */"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class WordsFrequency {\n\n    public WordsFrequency(string[] book) {\n        \n    }\n    \n    public int Get(string word) {\n        \n    }\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * WordsFrequency obj = new WordsFrequency(book);\n * int param_1 = obj.Get(word);\n */"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\n\ntypedef struct {\n    \n} WordsFrequency;\n\n\nWordsFrequency* wordsFrequencyCreate(char** book, int bookSize) {\n    \n}\n\nint wordsFrequencyGet(WordsFrequency* obj, char* word) {\n    \n}\n\nvoid wordsFrequencyFree(WordsFrequency* obj) {\n    \n}\n\n/**\n * Your WordsFrequency struct will be instantiated and called as such:\n * WordsFrequency* obj = wordsFrequencyCreate(book, bookSize);\n * int param_1 = wordsFrequencyGet(obj, word);\n \n * wordsFrequencyFree(obj);\n*/"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "type WordsFrequency struct {\n    \n}\n\n\nfunc Constructor(book []string) WordsFrequency {\n    \n}\n\n\nfunc (this *WordsFrequency) Get(word string) int {\n    \n}\n\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * obj := Constructor(book);\n * param_1 := obj.Get(word);\n */"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class WordsFrequency(book: Array<String>) {\n\n    fun get(word: String): Int {\n        \n    }\n\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * var obj = WordsFrequency(book)\n * var param_1 = obj.get(word)\n */"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "\nclass WordsFrequency {\n\n    init(_ book: [String]) {\n        \n    }\n    \n    func get(_ word: String) -> Int {\n        \n    }\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * let obj = WordsFrequency(book)\n * let ret_1: Int = obj.get(word)\n */"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "struct WordsFrequency {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl WordsFrequency {\n\n    fn new(book: Vec<String>) -> Self {\n        \n    }\n    \n    fn get(&self, word: String) -> i32 {\n        \n    }\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * let obj = WordsFrequency::new(book);\n * let ret_1: i32 = obj.get(word);\n */"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "class WordsFrequency\n\n=begin\n    :type book: String[]\n=end\n    def initialize(book)\n        \n    end\n\n\n=begin\n    :type word: String\n    :rtype: Integer\n=end\n    def get(word)\n        \n    end\n\n\nend\n\n# Your WordsFrequency object will be instantiated and called as such:\n# obj = WordsFrequency.new(book)\n# param_1 = obj.get(word)"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class WordsFrequency {\n    /**\n     * @param String[] $book\n     */\n    function __construct($book) {\n        \n    }\n  \n    /**\n     * @param String $word\n     * @return Integer\n     */\n    function get($word) {\n        \n    }\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * $obj = WordsFrequency($book);\n * $ret_1 = $obj->get($word);\n */"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class WordsFrequency {\n\n  WordsFrequency(List<String> book) {\n    \n  }\n  \n  int get(String word) {\n    \n  }\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * WordsFrequency obj = WordsFrequency(book);\n * int param1 = obj.get(word);\n */"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "class WordsFrequency(_book: Array[String]) {\n\n    def get(word: String): Int = {\n        \n    }\n\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * val obj = new WordsFrequency(book)\n * val param_1 = obj.get(word)\n */"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule WordsFrequency do\n  @spec init_(book :: [String.t]) :: any\n  def init_(book) do\n    \n  end\n\n  @spec get(word :: String.t) :: integer\n  def get(word) do\n    \n  end\nend\n\n# Your functions will be called as such:\n# WordsFrequency.init_(book)\n# param_1 = WordsFrequency.get(word)\n\n# WordsFrequency.init_ will be called before every test case, in which you can do some necessary initializations."
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec words_frequency_init_(Book :: [unicode:unicode_binary()]) -> any().\nwords_frequency_init_(Book) ->\n  .\n\n-spec words_frequency_get(Word :: unicode:unicode_binary()) -> integer().\nwords_frequency_get(Word) ->\n  .\n\n\n%% Your functions will be called as such:\n%% words_frequency_init_(Book),\n%% Param_1 = words_frequency_get(Word),\n\n%% words_frequency_init_ will be called before every test case, in which you can do some necessary initializations."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define words-frequency%\n  (class object%\n    (super-new)\n    \n    ; book : (listof string?)\n    (init-field\n      book)\n    \n    ; get : string? -> exact-integer?\n    (define/public (get word)\n      )))\n\n;; Your words-frequency% object will be instantiated and called as such:\n;; (define obj (new words-frequency% [book book]))\n;; (define param_1 (send obj get word))"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class WordsFrequency {\n    init(book: Array<String>) {\n\n    }\n    \n    func get(word: String): Int64 {\n\n    }\n}\n\n/**\n * Your WordsFrequency object will be instantiated and called as such:\n * let obj: WordsFrequency = WordsFrequency(book)\n * let param_1 = obj.get(word)\n */"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"29.4K\", \"totalSubmission\": \"37.9K\", \"totalAcceptedRaw\": 29355, \"totalSubmissionRaw\": 37865, \"acRate\": \"77.5%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

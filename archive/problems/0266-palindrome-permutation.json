@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:12Z",
+  "source": "https://leetcode.cn/problems/palindrome-permutation/",
+  "question": {
+    "questionId": "266",
+    "questionFrontendId": "266",
+    "title": "Palindrome Permutation",
+    "titleSlug": "palindrome-permutation",
+    "translatedTitle": "回文排列",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 93,
+    "dislikes": 0,
+    "exampleTestcases": "\"code\"\n\"aab\"\n\"carerac\"",
+    "sampleTestCase": "\"code\"",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"canPermutePalindrome\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"20.6K\", \"totalSubmission\": \"29K\", \"totalAcceptedRaw\": 20557, \"totalSubmissionRaw\": 28962, \"acRate\": \"71.0%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

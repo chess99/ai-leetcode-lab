@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:37:55Z",
+  "source": "https://leetcode.cn/problems/missing-ranges/",
+  "question": {
+    "questionId": "163",
+    "questionFrontendId": "163",
+    "title": "Missing Ranges",
+    "titleSlug": "missing-ranges",
+    "translatedTitle": "缺失的区间",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 136,
+    "dislikes": 0,
+    "exampleTestcases": "[0,1,3,50,75]\n0\n99\n[-1]\n-1\n-1",
+    "sampleTestCase": "[0,1,3,50,75]\n0\n99",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"findMissingRanges\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"lower\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"upper\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<list<integer>>\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"26.9K\", \"totalSubmission\": \"72.6K\", \"totalAcceptedRaw\": 26934, \"totalSubmissionRaw\": 72599, \"acRate\": \"37.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:25Z",
+  "source": "https://leetcode.cn/problems/form-a-chemical-bond/",
+  "question": {
+    "questionId": "2622",
+    "questionFrontendId": "2480",
+    "title": "Form a Chemical Bond",
+    "titleSlug": "form-a-chemical-bond",
+    "translatedTitle": "形成化学键",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Elements\": [\"symbol\", \"type\", \"electrons\"]}, \"rows\": {\"Elements\": [[\"He\", \"Noble\", 0], [\"Na\", \"Metal\", 1], [\"Ca\", \"Metal\", 2], [\"La\", \"Metal\", 3], [\"Cl\", \"Nonmetal\", 1], [\"O\", \"Nonmetal\", 2], [\"N\", \"Nonmetal\", 3]]}}",
+    "sampleTestCase": "{\"headers\": {\"Elements\": [\"symbol\", \"type\", \"electrons\"]}, \"rows\": {\"Elements\": [[\"He\", \"Noble\", 0], [\"Na\", \"Metal\", 1], [\"Ca\", \"Metal\", 2], [\"La\", \"Metal\", 3], [\"Cl\", \"Nonmetal\", 1], [\"O\", \"Nonmetal\", 2], [\"N\", \"Nonmetal\", 3]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Elements (symbol varchar(2), type ENUM('Metal','Nonmetal','Noble'), electrons int)\"],\"mssql\":[\"Create table Elements (symbol varchar(2), type varchar(8) not null check(type in ('Metal','Nonmetal','Noble')), electrons int)\\n\"],\"oraclesql\":[\"Create table Elements (symbol varchar(2), type varchar(8) not null check(type in ('Metal','Nonmetal','Noble')), electrons int)\\n\"],\"database\":true,\"name\":\"form_bond\",\"pythondata\":[\"Elements = pd.DataFrame([], columns=['symbol', 'type', 'electrons']).astype({'symbol':'object', 'type':'object', 'electrons':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Elements (symbol varchar(2), type VARCHAR(30) CHECK (type IN ('Metal','Nonmetal','Noble')), electrons int)\\n\"],\"database_schema\":{\"Elements\":{\"symbol\":\"VARCHAR(2)\",\"type\":\"ENUM('Metal', 'Nonmetal', 'Noble')\",\"electrons\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.4K\", \"totalSubmission\": \"2.8K\", \"totalAcceptedRaw\": 2357, \"totalSubmissionRaw\": 2839, \"acRate\": \"83.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

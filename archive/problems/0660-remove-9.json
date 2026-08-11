@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:18Z",
+  "source": "https://leetcode.cn/problems/remove-9/",
+  "question": {
+    "questionId": "660",
+    "questionFrontendId": "660",
+    "title": "Remove 9",
+    "titleSlug": "remove-9",
+    "translatedTitle": "移除 9",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 34,
+    "dislikes": 0,
+    "exampleTestcases": "9\n10",
+    "sampleTestCase": "9",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"newInteger\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.7K\", \"totalSubmission\": \"3K\", \"totalAcceptedRaw\": 1747, \"totalSubmissionRaw\": 2966, \"acRate\": \"58.9%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

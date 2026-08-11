@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:34Z",
+  "source": "https://leetcode.cn/problems/time-taken-to-cross-the-door/",
+  "question": {
+    "questionId": "2617",
+    "questionFrontendId": "2534",
+    "title": "Time Taken to Cross the Door",
+    "titleSlug": "time-taken-to-cross-the-door",
+    "translatedTitle": "通过门的时间",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "[0,1,1,2,4]\n[0,1,0,0,1]\n[0,0,0]\n[1,0,1]",
+    "sampleTestCase": "[0,1,1,2,4]\n[0,1,0,0,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"timeTaken\",\n  \"params\": [\n    {\n      \"name\": \"arrival\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"state\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"747\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 747, \"totalSubmissionRaw\": 1354, \"acRate\": \"55.2%\"}",
+    "topicTags": [
+      {
+        "name": "Queue",
+        "slug": "queue",
+        "translatedName": "队列"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

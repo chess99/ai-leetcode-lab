@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:10Z",
+  "source": "https://leetcode.cn/problems/second-degree-follower/",
+  "question": {
+    "questionId": "614",
+    "questionFrontendId": "614",
+    "title": "Second Degree Follower",
+    "titleSlug": "second-degree-follower",
+    "translatedTitle": "二级关注者",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 49,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Follow\":[\"followee\",\"follower\"]},\"rows\":{\"Follow\":[[\"Alice\", \"Bob\"], [\"Bob\", \"Cena\"], [\"Bob\", \"Donald\"], [\"Donald\", \"Edward\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Follow\":[\"followee\",\"follower\"]},\"rows\":{\"Follow\":[[\"Alice\", \"Bob\"], [\"Bob\", \"Cena\"], [\"Bob\", \"Donald\"], [\"Donald\", \"Edward\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Follow (followee varchar(255), follower varchar(255))\"],\"mssql\":[\"Create table Follow (followee varchar(255), follower varchar(255))\"],\"oraclesql\":[\"Create table Follow (followee varchar(255), follower varchar(255))\"],\"database\":true,\"name\":\"second_degree_follower\",\"pythondata\":[\"Follow = pd.DataFrame([], columns=['followee', 'follower']).astype({'followee':'object', 'follower':'object'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Follow (followee varchar(255), follower varchar(255))\"],\"database_schema\":{\"Follow\":{\"followee\":\"VARCHAR(255)\",\"follower\":\"VARCHAR(255)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"20.4K\", \"totalSubmission\": \"51.8K\", \"totalAcceptedRaw\": 20355, \"totalSubmissionRaw\": 51789, \"acRate\": \"39.3%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

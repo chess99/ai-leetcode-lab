@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:36Z",
+  "source": "https://leetcode.cn/problems/reported-posts/",
+  "question": {
+    "questionId": "1215",
+    "questionFrontendId": "1113",
+    "title": "Reported Posts",
+    "titleSlug": "reported-posts",
+    "translatedTitle": "报告的记录",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 33,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Actions\":[\"user_id\",\"post_id\",\"action_date\",\"action\",\"extra\"]},\"rows\":{\"Actions\":[[1,1,\"2019-07-01\",\"view\",null],[1,1,\"2019-07-01\",\"like\",null],[1,1,\"2019-07-01\",\"share\",null],[2,4,\"2019-07-04\",\"view\",null],[2,4,\"2019-07-04\",\"report\",\"spam\"],[3,4,\"2019-07-04\",\"view\",null],[3,4,\"2019-07-04\",\"report\",\"spam\"],[4,3,\"2019-07-02\",\"view\",null],[4,3,\"2019-07-02\",\"report\",\"spam\"],[5,2,\"2019-07-04\",\"view\",null],[5,2,\"2019-07-04\",\"report\",\"racism\"],[5,5,\"2019-07-04\",\"view\",null],[5,5,\"2019-07-04\",\"report\",\"racism\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Actions\":[\"user_id\",\"post_id\",\"action_date\",\"action\",\"extra\"]},\"rows\":{\"Actions\":[[1,1,\"2019-07-01\",\"view\",null],[1,1,\"2019-07-01\",\"like\",null],[1,1,\"2019-07-01\",\"share\",null],[2,4,\"2019-07-04\",\"view\",null],[2,4,\"2019-07-04\",\"report\",\"spam\"],[3,4,\"2019-07-04\",\"view\",null],[3,4,\"2019-07-04\",\"report\",\"spam\"],[4,3,\"2019-07-02\",\"view\",null],[4,3,\"2019-07-02\",\"report\",\"spam\"],[5,2,\"2019-07-04\",\"view\",null],[5,2,\"2019-07-04\",\"report\",\"racism\"],[5,5,\"2019-07-04\",\"view\",null],[5,5,\"2019-07-04\",\"report\",\"racism\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Actions (user_id int, post_id int, action_date date, action ENUM('view', 'like', 'reaction', 'comment', 'report', 'share'), extra varchar(10))\"],\"mssql\":[\"create table Actions (user_id int, post_id int, action_date date, action VARCHAR(10) NOT NULL CHECK (action IN ('view', 'like', 'reaction', 'comment', 'report', 'share')), extra varchar(10))\"],\"oraclesql\":[\"create table Actions (user_id int, post_id int, action_date date, action VARCHAR(10) NOT NULL CHECK (action IN ('view', 'like', 'reaction', 'comment', 'report', 'share')), extra varchar(10))\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"reported_posts\",\"pythondata\":[\"Actions = pd.DataFrame([], columns=['user_id', 'post_id', 'action_date', 'action', 'extra']).astype({'user_id':'Int64', 'post_id':'Int64', 'action_date':'datetime64[ns]', 'action':'object', 'extra':'object'})\"],\"postgresql\":[\"Create table If Not Exists Actions (user_id int, post_id int, action_date date, action VARCHAR(10) CHECK (action IN ('view', 'like', 'reaction', 'comment', 'report', 'share')), extra varchar(10))\"],\"database_schema\":{\"Actions\":{\"user_id\":\"INT\",\"post_id\":\"INT\",\"action_date\":\"DATE\",\"action\":\"ENUM('view', 'like', 'reaction', 'comment', 'report', 'share')\",\"extra\":\"VARCHAR(10)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"16K\", \"totalSubmission\": \"29.4K\", \"totalAcceptedRaw\": 16005, \"totalSubmissionRaw\": 29384, \"acRate\": \"54.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

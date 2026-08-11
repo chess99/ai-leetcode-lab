@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:06Z",
+  "source": "https://leetcode.cn/problems/top-percentile-fraud/",
+  "question": {
+    "questionId": "3339",
+    "questionFrontendId": "3055",
+    "title": "Top Percentile Fraud",
+    "titleSlug": "top-percentile-fraud",
+    "translatedTitle": "最高欺诈百分位数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Fraud\":[\"policy_id\",\"state\",\"fraud_score\"]},\"rows\":{\"Fraud\":[[1,\"California\",0.92],[2,\"California\",0.68],[3,\"California\",0.17],[4,\"New York\",0.94],[5,\"New York\",0.81],[6,\"New York\",0.77],[7,\"Texas\",0.98],[8,\"Texas\",0.97],[9,\"Texas\",0.96],[10,\"Florida\",0.97],[11,\"Florida\",0.98],[12,\"Florida\",0.78],[13,\"Florida\",0.88],[14,\"Florida\",0.66]]}}",
+    "sampleTestCase": "{\"headers\":{\"Fraud\":[\"policy_id\",\"state\",\"fraud_score\"]},\"rows\":{\"Fraud\":[[1,\"California\",0.92],[2,\"California\",0.68],[3,\"California\",0.17],[4,\"New York\",0.94],[5,\"New York\",0.81],[6,\"New York\",0.77],[7,\"Texas\",0.98],[8,\"Texas\",0.97],[9,\"Texas\",0.96],[10,\"Florida\",0.97],[11,\"Florida\",0.98],[12,\"Florida\",0.78],[13,\"Florida\",0.88],[14,\"Florida\",0.66]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Fraud (policy_id int, state varchar(50), fraud_score decimal(5,2))\"],\"mssql\":[\"Create table  Fraud (policy_id int, state varchar(50), fraud_score decimal(5,2))\"],\"oraclesql\":[\"Create table Fraud (policy_id int, state varchar(50), fraud_score decimal(10,2))\"],\"database\":true,\"name\":\"top_percentile_fraud\",\"pythondata\":[\"Fraud = pd.DataFrame([], columns=['policy_id', 'state', 'fraud_score']).astype({'policy_id':'Int64', 'state':'object', 'fraud_score':'Float64'})\\n\"],\"postgresql\":[\"Create table If Not Exists Fraud (policy_id int, state varchar(50), fraud_score decimal(5,2))\\n\"],\"database_schema\":{\"Fraud\":{\"policy_id\":\"INT\",\"state\":\"VARCHAR(50)\",\"fraud_score\":\"DECIMAL(5, 2)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1K\", \"totalSubmission\": \"1.7K\", \"totalAcceptedRaw\": 1004, \"totalSubmissionRaw\": 1692, \"acRate\": \"59.3%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

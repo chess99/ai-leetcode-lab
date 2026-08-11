@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:52Z",
+  "source": "https://leetcode.cn/problems/stepping-numbers/",
+  "question": {
+    "questionId": "1151",
+    "questionFrontendId": "1215",
+    "title": "Stepping Numbers",
+    "titleSlug": "stepping-numbers",
+    "translatedTitle": "步进数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 42,
+    "dislikes": 0,
+    "exampleTestcases": "0\n21\n10\n15",
+    "sampleTestCase": "0\n21",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countSteppingNumbers\",\n  \"params\": [\n    {\n      \"name\": \"low\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"high\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<integer>\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.2K\", \"totalSubmission\": \"7K\", \"totalAcceptedRaw\": 3194, \"totalSubmissionRaw\": 6980, \"acRate\": \"45.8%\"}",
+    "topicTags": [
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:35Z",
+  "source": "https://leetcode.cn/problems/count-array-pairs-divisible-by-k/",
+  "question": {
+    "questionId": "2301",
+    "questionFrontendId": "2183",
+    "title": "Count Array Pairs Divisible by K",
+    "titleSlug": "count-array-pairs-divisible-by-k",
+    "translatedTitle": "统计可以被 K 整除的下标对数目",
+    "content": "<p>Given a <strong>0-indexed</strong> integer array <code>nums</code> of length <code>n</code> and an integer <code>k</code>, return <em>the <strong>number of pairs</strong></em> <code>(i, j)</code> <em>such that:</em></p>\n\n<ul>\n\t<li><code>0 &lt;= i &lt; j &lt;= n - 1</code> <em>and</em></li>\n\t<li><code>nums[i] * nums[j]</code> <em>is divisible by</em> <code>k</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3,4,5], k = 2\n<strong>Output:</strong> 7\n<strong>Explanation:</strong> \nThe 7 pairs of indices whose corresponding products are divisible by 2 are\n(0, 1), (0, 3), (1, 2), (1, 3), (1, 4), (2, 3), and (3, 4).\nTheir products are 2, 4, 6, 8, 10, 12, and 20 respectively.\nOther pairs such as (0, 2) and (2, 4) have products 3 and 15 respectively, which are not divisible by 2.    \n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3,4], k = 5\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> There does not exist any pair of indices whose corresponding product is divisible by 5.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums[i], k &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+    "translatedContent": "<p>给你一个下标从 <strong>0</strong> 开始、长度为 <code>n</code> 的整数数组 <code>nums</code> 和一个整数 <code>k</code> ，返回满足下述条件的下标对 <code>(i, j)</code> 的数目：</p>\n\n<ul>\n\t<li><code>0 &lt;= i &lt; j &lt;= n - 1</code> 且</li>\n\t<li><code>nums[i] * nums[j]</code> 能被 <code>k</code> 整除。</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入：</strong>nums = [1,2,3,4,5], k = 2\n<strong>输出：</strong>7\n<strong>解释：</strong>\n共有 7 对下标的对应积可以被 2 整除：\n(0, 1)、(0, 3)、(1, 2)、(1, 3)、(1, 4)、(2, 3) 和 (3, 4)\n它们的积分别是 2、4、6、8、10、12 和 20 。\n其他下标对，例如 (0, 2) 和 (2, 4) 的乘积分别是 3 和 15 ，都无法被 2 整除。    \n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><strong>输入：</strong>nums = [1,2,3,4], k = 5\n<strong>输出：</strong>0\n<strong>解释：</strong>不存在对应积可以被 5 整除的下标对。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums[i], k &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 72,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3,4,5]\n2\n[1,2,3,4]\n5",
+    "sampleTestCase": "[1,2,3,4,5]\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countPairs\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    long long countPairs(vector<int>& nums, int k) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public long countPairs(int[] nums, int k) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def countPairs(self, nums: List[int], k: int) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def countPairs(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar countPairs = function(nums, k) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function countPairs(nums: number[], k: number): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public long CountPairs(int[] nums, int k) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "long long countPairs(int* nums, int numsSize, int k) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func countPairs(nums []int, k int) int64 {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun countPairs(nums: IntArray, k: Int): Long {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func countPairs(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn count_pairs(nums: Vec<i32>, k: i32) -> i64 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef count_pairs(nums, k)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function countPairs($nums, $k) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int countPairs(List<int> nums, int k) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def countPairs(nums: Array[Int], k: Int): Long = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec count_pairs(nums :: [integer], k :: integer) :: integer\n  def count_pairs(nums, k) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec count_pairs(Nums :: [integer()], K :: integer()) -> integer().\ncount_pairs(Nums, K) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (count-pairs nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func countPairs(nums: Array<Int64>, k: Int64): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"7.1K\", \"totalSubmission\": \"22.4K\", \"totalAcceptedRaw\": 7126, \"totalSubmissionRaw\": 22433, \"acRate\": \"31.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "最大公约数",
+        "slug": "greatest-common-divisor",
+        "translatedName": null
+      },
+      {
+        "name": "Number Theory",
+        "slug": "number-theory",
+        "translatedName": "数论"
+      },
+      {
+        "name": "欧几里得算法",
+        "slug": "euclidean-algorithm",
+        "translatedName": null
+      }
+    ]
+  }
+}

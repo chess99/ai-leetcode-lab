@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:44Z",
+  "source": "https://leetcode.cn/problems/single-row-keyboard/",
+  "question": {
+    "questionId": "1123",
+    "questionFrontendId": "1165",
+    "title": "Single-Row Keyboard",
+    "titleSlug": "single-row-keyboard",
+    "translatedTitle": "单行键盘",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 39,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcdefghijklmnopqrstuvwxyz\"\n\"cba\"\n\"pqrstuvwxyzabcdefghijklmno\"\n\"leetcode\"",
+    "sampleTestCase": "\"abcdefghijklmnopqrstuvwxyz\"\n\"cba\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"calculateTime\",\n  \"params\": [\n    {\n      \"name\": \"keyboard\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"word\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"14.7K\", \"totalSubmission\": \"17.1K\", \"totalAcceptedRaw\": 14676, \"totalSubmissionRaw\": 17052, \"acRate\": \"86.1%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

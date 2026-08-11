@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:15Z",
+  "source": "https://leetcode.cn/problems/convert-callback-based-function-to-promise-based-function/",
+  "question": {
+    "questionId": "2782",
+    "questionFrontendId": "2776",
+    "title": "Convert Callback Based Function to Promise Based Function",
+    "titleSlug": "convert-callback-based-function-to-promise-based-function",
+    "translatedTitle": "转换回调函数为 Promise 函数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "(callback, a, b, c) => { callback(a * b * c) }\n[1, 2, 3]\n(callback, a, b, c) => { callback(a * b * c, \"Promise Rejected\") }\n[4, 5, 6]",
+    "sampleTestCase": "(callback, a, b, c) => { callback(a * b * c) }\n[1, 2, 3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"foobar\",\n  \"params\": [\n    {\n      \"name\": \"fn\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"args\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ]\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"445\", \"totalSubmission\": \"499\", \"totalAcceptedRaw\": 445, \"totalSubmissionRaw\": 499, \"acRate\": \"89.2%\"}",
+    "topicTags": []
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:58Z",
+  "source": "https://leetcode.cn/problems/Db3wC1/",
+  "question": {
+    "questionId": "1000218",
+    "questionFrontendId": "LCP 31",
+    "title": "变换的迷宫",
+    "titleSlug": "Db3wC1",
+    "translatedTitle": "变换的迷宫",
+    "content": "English description is not available for the problem. Please switch to Chinese.",
+    "translatedContent": "某解密游戏中，有一个 N\\*M 的迷宫，迷宫地形会随时间变化而改变，迷宫出口一直位于 `(n-1,m-1)` 位置。迷宫变化规律记录于 `maze` 中，`maze[i]` 表示 `i` 时刻迷宫的地形状态，`\".\"` 表示可通行空地，`\"#\"` 表示陷阱。\n\n地形图初始状态记作 `maze[0]`，此时小力位于起点 `(0,0)`。此后每一时刻可选择往上、下、左、右其一方向走一步，或者停留在原地。\n\n小力背包有以下两个魔法卷轴（卷轴使用一次后消失）：\n+ 临时消除术：将指定位置在下一个时刻变为空地；\n+ 永久消除术：将指定位置永久变为空地。\n\n请判断在迷宫变化结束前（含最后时刻），小力能否在不经过任意陷阱的情况下到达迷宫出口呢？\n\n**注意： 输入数据保证起点和终点在所有时刻均为空地。**\n\n**示例 1：**\n>输入：`maze = [[\".#.\",\"#..\"],[\"...\",\".#.\"],[\".##\",\".#.\"],[\"..#\",\".#.\"]]`\n>\n>输出：`true`\n>\n>解释：\n![maze.gif](https://pic.leetcode.cn/1615892239-SCIjyf-maze.gif)\n\n\n**示例 2：**\n>输入：`maze = [[\".#.\",\"...\"],[\"...\",\"...\"]]`\n>\n>输出：`false`\n>\n>解释：由于时间不够，小力无法到达终点逃出迷宫。\n\n**示例 3：**\n>输入：`maze = [[\"...\",\"...\",\"...\"],[\".##\",\"###\",\"##.\"],[\".##\",\"###\",\"##.\"],[\".##\",\"###\",\"##.\"],[\".##\",\"###\",\"##.\"],[\".##\",\"###\",\"##.\"],[\".##\",\"###\",\"##.\"]]`\n>\n>输出：`false`\n>\n>解释：由于道路不通，小力无法到达终点逃出迷宫。\n\n**提示：**\n- `1 <= maze.length <= 100`\n- `1 <= maze[i].length, maze[i][j].length <= 50`\n- `maze[i][j]` 仅包含 `\".\"`、`\"#\"`",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 39,
+    "dislikes": 0,
+    "exampleTestcases": "[[\".#.\",\"#..\"],[\"...\",\".#.\"],[\".##\",\".#.\"],[\"..#\",\".#.\"]]\n[[\".#.\",\"...\"],[\"...\",\"...\"]]\n[[\"....\",\"....\"],[\".#..\",\"#...\"],[\"..#.\",\".#..\"],[\"...#\",\"..#.\"],[\"....\",\".##.\"]]",
+    "sampleTestCase": "[[\".#.\",\"#..\"],[\"...\",\".#.\"],[\".##\",\".#.\"],[\"..#\",\".#.\"]]",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"escapeMaze\", \"params\": [{\"name\": \"maze\", \"type\": \"string[][]\"}], \"return\": {\"type\": \"boolean\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    bool escapeMaze(vector<vector<string>>& maze) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public boolean escapeMaze(List<List<String>> maze) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def escapeMaze(self, maze: List[List[str]]) -> bool:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def escapeMaze(self, maze):\n        \"\"\"\n        :type maze: List[List[str]]\n        :rtype: bool\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string[][]} maze\n * @return {boolean}\n */\nvar escapeMaze = function(maze) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function escapeMaze(maze: string[][]): boolean {\n\n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public bool EscapeMaze(string[][] maze) {\n\n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\nbool escapeMaze(char*** maze, int mazeSize, int* mazeColSize){\n\n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func escapeMaze(maze [][]string) bool {\n\n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun escapeMaze(maze: Array<Array<String>>): Boolean {\n\n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func escapeMaze(_ maze: [[String]]) -> Bool {\n\n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn escape_maze(maze: Vec<Vec<String>>) -> bool {\n\n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String[][]} maze\n# @return {Boolean}\ndef escape_maze(maze)\n\nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String[][] $maze\n     * @return Boolean\n     */\n    function escapeMaze($maze) {\n\n    }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def escapeMaze(maze: Array[Array[String]]): Boolean = {\n\n    }\n}"
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (escape-maze maze)\n  (-> (listof (listof string?)) boolean?)\n\n  )"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"3.7K\", \"totalSubmission\": \"11.8K\", \"totalAcceptedRaw\": 3665, \"totalSubmissionRaw\": 11791, \"acRate\": \"31.1%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

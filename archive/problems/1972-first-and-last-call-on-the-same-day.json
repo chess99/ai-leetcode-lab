@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:01Z",
+  "source": "https://leetcode.cn/problems/first-and-last-call-on-the-same-day/",
+  "question": {
+    "questionId": "2120",
+    "questionFrontendId": "1972",
+    "title": "First and Last Call On the Same Day",
+    "titleSlug": "first-and-last-call-on-the-same-day",
+    "translatedTitle": "同一天的第一个电话和最后一个电话",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 19,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Calls\": [\"caller_id\", \"recipient_id\", \"call_time\"]}, \"rows\": {\"Calls\": [[8, 4, \"2021-08-24 17:46:07\"], [4, 8, \"2021-08-24 19:57:13\"], [5, 1, \"2021-08-11 05:28:44\"], [8, 3, \"2021-08-17 04:04:15\"], [11, 3, \"2021-08-17 13:07:00\"], [8, 11, \"2021-08-17 22:22:22\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Calls\": [\"caller_id\", \"recipient_id\", \"call_time\"]}, \"rows\": {\"Calls\": [[8, 4, \"2021-08-24 17:46:07\"], [4, 8, \"2021-08-24 19:57:13\"], [5, 1, \"2021-08-11 05:28:44\"], [8, 3, \"2021-08-17 04:04:15\"], [11, 3, \"2021-08-17 13:07:00\"], [8, 11, \"2021-08-17 22:22:22\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Calls (caller_id int, recipient_id int, call_time datetime)\"],\"mssql\":[\"Create table Calls (caller_id int, recipient_id int, call_time datetime)\"],\"oraclesql\":[\"Create table Calls (caller_id int, recipient_id int, call_time date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"],\"database\":true,\"name\":\"same_day_calls\",\"pythondata\":[\"Calls = pd.DataFrame([], columns=['caller_id', 'recipient_id', 'call_time']).astype({'caller_id':'Int64', 'recipient_id':'Int64', 'call_time':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Calls (caller_id int, recipient_id int, call_time timestamp)\\n\"],\"database_schema\":{\"Calls\":{\"caller_id\":\"INT\",\"recipient_id\":\"INT\",\"call_time\":\"DATETIME\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.2K\", \"totalSubmission\": \"9.8K\", \"totalAcceptedRaw\": 4160, \"totalSubmissionRaw\": 9849, \"acRate\": \"42.2%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

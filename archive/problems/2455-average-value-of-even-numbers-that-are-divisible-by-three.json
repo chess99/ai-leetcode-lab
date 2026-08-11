@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:20Z",
+  "source": "https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three/",
+  "question": {
+    "questionId": "2542",
+    "questionFrontendId": "2455",
+    "title": "Average Value of Even Numbers That Are Divisible by Three",
+    "titleSlug": "average-value-of-even-numbers-that-are-divisible-by-three",
+    "translatedTitle": "可被三整除的偶数的平均值",
+    "content": "<p>Given an integer array <code>nums</code> of <strong>positive</strong> integers, return <em>the average value of all even integers that are divisible by</em> <code>3</code><i>.</i></p>\n\n<p>Note that the <strong>average</strong> of <code>n</code> elements is the <strong>sum</strong> of the <code>n</code> elements divided by <code>n</code> and <strong>rounded down</strong> to the nearest integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,6,10,12,15]\n<strong>Output:</strong> 9\n<strong>Explanation:</strong> 6 and 12 are even numbers that are divisible by 3. (6 + 12) / 2 = 9.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,4,7,10]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> There is no single number that satisfies the requirement, so return 0.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>\n</ul>\n",
+    "translatedContent": "<p>给你一个由正整数组成的整数数组 <code>nums</code> ，返回其中可被 <code>3</code> 整除的所有偶数的平均值。</p>\n\n<p>注意：<code>n</code> 个元素的平均值等于 <code>n</code> 个元素 <strong>求和</strong> 再除以 <code>n</code> ，结果 <strong>向下取整</strong> 到最接近的整数。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [1,3,6,10,12,15]\n<strong>输出：</strong>9\n<strong>解释：</strong>6 和 12 是可以被 3 整除的偶数。(6 + 12) / 2 = 9 。\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [1,2,4,7,10]\n<strong>输出：</strong>0\n<strong>解释：</strong>不存在满足题目要求的整数，所以返回 0 。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 53,
+    "dislikes": 0,
+    "exampleTestcases": "[1,3,6,10,12,15]\n[1,2,4,7,10]",
+    "sampleTestCase": "[1,3,6,10,12,15]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"averageValue\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int averageValue(vector<int>& nums) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int averageValue(int[] nums) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def averageValue(self, nums: List[int]) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def averageValue(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar averageValue = function(nums) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function averageValue(nums: number[]): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int AverageValue(int[] nums) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int averageValue(int* nums, int numsSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func averageValue(nums []int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun averageValue(nums: IntArray): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func averageValue(_ nums: [Int]) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn average_value(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} nums\n# @return {Integer}\ndef average_value(nums)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function averageValue($nums) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int averageValue(List<int> nums) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def averageValue(nums: Array[Int]): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec average_value(nums :: [integer]) :: integer\n  def average_value(nums) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec average_value(Nums :: [integer()]) -> integer().\naverage_value(Nums) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (average-value nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func averageValue(nums: Array<Int64>): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"37.5K\", \"totalSubmission\": \"58.4K\", \"totalAcceptedRaw\": 37485, \"totalSubmissionRaw\": 58388, \"acRate\": \"64.2%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

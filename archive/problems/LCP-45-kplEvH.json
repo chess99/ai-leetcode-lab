@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:01Z",
+  "source": "https://leetcode.cn/problems/kplEvH/",
+  "question": {
+    "questionId": "1000375",
+    "questionFrontendId": "LCP 45",
+    "title": "自行车炫技赛场",
+    "titleSlug": "kplEvH",
+    "translatedTitle": "自行车炫技赛场",
+    "content": "English description is not available for the problem. Please switch to Chinese.",
+    "translatedContent": "「力扣挑战赛」中 `N*M` 大小的自行车炫技赛场的场地由一片连绵起伏的上下坡组成，场地的高度值记录于二维数组 `terrain` 中，场地的减速值记录于二维数组 `obstacle` 中。\n- 若选手骑着自行车从高度为 `h1` 且减速值为 `o1` 的位置到高度为 `h2` 且减速值为 `o2` 的相邻位置（上下左右四个方向），速度变化值为 `h1-h2-o2`（负值减速，正值增速）。\n\n选手初始位于坐标 `position` 处且初始速度为 1，请问选手可以刚好到其他哪些位置时速度依旧为 1。请以二维数组形式返回这些位置。若有多个位置则按行坐标升序排列，若有多个位置行坐标相同则按列坐标升序排列。\n\n**注意：** 骑行过程中速度不能为零或负值\n\n**示例 1：**\n> 输入\b：`position = [0,0], terrain = [[0,0],[0,0]], obstacle = [[0,0],[0,0]]`\n> \n> 输出：`[[0,1],[1,0],[1,1]]`\n> \n> 解释：\n> 由于当前场地属于平地，根据上面的规则，选手从`[0,0]`的位置出发都能刚好在其他处的位置速度为 1。\n\n**示例 2：**\n> 输入\b：`position = [1,1], terrain = [[5,0],[0,6]], obstacle = [[0,6],[7,0]]`\n> \n> 输出：`[[0,1]]`\n> \n> 解释：\n> 选手从 `[1,1]` 处的位置出发，到 `[0,1]` 处的位置时恰好速度为 1。\n\n\n**提示：**\n- `n == terrain.length == obstacle.length`\n- `m == terrain[i].length == obstacle[i].length`\n- `1 <= n <= 100`\n- `1 <= m <= 100`\n- `0 <= terrain[i][j], obstacle[i][j] <= 100`\n- `position.length == 2`\n- `0 <= position[0] < n`\n- `0 <= position[1] < m`",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 15,
+    "dislikes": 0,
+    "exampleTestcases": "[0,0]\n[[0,0],[0,0]]\n[[0,0],[0,0]]\n[1,1]\n[[5,0],[0,6]]\n[[0,6],[7,0]]",
+    "sampleTestCase": "[0,0]\n[[0,0],[0,0]]\n[[0,0],[0,0]]",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"bicycleYard\", \"params\": [{\"name\": \"position\", \"type\": \"integer[]\"}, {\"name\": \"terrain\", \"type\": \"integer[][]\"}, {\"name\": \"obstacle\", \"type\": \"integer[][]\"}], \"return\": {\"type\": \"integer[][]\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    vector<vector<int>> bicycleYard(vector<int>& position, vector<vector<int>>& terrain, vector<vector<int>>& obstacle) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int[][] bicycleYard(int[] position, int[][] terrain, int[][] obstacle) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def bicycleYard(self, position: List[int], terrain: List[List[int]], obstacle: List[List[int]]) -> List[List[int]]:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def bicycleYard(self, position, terrain, obstacle):\n        \"\"\"\n        :type position: List[int]\n        :type terrain: List[List[int]]\n        :type obstacle: List[List[int]]\n        :rtype: List[List[int]]\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} position\n * @param {number[][]} terrain\n * @param {number[][]} obstacle\n * @return {number[][]}\n */\nvar bicycleYard = function(position, terrain, obstacle) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function bicycleYard(position: number[], terrain: number[][], obstacle: number[][]): number[][] {\n\n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int[][] BicycleYard(int[] position, int[][] terrain, int[][] obstacle) {\n\n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\n/**\n * Return an array of arrays of size *returnSize.\n * The sizes of the arrays are returned as *returnColumnSizes array.\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\n */\nint** bicycleYard(int* position, int positionSize, int** terrain, int terrainSize, int* terrainColSize, int** obstacle, int obstacleSize, int* obstacleColSize, int* returnSize, int** returnColumnSizes){\n\n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func bicycleYard(position []int, terrain [][]int, obstacle [][]int) [][]int {\n\n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun bicycleYard(position: IntArray, terrain: Array<IntArray>, obstacle: Array<IntArray>): Array<IntArray> {\n\n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func bicycleYard(_ position: [Int], _ terrain: [[Int]], _ obstacle: [[Int]]) -> [[Int]] {\n\n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn bicycle_yard(position: Vec<i32>, terrain: Vec<Vec<i32>>, obstacle: Vec<Vec<i32>>) -> Vec<Vec<i32>> {\n\n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} position\n# @param {Integer[][]} terrain\n# @param {Integer[][]} obstacle\n# @return {Integer[][]}\ndef bicycle_yard(position, terrain, obstacle)\n\nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $position\n     * @param Integer[][] $terrain\n     * @param Integer[][] $obstacle\n     * @return Integer[][]\n     */\n    function bicycleYard($position, $terrain, $obstacle) {\n\n    }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def bicycleYard(position: Array[Int], terrain: Array[Array[Int]], obstacle: Array[Array[Int]]): Array[Array[Int]] = {\n\n    }\n}"
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (bicycle-yard position terrain obstacle)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) (listof (listof exact-integer?)) (listof (listof exact-integer?)))\n\n  )"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"3.7K\", \"totalSubmission\": \"11.1K\", \"totalAcceptedRaw\": 3699, \"totalSubmissionRaw\": 11142, \"acRate\": \"33.2%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Memoization",
+        "slug": "memoization",
+        "translatedName": "记忆化"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

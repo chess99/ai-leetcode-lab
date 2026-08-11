@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:08Z",
+  "source": "https://leetcode.cn/problems/count-occurrences-in-text/",
+  "question": {
+    "questionId": "2885",
+    "questionFrontendId": "2738",
+    "title": "Count Occurrences in Text",
+    "titleSlug": "count-occurrences-in-text",
+    "translatedTitle": "统计文本中单词的出现次数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Files\":[\"file_name\",\"content\"]},\"rows\":{\"Files\":[[\"draft1.txt\",\"The stock exchange predicts a bull market which would make many investors happy.\"],[\"draft2.txt\",\"The stock exchange predicts a bull market which would make many investors happy, but analysts warn of possibility of too much optimism and that in fact we are awaiting a bear market.\"],[\"final.txt\",\"The stock exchange predicts a bull market which would make many investors happy, but analysts warn of possibility of too much optimism and that in fact we are awaiting a bear market. As always predicting the future market is an uncertain game and all investors should follow their instincts and best practices.\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Files\":[\"file_name\",\"content\"]},\"rows\":{\"Files\":[[\"draft1.txt\",\"The stock exchange predicts a bull market which would make many investors happy.\"],[\"draft2.txt\",\"The stock exchange predicts a bull market which would make many investors happy, but analysts warn of possibility of too much optimism and that in fact we are awaiting a bear market.\"],[\"final.txt\",\"The stock exchange predicts a bull market which would make many investors happy, but analysts warn of possibility of too much optimism and that in fact we are awaiting a bear market. As always predicting the future market is an uncertain game and all investors should follow their instincts and best practices.\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Files (file_name varchar(100), content text )\"],\"mssql\":[\"Create table Files (file_name varchar(100), content text )\"],\"oraclesql\":[\"Create table Files (file_name varchar(100), content clob )\"],\"database\":true,\"name\":\"count_occurrences\",\"pythondata\":[\"Files = pd.DataFrame([], columns=['file_name', 'content']).astype({'file_name':'object', 'content':'object'})\"],\"postgresql\":[\"Create table If Not Exists Files (file_name varchar(100), content text )\"],\"database_schema\":{\"Files\":{\"file_name\":\"VARCHAR(100)\",\"content\":\"TEXT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.9K\", \"totalSubmission\": \"5.2K\", \"totalAcceptedRaw\": 2855, \"totalSubmissionRaw\": 5180, \"acRate\": \"55.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

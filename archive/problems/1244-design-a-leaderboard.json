@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:56Z",
+  "source": "https://leetcode.cn/problems/design-a-leaderboard/",
+  "question": {
+    "questionId": "1176",
+    "questionFrontendId": "1244",
+    "title": "Design A Leaderboard",
+    "titleSlug": "design-a-leaderboard",
+    "translatedTitle": "力扣排行榜",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 57,
+    "dislikes": 0,
+    "exampleTestcases": "[\"Leaderboard\",\"addScore\",\"addScore\",\"addScore\",\"addScore\",\"addScore\",\"top\",\"reset\",\"reset\",\"addScore\",\"top\"]\n[[],[1,73],[2,56],[3,39],[4,51],[5,4],[1],[1],[2],[2,51],[3]]",
+    "sampleTestCase": "[\"Leaderboard\",\"addScore\",\"addScore\",\"addScore\",\"addScore\",\"addScore\",\"top\",\"reset\",\"reset\",\"addScore\",\"top\"]\n[[],[1,73],[2,56],[3,39],[4,51],[5,4],[1],[1],[2],[2,51],[3]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n    \"classname\": \"Leaderboard\",\r\n    \"maxbytesperline\": 200000,\r\n    \"constructor\": {\r\n        \"params\": []\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"addScore\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"playerId\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"score\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"top\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"K\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"reset\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"playerId\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.3K\", \"totalSubmission\": \"9.7K\", \"totalAcceptedRaw\": 6266, \"totalSubmissionRaw\": 9659, \"acRate\": \"64.9%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

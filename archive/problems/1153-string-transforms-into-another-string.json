@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:43Z",
+  "source": "https://leetcode.cn/problems/string-transforms-into-another-string/",
+  "question": {
+    "questionId": "1124",
+    "questionFrontendId": "1153",
+    "title": "String Transforms Into Another String",
+    "titleSlug": "string-transforms-into-another-string",
+    "translatedTitle": "字符串转化",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 91,
+    "dislikes": 0,
+    "exampleTestcases": "\"aabcc\"\n\"ccdee\"\n\"leetcode\"\n\"codeleet\"",
+    "sampleTestCase": "\"aabcc\"\n\"ccdee\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"canConvert\",\n  \"params\": [\n    {\n      \"name\": \"str1\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"str2\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"7.8K\", \"totalAcceptedRaw\": 3138, \"totalSubmissionRaw\": 7768, \"acRate\": \"40.4%\"}",
+    "topicTags": [
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

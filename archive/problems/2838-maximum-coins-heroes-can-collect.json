@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:26Z",
+  "source": "https://leetcode.cn/problems/maximum-coins-heroes-can-collect/",
+  "question": {
+    "questionId": "3101",
+    "questionFrontendId": "2838",
+    "title": "Maximum Coins Heroes Can Collect",
+    "titleSlug": "maximum-coins-heroes-can-collect",
+    "translatedTitle": "英雄可以获得的最大金币数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[1,4,2]\n[1,1,5,2,3]\n[2,3,4,5,6]\n[5]\n[2,3,1,2]\n[10,6,5,2]\n[4,4]\n[5,7,8]\n[1,1,1]",
+    "sampleTestCase": "[1,4,2]\n[1,1,5,2,3]\n[2,3,4,5,6]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maximumCoins\",\n  \"params\": [\n    {\n      \"name\": \"heroes\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"monsters\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"coins\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"496\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 496, \"totalSubmissionRaw\": 1198, \"acRate\": \"41.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

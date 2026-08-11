@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:04Z",
+  "source": "https://leetcode.cn/problems/squirrel-simulation/",
+  "question": {
+    "questionId": "573",
+    "questionFrontendId": "573",
+    "title": "Squirrel Simulation",
+    "titleSlug": "squirrel-simulation",
+    "translatedTitle": "松鼠模拟",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 53,
+    "dislikes": 0,
+    "exampleTestcases": "5\n7\n[2,2]\n[4,4]\n[[3,0], [2,5]]\n1\n3\n[0,1]\n[0,0]\n[[0,2]]",
+    "sampleTestCase": "5\n7\n[2,2]\n[4,4]\n[[3,0], [2,5]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"minDistance\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"height\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"width\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"tree\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"squirrel\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"nuts\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.6K\", \"totalSubmission\": \"4K\", \"totalAcceptedRaw\": 2603, \"totalSubmissionRaw\": 3972, \"acRate\": \"65.5%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

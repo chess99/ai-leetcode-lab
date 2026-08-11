@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:56Z",
+  "source": "https://leetcode.cn/problems/the-knights-tour/",
+  "question": {
+    "questionId": "2823",
+    "questionFrontendId": "2664",
+    "title": "The Knight’s Tour",
+    "titleSlug": "the-knights-tour",
+    "translatedTitle": "巡逻的骑士",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "1\n1\n0\n0\n3\n4\n0\n0",
+    "sampleTestCase": "1\n1\n0\n0",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"tourOfKnight\",\n  \"params\": [\n    {\n      \"name\": \"m\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"n\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"r\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"c\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[][]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"632\", \"totalSubmission\": \"995\", \"totalAcceptedRaw\": 632, \"totalSubmissionRaw\": 995, \"acRate\": \"63.5%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

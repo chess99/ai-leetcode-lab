@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:06Z",
+  "source": "https://leetcode.cn/problems/smallest-greater-multiple-made-of-two-digits/",
+  "question": {
+    "questionId": "2141",
+    "questionFrontendId": "1999",
+    "title": "Smallest Greater Multiple Made of Two Digits",
+    "titleSlug": "smallest-greater-multiple-made-of-two-digits",
+    "translatedTitle": "最小的仅由两个数组成的倍数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "2\n0\n2\n3\n4\n2\n2\n0\n0",
+    "sampleTestCase": "2\n0\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"findInteger\",\n  \"params\": [\n    {\n      \"name\": \"k\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"digit1\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"digit2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"579\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 579, \"totalSubmissionRaw\": 1338, \"acRate\": \"43.3%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Enumeration",
+        "slug": "enumeration",
+        "translatedName": "枚举"
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:16Z",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-a-subsequence/",
+  "question": {
+    "questionId": "1832",
+    "questionFrontendId": "1713",
+    "title": "Minimum Operations to Make a Subsequence",
+    "titleSlug": "minimum-operations-to-make-a-subsequence",
+    "translatedTitle": "得到子序列的最少操作次数",
+    "content": "<p>You are given an array <code>target</code> that consists of <strong>distinct</strong> integers and another integer array <code>arr</code> that <strong>can</strong> have duplicates.</p>\n\n<p>In one operation, you can insert any integer at any position in <code>arr</code>. For example, if <code>arr = [1,4,1,2]</code>, you can add <code>3</code> in the middle and make it <code>[1,4,<u>3</u>,1,2]</code>. Note that you can insert the integer at the very beginning or end of the array.</p>\n\n<p>Return <em>the <strong>minimum</strong> number of operations needed to make </em><code>target</code><em> a <strong>subsequence</strong> of </em><code>arr</code><em>.</em></p>\n\n<p>A <strong>subsequence</strong> of an array is a new array generated from the original array by deleting some elements (possibly none) without changing the remaining elements&#39; relative order. For example, <code>[2,7,4]</code> is a subsequence of <code>[4,<u>2</u>,3,<u>7</u>,2,1,<u>4</u>]</code> (the underlined elements), while <code>[2,4,2]</code> is not.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = [5,1,3], <code>arr</code> = [9,4,2,3,4]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> You can add 5 and 1 in such a way that makes <code>arr</code> = [<u>5</u>,9,4,<u>1</u>,2,3,4], then target will be a subsequence of <code>arr</code>.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = [6,4,8,1,3,2], <code>arr</code> = [4,7,6,2,3,8,6,1]\n<strong>Output:</strong> 3\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= target.length, arr.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= target[i], arr[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>target</code> contains no duplicates.</li>\n</ul>\n",
+    "translatedContent": "<p>给你一个数组 <code>target</code> ，包含若干 <strong>互不相同</strong> 的整数，以及另一个整数数组 <code>arr</code> ，<code>arr</code> <strong>可能</strong> 包含重复元素。</p>\n\n<p>每一次操作中，你可以在 <code>arr</code> 的任意位置插入任一整数。比方说，如果 <code>arr = [1,4,1,2]</code> ，那么你可以在中间添加 <code>3</code> 得到 <code>[1,4,<strong>3</strong>,1,2]</code> 。你可以在数组最开始或最后面添加整数。</p>\n\n<p>请你返回 <strong>最少</strong> 操作次数，使得<em> </em><code>target</code><em> </em>成为 <code>arr</code> 的一个子序列。</p>\n\n<p>一个数组的 <strong>子序列</strong> 指的是删除原数组的某些元素（可能一个元素都不删除），同时不改变其余元素的相对顺序得到的数组。比方说，<code>[2,7,4]</code> 是 <code>[4,<strong>2</strong>,3,<strong>7</strong>,2,1,<strong>4</strong>]</code> 的子序列（加粗元素），但 <code>[2,4,2]</code> 不是子序列。</p>\n\n<p> </p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><b>输入：</b>target = [5,1,3], <code>arr</code> = [9,4,2,3,4]\n<b>输出：</b>2\n<b>解释：</b>你可以添加 5 和 1 ，使得 arr 变为 [<strong>5</strong>,9,4,<strong>1</strong>,2,3,4] ，target 为 arr 的子序列。\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><b>输入：</b>target = [6,4,8,1,3,2], <code>arr</code> = [4,7,6,2,3,8,6,1]\n<b>输出：</b>3\n</pre>\n\n<p> </p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= target.length, arr.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= target[i], arr[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>target</code> 不包含任何重复元素。</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 230,
+    "dislikes": 0,
+    "exampleTestcases": "[5,1,3]\n[9,4,2,3,4]\n[6,4,8,1,3,2]\n[4,7,6,2,3,8,6,1]",
+    "sampleTestCase": "[5,1,3]\n[9,4,2,3,4]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minOperations\",\n  \"params\": [\n    {\n      \"name\": \"target\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"arr\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int minOperations(vector<int>& target, vector<int>& arr) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int minOperations(int[] target, int[] arr) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def minOperations(self, target: List[int], arr: List[int]) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def minOperations(self, target, arr):\n        \"\"\"\n        :type target: List[int]\n        :type arr: List[int]\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} target\n * @param {number[]} arr\n * @return {number}\n */\nvar minOperations = function(target, arr) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function minOperations(target: number[], arr: number[]): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int MinOperations(int[] target, int[] arr) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int minOperations(int* target, int targetSize, int* arr, int arrSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func minOperations(target []int, arr []int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun minOperations(target: IntArray, arr: IntArray): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func minOperations(_ target: [Int], _ arr: [Int]) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn min_operations(target: Vec<i32>, arr: Vec<i32>) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} target\n# @param {Integer[]} arr\n# @return {Integer}\ndef min_operations(target, arr)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $target\n     * @param Integer[] $arr\n     * @return Integer\n     */\n    function minOperations($target, $arr) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int minOperations(List<int> target, List<int> arr) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def minOperations(target: Array[Int], arr: Array[Int]): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec min_operations(target :: [integer], arr :: [integer]) :: integer\n  def min_operations(target, arr) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec min_operations(Target :: [integer()], Arr :: [integer()]) -> integer().\nmin_operations(Target, Arr) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (min-operations target arr)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func minOperations(target: Array<Int64>, arr: Array<Int64>): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"21.4K\", \"totalSubmission\": \"42.3K\", \"totalAcceptedRaw\": 21351, \"totalSubmissionRaw\": 42273, \"acRate\": \"50.5%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "最长上升子序列",
+        "slug": "longest-increasing-subsequence",
+        "translatedName": null
+      }
+    ]
+  }
+}

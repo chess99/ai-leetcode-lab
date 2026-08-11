@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:16Z",
+  "source": "https://leetcode.cn/problems/number-of-spaces-cleaning-robot-cleaned/",
+  "question": {
+    "questionId": "2203",
+    "questionFrontendId": "2061",
+    "title": "Number of Spaces Cleaning Robot Cleaned",
+    "titleSlug": "number-of-spaces-cleaning-robot-cleaned",
+    "translatedTitle": "扫地机器人清扫过的空间个数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 10,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,0,0],[1,1,0],[0,0,0]]\n[[0,1,0],[1,0,0],[0,0,0]]\n[[0,0,0],[0,0,0],[0,0,0]]",
+    "sampleTestCase": "[[0,0,0],[1,1,0],[0,0,0]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfCleanRooms\",\n  \"params\": [\n    {\n      \"name\": \"room\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"2.4K\", \"totalAcceptedRaw\": 1293, \"totalSubmissionRaw\": 2443, \"acRate\": \"52.9%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

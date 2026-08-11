@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:41Z",
+  "source": "https://leetcode.cn/problems/constructing-two-increasing-arrays/",
+  "question": {
+    "questionId": "3586",
+    "questionFrontendId": "3269",
+    "title": "Constructing Two Increasing Arrays",
+    "titleSlug": "constructing-two-increasing-arrays",
+    "translatedTitle": "构建两个递增数组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[]\n[1,0,1,1]\n[0,1,0,1]\n[1,0,0,1]\n[0,1,0,0,1]\n[0,0,0,1]",
+    "sampleTestCase": "[]\n[1,0,1,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minLargest\",\n  \"params\": [\n    {\n      \"name\": \"nums1\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"nums2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"273\", \"totalSubmission\": \"994\", \"totalAcceptedRaw\": 273, \"totalSubmissionRaw\": 994, \"acRate\": \"27.5%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

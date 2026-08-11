@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:15Z",
+  "source": "https://leetcode.cn/problems/maximum-average-subarray-ii/",
+  "question": {
+    "questionId": "644",
+    "questionFrontendId": "644",
+    "title": "Maximum Average Subarray II",
+    "titleSlug": "maximum-average-subarray-ii",
+    "translatedTitle": "子数组最大平均数 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 123,
+    "dislikes": 0,
+    "exampleTestcases": "[1,12,-5,-6,50,3]\n4\n[5]\n1",
+    "sampleTestCase": "[1,12,-5,-6,50,3]\n4",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"findMaxAverage\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"double\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.2K\", \"totalSubmission\": \"9.2K\", \"totalAcceptedRaw\": 4203, \"totalSubmissionRaw\": 9174, \"acRate\": \"45.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

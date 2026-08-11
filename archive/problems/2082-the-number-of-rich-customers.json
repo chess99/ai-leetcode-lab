@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:19Z",
+  "source": "https://leetcode.cn/problems/the-number-of-rich-customers/",
+  "question": {
+    "questionId": "2223",
+    "questionFrontendId": "2082",
+    "title": "The Number of Rich Customers",
+    "titleSlug": "the-number-of-rich-customers",
+    "translatedTitle": "富有客户的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Store\":[\"bill_id\",\"customer_id\",\"amount\"]},\"rows\":{\"Store\":[[6,1,549],[8,1,834],[4,2,394],[11,3,657],[13,3,257]]}}",
+    "sampleTestCase": "{\"headers\":{\"Store\":[\"bill_id\",\"customer_id\",\"amount\"]},\"rows\":{\"Store\":[[6,1,549],[8,1,834],[4,2,394],[11,3,657],[13,3,257]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Store (bill_id int, customer_id int, amount int)\"],\"mssql\":[\"Create table Store (bill_id int, customer_id int, amount int)\"],\"oraclesql\":[\"Create table Store (bill_id int, customer_id int, amount int)\"],\"database\":true,\"name\":\"count_rich_customers\",\"pythondata\":[\"Store = pd.DataFrame([], columns=['bill_id', 'customer_id', 'amount']).astype({'bill_id':'int64', 'customer_id':'int64', 'amount':'int64'})\"],\"database_schema\":{\"Store\":{\"bill_id\":\"INT\",\"customer_id\":\"INT\",\"amount\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.9K\", \"totalSubmission\": \"10.4K\", \"totalAcceptedRaw\": 7890, \"totalSubmissionRaw\": 10437, \"acRate\": \"75.6%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

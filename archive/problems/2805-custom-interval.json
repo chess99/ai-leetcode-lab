@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:20Z",
+  "source": "https://leetcode.cn/problems/custom-interval/",
+  "question": {
+    "questionId": "2908",
+    "questionFrontendId": "2805",
+    "title": "Custom Interval",
+    "titleSlug": "custom-interval",
+    "translatedTitle": "自定义间隔",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "50\n20\n225\n20\n20\n150\n100\n200\n500",
+    "sampleTestCase": "50\n20\n225",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"foobar\",\n  \"params\": [\n    {\n      \"type\": \"integer\",\n      \"name\": \"delay\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"period\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"cancelTime\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"319\", \"totalSubmission\": \"402\", \"totalAcceptedRaw\": 319, \"totalSubmissionRaw\": 402, \"acRate\": \"79.4%\"}",
+    "topicTags": []
+  }
+}

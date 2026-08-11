@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:21Z",
+  "source": "https://leetcode.cn/problems/minimum-time-takes-to-reach-destination-without-drowning/",
+  "question": {
+    "questionId": "3043",
+    "questionFrontendId": "2814",
+    "title": "Minimum Time Takes to Reach Destination Without Drowning",
+    "titleSlug": "minimum-time-takes-to-reach-destination-without-drowning",
+    "translatedTitle": "避免淹死并到达目的地的最短时间",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"D\",\".\",\"*\"],[\".\",\".\",\".\"],[\".\",\"S\",\".\"]]\n[[\"D\",\"X\",\"*\"],[\".\",\".\",\".\"],[\".\",\".\",\"S\"]]\n[[\"D\",\".\",\".\",\".\",\"*\",\".\"],[\".\",\"X\",\".\",\"X\",\".\",\".\"],[\".\",\".\",\".\",\".\",\"S\",\".\"]]",
+    "sampleTestCase": "[[\"D\",\".\",\"*\"],[\".\",\".\",\".\"],[\".\",\"S\",\".\"]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumSeconds\",\n  \"params\": [\n    {\n      \"name\": \"land\",\n      \"type\": \"list<list<string>>\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"406\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 406, \"totalSubmissionRaw\": 1620, \"acRate\": \"25.1%\"}",
+    "topicTags": [
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

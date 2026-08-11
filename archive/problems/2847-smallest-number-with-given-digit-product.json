@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:27Z",
+  "source": "https://leetcode.cn/problems/smallest-number-with-given-digit-product/",
+  "question": {
+    "questionId": "3111",
+    "questionFrontendId": "2847",
+    "title": "Smallest Number With Given Digit Product",
+    "titleSlug": "smallest-number-with-given-digit-product",
+    "translatedTitle": "给定数字乘积的最小数字",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "105\n7\n44",
+    "sampleTestCase": "105",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"smallestNumber\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"long\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"449\", \"totalSubmission\": \"1.8K\", \"totalAcceptedRaw\": 449, \"totalSubmissionRaw\": 1785, \"acRate\": \"25.2%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

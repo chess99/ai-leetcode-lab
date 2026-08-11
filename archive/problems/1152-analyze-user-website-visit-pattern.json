@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:42Z",
+  "source": "https://leetcode.cn/problems/analyze-user-website-visit-pattern/",
+  "question": {
+    "questionId": "1108",
+    "questionFrontendId": "1152",
+    "title": "Analyze User Website Visit Pattern",
+    "titleSlug": "analyze-user-website-visit-pattern",
+    "translatedTitle": "用户网站访问行为分析",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 39,
+    "dislikes": 0,
+    "exampleTestcases": "[\"joe\",\"joe\",\"joe\",\"james\",\"james\",\"james\",\"james\",\"mary\",\"mary\",\"mary\"]\n[1,2,3,4,5,6,7,8,9,10]\n[\"home\",\"about\",\"career\",\"home\",\"cart\",\"maps\",\"home\",\"home\",\"about\",\"career\"]\n[\"ua\",\"ua\",\"ua\",\"ub\",\"ub\",\"ub\"]\n[1,2,3,4,5,6]\n[\"a\",\"b\",\"a\",\"a\",\"b\",\"c\"]",
+    "sampleTestCase": "[\"joe\",\"joe\",\"joe\",\"james\",\"james\",\"james\",\"james\",\"mary\",\"mary\",\"mary\"]\n[1,2,3,4,5,6,7,8,9,10]\n[\"home\",\"about\",\"career\",\"home\",\"cart\",\"maps\",\"home\",\"home\",\"about\",\"career\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"mostVisitedPattern\",\n  \"params\": [\n    {\n      \"name\": \"username\",\n      \"type\": \"string[]\"\n    },\n    {\n      \"name\": \"timestamp\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"website\",\n      \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\"\n  }\n}\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.8K\", \"totalSubmission\": \"8.5K\", \"totalAcceptedRaw\": 3765, \"totalSubmissionRaw\": 8478, \"acRate\": \"44.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

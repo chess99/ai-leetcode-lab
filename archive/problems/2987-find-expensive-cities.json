@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:54Z",
+  "source": "https://leetcode.cn/problems/find-expensive-cities/",
+  "question": {
+    "questionId": "3284",
+    "questionFrontendId": "2987",
+    "title": "Find Expensive Cities",
+    "titleSlug": "find-expensive-cities",
+    "translatedTitle": "寻找房价最贵的城市",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Listings\":[\"listing_id\",\"city\",\"price\"]},\"rows\":{\"Listings\":[[113,\"LosAngeles\",7560386],[136,\"SanFrancisco\",2380268],[92,\"Chicago\",9833209],[60,\"Chicago\",5147582],[8,\"Chicago\",5274441],[79,\"SanFrancisco\",8372065],[37,\"Chicago\",7939595],[53,\"LosAngeles\",4965123],[178,\"SanFrancisco\",999207],[51,\"NewYork\",5951718],[121,\"NewYork\",2893760]]}}",
+    "sampleTestCase": "{\"headers\":{\"Listings\":[\"listing_id\",\"city\",\"price\"]},\"rows\":{\"Listings\":[[113,\"LosAngeles\",7560386],[136,\"SanFrancisco\",2380268],[92,\"Chicago\",9833209],[60,\"Chicago\",5147582],[8,\"Chicago\",5274441],[79,\"SanFrancisco\",8372065],[37,\"Chicago\",7939595],[53,\"LosAngeles\",4965123],[178,\"SanFrancisco\",999207],[51,\"NewYork\",5951718],[121,\"NewYork\",2893760]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create Table if Not Exists Listings (listing_id int, city varchar(50), price int)\"],\"mssql\":[\"Create Table Listings (listing_id int, city varchar(50), price int)\"],\"oraclesql\":[\"Create Table  Listings (listing_id int, city varchar(50), price int)\"],\"database\":true,\"name\":\"find_expensive_cities\",\"postgresql\":[\"CREATE TABLE Listings (\\n  listing_id SERIAL PRIMARY KEY,\\n  city VARCHAR(50),\\n  price INT\\n);\\n\"],\"pythondata\":[\"Listings = pd.DataFrame([], columns=['listing_id', 'city', 'price']).astype({'listing_id':'Int64', 'city':'object', 'price':'Int64'})\\n\"],\"database_schema\":{\"Listings\":{\"listing_id\":\"INT\",\"city\":\"VARCHAR(50)\",\"price\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"1.8K\", \"totalAcceptedRaw\": 1347, \"totalSubmissionRaw\": 1763, \"acRate\": \"76.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

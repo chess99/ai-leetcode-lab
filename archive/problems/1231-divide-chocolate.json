@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:54Z",
+  "source": "https://leetcode.cn/problems/divide-chocolate/",
+  "question": {
+    "questionId": "1192",
+    "questionFrontendId": "1231",
+    "title": "Divide Chocolate",
+    "titleSlug": "divide-chocolate",
+    "translatedTitle": "分享巧克力",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 129,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3,4,5,6,7,8,9]\n5\n[5,6,7,8,9,1,2,3,4]\n8\n[1,2,2,1,2,2,1,2,2]\n2",
+    "sampleTestCase": "[1,2,3,4,5,6,7,8,9]\n5",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maximizeSweetness\",\n  \"params\": [\n    {\n      \"name\": \"sweetness\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"k\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"10K\", \"totalSubmission\": \"16.2K\", \"totalAcceptedRaw\": 10032, \"totalSubmissionRaw\": 16201, \"acRate\": \"61.9%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      }
+    ]
+  }
+}

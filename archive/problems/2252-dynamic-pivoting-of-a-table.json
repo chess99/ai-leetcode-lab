@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:48Z",
+  "source": "https://leetcode.cn/problems/dynamic-pivoting-of-a-table/",
+  "question": {
+    "questionId": "2381",
+    "questionFrontendId": "2252",
+    "title": "Dynamic Pivoting of a Table",
+    "titleSlug": "dynamic-pivoting-of-a-table",
+    "translatedTitle": "表的动态旋转",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Products\":[\"product_id\",\"store\",\"price\"]},\"rows\":{\"Products\":[[1,\"Shop\",110],[1,\"LC_Store\",100],[2,\"Nozama\",200],[2,\"Souq\",190],[3,\"Shop\",1000],[3,\"Souq\",1900]]}}",
+    "sampleTestCase": "{\"headers\":{\"Products\":[\"product_id\",\"store\",\"price\"]},\"rows\":{\"Products\":[[1,\"Shop\",110],[1,\"LC_Store\",100],[2,\"Nozama\",200],[2,\"Souq\",190],[3,\"Shop\",1000],[3,\"Souq\",1900]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Products (product_id int, store varchar(7), price int)\"],\"mssql\":[\"Create table Products (product_id int, store varchar(7), price int)\"],\"oraclesql\":[\"Create table Products (product_id int, store varchar(7), price int)\"],\"database\":true,\"manual\":true,\"name\":\"dynamic_pivoting_table\",\"pythondata\":[\"Products = pd.DataFrame([], columns=['product_id', 'store', 'price']).astype({'product_id':'Int64', 'store':'object', 'price':'Int64'})\"],\"database_schema\":{\"Products\":{\"product_id\":\"INT\",\"store\":\"VARCHAR(7)\",\"price\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"724\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 724, \"totalSubmissionRaw\": 1236, \"acRate\": \"58.6%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

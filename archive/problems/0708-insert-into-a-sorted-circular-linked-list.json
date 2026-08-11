@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:26Z",
+  "source": "https://leetcode.cn/problems/insert-into-a-sorted-circular-linked-list/",
+  "question": {
+    "questionId": "850",
+    "questionFrontendId": "708",
+    "title": "Insert into a Sorted Circular Linked List",
+    "titleSlug": "insert-into-a-sorted-circular-linked-list",
+    "translatedTitle": "循环有序列表的插入",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 113,
+    "dislikes": 0,
+    "exampleTestcases": "[3,4,1]\n2\n[]\n1\n[1]\n0",
+    "sampleTestCase": "[3,4,1]\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"insert\",\n  \"params\": [\n    {\n      \"name\": \"head\",\n      \"type\": \"ListNode\"\n    },\n    {\n      \"name\": \"insertVal\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"ListNode\"\n  },\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"javascript\",\n    \"python3\",\n    \"kotlin\",\n    \"ruby\",\n    \"scala\",\n    \"c\",\n    \"golang\",\n    \"swift\",\n    \"php\",\n    \"typescript\"\n  ],\n  \"manual\": true, \"typescriptCustomType\" : \"class _Node {\\n    val: number\\n    next: _Node | null\\n    \\n    constructor(val?: number, next?: _Node) {\\n        this.val = (val===undefined ? 0 : val);\\n        this.next = (next===undefined ? null : next);\\n    }\\n}\\n\"\n\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"10.3K\", \"totalSubmission\": \"26.6K\", \"totalAcceptedRaw\": 10317, \"totalSubmissionRaw\": 26587, \"acRate\": \"38.8%\"}",
+    "topicTags": [
+      {
+        "name": "Linked List",
+        "slug": "linked-list",
+        "translatedName": "链表"
+      }
+    ]
+  }
+}

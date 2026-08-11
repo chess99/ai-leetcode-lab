@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:57Z",
+  "source": "https://leetcode.cn/problems/count-artist-occurrences-on-spotify-ranking-list/",
+  "question": {
+    "questionId": "2830",
+    "questionFrontendId": "2669",
+    "title": "Count Artist Occurrences On Spotify Ranking List",
+    "titleSlug": "count-artist-occurrences-on-spotify-ranking-list",
+    "translatedTitle": "统计 Spotify 排行榜上艺术家出现次数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Spotify\":[\"id\",\"track_name\",\"artist\"]},\"rows\":{\"Spotify\":[[303651,\"Heart Won't Forget\",\"Ed Sheeran\"],[1046089,\"Shape of you\",\"Sia\"],[33445,\"I'm the one\",\"DJ Khalid\"],[811266,\"Young Dumb & Broke\",\"DJ Khalid\"],[505727,\"Happier\",\"Ed Sheeran\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Spotify\":[\"id\",\"track_name\",\"artist\"]},\"rows\":{\"Spotify\":[[303651,\"Heart Won't Forget\",\"Ed Sheeran\"],[1046089,\"Shape of you\",\"Sia\"],[33445,\"I'm the one\",\"DJ Khalid\"],[811266,\"Young Dumb & Broke\",\"DJ Khalid\"],[505727,\"Happier\",\"Ed Sheeran\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Spotify (id int,track_name varchar(100),artist varchar(100))\"],\"mssql\":[\"Create table Spotify (id int,track_name varchar(100),artist varchar(100))\"],\"oraclesql\":[\"Create table  Spotify (id int,track_name varchar(100),artist varchar(100))\"],\"database\":true,\"name\":\"count_occurrences\",\"pythondata\":[\"Spotify = pd.DataFrame([], columns=['id', 'track_name', 'artist']).astype({'id':'Int64', 'track_name':'object', 'artist':'object'})\"],\"postgresql\":[\"Create table If Not Exists Spotify (id int,track_name varchar(100),artist varchar(100))\"],\"database_schema\":{\"Spotify\":{\"id\":\"INT\",\"track_name\":\"VARCHAR(100)\",\"artist\":\"VARCHAR(100)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.8K\", \"totalSubmission\": \"2.4K\", \"totalAcceptedRaw\": 1750, \"totalSubmissionRaw\": 2350, \"acRate\": \"74.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

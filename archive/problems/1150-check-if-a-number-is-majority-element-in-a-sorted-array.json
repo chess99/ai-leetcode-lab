@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:42Z",
+  "source": "https://leetcode.cn/problems/check-if-a-number-is-majority-element-in-a-sorted-array/",
+  "question": {
+    "questionId": "1102",
+    "questionFrontendId": "1150",
+    "title": "Check If a Number Is Majority Element in a Sorted Array",
+    "titleSlug": "check-if-a-number-is-majority-element-in-a-sorted-array",
+    "translatedTitle": "检查一个数是否在数组中占绝大多数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 54,
+    "dislikes": 0,
+    "exampleTestcases": "[2,4,5,5,5,5,5,6,6]\n5\n[10,100,101,101]\n101",
+    "sampleTestCase": "[2,4,5,5,5,5,5,6,6]\n5",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"isMajorityElement\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"11.2K\", \"totalSubmission\": \"18.4K\", \"totalAcceptedRaw\": 11179, \"totalSubmissionRaw\": 18393, \"acRate\": \"60.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      }
+    ]
+  }
+}

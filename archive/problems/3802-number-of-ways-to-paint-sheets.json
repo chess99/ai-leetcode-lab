@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:16Z",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-paint-sheets/",
+  "question": {
+    "questionId": "4132",
+    "questionFrontendId": "3802",
+    "title": "Number of Ways to Paint Sheets",
+    "titleSlug": "number-of-ways-to-paint-sheets",
+    "translatedTitle": "给纸张涂色的方式数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "4\n[3,1,2]\n3\n[1,2]\n3\n[2,2]",
+    "sampleTestCase": "4\n[3,1,2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfWays\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"limit\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"174\", \"totalSubmission\": \"277\", \"totalAcceptedRaw\": 174, \"totalSubmissionRaw\": 277, \"acRate\": \"62.8%\"}",
+    "topicTags": []
+  }
+}

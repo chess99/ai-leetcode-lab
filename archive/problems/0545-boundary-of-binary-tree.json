@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:59Z",
+  "source": "https://leetcode.cn/problems/boundary-of-binary-tree/",
+  "question": {
+    "questionId": "545",
+    "questionFrontendId": "545",
+    "title": "Boundary of Binary Tree",
+    "titleSlug": "boundary-of-binary-tree",
+    "translatedTitle": "二叉树的边界",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 138,
+    "dislikes": 0,
+    "exampleTestcases": "[1,null,2,3,4]\n[1,2,3,4,5,6,null,null,null,7,8,9,10]",
+    "sampleTestCase": "[1,null,2,3,4]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"boundaryOfBinaryTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"8.6K\", \"totalSubmission\": \"18.4K\", \"totalAcceptedRaw\": 8640, \"totalSubmissionRaw\": 18449, \"acRate\": \"46.8%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

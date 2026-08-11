@@ -1,0 +1,17 @@
+{
+  "endpoint": "https://leetcode.cn",
+  "default_language": "python3",
+  "archive": {
+    "page_size": 100,
+    "concurrency": 4,
+    "request_delay_ms": 200
+  },
+  "attempt_budget": {
+    "remote_tests_per_round": 5,
+    "submissions_per_round": 3,
+    "max_rounds": 2,
+    "poll_interval_seconds": 1.5,
+    "poll_timeout_seconds": 120
+  },
+  "identity_required": true
+}

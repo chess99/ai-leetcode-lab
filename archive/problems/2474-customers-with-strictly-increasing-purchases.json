@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:24Z",
+  "source": "https://leetcode.cn/problems/customers-with-strictly-increasing-purchases/",
+  "question": {
+    "questionId": "2613",
+    "questionFrontendId": "2474",
+    "title": "Customers With Strictly Increasing Purchases",
+    "titleSlug": "customers-with-strictly-increasing-purchases",
+    "translatedTitle": "购买量严格增加的客户",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Orders\": [\"order_id\", \"customer_id\", \"order_date\", \"price\"]}, \"rows\": {\"Orders\": [[1, 1, \"2019-07-01\", 1100], [2, 1, \"2019-11-01\", 1200], [3, 1, \"2020-05-26\", 3000], [4, 1, \"2021-08-31\", 3100], [5, 1, \"2022-12-07\", 4700], [6, 2, \"2015-01-01\", 700], [7, 2, \"2017-11-07\", 1000], [8, 3, \"2017-01-01\", 900], [9, 3, \"2018-11-07\", 900]]}}",
+    "sampleTestCase": "{\"headers\": {\"Orders\": [\"order_id\", \"customer_id\", \"order_date\", \"price\"]}, \"rows\": {\"Orders\": [[1, 1, \"2019-07-01\", 1100], [2, 1, \"2019-11-01\", 1200], [3, 1, \"2020-05-26\", 3000], [4, 1, \"2021-08-31\", 3100], [5, 1, \"2022-12-07\", 4700], [6, 2, \"2015-01-01\", 700], [7, 2, \"2017-11-07\", 1000], [8, 3, \"2017-01-01\", 900], [9, 3, \"2018-11-07\", 900]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Orders (order_id int, customer_id int, order_date date, price int)\"],\"mssql\":[\"Create table Orders (order_id int, customer_id int, order_date date, price int)\"],\"oraclesql\":[\"Create table Orders (order_id int, customer_id int, order_date date, price int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"find_specific_customers\",\"pythondata\":[\"Orders = pd.DataFrame([], columns=['order_id', 'customer_id', 'order_date', 'price']).astype({'order_id':'Int64', 'customer_id':'Int64', 'order_date':'datetime64[ns]', 'price':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Orders (order_id int, customer_id int, order_date date, price int)\"],\"database_schema\":{\"Orders\":{\"order_id\":\"INT\",\"customer_id\":\"INT\",\"order_date\":\"DATE\",\"price\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.9K\", \"totalSubmission\": \"3.7K\", \"totalAcceptedRaw\": 1861, \"totalSubmissionRaw\": 3712, \"acRate\": \"50.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

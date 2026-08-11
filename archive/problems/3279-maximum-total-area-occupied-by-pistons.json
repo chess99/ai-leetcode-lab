@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:43Z",
+  "source": "https://leetcode.cn/problems/maximum-total-area-occupied-by-pistons/",
+  "question": {
+    "questionId": "3590",
+    "questionFrontendId": "3279",
+    "title": "Maximum Total Area Occupied by Pistons",
+    "titleSlug": "maximum-total-area-occupied-by-pistons",
+    "translatedTitle": "活塞占据的最大总区域",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "5\n[2,5]\n\"UD\"\n6\n[0,0,6,3]\n\"UUDU\"",
+    "sampleTestCase": "5\n[2,5]\n\"UD\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxArea\",\n  \"params\": [\n    {\n      \"name\": \"height\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"positions\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"directions\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"244\", \"totalSubmission\": \"998\", \"totalAcceptedRaw\": 244, \"totalSubmissionRaw\": 998, \"acRate\": \"24.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

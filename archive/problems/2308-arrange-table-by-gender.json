@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:57Z",
+  "source": "https://leetcode.cn/problems/arrange-table-by-gender/",
+  "question": {
+    "questionId": "2441",
+    "questionFrontendId": "2308",
+    "title": "Arrange Table by Gender",
+    "titleSlug": "arrange-table-by-gender",
+    "translatedTitle": "按性别排列表格",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 10,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Genders\": [\"user_id\", \"gender\"]}, \"rows\": {\"Genders\": [[4, \"male\"], [7, \"female\"], [2, \"other\"], [5, \"male\"], [3, \"female\"], [8, \"male\"], [6, \"other\"], [1, \"other\"], [9, \"female\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Genders\": [\"user_id\", \"gender\"]}, \"rows\": {\"Genders\": [[4, \"male\"], [7, \"female\"], [2, \"other\"], [5, \"male\"], [3, \"female\"], [8, \"male\"], [6, \"other\"], [1, \"other\"], [9, \"female\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Genders (user_id int, gender ENUM('female', 'other', 'male'))\"],\"mssql\":[\"Create table Genders (user_id int, gender VARCHAR(6) NOT NULL CHECK (gender IN ('female', 'other', 'male')))\"],\"oraclesql\":[\"Create table Genders (user_id int, gender VARCHAR(6) NOT NULL CHECK (gender IN ('female', 'other', 'male')))\"],\"database\":true,\"name\":\"arrange_table\",\"pythondata\":[\"Genders = pd.DataFrame([], columns=['user_id', 'gender']).astype({'user_id':'Int64', 'gender':'object'})\"],\"postgresql\":[\"Create table If Not Exists Genders (user_id int, gender VARCHAR(30) CHECK (gender IN ('female', 'other', 'male')))\\n\"],\"database_schema\":{\"Genders\":{\"user_id\":\"INT\",\"gender\":\"ENUM('female', 'other', 'male')\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.5K\", \"totalSubmission\": \"3.3K\", \"totalAcceptedRaw\": 2515, \"totalSubmissionRaw\": 3274, \"acRate\": \"76.8%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

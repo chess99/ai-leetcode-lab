@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:09Z",
+  "source": "https://leetcode.cn/problems/choose-edges-to-maximize-score-in-a-tree/",
+  "question": {
+    "questionId": "2517",
+    "questionFrontendId": "2378",
+    "title": "Choose Edges to Maximize Score in a Tree",
+    "titleSlug": "choose-edges-to-maximize-score-in-a-tree",
+    "translatedTitle": "选择边来最大化树的得分",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "[[-1,-1],[0,5],[0,10],[2,6],[2,4]]\n[[-1,-1],[0,5],[0,-6],[0,7]]",
+    "sampleTestCase": "[[-1,-1],[0,5],[0,10],[2,6],[2,4]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxScore\",\n  \"params\": [\n    {\n      \"name\": \"edges\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"601\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 601, \"totalSubmissionRaw\": 1296, \"acRate\": \"46.4%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

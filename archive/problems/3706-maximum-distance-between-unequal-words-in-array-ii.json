@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:59Z",
+  "source": "https://leetcode.cn/problems/maximum-distance-between-unequal-words-in-array-ii/",
+  "question": {
+    "questionId": "4070",
+    "questionFrontendId": "3706",
+    "title": "Maximum Distance Between Unequal Words in Array II",
+    "titleSlug": "maximum-distance-between-unequal-words-in-array-ii",
+    "translatedTitle": "不同单词间的最大距离 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[\"leetcode\",\"leetcode\",\"codeforces\"]\n[\"a\",\"b\",\"c\",\"a\",\"a\"]\n[\"z\",\"z\",\"z\"]",
+    "sampleTestCase": "[\"leetcode\",\"leetcode\",\"codeforces\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxDistance\",\n  \"params\": [\n    {\n      \"name\": \"words\",\n      \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"150\", \"totalSubmission\": \"198\", \"totalAcceptedRaw\": 150, \"totalSubmissionRaw\": 198, \"acRate\": \"75.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

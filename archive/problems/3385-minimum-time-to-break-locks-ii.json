@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:03Z",
+  "source": "https://leetcode.cn/problems/minimum-time-to-break-locks-ii/",
+  "question": {
+    "questionId": "3693",
+    "questionFrontendId": "3385",
+    "title": "Minimum Time to Break Locks II",
+    "titleSlug": "minimum-time-to-break-locks-ii",
+    "translatedTitle": "破解锁的最少时间 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[3,4,1]\n[2,5,4]",
+    "sampleTestCase": "[3,4,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"findMinimumTime\",\n  \"params\": [\n    {\n      \"name\": \"strength\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"273\", \"totalSubmission\": \"1K\", \"totalAcceptedRaw\": 273, \"totalSubmissionRaw\": 1034, \"acRate\": \"26.4%\"}",
+    "topicTags": [
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

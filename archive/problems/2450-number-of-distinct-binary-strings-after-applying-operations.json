@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:19Z",
+  "source": "https://leetcode.cn/problems/number-of-distinct-binary-strings-after-applying-operations/",
+  "question": {
+    "questionId": "2593",
+    "questionFrontendId": "2450",
+    "title": "Number of Distinct Binary Strings After Applying Operations",
+    "titleSlug": "number-of-distinct-binary-strings-after-applying-operations",
+    "translatedTitle": "应用操作后不同二进制字符串的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 8,
+    "dislikes": 0,
+    "exampleTestcases": "\"1001\"\n3\n\"10110\"\n5",
+    "sampleTestCase": "\"1001\"\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countDistinctStrings\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"424\", \"totalSubmission\": \"701\", \"totalAcceptedRaw\": 424, \"totalSubmissionRaw\": 701, \"acRate\": \"60.5%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

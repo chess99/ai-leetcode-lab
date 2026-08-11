@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:28Z",
+  "source": "https://leetcode.cn/problems/create-a-session-bar-chart/",
+  "question": {
+    "questionId": "1564",
+    "questionFrontendId": "1435",
+    "title": "Create a Session Bar Chart",
+    "titleSlug": "create-a-session-bar-chart",
+    "translatedTitle": "制作会话柱状图",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 46,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Sessions\": [\"session_id\", \"duration\"]}, \"rows\": {\"Sessions\": [[1, 30], [2, 199], [3, 299], [4, 580], [5, 1000]]}}",
+    "sampleTestCase": "{\"headers\": {\"Sessions\": [\"session_id\", \"duration\"]}, \"rows\": {\"Sessions\": [[1, 30], [2, 199], [3, 299], [4, 580], [5, 1000]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Sessions (session_id int, duration int)\"],\"mssql\":[\"Create table Sessions (session_id int, duration int)\"],\"oraclesql\":[\"Create table Sessions (session_id int, duration int)\"],\"database\":true,\"name\":\"create_bar_chart\",\"pythondata\":[\"Sessions = pd.DataFrame([], columns=['session_id', 'duration']).astype({'session_id':'Int64', 'duration':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Sessions (session_id int, duration int)\"],\"database_schema\":{\"Sessions\":{\"session_id\":\"INT\",\"duration\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"9.5K\", \"totalSubmission\": \"14.5K\", \"totalAcceptedRaw\": 9485, \"totalSubmissionRaw\": 14457, \"acRate\": \"65.6%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

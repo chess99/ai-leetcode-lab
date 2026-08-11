@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:30Z",
+  "source": "https://leetcode.cn/problems/minimum-time-to-visit-all-houses/",
+  "question": {
+    "questionId": "3880",
+    "questionFrontendId": "3540",
+    "title": "Minimum Time to Visit All Houses",
+    "titleSlug": "minimum-time-to-visit-all-houses",
+    "translatedTitle": "访问所有房屋的最短时间",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "[1,4,4]\n[4,1,2]\n[1,2,0,2]\n[1,1,1,1]\n[2,2,2,2]\n[1,2,3,0]",
+    "sampleTestCase": "[1,4,4]\n[4,1,2]\n[1,2,0,2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minTotalTime\",\n  \"params\": [\n    {\n      \"name\": \"forward\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"backward\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"queries\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"299\", \"totalSubmission\": \"370\", \"totalAcceptedRaw\": 299, \"totalSubmissionRaw\": 370, \"acRate\": \"80.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:50Z",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-array-equal-iii/",
+  "question": {
+    "questionId": "4193",
+    "questionFrontendId": "4005",
+    "title": "Minimum Operations to Make Array Equal III",
+    "titleSlug": "minimum-operations-to-make-array-equal-iii",
+    "translatedTitle": "使数组中所有元素相等的最小操作数 III",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[6,12,8]\n[5,15,20]\n[7,7,7]",
+    "sampleTestCase": "[6,12,8]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minOperations\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"83\", \"totalSubmission\": \"105\", \"totalAcceptedRaw\": 83, \"totalSubmissionRaw\": 105, \"acRate\": \"79.0%\"}",
+    "topicTags": []
+  }
+}

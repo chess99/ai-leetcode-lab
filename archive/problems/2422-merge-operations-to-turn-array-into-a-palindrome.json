@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:15Z",
+  "source": "https://leetcode.cn/problems/merge-operations-to-turn-array-into-a-palindrome/",
+  "question": {
+    "questionId": "2565",
+    "questionFrontendId": "2422",
+    "title": "Merge Operations to Turn Array Into a Palindrome",
+    "titleSlug": "merge-operations-to-turn-array-into-a-palindrome",
+    "translatedTitle": "使用合并操作将数组转换为回文序列",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 12,
+    "dislikes": 0,
+    "exampleTestcases": "[4,3,2,1,2,3,1]\n[1,2,3,4]",
+    "sampleTestCase": "[4,3,2,1,2,3,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumOperations\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"1.7K\", \"totalAcceptedRaw\": 1070, \"totalSubmissionRaw\": 1667, \"acRate\": \"64.2%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      }
+    ]
+  }
+}

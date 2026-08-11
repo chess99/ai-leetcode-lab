@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:18Z",
+  "source": "https://leetcode.cn/problems/create-object-from-two-arrays/",
+  "question": {
+    "questionId": "2861",
+    "questionFrontendId": "2794",
+    "title": "Create Object from Two Arrays",
+    "titleSlug": "create-object-from-two-arrays",
+    "translatedTitle": "从两个数组中创建对象",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[\"a\",\"b\",\"c\"]\n[1,2,3]\n[1,\"1\",false]\n[4,5,6]\n[]\n[]",
+    "sampleTestCase": "[\"a\",\"b\",\"c\"]\n[1,2,3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"createObject\",\n  \"params\": [\n    {\n      \"name\": \"keysArr\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"valuesArr\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"502\", \"totalSubmission\": \"780\", \"totalAcceptedRaw\": 502, \"totalSubmissionRaw\": 780, \"acRate\": \"64.4%\"}",
+    "topicTags": []
+  }
+}

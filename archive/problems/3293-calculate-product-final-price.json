@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:48Z",
+  "source": "https://leetcode.cn/problems/calculate-product-final-price/",
+  "question": {
+    "questionId": "3609",
+    "questionFrontendId": "3293",
+    "title": "Calculate Product Final Price",
+    "titleSlug": "calculate-product-final-price",
+    "translatedTitle": "计算产品最终价格",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Products\":[\"product_id\",\"category\",\"price\"],\"Discounts\":[\"category\",\"discount\"]},\"rows\":{\"Products\":[[1,\"Electronics\",1000],[2,\"Clothing\",50],[3,\"Electronics\",1200],[4,\"Home\",500]],\"Discounts\":[[\"Electronics\",10],[\"Clothing\",20]]}}",
+    "sampleTestCase": "{\"headers\":{\"Products\":[\"product_id\",\"category\",\"price\"],\"Discounts\":[\"category\",\"discount\"]},\"rows\":{\"Products\":[[1,\"Electronics\",1000],[2,\"Clothing\",50],[3,\"Electronics\",1200],[4,\"Home\",500]],\"Discounts\":[[\"Electronics\",10],[\"Clothing\",20]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists Products (product_id int, category varchar(50), price int)\",\"Create table if not exists Discounts(category varchar(50), discount int)\"],\"mssql\":[\"Create table Products (product_id int, category varchar(50), price int)\",\"Create table Discounts(category varchar(50), discount int)\"],\"oraclesql\":[\"Create table Products (product_id Number, category varchar2(50), price Number)\",\"Create table Discounts(category varchar2(50), discount Number)\"],\"database\":true,\"name\":\"calculate_final_prices\",\"postgresql\":[\"CREATE TABLE IF NOT EXISTS Products (\\n    product_id INT,\\n    category VARCHAR(50),\\n    price INT\\n);\\n\",\"CREATE TABLE IF NOT EXISTS Discounts (\\n    category VARCHAR(50),\\n    discount INT\\n);\\n\"],\"pythondata\":[\"Products = pd.DataFrame(columns=['product_id', 'category', 'price'], dtype=int)\\n\",\"Discounts = pd.DataFrame({'category': pd.Series(dtype='str'), 'discount': pd.Series(dtype='int')})\\n\"],\"database_schema\":{\"Products\":{\"product_id\":\"INT\",\"category\":\"VARCHAR(50)\",\"price\":\"INT\"},\"Discounts\":{\"category\":\"VARCHAR(50)\",\"discount\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"711\", \"totalSubmission\": \"884\", \"totalAcceptedRaw\": 711, \"totalSubmissionRaw\": 884, \"acRate\": \"80.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

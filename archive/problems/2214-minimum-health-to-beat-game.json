@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:41Z",
+  "source": "https://leetcode.cn/problems/minimum-health-to-beat-game/",
+  "question": {
+    "questionId": "2354",
+    "questionFrontendId": "2214",
+    "title": "Minimum Health to Beat Game",
+    "titleSlug": "minimum-health-to-beat-game",
+    "translatedTitle": "通关游戏所需的最低生命值",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 16,
+    "dislikes": 0,
+    "exampleTestcases": "[2,7,4,3]\n4\n[2,5,3,4]\n7\n[3,3,3]\n0",
+    "sampleTestCase": "[2,7,4,3]\n4",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumHealth\",\n  \"params\": [\n    {\n      \"name\": \"damage\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"armor\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 1224, \"totalSubmissionRaw\": 2256, \"acRate\": \"54.3%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

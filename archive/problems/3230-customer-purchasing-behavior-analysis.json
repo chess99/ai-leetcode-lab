@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:35Z",
+  "source": "https://leetcode.cn/problems/customer-purchasing-behavior-analysis/",
+  "question": {
+    "questionId": "3539",
+    "questionFrontendId": "3230",
+    "title": "Customer Purchasing Behavior Analysis",
+    "titleSlug": "customer-purchasing-behavior-analysis",
+    "translatedTitle": "客户购买行为分析",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Transactions\":[\"transaction_id\",\"customer_id\",\"product_id\",\"transaction_date\",\"amount\"],\"Products\":[\"product_id\",\"category\",\"price\"]},\"rows\":{\"Transactions\":[[1,101,1,\"2023-01-01\",100.00],[2,101,2,\"2023-01-15\",150.00],[3,102,1,\"2023-01-01\",100.00],[4,102,3,\"2023-01-22\",200.00],[5,101,3,\"2023-02-10\",200.00]],\"Products\":[[1,\"A\",100.00],[2,\"B\",150.00],[3,\"C\",200.00]]}}",
+    "sampleTestCase": "{\"headers\":{\"Transactions\":[\"transaction_id\",\"customer_id\",\"product_id\",\"transaction_date\",\"amount\"],\"Products\":[\"product_id\",\"category\",\"price\"]},\"rows\":{\"Transactions\":[[1,101,1,\"2023-01-01\",100.00],[2,101,2,\"2023-01-15\",150.00],[3,102,1,\"2023-01-01\",100.00],[4,102,3,\"2023-01-22\",200.00],[5,101,3,\"2023-02-10\",200.00]],\"Products\":[[1,\"A\",100.00],[2,\"B\",150.00],[3,\"C\",200.00]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"CREATE TABLE if not exists Transactions (\\n    transaction_id INT,\\n    customer_id INT,\\n    product_id INT,\\n    transaction_date DATE,\\n    amount DECIMAL(10, 2)\\n)\",\"CREATE TABLE if not exists Products (\\n    product_id INT ,\\n    category VARCHAR(255),\\n    price DECIMAL(10, 2)\\n)\\n\"],\"mssql\":[\"CREATE TABLE Transactions (\\n    transaction_id INT ,\\n    customer_id INT,\\n    product_id INT,\\n    transaction_date DATE,\\n    amount DECIMAL(10, 2)\\n)\\n\",\"\\nCREATE TABLE Products (\\n    product_id INT ,\\n    category VARCHAR(255),\\n    price DECIMAL(10, 2)\\n)\"],\"oraclesql\":[\"CREATE TABLE Transactions (\\n    transaction_id NUMBER ,\\n    customer_id NUMBER,\\n    product_id NUMBER,\\n    transaction_date DATE,\\n    amount NUMBER(10, 2)\\n)\",\"CREATE TABLE Products (\\n    product_id NUMBER ,\\n    category VARCHAR2(255),\\n    price NUMBER(10, 2)\\n)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"analyze_customer_behavior\",\"postgresql\":[\"CREATE TABLE IF NOT EXISTS Transactions (\\n    transaction_id INTEGER,\\n    customer_id INTEGER,\\n    product_id INTEGER,\\n    transaction_date DATE,\\n    amount NUMERIC(10, 2)\\n);\\n\",\"CREATE TABLE IF NOT EXISTS Products (\\n    product_id INTEGER,\\n    category VARCHAR(255),\\n    price NUMERIC(10, 2)\\n);\\n\"],\"pythondata\":[\"Transactions = pd.DataFrame(columns=['transaction_id', 'customer_id', 'product_id', 'transaction_date', 'amount']).astype({'transaction_id': 'int', 'customer_id': 'int', 'product_id': 'int', 'transaction_date': 'datetime64[ns]', 'amount': 'float'})\",\"Products = pd.DataFrame(columns=['product_id', 'category', 'price']).astype({'product_id': 'int', 'category': 'str', 'price': 'float'})\"],\"database_schema\":{\"Transactions\":{\"transaction_id\":\"INT\",\"customer_id\":\"INT\",\"product_id\":\"INT\",\"transaction_date\":\"DATE\",\"amount\":\"DECIMAL(10, 2)\"},\"Products\":{\"product_id\":\"INT\",\"category\":\"VARCHAR(255)\",\"price\":\"DECIMAL(10, 2)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"728\", \"totalSubmission\": \"2.2K\", \"totalAcceptedRaw\": 728, \"totalSubmissionRaw\": 2176, \"acRate\": \"33.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

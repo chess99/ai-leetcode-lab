@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:48Z",
+  "source": "https://leetcode.cn/problems/create-grid-with-exactly-k-paths-ii/",
+  "question": {
+    "questionId": "4347",
+    "questionFrontendId": "3990",
+    "title": "Create Grid With Exactly K Paths II",
+    "titleSlug": "create-grid-with-exactly-k-paths-ii",
+    "translatedTitle": "创建一个恰好有 K 条路径的网格图 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "2\n3",
+    "sampleTestCase": "2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"createGrid\",\n  \"params\": [\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"38\", \"totalSubmission\": \"60\", \"totalAcceptedRaw\": 38, \"totalSubmissionRaw\": 60, \"acRate\": \"63.3%\"}",
+    "topicTags": []
+  }
+}

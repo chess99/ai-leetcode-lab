@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:11Z",
+  "source": "https://leetcode.cn/problems/maximum-number-of-equal-length-runs/",
+  "question": {
+    "questionId": "4155",
+    "questionFrontendId": "3773",
+    "title": "Maximum Number of Equal Length Runs",
+    "titleSlug": "maximum-number-of-equal-length-runs",
+    "translatedTitle": "最大等长连续字符组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "\"hello\"\n\"aaabaaa\"",
+    "sampleTestCase": "\"hello\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxSameLengthRuns\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"162\", \"totalSubmission\": \"180\", \"totalAcceptedRaw\": 162, \"totalSubmissionRaw\": 180, \"acRate\": \"90.0%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      }
+    ]
+  }
+}

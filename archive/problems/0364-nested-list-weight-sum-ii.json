@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:29Z",
+  "source": "https://leetcode.cn/problems/nested-list-weight-sum-ii/",
+  "question": {
+    "questionId": "364",
+    "questionFrontendId": "364",
+    "title": "Nested List Weight Sum II",
+    "titleSlug": "nested-list-weight-sum-ii",
+    "translatedTitle": "嵌套列表加权和 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 122,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,1],2,[1,1]]\n[1,[4,[6]]]",
+    "sampleTestCase": "[[1,1],2,[1,1]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"depthSumInverse\",\n  \"params\": [\n    {\n      \"name\": \"nestedList\",\n      \"type\": \"list<NestedInteger>\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": false\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.4K\", \"totalSubmission\": \"6.7K\", \"totalAcceptedRaw\": 4412, \"totalSubmissionRaw\": 6711, \"acRate\": \"65.7%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      }
+    ]
+  }
+}

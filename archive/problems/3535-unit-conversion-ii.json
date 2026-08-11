@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:29Z",
+  "source": "https://leetcode.cn/problems/unit-conversion-ii/",
+  "question": {
+    "questionId": "3752",
+    "questionFrontendId": "3535",
+    "title": "Unit Conversion II",
+    "titleSlug": "unit-conversion-ii",
+    "translatedTitle": "单位转换 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,1,2],[0,2,6]]\n[[1,2],[1,0]]\n[[0,1,2],[0,2,6],[0,3,8],[2,4,2],[2,5,4],[3,6,3]]\n[[1,2],[0,4],[6,5],[4,6],[6,1]]",
+    "sampleTestCase": "[[0,1,2],[0,2,6]]\n[[1,2],[1,0]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"queryConversions\",\n  \"params\": [\n    {\n      \"name\": \"conversions\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"queries\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"175\", \"totalSubmission\": \"203\", \"totalAcceptedRaw\": 175, \"totalSubmissionRaw\": 203, \"acRate\": \"86.2%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

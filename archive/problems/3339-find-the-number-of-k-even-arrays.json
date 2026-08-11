@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:55Z",
+  "source": "https://leetcode.cn/problems/find-the-number-of-k-even-arrays/",
+  "question": {
+    "questionId": "3614",
+    "questionFrontendId": "3339",
+    "title": "Find the Number of K-Even Arrays",
+    "titleSlug": "find-the-number-of-k-even-arrays",
+    "translatedTitle": "查找 K 偶数数组的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "3\n4\n2\n5\n1\n0\n7\n7\n5",
+    "sampleTestCase": "3\n4\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countOfArrays\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"m\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"283\", \"totalSubmission\": \"776\", \"totalAcceptedRaw\": 283, \"totalSubmissionRaw\": 776, \"acRate\": \"36.5%\"}",
+    "topicTags": [
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

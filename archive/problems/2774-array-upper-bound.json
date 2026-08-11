@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:14Z",
+  "source": "https://leetcode.cn/problems/array-upper-bound/",
+  "question": {
+    "questionId": "2768",
+    "questionFrontendId": "2774",
+    "title": "Array Upper Bound",
+    "titleSlug": "array-upper-bound",
+    "translatedTitle": "数组的上界",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[3,4,5]\n5\n[1,4,5]\n2\n[3,4,6,6,6,6,7]\n6",
+    "sampleTestCase": "[3,4,5]\n5",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"upperBound\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"target\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"658\", \"totalSubmission\": \"810\", \"totalAcceptedRaw\": 658, \"totalSubmissionRaw\": 810, \"acRate\": \"81.2%\"}",
+    "topicTags": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:35Z",
+  "source": "https://leetcode.cn/problems/minimum-number-of-increasing-subsequence-to-be-removed/",
+  "question": {
+    "questionId": "3545",
+    "questionFrontendId": "3231",
+    "title": "Minimum Number of Increasing Subsequence to Be Removed",
+    "titleSlug": "minimum-number-of-increasing-subsequence-to-be-removed",
+    "translatedTitle": "要删除的递增子序列的最小数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "[5,3,1,4,2]\n[1,2,3,4,5]\n[5,4,3,2,1]",
+    "sampleTestCase": "[5,3,1,4,2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minOperations\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"237\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 237, \"totalSubmissionRaw\": 1241, \"acRate\": \"19.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:22Z",
+  "source": "https://leetcode.cn/problems/minimum-relative-loss-after-buying-chocolates/",
+  "question": {
+    "questionId": "3077",
+    "questionFrontendId": "2819",
+    "title": "Minimum Relative Loss After Buying Chocolates",
+    "titleSlug": "minimum-relative-loss-after-buying-chocolates",
+    "translatedTitle": "购买巧克力后的最小相对损失",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 10,
+    "dislikes": 0,
+    "exampleTestcases": "[1,9,22,10,19]\n[[18,4],[5,2]]\n[1,5,4,3,7,11,9]\n[[5,4],[5,7],[7,3],[4,5]]\n[5,6,7]\n[[10,1],[5,3],[3,3]]",
+    "sampleTestCase": "[1,9,22,10,19]\n[[18,4],[5,2]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumRelativeLosses\",\n  \"params\": [\n    {\n      \"name\": \"prices\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"queries\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"830\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 830, \"totalSubmissionRaw\": 1546, \"acRate\": \"53.7%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

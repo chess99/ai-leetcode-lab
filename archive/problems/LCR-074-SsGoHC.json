@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:21Z",
+  "source": "https://leetcode.cn/problems/SsGoHC/",
+  "question": {
+    "questionId": "1000338",
+    "questionFrontendId": "LCR 074",
+    "title": "合并区间",
+    "titleSlug": "SsGoHC",
+    "translatedTitle": "合并区间",
+    "content": "<p>English description is not available for the problem. Please switch to Chinese.</p>\n",
+    "translatedContent": "<p>以数组 <code>intervals</code> 表示若干个区间的集合，其中单个区间为 <code>intervals[i] = [start<sub>i</sub>, end<sub>i</sub>]</code> 。请你合并所有重叠的区间，并返回一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>intervals = [[1,3],[2,6],[8,10],[15,18]]\n<strong>输出：</strong>[[1,6],[8,10],[15,18]]\n<strong>解释：</strong>区间 [1,3] 和 [2,6] 重叠, 将它们合并为 [1,6].\n</pre>\n\n<p><strong>示例&nbsp;2：</strong></p>\n\n<pre>\n<strong>输入：</strong>intervals = [[1,4],[4,5]]\n<strong>输出：</strong>[[1,5]]\n<strong>解释：</strong>区间 [1,4] 和 [4,5] 可被视为重叠区间。</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= intervals.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>intervals[i].length == 2</code></li>\n\t<li><code>0 &lt;= start<sub>i</sub> &lt;= end<sub>i</sub> &lt;= 10<sup>4</sup></code></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><meta charset=\"UTF-8\" />注意：本题与主站 56&nbsp;题相同：&nbsp;<a href=\"https://leetcode.cn/problems/merge-intervals/\">https://leetcode.cn/problems/merge-intervals/</a></p>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 71,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,3],[2,6],[8,10],[15,18]]",
+    "sampleTestCase": "[[1,3],[2,6],[8,10],[15,18]]",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"merge\", \"params\": [{\"name\": \"intervals\", \"type\": \"integer[][]\"}], \"return\": {\"type\": \"integer[][]\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    vector<vector<int>> merge(vector<vector<int>>& intervals) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int[][] merge(int[][] intervals) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def merge(self, intervals: List[List[int]]) -> List[List[int]]:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def merge(self, intervals):\n        \"\"\"\n        :type intervals: List[List[int]]\n        :rtype: List[List[int]]\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[][]} intervals\n * @return {number[][]}\n */\nvar merge = function(intervals) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function merge(intervals: number[][]): number[][] {\n\n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int[][] Merge(int[][] intervals) {\n\n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\n/**\n * Return an array of arrays of size *returnSize.\n * The sizes of the arrays are returned as *returnColumnSizes array.\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\n */\nint** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* returnSize, int** returnColumnSizes){\n\n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func merge(intervals [][]int) [][]int {\n\n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun merge(intervals: Array<IntArray>): Array<IntArray> {\n\n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func merge(_ intervals: [[Int]]) -> [[Int]] {\n\n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn merge(intervals: Vec<Vec<i32>>) -> Vec<Vec<i32>> {\n\n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[][]} intervals\n# @return {Integer[][]}\ndef merge(intervals)\n\nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[][] $intervals\n     * @return Integer[][]\n     */\n    function merge($intervals) {\n\n    }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def merge(intervals: Array[Array[Int]]): Array[Array[Int]] = {\n\n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec merge(intervals :: [[integer]]) :: [[integer]]\n  def merge(intervals) do\n\n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec merge(Intervals :: [[integer()]]) -> [[integer()]].\nmerge(Intervals) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (merge intervals)\n  (-> (listof (listof exact-integer?)) (listof (listof exact-integer?)))\n\n  )"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"46.8K\", \"totalSubmission\": \"83.5K\", \"totalAcceptedRaw\": 46812, \"totalSubmissionRaw\": 83549, \"acRate\": \"56.0%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:57Z",
+  "source": "https://leetcode.cn/problems/construct-binary-tree-from-string/",
+  "question": {
+    "questionId": "536",
+    "questionFrontendId": "536",
+    "title": "Construct Binary Tree from String",
+    "titleSlug": "construct-binary-tree-from-string",
+    "translatedTitle": "从字符串生成二叉树",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 127,
+    "dislikes": 0,
+    "exampleTestcases": "\"4(2(3)(1))(6(5))\"\n\"4(2(3)(1))(6(5)(7))\"\n\"-4(2(3)(1))(6(5)(7))\"",
+    "sampleTestCase": "\"4(2(3)(1))(6(5))\"",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"str2tree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"TreeNode\",\r\n    \"dealloc\": true\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.2K\", \"totalSubmission\": \"12.6K\", \"totalAcceptedRaw\": 7150, \"totalSubmissionRaw\": 12625, \"acRate\": \"56.6%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:47Z",
+  "source": "https://leetcode.cn/problems/count-substrings-with-only-one-distinct-letter/",
+  "question": {
+    "questionId": "1131",
+    "questionFrontendId": "1180",
+    "title": "Count Substrings with Only One Distinct Letter",
+    "titleSlug": "count-substrings-with-only-one-distinct-letter",
+    "translatedTitle": "统计只含单一字母的子串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 39,
+    "dislikes": 0,
+    "exampleTestcases": "\"aaaba\"\n\"aaaaaaaaaa\"",
+    "sampleTestCase": "\"aaaba\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countLetters\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.2K\", \"totalSubmission\": \"9K\", \"totalAcceptedRaw\": 7250, \"totalSubmissionRaw\": 8979, \"acRate\": \"80.7%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

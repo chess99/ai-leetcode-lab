@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:17Z",
+  "source": "https://leetcode.cn/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/",
+  "question": {
+    "questionId": "2579",
+    "questionFrontendId": "2436",
+    "title": "Minimum Split Into Subarrays With GCD Greater Than One",
+    "titleSlug": "minimum-split-into-subarrays-with-gcd-greater-than-one",
+    "translatedTitle": "使子数组最大公约数大于一的最小分割数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "[12,6,3,14,8]\n[4,12,6,14]",
+    "sampleTestCase": "[12,6,3,14,8]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumSplits\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"634\", \"totalSubmission\": \"921\", \"totalAcceptedRaw\": 634, \"totalSubmissionRaw\": 921, \"acRate\": \"68.8%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Number Theory",
+        "slug": "number-theory",
+        "translatedName": "数论"
+      },
+      {
+        "name": "欧几里得算法",
+        "slug": "euclidean-algorithm",
+        "translatedName": null
+      }
+    ]
+  }
+}

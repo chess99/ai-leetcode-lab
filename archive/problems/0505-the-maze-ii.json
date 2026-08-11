@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:52Z",
+  "source": "https://leetcode.cn/problems/the-maze-ii/",
+  "question": {
+    "questionId": "505",
+    "questionFrontendId": "505",
+    "title": "The Maze II",
+    "titleSlug": "the-maze-ii",
+    "translatedTitle": "迷宫 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 194,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]]\n[0,4]\n[4,4]\n[[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]]\n[0,4]\n[3,2]\n[[0,0,0,0,0],[1,1,0,0,1],[0,0,0,0,0],[0,1,0,0,1],[0,1,0,0,0]]\n[4,3]\n[0,1]",
+    "sampleTestCase": "[[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]]\n[0,4]\n[4,4]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"shortestDistance\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"maze\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"start\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"destination\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"14.3K\", \"totalSubmission\": \"26.9K\", \"totalAcceptedRaw\": 14279, \"totalSubmissionRaw\": 26872, \"acRate\": \"53.1%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Shortest Path",
+        "slug": "shortest-path",
+        "translatedName": "最短路"
+      },
+      {
+        "name": "Dijkstra 算法",
+        "slug": "dijkstra",
+        "translatedName": null
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      },
+      {
+        "name": "A* 搜索",
+        "slug": "a-search",
+        "translatedName": null
+      },
+      {
+        "name": "Heuristic Search",
+        "slug": "heuristic-search",
+        "translatedName": null
+      }
+    ]
+  }
+}

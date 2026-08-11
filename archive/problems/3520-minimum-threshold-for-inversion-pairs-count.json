@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:26Z",
+  "source": "https://leetcode.cn/problems/minimum-threshold-for-inversion-pairs-count/",
+  "question": {
+    "questionId": "3861",
+    "questionFrontendId": "3520",
+    "title": "Minimum Threshold for Inversion Pairs Count",
+    "titleSlug": "minimum-threshold-for-inversion-pairs-count",
+    "translatedTitle": "逆序对计数的最小阈值",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3,4,3,2,1]\n7\n[10,9,9,9,1]\n4",
+    "sampleTestCase": "[1,2,3,4,3,2,1]\n7",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minThreshold\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"371\", \"totalSubmission\": \"555\", \"totalAcceptedRaw\": 371, \"totalSubmissionRaw\": 555, \"acRate\": \"66.8%\"}",
+    "topicTags": [
+      {
+        "name": "Binary Indexed Tree",
+        "slug": "binary-indexed-tree",
+        "translatedName": "树状数组"
+      },
+      {
+        "name": "Segment Tree",
+        "slug": "segment-tree",
+        "translatedName": "线段树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Divide and Conquer",
+        "slug": "divide-and-conquer",
+        "translatedName": "分治"
+      },
+      {
+        "name": "Merge Sort",
+        "slug": "merge-sort",
+        "translatedName": "归并排序"
+      }
+    ]
+  }
+}

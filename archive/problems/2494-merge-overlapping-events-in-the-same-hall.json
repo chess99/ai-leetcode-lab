@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:27Z",
+  "source": "https://leetcode.cn/problems/merge-overlapping-events-in-the-same-hall/",
+  "question": {
+    "questionId": "2637",
+    "questionFrontendId": "2494",
+    "title": "Merge Overlapping Events in the Same Hall",
+    "titleSlug": "merge-overlapping-events-in-the-same-hall",
+    "translatedTitle": "合并在同一个大厅重叠的活动",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 13,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"HallEvents\": [\"hall_id\", \"start_day\", \"end_day\"]}, \"rows\": {\"HallEvents\": [[1, \"2023-01-13\", \"2023-01-14\"], [1, \"2023-01-14\", \"2023-01-17\"], [1, \"2023-01-18\", \"2023-01-25\"], [2, \"2022-12-09\", \"2022-12-23\"], [2, \"2022-12-13\", \"2022-12-17\"], [3, \"2022-12-01\", \"2023-01-30\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"HallEvents\": [\"hall_id\", \"start_day\", \"end_day\"]}, \"rows\": {\"HallEvents\": [[1, \"2023-01-13\", \"2023-01-14\"], [1, \"2023-01-14\", \"2023-01-17\"], [1, \"2023-01-18\", \"2023-01-25\"], [2, \"2022-12-09\", \"2022-12-23\"], [2, \"2022-12-13\", \"2022-12-17\"], [3, \"2022-12-01\", \"2023-01-30\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists HallEvents (hall_id int, start_day date, end_day date)\"],\"mssql\":[\"Create table HallEvents (hall_id int, start_day date, end_day date)\"],\"oraclesql\":[\"Create table HallEvents (hall_id int, start_day date, end_day date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"merge_events\",\"pythondata\":[\"HallEvents = pd.DataFrame([], columns=['hall_id', 'start_day', 'end_day']).astype({'hall_id':'Int64', 'start_day':'datetime64[ns]', 'end_day':'datetime64[ns]'})\"],\"database_schema\":{\"HallEvents\":{\"hall_id\":\"INT\",\"start_day\":\"DATE\",\"end_day\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"3K\", \"totalAcceptedRaw\": 1388, \"totalSubmissionRaw\": 3009, \"acRate\": \"46.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

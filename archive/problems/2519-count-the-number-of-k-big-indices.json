@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:32Z",
+  "source": "https://leetcode.cn/problems/count-the-number-of-k-big-indices/",
+  "question": {
+    "questionId": "2658",
+    "questionFrontendId": "2519",
+    "title": "Count the Number of K-Big Indices",
+    "titleSlug": "count-the-number-of-k-big-indices",
+    "translatedTitle": "统计 K-Big 索引的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 9,
+    "dislikes": 0,
+    "exampleTestcases": "[2,3,6,5,2,3]\n2\n[1,1,1]\n3",
+    "sampleTestCase": "[2,3,6,5,2,3]\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"kBigIndices\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"561\", \"totalSubmission\": \"961\", \"totalAcceptedRaw\": 561, \"totalSubmissionRaw\": 961, \"acRate\": \"58.4%\"}",
+    "topicTags": [
+      {
+        "name": "Binary Indexed Tree",
+        "slug": "binary-indexed-tree",
+        "translatedName": "树状数组"
+      },
+      {
+        "name": "Segment Tree",
+        "slug": "segment-tree",
+        "translatedName": "线段树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Divide and Conquer",
+        "slug": "divide-and-conquer",
+        "translatedName": "分治"
+      },
+      {
+        "name": "Ordered Set",
+        "slug": "ordered-set",
+        "translatedName": "有序集合"
+      },
+      {
+        "name": "Merge Sort",
+        "slug": "merge-sort",
+        "translatedName": "归并排序"
+      }
+    ]
+  }
+}

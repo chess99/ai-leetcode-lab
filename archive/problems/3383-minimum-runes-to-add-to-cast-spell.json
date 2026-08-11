@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:02Z",
+  "source": "https://leetcode.cn/problems/minimum-runes-to-add-to-cast-spell/",
+  "question": {
+    "questionId": "3718",
+    "questionFrontendId": "3383",
+    "title": "Minimum Runes to Add to Cast Spell",
+    "titleSlug": "minimum-runes-to-add-to-cast-spell",
+    "translatedTitle": "施法所需最低符文数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "6\n[0]\n[0,1,2,3]\n[1,2,3,0]\n7\n[3,5]\n[0,1,2,3,5]\n[1,2,0,4,6]",
+    "sampleTestCase": "6\n[0]\n[0,1,2,3]\n[1,2,3,0]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minRunesToAdd\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"crystals\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"flowFrom\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"flowTo\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"296\", \"totalSubmission\": \"960\", \"totalAcceptedRaw\": 296, \"totalSubmissionRaw\": 960, \"acRate\": \"30.8%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Topological Sort",
+        "slug": "topological-sort",
+        "translatedName": "拓扑排序"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

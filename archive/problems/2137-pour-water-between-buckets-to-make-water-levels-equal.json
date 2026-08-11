@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:28Z",
+  "source": "https://leetcode.cn/problems/pour-water-between-buckets-to-make-water-levels-equal/",
+  "question": {
+    "questionId": "2273",
+    "questionFrontendId": "2137",
+    "title": "Pour Water Between Buckets to Make Water Levels Equal",
+    "titleSlug": "pour-water-between-buckets-to-make-water-levels-equal",
+    "translatedTitle": "通过倒水操作让所有的水桶所含水量相等",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 13,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,7]\n80\n[2,4,6]\n50\n[3,3,3,3]\n40",
+    "sampleTestCase": "[1,2,7]\n80",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"equalizeWater\",\n  \"params\": [\n    {\n      \"name\": \"buckets\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"loss\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"double\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"958\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 958, \"totalSubmissionRaw\": 1577, \"acRate\": \"60.7%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      }
+    ]
+  }
+}

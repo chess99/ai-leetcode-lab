@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:15Z",
+  "source": "https://leetcode.cn/problems/wiggle-sort/",
+  "question": {
+    "questionId": "280",
+    "questionFrontendId": "280",
+    "title": "Wiggle Sort",
+    "titleSlug": "wiggle-sort",
+    "translatedTitle": "摆动排序",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 166,
+    "dislikes": 0,
+    "exampleTestcases": "[3,5,2,1,6,4]\n[6,6,5,6,3,8]",
+    "sampleTestCase": "[3,5,2,1,6,4]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"wiggleSort\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"void\"\r\n  },\r\n  \"output\": {\r\n    \"paramindex\": 0\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"22.6K\", \"totalSubmission\": \"32.3K\", \"totalAcceptedRaw\": 22565, \"totalSubmissionRaw\": 32261, \"acRate\": \"69.9%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

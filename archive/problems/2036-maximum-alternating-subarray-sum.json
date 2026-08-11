@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:12Z",
+  "source": "https://leetcode.cn/problems/maximum-alternating-subarray-sum/",
+  "question": {
+    "questionId": "512",
+    "questionFrontendId": "2036",
+    "title": "Maximum Alternating Subarray Sum",
+    "titleSlug": "maximum-alternating-subarray-sum",
+    "translatedTitle": "最大交替子数组和",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 12,
+    "dislikes": 0,
+    "exampleTestcases": "[3,-1,1,2]\n[2,2,2,2,2]\n[1]",
+    "sampleTestCase": "[3,-1,1,2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maximumAlternatingSubarraySum\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"940\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 940, \"totalSubmissionRaw\": 2337, \"acRate\": \"40.2%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

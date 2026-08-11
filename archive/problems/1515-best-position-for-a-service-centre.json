@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:42Z",
+  "source": "https://leetcode.cn/problems/best-position-for-a-service-centre/",
+  "question": {
+    "questionId": "1638",
+    "questionFrontendId": "1515",
+    "title": "Best Position for a Service Centre",
+    "titleSlug": "best-position-for-a-service-centre",
+    "translatedTitle": "服务中心的最佳位置",
+    "content": "<p>A delivery company wants to build a new service center in a new city. The company knows the positions of all the customers in this city on a 2D-Map and wants to build the new center in a position such that <strong>the sum of the euclidean distances to all customers is minimum</strong>.</p>\n\n<p>Given an array <code>positions</code> where <code>positions[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> is the position of the <code>ith</code> customer on the map, return <em>the minimum sum of the euclidean distances</em> to all customers.</p>\n\n<p>In other words, you need to choose the position of the service center <code>[x<sub>centre</sub>, y<sub>centre</sub>]</code> such that the following formula is minimized:</p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/06/25/q4_edited.jpg\" />\n<p>Answers within <code>10<sup>-5</sup></code> of the actual value will be accepted.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/06/25/q4_e1.jpg\" style=\"width: 377px; height: 362px;\" />\n<pre>\n<strong>Input:</strong> positions = [[0,1],[1,0],[1,2],[2,1]]\n<strong>Output:</strong> 4.00000\n<strong>Explanation:</strong> As shown, you can see that choosing [x<sub>centre</sub>, y<sub>centre</sub>] = [1, 1] will make the distance to each customer = 1, the sum of all distances is 4 which is the minimum possible we can achieve.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/06/25/q4_e3.jpg\" style=\"width: 419px; height: 419px;\" />\n<pre>\n<strong>Input:</strong> positions = [[1,1],[3,3]]\n<strong>Output:</strong> 2.82843\n<strong>Explanation:</strong> The minimum possible sum of distances = sqrt(2) + sqrt(2) = 2.82843\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= positions.length &lt;= 50</code></li>\n\t<li><code>positions[i].length == 2</code></li>\n\t<li><code>0 &lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= 100</code></li>\n</ul>\n",
+    "translatedContent": "<p>一家快递公司希望在新城市建立新的服务中心。公司统计了该城市所有客户在二维地图上的坐标，并希望能够以此为依据为新的服务中心选址：使服务中心 <strong>到所有客户的欧几里得距离的总和最小</strong> 。</p>\n\n<p>给你一个数组 <code>positions</code> ，其中 <code>positions[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> 表示第 <code>i</code> 个客户在二维地图上的位置，返回到所有客户的 <strong>欧几里得距离的最小总和 。</strong></p>\n\n<p>换句话说，请你为服务中心选址，该位置的坐标 <code>[x<sub>centre</sub>, y<sub>centre</sub>]</code> 需要使下面的公式取到最小值：</p>\n\n<p><img alt=\"\" src=\"https://assets.leetcode.cn/aliyun-lc-upload/uploads/2020/07/12/q4_edited.jpg\" /></p>\n\n<p>与真实值误差在 <code>10<sup>-5</sup></code>之内的答案将被视作正确答案。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<p><img alt=\"\" src=\"https://assets.leetcode.cn/aliyun-lc-upload/uploads/2020/07/12/q4_e1.jpg\" /></p>\n\n<pre>\n<strong>输入：</strong>positions = [[0,1],[1,0],[1,2],[2,1]]\n<strong>输出：</strong>4.00000\n<strong>解释：</strong>如图所示，你可以选 [x<sub>centre</sub>, y<sub>centre</sub>] = [1, 1] 作为新中心的位置，这样一来到每个客户的距离就都是 1，所有距离之和为 4 ，这也是可以找到的最小值。\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<p><img alt=\"\" src=\"https://assets.leetcode.cn/aliyun-lc-upload/uploads/2020/07/12/q4_e3.jpg\" /></p>\n\n<pre>\n<strong>输入：</strong>positions = [[1,1],[3,3]]\n<strong>输出：</strong>2.82843\n<strong>解释：</strong>欧几里得距离可能的最小总和为 sqrt(2) + sqrt(2) = 2.82843\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= positions.length &lt;= 50</code></li>\n\t<li><code>positions[i].length == 2</code></li>\n\t<li><code>0 &lt;= x<sub>i</sub>, y<sub>i</sub>&nbsp;&lt;= 100</code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 73,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,1],[1,0],[1,2],[2,1]]\n[[1,1],[3,3]]",
+    "sampleTestCase": "[[0,1],[1,0],[1,2],[2,1]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"getMinDistSum\",\n  \"params\": [\n    {\n      \"name\": \"positions\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"double\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    double getMinDistSum(vector<vector<int>>& positions) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public double getMinDistSum(int[][] positions) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def getMinDistSum(self, positions: List[List[int]]) -> float:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def getMinDistSum(self, positions):\n        \"\"\"\n        :type positions: List[List[int]]\n        :rtype: float\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[][]} positions\n * @return {number}\n */\nvar getMinDistSum = function(positions) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function getMinDistSum(positions: number[][]): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public double GetMinDistSum(int[][] positions) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "double getMinDistSum(int** positions, int positionsSize, int* positionsColSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func getMinDistSum(positions [][]int) float64 {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun getMinDistSum(positions: Array<IntArray>): Double {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func getMinDistSum(_ positions: [[Int]]) -> Double {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn get_min_dist_sum(positions: Vec<Vec<i32>>) -> f64 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[][]} positions\n# @return {Float}\ndef get_min_dist_sum(positions)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[][] $positions\n     * @return Float\n     */\n    function getMinDistSum($positions) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  double getMinDistSum(List<List<int>> positions) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def getMinDistSum(positions: Array[Array[Int]]): Double = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec get_min_dist_sum(positions :: [[integer]]) :: float\n  def get_min_dist_sum(positions) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec get_min_dist_sum(Positions :: [[integer()]]) -> float().\nget_min_dist_sum(Positions) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (get-min-dist-sum positions)\n  (-> (listof (listof exact-integer?)) flonum?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func getMinDistSum(positions: Array<Array<Int64>>): Float64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"5.9K\", \"totalSubmission\": \"16.4K\", \"totalAcceptedRaw\": 5907, \"totalSubmissionRaw\": 16416, \"acRate\": \"36.0%\"}",
+    "topicTags": [
+      {
+        "name": "Geometry",
+        "slug": "geometry",
+        "translatedName": "几何"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Randomized",
+        "slug": "randomized",
+        "translatedName": "随机化"
+      }
+    ]
+  }
+}

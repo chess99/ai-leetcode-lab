@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:53Z",
+  "source": "https://leetcode.cn/problems/leetcodify-friends-recommendations/",
+  "question": {
+    "questionId": "2063",
+    "questionFrontendId": "1917",
+    "title": "Leetcodify Friends Recommendations",
+    "titleSlug": "leetcodify-friends-recommendations",
+    "translatedTitle": "Leetcodify 好友推荐",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 15,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Listens\":[\"user_id\",\"song_id\",\"day\"],\"Friendship\":[\"user1_id\",\"user2_id\"]},\"rows\":{\"Listens\":[[1,10,\"2021-03-15\"],[1,11,\"2021-03-15\"],[1,12,\"2021-03-15\"],[2,10,\"2021-03-15\"],[2,11,\"2021-03-15\"],[2,12,\"2021-03-15\"],[3,10,\"2021-03-15\"],[3,11,\"2021-03-15\"],[3,12,\"2021-03-15\"],[4,10,\"2021-03-15\"],[4,11,\"2021-03-15\"],[4,13,\"2021-03-15\"],[5,10,\"2021-03-16\"],[5,11,\"2021-03-16\"],[5,12,\"2021-03-16\"]],\"Friendship\":[[1,2]]}}",
+    "sampleTestCase": "{\"headers\":{\"Listens\":[\"user_id\",\"song_id\",\"day\"],\"Friendship\":[\"user1_id\",\"user2_id\"]},\"rows\":{\"Listens\":[[1,10,\"2021-03-15\"],[1,11,\"2021-03-15\"],[1,12,\"2021-03-15\"],[2,10,\"2021-03-15\"],[2,11,\"2021-03-15\"],[2,12,\"2021-03-15\"],[3,10,\"2021-03-15\"],[3,11,\"2021-03-15\"],[3,12,\"2021-03-15\"],[4,10,\"2021-03-15\"],[4,11,\"2021-03-15\"],[4,13,\"2021-03-15\"],[5,10,\"2021-03-16\"],[5,11,\"2021-03-16\"],[5,12,\"2021-03-16\"]],\"Friendship\":[[1,2]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Listens (user_id int, song_id int, day date)\",\"Create table If Not Exists Friendship (user1_id int, user2_id int)\"],\"mssql\":[\"Create table Listens (user_id int, song_id int, day date)\",\"Create table Friendship (user1_id int, user2_id int)\"],\"oraclesql\":[\"Create table Listens (user_id int, song_id int, day date)\",\"Create table Friendship (user1_id int, user2_id int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"recommend_friends\",\"pythondata\":[\"Listens = pd.DataFrame([], columns=['user_id', 'song_id', 'day']).astype({'user_id':'Int64', 'song_id':'Int64', 'day':'datetime64[ns]'})\",\"Friendship = pd.DataFrame([], columns=['user1_id', 'user2_id']).astype({'user1_id':'Int64', 'user2_id':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Listens (user_id int, song_id int, day date)\",\"Create table If Not Exists Friendship (user1_id int, user2_id int)\"],\"database_schema\":{\"Listens\":{\"user_id\":\"INT\",\"song_id\":\"INT\",\"day\":\"DATE\"},\"Friendship\":{\"user1_id\":\"INT\",\"user2_id\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.9K\", \"totalSubmission\": \"12.4K\", \"totalAcceptedRaw\": 3893, \"totalSubmissionRaw\": 12415, \"acRate\": \"31.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

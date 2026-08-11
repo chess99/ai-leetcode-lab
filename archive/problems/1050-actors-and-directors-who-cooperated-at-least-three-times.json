@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:24Z",
+  "source": "https://leetcode.cn/problems/actors-and-directors-who-cooperated-at-least-three-times/",
+  "question": {
+    "questionId": "1136",
+    "questionFrontendId": "1050",
+    "title": "Actors and Directors Who Cooperated At Least Three Times",
+    "titleSlug": "actors-and-directors-who-cooperated-at-least-three-times",
+    "translatedTitle": "合作过至少三次的演员和导演",
+    "content": "<p>Table: <code>ActorDirector</code></p>\n\n<pre>\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| actor_id    | int     |\n| director_id | int     |\n| timestamp   | int     |\n+-------------+---------+\ntimestamp is the primary key (column with unique values) for this table.\n</pre>\n\n<p>&nbsp;</p>\n\n<p>Write a solution to find all the pairs <code>(actor_id, director_id)</code> where the actor has cooperated with the director at least three times.</p>\n\n<p>Return the result table in <strong>any order</strong>.</p>\n\n<p>The result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> \nActorDirector table:\n+-------------+-------------+-------------+\n| actor_id    | director_id | timestamp   |\n+-------------+-------------+-------------+\n| 1           | 1           | 0           |\n| 1           | 1           | 1           |\n| 1           | 1           | 2           |\n| 1           | 2           | 3           |\n| 1           | 2           | 4           |\n| 2           | 1           | 5           |\n| 2           | 1           | 6           |\n+-------------+-------------+-------------+\n<strong>Output:</strong> \n+-------------+-------------+\n| actor_id    | director_id |\n+-------------+-------------+\n| 1           | 1           |\n+-------------+-------------+\n<strong>Explanation:</strong> The only pair is (1, 1) where they cooperated exactly 3 times.\n</pre>\n",
+    "translatedContent": "<p><code>ActorDirector</code>&nbsp;表：</p>\n\n<pre>\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| actor_id    | int     |\n| director_id | int     |\n| timestamp   | int     |\n+-------------+---------+\ntimestamp 是这张表的主键(具有唯一值的列).\n</pre>\n\n<p>&nbsp;</p>\n\n<p>编写解决方案找出合作过至少三次的演员和导演的 id 对&nbsp;<code>(actor_id, director_id)</code></p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>\nActorDirector 表：\n+-------------+-------------+-------------+\n| actor_id    | director_id | timestamp   |\n+-------------+-------------+-------------+\n| 1           | 1           | 0           |\n| 1           | 1           | 1           |\n| 1           | 1           | 2           |\n| 1           | 2           | 3           |\n| 1           | 2           | 4           |\n| 2           | 1           | 5           |\n| 2           | 1           | 6           |\n+-------------+-------------+-------------+\n<strong>输出：</strong>\n+-------------+-------------+\n| actor_id    | director_id |\n+-------------+-------------+\n| 1           | 1           |\n+-------------+-------------+\n<strong>解释：</strong>\n唯一的 id 对是 (1, 1)，他们恰好合作了 3 次。</pre>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 113,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"ActorDirector\":[\"actor_id\",\"director_id\",\"timestamp\"]},\"rows\":{\"ActorDirector\":[[1,1,0],[1,1,1],[1,1,2],[1,2,3],[1,2,4],[2,1,5],[2,1,6]]}}",
+    "sampleTestCase": "{\"headers\":{\"ActorDirector\":[\"actor_id\",\"director_id\",\"timestamp\"]},\"rows\":{\"ActorDirector\":[[1,1,0],[1,1,1],[1,1,2],[1,2,3],[1,2,4],[2,1,5],[2,1,6]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists ActorDirector (actor_id int, director_id int, timestamp int)\"],\"mssql\":[\"Create table ActorDirector (actor_id int, director_id int, timestamp int)\"],\"oraclesql\":[\"Create table ActorDirector (actor_id int, director_id int, timestamp int)\"],\"database\":true,\"name\":\"actors_and_directors\",\"pythondata\":[\"ActorDirector = pd.DataFrame([], columns=['actor_id', 'director_id', 'timestamp']).astype({'actor_id':'int64', 'director_id':'int64', 'timestamp':'int64'})\"],\"manual\":false,\"postgresql\":[\"Create table If Not Exists ActorDirector (actor_id int, director_id int, timestamp int)\"],\"database_schema\":{\"ActorDirector\":{\"actor_id\":\"INT\",\"director_id\":\"INT\",\"timestamp\":\"INT\"}}}",
+    "codeSnippets": [
+      {
+        "lang": "MySQL",
+        "langSlug": "mysql",
+        "code": "# Write your MySQL query statement below"
+      },
+      {
+        "lang": "MS SQL Server",
+        "langSlug": "mssql",
+        "code": "/* Write your T-SQL query statement below */"
+      },
+      {
+        "lang": "PostgreSQL",
+        "langSlug": "postgresql",
+        "code": "-- Write your PostgreSQL query statement below"
+      },
+      {
+        "lang": "Oracle",
+        "langSlug": "oraclesql",
+        "code": "/* Write your PL/SQL query statement below */"
+      },
+      {
+        "lang": "Pandas",
+        "langSlug": "pythondata",
+        "code": "import pandas as pd\n\ndef actors_and_directors(actor_director: pd.DataFrame) -> pd.DataFrame:\n    "
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"99.8K\", \"totalSubmission\": \"131.1K\", \"totalAcceptedRaw\": 99800, \"totalSubmissionRaw\": 131060, \"acRate\": \"76.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

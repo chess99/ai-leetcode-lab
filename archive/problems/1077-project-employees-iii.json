@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:29Z",
+  "source": "https://leetcode.cn/problems/project-employees-iii/",
+  "question": {
+    "questionId": "1163",
+    "questionFrontendId": "1077",
+    "title": "Project Employees III",
+    "titleSlug": "project-employees-iii",
+    "translatedTitle": "项目员工 III",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 59,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Project\":[\"project_id\",\"employee_id\"],\"Employee\":[\"employee_id\",\"name\",\"experience_years\"]},\"rows\":{\"Project\":[[1,1],[1,2],[1,3],[2,1],[2,4]],\"Employee\":[[1,\"Khaled\",3],[2,\"Ali\",2],[3,\"John\",3],[4,\"Doe\",2]]}}",
+    "sampleTestCase": "{\"headers\":{\"Project\":[\"project_id\",\"employee_id\"],\"Employee\":[\"employee_id\",\"name\",\"experience_years\"]},\"rows\":{\"Project\":[[1,1],[1,2],[1,3],[2,1],[2,4]],\"Employee\":[[1,\"Khaled\",3],[2,\"Ali\",2],[3,\"John\",3],[4,\"Doe\",2]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Project (project_id int, employee_id int)\",\"Create table If Not Exists Employee (employee_id int, name varchar(10), experience_years int)\"],\"mssql\":[\"Create table Project (project_id int, employee_id int)\",\"Create table Employee (employee_id int, name varchar(10), experience_years int)\"],\"oraclesql\":[\"Create table Project (project_id int, employee_id int)\",\"Create table Employee (employee_id int, name varchar(10), experience_years int)\"],\"database\":true,\"name\":\"project_employees\",\"pythondata\":[\"Project = pd.DataFrame([], columns=['project_id', 'employee_id']).astype({'project_id':'Int64', 'employee_id':'Int64'})\",\"Employee = pd.DataFrame([], columns=['employee_id', 'name', 'experience_years']).astype({'employee_id':'Int64', 'name':'object', 'experience_years':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Project (project_id int, employee_id int)\\n\",\"Create table Employee (employee_id int, name varchar(10), experience_years int)\"],\"database_schema\":{\"Project\":{\"project_id\":\"INT\",\"employee_id\":\"INT\"},\"Employee\":{\"employee_id\":\"INT\",\"name\":\"VARCHAR(10)\",\"experience_years\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"26.9K\", \"totalSubmission\": \"37.4K\", \"totalAcceptedRaw\": 26885, \"totalSubmissionRaw\": 37350, \"acRate\": \"72.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

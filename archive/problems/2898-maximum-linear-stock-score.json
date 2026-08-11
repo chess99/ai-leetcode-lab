@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:36Z",
+  "source": "https://leetcode.cn/problems/maximum-linear-stock-score/",
+  "question": {
+    "questionId": "3182",
+    "questionFrontendId": "2898",
+    "title": "Maximum Linear Stock Score",
+    "titleSlug": "maximum-linear-stock-score",
+    "translatedTitle": "最大线性股票得分",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[1,5,3,7,8]\n[5,6,7,8,9]",
+    "sampleTestCase": "[1,5,3,7,8]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxScore\",\n  \"params\": [\n    {\n      \"name\": \"prices\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"367\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 367, \"totalSubmissionRaw\": 1338, \"acRate\": \"27.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      }
+    ]
+  }
+}

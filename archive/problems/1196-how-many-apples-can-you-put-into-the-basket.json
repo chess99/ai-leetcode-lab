@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:49Z",
+  "source": "https://leetcode.cn/problems/how-many-apples-can-you-put-into-the-basket/",
+  "question": {
+    "questionId": "1141",
+    "questionFrontendId": "1196",
+    "title": "How Many Apples Can You Put into the Basket",
+    "titleSlug": "how-many-apples-can-you-put-into-the-basket",
+    "translatedTitle": "最多可以买到的苹果数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 17,
+    "dislikes": 0,
+    "exampleTestcases": "[100,200,150,1000]\n[900,950,800,1000,700,800]",
+    "sampleTestCase": "[100,200,150,1000]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxNumberOfApples\",\n  \"params\": [\n    {\n      \"name\": \"weight\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.3K\", \"totalSubmission\": \"9.2K\", \"totalAcceptedRaw\": 6348, \"totalSubmissionRaw\": 9199, \"acRate\": \"69.0%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

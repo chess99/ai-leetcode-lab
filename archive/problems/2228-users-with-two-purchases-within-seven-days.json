@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:43Z",
+  "source": "https://leetcode.cn/problems/users-with-two-purchases-within-seven-days/",
+  "question": {
+    "questionId": "2370",
+    "questionFrontendId": "2228",
+    "title": "Users With Two Purchases Within Seven Days",
+    "titleSlug": "users-with-two-purchases-within-seven-days",
+    "translatedTitle": "7 天内两次购买的用户",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Purchases\":[\"purchase_id\",\"user_id\",\"purchase_date\"]},\"rows\":{\"Purchases\":[[4,2,\"2022-03-13\"],[1,5,\"2022-02-11\"],[3,7,\"2022-06-19\"],[6,2,\"2022-03-20\"],[5,7,\"2022-06-19\"],[2,2,\"2022-06-08\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Purchases\":[\"purchase_id\",\"user_id\",\"purchase_date\"]},\"rows\":{\"Purchases\":[[4,2,\"2022-03-13\"],[1,5,\"2022-02-11\"],[3,7,\"2022-06-19\"],[6,2,\"2022-03-20\"],[5,7,\"2022-06-19\"],[2,2,\"2022-06-08\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Purchases (purchase_id int, user_id int, purchase_date date)\"],\"mssql\":[\"Create table Purchases (purchase_id int, user_id int, purchase_date date)\"],\"oraclesql\":[\"Create table Purchases (purchase_id int, user_id int, purchase_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"find_valid_users\",\"pythondata\":[\"Purchases = pd.DataFrame([], columns=['purchase_id', 'user_id', 'purchase_date']).astype({'purchase_id':'Int64', 'user_id':'Int64', 'purchase_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Purchases (purchase_id int, user_id int, purchase_date date)\"],\"database_schema\":{\"Purchases\":{\"purchase_id\":\"INT\",\"user_id\":\"INT\",\"purchase_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.5K\", \"totalSubmission\": \"7.2K\", \"totalAcceptedRaw\": 3531, \"totalSubmissionRaw\": 7170, \"acRate\": \"49.2%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

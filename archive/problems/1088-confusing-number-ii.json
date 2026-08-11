@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:31Z",
+  "source": "https://leetcode.cn/problems/confusing-number-ii/",
+  "question": {
+    "questionId": "1077",
+    "questionFrontendId": "1088",
+    "title": "Confusing Number II",
+    "titleSlug": "confusing-number-ii",
+    "translatedTitle": "易混淆数 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 50,
+    "dislikes": 0,
+    "exampleTestcases": "20\n100",
+    "sampleTestCase": "20",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"confusingNumberII\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.2K\", \"totalSubmission\": \"4.3K\", \"totalAcceptedRaw\": 2226, \"totalSubmissionRaw\": 4281, \"acRate\": \"52.0%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

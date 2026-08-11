@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:06Z",
+  "source": "https://leetcode.cn/problems/friends-with-no-mutual-friends/",
+  "question": {
+    "questionId": "3358",
+    "questionFrontendId": "3058",
+    "title": "Friends With No Mutual Friends",
+    "titleSlug": "friends-with-no-mutual-friends",
+    "translatedTitle": "没有共同朋友的朋友",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Friends\":[\"user_id1\",\"user_id2\"]},\"rows\":{\"Friends\":[[1,2],[2,3],[2,4],[1,5],[6,7],[3,4],[2,5],[8,9]]}}",
+    "sampleTestCase": "{\"headers\":{\"Friends\":[\"user_id1\",\"user_id2\"]},\"rows\":{\"Friends\":[[1,2],[2,3],[2,4],[1,5],[6,7],[3,4],[2,5],[8,9]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create Table if Not Exists Friends( user_id1 int, user_id2 int)\"],\"mssql\":[\"Create Table Friends( user_id1 int, user_id2 int)\"],\"oraclesql\":[\"Create Table Friends( user_id1 int, user_id2 int)\"],\"database\":true,\"name\":\"friends_with_no_mutual_friends\",\"pythondata\":[\"Friends = pd.DataFrame([], columns=['user_id1', 'user_id2']).astype({'user_id1':'Int64', 'user_id2':'Int64'})\\n\"],\"postgresql\":[\"CREATE TABLE Friends (\\n    user_id1 int,\\n    user_id2 int\\n);\"],\"database_schema\":{\"Friends\":{\"user_id1\":\"INT\",\"user_id2\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"980\", \"totalSubmission\": \"2.1K\", \"totalAcceptedRaw\": 980, \"totalSubmissionRaw\": 2074, \"acRate\": \"47.3%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

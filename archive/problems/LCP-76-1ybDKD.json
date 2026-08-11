@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:07Z",
+  "source": "https://leetcode.cn/problems/1ybDKD/",
+  "question": {
+    "questionId": "1000564",
+    "questionFrontendId": "LCP 76",
+    "title": "魔法棋盘",
+    "titleSlug": "1ybDKD",
+    "translatedTitle": "魔法棋盘",
+    "content": "English description is not available for the problem. Please switch to Chinese.",
+    "translatedContent": "在大小为 `n * m` 的棋盘中，有两种不同的棋子：黑色，红色。当两颗颜色不同的棋子同时满足以下两种情况时，将会产生魔法共鸣：\n- 两颗异色棋子在同一行或者同一列\n- 两颗异色棋子之间恰好只有一颗棋子\n    > 注：异色棋子之间可以有空位\n\n由于棋盘上被施加了魔法禁制，棋盘上的部分格子变成问号。`chessboard[i][j]` 表示棋盘第 `i` 行 `j` 列的状态：\n- 若为 `.` ，表示当前格子确定为空\n- 若为 `B` ，表示当前格子确定为 黑棋\n- 若为 `R` ，表示当前格子确定为 红棋\n- 若为 `?` ，表示当前格子待定\n\n现在，探险家小扣的任务是确定所有问号位置的状态（留空/放黑棋/放红棋），使最终的棋盘上，任意两颗棋子间都 **无法** 产生共鸣。请返回可以满足上述条件的放置方案数量。\n\n**示例1：**\n> 输入：`n = 3, m = 3, chessboard = [\"..R\",\"..B\",\"?R?\"]`\n>\n> 输出：`5`\n>\n> 解释：给定的棋盘如图：\n>![image.png](https://pic.leetcode.cn/1681714583-unbRox-image.png){:height=150px}\n> 所有符合题意的最终局面如图：\n>![image.png](https://pic.leetcode.cn/1681714596-beaOHK-image.png){:height=150px}\n\n**示例2：**\n> 输入：`n = 3, m = 3, chessboard = [\"?R?\",\"B?B\",\"?R?\"]`\n>\n> 输出：`105`\n\n**提示：**\n- `n == chessboard.length`\n- `m == chessboard[i].length`\n- `1 <= n*m <= 30`\n- `chessboard` 中仅包含 `\".\"、\"B\"、\"R\"、\"?\"`",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 10,
+    "dislikes": 0,
+    "exampleTestcases": "3\n3\n[\"..R\",\"..B\",\"?R?\"]\n3\n3\n[\"?R?\",\"B?B\",\"?R?\"]",
+    "sampleTestCase": "3\n3\n[\"..R\",\"..B\",\"?R?\"]",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"getSchemeCount\", \"params\": [{\"name\": \"n\", \"type\": \"integer\"}, {\"name\": \"m\", \"type\": \"integer\"}, {\"name\": \"chessboard\", \"type\": \"string[]\"}], \"return\": {\"type\": \"long\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    long long getSchemeCount(int n, int m, vector<string>& chessboard) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public long getSchemeCount(int n, int m, String[] chessboard) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def getSchemeCount(self, n: int, m: int, chessboard: List[str]) -> int:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def getSchemeCount(self, n, m, chessboard):\n        \"\"\"\n        :type n: int\n        :type m: int\n        :type chessboard: List[str]\n        :rtype: int\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number} n\n * @param {number} m\n * @param {string[]} chessboard\n * @return {number}\n */\nvar getSchemeCount = function(n, m, chessboard) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function getSchemeCount(n: number, m: number, chessboard: string[]): number {\n\n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public long GetSchemeCount(int n, int m, string[] chessboard) {\n\n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "long long getSchemeCount(int n, int m, char** chessboard, int chessboardSize){\n\n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func getSchemeCount(n int, m int, chessboard []string) int64 {\n\n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun getSchemeCount(n: Int, m: Int, chessboard: Array<String>): Long {\n\n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func getSchemeCount(_ n: Int, _ m: Int, _ chessboard: [String]) -> Int {\n\n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn get_scheme_count(n: i32, m: i32, chessboard: Vec<String>) -> i64 {\n\n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer} n\n# @param {Integer} m\n# @param {String[]} chessboard\n# @return {Integer}\ndef get_scheme_count(n, m, chessboard)\n\nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $m\n     * @param String[] $chessboard\n     * @return Integer\n     */\n    function getSchemeCount($n, $m, $chessboard) {\n\n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int getSchemeCount(int n, int m, List<String> chessboard) {\n\n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def getSchemeCount(n: Int, m: Int, chessboard: Array[String]): Long = {\n\n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec get_scheme_count(n :: integer, m :: integer, chessboard :: [String.t]) :: integer\n  def get_scheme_count(n, m, chessboard) do\n\n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec get_scheme_count(N :: integer(), M :: integer(), Chessboard :: [unicode:unicode_binary()]) -> integer().\nget_scheme_count(N, M, Chessboard) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (get-scheme-count n m chessboard)\n  (-> exact-integer? exact-integer? (listof string?) exact-integer?)\n\n  )"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"2.8K\", \"totalAcceptedRaw\": 1124, \"totalSubmissionRaw\": 2830, \"acRate\": \"39.7%\"}",
+    "topicTags": []
+  }
+}

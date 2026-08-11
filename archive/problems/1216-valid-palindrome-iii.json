@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:52Z",
+  "source": "https://leetcode.cn/problems/valid-palindrome-iii/",
+  "question": {
+    "questionId": "1178",
+    "questionFrontendId": "1216",
+    "title": "Valid Palindrome III",
+    "titleSlug": "valid-palindrome-iii",
+    "translatedTitle": "验证回文串 III",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 73,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcdeca\"\n2\n\"abbababa\"\n1",
+    "sampleTestCase": "\"abcdeca\"\n2",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"isValidPalindrome\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.1K\", \"totalSubmission\": \"7.1K\", \"totalAcceptedRaw\": 4072, \"totalSubmissionRaw\": 7115, \"acRate\": \"57.2%\"}",
+    "topicTags": [
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:10Z",
+  "source": "https://leetcode.cn/problems/count-univalue-subtrees/",
+  "question": {
+    "questionId": "250",
+    "questionFrontendId": "250",
+    "title": "Count Univalue Subtrees",
+    "titleSlug": "count-univalue-subtrees",
+    "translatedTitle": "统计同值子树",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 147,
+    "dislikes": 0,
+    "exampleTestcases": "[5,1,5,5,5,null,5]\n[]\n[5,5,5,5,5,null,5]",
+    "sampleTestCase": "[5,1,5,5,5,null,5]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"countUnivalSubtrees\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"13.1K\", \"totalSubmission\": \"20K\", \"totalAcceptedRaw\": 13125, \"totalSubmissionRaw\": 19999, \"acRate\": \"65.6%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      },
+      {
+        "name": "树形 DP",
+        "slug": "dp-on-trees",
+        "translatedName": null
+      }
+    ]
+  }
+}

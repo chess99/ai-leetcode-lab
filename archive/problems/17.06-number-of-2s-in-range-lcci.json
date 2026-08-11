@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:55Z",
+  "source": "https://leetcode.cn/problems/number-of-2s-in-range-lcci/",
+  "question": {
+    "questionId": "1000034",
+    "questionFrontendId": "面试题 17.06",
+    "title": "Number Of 2s In Range LCCI",
+    "titleSlug": "number-of-2s-in-range-lcci",
+    "translatedTitle": "2出现的次数",
+    "content": "<p>Write a method to count the number of 2s that appear in all the numbers between 0&nbsp;and n (inclusive).</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>25\r\n<strong>Output: </strong>9\r\n<strong>Explanation: </strong>(2, 12, 20, 21, 22, 23, 24, 25)(Note that 22 counts for two 2s.)</pre>\r\n\r\n<p>Note:</p>\r\n\r\n<ul>\r\n\t<li><code>n &lt;= 10^9</code></li>\r\n</ul>\r\n",
+    "translatedContent": "<p>编写一个方法，计算从 0 到 n (含 n) 中数字 2 出现的次数。</p>\n\n<p><strong>示例：</strong></p>\n\n<pre>\n<strong>输入：</strong>25\n<strong>输出：</strong>9\n<strong>解释：</strong>(2, 12, 20, 21, 22, 23, 24, 25)(注意 22 应该算作两次)</pre>\n\n<p>提示：</p>\n\n<ul>\n\t<li><code>n &lt;= 10^9</code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 89,
+    "dislikes": 0,
+    "exampleTestcases": "2",
+    "sampleTestCase": "2",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"numberOf2sInRange\", \"params\": [{\"name\": \"n\", \"type\": \"integer\"}], \"return\": {\"type\": \"integer\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int numberOf2sInRange(int n) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int numberOf2sInRange(int n) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def numberOf2sInRange(self, n: int) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def numberOf2sInRange(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number} n\n * @return {number}\n */\nvar numberOf2sInRange = function(n) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function numberOf2sInRange(n: number): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int NumberOf2sInRange(int n) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int numberOf2sInRange(int n) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func numberOf2sInRange(n int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun numberOf2sInRange(n: Int): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func numberOf2sInRange(_ n: Int) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn number_of2s_in_range(n: i32) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer} n\n# @return {Integer}\ndef number_of2s_in_range(n)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function numberOf2sInRange($n) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int numberOf2sInRange(int n) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def numberOf2sInRange(n: Int): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec number_of2s_in_range(n :: integer) :: integer\n  def number_of2s_in_range(n) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec number_of2s_in_range(N :: integer()) -> integer().\nnumber_of2s_in_range(N) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (number-of2s-in-range n)\n  (-> exact-integer? exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func numberOf2sInRange(n: Int64): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"15K\", \"totalSubmission\": \"29.6K\", \"totalAcceptedRaw\": 15003, \"totalSubmissionRaw\": 29570, \"acRate\": \"50.7%\"}",
+    "topicTags": [
+      {
+        "name": "Recursion",
+        "slug": "recursion",
+        "translatedName": "递归"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

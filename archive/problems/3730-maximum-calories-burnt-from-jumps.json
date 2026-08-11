@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:04Z",
+  "source": "https://leetcode.cn/problems/maximum-calories-burnt-from-jumps/",
+  "question": {
+    "questionId": "4109",
+    "questionFrontendId": "3730",
+    "title": "Maximum Calories Burnt from Jumps",
+    "titleSlug": "maximum-calories-burnt-from-jumps",
+    "translatedTitle": "跳跃燃烧的最大卡路里",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[1,7,9]\n[5,2,4]\n[3,3]",
+    "sampleTestCase": "[1,7,9]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxCaloriesBurnt\",\n  \"params\": [\n    {\n      \"name\": \"heights\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"186\", \"totalSubmission\": \"252\", \"totalAcceptedRaw\": 186, \"totalSubmissionRaw\": 252, \"acRate\": \"73.8%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

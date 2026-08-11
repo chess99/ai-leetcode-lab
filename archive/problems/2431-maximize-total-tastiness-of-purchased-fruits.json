@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:17Z",
+  "source": "https://leetcode.cn/problems/maximize-total-tastiness-of-purchased-fruits/",
+  "question": {
+    "questionId": "2570",
+    "questionFrontendId": "2431",
+    "title": "Maximize Total Tastiness of Purchased Fruits",
+    "titleSlug": "maximize-total-tastiness-of-purchased-fruits",
+    "translatedTitle": "最大限度地提高购买水果的口味",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "[10,20,20]\n[5,8,8]\n20\n1\n[10,15,7]\n[5,8,20]\n10\n2",
+    "sampleTestCase": "[10,20,20]\n[5,8,8]\n20\n1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxTastiness\",\n  \"params\": [\n    {\n      \"name\": \"price\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"tastiness\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"maxAmount\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"maxCoupons\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"870\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 870, \"totalSubmissionRaw\": 1375, \"acRate\": \"63.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

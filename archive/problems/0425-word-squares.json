@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:39Z",
+  "source": "https://leetcode.cn/problems/word-squares/",
+  "question": {
+    "questionId": "425",
+    "questionFrontendId": "425",
+    "title": "Word Squares",
+    "titleSlug": "word-squares",
+    "translatedTitle": "单词方块",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 111,
+    "dislikes": 0,
+    "exampleTestcases": "[\"area\",\"lead\",\"wall\",\"lady\",\"ball\"]\n[\"abat\",\"baba\",\"atan\",\"atal\"]",
+    "sampleTestCase": "[\"area\",\"lead\",\"wall\",\"lady\",\"ball\"]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"wordSquares\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<string>>\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"5.1K\", \"totalAcceptedRaw\": 3324, \"totalSubmissionRaw\": 5144, \"acRate\": \"64.6%\"}",
+    "topicTags": [
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:04Z",
+  "source": "https://leetcode.cn/problems/find-cutoff-score-for-each-school/",
+  "question": {
+    "questionId": "2136",
+    "questionFrontendId": "1988",
+    "title": "Find Cutoff Score for Each School",
+    "titleSlug": "find-cutoff-score-for-each-school",
+    "translatedTitle": "找出每所学校的最低分数要求",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 20,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Schools\":[\"school_id\",\"capacity\"],\"Exam\":[\"score\",\"student_count\"]},\"rows\":{\"Schools\":[[11,151],[5,48],[9,9],[10,99]],\"Exam\":[[975,10],[966,60],[844,76],[749,76],[744,100]]}}",
+    "sampleTestCase": "{\"headers\":{\"Schools\":[\"school_id\",\"capacity\"],\"Exam\":[\"score\",\"student_count\"]},\"rows\":{\"Schools\":[[11,151],[5,48],[9,9],[10,99]],\"Exam\":[[975,10],[966,60],[844,76],[749,76],[744,100]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Schools (school_id int, capacity int)\",\"Create table If Not Exists Exam (score int, student_count int)\"],\"mssql\":[\"Create table Schools (school_id int, capacity int)\",\"Create table Exam (score int, student_count int)\"],\"oraclesql\":[\"Create table Schools (school_id int, capacity int)\",\"Create table Exam (score int, student_count int)\"],\"database\":true,\"name\":\"find_cutoff_score\",\"pythondata\":[\"Schools = pd.DataFrame([], columns=['school_id', 'capacity']).astype({'school_id':'Int64', 'capacity':'Int64'})\",\"Exam = pd.DataFrame([], columns=['score', 'student_count']).astype({'score':'Int64', 'student_count':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Schools (school_id int, capacity int)\",\"Create table If Not Exists Exam (score int, student_count int)\"],\"database_schema\":{\"Schools\":{\"school_id\":\"INT\",\"capacity\":\"INT\"},\"Exam\":{\"score\":\"INT\",\"student_count\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.8K\", \"totalSubmission\": \"10.7K\", \"totalAcceptedRaw\": 6841, \"totalSubmissionRaw\": 10735, \"acRate\": \"63.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

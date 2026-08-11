@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:50Z",
+  "source": "https://leetcode.cn/problems/minimum-time-to-build-blocks/",
+  "question": {
+    "questionId": "1167",
+    "questionFrontendId": "1199",
+    "title": "Minimum Time to Build Blocks",
+    "titleSlug": "minimum-time-to-build-blocks",
+    "translatedTitle": "建造街区的最短时间",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 49,
+    "dislikes": 0,
+    "exampleTestcases": "[1]\n1\n[1,2]\n5\n[1,2,3]\n1",
+    "sampleTestCase": "[1]\n1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minBuildTime\",\n  \"params\": [\n    {\n      \"name\": \"blocks\",\n      \"type\": \"integer[]\"\n    },\n    {\n     \t\"name\": \"split\",\n      \t\"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"3.1K\", \"totalAcceptedRaw\": 1510, \"totalSubmissionRaw\": 3051, \"acRate\": \"49.5%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

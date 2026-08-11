@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:05Z",
+  "source": "https://leetcode.cn/problems/maximum-number-of-books-you-can-take/",
+  "question": {
+    "questionId": "2490",
+    "questionFrontendId": "2355",
+    "title": "Maximum Number of Books You Can Take",
+    "titleSlug": "maximum-number-of-books-you-can-take",
+    "translatedTitle": "你能拿走的最大图书数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 19,
+    "dislikes": 0,
+    "exampleTestcases": "[8,5,2,7,9]\n[7,0,3,4,5]\n[8,2,3,7,3,4,0,1,4,3]",
+    "sampleTestCase": "[8,5,2,7,9]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maximumBooks\",\n  \"params\": [\n    {\n      \"name\": \"books\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"740\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 740, \"totalSubmissionRaw\": 1588, \"acRate\": \"46.6%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Monotonic Stack",
+        "slug": "monotonic-stack",
+        "translatedName": "单调栈"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:20Z",
+  "source": "https://leetcode.cn/problems/apply-substitutions/",
+  "question": {
+    "questionId": "3825",
+    "questionFrontendId": "3481",
+    "title": "Apply Substitutions",
+    "titleSlug": "apply-substitutions",
+    "translatedTitle": "应用替换",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"A\",\"abc\"],[\"B\",\"def\"]]\n\"%A%_%B%\"\n[[\"A\",\"bce\"],[\"B\",\"ace\"],[\"C\",\"abc%B%\"]]\n\"%A%_%B%_%C%\"",
+    "sampleTestCase": "[[\"A\",\"abc\"],[\"B\",\"def\"]]\n\"%A%_%B%\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"applySubstitutions\",\n  \"params\": [\n    {\n      \"name\": \"replacements\",\n      \"type\": \"list<list<string>>\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"text\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"305\", \"totalSubmission\": \"357\", \"totalAcceptedRaw\": 305, \"totalSubmissionRaw\": 357, \"acRate\": \"85.4%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Topological Sort",
+        "slug": "topological-sort",
+        "translatedName": "拓扑排序"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

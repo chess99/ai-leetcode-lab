@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:37Z",
+  "source": "https://leetcode.cn/problems/next-palindrome-using-same-digits/",
+  "question": {
+    "questionId": "1997",
+    "questionFrontendId": "1842",
+    "title": "Next Palindrome Using Same Digits",
+    "titleSlug": "next-palindrome-using-same-digits",
+    "translatedTitle": "下个由相同数字构成的回文串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 9,
+    "dislikes": 0,
+    "exampleTestcases": "\"1221\"\n\"32123\"\n\"45544554\"",
+    "sampleTestCase": "\"1221\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"nextPalindrome\",\n  \"params\": [\n    {\n      \"name\": \"num\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"619\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 619, \"totalSubmissionRaw\": 1205, \"acRate\": \"51.4%\"}",
+    "topicTags": [
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

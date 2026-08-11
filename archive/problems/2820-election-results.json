@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:22Z",
+  "source": "https://leetcode.cn/problems/election-results/",
+  "question": {
+    "questionId": "3078",
+    "questionFrontendId": "2820",
+    "title": "Election Results",
+    "titleSlug": "election-results",
+    "translatedTitle": "选举结果",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Votes\":[\"voter\",\"candidate\"]},\"rows\":{\"Votes\":[[\"Kathy\",null],[\"Charles\",\"Ryan\"],[\"Charles\",\"Christine\"],[\"Charles\",\"Kathy\"],[\"Benjamin\",\"Christine\"],[\"Anthony\",\"Ryan\"],[\"Edward\",\"Ryan\"],[\"Terry\",null],[\"Evelyn\",\"Kathy\"],[\"Arthur\",\"Christine\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Votes\":[\"voter\",\"candidate\"]},\"rows\":{\"Votes\":[[\"Kathy\",null],[\"Charles\",\"Ryan\"],[\"Charles\",\"Christine\"],[\"Charles\",\"Kathy\"],[\"Benjamin\",\"Christine\"],[\"Anthony\",\"Ryan\"],[\"Edward\",\"Ryan\"],[\"Terry\",null],[\"Evelyn\",\"Kathy\"],[\"Arthur\",\"Christine\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists Votes(voter varchar(30), candidate varchar(30))\"],\"mssql\":[\"Create table Votes(voter varchar(30),candidate varchar(30))\"],\"oraclesql\":[\"Create table Votes(voter varchar(30),candidate varchar(30))\"],\"database\":true,\"name\":\"get_election_results\",\"pythondata\":[\"Votes = pd.DataFrame([], columns=['voter', 'candidate']).astype({'voter':'object', 'candidate':'object'})\"],\"postgresql\":[\"Create table if not exists Votes(voter varchar(30), candidate varchar(30))\"],\"database_schema\":{\"Votes\":{\"voter\":\"VARCHAR(30)\",\"candidate\":\"VARCHAR(30)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"2.5K\", \"totalAcceptedRaw\": 1547, \"totalSubmissionRaw\": 2524, \"acRate\": \"61.3%\"}",
+    "topicTags": []
+  }
+}

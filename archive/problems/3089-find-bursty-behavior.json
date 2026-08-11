@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:11Z",
+  "source": "https://leetcode.cn/problems/find-bursty-behavior/",
+  "question": {
+    "questionId": "3400",
+    "questionFrontendId": "3089",
+    "title": "Find Bursty Behavior",
+    "titleSlug": "find-bursty-behavior",
+    "translatedTitle": "查找突发行为",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Posts\": [\"post_id\", \"user_id\", \"post_date\"]}, \"rows\": {\"Posts\": [[1, 1, \"2024-02-27\"], [2, 5, \"2024-02-06\"], [3, 3, \"2024-02-25\"], [4, 3, \"2024-02-14\"], [5, 3, \"2024-02-06\"], [6, 2, \"2024-02-25\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Posts\": [\"post_id\", \"user_id\", \"post_date\"]}, \"rows\": {\"Posts\": [[1, 1, \"2024-02-27\"], [2, 5, \"2024-02-06\"], [3, 3, \"2024-02-25\"], [4, 3, \"2024-02-14\"], [5, 3, \"2024-02-06\"], [6, 2, \"2024-02-25\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Posts (post_id int, user_id int,  post_date date)\"],\"mssql\":[\"Create table Posts (post_id int, user_id int,  post_date date)\"],\"oraclesql\":[\"Create table Posts (post_id int, user_id int,  post_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"find_bursty_behavior\",\"pythondata\":[\"Posts = pd.DataFrame([], columns=['post_id', 'user_id', 'post_date']).astype({'post_id':'Int64', 'user_id':'Int64', 'post_date':'datetime64[ns]'})\\n\"],\"postgresql\":[\"CREATE TABLE Posts (\\n    post_id int,\\n    user_id int,\\n    post_date date\\n);\\n\",\"SELECT TO_CHAR(post_date, 'YYYY-MM-DD') AS formatted_post_date FROM Posts;\\n\"],\"database_schema\":{\"Posts\":{\"post_id\":\"INT\",\"user_id\":\"INT\",\"post_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"877\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 877, \"totalSubmissionRaw\": 2311, \"acRate\": \"37.9%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

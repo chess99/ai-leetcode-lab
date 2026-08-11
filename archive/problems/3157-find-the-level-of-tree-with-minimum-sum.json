@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:22Z",
+  "source": "https://leetcode.cn/problems/find-the-level-of-tree-with-minimum-sum/",
+  "question": {
+    "questionId": "3467",
+    "questionFrontendId": "3157",
+    "title": "Find the Level of Tree with Minimum Sum",
+    "titleSlug": "find-the-level-of-tree-with-minimum-sum",
+    "translatedTitle": "找到具有最小和的树的层数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[50,6,2,30,80,7]\n[36,17,10,null,null,24]\n[5,null,5,null,5]",
+    "sampleTestCase": "[50,6,2,30,80,7]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumLevel\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"427\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 427, \"totalSubmissionRaw\": 1449, \"acRate\": \"29.5%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

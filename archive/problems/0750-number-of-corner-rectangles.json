@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:32Z",
+  "source": "https://leetcode.cn/problems/number-of-corner-rectangles/",
+  "question": {
+    "questionId": "751",
+    "questionFrontendId": "750",
+    "title": "Number Of Corner Rectangles",
+    "titleSlug": "number-of-corner-rectangles",
+    "translatedTitle": "角矩形的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 108,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,0,0,1,0],[0,0,1,0,1],[0,0,0,1,0],[1,0,1,0,1]]\n[[1,1,1],[1,1,1],[1,1,1]]\n[[1,1,1,1]]",
+    "sampleTestCase": "[[1,0,0,1,0],[0,0,1,0,1],[0,0,0,1,0],[1,0,1,0,1]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"countCornerRectangles\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4K\", \"totalSubmission\": \"5.6K\", \"totalAcceptedRaw\": 4028, \"totalSubmissionRaw\": 5589, \"acRate\": \"72.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

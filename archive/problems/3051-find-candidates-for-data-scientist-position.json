@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:05Z",
+  "source": "https://leetcode.cn/problems/find-candidates-for-data-scientist-position/",
+  "question": {
+    "questionId": "3256",
+    "questionFrontendId": "3051",
+    "title": "Find Candidates for Data Scientist Position",
+    "titleSlug": "find-candidates-for-data-scientist-position",
+    "translatedTitle": "寻找数据科学家职位的候选人",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Candidates\":[\"candidate_id\",\"skill\"]},\"rows\":{\"Candidates\":[[123,\"Python\"],[234,\"R\"],[123,\"Tableau\"],[123,\"PostgreSQL\"],[234,\"PowerBI\"],[234,\"SQL Server\"],[147,\"Python\"],[147,\"Tableau\"],[147,\"Java\"],[147,\"PostgreSQL\"],[256,\"Tableau\"],[102,\"DataAnalysis\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Candidates\":[\"candidate_id\",\"skill\"]},\"rows\":{\"Candidates\":[[123,\"Python\"],[234,\"R\"],[123,\"Tableau\"],[123,\"PostgreSQL\"],[234,\"PowerBI\"],[234,\"SQL Server\"],[147,\"Python\"],[147,\"Tableau\"],[147,\"Java\"],[147,\"PostgreSQL\"],[256,\"Tableau\"],[102,\"DataAnalysis\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Candidates (candidate_id int, skill varchar(30))\"],\"mssql\":[\"Create table Candidates (candidate_id int, skill varchar(30))\"],\"oraclesql\":[\"Create table Candidates (candidate_id int, skill varchar(30))\"],\"database\":true,\"name\":\"find_candidates\",\"pythondata\":[\"Candidates = pd.DataFrame([], columns=['candidate_id', 'skill']).astype({'candidate_id':'Int64', 'skill':'object'})\\n\"],\"postgresql\":[\"Create table If Not Exists Candidates (candidate_id int, skill varchar(30))\\n\"],\"database_schema\":{\"Candidates\":{\"candidate_id\":\"INT\",\"skill\":\"VARCHAR(30)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 1381, \"totalSubmissionRaw\": 1856, \"acRate\": \"74.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:14Z",
+  "source": "https://leetcode.cn/problems/find-longest-self-contained-substring/",
+  "question": {
+    "questionId": "3410",
+    "questionFrontendId": "3104",
+    "title": "Find Longest Self-Contained Substring",
+    "titleSlug": "find-longest-self-contained-substring",
+    "translatedTitle": "查找最长的自包含子串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "\"abba\"\n\"abab\"\n\"abacd\"",
+    "sampleTestCase": "\"abba\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxSubstringLength\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"649\", \"totalSubmission\": \"1.8K\", \"totalAcceptedRaw\": 649, \"totalSubmissionRaw\": 1763, \"acRate\": \"36.8%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

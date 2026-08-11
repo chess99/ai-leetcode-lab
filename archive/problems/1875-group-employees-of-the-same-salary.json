@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:44Z",
+  "source": "https://leetcode.cn/problems/group-employees-of-the-same-salary/",
+  "question": {
+    "questionId": "2030",
+    "questionFrontendId": "1875",
+    "title": "Group Employees of the Same Salary",
+    "titleSlug": "group-employees-of-the-same-salary",
+    "translatedTitle": "将工资相同的雇员分组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Employees\":[\"employee_id\",\"name\",\"salary\"]},\"rows\":{\"Employees\":[[2,\"Meir\",3000],[3,\"Michael\",3000],[7,\"Addilyn\",7400],[8,\"Juan\",6100],[9,\"Kannon\",7400]]}}",
+    "sampleTestCase": "{\"headers\":{\"Employees\":[\"employee_id\",\"name\",\"salary\"]},\"rows\":{\"Employees\":[[2,\"Meir\",3000],[3,\"Michael\",3000],[7,\"Addilyn\",7400],[8,\"Juan\",6100],[9,\"Kannon\",7400]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Employees (employee_id int, name varchar(30), salary int)\"],\"mssql\":[\"Create table Employees (employee_id int, name varchar(30), salary int)\"],\"oraclesql\":[\"Create table Employees (employee_id int, name varchar(30), salary int)\"],\"database\":true,\"name\":\"employees_of_same_salary\",\"pythondata\":[\"Employees = pd.DataFrame([], columns=['employee_id', 'name', 'salary']).astype({'employee_id':'Int64', 'name':'object', 'salary':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Employees (employee_id int, name varchar(30), salary int)\"],\"database_schema\":{\"Employees\":{\"employee_id\":\"INT\",\"name\":\"VARCHAR(30)\",\"salary\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.4K\", \"totalSubmission\": \"7.3K\", \"totalAcceptedRaw\": 4405, \"totalSubmissionRaw\": 7287, \"acRate\": \"60.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

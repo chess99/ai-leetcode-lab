@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:24Z",
+  "source": "https://leetcode.cn/problems/find-the-quiet-students-in-all-exams/",
+  "question": {
+    "questionId": "1546",
+    "questionFrontendId": "1412",
+    "title": "Find the Quiet Students in All Exams",
+    "titleSlug": "find-the-quiet-students-in-all-exams",
+    "translatedTitle": "查找成绩处于中游的学生",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 34,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Student\": [\"student_id\", \"student_name\"], \"Exam\": [\"exam_id\", \"student_id\", \"score\"]}, \"rows\": {\"Student\": [[1, \"Daniel\"], [2, \"Jade\"], [3, \"Stella\"], [4, \"Jonathan\"], [5, \"Will\"]], \"Exam\": [[10, 1, 70], [10, 2, 80], [10, 3, 90], [20, 1, 80], [30, 1, 70], [30, 3, 80], [30, 4, 90], [40, 1, 60], [40, 2, 70], [40, 4, 80]]}}",
+    "sampleTestCase": "{\"headers\": {\"Student\": [\"student_id\", \"student_name\"], \"Exam\": [\"exam_id\", \"student_id\", \"score\"]}, \"rows\": {\"Student\": [[1, \"Daniel\"], [2, \"Jade\"], [3, \"Stella\"], [4, \"Jonathan\"], [5, \"Will\"]], \"Exam\": [[10, 1, 70], [10, 2, 80], [10, 3, 90], [20, 1, 80], [30, 1, 70], [30, 3, 80], [30, 4, 90], [40, 1, 60], [40, 2, 70], [40, 4, 80]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Student (student_id int, student_name varchar(30))\",\"Create table If Not Exists Exam (exam_id int, student_id int, score int)\"],\"mssql\":[\"Create table Student (student_id int, student_name varchar(30))\",\"Create table Exam (exam_id int, student_id int, score int)\"],\"oraclesql\":[\"Create table Student (student_id int, student_name varchar(30))\",\"Create table Exam (exam_id int, student_id int, score int)\"],\"database\":true,\"name\":\"find_quiet_students\",\"pythondata\":[\"Student = pd.DataFrame([], columns=['student_id', 'student_name']).astype({'student_id':'Int64', 'student_name':'object'})\",\"Exam = pd.DataFrame([], columns=['exam_id', 'student_id', 'score']).astype({'exam_id':'Int64', 'student_id':'Int64', 'score':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Student (student_id int, student_name varchar(30))\\n\",\"Create table If Not Exists Exam (exam_id int, student_id int, score int)\"],\"database_schema\":{\"Student\":{\"student_id\":\"INT\",\"student_name\":\"VARCHAR(30)\"},\"Exam\":{\"exam_id\":\"INT\",\"student_id\":\"INT\",\"score\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"13.9K\", \"totalSubmission\": \"27.4K\", \"totalAcceptedRaw\": 13918, \"totalSubmissionRaw\": 27405, \"acRate\": \"50.8%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

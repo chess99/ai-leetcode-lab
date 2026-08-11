@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:28Z",
+  "source": "https://leetcode.cn/problems/number-of-subarrays-having-even-product/",
+  "question": {
+    "questionId": "2638",
+    "questionFrontendId": "2495",
+    "title": "Number of Subarrays Having Even Product",
+    "titleSlug": "number-of-subarrays-having-even-product",
+    "translatedTitle": "乘积为偶数的子数组数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 8,
+    "dislikes": 0,
+    "exampleTestcases": "[9,6,7,13]\n[7,3,5]",
+    "sampleTestCase": "[9,6,7,13]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"evenProduct\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"2.4K\", \"totalAcceptedRaw\": 1455, \"totalSubmissionRaw\": 2381, \"acRate\": \"61.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

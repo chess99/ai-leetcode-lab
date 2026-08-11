@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:09Z",
+  "source": "https://leetcode.cn/problems/ads-performance/",
+  "question": {
+    "questionId": "1453",
+    "questionFrontendId": "1322",
+    "title": "Ads Performance",
+    "titleSlug": "ads-performance",
+    "translatedTitle": "广告效果",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 54,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Ads\":[\"ad_id\",\"user_id\",\"action\"]},\"rows\":{\"Ads\":[[1,1,\"Clicked\"],[2,2,\"Clicked\"],[3,3,\"Viewed\"],[5,5,\"Ignored\"],[1,7,\"Ignored\"],[2,7,\"Viewed\"],[3,5,\"Clicked\"],[1,4,\"Viewed\"],[2,11,\"Viewed\"],[1,2,\"Clicked\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Ads\":[\"ad_id\",\"user_id\",\"action\"]},\"rows\":{\"Ads\":[[1,1,\"Clicked\"],[2,2,\"Clicked\"],[3,3,\"Viewed\"],[5,5,\"Ignored\"],[1,7,\"Ignored\"],[2,7,\"Viewed\"],[3,5,\"Clicked\"],[1,4,\"Viewed\"],[2,11,\"Viewed\"],[1,2,\"Clicked\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Ads (ad_id int, user_id int, action ENUM('Clicked', 'Viewed', 'Ignored'))\"],\"mssql\":[\"Create table Ads (ad_id int, user_id int, action VARCHAR(10) NOT NULL CHECK (action IN ('Clicked', 'Viewed', 'Ignored')))\"],\"oraclesql\":[\"Create table Ads (ad_id int, user_id int, action VARCHAR(10) NOT NULL CHECK (action IN ('Clicked', 'Viewed', 'Ignored')))\"],\"database\":true,\"name\":\"ads_performance\",\"pythondata\":[\"Ads = pd.DataFrame([], columns=['ad_id', 'user_id']).astype({'ad_id':'Int64', 'user_id':'Int64', 'action':'object'})\"],\"postgresql\":[\"Create table If Not Exists Ads (ad_id int, user_id int, action VARCHAR(30) CHECK (action IN ('Clicked', 'Viewed', 'Ignored')))\\n\"],\"database_schema\":{\"Ads\":{\"ad_id\":\"INT\",\"user_id\":\"INT\",\"action\":\"ENUM('Clicked', 'Viewed', 'Ignored')\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"13.1K\", \"totalSubmission\": \"21.9K\", \"totalAcceptedRaw\": 13088, \"totalSubmissionRaw\": 21903, \"acRate\": \"59.8%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

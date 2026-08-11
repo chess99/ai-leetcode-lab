@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:55Z",
+  "source": "https://leetcode.cn/problems/build-binary-expression-tree-from-infix-expression/",
+  "question": {
+    "questionId": "1736",
+    "questionFrontendId": "1597",
+    "title": "Build Binary Expression Tree From Infix Expression",
+    "titleSlug": "build-binary-expression-tree-from-infix-expression",
+    "translatedTitle": "根据中缀表达式构造二叉表达式树",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 32,
+    "dislikes": 0,
+    "exampleTestcases": "\"3*4-2*5\"\n\"2-3/(5*2)+1\"\n\"1+2+3+4+5\"",
+    "sampleTestCase": "\"3*4-2*5\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"expTree\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"TreeNode\"\n  },\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"python3\",\n    \"csharp\",\n    \"javascript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 1066, \"totalSubmissionRaw\": 1613, \"acRate\": \"66.1%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

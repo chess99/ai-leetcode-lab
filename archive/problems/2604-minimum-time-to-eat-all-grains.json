@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:47Z",
+  "source": "https://leetcode.cn/problems/minimum-time-to-eat-all-grains/",
+  "question": {
+    "questionId": "2666",
+    "questionFrontendId": "2604",
+    "title": "Minimum Time to Eat All Grains",
+    "titleSlug": "minimum-time-to-eat-all-grains",
+    "translatedTitle": "吃掉所有谷子的最短时间",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "[3,6,7]\n[2,4,7,9]\n[4,6,109,111,213,215]\n[5,110,214]",
+    "sampleTestCase": "[3,6,7]\n[2,4,7,9]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumTime\",\n  \"params\": [\n    {\n      \"name\": \"hens\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"grains\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"631\", \"totalSubmission\": \"2.5K\", \"totalAcceptedRaw\": 631, \"totalSubmissionRaw\": 2508, \"acRate\": \"25.2%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

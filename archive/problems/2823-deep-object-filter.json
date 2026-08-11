@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:23Z",
+  "source": "https://leetcode.cn/problems/deep-object-filter/",
+  "question": {
+    "questionId": "2912",
+    "questionFrontendId": "2823",
+    "title": "Deep Object Filter",
+    "titleSlug": "deep-object-filter",
+    "translatedTitle": "深度对象筛选",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[-5,-4,-3,-2,-1,0,1]\n(x) => x > 0\n{\"a\":1,\"b\":\"2\",\"c\":3,\"d\":\"4\",\"e\":5,\"f\":6,\"g\":{\"a\":1}}\n(x) => typeof x === \"string\"\n[-1,[-1,-1,5,-1,10],-1,[-1],[-5]]\n(x) => x > 0\n[[[[5]]]]\n(x) => Array.isArray(x)",
+    "sampleTestCase": "[-5,-4,-3,-2,-1,0,1]\n(x) => x > 0",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"deepFilter\",\n  \"params\": [\n    {\n      \"name\": \"obj\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"fn\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"354\", \"totalSubmission\": \"769\", \"totalAcceptedRaw\": 354, \"totalSubmissionRaw\": 769, \"acRate\": \"46.0%\"}",
+    "topicTags": []
+  }
+}

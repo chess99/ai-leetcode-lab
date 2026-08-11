@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:28Z",
+  "source": "https://leetcode.cn/problems/logger-rate-limiter/",
+  "question": {
+    "questionId": "359",
+    "questionFrontendId": "359",
+    "title": "Logger Rate Limiter",
+    "titleSlug": "logger-rate-limiter",
+    "translatedTitle": "日志速率限制器",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 104,
+    "dislikes": 0,
+    "exampleTestcases": "[\"Logger\",\"shouldPrintMessage\",\"shouldPrintMessage\",\"shouldPrintMessage\",\"shouldPrintMessage\",\"shouldPrintMessage\",\"shouldPrintMessage\"]\n[[],[1,\"foo\"],[2,\"bar\"],[3,\"foo\"],[8,\"bar\"],[10,\"foo\"],[11,\"foo\"]]",
+    "sampleTestCase": "[\"Logger\",\"shouldPrintMessage\",\"shouldPrintMessage\",\"shouldPrintMessage\",\"shouldPrintMessage\",\"shouldPrintMessage\",\"shouldPrintMessage\"]\n[[],[1,\"foo\"],[2,\"bar\"],[3,\"foo\"],[8,\"bar\"],[10,\"foo\"],[11,\"foo\"]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"Logger\",\n  \"constructor\": {\n    \"params\": []\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"timestamp\"\n        },\n        {\n          \"type\": \"string\",\n          \"name\": \"message\"\n        }\n      ],\n      \"name\": \"shouldPrintMessage\",\n      \"return\": {\n        \"type\": \"boolean\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"11.1K\", \"totalSubmission\": \"15.3K\", \"totalAcceptedRaw\": 11080, \"totalSubmissionRaw\": 15324, \"acRate\": \"72.3%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Data Stream",
+        "slug": "data-stream",
+        "translatedName": "数据流"
+      }
+    ]
+  }
+}

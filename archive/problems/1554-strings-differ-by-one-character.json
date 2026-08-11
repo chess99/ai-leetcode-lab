@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:48Z",
+  "source": "https://leetcode.cn/problems/strings-differ-by-one-character/",
+  "question": {
+    "questionId": "1697",
+    "questionFrontendId": "1554",
+    "title": "Strings Differ by One Character",
+    "titleSlug": "strings-differ-by-one-character",
+    "translatedTitle": "只有一个不同字符的字符串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 34,
+    "dislikes": 0,
+    "exampleTestcases": "[\"abcd\",\"acbd\", \"aacd\"]\n[\"ab\",\"cd\",\"yz\"]\n[\"abcd\",\"cccc\",\"abyd\",\"abab\"]",
+    "sampleTestCase": "[\"abcd\",\"acbd\", \"aacd\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"differByOne\",\n  \"params\": [\n    {\n      \"name\": \"dict\",\n      \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.9K\", \"totalSubmission\": \"4.5K\", \"totalAcceptedRaw\": 1889, \"totalSubmissionRaw\": 4466, \"acRate\": \"42.3%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Hash Function",
+        "slug": "hash-function",
+        "translatedName": "哈希函数"
+      },
+      {
+        "name": "Rolling Hash",
+        "slug": "rolling-hash",
+        "translatedName": "滚动哈希"
+      }
+    ]
+  }
+}

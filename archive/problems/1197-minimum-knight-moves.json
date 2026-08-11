@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:49Z",
+  "source": "https://leetcode.cn/problems/minimum-knight-moves/",
+  "question": {
+    "questionId": "1142",
+    "questionFrontendId": "1197",
+    "title": "Minimum Knight Moves",
+    "titleSlug": "minimum-knight-moves",
+    "translatedTitle": "进击的骑士",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 126,
+    "dislikes": 0,
+    "exampleTestcases": "2\n1\n5\n5",
+    "sampleTestCase": "2\n1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minKnightMoves\",\n  \"params\": [\n    {\n      \"name\": \"x\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"y\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"11.1K\", \"totalSubmission\": \"26.4K\", \"totalAcceptedRaw\": 11110, \"totalSubmissionRaw\": 26376, \"acRate\": \"42.1%\"}",
+    "topicTags": [
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "双向搜索",
+        "slug": "bidirectional-search",
+        "translatedName": null
+      },
+      {
+        "name": "A* 搜索",
+        "slug": "a-search",
+        "translatedName": null
+      },
+      {
+        "name": "Heuristic Search",
+        "slug": "heuristic-search",
+        "translatedName": null
+      }
+    ]
+  }
+}

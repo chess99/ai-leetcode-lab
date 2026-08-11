@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:25Z",
+  "source": "https://leetcode.cn/problems/make-a-positive-array/",
+  "question": {
+    "questionId": "3855",
+    "questionFrontendId": "3511",
+    "title": "Make a Positive Array",
+    "titleSlug": "make-a-positive-array",
+    "translatedTitle": "构造正数组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "[-10,15,-12]\n[-1,-2,3,-1,2,6]\n[1,2,3]",
+    "sampleTestCase": "[-10,15,-12]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"makeArrayPositive\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"352\", \"totalSubmission\": \"945\", \"totalAcceptedRaw\": 352, \"totalSubmissionRaw\": 945, \"acRate\": \"37.2%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

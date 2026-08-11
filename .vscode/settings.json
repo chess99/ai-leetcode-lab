@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    ".runtime": true
+  },
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./tests",
+    "-p",
+    "test_*.py"
+  ]
+}

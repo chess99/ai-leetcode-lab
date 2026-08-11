@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:36Z",
+  "source": "https://leetcode.cn/problems/sales-by-day-of-the-week/",
+  "question": {
+    "questionId": "1623",
+    "questionFrontendId": "1479",
+    "title": "Sales by Day of the Week",
+    "titleSlug": "sales-by-day-of-the-week",
+    "translatedTitle": "周内每天的销售情况",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 22,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Orders\": [\"order_id\", \"customer_id\", \"order_date\", \"item_id\", \"quantity\"], \"Items\": [\"item_id\", \"item_name\", \"item_category\"]}, \"rows\": {\"Orders\": [[1, 1, \"2020-06-01\", 1, 10], [2, 1, \"2020-06-08\", 2, 10], [3, 2, \"2020-06-02\", 1, 5], [4, 3, \"2020-06-03\", 3, 5], [5, 4, \"2020-06-04\", 4, 1], [6, 4, \"2020-06-05\", 5, 5], [7, 5, \"2020-06-05\", 1, 10], [8, 5, \"2020-06-14\", 4, 5], [9, 5, \"2020-06-21\", 3, 5]], \"Items\": [[1, \"LC Alg. Book\", \"Book\"], [2, \"LC DB. Book\", \"Book\"], [3, \"LC SmarthPhone\", \"Phone\"], [4, \"LC Phone 2020\", \"Phone\"], [5, \"LC SmartGlass\", \"Glasses\"], [6, \"LC T-Shirt XL\", \"T-shirt\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Orders\": [\"order_id\", \"customer_id\", \"order_date\", \"item_id\", \"quantity\"], \"Items\": [\"item_id\", \"item_name\", \"item_category\"]}, \"rows\": {\"Orders\": [[1, 1, \"2020-06-01\", 1, 10], [2, 1, \"2020-06-08\", 2, 10], [3, 2, \"2020-06-02\", 1, 5], [4, 3, \"2020-06-03\", 3, 5], [5, 4, \"2020-06-04\", 4, 1], [6, 4, \"2020-06-05\", 5, 5], [7, 5, \"2020-06-05\", 1, 10], [8, 5, \"2020-06-14\", 4, 5], [9, 5, \"2020-06-21\", 3, 5]], \"Items\": [[1, \"LC Alg. Book\", \"Book\"], [2, \"LC DB. Book\", \"Book\"], [3, \"LC SmarthPhone\", \"Phone\"], [4, \"LC Phone 2020\", \"Phone\"], [5, \"LC SmartGlass\", \"Glasses\"], [6, \"LC T-Shirt XL\", \"T-shirt\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Orders (order_id int, customer_id int, order_date date, item_id varchar(30), quantity int)\",\"Create table If Not Exists Items (item_id varchar(30), item_name varchar(30), item_category varchar(30))\"],\"mssql\":[\"Create table Orders (order_id int, customer_id int, order_date date, item_id varchar(30), quantity int)\",\"Create table Items (item_id varchar(30), item_name varchar(30), item_category varchar(30))\"],\"oraclesql\":[\"Create table Orders (order_id int, customer_id int, order_date date, item_id varchar(30), quantity int)\",\"Create table Items (item_id varchar(30), item_name varchar(30), item_category varchar(30))\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"sales_by_day\",\"pythondata\":[\"Orders = pd.DataFrame([], columns=['order_id', 'customer_id', 'order_date', 'item_id', 'quantity']).astype({'order_id':'Int64', 'customer_id':'Int64', 'order_date':'datetime64[ns]', 'item_id':'object', 'quantity':'Int64'})\",\"Items = pd.DataFrame([], columns=['item_id', 'item_name', 'item_category']).astype({'item_id':'object', 'item_name':'object', 'item_category':'object'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Orders (order_id int, customer_id int, order_date date, item_id varchar(30), quantity int)\",\"Create table If Not Exists Items (item_id varchar(30), item_name varchar(30), item_category varchar(30))\"],\"database_schema\":{\"Orders\":{\"order_id\":\"INT\",\"customer_id\":\"INT\",\"order_date\":\"DATE\",\"item_id\":\"VARCHAR(30)\",\"quantity\":\"INT\"},\"Items\":{\"item_id\":\"VARCHAR(30)\",\"item_name\":\"VARCHAR(30)\",\"item_category\":\"VARCHAR(30)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.6K\", \"totalSubmission\": \"9.6K\", \"totalAcceptedRaw\": 5601, \"totalSubmissionRaw\": 9567, \"acRate\": \"58.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

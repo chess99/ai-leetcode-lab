@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:01Z",
+  "source": "https://leetcode.cn/problems/immutability-helper/",
+  "question": {
+    "questionId": "2773",
+    "questionFrontendId": "2691",
+    "title": "Immutability Helper",
+    "titleSlug": "immutability-helper",
+    "translatedTitle": "不可变辅助工具",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "{\"val\":10}\n[proxy => { proxy.val += 1; }, proxy => { proxy.val -= 1; }]\n{\"arr\":[1,2,3]}\n[proxy => { proxy.arr[0] = 5; proxy.newVal = proxy.arr[0] + proxy.arr[1]; }]\n{\"obj\":{\"val\":{\"x\":10,\"y\":20}}}\n[proxy => { let data = proxy.obj.val; let temp = data.x; data.x = data.y; data.y = temp; }]",
+    "sampleTestCase": "{\"val\":10}\n[proxy => { proxy.val += 1; }, proxy => { proxy.val -= 1; }]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"produce\",\n  \"params\": [\n    {\n      \"name\": \"obj\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"mutator\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"187\", \"totalSubmission\": \"618\", \"totalAcceptedRaw\": 187, \"totalSubmissionRaw\": 618, \"acRate\": \"30.3%\"}",
+    "topicTags": []
+  }
+}

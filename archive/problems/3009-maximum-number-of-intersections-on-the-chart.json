@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:58Z",
+  "source": "https://leetcode.cn/problems/maximum-number-of-intersections-on-the-chart/",
+  "question": {
+    "questionId": "3315",
+    "questionFrontendId": "3009",
+    "title": "Maximum Number of Intersections on the Chart",
+    "titleSlug": "maximum-number-of-intersections-on-the-chart",
+    "translatedTitle": "折线图上的最大交点数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,1,2,1,3,2]\n[2,1,3,4,5]",
+    "sampleTestCase": "[1,2,1,2,1,3,2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxIntersectionCount\",\n  \"params\": [\n    {\n      \"name\": \"y\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"517\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 517, \"totalSubmissionRaw\": 1897, \"acRate\": \"27.3%\"}",
+    "topicTags": [
+      {
+        "name": "Binary Indexed Tree",
+        "slug": "binary-indexed-tree",
+        "translatedName": "树状数组"
+      },
+      {
+        "name": "Geometry",
+        "slug": "geometry",
+        "translatedName": "几何"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Sweep Line",
+        "slug": "sweep-line",
+        "translatedName": "扫描线"
+      }
+    ]
+  }
+}

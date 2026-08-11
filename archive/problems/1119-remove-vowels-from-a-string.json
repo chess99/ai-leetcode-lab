@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:37Z",
+  "source": "https://leetcode.cn/problems/remove-vowels-from-a-string/",
+  "question": {
+    "questionId": "1089",
+    "questionFrontendId": "1119",
+    "title": "Remove Vowels from a String",
+    "titleSlug": "remove-vowels-from-a-string",
+    "translatedTitle": "删去字符串中的元音",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 22,
+    "dislikes": 0,
+    "exampleTestcases": "\"leetcodeisacommunityforcoders\"\n\"aeiou\"",
+    "sampleTestCase": "\"leetcodeisacommunityforcoders\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"removeVowels\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"manual\": false\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"11.6K\", \"totalSubmission\": \"13.3K\", \"totalAcceptedRaw\": 11607, \"totalSubmissionRaw\": 13315, \"acRate\": \"87.2%\"}",
+    "topicTags": [
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

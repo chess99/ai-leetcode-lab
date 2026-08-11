@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:57Z",
+  "source": "https://leetcode.cn/problems/check-for-contradictions-in-equations/",
+  "question": {
+    "questionId": "2065",
+    "questionFrontendId": "2307",
+    "title": "Check for Contradictions in Equations",
+    "titleSlug": "check-for-contradictions-in-equations",
+    "translatedTitle": "检查方程中的矛盾之处",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 9,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"a\",\"b\"],[\"b\",\"c\"],[\"a\",\"c\"]]\n[3,0.5,1.5]\n[[\"le\",\"et\"],[\"le\",\"code\"],[\"code\",\"et\"]]\n[2,5,0.5]",
+    "sampleTestCase": "[[\"a\",\"b\"],[\"b\",\"c\"],[\"a\",\"c\"]]\n[3,0.5,1.5]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"checkContradictions\",\n  \"params\": [\n    {\n      \"name\": \"equations\",\n      \"type\": \"list<list<string>>\"\n    },\n    {\n      \"type\": \"double[]\",\n      \"name\": \"values\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"582\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 582, \"totalSubmissionRaw\": 1291, \"acRate\": \"45.1%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

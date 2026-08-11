@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:58Z",
+  "source": "https://leetcode.cn/problems/throttle/",
+  "question": {
+    "questionId": "2771",
+    "questionFrontendId": "2676",
+    "title": "Throttle",
+    "titleSlug": "throttle",
+    "translatedTitle": "节流",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "100\n[{\"t\":20,\"inputs\":[1]}]\n50\n[{\"t\":50,\"inputs\":[1]},{\"t\":75,\"inputs\":[2]}]\n70\n[{\"t\":50,\"inputs\":[1]},{\"t\":75,\"inputs\":[2]},{\"t\":90,\"inputs\":[8]},{\"t\": 140, \"inputs\":[5,7]},{\"t\": 300, \"inputs\": [9,4]}]",
+    "sampleTestCase": "100\n[{\"t\":20,\"inputs\":[1]}]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"throttle\",\n  \"params\": [\n    {\n      \"name\": \"t\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"fn\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.7K\", \"totalSubmission\": \"3.1K\", \"totalAcceptedRaw\": 1655, \"totalSubmissionRaw\": 3118, \"acRate\": \"53.1%\"}",
+    "topicTags": []
+  }
+}

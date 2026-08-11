@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:37:53Z",
+  "source": "https://leetcode.cn/problems/binary-tree-upside-down/",
+  "question": {
+    "questionId": "156",
+    "questionFrontendId": "156",
+    "title": "Binary Tree Upside Down",
+    "titleSlug": "binary-tree-upside-down",
+    "translatedTitle": "上下翻转二叉树",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 151,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3,4,5]\n[]\n[1]",
+    "sampleTestCase": "[1,2,3,4,5]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"upsideDownBinaryTree\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\",\n      \"dealloc\": false\n    }\n  ],\n  \"return\": {\n    \"type\": \"TreeNode\",\n    \"dealloc\": true\n  },\n  \"manual\": false\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"17.6K\", \"totalSubmission\": \"23.9K\", \"totalAcceptedRaw\": 17613, \"totalSubmissionRaw\": 23897, \"acRate\": \"73.7%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:50Z",
+  "source": "https://leetcode.cn/problems/unique-orders-and-customers-per-month/",
+  "question": {
+    "questionId": "1712",
+    "questionFrontendId": "1565",
+    "title": "Unique Orders and Customers Per Month",
+    "titleSlug": "unique-orders-and-customers-per-month",
+    "translatedTitle": "按月统计订单数与顾客数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 12,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Orders\":[\"order_id\",\"order_date\",\"customer_id\",\"invoice\"]},\"rows\":{\"Orders\":[[1,\"2020-09-15\",1,30],[2,\"2020-09-17\",2,90],[3,\"2020-10-06\",3,20],[4,\"2020-10-20\",3,21],[5,\"2020-11-10\",1,10],[6,\"2020-11-21\",2,15],[7,\"2020-12-01\",4,55],[8,\"2020-12-03\",4,77],[9,\"2021-01-07\",3,31],[10,\"2021-01-15\",2,20]]}}",
+    "sampleTestCase": "{\"headers\":{\"Orders\":[\"order_id\",\"order_date\",\"customer_id\",\"invoice\"]},\"rows\":{\"Orders\":[[1,\"2020-09-15\",1,30],[2,\"2020-09-17\",2,90],[3,\"2020-10-06\",3,20],[4,\"2020-10-20\",3,21],[5,\"2020-11-10\",1,10],[6,\"2020-11-21\",2,15],[7,\"2020-12-01\",4,55],[8,\"2020-12-03\",4,77],[9,\"2021-01-07\",3,31],[10,\"2021-01-15\",2,20]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Orders (order_id int, order_date date, customer_id int, invoice int)\"],\"mssql\":[\"Create table Orders (order_id int, order_date date, customer_id int, invoice int)\"],\"oraclesql\":[\"Create table Orders (order_id int, order_date date, customer_id int, invoice int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"unique_orders_and_customers\",\"pythondata\":[\"Orders = pd.DataFrame([], columns=['order_id', 'order_date', 'customer_id', 'invoice']).astype({'order_id':'Int64', 'order_date':'datetime64[ns]', 'customer_id':'Int64', 'invoice':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Orders (order_id int, order_date date, customer_id int, invoice int)\"],\"database_schema\":{\"Orders\":{\"order_id\":\"INT\",\"order_date\":\"DATE\",\"customer_id\":\"INT\",\"invoice\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"8.2K\", \"totalSubmission\": \"10.8K\", \"totalAcceptedRaw\": 8155, \"totalSubmissionRaw\": 10785, \"acRate\": \"75.6%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

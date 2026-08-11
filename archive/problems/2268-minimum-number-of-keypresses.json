@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:51Z",
+  "source": "https://leetcode.cn/problems/minimum-number-of-keypresses/",
+  "question": {
+    "questionId": "2405",
+    "questionFrontendId": "2268",
+    "title": "Minimum Number of Keypresses",
+    "titleSlug": "minimum-number-of-keypresses",
+    "translatedTitle": "最少按键次数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 10,
+    "dislikes": 0,
+    "exampleTestcases": "\"apple\"\n\"abcdefghijkl\"",
+    "sampleTestCase": "\"apple\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumKeypresses\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1K\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 1017, \"totalSubmissionRaw\": 1635, \"acRate\": \"62.2%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:39Z",
+  "source": "https://leetcode.cn/problems/convert-date-format/",
+  "question": {
+    "questionId": "2004",
+    "questionFrontendId": "1853",
+    "title": "Convert Date Format",
+    "titleSlug": "convert-date-format",
+    "translatedTitle": "转换日期格式",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 19,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Days\":[\"day\"]},\"rows\":{\"Days\":[[\"2022-04-12\"],[\"2021-08-09\"],[\"2020-06-26\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Days\":[\"day\"]},\"rows\":{\"Days\":[[\"2022-04-12\"],[\"2021-08-09\"],[\"2020-06-26\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Days (day date)\"],\"mssql\":[\"Create table Days (day date)\"],\"oraclesql\":[\"Create table Days (day date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"convert_date_format\",\"pythondata\":[\"Days = pd.DataFrame([], columns=['day']).astype({'day':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Days (day date)\"],\"database_schema\":{\"Days\":{\"day\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.9K\", \"totalSubmission\": \"7.5K\", \"totalAcceptedRaw\": 4943, \"totalSubmissionRaw\": 7495, \"acRate\": \"66.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

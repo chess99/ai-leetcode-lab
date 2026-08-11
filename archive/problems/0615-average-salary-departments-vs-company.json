@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:10Z",
+  "source": "https://leetcode.cn/problems/average-salary-departments-vs-company/",
+  "question": {
+    "questionId": "615",
+    "questionFrontendId": "615",
+    "title": "Average Salary: Departments VS Company",
+    "titleSlug": "average-salary-departments-vs-company",
+    "translatedTitle": "平均工资：部门与公司比较",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 63,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Salary\":[\"id\",\"employee_id\",\"amount\",\"pay_date\"],\"Employee\":[\"employee_id\",\"department_id\"]},\"rows\":{\"Salary\":[[1,1,9000,\"2017/03/31\"],[2,2,6000,\"2017/03/31\"],[3,3,10000,\"2017/03/31\"],[4,1,7000,\"2017/02/28\"],[5,2,6000,\"2017/02/28\"],[6,3,8000,\"2017/02/28\"]],\"Employee\":[[1,1],[2,2],[3,2]]}}",
+    "sampleTestCase": "{\"headers\":{\"Salary\":[\"id\",\"employee_id\",\"amount\",\"pay_date\"],\"Employee\":[\"employee_id\",\"department_id\"]},\"rows\":{\"Salary\":[[1,1,9000,\"2017/03/31\"],[2,2,6000,\"2017/03/31\"],[3,3,10000,\"2017/03/31\"],[4,1,7000,\"2017/02/28\"],[5,2,6000,\"2017/02/28\"],[6,3,8000,\"2017/02/28\"]],\"Employee\":[[1,1],[2,2],[3,2]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Salary (id int, employee_id int, amount int, pay_date date)\",\"Create table If Not Exists Employee (employee_id int, department_id int)\"],\"mssql\":[\"Create table Salary (id int, employee_id int, amount int, pay_date date)\",\"Create table Employee (employee_id int, department_id int)\"],\"oraclesql\":[\"Create table Salary (id int, employee_id int, amount int, pay_date date)\",\"Create table Employee (employee_id int, department_id int)\",\"alter SESSION set NLS_DATE_FORMAT = 'YYYY\\/MM\\/DD'\"],\"database\":true,\"name\":\"average_salary\",\"pythondata\":[\"Salary = pd.DataFrame([], columns=['id', 'employee_id', 'amount', 'pay_date']).astype({'id':'Int64', 'employee_id':'Int64', 'amount':'Int64', 'pay_date':'datetime64[ns]'})\",\"Employee = pd.DataFrame([], columns=['employee_id', 'department_id']).astype({'employee_id':'Int64', 'department_id':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Salary (id int, employee_id int, amount int, pay_date date)\\n\",\"Create table If Not Exists Employee (employee_id int, department_id int)\"],\"database_schema\":{\"Salary\":{\"id\":\"INT\",\"employee_id\":\"INT\",\"amount\":\"INT\",\"pay_date\":\"DATE\"},\"Employee\":{\"employee_id\":\"INT\",\"department_id\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"14.4K\", \"totalSubmission\": \"32.2K\", \"totalAcceptedRaw\": 14373, \"totalSubmissionRaw\": 32173, \"acRate\": \"44.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:27Z",
+  "source": "https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/",
+  "question": {
+    "questionId": "1888",
+    "questionFrontendId": "1779",
+    "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+    "titleSlug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+    "translatedTitle": "找到最近的有相同 X 或 Y 坐标的点",
+    "content": "<p>You are given two integers, <code>x</code> and <code>y</code>, which represent your current location on a Cartesian grid: <code>(x, y)</code>. You are also given an array <code>points</code> where each <code>points[i] = [a<sub>i</sub>, b<sub>i</sub>]</code> represents that a point exists at <code>(a<sub>i</sub>, b<sub>i</sub>)</code>. A point is <strong>valid</strong> if it shares the same x-coordinate or the same y-coordinate as your location.</p>\n\n<p>Return <em>the index <strong>(0-indexed)</strong> of the <strong>valid</strong> point with the smallest <strong>Manhattan distance</strong> from your current location</em>. If there are multiple, return <em>the valid point with the <strong>smallest</strong> index</em>. If there are no valid points, return <code>-1</code>.</p>\n\n<p>The <strong>Manhattan distance</strong> between two points <code>(x<sub>1</sub>, y<sub>1</sub>)</code> and <code>(x<sub>2</sub>, y<sub>2</sub>)</code> is <code>abs(x<sub>1</sub> - x<sub>2</sub>) + abs(y<sub>1</sub> - y<sub>2</sub>)</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> x = 3, y = 4, points = [[1,2],[3,1],[2,4],[2,3],[4,4]]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> Of all the points, only [3,1], [2,4] and [4,4] are valid. Of the valid points, [2,4] and [4,4] have the smallest Manhattan distance from your current location, with a distance of 1. [2,4] has the smallest index, so return 2.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> x = 3, y = 4, points = [[3,4]]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The answer is allowed to be on the same location as your current location.</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> x = 3, y = 4, points = [[2,3]]\n<strong>Output:</strong> -1\n<strong>Explanation:</strong> There are no valid points.</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= points.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>points[i].length == 2</code></li>\n\t<li><code>1 &lt;= x, y, a<sub>i</sub>, b<sub>i</sub> &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+    "translatedContent": "<p>给你两个整数&nbsp;<code>x</code> 和&nbsp;<code>y</code>&nbsp;，表示你在一个笛卡尔坐标系下的&nbsp;<code>(x, y)</code>&nbsp;处。同时，在同一个坐标系下给你一个数组&nbsp;<code>points</code>&nbsp;，其中&nbsp;<code>points[i] = [a<sub>i</sub>, b<sub>i</sub>]</code>&nbsp;表示在&nbsp;<code>(a<sub>i</sub>, b<sub>i</sub>)</code>&nbsp;处有一个点。当一个点与你所在的位置有相同的 <code>x</code> 坐标或者相同的 <code>y</code> 坐标时，我们称这个点是 <b>有效的</b>&nbsp;。</p>\n\n<p>请返回距离你当前位置&nbsp;<strong>曼哈顿距离</strong>&nbsp;最近的&nbsp;<strong>有效</strong>&nbsp;点的下标（下标从 <strong>0</strong> 开始）。如果有多个最近的有效点，请返回下标&nbsp;<strong>最小</strong>&nbsp;的一个。如果没有有效点，请返回&nbsp;<code>-1</code>&nbsp;。</p>\n\n<p>两个点 <code>(x<sub>1</sub>, y<sub>1</sub>)</code>&nbsp;和 <code>(x<sub>2</sub>, y<sub>2</sub>)</code>&nbsp;之间的 <strong>曼哈顿距离</strong>&nbsp;为&nbsp;<code>abs(x<sub>1</sub> - x<sub>2</sub>) + abs(y<sub>1</sub> - y<sub>2</sub>)</code>&nbsp;。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<b>输入：</b>x = 3, y = 4, points = [[1,2],[3,1],[2,4],[2,3],[4,4]]\n<b>输出：</b>2\n<b>解释：</b>所有点中，[3,1]，[2,4] 和 [4,4] 是有效点。有效点中，[2,4] 和 [4,4] 距离你当前位置的曼哈顿距离最小，都为 1 。[2,4] 的下标最小，所以返回 2 。</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<b>输入：</b>x = 3, y = 4, points = [[3,4]]\n<b>输出：</b>0\n<b>提示：</b>答案可以与你当前所在位置坐标相同。</pre>\n\n<p><strong>示例 3：</strong></p>\n\n<pre>\n<b>输入：</b>x = 3, y = 4, points = [[2,3]]\n<b>输出：</b>-1\n<b>解释：</b>没有 有效点。</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= points.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>points[i].length == 2</code></li>\n\t<li><code>1 &lt;= x, y, a<sub>i</sub>, b<sub>i</sub> &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 96,
+    "dislikes": 0,
+    "exampleTestcases": "3\n4\n[[1,2],[3,1],[2,4],[2,3],[4,4]]\n3\n4\n[[3,4]]\n3\n4\n[[2,3]]",
+    "sampleTestCase": "3\n4\n[[1,2],[3,1],[2,4],[2,3],[4,4]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"nearestValidPoint\",\n  \"params\": [\n    {\n      \"name\": \"x\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"y\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"points\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int nearestValidPoint(int x, int y, vector<vector<int>>& points) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int nearestValidPoint(int x, int y, int[][] points) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def nearestValidPoint(self, x: int, y: int, points: List[List[int]]) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def nearestValidPoint(self, x, y, points):\n        \"\"\"\n        :type x: int\n        :type y: int\n        :type points: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number} x\n * @param {number} y\n * @param {number[][]} points\n * @return {number}\n */\nvar nearestValidPoint = function(x, y, points) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function nearestValidPoint(x: number, y: number, points: number[][]): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int NearestValidPoint(int x, int y, int[][] points) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int nearestValidPoint(int x, int y, int** points, int pointsSize, int* pointsColSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func nearestValidPoint(x int, y int, points [][]int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun nearestValidPoint(x: Int, y: Int, points: Array<IntArray>): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func nearestValidPoint(_ x: Int, _ y: Int, _ points: [[Int]]) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn nearest_valid_point(x: i32, y: i32, points: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer} x\n# @param {Integer} y\n# @param {Integer[][]} points\n# @return {Integer}\ndef nearest_valid_point(x, y, points)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer $x\n     * @param Integer $y\n     * @param Integer[][] $points\n     * @return Integer\n     */\n    function nearestValidPoint($x, $y, $points) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int nearestValidPoint(int x, int y, List<List<int>> points) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def nearestValidPoint(x: Int, y: Int, points: Array[Array[Int]]): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec nearest_valid_point(x :: integer, y :: integer, points :: [[integer]]) :: integer\n  def nearest_valid_point(x, y, points) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec nearest_valid_point(X :: integer(), Y :: integer(), Points :: [[integer()]]) -> integer().\nnearest_valid_point(X, Y, Points) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (nearest-valid-point x y points)\n  (-> exact-integer? exact-integer? (listof (listof exact-integer?)) exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func nearestValidPoint(x: Int64, y: Int64, points: Array<Array<Int64>>): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"50K\", \"totalSubmission\": \"72.1K\", \"totalAcceptedRaw\": 50026, \"totalSubmissionRaw\": 72096, \"acRate\": \"69.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

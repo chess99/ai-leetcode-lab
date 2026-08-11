@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:46Z",
+  "source": "https://leetcode.cn/problems/guess-the-majority-in-a-hidden-array/",
+  "question": {
+    "questionId": "1681",
+    "questionFrontendId": "1538",
+    "title": "Guess the Majority in a Hidden Array",
+    "titleSlug": "guess-the-majority-in-a-hidden-array",
+    "translatedTitle": "找出隐藏数组中出现次数最多的元素",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 12,
+    "dislikes": 0,
+    "exampleTestcases": "[0,0,1,0,1,1,1,1]\n[0,0,1,1,0]\n[1,0,1,0,1,0,1,0]",
+    "sampleTestCase": "[0,0,1,0,1,1,1,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"guessMajority\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"2.4K\", \"totalAcceptedRaw\": 1426, \"totalSubmissionRaw\": 2373, \"acRate\": \"60.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      },
+      {
+        "name": "摩尔投票算法",
+        "slug": "boyer-moore-majority-vote-algorithm",
+        "translatedName": null
+      }
+    ]
+  }
+}

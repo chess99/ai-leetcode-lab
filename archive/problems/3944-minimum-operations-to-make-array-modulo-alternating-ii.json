@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:40Z",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-array-modulo-alternating-ii/",
+  "question": {
+    "questionId": "4302",
+    "questionFrontendId": "3944",
+    "title": "Minimum Operations to Make Array Modulo Alternating II",
+    "titleSlug": "minimum-operations-to-make-array-modulo-alternating-ii",
+    "translatedTitle": "使数组变为模交替数组的最少操作次数 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[1,4,2,8]\n3\n[1,1,1]\n3\n[6,7,8]\n2",
+    "sampleTestCase": "[1,4,2,8]\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minOperations\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"174\", \"totalSubmission\": \"208\", \"totalAcceptedRaw\": 174, \"totalSubmissionRaw\": 208, \"acRate\": \"83.7%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Enumeration",
+        "slug": "enumeration",
+        "translatedName": "枚举"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:38Z",
+  "source": "https://leetcode.cn/problems/finding-the-topic-of-each-post/",
+  "question": {
+    "questionId": "2335",
+    "questionFrontendId": "2199",
+    "title": "Finding the Topic of Each Post",
+    "titleSlug": "finding-the-topic-of-each-post",
+    "translatedTitle": "找到每篇文章的主题",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 9,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Keywords\": [\"topic_id\", \"word\"], \"Posts\": [\"post_id\", \"content\"]}, \"rows\": {\"Keywords\": [[1, \"handball\"], [1, \"football\"], [3, \"WAR\"], [2, \"Vaccine\"]], \"Posts\": [[1, \"We call it soccer They call it football hahaha\"], [2, \"Americans prefer basketball while Europeans love handball and football\"], [3, \"stop the war and play handball\"], [4, \"warning I planted some flowers this morning and then got vaccinated\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Keywords\": [\"topic_id\", \"word\"], \"Posts\": [\"post_id\", \"content\"]}, \"rows\": {\"Keywords\": [[1, \"handball\"], [1, \"football\"], [3, \"WAR\"], [2, \"Vaccine\"]], \"Posts\": [[1, \"We call it soccer They call it football hahaha\"], [2, \"Americans prefer basketball while Europeans love handball and football\"], [3, \"stop the war and play handball\"], [4, \"warning I planted some flowers this morning and then got vaccinated\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Keywords (topic_id int, word varchar(25))\",\"Create table If Not Exists Posts (post_id int, content varchar(100))\"],\"mssql\":[\"Create table Keywords (topic_id int, word varchar(25))\",\"Create table Posts (post_id int, content varchar(100))\"],\"oraclesql\":[\"Create table Keywords (topic_id int, word varchar(25))\",\"Create table Posts (post_id int, content varchar(100))\"],\"database\":true,\"name\":\"find_topic\",\"pythondata\":[\"Keywords = pd.DataFrame([], columns=['topic_id', 'word']).astype({'topic_id':'Int64', 'word':'object'})\",\"Posts = pd.DataFrame([], columns=['post_id', 'content']).astype({'post_id':'Int64', 'content':'object'})\"],\"postgresql\":[\"Create table If Not Exists Keywords (topic_id int, word varchar(25))\",\"Create table If Not Exists Posts (post_id int, content varchar(100))\"],\"database_schema\":{\"Keywords\":{\"topic_id\":\"INT\",\"word\":\"VARCHAR(25)\"},\"Posts\":{\"post_id\":\"INT\",\"content\":\"VARCHAR(100)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.8K\", \"totalSubmission\": \"3K\", \"totalAcceptedRaw\": 1797, \"totalSubmissionRaw\": 3041, \"acRate\": \"59.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

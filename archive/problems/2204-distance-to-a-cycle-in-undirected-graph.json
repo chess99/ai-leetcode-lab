@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:39Z",
+  "source": "https://leetcode.cn/problems/distance-to-a-cycle-in-undirected-graph/",
+  "question": {
+    "questionId": "1347",
+    "questionFrontendId": "2204",
+    "title": "Distance to a Cycle in Undirected Graph",
+    "titleSlug": "distance-to-a-cycle-in-undirected-graph",
+    "translatedTitle": "无向图中到环的距离",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 14,
+    "dislikes": 0,
+    "exampleTestcases": "7\n[[1,2],[2,4],[4,3],[3,1],[0,1],[5,2],[6,5]]\n9\n[[0,1],[1,2],[0,2],[2,6],[6,7],[6,8],[0,3],[3,4],[3,5]]",
+    "sampleTestCase": "7\n[[1,2],[2,4],[4,3],[3,1],[0,1],[5,2],[6,5]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"distanceToCycle\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"edges\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"815\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 815, \"totalSubmissionRaw\": 1381, \"acRate\": \"59.0%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Topological Sort",
+        "slug": "topological-sort",
+        "translatedName": "拓扑排序"
+      }
+    ]
+  }
+}

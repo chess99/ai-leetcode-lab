@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:28Z",
+  "source": "https://leetcode.cn/problems/construct-uniform-parity-array-i/",
+  "question": {
+    "questionId": "4256",
+    "questionFrontendId": "3875",
+    "title": "Construct Uniform Parity Array I",
+    "titleSlug": "construct-uniform-parity-array-i",
+    "translatedTitle": "构造奇偶一致的数组 I",
+    "content": "<p>You are given an array <code>nums1</code> of <code>n</code> <strong>distinct</strong> integers.</p>\n\n<p>You want to construct another array <code>nums2</code> of length <code>n</code> such that the elements in <code>nums2</code> are either <strong>all odd or all even</strong>.</p>\n\n<p>For each index <code>i</code>, you must choose <strong>exactly one</strong> of the following (in any order):</p>\n\n<ul>\n\t<li><code>nums2[i] = nums1[i]</code></li>\n\t<li><code>nums2[i] = nums1[i] - nums1[j]</code>, for an index <code>j != i</code></li>\n</ul>\n\n<p>Return <code>true</code> if it is possible to construct such an array, otherwise, return <code>false</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums1 = [2,3]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Choose <code>nums2[0] = nums1[0] - nums1[1] = 2 - 3 = -1</code>.</li>\n\t<li>Choose <code>nums2[1] = nums1[1] = 3</code>.</li>\n\t<li><code>nums2 = [-1, 3]</code>, and both elements are odd. Thus, the answer is <code>true</code>​​​​​​​.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums1 = [4,6]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n\n<p><strong>Explanation:</strong>​​​​​​​</p>\n\n<ul>\n\t<li>Choose <code>nums2[0] = nums1[0] = 4</code>.</li>\n\t<li>Choose <code>nums2[1] = nums1[1] = 6</code>.</li>\n\t<li><code>nums2 = [4, 6]</code>, and all elements are even. Thus, the answer is <code>true</code>.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == nums1.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums1[i] &lt;= 100</code></li>\n\t<li><code>nums1</code> consists of distinct integers.</li>\n</ul>\n",
+    "translatedContent": "<p>给你一个长度为 <code>n</code> 的数组 <code>nums1</code>，其中包含 <strong>互不相同</strong> 的整数。</p>\n\n<p>你需要构造另一个长度为 <code>n</code> 的数组 <code>nums2</code>，使得 <code>nums2</code> 中的元素要么全部为&nbsp;<strong>奇数</strong>，要么全部为<strong>&nbsp;偶数</strong>。</p>\n\n<p>对于每个下标 <code>i</code>，你必须从以下两种选择中<strong>&nbsp;任选其一</strong>（顺序不限）：</p>\n\n<ul>\n\t<li><code>nums2[i] = nums1[i]</code></li>\n\t<li><code>nums2[i] = nums1[i] - nums1[j]</code>，其中 <code>j != i</code></li>\n</ul>\n\n<p>如果能够构造出满足条件的数组，则返回 <code>true</code>；否则，返回 <code>false</code>。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">nums1 = [2,3]</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">true</span></p>\n\n<p><strong>解释：</strong></p>\n\n<ul>\n\t<li>选择 <code>nums2[0] = nums1[0] - nums1[1] = 2 - 3 = -1</code>。</li>\n\t<li>选择 <code>nums2[1] = nums1[1] = 3</code>。</li>\n\t<li><code>nums2 = [-1, 3]</code>，两个元素均为奇数。因此答案为 <code>true</code>。</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">nums1 = [4,6]</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">true</span></p>\n\n<p><strong>解释：</strong>​​​​​​​</p>\n\n<ul>\n\t<li>选择 <code>nums2[0] = nums1[0] = 4</code>。</li>\n\t<li>选择 <code>nums2[1] = nums1[1] = 6</code>。</li>\n\t<li><code>nums2 = [4, 6]</code>，两个元素均为偶数。因此答案为 <code>true</code>。</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == nums1.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums1[i] &lt;= 100</code></li>\n\t<li><code>nums1</code> 中的所有整数互不相同。</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[2,3]\n[4,6]",
+    "sampleTestCase": "[2,3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"uniformArray\",\n  \"params\": [\n    {\n      \"name\": \"nums1\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    bool uniformArray(vector<int>& nums1) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public boolean uniformArray(int[] nums1) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def uniformArray(self, nums1: list[int]) -> bool:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def uniformArray(self, nums1):\n        \"\"\"\n        :type nums1: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} nums1\n * @return {boolean}\n */\nvar uniformArray = function(nums1) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function uniformArray(nums1: number[]): boolean {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public bool UniformArray(int[] nums1) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "bool uniformArray(int* nums1, int nums1Size) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func uniformArray(nums1 []int) bool {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun uniformArray(nums1: IntArray): Boolean {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func uniformArray(_ nums1: [Int]) -> Bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn uniform_array(nums1: Vec<i32>) -> bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} nums1\n# @return {Boolean}\ndef uniform_array(nums1)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums1\n     * @return Boolean\n     */\n    function uniformArray($nums1) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  bool uniformArray(List<int> nums1) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def uniformArray(nums1: Array[Int]): Boolean = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec uniform_array(nums1 :: [integer]) :: boolean\n  def uniform_array(nums1) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec uniform_array(Nums1 :: [integer()]) -> boolean().\nuniform_array(Nums1) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (uniform-array nums1)\n  (-> (listof exact-integer?) boolean?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func uniformArray(nums1: Array<Int64>): Bool {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"4.5K\", \"totalSubmission\": \"5.9K\", \"totalAcceptedRaw\": 4459, \"totalSubmissionRaw\": 5870, \"acRate\": \"76.0%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

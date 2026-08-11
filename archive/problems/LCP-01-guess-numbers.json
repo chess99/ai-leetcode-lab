@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:53Z",
+  "source": "https://leetcode.cn/problems/guess-numbers/",
+  "question": {
+    "questionId": "100107",
+    "questionFrontendId": "LCP 01",
+    "title": "Guess Numbers",
+    "titleSlug": "guess-numbers",
+    "translatedTitle": "猜数字",
+    "content": "<p>English description is not available for the problem. Please switch to Chinese.<br />\r\n&nbsp;</p>\r\n",
+    "translatedContent": "<p>小A 和 小B 在玩猜数字。小B 每次从 1, 2, 3 中随机选择一个，小A 每次也从 1, 2, 3 中选择一个猜。他们一共进行三次这个游戏，请返回 小A 猜对了几次？</p>\n\n<p>&nbsp;</p>\n\n<p>输入的<code>guess</code>数组为 小A 每次的猜测，<code>answer</code>数组为 小B 每次的选择。<code>guess</code>和<code>answer</code>的长度都等于3。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入：</strong>guess = [1,2,3], answer = [1,2,3]\n<strong>输出：</strong>3\n<strong>解释：</strong>小A 每次都猜对了。</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><strong>输入：</strong>guess = [2,2,3], answer = [3,2,1]\n<strong>输出：</strong>1\n<strong>解释：</strong>小A 只猜对了第二次。</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>限制：</strong></p>\n\n<ol>\n\t<li><code>guess</code>的长度 = 3</li>\n\t<li><code>answer</code>的长度 = 3</li>\n\t<li><code>guess</code>的元素取值为 <code>{1, 2, 3}</code> 之一。</li>\n\t<li><code>answer</code>的元素取值为 <code>{1, 2, 3}</code> 之一。</li>\n</ol>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 175,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3]\n[1,2,3]\n[2,2,3]\n[3,2,1]",
+    "sampleTestCase": "[1,2,3]\n[1,2,3]",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"game\", \"params\": [{\"name\": \"guess\", \"type\": \"integer[]\"}, {\"name\": \"answer\", \"type\": \"integer[]\"}], \"return\": {\"type\": \"integer\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int game(vector<int>& guess, vector<int>& answer) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int game(int[] guess, int[] answer) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def game(self, guess: List[int], answer: List[int]) -> int:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def game(self, guess, answer):\n        \"\"\"\n        :type guess: List[int]\n        :type answer: List[int]\n        :rtype: int\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} guess\n * @param {number[]} answer\n * @return {number}\n */\nvar game = function(guess, answer) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function game(guess: number[], answer: number[]): number {\n\n};"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\nint game(int* guess, int guessSize, int* answer, int answerSize){\n\n}\n"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func game(guess []int, answer []int) int {\n\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"116.1K\", \"totalSubmission\": \"137.6K\", \"totalAcceptedRaw\": 116132, \"totalSubmissionRaw\": 137566, \"acRate\": \"84.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

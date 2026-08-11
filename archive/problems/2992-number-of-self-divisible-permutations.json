@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:55Z",
+  "source": "https://leetcode.cn/problems/number-of-self-divisible-permutations/",
+  "question": {
+    "questionId": "3294",
+    "questionFrontendId": "2992",
+    "title": "Number of Self-Divisible Permutations",
+    "titleSlug": "number-of-self-divisible-permutations",
+    "translatedTitle": "自整除排列的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "1\n2\n3",
+    "sampleTestCase": "1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"selfDivisiblePermutationCount\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"433\", \"totalSubmission\": \"588\", \"totalAcceptedRaw\": 433, \"totalSubmissionRaw\": 588, \"acRate\": \"73.6%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      },
+      {
+        "name": "Bitmask",
+        "slug": "bitmask",
+        "translatedName": "位掩码"
+      },
+      {
+        "name": "Number Theory",
+        "slug": "number-theory",
+        "translatedName": "数论"
+      }
+    ]
+  }
+}

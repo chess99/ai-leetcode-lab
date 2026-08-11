@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:23Z",
+  "source": "https://leetcode.cn/problems/maximum-number-of-upgradable-servers/",
+  "question": {
+    "questionId": "3458",
+    "questionFrontendId": "3155",
+    "title": "Maximum Number of Upgradable Servers",
+    "titleSlug": "maximum-number-of-upgradable-servers",
+    "translatedTitle": "可升级服务器的最大数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[4,3]\n[3,5]\n[4,2]\n[8,9]\n[1]\n[2]\n[1]\n[1]",
+    "sampleTestCase": "[4,3]\n[3,5]\n[4,2]\n[8,9]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxUpgrades\",\n  \"params\": [\n    {\n      \"name\": \"count\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"upgrade\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"sell\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"money\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"285\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 285, \"totalSubmissionRaw\": 1341, \"acRate\": \"21.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      }
+    ]
+  }
+}

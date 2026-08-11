@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:42Z",
+  "source": "https://leetcode.cn/problems/move-sub-tree-of-n-ary-tree/",
+  "question": {
+    "questionId": "1655",
+    "questionFrontendId": "1516",
+    "title": "Move Sub-Tree of N-Ary Tree",
+    "titleSlug": "move-sub-tree-of-n-ary-tree",
+    "translatedTitle": "移动 N 叉树的子树",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "[1,null,2,3,null,4,5,null,6,null,7,8]\n4\n1\n[1,null,2,3,null,4,5,null,6,null,7,8]\n7\n4\n[1,null,2,3,null,4,5,null,6,null,7,8]\n3\n8\n[1,null,2,3,null,4]\n1\n4",
+    "sampleTestCase": "[1,null,2,3,null,4,5,null,6,null,7,8]\n4\n1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"moveSubTree\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"p\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"q\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"javascript\",\n    \"ruby\",\n    \"swift\",\n    \"golang\",\n    \"python3\",\n    \"scala\",\n    \"kotlin\",\n    \"php\",\n    \"typescript\"\n  ], \"typescriptCustomType\" : \"class _Node {\\n    val: number\\n    children: _Node[]\\n\\n    constructor(val?: number, children?: _Node[]) {\\n        this.val = (val===undefined ? 0 : val)\\n        this.children = (children===undefined ? [] : children)\\n    }\\n}\\n\"\n\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"626\", \"totalSubmission\": \"2K\", \"totalAcceptedRaw\": 626, \"totalSubmissionRaw\": 2003, \"acRate\": \"31.3%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      }
+    ]
+  }
+}

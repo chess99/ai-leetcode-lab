@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:01Z",
+  "source": "https://leetcode.cn/problems/binary-searchable-numbers-in-an-unsorted-array/",
+  "question": {
+    "questionId": "2111",
+    "questionFrontendId": "1966",
+    "title": "Binary Searchable Numbers in an Unsorted Array",
+    "titleSlug": "binary-searchable-numbers-in-an-unsorted-array",
+    "translatedTitle": "未排序数组中的可被二分查找的数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 8,
+    "dislikes": 0,
+    "exampleTestcases": "[7]\n[-1,5,2]",
+    "sampleTestCase": "[7]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"binarySearchableNumbers\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"633\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 633, \"totalSubmissionRaw\": 1123, \"acRate\": \"56.4%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Monotonic Stack",
+        "slug": "monotonic-stack",
+        "translatedName": "单调栈"
+      }
+    ]
+  }
+}

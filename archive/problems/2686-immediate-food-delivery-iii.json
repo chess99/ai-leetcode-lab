@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:00Z",
+  "source": "https://leetcode.cn/problems/immediate-food-delivery-iii/",
+  "question": {
+    "questionId": "2840",
+    "questionFrontendId": "2686",
+    "title": "Immediate Food Delivery III",
+    "titleSlug": "immediate-food-delivery-iii",
+    "translatedTitle": "即时食物配送 III",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Delivery\":[\"delivery_id\",\"customer_id\",\"order_date\",\"customer_pref_delivery_date\"]},\"rows\":{\"Delivery\":[[1,1,\"2019-08-01\",\"2019-08-02\"],[2,2,\"2019-08-01\",\"2019-08-01\"],[3,1,\"2019-08-01\",\"2019-08-01\"],[4,3,\"2019-08-02\",\"2019-08-13\"],[5,3,\"2019-08-02\",\"2019-08-02\"],[6,2,\"2019-08-02\",\"2019-08-02\"],[7,4,\"2019-08-03\",\"2019-08-03\"],[8,1,\"2019-08-03\",\"2019-08-03\"],[9,5,\"2019-08-04\",\"2019-08-18\"],[10,2,\"2019-08-04\",\"2019-08-18\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Delivery\":[\"delivery_id\",\"customer_id\",\"order_date\",\"customer_pref_delivery_date\"]},\"rows\":{\"Delivery\":[[1,1,\"2019-08-01\",\"2019-08-02\"],[2,2,\"2019-08-01\",\"2019-08-01\"],[3,1,\"2019-08-01\",\"2019-08-01\"],[4,3,\"2019-08-02\",\"2019-08-13\"],[5,3,\"2019-08-02\",\"2019-08-02\"],[6,2,\"2019-08-02\",\"2019-08-02\"],[7,4,\"2019-08-03\",\"2019-08-03\"],[8,1,\"2019-08-03\",\"2019-08-03\"],[9,5,\"2019-08-04\",\"2019-08-18\"],[10,2,\"2019-08-04\",\"2019-08-18\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)\"],\"mssql\":[\"Create table Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)\"],\"oraclesql\":[\"Create table Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"immediate_delivery\",\"pythondata\":[\"Delivery = pd.DataFrame([], columns=['delivery_id', 'customer_id', 'order_date', 'customer_pref_delivery_date']).astype({'delivery_id':'Int64', 'customer_id':'Int64', 'order_date':'datetime64[ns]', 'customer_pref_delivery_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)\"],\"database_schema\":{\"Delivery\":{\"delivery_id\":\"INT\",\"customer_id\":\"INT\",\"order_date\":\"DATE\",\"customer_pref_delivery_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.9K\", \"totalSubmission\": \"2.8K\", \"totalAcceptedRaw\": 1910, \"totalSubmissionRaw\": 2827, \"acRate\": \"67.6%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

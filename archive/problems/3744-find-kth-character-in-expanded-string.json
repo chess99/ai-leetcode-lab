@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:06Z",
+  "source": "https://leetcode.cn/problems/find-kth-character-in-expanded-string/",
+  "question": {
+    "questionId": "4113",
+    "questionFrontendId": "3744",
+    "title": "Find Kth Character in Expanded String",
+    "titleSlug": "find-kth-character-in-expanded-string",
+    "translatedTitle": "在展开字符串中查找第 K 个字符",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "\"hello world\"\n0\n\"hello world\"\n15",
+    "sampleTestCase": "\"hello world\"\n0",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"kthCharacter\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"long\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"character\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"166\", \"totalSubmission\": \"231\", \"totalAcceptedRaw\": 166, \"totalSubmissionRaw\": 231, \"acRate\": \"71.9%\"}",
+    "topicTags": [
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

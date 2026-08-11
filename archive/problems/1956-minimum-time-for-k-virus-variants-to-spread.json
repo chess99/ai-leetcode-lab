@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:00Z",
+  "source": "https://leetcode.cn/problems/minimum-time-for-k-virus-variants-to-spread/",
+  "question": {
+    "questionId": "2073",
+    "questionFrontendId": "1956",
+    "title": "Minimum Time For K Virus Variants to Spread",
+    "titleSlug": "minimum-time-for-k-virus-variants-to-spread",
+    "translatedTitle": "感染 K 种病毒所需的最短时间",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 10,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,1],[6,1]]\n2\n[[3,3],[1,2],[9,2]]\n2\n[[3,3],[1,2],[9,2]]\n3",
+    "sampleTestCase": "[[1,1],[6,1]]\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minDayskVariants\",\n  \"params\": [\n    {\n      \"name\": \"points\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"547\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 547, \"totalSubmissionRaw\": 1572, \"acRate\": \"34.8%\"}",
+    "topicTags": [
+      {
+        "name": "Geometry",
+        "slug": "geometry",
+        "translatedName": "几何"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Enumeration",
+        "slug": "enumeration",
+        "translatedName": "枚举"
+      },
+      {
+        "name": "Ordered Set",
+        "slug": "ordered-set",
+        "translatedName": "有序集合"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      }
+    ]
+  }
+}

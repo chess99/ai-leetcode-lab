@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:37Z",
+  "source": "https://leetcode.cn/problems/apply-bitwise-operations-to-make-strings-equal/",
+  "question": {
+    "questionId": "2632",
+    "questionFrontendId": "2546",
+    "title": "Apply Bitwise Operations to Make Strings Equal",
+    "titleSlug": "apply-bitwise-operations-to-make-strings-equal",
+    "translatedTitle": "执行逐位运算使字符串相等",
+    "content": "<p>You are given two <strong>0-indexed binary</strong> strings <code>s</code> and <code>target</code> of the same length <code>n</code>. You can do the following operation on <code>s</code> <strong>any</strong> number of times:</p>\n\n<ul>\n\t<li>Choose two <strong>different</strong> indices <code>i</code> and <code>j</code> where <code>0 &lt;= i, j &lt; n</code>.</li>\n\t<li>Simultaneously, replace <code>s[i]</code> with (<code>s[i]</code> <strong>OR</strong> <code>s[j]</code>) and <code>s[j]</code> with (<code>s[i]</code> <strong>XOR</strong> <code>s[j]</code>).</li>\n</ul>\n\n<p>For example, if <code>s = &quot;0110&quot;</code>, you can choose <code>i = 0</code> and <code>j = 2</code>, then simultaneously replace <code>s[0]</code> with (<code>s[0]</code> <strong>OR</strong> <code>s[2]</code> = <code>0</code> <strong>OR</strong> <code>1</code> = <code>1</code>), and <code>s[2]</code> with (<code>s[0]</code> <strong>XOR</strong> <code>s[2]</code> = <code>0</code> <strong>XOR</strong> <code>1</code> = <code>1</code>), so we will have <code>s = &quot;1110&quot;</code>.</p>\n\n<p>Return <code>true</code> <em>if you can make the string </em><code>s</code><em> equal to </em><code>target</code><em>, or </em><code>false</code><em> otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;1010&quot;, target = &quot;0110&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> We can do the following operations:\n- Choose i = 2 and j = 0. We have now s = &quot;<strong><u>0</u></strong>0<strong><u>1</u></strong>0&quot;.\n- Choose i = 2 and j = 1. We have now s = &quot;0<strong><u>11</u></strong>0&quot;.\nSince we can make s equal to target, we return true.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;11&quot;, target = &quot;00&quot;\n<strong>Output:</strong> false\n<strong>Explanation:</strong> It is not possible to make s equal to target with any number of operations.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == s.length == target.length</code></li>\n\t<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> and <code>target</code> consist of only the digits <code>0</code> and <code>1</code>.</li>\n</ul>\n",
+    "translatedContent": "<p>给你两个下标从 <strong>0</strong> 开始的 <strong>二元</strong> 字符串 <code>s</code> 和 <code>target</code> ，两个字符串的长度均为 <code>n</code> 。你可以对 <code>s</code> 执行下述操作 <strong>任意</strong> 次：</p>\n\n<ul>\n\t<li>选择两个 <strong>不同</strong> 的下标 <code>i</code> 和 <code>j</code> ，其中 <code>0 &lt;= i, j &lt; n</code> 。</li>\n\t<li>同时，将 <code>s[i]</code> 替换为 (<code>s[i]</code> <strong>OR</strong> <code>s[j]</code>) ，<code>s[j]</code> 替换为 (<code>s[i]</code> <strong>XOR</strong> <code>s[j]</code>) 。</li>\n</ul>\n\n<p>例如，如果 <code>s = \"0110\"</code> ，你可以选择 <code>i = 0</code> 和 <code>j = 2</code>，然后同时将 <code>s[0]</code> 替换为 (<code>s[0]</code> <strong>OR</strong> <code>s[2]</code> = <code>0</code> <strong>OR</strong> <code>1</code> = <code>1</code>)，并将 <code>s[2]</code> 替换为 (<code>s[0]</code> <strong>XOR</strong> <code>s[2]</code> = <code>0</code> <strong>XOR</strong> <code>1</code> = <code>1</code>)，最终得到 <code>s = \"1110\"</code> 。</p>\n\n<p>如果可以使 <code>s</code> 等于 <code>target</code> ，返回 <code>true</code> ，否则，返回 <code>false</code> 。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入：</strong>s = \"1010\", target = \"0110\"\n<strong>输出：</strong>true\n<strong>解释：</strong>可以执行下述操作：\n- 选择 i = 2 和 j = 0 ，得到 s = \"<em><strong>0</strong></em>0<em><strong>1</strong></em>0\".\n- 选择 i = 2 和 j = 1 ，得到 s = \"0<em><strong>11</strong></em>0\".\n可以使 s 等于 target ，返回 true 。\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><strong>输入：</strong>s = \"11\", target = \"00\"\n<strong>输出：</strong>false\n<strong>解释：</strong>执行任意次操作都无法使 s 等于 target 。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>n == s.length == target.length</code></li>\n\t<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> 和 <code>target</code> 仅由数字 <code>0</code> 和 <code>1</code> 组成</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 35,
+    "dislikes": 0,
+    "exampleTestcases": "\"1010\"\n\"0110\"\n\"11\"\n\"00\"",
+    "sampleTestCase": "\"1010\"\n\"0110\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"makeStringsEqual\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"target\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    bool makeStringsEqual(string s, string target) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public boolean makeStringsEqual(String s, String target) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def makeStringsEqual(self, s: str, target: str) -> bool:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def makeStringsEqual(self, s, target):\n        \"\"\"\n        :type s: str\n        :type target: str\n        :rtype: bool\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string} s\n * @param {string} target\n * @return {boolean}\n */\nvar makeStringsEqual = function(s, target) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function makeStringsEqual(s: string, target: string): boolean {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public bool MakeStringsEqual(string s, string target) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "bool makeStringsEqual(char* s, char* target) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func makeStringsEqual(s string, target string) bool {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun makeStringsEqual(s: String, target: String): Boolean {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func makeStringsEqual(_ s: String, _ target: String) -> Bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn make_strings_equal(s: String, target: String) -> bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String} s\n# @param {String} target\n# @return {Boolean}\ndef make_strings_equal(s, target)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String $target\n     * @return Boolean\n     */\n    function makeStringsEqual($s, $target) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  bool makeStringsEqual(String s, String target) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def makeStringsEqual(s: String, target: String): Boolean = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec make_strings_equal(s :: String.t, target :: String.t) :: boolean\n  def make_strings_equal(s, target) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec make_strings_equal(S :: unicode:unicode_binary(), Target :: unicode:unicode_binary()) -> boolean().\nmake_strings_equal(S, Target) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (make-strings-equal s target)\n  (-> string? string? boolean?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func makeStringsEqual(s: String, target: String): Bool {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"7.2K\", \"totalSubmission\": \"15.2K\", \"totalAcceptedRaw\": 7250, \"totalSubmissionRaw\": 15234, \"acRate\": \"47.6%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

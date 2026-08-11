@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:11Z",
+  "source": "https://leetcode.cn/problems/bind-function-to-context/",
+  "question": {
+    "questionId": "2770",
+    "questionFrontendId": "2754",
+    "title": "Bind Function to Context",
+    "titleSlug": "bind-function-to-context",
+    "translatedTitle": "将函数绑定到上下文",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "function f(multiplier) { return this.x * multiplier; }\n{\"x\":10}\n[5]\nfunction speak() { return \"My name is \" + this.name; }\n{\"name\":\"Kathy\"}\n[]",
+    "sampleTestCase": "function f(multiplier) { return this.x * multiplier; }\n{\"x\":10}\n[5]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"jsonParse\",\n  \"params\": [\n    {\n      \"name\": \"fn\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"obj\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"inputs\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"501\", \"totalSubmission\": \"632\", \"totalAcceptedRaw\": 501, \"totalSubmissionRaw\": 632, \"acRate\": \"79.3%\"}",
+    "topicTags": []
+  }
+}

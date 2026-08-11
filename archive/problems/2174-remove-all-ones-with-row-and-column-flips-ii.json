@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:33Z",
+  "source": "https://leetcode.cn/problems/remove-all-ones-with-row-and-column-flips-ii/",
+  "question": {
+    "questionId": "2314",
+    "questionFrontendId": "2174",
+    "title": "Remove All Ones With Row and Column Flips II",
+    "titleSlug": "remove-all-ones-with-row-and-column-flips-ii",
+    "translatedTitle": "通过翻转行或列来去除所有的 1 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 11,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,1,1],[1,1,1],[0,1,0]]\n[[0,1,0],[1,0,1],[0,1,0]]\n[[0,0],[0,0]]",
+    "sampleTestCase": "[[1,1,1],[1,1,1],[0,1,0]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"removeOnes\",\n  \"params\": [\n    {\n      \"name\": \"grid\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"463\", \"totalSubmission\": \"766\", \"totalAcceptedRaw\": 463, \"totalSubmissionRaw\": 766, \"acRate\": \"60.4%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

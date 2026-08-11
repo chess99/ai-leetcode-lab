@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:06Z",
+  "source": "https://leetcode.cn/problems/binary-tree-nodes/",
+  "question": {
+    "questionId": "3259",
+    "questionFrontendId": "3054",
+    "title": "Binary Tree Nodes",
+    "titleSlug": "binary-tree-nodes",
+    "translatedTitle": "二叉树节点",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Tree\":[\"N\",\"P\"]},\"rows\":{\"Tree\":[[1,2],[3,2],[6,8],[9,8],[2,5],[8,5],[5,null]]}}",
+    "sampleTestCase": "{\"headers\":{\"Tree\":[\"N\",\"P\"]},\"rows\":{\"Tree\":[[1,2],[3,2],[6,8],[9,8],[2,5],[8,5],[5,null]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Tree (N int,P int)\"],\"mssql\":[\"Create table Tree (N int,P int)\"],\"oraclesql\":[\"Create table Tree (N int,P int)\"],\"database\":true,\"name\":\"binary_tree_nodes\",\"pythondata\":[\"Tree = pd.DataFrame([], columns=['N', 'P']).astype({'N':'Int64', 'P':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Tree (N int,P int)\\n\"],\"database_schema\":{\"Tree\":{\"N\":\"INT\",\"P\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 1072, \"totalSubmissionRaw\": 1399, \"acRate\": \"76.6%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

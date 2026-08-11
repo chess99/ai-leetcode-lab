@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:07Z",
+  "source": "https://leetcode.cn/problems/subtree-removal-game-with-fibonacci-tree/",
+  "question": {
+    "questionId": "2153",
+    "questionFrontendId": "2005",
+    "title": "Subtree Removal Game with Fibonacci Tree",
+    "titleSlug": "subtree-removal-game-with-fibonacci-tree",
+    "translatedTitle": "斐波那契树的移除子树游戏",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "3\n1\n2",
+    "sampleTestCase": "3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"findGameWinner\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"352\", \"totalSubmission\": \"784\", \"totalAcceptedRaw\": 352, \"totalSubmissionRaw\": 784, \"acRate\": \"44.9%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      },
+      {
+        "name": "Game Theory",
+        "slug": "game-theory",
+        "translatedName": "博弈"
+      },
+      {
+        "name": "Sprague–Grundy ",
+        "slug": "sprague-grundy-theorem",
+        "translatedName": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:52Z",
+  "source": "https://leetcode.cn/problems/two-sum-bsts/",
+  "question": {
+    "questionId": "1150",
+    "questionFrontendId": "1214",
+    "title": "Two Sum BSTs",
+    "titleSlug": "two-sum-bsts",
+    "translatedTitle": "查找两棵二叉搜索树之和",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 64,
+    "dislikes": 0,
+    "exampleTestcases": "[2,1,4]\n[1,0,3]\n5\n[0,-10,10]\n[5,1,7,0,2]\n18",
+    "sampleTestCase": "[2,1,4]\n[1,0,3]\n5",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"twoSumBSTs\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root1\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"root2\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"9.5K\", \"totalSubmission\": \"13.8K\", \"totalAcceptedRaw\": 9541, \"totalSubmissionRaw\": 13807, \"acRate\": \"69.1%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Binary Search Tree",
+        "slug": "binary-search-tree",
+        "translatedName": "二叉搜索树"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

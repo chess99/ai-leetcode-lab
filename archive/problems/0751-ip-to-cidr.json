@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:33Z",
+  "source": "https://leetcode.cn/problems/ip-to-cidr/",
+  "question": {
+    "questionId": "752",
+    "questionFrontendId": "751",
+    "title": "IP to CIDR",
+    "titleSlug": "ip-to-cidr",
+    "translatedTitle": "IP 到 CIDR",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 44,
+    "dislikes": 0,
+    "exampleTestcases": "\"255.0.0.7\"\n10\n\"117.145.102.62\"\n8",
+    "sampleTestCase": "\"255.0.0.7\"\n10",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"ipToCIDR\",\n  \"params\": [\n    {\n      \"name\": \"ip\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\"\n  }\n}\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.7K\", \"totalSubmission\": \"5.7K\", \"totalAcceptedRaw\": 2744, \"totalSubmissionRaw\": 5710, \"acRate\": \"48.1%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

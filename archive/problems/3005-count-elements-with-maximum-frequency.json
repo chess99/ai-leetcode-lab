@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:57Z",
+  "source": "https://leetcode.cn/problems/count-elements-with-maximum-frequency/",
+  "question": {
+    "questionId": "3242",
+    "questionFrontendId": "3005",
+    "title": "Count Elements With Maximum Frequency",
+    "titleSlug": "count-elements-with-maximum-frequency",
+    "translatedTitle": "最大频率元素计数",
+    "content": "<p>You are given an array <code>nums</code> consisting of <strong>positive</strong> integers.</p>\n\n<p>Return <em>the <strong>total frequencies</strong> of elements in</em><em> </em><code>nums</code>&nbsp;<em>such that those elements all have the <strong>maximum</strong> frequency</em>.</p>\n\n<p>The <strong>frequency</strong> of an element is the number of occurrences of that element in the array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,2,3,1,4]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> The elements 1 and 2 have a frequency of 2 which is the maximum frequency in the array.\nSo the number of elements in the array with maximum frequency is 4.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3,4,5]\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> All elements of the array have a frequency of 1 which is the maximum.\nSo the number of elements in the array with maximum frequency is 5.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n</ul>\n",
+    "translatedContent": "<p>给你一个由 <strong>正整数 </strong>组成的数组 <code>nums</code> 。</p>\n\n<p>返回数组 <code>nums</code> 中所有具有 <strong>最大 </strong>频率的元素的 <strong>总频率 </strong>。</p>\n\n<p>元素的 <strong>频率 </strong>是指该元素在数组中出现的次数。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [1,2,2,3,1,4]\n<strong>输出：</strong>4\n<strong>解释：</strong>元素 1 和 2 的频率为 2 ，是数组中的最大频率。\n因此具有最大频率的元素在数组中的数量是 4 。\n</pre>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [1,2,3,4,5]\n<strong>输出：</strong>5\n<strong>解释：</strong>数组中的所有元素的频率都为 1 ，是最大频率。\n因此具有最大频率的元素在数组中的数量是 5 。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 26,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,2,3,1,4]\n[1,2,3,4,5]",
+    "sampleTestCase": "[1,2,2,3,1,4]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxFrequencyElements\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int maxFrequencyElements(vector<int>& nums) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int maxFrequencyElements(int[] nums) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def maxFrequencyElements(self, nums: List[int]) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def maxFrequencyElements(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxFrequencyElements = function(nums) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function maxFrequencyElements(nums: number[]): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int MaxFrequencyElements(int[] nums) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int maxFrequencyElements(int* nums, int numsSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func maxFrequencyElements(nums []int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun maxFrequencyElements(nums: IntArray): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func maxFrequencyElements(_ nums: [Int]) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn max_frequency_elements(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} nums\n# @return {Integer}\ndef max_frequency_elements(nums)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function maxFrequencyElements($nums) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int maxFrequencyElements(List<int> nums) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def maxFrequencyElements(nums: Array[Int]): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec max_frequency_elements(nums :: [integer]) :: integer\n  def max_frequency_elements(nums) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec max_frequency_elements(Nums :: [integer()]) -> integer().\nmax_frequency_elements(Nums) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (max-frequency-elements nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func maxFrequencyElements(nums: Array<Int64>): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"27.1K\", \"totalSubmission\": \"35.7K\", \"totalAcceptedRaw\": 27137, \"totalSubmissionRaw\": 35740, \"acRate\": \"75.9%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      }
+    ]
+  }
+}

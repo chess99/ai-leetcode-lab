@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:33Z",
+  "source": "https://leetcode.cn/problems/unique-substrings-with-equal-digit-frequency/",
+  "question": {
+    "questionId": "2303",
+    "questionFrontendId": "2168",
+    "title": "Unique Substrings With Equal Digit Frequency",
+    "titleSlug": "unique-substrings-with-equal-digit-frequency",
+    "translatedTitle": "每个数字的频率都相同的不同子字符串的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 17,
+    "dislikes": 0,
+    "exampleTestcases": "\"1212\"\n\"12321\"",
+    "sampleTestCase": "\"1212\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"equalDigitFrequency\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1K\", \"totalSubmission\": \"1.8K\", \"totalAcceptedRaw\": 1025, \"totalSubmissionRaw\": 1768, \"acRate\": \"58.0%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Hash Function",
+        "slug": "hash-function",
+        "translatedName": "哈希函数"
+      },
+      {
+        "name": "Rolling Hash",
+        "slug": "rolling-hash",
+        "translatedName": "滚动哈希"
+      }
+    ]
+  }
+}

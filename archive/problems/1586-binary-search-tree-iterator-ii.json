@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:54Z",
+  "source": "https://leetcode.cn/problems/binary-search-tree-iterator-ii/",
+  "question": {
+    "questionId": "1729",
+    "questionFrontendId": "1586",
+    "title": "Binary Search Tree Iterator II",
+    "titleSlug": "binary-search-tree-iterator-ii",
+    "translatedTitle": "二叉搜索树迭代器 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 26,
+    "dislikes": 0,
+    "exampleTestcases": "[\"BSTIterator\",\"next\",\"next\",\"prev\",\"next\",\"hasNext\",\"next\",\"next\",\"next\",\"hasNext\",\"hasPrev\",\"prev\",\"prev\"]\n[[[7,3,15,null,null,9,20]],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]]",
+    "sampleTestCase": "[\"BSTIterator\",\"next\",\"next\",\"prev\",\"next\",\"hasNext\",\"next\",\"next\",\"next\",\"hasNext\",\"hasPrev\",\"prev\",\"prev\"]\n[[[7,3,15,null,null,9,20]],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"BSTIterator\",\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"TreeNode\",\n        \"name\": \"root\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"params\": [],\n      \"name\": \"hasNext\",\n      \"return\": {\n        \"type\": \"boolean\"\n      }\n    },\n    {\n      \"params\": [],\n      \"name\": \"next\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    },\n    {\n      \"params\": [],\n      \"name\": \"hasPrev\",\n      \"return\": {\n        \"type\": \"boolean\"\n      }\n    },\n    {\n      \"params\": [],\n      \"name\": \"prev\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.6K\", \"totalSubmission\": \"3.3K\", \"totalAcceptedRaw\": 1621, \"totalSubmissionRaw\": 3296, \"acRate\": \"49.2%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Binary Search Tree",
+        "slug": "binary-search-tree",
+        "translatedName": "二叉搜索树"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      },
+      {
+        "name": "Iterator",
+        "slug": "iterator",
+        "translatedName": "迭代器"
+      }
+    ]
+  }
+}

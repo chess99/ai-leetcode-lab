@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:18Z",
+  "source": "https://leetcode.cn/problems/number-of-employees-who-met-the-target/",
+  "question": {
+    "questionId": "2876",
+    "questionFrontendId": "2798",
+    "title": "Number of Employees Who Met the Target",
+    "titleSlug": "number-of-employees-who-met-the-target",
+    "translatedTitle": "满足目标工作时长的员工数目",
+    "content": "<p>There are <code>n</code> employees in a company, numbered from <code>0</code> to <code>n - 1</code>. Each employee <code>i</code> has worked for <code>hours[i]</code> hours in the company.</p>\n\n<p>The company requires each employee to work for <strong>at least</strong> <code>target</code> hours.</p>\n\n<p>You are given a <strong>0-indexed</strong> array of non-negative integers <code>hours</code> of length <code>n</code> and a non-negative integer <code>target</code>.</p>\n\n<p>Return <em>the integer denoting the number of employees who worked at least</em> <code>target</code> <em>hours</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> hours = [0,1,2,3,4], target = 2\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The company wants each employee to work for at least 2 hours.\n- Employee 0 worked for 0 hours and didn&#39;t meet the target.\n- Employee 1 worked for 1 hours and didn&#39;t meet the target.\n- Employee 2 worked for 2 hours and met the target.\n- Employee 3 worked for 3 hours and met the target.\n- Employee 4 worked for 4 hours and met the target.\nThere are 3 employees who met the target.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> hours = [5,1,4,2,2], target = 6\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The company wants each employee to work for at least 6 hours.\nThere are 0 employees who met the target.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == hours.length &lt;= 50</code></li>\n\t<li><code>0 &lt;=&nbsp;hours[i], target &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+    "translatedContent": "<p>公司里共有 <code>n</code> 名员工，按从 <code>0</code> 到 <code>n - 1</code> 编号。每个员工 <code>i</code> 已经在公司工作了 <code>hours[i]</code> 小时。</p>\n\n<p>公司要求每位员工工作&nbsp;<strong>至少</strong> <code>target</code> 小时。</p>\n\n<p>给你一个下标从 <strong>0</strong> 开始、长度为 <code>n</code> 的非负整数数组 <code>hours</code> 和一个非负整数 <code>target</code> 。</p>\n\n<p>请你用整数表示并返回工作至少 <code>target</code> 小时的员工数。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入：</strong>hours = [0,1,2,3,4], target = 2\n<strong>输出：</strong>3\n<strong>解释：</strong>公司要求每位员工工作至少 2 小时。\n- 员工 0 工作 0 小时，不满足要求。\n- 员工 1 工作 1 小时，不满足要求。\n- 员工 2 工作 2 小时，满足要求。\n- 员工 3 工作 3 小时，满足要求。\n- 员工 4 工作 4 小时，满足要求。\n共有 3 位满足要求的员工。\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><strong>输入：</strong>hours = [5,1,4,2,2], target = 6\n<strong>输出：</strong>0\n<strong>解释：</strong>公司要求每位员工工作至少 6 小时。\n共有 0 位满足要求的员工。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == hours.length &lt;= 50</code></li>\n\t<li><code>0 &lt;=&nbsp;hours[i], target &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 36,
+    "dislikes": 0,
+    "exampleTestcases": "[0,1,2,3,4]\n2\n[5,1,4,2,2]\n6",
+    "sampleTestCase": "[0,1,2,3,4]\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfEmployeesWhoMetTarget\",\n  \"params\": [\n    {\n      \"name\": \"hours\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"target\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int numberOfEmployeesWhoMetTarget(vector<int>& hours, int target) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def numberOfEmployeesWhoMetTarget(self, hours, target):\n        \"\"\"\n        :type hours: List[int]\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} hours\n * @param {number} target\n * @return {number}\n */\nvar numberOfEmployeesWhoMetTarget = function(hours, target) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function numberOfEmployeesWhoMetTarget(hours: number[], target: number): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int NumberOfEmployeesWhoMetTarget(int[] hours, int target) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int numberOfEmployeesWhoMetTarget(int* hours, int hoursSize, int target) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func numberOfEmployeesWhoMetTarget(hours []int, target int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun numberOfEmployeesWhoMetTarget(hours: IntArray, target: Int): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func numberOfEmployeesWhoMetTarget(_ hours: [Int], _ target: Int) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn number_of_employees_who_met_target(hours: Vec<i32>, target: i32) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} hours\n# @param {Integer} target\n# @return {Integer}\ndef number_of_employees_who_met_target(hours, target)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $hours\n     * @param Integer $target\n     * @return Integer\n     */\n    function numberOfEmployeesWhoMetTarget($hours, $target) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int numberOfEmployeesWhoMetTarget(List<int> hours, int target) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def numberOfEmployeesWhoMetTarget(hours: Array[Int], target: Int): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec number_of_employees_who_met_target(hours :: [integer], target :: integer) :: integer\n  def number_of_employees_who_met_target(hours, target) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec number_of_employees_who_met_target(Hours :: [integer()], Target :: integer()) -> integer().\nnumber_of_employees_who_met_target(Hours, Target) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (number-of-employees-who-met-target hours target)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func numberOfEmployeesWhoMetTarget(hours: Array<Int64>, target: Int64): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"37.6K\", \"totalSubmission\": \"42.7K\", \"totalAcceptedRaw\": 37646, \"totalSubmissionRaw\": 42708, \"acRate\": \"88.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

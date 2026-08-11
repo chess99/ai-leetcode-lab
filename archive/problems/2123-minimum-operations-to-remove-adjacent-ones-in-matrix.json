@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:26Z",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/",
+  "question": {
+    "questionId": "2259",
+    "questionFrontendId": "2123",
+    "title": "Minimum Operations to Remove Adjacent Ones in Matrix",
+    "titleSlug": "minimum-operations-to-remove-adjacent-ones-in-matrix",
+    "translatedTitle": "使矩阵中的 1 互不相邻的最小操作数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,1,0],[0,1,1],[1,1,1]]\n[[0,0,0],[0,0,0],[0,0,0]]\n[[0,1],[1,0]]",
+    "sampleTestCase": "[[1,1,0],[0,1,1],[1,1,1]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumOperations\",\n  \"params\": [\n    {\n      \"name\": \"grid\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"617\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 617, \"totalSubmissionRaw\": 1342, \"acRate\": \"46.0%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Edmonds–Karp 算法",
+        "slug": "edmonds-karp-algorithm",
+        "translatedName": null
+      },
+      {
+        "name": "Dinic 算法",
+        "slug": "dinics-algorithm",
+        "translatedName": null
+      },
+      {
+        "name": "MPM 算法",
+        "slug": "mpm-algorithm",
+        "translatedName": null
+      },
+      {
+        "name": "Push-Relabel 算法",
+        "slug": "push-relabel-algorithm",
+        "translatedName": null
+      },
+      {
+        "name": "网络流",
+        "slug": "flow-network",
+        "translatedName": null
+      }
+    ]
+  }
+}

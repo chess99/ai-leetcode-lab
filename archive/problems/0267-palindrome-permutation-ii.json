@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:12Z",
+  "source": "https://leetcode.cn/problems/palindrome-permutation-ii/",
+  "question": {
+    "questionId": "267",
+    "questionFrontendId": "267",
+    "title": "Palindrome Permutation II",
+    "titleSlug": "palindrome-permutation-ii",
+    "translatedTitle": "回文排列 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 132,
+    "dislikes": 0,
+    "exampleTestcases": "\"aabb\"\n\"abc\"",
+    "sampleTestCase": "\"aabb\"",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"generatePalindromes\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"16.9K\", \"totalAcceptedRaw\": 7953, \"totalSubmissionRaw\": 16899, \"acRate\": \"47.1%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

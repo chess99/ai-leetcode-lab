@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:17Z",
+  "source": "https://leetcode.cn/problems/longest-common-prefix-after-at-most-one-removal/",
+  "question": {
+    "questionId": "3796",
+    "questionFrontendId": "3460",
+    "title": "Longest Common Prefix After at Most One Removal",
+    "titleSlug": "longest-common-prefix-after-at-most-one-removal",
+    "translatedTitle": "最多删除一次后的最长公共前缀",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "\"madxa\"\n\"madam\"\n\"leetcode\"\n\"eetcode\"\n\"one\"\n\"one\"\n\"a\"\n\"b\"",
+    "sampleTestCase": "\"madxa\"\n\"madam\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"longestCommonPrefix\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"t\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"187\", \"totalSubmission\": \"1K\", \"totalAcceptedRaw\": 187, \"totalSubmissionRaw\": 1025, \"acRate\": \"18.2%\"}",
+    "topicTags": [
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

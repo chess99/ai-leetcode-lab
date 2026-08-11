@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:20Z",
+  "source": "https://leetcode.cn/problems/total-sales-amount-by-year/",
+  "question": {
+    "questionId": "1518",
+    "questionFrontendId": "1384",
+    "title": "Total Sales Amount by Year",
+    "titleSlug": "total-sales-amount-by-year",
+    "translatedTitle": "按年度列出销售总额",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 61,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Product\": [\"product_id\", \"product_name\"], \"Sales\": [\"product_id\", \"period_start\", \"period_end\", \"average_daily_sales\"]}, \"rows\": {\"Product\": [[1, \"LC Phone \"], [2, \"LC T-Shirt\"], [3, \"LC Keychain\"]], \"Sales\": [[1, \"2019-01-25\", \"2019-02-28\", 100], [2, \"2018-12-01\", \"2020-01-01\", 10], [3, \"2019-12-01\", \"2020-01-31\", 1]]}}",
+    "sampleTestCase": "{\"headers\": {\"Product\": [\"product_id\", \"product_name\"], \"Sales\": [\"product_id\", \"period_start\", \"period_end\", \"average_daily_sales\"]}, \"rows\": {\"Product\": [[1, \"LC Phone \"], [2, \"LC T-Shirt\"], [3, \"LC Keychain\"]], \"Sales\": [[1, \"2019-01-25\", \"2019-02-28\", 100], [2, \"2018-12-01\", \"2020-01-01\", 10], [3, \"2019-12-01\", \"2020-01-31\", 1]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Product (product_id int, product_name varchar(30))\",\"Create table If Not Exists Sales (product_id int, period_start date, period_end date, average_daily_sales int)\"],\"mssql\":[\"Create table Product (product_id int, product_name varchar(30))\",\"Create table Sales (product_id int, period_start date, period_end date, average_daily_sales int)\"],\"oraclesql\":[\"Create table Product (product_id int, product_name varchar(30))\",\"Create table Sales (product_id int, period_start date, period_end date, average_daily_sales int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"total_sales\",\"pythondata\":[\"Product = pd.DataFrame([], columns=['product_id', 'product_name']).astype({'product_id':'Int64', 'product_name':'object'})\",\"Sales = pd.DataFrame([], columns=['product_id', 'period_start', 'period_end', 'average_daily_sales']).astype({'product_id':'Int64', 'period_start':'datetime64[ns]', 'period_end':'datetime64[ns]', 'average_daily_sales':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Product (product_id int, product_name varchar(30))\\n\",\"Create table If Not Exists Sales (product_id int, period_start date, period_end date, average_daily_sales int)\"],\"database_schema\":{\"Product\":{\"product_id\":\"INT\",\"product_name\":\"VARCHAR(30)\"},\"Sales\":{\"product_id\":\"INT\",\"period_start\":\"DATE\",\"period_end\":\"DATE\",\"average_daily_sales\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7K\", \"totalSubmission\": \"11.8K\", \"totalAcceptedRaw\": 6982, \"totalSubmissionRaw\": 11784, \"acRate\": \"59.2%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

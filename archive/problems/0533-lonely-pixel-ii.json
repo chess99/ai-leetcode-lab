@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:56Z",
+  "source": "https://leetcode.cn/problems/lonely-pixel-ii/",
+  "question": {
+    "questionId": "533",
+    "questionFrontendId": "533",
+    "title": "Lonely Pixel II",
+    "titleSlug": "lonely-pixel-ii",
+    "translatedTitle": "孤独像素 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 31,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"W\",\"B\",\"W\",\"B\",\"B\",\"W\"],[\"W\",\"B\",\"W\",\"B\",\"B\",\"W\"],[\"W\",\"B\",\"W\",\"B\",\"B\",\"W\"],[\"W\",\"W\",\"B\",\"W\",\"B\",\"W\"]]\n3\n[[\"W\",\"W\",\"B\"],[\"W\",\"W\",\"B\"],[\"W\",\"W\",\"B\"]]\n1",
+    "sampleTestCase": "[[\"W\",\"B\",\"W\",\"B\",\"B\",\"W\"],[\"W\",\"B\",\"W\",\"B\",\"B\",\"W\"],[\"W\",\"B\",\"W\",\"B\",\"B\",\"W\"],[\"W\",\"W\",\"B\",\"W\",\"B\",\"W\"]]\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"findBlackPixel\",\n  \"params\": [\n    {\n      \"name\": \"picture\",\n      \"type\": \"character[][]\"\n    },\n    {\n      \"name\": \"target\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"6.5K\", \"totalAcceptedRaw\": 3349, \"totalSubmissionRaw\": 6528, \"acRate\": \"51.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

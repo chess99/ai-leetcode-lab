@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:33Z",
+  "source": "https://leetcode.cn/problems/longest-winning-streak/",
+  "question": {
+    "questionId": "2313",
+    "questionFrontendId": "2173",
+    "title": "Longest Winning Streak",
+    "titleSlug": "longest-winning-streak",
+    "translatedTitle": "最多连胜的次数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 16,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Matches\":[\"player_id\",\"match_day\",\"result\"]},\"rows\":{\"Matches\":[[1,\"2022-01-17\",\"Win\"],[1,\"2022-01-18\",\"Win\"],[1,\"2022-01-25\",\"Win\"],[1,\"2022-01-31\",\"Draw\"],[1,\"2022-02-08\",\"Win\"],[2,\"2022-02-06\",\"Lose\"],[2,\"2022-02-08\",\"Lose\"],[3,\"2022-03-30\",\"Win\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Matches\":[\"player_id\",\"match_day\",\"result\"]},\"rows\":{\"Matches\":[[1,\"2022-01-17\",\"Win\"],[1,\"2022-01-18\",\"Win\"],[1,\"2022-01-25\",\"Win\"],[1,\"2022-01-31\",\"Draw\"],[1,\"2022-02-08\",\"Win\"],[2,\"2022-02-06\",\"Lose\"],[2,\"2022-02-08\",\"Lose\"],[3,\"2022-03-30\",\"Win\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Matches (player_id int, match_day date, result ENUM('Win', 'Draw', 'Lose'))\"],\"mssql\":[\"Create table Matches (player_id int, match_day date, result VARCHAR(4) NOT NULL CHECK (result IN ('Win', 'Draw', 'Lose')))\"],\"oraclesql\":[\"Create table Matches (player_id int, match_day date, result VARCHAR(4) NOT NULL CHECK (result IN ('Win', 'Draw', 'Lose')))\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"longest_winning_streak\",\"pythondata\":[\"Matches = pd.DataFrame([], columns=['player_id', 'match_day', 'result']).astype({'player_id':'Int64', 'match_day':'datetime64[ns]', 'result':'object'})\"],\"postgresql\":[\"Create table If Not Exists Matches (player_id int, match_day date, result VARCHAR(30) CHECK (result IN ('Win', 'Draw', 'Lose')))\\n\"],\"database_schema\":{\"Matches\":{\"player_id\":\"INT\",\"match_day\":\"DATE\",\"result\":\"ENUM('Win', 'Draw', 'Lose')\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.8K\", \"totalSubmission\": \"5.2K\", \"totalAcceptedRaw\": 2753, \"totalSubmissionRaw\": 5169, \"acRate\": \"53.3%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

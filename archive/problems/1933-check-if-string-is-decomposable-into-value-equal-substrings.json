@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:55Z",
+  "source": "https://leetcode.cn/problems/check-if-string-is-decomposable-into-value-equal-substrings/",
+  "question": {
+    "questionId": "2070",
+    "questionFrontendId": "1933",
+    "title": "Check if String Is Decomposable Into Value-Equal Substrings",
+    "titleSlug": "check-if-string-is-decomposable-into-value-equal-substrings",
+    "translatedTitle": "判断字符串是否可分解为值均等的子串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "\"000111000\"\n\"00011111222\"\n\"011100022233\"",
+    "sampleTestCase": "\"000111000\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"isDecomposable\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"3.1K\", \"totalAcceptedRaw\": 1518, \"totalSubmissionRaw\": 3081, \"acRate\": \"49.3%\"}",
+    "topicTags": [
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

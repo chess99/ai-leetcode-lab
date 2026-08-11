@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:37Z",
+  "source": "https://leetcode.cn/problems/league-statistics/",
+  "question": {
+    "questionId": "1991",
+    "questionFrontendId": "1841",
+    "title": "League Statistics",
+    "titleSlug": "league-statistics",
+    "translatedTitle": "联赛信息统计",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 20,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Teams\":[\"team_id\",\"team_name\"],\"Matches\":[\"home_team_id\",\"away_team_id\",\"home_team_goals\",\"away_team_goals\"]},\"rows\":{\"Teams\":[[1,\"Ajax\"],[4,\"Dortmund\"],[6,\"Arsenal\"]],\"Matches\":[[1,4,0,1],[1,6,3,3],[4,1,5,2],[6,1,0,0]]}}",
+    "sampleTestCase": "{\"headers\":{\"Teams\":[\"team_id\",\"team_name\"],\"Matches\":[\"home_team_id\",\"away_team_id\",\"home_team_goals\",\"away_team_goals\"]},\"rows\":{\"Teams\":[[1,\"Ajax\"],[4,\"Dortmund\"],[6,\"Arsenal\"]],\"Matches\":[[1,4,0,1],[1,6,3,3],[4,1,5,2],[6,1,0,0]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Teams (team_id int, team_name varchar(20))\",\"Create table If Not Exists Matches (home_team_id int, away_team_id int, home_team_goals int, away_team_goals int)\"],\"mssql\":[\"Create table Teams (team_id int, team_name varchar(20))\",\"Create table Matches (home_team_id int, away_team_id int, home_team_goals int, away_team_goals int)\"],\"oraclesql\":[\"Create table Teams (team_id int, team_name varchar(20))\",\"Create table Matches (home_team_id int, away_team_id int, home_team_goals int, away_team_goals int)\"],\"database\":true,\"name\":\"league_statistics\",\"pythondata\":[\"Teams = pd.DataFrame([], columns=['team_id', 'team_name']).astype({'team_id':'Int64', 'team_name':'object'})\",\"Matches = pd.DataFrame([], columns=['home_team_id', 'away_team_id', 'home_team_goals', 'away_team_goals']).astype({'home_team_id':'Int64', 'away_team_id':'Int64', 'home_team_goals':'Int64', 'away_team_goals':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Teams (team_id int, team_name varchar(20))\",\"Create table If Not Exists Matches (home_team_id int, away_team_id int, home_team_goals int, away_team_goals int)\"],\"database_schema\":{\"Teams\":{\"team_id\":\"INT\",\"team_name\":\"VARCHAR(20)\"},\"Matches\":{\"home_team_id\":\"INT\",\"away_team_id\":\"INT\",\"home_team_goals\":\"INT\",\"away_team_goals\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.8K\", \"totalSubmission\": \"9.2K\", \"totalAcceptedRaw\": 4835, \"totalSubmissionRaw\": 9201, \"acRate\": \"52.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

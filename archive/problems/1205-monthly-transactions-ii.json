@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:51Z",
+  "source": "https://leetcode.cn/problems/monthly-transactions-ii/",
+  "question": {
+    "questionId": "1328",
+    "questionFrontendId": "1205",
+    "title": "Monthly Transactions II",
+    "titleSlug": "monthly-transactions-ii",
+    "translatedTitle": "每月交易 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 88,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Transactions\":[\"id\",\"country\",\"state\",\"amount\",\"trans_date\"],\"Chargebacks\":[\"trans_id\",\"trans_date\"]},\"rows\":{\"Transactions\":[[101,\"US\",\"approved\",1000,\"2019-05-18\"],[102,\"US\",\"declined\",2000,\"2019-05-19\"],[103,\"US\",\"approved\",3000,\"2019-06-10\"],[104,\"US\",\"declined\",4000,\"2019-06-13\"],[105,\"US\",\"approved\",5000,\"2019-06-15\"]],\"Chargebacks\":[[102,\"2019-05-29\"],[101,\"2019-06-30\"],[105,\"2019-09-18\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Transactions\":[\"id\",\"country\",\"state\",\"amount\",\"trans_date\"],\"Chargebacks\":[\"trans_id\",\"trans_date\"]},\"rows\":{\"Transactions\":[[101,\"US\",\"approved\",1000,\"2019-05-18\"],[102,\"US\",\"declined\",2000,\"2019-05-19\"],[103,\"US\",\"approved\",3000,\"2019-06-10\"],[104,\"US\",\"declined\",4000,\"2019-06-13\"],[105,\"US\",\"approved\",5000,\"2019-06-15\"]],\"Chargebacks\":[[102,\"2019-05-29\"],[101,\"2019-06-30\"],[105,\"2019-09-18\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Transactions (id int, country varchar(4), state enum('approved', 'declined'), amount int, trans_date date)\\n\",\"Create table If Not Exists Chargebacks (trans_id int, trans_date date)\\n\"],\"mssql\":[\"Create table Transactions (id int, country varchar(4), state varchar(10) check(state in ('approved', 'declined')), amount int, trans_date date)\",\"Create table Chargebacks (trans_id int, trans_date date)\\n\"],\"oraclesql\":[\"Create table Transactions (id int, country varchar(4), state varchar(10) check(state in ('approved', 'declined')), amount int, trans_date date)\\n\",\"Create table Chargebacks (trans_id int, trans_date date)\\n\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"monthly_transactions\",\"pythondata\":[\"Transactions = pd.DataFrame([], columns=['id', 'country', 'state', 'amount', 'trans_date']).astype({'id':'Int64', 'country':'object', 'state':'object', 'amount':'Int64', 'trans_date':'datetime64[ns]'})\",\"Chargebacks = pd.DataFrame([], columns=['trans_id', 'trans_date']).astype({'trans_id':'Int64', 'trans_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Transactions (id int, country varchar(4), state VARCHAR(30) CHECK (state IN ('approved', 'declined')), amount int, trans_date date)\\n\",\"Create table If Not Exists Chargebacks (trans_id int, trans_date date)\\n\"],\"database_schema\":{\"Transactions\":{\"id\":\"INT\",\"country\":\"VARCHAR(4)\",\"state\":\"ENUM('approved', 'declined')\",\"amount\":\"INT\",\"trans_date\":\"DATE\"},\"Chargebacks\":{\"trans_id\":\"INT\",\"trans_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"12.4K\", \"totalSubmission\": \"28.1K\", \"totalAcceptedRaw\": 12444, \"totalSubmissionRaw\": 28059, \"acRate\": \"44.3%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

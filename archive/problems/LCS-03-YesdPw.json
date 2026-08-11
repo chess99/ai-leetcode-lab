@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:41Z",
+  "source": "https://leetcode.cn/problems/YesdPw/",
+  "question": {
+    "questionId": "1000227",
+    "questionFrontendId": "LCS 03",
+    "title": "主题空间",
+    "titleSlug": "YesdPw",
+    "translatedTitle": "主题空间",
+    "content": "English description is not available for the problem. Please switch to Chinese.",
+    "translatedContent": "「以扣会友」线下活动所在场地由若干主题空间与走廊组成，场地的地图记作由一维字符串型数组 `grid`，字符串中仅包含 `\"0\"～\"5\"` 这 6 个字符。地图上每一个字符代表面积为 1 的区域，其中 `\"0\"` 表示走廊，其他字符表示主题空间。相同且连续（连续指上、下、左、右四个方向连接）的字符组成同一个主题空间。\n\n假如整个 `grid` 区域的外侧均为走廊。请问，不与走廊直接相邻的主题空间的最大面积是多少？如果不存在这样的空间请返回 `0`。\n\n**示例 1：**\n>输入：`grid = [\"110\",\"231\",\"221\"]`\n>\n>输出：`1`\n>\n>解释：4 个主题空间中，只有 1 个不与走廊相邻，面积为 1。\n>![image.png](https://pic.leetcode.cn/1613708145-rscctN-image.png)\n\n\n**示例 2：**\n>输入：`grid = [\"11111100000\",\"21243101111\",\"21224101221\",\"11111101111\"]`\n>\n>输出：`3`\n>\n>解释：8 个主题空间中，有 5 个不与走廊相邻，面积分别为 3、1、1、1、2，最大面积为 3。\n>![image.png](https://pic.leetcode.cn/1613707985-KJyiXJ-image.png)\n\n\n**提示：**\n- `1 <= grid.length <= 500`\n- `1 <= grid[i].length <= 500`\n- `grid[i][j]` 仅可能为 `\"0\"～\"5\"`\n\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 39,
+    "dislikes": 0,
+    "exampleTestcases": "[\"110\",\"231\",\"221\"]\n[\"11111100000\",\"21243101111\",\"21224101221\",\"11111101111\"]",
+    "sampleTestCase": "[\"110\",\"231\",\"221\"]",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"largestArea\", \"params\": [{\"name\": \"grid\", \"type\": \"string[]\"}], \"return\": {\"type\": \"integer\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int largestArea(vector<string>& grid) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int largestArea(String[] grid) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def largestArea(self, grid: List[str]) -> int:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def largestArea(self, grid):\n        \"\"\"\n        :type grid: List[str]\n        :rtype: int\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string[]} grid\n * @return {number}\n */\nvar largestArea = function(grid) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function largestArea(grid: string[]): number {\n\n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int LargestArea(string[] grid) {\n\n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\nint largestArea(char** grid, int gridSize){\n\n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func largestArea(grid []string) int {\n\n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun largestArea(grid: Array<String>): Int {\n\n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func largestArea(_ grid: [String]) -> Int {\n\n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn largest_area(grid: Vec<String>) -> i32 {\n\n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String[]} grid\n# @return {Integer}\ndef largest_area(grid)\n\nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String[] $grid\n     * @return Integer\n     */\n    function largestArea($grid) {\n\n    }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def largestArea(grid: Array[String]): Int = {\n\n    }\n}"
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (largest-area grid)\n  (-> (listof string?) exact-integer?)\n\n  )"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"11.7K\", \"totalSubmission\": \"25.4K\", \"totalAcceptedRaw\": 11709, \"totalSubmissionRaw\": 25428, \"acRate\": \"46.0%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:23Z",
+  "source": "https://leetcode.cn/problems/design-most-recently-used-queue/",
+  "question": {
+    "questionId": "1903",
+    "questionFrontendId": "1756",
+    "title": "Design Most Recently Used Queue",
+    "titleSlug": "design-most-recently-used-queue",
+    "translatedTitle": "设计最近使用（MRU）队列",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 21,
+    "dislikes": 0,
+    "exampleTestcases": "[\"MRUQueue\",\"fetch\",\"fetch\",\"fetch\",\"fetch\"]\n[[8],[3],[5],[2],[8]]",
+    "sampleTestCase": "[\"MRUQueue\",\"fetch\",\"fetch\",\"fetch\",\"fetch\"]\n[[8],[3],[5],[2],[8]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"MRUQueue\",\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"integer\",\n        \"name\": \"n\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"k\"\n        }\n      ],\n      \"name\": \"fetch\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"3.6K\", \"totalAcceptedRaw\": 2309, \"totalSubmissionRaw\": 3646, \"acRate\": \"63.3%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Linked List",
+        "slug": "linked-list",
+        "translatedName": "链表"
+      },
+      {
+        "name": "Divide and Conquer",
+        "slug": "divide-and-conquer",
+        "translatedName": "分治"
+      },
+      {
+        "name": "Doubly-Linked List",
+        "slug": "doubly-linked-list",
+        "translatedName": "双向链表"
+      },
+      {
+        "name": "Splay Tree",
+        "slug": "splay-tree",
+        "translatedName": null
+      },
+      {
+        "name": "树堆",
+        "slug": "treap",
+        "translatedName": null
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      },
+      {
+        "name": "Sqrt Decomposition",
+        "slug": "sqrt-decomposition",
+        "translatedName": null
+      }
+    ]
+  }
+}

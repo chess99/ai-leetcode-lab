@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:03Z",
+  "source": "https://leetcode.cn/problems/widest-pair-of-indices-with-equal-range-sum/",
+  "question": {
+    "questionId": "519",
+    "questionFrontendId": "1983",
+    "title": "Widest Pair of Indices With Equal Range Sum",
+    "titleSlug": "widest-pair-of-indices-with-equal-range-sum",
+    "translatedTitle": "范围和相等的最宽索引对",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 12,
+    "dislikes": 0,
+    "exampleTestcases": "[1,1,0,1]\n[0,1,1,0]\n[0,1]\n[1,1]\n[0]\n[1]",
+    "sampleTestCase": "[1,1,0,1]\n[0,1,1,0]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"widestPairOfIndices\",\n  \"params\": [\n    {\n      \"name\": \"nums1\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"nums2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"940\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 940, \"totalSubmissionRaw\": 1906, \"acRate\": \"49.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

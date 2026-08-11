@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:06Z",
+  "source": "https://leetcode.cn/problems/design-in-memory-file-system/",
+  "question": {
+    "questionId": "588",
+    "questionFrontendId": "588",
+    "title": "Design In-Memory File System",
+    "titleSlug": "design-in-memory-file-system",
+    "translatedTitle": "设计内存文件系统",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 124,
+    "dislikes": 0,
+    "exampleTestcases": "[\"FileSystem\",\"ls\",\"mkdir\",\"addContentToFile\",\"ls\",\"readContentFromFile\"]\n[[],[\"/\"],[\"/a/b/c\"],[\"/a/b/c/d\",\"hello\"],[\"/\"],[\"/a/b/c/d\"]]",
+    "sampleTestCase": "[\"FileSystem\",\"ls\",\"mkdir\",\"addContentToFile\",\"ls\",\"readContentFromFile\"]\n[[],[\"/\"],[\"/a/b/c\"],[\"/a/b/c/d\",\"hello\"],[\"/\"],[\"/a/b/c/d\"]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n    \"classname\": \"FileSystem\",\r\n    \"maxbytesperline\": 200000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n        ]\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"ls\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"path\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"list<string>\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"mkdir\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"path\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"addContentToFile\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"filePath\"\r\n                },\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"content\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"readContentFromFile\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"filePath\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"string\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.8K\", \"totalSubmission\": \"12.8K\", \"totalAcceptedRaw\": 5794, \"totalSubmissionRaw\": 12781, \"acRate\": \"45.3%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

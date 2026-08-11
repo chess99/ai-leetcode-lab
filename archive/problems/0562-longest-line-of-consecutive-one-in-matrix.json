@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:01Z",
+  "source": "https://leetcode.cn/problems/longest-line-of-consecutive-one-in-matrix/",
+  "question": {
+    "questionId": "562",
+    "questionFrontendId": "562",
+    "title": "Longest Line of Consecutive One in Matrix",
+    "titleSlug": "longest-line-of-consecutive-one-in-matrix",
+    "translatedTitle": "矩阵中最长的连续1线段",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 86,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,1,1,0],[0,1,1,0],[0,0,0,1]]\n[[1,1,1,1],[0,1,1,0],[0,0,0,1]]",
+    "sampleTestCase": "[[0,1,1,0],[0,1,1,0],[0,0,0,1]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"longestLine\",\n  \"params\": [\n    {\n      \"name\": \"mat\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.8K\", \"totalSubmission\": \"13.5K\", \"totalAcceptedRaw\": 6809, \"totalSubmissionRaw\": 13471, \"acRate\": \"50.5%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

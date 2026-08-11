@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:25Z",
+  "source": "https://leetcode.cn/problems/maximal-range-that-each-element-is-maximum-in-it/",
+  "question": {
+    "questionId": "3088",
+    "questionFrontendId": "2832",
+    "title": "Maximal Range That Each Element Is Maximum in It",
+    "titleSlug": "maximal-range-that-each-element-is-maximum-in-it",
+    "translatedTitle": "每个元素为最大值的最大范围",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 8,
+    "dislikes": 0,
+    "exampleTestcases": "[1,5,4,3,6]\n[1,2,3,4,5]",
+    "sampleTestCase": "[1,5,4,3,6]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maximumLengthOfRanges\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"688\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 688, \"totalSubmissionRaw\": 1897, \"acRate\": \"36.3%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Monotonic Stack",
+        "slug": "monotonic-stack",
+        "translatedName": "单调栈"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:16Z",
+  "source": "https://leetcode.cn/problems/4-keys-keyboard/",
+  "question": {
+    "questionId": "651",
+    "questionFrontendId": "651",
+    "title": "4 Keys Keyboard",
+    "titleSlug": "4-keys-keyboard",
+    "translatedTitle": "四个键的键盘",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 145,
+    "dislikes": 0,
+    "exampleTestcases": "3\n7",
+    "sampleTestCase": "3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxA\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"10.4K\", \"totalSubmission\": \"17.1K\", \"totalAcceptedRaw\": 10433, \"totalSubmissionRaw\": 17127, \"acRate\": \"60.9%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

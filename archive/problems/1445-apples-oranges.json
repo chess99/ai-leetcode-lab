@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:30Z",
+  "source": "https://leetcode.cn/problems/apples-oranges/",
+  "question": {
+    "questionId": "1578",
+    "questionFrontendId": "1445",
+    "title": "Apples & Oranges",
+    "titleSlug": "apples-oranges",
+    "translatedTitle": "苹果和桔子",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 51,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Sales\":[\"sale_date\",\"fruit\",\"sold_num\"]},\"rows\":{\"Sales\":[[\"2020-05-01\",\"apples\",10],[\"2020-05-01\",\"oranges\",8],[\"2020-05-02\",\"apples\",15],[\"2020-05-02\",\"oranges\",15],[\"2020-05-03\",\"apples\",20],[\"2020-05-03\",\"oranges\",0],[\"2020-05-04\",\"apples\",15],[\"2020-05-04\",\"oranges\",16]]}}",
+    "sampleTestCase": "{\"headers\":{\"Sales\":[\"sale_date\",\"fruit\",\"sold_num\"]},\"rows\":{\"Sales\":[[\"2020-05-01\",\"apples\",10],[\"2020-05-01\",\"oranges\",8],[\"2020-05-02\",\"apples\",15],[\"2020-05-02\",\"oranges\",15],[\"2020-05-03\",\"apples\",20],[\"2020-05-03\",\"oranges\",0],[\"2020-05-04\",\"apples\",15],[\"2020-05-04\",\"oranges\",16]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Sales (sale_date date, fruit ENUM('apples', 'oranges'), sold_num int)\"],\"mssql\":[\"Create Table Sales (sale_date date, fruit varchar(10) NOT NULL CHECK (fruit IN ('apples', 'oranges')), sold_num int)\"],\"oraclesql\":[\"Create Table Sales (sale_date date, fruit varchar(10) NOT NULL CHECK (fruit IN ('apples', 'oranges')), sold_num int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"apples_oranges\",\"pythondata\":[\"Sales = pd.DataFrame([], columns=['sale_date', 'fruit', 'sold_num']).astype({'sale_date':'datetime64[ns]', 'fruit':'object', 'sold_num':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Sales (sale_date date, fruit VARCHAR(30) CHECK (fruit IN ('apples', 'oranges')), sold_num int)\\n\"],\"database_schema\":{\"Sales\":{\"sale_date\":\"DATE\",\"fruit\":\"ENUM('apples', 'oranges')\",\"sold_num\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"23K\", \"totalSubmission\": \"28.5K\", \"totalAcceptedRaw\": 23012, \"totalSubmissionRaw\": 28472, \"acRate\": \"80.8%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

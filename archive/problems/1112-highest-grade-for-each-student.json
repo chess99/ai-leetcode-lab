@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:36Z",
+  "source": "https://leetcode.cn/problems/highest-grade-for-each-student/",
+  "question": {
+    "questionId": "1214",
+    "questionFrontendId": "1112",
+    "title": "Highest Grade For Each Student",
+    "titleSlug": "highest-grade-for-each-student",
+    "translatedTitle": "每位学生的最高成绩",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 86,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Enrollments\":[\"student_id\",\"course_id\",\"grade\"]},\"rows\":{\"Enrollments\":[[2,2,95],[2,3,95],[1,1,90],[1,2,99],[3,1,80],[3,2,75],[3,3,82]]}}",
+    "sampleTestCase": "{\"headers\":{\"Enrollments\":[\"student_id\",\"course_id\",\"grade\"]},\"rows\":{\"Enrollments\":[[2,2,95],[2,3,95],[1,1,90],[1,2,99],[3,1,80],[3,2,75],[3,3,82]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Enrollments (student_id int, course_id int, grade int)\"],\"mssql\":[\"Create table Enrollments (student_id int, course_id int, grade int)\"],\"oraclesql\":[\"Create table Enrollments (student_id int, course_id int, grade int)\"],\"database\":true,\"name\":\"highest_grade\",\"pythondata\":[\"Enrollments = pd.DataFrame([], columns=['student_id', 'course_id', 'grade']).astype({'student_id':'Int64', 'course_id':'Int64', 'grade':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Enrollments (student_id int, course_id int, grade int)\"],\"database_schema\":{\"Enrollments\":{\"student_id\":\"INT\",\"course_id\":\"INT\",\"grade\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"33.9K\", \"totalSubmission\": \"52.2K\", \"totalAcceptedRaw\": 33908, \"totalSubmissionRaw\": 52196, \"acRate\": \"65.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

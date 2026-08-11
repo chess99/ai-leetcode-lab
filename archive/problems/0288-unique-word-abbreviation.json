@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:16Z",
+  "source": "https://leetcode.cn/problems/unique-word-abbreviation/",
+  "question": {
+    "questionId": "288",
+    "questionFrontendId": "288",
+    "title": "Unique Word Abbreviation",
+    "titleSlug": "unique-word-abbreviation",
+    "translatedTitle": "单词的唯一缩写",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 25,
+    "dislikes": 0,
+    "exampleTestcases": "[\"ValidWordAbbr\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\"]\n[[[\"deer\",\"door\",\"cake\",\"card\"]],[\"dear\"],[\"cart\"],[\"cane\"],[\"make\"],[\"cake\"]]",
+    "sampleTestCase": "[\"ValidWordAbbr\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\",\"isUnique\"]\n[[[\"deer\",\"door\",\"cake\",\"card\"]],[\"dear\"],[\"cart\"],[\"cane\"],[\"make\"],[\"cake\"]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"classname\": \"ValidWordAbbr\",\r\n  \"maxbytesperline\": 470000,\r\n  \"constructor\": {\r\n      \"params\": [\r\n        {\r\n            \"type\": \"string[]\",\r\n            \"name\": \"dictionary\"\r\n        },\r\n        {\r\n            \"type\": \"integer\",\r\n            \"name\": \"dictionarySize\",\r\n            \"lang\": \"c\",\r\n            \"value\": \"size_1\"\r\n        }\r\n      ]\r\n  },\r\n  \"methods\": [\r\n      { \"name\" : \"isUnique\",\r\n        \"params\": [\r\n            {\r\n                \"type\": \"string\",\r\n                \"name\": \"word\"\r\n            }\r\n        ],\r\n        \"return\": {\r\n            \"type\": \"boolean\"\r\n        }\r\n      }\r\n  ],\r\n  \"systemdesign\": true,\r\n  \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"8.1K\", \"totalSubmission\": \"16.2K\", \"totalAcceptedRaw\": 8128, \"totalSubmissionRaw\": 16178, \"acRate\": \"50.2%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:49Z",
+  "source": "https://leetcode.cn/problems/color-fill-lcci/",
+  "question": {
+    "questionId": "100201",
+    "questionFrontendId": "面试题 08.10",
+    "title": "Color Fill LCCI",
+    "titleSlug": "color-fill-lcci",
+    "translatedTitle": "颜色填充",
+    "content": "<p>Implement the &quot;paint fill&quot; function that one might see on many image editing programs. That is, given a screen (represented by a two-dimensional array of colors), a point, and a new color, fill in the surrounding area until the color changes from the original color.</p>\r\n\r\n<p><strong>Example1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input</strong>: \r\nimage = [[1,1,1],[1,1,0],[1,0,1]] \r\nsr = 1, sc = 1, newColor = 2\r\n<strong>Output</strong>: [[2,2,2],[2,2,0],[2,0,1]]\r\n<strong>Explanation</strong>: \r\nFrom the center of the image (with position (sr, sc) = (1, 1)), all pixels connected \r\nby a path of the same color as the starting pixel are colored with the new color.\r\nNote the bottom corner is not colored 2, because it is not 4-directionally connected\r\nto the starting pixel.</pre>\r\n\r\n<p><b>Note:</b></p>\r\n\r\n<ul>\r\n\t<li>The length of&nbsp;<code>image</code>&nbsp;and&nbsp;<code>image[0]</code>&nbsp;will be in the range&nbsp;<code>[1, 50]</code>.</li>\r\n\t<li>The given starting pixel will satisfy&nbsp;<code>0 &lt;= sr &lt; image.length</code>&nbsp;and&nbsp;<code>0 &lt;= sc &lt; image[0].length</code>.</li>\r\n\t<li>The value of each color in&nbsp;<code>image[i][j]</code>&nbsp;and&nbsp;<code>newColor</code>&nbsp;will be an integer in&nbsp;<code>[0, 65535]</code>.</li>\r\n</ul>\r\n",
+    "translatedContent": "<p>编写函数，实现许多图片编辑软件都支持的「颜色填充」功能。</p>\n\n<p>待填充的图像用二维数组 <code>image</code> 表示，元素为初始颜色值。初始坐标点的行坐标为 <code>sr</code> 列坐标为 <code>sc</code>。需要填充的新颜色为 <code>newColor</code> 。</p>\n\n<p>「周围区域」是指颜色相同且在上、下、左、右四个方向上存在相连情况的若干元素。</p>\n\n<p>请用新颜色填充初始坐标点的周围区域，并返回填充后的图像。</p>\n\n<p> </p>\n\n<p><strong>示例：</strong></p>\n\n<pre>\n<strong>输入</strong>：\nimage = [[1,1,1],[1,1,0],[1,0,1]] \nsr = 1, sc = 1, newColor = 2\n<strong>输出</strong>：[[2,2,2],[2,2,0],[2,0,1]]\n<strong>解释</strong>: \n初始坐标点位于图像的正中间，坐标 (sr,sc)=(1,1) 。\n初始坐标点周围区域上所有符合条件的像素点的颜色都被更改成 2 。\n注意，右下角的像素没有更改为 2 ，因为它不属于初始坐标点的周围区域。\n</pre>\n\n<p> </p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>image</code> 和 <code>image[0]</code> 的长度均在范围 [1, 50] 内。</li>\n\t<li>初始坐标点 <code>(sr,sc)</code> 满足 <code>0 <= sr < image.length</code> 和 <code>0 <= sc < image[0].length</code> 。</li>\n\t<li><code>image[i][j]</code> 和 <code>newColor</code> 表示的颜色值在范围 <code>[0, 65535]</code> 内。</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 67,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,1,1],[1,1,0],[1,0,1]]\n1\n1\n2",
+    "sampleTestCase": "[[1,1,1],[1,1,0],[1,0,1]]\n1\n1\n2",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"floodFill\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"image\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"sr\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"sc\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"newColor\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[][]\"\r\n  }\r\n}\r\n",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def floodFill(self, image, sr, sc, newColor):\n        \"\"\"\n        :type image: List[List[int]]\n        :type sr: int\n        :type sc: int\n        :type newColor: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[][]} image\n * @param {number} sr\n * @param {number} sc\n * @param {number} newColor\n * @return {number[][]}\n */\nvar floodFill = function(image, sr, sc, newColor) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function floodFill(image: number[][], sr: number, sc: number, newColor: number): number[][] {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int[][] FloodFill(int[][] image, int sr, int sc, int newColor) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "/**\n * Return an array of arrays of size *returnSize.\n * The sizes of the arrays are returned as *returnColumnSizes array.\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\n */\nint** floodFill(int** image, int imageSize, int* imageColSize, int sr, int sc, int newColor, int* returnSize, int** returnColumnSizes) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func floodFill(image [][]int, sr int, sc int, newColor int) [][]int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun floodFill(image: Array<IntArray>, sr: Int, sc: Int, newColor: Int): Array<IntArray> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func floodFill(_ image: [[Int]], _ sr: Int, _ sc: Int, _ newColor: Int) -> [[Int]] {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn flood_fill(image: Vec<Vec<i32>>, sr: i32, sc: i32, new_color: i32) -> Vec<Vec<i32>> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[][]} image\n# @param {Integer} sr\n# @param {Integer} sc\n# @param {Integer} new_color\n# @return {Integer[][]}\ndef flood_fill(image, sr, sc, new_color)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[][] $image\n     * @param Integer $sr\n     * @param Integer $sc\n     * @param Integer $newColor\n     * @return Integer[][]\n     */\n    function floodFill($image, $sr, $sc, $newColor) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  List<List<int>> floodFill(List<List<int>> image, int sr, int sc, int newColor) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def floodFill(image: Array[Array[Int]], sr: Int, sc: Int, newColor: Int): Array[Array[Int]] = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec flood_fill(image :: [[integer]], sr :: integer, sc :: integer, new_color :: integer) :: [[integer]]\n  def flood_fill(image, sr, sc, new_color) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec flood_fill(Image :: [[integer()]], Sr :: integer(), Sc :: integer(), NewColor :: integer()) -> [[integer()]].\nflood_fill(Image, Sr, Sc, NewColor) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (flood-fill image sr sc newColor)\n  (-> (listof (listof exact-integer?)) exact-integer? exact-integer? exact-integer? (listof (listof exact-integer?)))\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func floodFill(image: Array<Array<Int64>>, sr: Int64, sc: Int64, newColor: Int64): Array<Array<Int64>> {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"29.1K\", \"totalSubmission\": \"51.6K\", \"totalAcceptedRaw\": 29066, \"totalSubmissionRaw\": 51570, \"acRate\": \"56.4%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

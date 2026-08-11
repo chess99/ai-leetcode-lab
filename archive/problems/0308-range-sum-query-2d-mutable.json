@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:19Z",
+  "source": "https://leetcode.cn/problems/range-sum-query-2d-mutable/",
+  "question": {
+    "questionId": "308",
+    "questionFrontendId": "308",
+    "title": "Range Sum Query 2D - Mutable",
+    "titleSlug": "range-sum-query-2d-mutable",
+    "translatedTitle": "二维区域和检索 - 矩阵可修改",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 101,
+    "dislikes": 0,
+    "exampleTestcases": "[\"NumMatrix\",\"sumRegion\",\"update\",\"sumRegion\"]\n[[[[3,0,1,4,2],[5,6,3,2,1],[1,2,0,1,5],[4,1,0,1,7],[1,0,3,0,5]]],[2,1,4,3],[3,2,2],[2,1,4,3]]",
+    "sampleTestCase": "[\"NumMatrix\",\"sumRegion\",\"update\",\"sumRegion\"]\n[[[[3,0,1,4,2],[5,6,3,2,1],[1,2,0,1,5],[4,1,0,1,7],[1,0,3,0,5]]],[2,1,4,3],[3,2,2],[2,1,4,3]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n    \"classname\": \"NumMatrix\",\r\n    \"maxbytesperline\": 115000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n            {\r\n                \"type\": \"integer[][]\",\r\n                \"name\": \"matrix\"\r\n            },\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"matrixRowSize\",\r\n                \"lang\": \"c\",\r\n                \"value\": \"size_1\"\r\n            },\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"matrixColSize\",\r\n                \"lang\": \"c\",\r\n                \"value\": \"col_size_1\"\r\n            }\r\n        ]\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"update\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"row\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"col\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"val\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"sumRegion\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"row1\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"col1\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"row2\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"col2\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.5K\", \"totalSubmission\": \"9.1K\", \"totalAcceptedRaw\": 5452, \"totalSubmissionRaw\": 9067, \"acRate\": \"60.1%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Binary Indexed Tree",
+        "slug": "binary-indexed-tree",
+        "translatedName": "树状数组"
+      },
+      {
+        "name": "Segment Tree",
+        "slug": "segment-tree",
+        "translatedName": "线段树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Sqrt Decomposition",
+        "slug": "sqrt-decomposition",
+        "translatedName": null
+      }
+    ]
+  }
+}

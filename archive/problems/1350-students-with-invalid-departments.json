@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:14Z",
+  "source": "https://leetcode.cn/problems/students-with-invalid-departments/",
+  "question": {
+    "questionId": "1481",
+    "questionFrontendId": "1350",
+    "title": "Students With Invalid Departments",
+    "titleSlug": "students-with-invalid-departments",
+    "translatedTitle": "院系无效的学生",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 40,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Departments\":[\"id\",\"name\"],\"Students\":[\"id\",\"name\",\"department_id\"]},\"rows\":{\"Departments\":[[1,\"Electrical Engineering\"],[7,\"Computer Engineering\"],[13,\"Bussiness Administration\"]],\"Students\":[[23,\"Alice\",1],[1,\"Bob\",7],[5,\"Jennifer\",13],[2,\"John\",14],[4,\"Jasmine\",77],[3,\"Steve\",74],[6,\"Luis\",1],[8,\"Jonathan\",7],[7,\"Daiana\",33],[11,\"Madelynn\",1]]}}",
+    "sampleTestCase": "{\"headers\":{\"Departments\":[\"id\",\"name\"],\"Students\":[\"id\",\"name\",\"department_id\"]},\"rows\":{\"Departments\":[[1,\"Electrical Engineering\"],[7,\"Computer Engineering\"],[13,\"Bussiness Administration\"]],\"Students\":[[23,\"Alice\",1],[1,\"Bob\",7],[5,\"Jennifer\",13],[2,\"John\",14],[4,\"Jasmine\",77],[3,\"Steve\",74],[6,\"Luis\",1],[8,\"Jonathan\",7],[7,\"Daiana\",33],[11,\"Madelynn\",1]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Departments (id int, name varchar(30))\",\"Create table If Not Exists Students (id int, name varchar(30), department_id int)\"],\"mssql\":[\"Create table Departments (id int, name varchar(30))\",\"Create table Students (id int, name varchar(30), department_id int)\"],\"oraclesql\":[\"Create table Departments (id int, name varchar(30))\",\"Create table Students (id int, name varchar(30), department_id int)\"],\"database\":true,\"name\":\"find_students\",\"pythondata\":[\"Departments = pd.DataFrame([], columns=['id', 'name']).astype({'id':'Int64', 'name':'object'})\",\"Students = pd.DataFrame([], columns=['id', 'name', 'department_id']).astype({'id':'Int64', 'name':'object', 'department_id':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Departments (id int, name varchar(30))\\n\",\"Create table If Not Exists Students (id int, name varchar(30), department_id int)\"],\"database_schema\":{\"Departments\":{\"id\":\"INT\",\"name\":\"VARCHAR(30)\"},\"Students\":{\"id\":\"INT\",\"name\":\"VARCHAR(30)\",\"department_id\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"19.9K\", \"totalSubmission\": \"23.5K\", \"totalAcceptedRaw\": 19903, \"totalSubmissionRaw\": 23505, \"acRate\": \"84.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

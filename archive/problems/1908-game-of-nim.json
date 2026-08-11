@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:51Z",
+  "source": "https://leetcode.cn/problems/game-of-nim/",
+  "question": {
+    "questionId": "2062",
+    "questionFrontendId": "1908",
+    "title": "Game of Nim",
+    "titleSlug": "game-of-nim",
+    "translatedTitle": "Nim 游戏 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 20,
+    "dislikes": 0,
+    "exampleTestcases": "[1]\n[1,1]\n[1,2,3]",
+    "sampleTestCase": "[1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"nimGame\",\n  \"params\": [\n    {\n      \"name\": \"piles\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1K\", \"totalSubmission\": \"2.5K\", \"totalAcceptedRaw\": 1027, \"totalSubmissionRaw\": 2450, \"acRate\": \"41.9%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Brainteaser",
+        "slug": "brainteaser",
+        "translatedName": "脑筋急转弯"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Game Theory",
+        "slug": "game-theory",
+        "translatedName": "博弈"
+      },
+      {
+        "name": "Nim 游戏",
+        "slug": "nim-game",
+        "translatedName": null
+      },
+      {
+        "name": "Sprague–Grundy ",
+        "slug": "sprague-grundy-theorem",
+        "translatedName": null
+      },
+      {
+        "name": "无偏博弈",
+        "slug": "impartial-game",
+        "translatedName": null
+      }
+    ]
+  }
+}

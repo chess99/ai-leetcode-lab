@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:52Z",
+  "source": "https://leetcode.cn/problems/premier-league-table-ranking-iii/",
+  "question": {
+    "questionId": "3642",
+    "questionFrontendId": "3322",
+    "title": "Premier League Table Ranking III",
+    "titleSlug": "premier-league-table-ranking-iii",
+    "translatedTitle": "英超积分榜排名 III",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"SeasonStats\":[\"season_id\",\"team_id\",\"team_name\",\"matches_played\",\"wins\",\"draws\",\"losses\",\"goals_for\",\"goals_against\"]},\"rows\":{\"SeasonStats\":[[2021,1,\"Manchester City\",38,29,6,3,99,26],[2021,2,\"Liverpool\",38,28,8,2,94,26],[2021,3,\"Chelsea\",38,21,11,6,76,33],[2021,4,\"Tottenham\",38,22,5,11,69,40],[2021,5,\"Arsenal\",38,22,3,13,61,48],[2022,1,\"Manchester City\",38,28,5,5,94,33],[2022,2,\"Arsenal\",38,26,6,6,88,43],[2022,3,\"Manchester United\",38,23,6,9,58,43],[2022,4,\"Newcastle\",38,19,14,5,68,33],[2022,5,\"Liverpool\",38,19,10,9,75,47]]}}",
+    "sampleTestCase": "{\"headers\":{\"SeasonStats\":[\"season_id\",\"team_id\",\"team_name\",\"matches_played\",\"wins\",\"draws\",\"losses\",\"goals_for\",\"goals_against\"]},\"rows\":{\"SeasonStats\":[[2021,1,\"Manchester City\",38,29,6,3,99,26],[2021,2,\"Liverpool\",38,28,8,2,94,26],[2021,3,\"Chelsea\",38,21,11,6,76,33],[2021,4,\"Tottenham\",38,22,5,11,69,40],[2021,5,\"Arsenal\",38,22,3,13,61,48],[2022,1,\"Manchester City\",38,28,5,5,94,33],[2022,2,\"Arsenal\",38,26,6,6,88,43],[2022,3,\"Manchester United\",38,23,6,9,58,43],[2022,4,\"Newcastle\",38,19,14,5,68,33],[2022,5,\"Liverpool\",38,19,10,9,75,47]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"CREATE TABLE SeasonStats (\\n    season_id INT,\\n    team_id INT,\\n    team_name VARCHAR(255),\\n    matches_played INT,\\n    wins INT,\\n    draws INT,\\n    losses INT,\\n    goals_for INT,\\n    goals_against INT\\n)\"],\"mssql\":[\"CREATE TABLE SeasonStats (\\n    season_id INT,\\n    team_id INT,\\n    team_name NVARCHAR(255),\\n    matches_played INT,\\n    wins INT,\\n    draws INT,\\n    losses INT,\\n    goals_for INT,\\n    goals_against INT\\n)\"],\"oraclesql\":[\"CREATE TABLE SeasonStats (\\n    season_id NUMBER,\\n    team_id NUMBER,\\n    team_name VARCHAR2(255),\\n    matches_played NUMBER,\\n    wins NUMBER,\\n    draws NUMBER,\\n    losses NUMBER,\\n    goals_for NUMBER,\\n    goals_against NUMBER\\n)\"],\"database\":true,\"name\":\"process_team_standings\",\"postgresql\":[\"CREATE TABLE SeasonStats (\\n    season_id INTEGER,\\n    team_id INTEGER,\\n    team_name VARCHAR(255),\\n    matches_played INTEGER,\\n    wins INTEGER,\\n    draws INTEGER,\\n    losses INTEGER,\\n    goals_for INTEGER,\\n    goals_against INTEGER\\n);\\n\"],\"pythondata\":[\"SeasonStats = pd.DataFrame(columns=['season_id', 'team_id', 'team_name', 'matches_played', 'wins', 'draws', 'losses', 'goals_for', 'goals_against'], dtype='int')\\n\"],\"database_schema\":{\"SeasonStats\":{\"season_id\":\"INT\",\"team_id\":\"INT\",\"team_name\":\"VARCHAR(255)\",\"matches_played\":\"INT\",\"wins\":\"INT\",\"draws\":\"INT\",\"losses\":\"INT\",\"goals_for\":\"INT\",\"goals_against\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"651\", \"totalSubmission\": \"890\", \"totalAcceptedRaw\": 651, \"totalSubmissionRaw\": 890, \"acRate\": \"73.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

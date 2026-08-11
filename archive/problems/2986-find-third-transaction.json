@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:53Z",
+  "source": "https://leetcode.cn/problems/find-third-transaction/",
+  "question": {
+    "questionId": "3283",
+    "questionFrontendId": "2986",
+    "title": "Find Third Transaction",
+    "titleSlug": "find-third-transaction",
+    "translatedTitle": "找到第三笔交易",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Transactions\":[\"user_id\",\"spend\",\"transaction_date\"]},\"rows\":{\"Transactions\":[[1,65.56,\"2023-11-18 13:49:42\"],[1,96.0,\"2023-11-30 02:47:26\"],[1,7.44,\"2023-11-02 12:15:23\"],[1,49.78,\"2023-11-12 00:13:46\"],[2,40.89,\"2023-11-21 04:39:15\"],[2,100.44,\"2023-11-20 07:39:34\"],[3,37.33,\"2023-11-03 06:22:02\"],[3,13.89,\"2023-11-11 16:00:14\"],[3,7.0,\"2023-11-29 22:32:36\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Transactions\":[\"user_id\",\"spend\",\"transaction_date\"]},\"rows\":{\"Transactions\":[[1,65.56,\"2023-11-18 13:49:42\"],[1,96.0,\"2023-11-30 02:47:26\"],[1,7.44,\"2023-11-02 12:15:23\"],[1,49.78,\"2023-11-12 00:13:46\"],[2,40.89,\"2023-11-21 04:39:15\"],[2,100.44,\"2023-11-20 07:39:34\"],[3,37.33,\"2023-11-03 06:22:02\"],[3,13.89,\"2023-11-11 16:00:14\"],[3,7.0,\"2023-11-29 22:32:36\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create Table if Not Exists Transactions (user_id int, spend decimal(5,2), transaction_date datetime) \"],\"mssql\":[\"Create Table Transactions (user_id int, spend decimal(5,2), transaction_date datetime) \"],\"oraclesql\":[\"Create Table Transactions (user_id int, spend decimal(5,2), transaction_date date) \",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"],\"database\":true,\"name\":\"find_third_transaction\",\"postgresql\":[\"CREATE TABLE Transactions (\\n  user_id INT,\\n  spend DECIMAL(5,2),\\n  transaction_date TIMESTAMP\\n);\\n\",\"SET DateStyle = 'ISO, YMD'; \"],\"pythondata\":[\"Transactions = pd.DataFrame([], columns=['user_id', 'spend', 'transaction_date']).astype({\\n    'user_id': 'Int64', \\n    'spend': 'float',  # pandas does not have a fixed decimal; float is used for decimal numbers\\n    'transaction_date': 'datetime64[ns]'  # specifying datetime type\\n})\"],\"database_schema\":{\"Transactions\":{\"user_id\":\"INT\",\"spend\":\"DECIMAL(5, 2)\",\"transaction_date\":\"DATETIME\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"2.6K\", \"totalAcceptedRaw\": 1270, \"totalSubmissionRaw\": 2613, \"acRate\": \"48.6%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

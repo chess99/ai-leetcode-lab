@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:26Z",
+  "source": "https://leetcode.cn/problems/unique-email-groups/",
+  "question": {
+    "questionId": "4241",
+    "questionFrontendId": "3860",
+    "title": "Unique Email Groups",
+    "titleSlug": "unique-email-groups",
+    "translatedTitle": "不同邮件组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[\"test.email+alex@leetcode.com\", \"test.e.mail+bob.cathy@leetcode.com\", \"testemail+david@lee.tcode.com\"]\n[\"A@B.com\", \"a@b.com\", \"ab+xy@b.com\", \"a.b@b.com\"]\n[\"a.b+c.d+e@DoMain.com\", \"ab+xyz@domain.com\", \"ab@domain.com\"]",
+    "sampleTestCase": "[\"test.email+alex@leetcode.com\", \"test.e.mail+bob.cathy@leetcode.com\", \"testemail+david@lee.tcode.com\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"uniqueEmailGroups\",\n  \"params\": [\n    {\n      \"name\": \"emails\",\n      \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"95\", \"totalSubmission\": \"114\", \"totalAcceptedRaw\": 95, \"totalSubmissionRaw\": 114, \"acRate\": \"83.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

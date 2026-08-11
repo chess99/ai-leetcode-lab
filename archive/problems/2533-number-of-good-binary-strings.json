@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:34Z",
+  "source": "https://leetcode.cn/problems/number-of-good-binary-strings/",
+  "question": {
+    "questionId": "2672",
+    "questionFrontendId": "2533",
+    "title": "Number of Good Binary Strings",
+    "titleSlug": "number-of-good-binary-strings",
+    "translatedTitle": "好二进制字符串的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 13,
+    "dislikes": 0,
+    "exampleTestcases": "2\n3\n1\n2\n4\n4\n4\n3",
+    "sampleTestCase": "2\n3\n1\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"goodBinaryStrings\",\n  \"params\": [\n    {\n      \"name\": \"minLength\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"maxLength\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"oneGroup\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"zeroGroup\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.8K\", \"totalSubmission\": \"2.9K\", \"totalAcceptedRaw\": 1834, \"totalSubmissionRaw\": 2886, \"acRate\": \"63.5%\"}",
+    "topicTags": [
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

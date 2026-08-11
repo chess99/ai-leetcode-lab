@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:45Z",
+  "source": "https://leetcode.cn/problems/the-users-that-are-eligible-for-discount/",
+  "question": {
+    "questionId": "2371",
+    "questionFrontendId": "2230",
+    "title": "The Users That Are Eligible for Discount",
+    "titleSlug": "the-users-that-are-eligible-for-discount",
+    "translatedTitle": "查找可享受优惠的用户",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Purchases\": [\"user_id\", \"time_stamp\", \"amount\"]}, \"startDate\": \"2022-03-08\", \"endDate\": \"2022-03-20\", \"minAmount\": 1000, \"rows\": {\"Purchases\": [[1, \"2022-04-20 09:03:00\", 4416], [2, \"2022-03-19 19:24:02\", 678], [3, \"2022-03-18 12:03:09\", 4523], [3, \"2022-03-30 09:43:42\", 626]]}}",
+    "sampleTestCase": "{\"headers\": {\"Purchases\": [\"user_id\", \"time_stamp\", \"amount\"]}, \"startDate\": \"2022-03-08\", \"endDate\": \"2022-03-20\", \"minAmount\": 1000, \"rows\": {\"Purchases\": [[1, \"2022-04-20 09:03:00\", 4416], [2, \"2022-03-19 19:24:02\", 678], [3, \"2022-03-18 12:03:09\", 4523], [3, \"2022-03-30 09:43:42\", 626]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Purchases (user_id int, time_stamp datetime, amount int)\"],\"mssql\":[\"Create table Purchases (user_id int, time_stamp datetime, amount int)\"],\"oraclesql\":[\"Create table Purchases (user_id int, time_stamp date, amount int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"],\"database\":true,\"manual\":true,\"name\":\"find_valid_users\",\"pythondata\":[\"Purchases = pd.DataFrame([], columns=['user_id', 'time_stamp', 'amount']).astype({'user_id':'Int64', 'time_stamp':'datetime64[ns]', 'amount':'Int64'})\"],\"database_schema\":{\"Purchases\":{\"user_id\":\"INT\",\"time_stamp\":\"DATETIME\",\"amount\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.2K\", \"totalSubmission\": \"4.5K\", \"totalAcceptedRaw\": 2246, \"totalSubmissionRaw\": 4527, \"acRate\": \"49.6%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

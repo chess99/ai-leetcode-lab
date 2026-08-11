@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:18Z",
+  "source": "https://leetcode.cn/problems/smallest-rectangle-enclosing-black-pixels/",
+  "question": {
+    "questionId": "302",
+    "questionFrontendId": "302",
+    "title": "Smallest Rectangle Enclosing Black Pixels",
+    "titleSlug": "smallest-rectangle-enclosing-black-pixels",
+    "translatedTitle": "包含全部黑色像素的最小矩形",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 70,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"0\",\"0\",\"1\",\"0\"],[\"0\",\"1\",\"1\",\"0\"],[\"0\",\"1\",\"0\",\"0\"]]\n0\n2\n[[\"1\"]]\n0\n0",
+    "sampleTestCase": "[[\"0\",\"0\",\"1\",\"0\"],[\"0\",\"1\",\"1\",\"0\"],[\"0\",\"1\",\"0\",\"0\"]]\n0\n2",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"minArea\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"image\",\r\n      \"type\": \"character[][]\"\r\n    },\r\n    {\r\n      \"name\": \"x\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"y\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.1K\", \"totalSubmission\": \"7.7K\", \"totalAcceptedRaw\": 5122, \"totalSubmissionRaw\": 7651, \"acRate\": \"66.9%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

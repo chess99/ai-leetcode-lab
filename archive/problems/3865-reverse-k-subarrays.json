@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:27Z",
+  "source": "https://leetcode.cn/problems/reverse-k-subarrays/",
+  "question": {
+    "questionId": "4261",
+    "questionFrontendId": "3865",
+    "title": "Reverse K Subarrays",
+    "titleSlug": "reverse-k-subarrays",
+    "translatedTitle": "反转 K 个子数组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,4,3,5,6]\n3\n[5,4,4,2]\n1",
+    "sampleTestCase": "[1,2,4,3,5,6]\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"reverseSubarrays\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"153\", \"totalSubmission\": \"165\", \"totalAcceptedRaw\": 153, \"totalSubmissionRaw\": 165, \"acRate\": \"92.7%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      }
+    ]
+  }
+}

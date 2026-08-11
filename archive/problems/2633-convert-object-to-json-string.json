@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:51Z",
+  "source": "https://leetcode.cn/problems/convert-object-to-json-string/",
+  "question": {
+    "questionId": "2745",
+    "questionFrontendId": "2633",
+    "title": "Convert Object to JSON String",
+    "titleSlug": "convert-object-to-json-string",
+    "translatedTitle": "将对象转换为 JSON 字符串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "{\"y\":1,\"x\":2}\n{\"a\":\"str\",\"b\":-12,\"c\":true,\"d\":null}\n{\"key\":{\"a\":1,\"b\":[{},null,\"Hello\"]}}\ntrue",
+    "sampleTestCase": "{\"y\":1,\"x\":2}",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"jsonStringify\",\n  \"params\": [\n    {\n      \"name\": \"object\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.9K\", \"totalSubmission\": \"3K\", \"totalAcceptedRaw\": 1875, \"totalSubmissionRaw\": 3007, \"acRate\": \"62.4%\"}",
+    "topicTags": []
+  }
+}

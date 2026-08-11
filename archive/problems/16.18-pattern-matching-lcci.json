@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:53Z",
+  "source": "https://leetcode.cn/problems/pattern-matching-lcci/",
+  "question": {
+    "questionId": "1000004",
+    "questionFrontendId": "面试题 16.18",
+    "title": "Pattern Matching LCCI",
+    "titleSlug": "pattern-matching-lcci",
+    "translatedTitle": "模式匹配",
+    "content": "<p>You are given two strings, pattern and value. The pattern string consists of just the letters a and b, describing a pattern within a string. For example, the string catcatgocatgo matches the pattern aabab (where cat is a and go is b). It also matches patterns like a, ab, and b. Write a method to determine if value matches pattern. a and b cannot be the same string.</p>\r\n\r\n<p><strong>Example 1: </strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong> pattern = &quot;abba&quot;, value = &quot;dogcatcatdog&quot;\r\n<strong>Output: </strong> true\r\n</pre>\r\n\r\n<p><strong>Example 2: </strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong> pattern = &quot;abba&quot;, value = &quot;dogcatcatfish&quot;\r\n<strong>Output: </strong> false\r\n</pre>\r\n\r\n<p><strong>Example 3: </strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong> pattern = &quot;aaaa&quot;, value = &quot;dogcatcatdog&quot;\r\n<strong>Output: </strong> false\r\n</pre>\r\n\r\n<p><strong>Example 4: </strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong> pattern = &quot;abba&quot;, value = &quot;dogdogdogdog&quot;\r\n<strong>Output: </strong> true\r\n<strong>Explanation: </strong> &quot;a&quot;=&quot;dogdog&quot;,b=&quot;&quot;，vice versa.\r\n</pre>\r\n\r\n<p><strong>Note: </strong></p>\r\n\r\n<ul>\r\n\t<li><code>0 &lt;= len(pattern) &lt;= 1000</code></li>\r\n\t<li><code>0 &lt;= len(value) &lt;= 1000</code></li>\r\n\t<li><code>pattern</code>&nbsp;only contains&nbsp;<code>&quot;a&quot;</code>&nbsp;and&nbsp;<code>&quot;b&quot;</code>,&nbsp;<code>value</code> only contains lowercase letters.</li>\r\n</ul>\r\n",
+    "translatedContent": "<p>你有两个字符串，即<code>pattern</code>和<code>value</code>。 <code>pattern</code>字符串由字母<code>\"a\"</code>和<code>\"b\"</code>组成，用于描述字符串中的模式。例如，字符串<code>\"catcatgocatgo\"</code>匹配模式<code>\"aabab\"</code>（其中<code>\"cat\"</code>是<code>\"a\"</code>，<code>\"go\"</code>是<code>\"b\"</code>），该字符串也匹配像<code>\"a\"</code>、<code>\"ab\"</code>和<code>\"b\"</code>这样的模式。但需注意<code>\"a\"</code>和<code>\"b\"</code>不能同时表示相同的字符串。编写一个方法判断<code>value</code>字符串是否匹配<code>pattern</code>字符串。</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong> pattern = \"abba\", value = \"dogcatcatdog\"\n<strong>输出：</strong> true\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong> pattern = \"abba\", value = \"dogcatcatfish\"\n<strong>输出：</strong> false\n</pre>\n\n<p><strong>示例 3：</strong></p>\n\n<pre>\n<strong>输入：</strong> pattern = \"aaaa\", value = \"dogcatcatdog\"\n<strong>输出：</strong> false\n</pre>\n\n<p><strong>示例 4：</strong></p>\n\n<pre>\n<strong>输入：</strong> pattern = \"abba\", value = \"dogdogdogdog\"\n<strong>输出：</strong> true\n<strong>解释：</strong> \"a\"=\"dogdog\",b=\"\"，反之也符合规则\n</pre>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= len(pattern) &lt;= 1000</code></li>\n\t<li><code>0 &lt;= len(value) &lt;= 1000</code></li>\n\t<li>你可以假设<code>pattern</code>只包含字母<code>\"a\"</code>和<code>\"b\"</code>，<code>value</code>仅包含小写字母。</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 156,
+    "dislikes": 0,
+    "exampleTestcases": "\"abba\"\n\"dogcatcatdog\"\n\"abba\"\n\"dogcatcatfish\"\n\"aaaa\"\n\"dogcatcatdog\"\n\"abba\"\n\"dogdogdogdog\"",
+    "sampleTestCase": "\"abba\"\n\"dogcatcatdog\"",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"patternMatching\", \"params\": [{\"name\": \"pattern\", \"type\": \"string\"}, {\"name\": \"value\", \"type\": \"string\"}], \"return\": {\"type\": \"boolean\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    bool patternMatching(string pattern, string value) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public boolean patternMatching(String pattern, String value) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def patternMatching(self, pattern: str, value: str) -> bool:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def patternMatching(self, pattern, value):\n        \"\"\"\n        :type pattern: str\n        :type value: str\n        :rtype: bool\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string} pattern\n * @param {string} value\n * @return {boolean}\n */\nvar patternMatching = function(pattern, value) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function patternMatching(pattern: string, value: string): boolean {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public bool PatternMatching(string pattern, string value) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "bool patternMatching(char* pattern, char* value) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func patternMatching(pattern string, value string) bool {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun patternMatching(pattern: String, value: String): Boolean {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func patternMatching(_ pattern: String, _ value: String) -> Bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn pattern_matching(pattern: String, value: String) -> bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String} pattern\n# @param {String} value\n# @return {Boolean}\ndef pattern_matching(pattern, value)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String $pattern\n     * @param String $value\n     * @return Boolean\n     */\n    function patternMatching($pattern, $value) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  bool patternMatching(String pattern, String value) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def patternMatching(pattern: String, value: String): Boolean = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec pattern_matching(pattern :: String.t, value :: String.t) :: boolean\n  def pattern_matching(pattern, value) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec pattern_matching(Pattern :: unicode:unicode_binary(), Value :: unicode:unicode_binary()) -> boolean().\npattern_matching(Pattern, Value) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (pattern-matching pattern value)\n  (-> string? string? boolean?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func patternMatching(pattern: String, value: String): Bool {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"20.5K\", \"totalSubmission\": \"60.3K\", \"totalAcceptedRaw\": 20530, \"totalSubmissionRaw\": 60267, \"acRate\": \"34.1%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      },
+      {
+        "name": "Enumeration",
+        "slug": "enumeration",
+        "translatedName": "枚举"
+      }
+    ]
+  }
+}

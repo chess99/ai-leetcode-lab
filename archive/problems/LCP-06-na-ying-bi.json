@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:53Z",
+  "source": "https://leetcode.cn/problems/na-ying-bi/",
+  "question": {
+    "questionId": "1000056",
+    "questionFrontendId": "LCP 06",
+    "title": "拿硬币",
+    "titleSlug": "na-ying-bi",
+    "translatedTitle": "拿硬币",
+    "content": "English description is not available for the problem. Please switch to Chinese.",
+    "translatedContent": "<p>桌上有 <code>n</code> 堆力扣币，每堆的数量保存在数组 <code>coins</code> 中。我们每次可以选择任意一堆，拿走其中的一枚或者两枚，求拿完所有力扣币的最少次数。</p>\n\n<p><strong>示例 1：</strong></p>\n\n<blockquote>\n<p>输入：<code>[4,2,1]</code></p>\n\n<p>输出：<code>4</code></p>\n\n<p>解释：第一堆力扣币最少需要拿 2 次，第二堆最少需要拿 1 次，第三堆最少需要拿 1 次，总共 4 次即可拿完。</p>\n</blockquote>\n\n<p><strong>示例 2：</strong></p>\n\n<blockquote>\n<p>输入：<code>[2,3,10]</code></p>\n\n<p>输出：<code>8</code></p>\n</blockquote>\n\n<p><strong>限制：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 4</code></li>\n\t<li><code>1 &lt;= coins[i] &lt;= 10</code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 134,
+    "dislikes": 0,
+    "exampleTestcases": "[4,2,1]\n[2,3,10]",
+    "sampleTestCase": "[4,2,1]",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"minCount\", \"params\": [{\"name\": \"coins\", \"type\": \"integer[]\"}], \"return\": {\"type\": \"integer\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int minCount(vector<int>& coins) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int minCount(int[] coins) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def minCount(self, coins: List[int]) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def minCount(self, coins):\n        \"\"\"\n        :type coins: List[int]\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} coins\n * @return {number}\n */\nvar minCount = function(coins) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function minCount(coins: number[]): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int MinCount(int[] coins) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int minCount(int* coins, int coinsSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func minCount(coins []int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun minCount(coins: IntArray): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func minCount(_ coins: [Int]) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn min_count(coins: Vec<i32>) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} coins\n# @return {Integer}\ndef min_count(coins)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $coins\n     * @return Integer\n     */\n    function minCount($coins) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int minCount(List<int> coins) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def minCount(coins: Array[Int]): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec min_count(coins :: [integer]) :: integer\n  def min_count(coins) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec min_count(Coins :: [integer()]) -> integer().\nmin_count(Coins) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (min-count coins)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"105.2K\", \"totalSubmission\": \"124.8K\", \"totalAcceptedRaw\": 105187, \"totalSubmissionRaw\": 124771, \"acRate\": \"84.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

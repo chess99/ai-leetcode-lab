@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:37Z",
+  "source": "https://leetcode.cn/problems/maximum-average-subtree/",
+  "question": {
+    "questionId": "1091",
+    "questionFrontendId": "1120",
+    "title": "Maximum Average Subtree",
+    "titleSlug": "maximum-average-subtree",
+    "translatedTitle": "子树的最大平均值",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 78,
+    "dislikes": 0,
+    "exampleTestcases": "[5,6,1]\n[0,null,1]",
+    "sampleTestCase": "[5,6,1]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"maximumAverageSubtree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"double\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.7K\", \"totalSubmission\": \"11.7K\", \"totalAcceptedRaw\": 7730, \"totalSubmissionRaw\": 11671, \"acRate\": \"66.2%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

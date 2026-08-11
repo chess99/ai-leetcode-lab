@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:02Z",
+  "source": "https://leetcode.cn/problems/number-of-ships-in-a-rectangle/",
+  "question": {
+    "questionId": "1233",
+    "questionFrontendId": "1274",
+    "title": "Number of Ships in a Rectangle",
+    "titleSlug": "number-of-ships-in-a-rectangle",
+    "translatedTitle": "矩形内船只的数目",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 54,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,1],[2,2],[3,3],[5,5]]\n[4,4]\n[0,0]\n[[1,1],[2,2],[3,3]]\n[1000,1000]\n[0,0]",
+    "sampleTestCase": "[[1,1],[2,2],[3,3],[5,5]]\n[4,4]\n[0,0]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countShips\",\n  \"params\": [\n    {\n      \"name\": \"ans\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"name\": \"topRight\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"bottomLeft\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"typescriptCustomType\" : \"class Sea {\\n    __ans: number[][];\\n    __guesses: number;\\n    constructor(ans: number[][]) {\\n        this.__ans = ans;\\n        this.__guesses = 400;\\n    }\\n\\n    hasShips(topRight: number[], bottomLeft: number[]): boolean {\\n        this.__guesses -= 1;\\n        var ret = false;\\n        for (let a of this.__ans) {\\n            var cur = a[0] >= bottomLeft[0] && a[0] <= topRight[0] && a[1] >= bottomLeft[1] && a[1] <= topRight[1];\\n            ret = ret || cur;\\n        }\\n        return ret;\\n    }\\n\\n    getGuesses(): number {\\n        return this.__guesses;\\n    }\\n};\\n\"\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.4K\", \"totalSubmission\": \"3.6K\", \"totalAcceptedRaw\": 2392, \"totalSubmissionRaw\": 3622, \"acRate\": \"66.0%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Divide and Conquer",
+        "slug": "divide-and-conquer",
+        "translatedName": "分治"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      }
+    ]
+  }
+}

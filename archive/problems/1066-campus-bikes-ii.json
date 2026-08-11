@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:29Z",
+  "source": "https://leetcode.cn/problems/campus-bikes-ii/",
+  "question": {
+    "questionId": "1067",
+    "questionFrontendId": "1066",
+    "title": "Campus Bikes II",
+    "titleSlug": "campus-bikes-ii",
+    "translatedTitle": "校园自行车分配 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 120,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,0],[2,1]]\n[[1,2],[3,3]]\n[[0,0],[1,1],[2,0]]\n[[1,0],[2,2],[2,1]]\n[[0,0],[1,0],[2,0],[3,0],[4,0]]\n[[0,999],[1,999],[2,999],[3,999],[4,999]]",
+    "sampleTestCase": "[[0,0],[2,1]]\n[[1,2],[3,3]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"assignBikes\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"workers\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"bikes\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.4K\", \"totalSubmission\": \"8.1K\", \"totalAcceptedRaw\": 4401, \"totalSubmissionRaw\": 8145, \"acRate\": \"54.0%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      },
+      {
+        "name": "Bitmask",
+        "slug": "bitmask",
+        "translatedName": "位掩码"
+      },
+      {
+        "name": "匈牙利算法",
+        "slug": "hungarian-algorithm",
+        "translatedName": null
+      },
+      {
+        "name": "二分图",
+        "slug": "bipartite-graph",
+        "translatedName": null
+      },
+      {
+        "name": "图的匹配",
+        "slug": "matching-graph",
+        "translatedName": null
+      },
+      {
+        "name": "最小费用流",
+        "slug": "minimum-cost-flow",
+        "translatedName": null
+      },
+      {
+        "name": "SSP 算法",
+        "slug": "successive-shortest-path-algorithm",
+        "translatedName": null
+      },
+      {
+        "name": "网络流",
+        "slug": "flow-network",
+        "translatedName": null
+      }
+    ]
+  }
+}

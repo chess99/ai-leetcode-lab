@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:19Z",
+  "source": "https://leetcode.cn/problems/array-prototype-foreach/",
+  "question": {
+    "questionId": "2907",
+    "questionFrontendId": "2804",
+    "title": "Array Prototype ForEach",
+    "titleSlug": "array-prototype-foreach",
+    "translatedTitle": "数组原型的 forEach 方法",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3]\nfunction(val, i, arr){ arr[i] = val * 2 }\n{\"context\": true}\n[true, true, false, false]\nfunction(val, i, arr){ arr[i] = this }\n{\"context\": false}\n[true, true, false, false]\nfunction(val, i, arr){ arr[i] = !val }\n{\"context\": 5}",
+    "sampleTestCase": "[1,2,3]\nfunction(val, i, arr){ arr[i] = val * 2 }\n{\"context\": true}",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"foobar\",\n  \"params\": [\n    {\n      \"name\": \"arr\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"callback\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"context\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"525\", \"totalSubmission\": \"604\", \"totalAcceptedRaw\": 525, \"totalSubmissionRaw\": 604, \"acRate\": \"86.9%\"}",
+    "topicTags": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:20Z",
+  "source": "https://leetcode.cn/problems/find-distance-in-a-binary-tree/",
+  "question": {
+    "questionId": "1883",
+    "questionFrontendId": "1740",
+    "title": "Find Distance in a Binary Tree",
+    "titleSlug": "find-distance-in-a-binary-tree",
+    "translatedTitle": "找到二叉树中的距离",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 29,
+    "dislikes": 0,
+    "exampleTestcases": "[3,5,1,6,2,0,8,null,null,7,4]\n5\n0\n[3,5,1,6,2,0,8,null,null,7,4]\n5\n7\n[3,5,1,6,2,0,8,null,null,7,4]\n5\n5",
+    "sampleTestCase": "[3,5,1,6,2,0,8,null,null,7,4]\n5\n0",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"findDistance\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"p\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"q\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.8K\", \"totalSubmission\": \"4K\", \"totalAcceptedRaw\": 2781, \"totalSubmissionRaw\": 3988, \"acRate\": \"69.7%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      },
+      {
+        "name": "最近公共祖先",
+        "slug": "lowest-common-ancestor",
+        "translatedName": null
+      },
+      {
+        "name": "Binary Lifting",
+        "slug": "binary-lifting",
+        "translatedName": null
+      }
+    ]
+  }
+}

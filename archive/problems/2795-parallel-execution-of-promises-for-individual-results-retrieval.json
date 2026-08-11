@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:18Z",
+  "source": "https://leetcode.cn/problems/parallel-execution-of-promises-for-individual-results-retrieval/",
+  "question": {
+    "questionId": "2898",
+    "questionFrontendId": "2795",
+    "title": "Parallel Execution of Promises for Individual Results Retrieval",
+    "titleSlug": "parallel-execution-of-promises-for-individual-results-retrieval",
+    "translatedTitle": "并行执行 Promise 以获取独有的结果",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[() => new Promise(resolve => setTimeout(() => resolve(15), 100))]\n[() => new Promise(resolve => setTimeout(() => resolve(20), 100)), () => new Promise(resolve => setTimeout(() => resolve(15), 100))]\n[() => new Promise(resolve => setTimeout(() => resolve(30), 200)), () => new Promise((resolve, reject) => setTimeout(() => reject(\"Error\"), 100))]",
+    "sampleTestCase": "[() => new Promise(resolve => setTimeout(() => resolve(15), 100))]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"promiseAllSettled\",\n  \"params\": [\n    {\n      \"name\": \"functions\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"462\", \"totalSubmission\": \"523\", \"totalAcceptedRaw\": 462, \"totalSubmissionRaw\": 523, \"acRate\": \"88.3%\"}",
+    "topicTags": []
+  }
+}

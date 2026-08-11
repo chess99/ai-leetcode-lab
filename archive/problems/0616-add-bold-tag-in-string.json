@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:10Z",
+  "source": "https://leetcode.cn/problems/add-bold-tag-in-string/",
+  "question": {
+    "questionId": "616",
+    "questionFrontendId": "616",
+    "title": "Add Bold Tag in String",
+    "titleSlug": "add-bold-tag-in-string",
+    "translatedTitle": "给字符串添加加粗标签",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 127,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcxyz123\"\n[\"abc\",\"123\"]\n\"aaabbb\"\n[\"aa\",\"b\"]",
+    "sampleTestCase": "\"abcxyz123\"\n[\"abc\",\"123\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"addBoldTag\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"words\",\n      \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"9.4K\", \"totalSubmission\": \"18K\", \"totalAcceptedRaw\": 9426, \"totalSubmissionRaw\": 17983, \"acRate\": \"52.4%\"}",
+    "topicTags": [
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "String Matching",
+        "slug": "string-matching",
+        "translatedName": "字符串匹配"
+      },
+      {
+        "name": "AC 自动机",
+        "slug": "aho-corasick-algorithm",
+        "translatedName": null
+      }
+    ]
+  }
+}

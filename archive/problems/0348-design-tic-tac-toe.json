@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:27Z",
+  "source": "https://leetcode.cn/problems/design-tic-tac-toe/",
+  "question": {
+    "questionId": "348",
+    "questionFrontendId": "348",
+    "title": "Design Tic-Tac-Toe",
+    "titleSlug": "design-tic-tac-toe",
+    "translatedTitle": "设计井字棋",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 169,
+    "dislikes": 0,
+    "exampleTestcases": "[\"TicTacToe\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\"]\n[[3],[0,0,1],[0,2,2],[2,2,1],[1,1,2],[2,0,1],[1,0,2],[2,1,1]]",
+    "sampleTestCase": "[\"TicTacToe\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\",\"move\"]\n[[3],[0,0,1],[0,2,2],[2,2,1],[1,1,2],[2,0,1],[1,0,2],[2,1,1]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"TicTacToe\",\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"integer\",\n        \"name\": \"n\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"row\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"col\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"player\"\n        }\n      ],\n      \"name\": \"move\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true,\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"13K\", \"totalSubmission\": \"22.2K\", \"totalAcceptedRaw\": 12986, \"totalSubmissionRaw\": 22212, \"acRate\": \"58.5%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

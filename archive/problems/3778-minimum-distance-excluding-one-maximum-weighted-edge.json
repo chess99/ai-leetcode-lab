@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:12Z",
+  "source": "https://leetcode.cn/problems/minimum-distance-excluding-one-maximum-weighted-edge/",
+  "question": {
+    "questionId": "4127",
+    "questionFrontendId": "3778",
+    "title": "Minimum Distance Excluding One Maximum Weighted Edge",
+    "titleSlug": "minimum-distance-excluding-one-maximum-weighted-edge",
+    "translatedTitle": "排除一个最大权重边的最小距离",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "5\n[[0,1,2],[1,2,7],[2,3,7],[3,4,4]]\n3\n[[0,1,1],[1,2,1],[0,2,50000]]",
+    "sampleTestCase": "5\n[[0,1,2],[1,2,7],[2,3,7],[3,4,4]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minCostExcludingMax\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"edges\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"122\", \"totalSubmission\": \"219\", \"totalAcceptedRaw\": 122, \"totalSubmissionRaw\": 219, \"acRate\": \"55.7%\"}",
+    "topicTags": []
+  }
+}

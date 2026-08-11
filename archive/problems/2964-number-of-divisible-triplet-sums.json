@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:47Z",
+  "source": "https://leetcode.cn/problems/number-of-divisible-triplet-sums/",
+  "question": {
+    "questionId": "3254",
+    "questionFrontendId": "2964",
+    "title": "Number of Divisible Triplet Sums",
+    "titleSlug": "number-of-divisible-triplet-sums",
+    "translatedTitle": "可被整除的三元组数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "[3,3,4,7,8]\n5\n[3,3,3,3]\n3\n[3,3,3,3]\n6",
+    "sampleTestCase": "[3,3,4,7,8]\n5",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"divisibleTripletCount\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"d\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"719\", \"totalSubmission\": \"1.8K\", \"totalAcceptedRaw\": 719, \"totalSubmissionRaw\": 1810, \"acRate\": \"39.7%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      }
+    ]
+  }
+}

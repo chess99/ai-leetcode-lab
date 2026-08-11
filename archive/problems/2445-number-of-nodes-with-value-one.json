@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:19Z",
+  "source": "https://leetcode.cn/problems/number-of-nodes-with-value-one/",
+  "question": {
+    "questionId": "2584",
+    "questionFrontendId": "2445",
+    "title": "Number of Nodes With Value One",
+    "titleSlug": "number-of-nodes-with-value-one",
+    "translatedTitle": "值为 1 的节点数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "5\n[1,2,5]\n3\n[2,3,3]",
+    "sampleTestCase": "5\n[1,2,5]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfNodes\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"queries\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"576\", \"totalSubmission\": \"908\", \"totalAcceptedRaw\": 576, \"totalSubmissionRaw\": 908, \"acRate\": \"63.4%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:27Z",
+  "source": "https://leetcode.cn/problems/minimize-rounding-error-to-meet-target/",
+  "question": {
+    "questionId": "1053",
+    "questionFrontendId": "1058",
+    "title": "Minimize Rounding Error to Meet Target",
+    "titleSlug": "minimize-rounding-error-to-meet-target",
+    "translatedTitle": "最小化舍入误差以满足目标",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 39,
+    "dislikes": 0,
+    "exampleTestcases": "[\"0.700\",\"2.800\",\"4.900\"]\n8\n[\"1.500\",\"2.500\",\"3.500\"]\n10\n[\"1.500\",\"2.500\",\"3.500\"]\n9",
+    "sampleTestCase": "[\"0.700\",\"2.800\",\"4.900\"]\n8",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"minimizeError\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"prices\",\r\n      \"type\": \"string[]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.4K\", \"totalSubmission\": \"6.1K\", \"totalAcceptedRaw\": 2402, \"totalSubmissionRaw\": 6148, \"acRate\": \"39.1%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

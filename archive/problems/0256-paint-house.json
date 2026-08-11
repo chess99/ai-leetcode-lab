@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:11Z",
+  "source": "https://leetcode.cn/problems/paint-house/",
+  "question": {
+    "questionId": "256",
+    "questionFrontendId": "256",
+    "title": "Paint House",
+    "titleSlug": "paint-house",
+    "translatedTitle": "粉刷房子",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 264,
+    "dislikes": 0,
+    "exampleTestcases": "[[17,2,17],[16,16,5],[14,3,19]]\n[[7,6,2]]",
+    "sampleTestCase": "[[17,2,17],[16,16,5],[14,3,19]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"minCost\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"costs\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"30.1K\", \"totalSubmission\": \"41.7K\", \"totalAcceptedRaw\": 30128, \"totalSubmissionRaw\": 41677, \"acRate\": \"72.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

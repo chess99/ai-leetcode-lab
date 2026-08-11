@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:17Z",
+  "source": "https://leetcode.cn/problems/flight-occupancy-and-waitlist-analysis/",
+  "question": {
+    "questionId": "3002",
+    "questionFrontendId": "2783",
+    "title": "Flight Occupancy and Waitlist Analysis",
+    "titleSlug": "flight-occupancy-and-waitlist-analysis",
+    "translatedTitle": "航班入座率和等待名单分析",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Flights\":[\"flight_id\",\"capacity\"],\"Passengers\":[\"passenger_id\",\"flight_id\"]},\"rows\":{\"Flights\":[[1,2],[2,2],[3,1]],\"Passengers\":[[101,1],[102,1],[103,1],[104,2],[105,2],[106,3],[107,3]]}}",
+    "sampleTestCase": "{\"headers\":{\"Flights\":[\"flight_id\",\"capacity\"],\"Passengers\":[\"passenger_id\",\"flight_id\"]},\"rows\":{\"Flights\":[[1,2],[2,2],[3,1]],\"Passengers\":[[101,1],[102,1],[103,1],[104,2],[105,2],[106,3],[107,3]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists Flights(flight_id int,capacity int)\",\"Create table if not exists Passengers (passenger_id int,flight_id int)\"],\"mssql\":[\"Create table Flights(flight_id int,capacity int)\",\"Create table Passengers (passenger_id int,flight_id int)\"],\"oraclesql\":[\"Create table Flights(flight_id int,capacity int)\",\"Create table Passengers (passenger_id int,flight_id int)\"],\"database\":true,\"name\":\"waitlist_analysis\",\"pythondata\":[\"Flights = pd.DataFrame([], columns=['flight_id', 'capacity']).astype({'flight_id':'Int64', 'capacity':'Int64'})\",\"Passengers = pd.DataFrame([], columns=['passenger_id', 'flight_id']).astype({'passenger_id':'Int64', 'flight_id':'Int64'})\"],\"postgresql\":[\"Create table if not exists Flights(flight_id int,capacity int)\",\"Create table if not exists Passengers (passenger_id int,flight_id int)\"],\"database_schema\":{\"Flights\":{\"flight_id\":\"INT\",\"capacity\":\"INT\"},\"Passengers\":{\"passenger_id\":\"INT\",\"flight_id\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.6K\", \"totalSubmission\": \"4.1K\", \"totalAcceptedRaw\": 1565, \"totalSubmissionRaw\": 4061, \"acRate\": \"38.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

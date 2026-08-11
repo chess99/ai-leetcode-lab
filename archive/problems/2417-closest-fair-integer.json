@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:15Z",
+  "source": "https://leetcode.cn/problems/closest-fair-integer/",
+  "question": {
+    "questionId": "2560",
+    "questionFrontendId": "2417",
+    "title": "Closest Fair Integer",
+    "titleSlug": "closest-fair-integer",
+    "translatedTitle": "最近的公平整数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "2\n403",
+    "sampleTestCase": "2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"closestFair\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"410\", \"totalSubmission\": \"968\", \"totalAcceptedRaw\": 410, \"totalSubmissionRaw\": 968, \"acRate\": \"42.4%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Enumeration",
+        "slug": "enumeration",
+        "translatedName": "枚举"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:48Z",
+  "source": "https://leetcode.cn/problems/convert-doubly-linked-list-to-array-ii/",
+  "question": {
+    "questionId": "3615",
+    "questionFrontendId": "3294",
+    "title": "Convert Doubly Linked List to Array II",
+    "titleSlug": "convert-doubly-linked-list-to-array-ii",
+    "translatedTitle": "将双链表转换为数组 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3,4,5]\n5\n[4,5,6,7,8]\n8",
+    "sampleTestCase": "[1,2,3,4,5]\n5",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"foobar\",\n  \"params\": [\n    {\n      \"name\": \"head\",\n      \"type\": \"ListNode\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"node\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"c\",\n    \"csharp\",\n    \"javascript\",\n    \"golang\",\n    \"python3\",\n    \"kotlin\",\n    \"php\",\n    \"typescript\"\n  ]\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"654\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 654, \"totalSubmissionRaw\": 1560, \"acRate\": \"41.9%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Linked List",
+        "slug": "linked-list",
+        "translatedName": "链表"
+      },
+      {
+        "name": "Doubly-Linked List",
+        "slug": "doubly-linked-list",
+        "translatedName": "双向链表"
+      }
+    ]
+  }
+}

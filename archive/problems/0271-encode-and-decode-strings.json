@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:13Z",
+  "source": "https://leetcode.cn/problems/encode-and-decode-strings/",
+  "question": {
+    "questionId": "271",
+    "questionFrontendId": "271",
+    "title": "Encode and Decode Strings",
+    "titleSlug": "encode-and-decode-strings",
+    "translatedTitle": "字符串的编码与解码",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 127,
+    "dislikes": 0,
+    "exampleTestcases": "[\"Hello\",\"World\"]\n[\"\"]",
+    "sampleTestCase": "[\"Hello\",\"World\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"encode\",\n  \"params\": [\n    {\n      \"name\": \"dummy_input\",\n      \"type\": \"list<string>\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\"\n  },\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"8.4K\", \"totalSubmission\": \"14.2K\", \"totalAcceptedRaw\": 8393, \"totalSubmissionRaw\": 14171, \"acRate\": \"59.2%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

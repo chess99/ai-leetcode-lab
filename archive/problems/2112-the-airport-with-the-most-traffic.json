@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:24Z",
+  "source": "https://leetcode.cn/problems/the-airport-with-the-most-traffic/",
+  "question": {
+    "questionId": "2252",
+    "questionFrontendId": "2112",
+    "title": "The Airport With the Most Traffic",
+    "titleSlug": "the-airport-with-the-most-traffic",
+    "translatedTitle": "最繁忙的机场",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 10,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Flights\":[\"departure_airport\",\"arrival_airport\",\"flights_count\"]},\"rows\":{\"Flights\":[[1,2,4],[2,1,5],[2,4,5]]}}\n{\"headers\":{\"Flights\":[\"departure_airport\",\"arrival_airport\",\"flights_count\"]},\"rows\":{\"Flights\":[[1,2,4],[2,1,5],[3,4,5],[4,3,4],[5,6,7]]}}",
+    "sampleTestCase": "{\"headers\":{\"Flights\":[\"departure_airport\",\"arrival_airport\",\"flights_count\"]},\"rows\":{\"Flights\":[[1,2,4],[2,1,5],[2,4,5]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Flights (departure_airport int, arrival_airport int, flights_count int)\"],\"mssql\":[\"Create table Flights (departure_airport int, arrival_airport int, flights_count int)\"],\"oraclesql\":[\"Create table Flights (departure_airport int, arrival_airport int, flights_count int)\"],\"database\":true,\"name\":\"airport_with_most_traffic\",\"pythondata\":[\"Flights = pd.DataFrame([], columns=['departure_airport', 'arrival_airport', 'flights_count']).astype({'departure_airport':'Int64', 'arrival_airport':'Int64', 'flights_count':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Flights (departure_airport int, arrival_airport int, flights_count int)\"],\"database_schema\":{\"Flights\":{\"departure_airport\":\"INT\",\"arrival_airport\":\"INT\",\"flights_count\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.4K\", \"totalSubmission\": \"4.9K\", \"totalAcceptedRaw\": 3390, \"totalSubmissionRaw\": 4932, \"acRate\": \"68.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

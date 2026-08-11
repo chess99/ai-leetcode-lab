@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:13Z",
+  "source": "https://leetcode.cn/problems/relocate-marbles/",
+  "question": {
+    "questionId": "2834",
+    "questionFrontendId": "2766",
+    "title": "Relocate Marbles",
+    "titleSlug": "relocate-marbles",
+    "translatedTitle": "重新放置石块",
+    "content": "<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> representing the initial positions of some marbles. You are also given two <strong>0-indexed </strong>integer arrays <code>moveFrom</code> and <code>moveTo</code> of <strong>equal</strong> length.</p>\n\n<p>Throughout <code>moveFrom.length</code> steps, you will change the positions of the marbles. On the <code>i<sup>th</sup></code> step, you will move <strong>all</strong> marbles at position <code>moveFrom[i]</code> to position <code>moveTo[i]</code>.</p>\n\n<p>After completing all the steps, return <em>the sorted list of <strong>occupied</strong> positions</em>.</p>\n\n<p><strong>Notes:</strong></p>\n\n<ul>\n\t<li>We call a position <strong>occupied</strong> if there is at least one marble in that position.</li>\n\t<li>There may be multiple marbles in a single position.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,6,7,8], moveFrom = [1,7,2], moveTo = [2,9,5]\n<strong>Output:</strong> [5,6,8,9]\n<strong>Explanation:</strong> Initially, the marbles are at positions 1,6,7,8.\nAt the i = 0th step, we move the marbles at position 1 to position 2. Then, positions 2,6,7,8 are occupied.\nAt the i = 1st step, we move the marbles at position 7 to position 9. Then, positions 2,6,8,9 are occupied.\nAt the i = 2nd step, we move the marbles at position 2 to position 5. Then, positions 5,6,8,9 are occupied.\nAt the end, the final positions containing at least one marbles are [5,6,8,9].</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,1,3,3], moveFrom = [1,3], moveTo = [2,2]\n<strong>Output:</strong> [2]\n<strong>Explanation:</strong> Initially, the marbles are at positions [1,1,3,3].\nAt the i = 0th step, we move all the marbles at position 1 to position 2. Then, the marbles are at positions [2,2,3,3].\nAt the i = 1st step, we move all the marbles at position 3 to position 2. Then, the marbles are at positions [2,2,2,2].\nSince 2 is the only occupied position, we return [2].\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= moveFrom.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>moveFrom.length == moveTo.length</code></li>\n\t<li><code>1 &lt;= nums[i], moveFrom[i], moveTo[i] &lt;= 10<sup>9</sup></code></li>\n\t<li>The test cases are generated such that there is at least a marble in&nbsp;<code>moveFrom[i]</code>&nbsp;at the moment we want to apply&nbsp;the <code>i<sup>th</sup></code>&nbsp;move.</li>\n</ul>\n",
+    "translatedContent": "<p>给你一个下标从 <strong>0</strong>&nbsp;开始的整数数组&nbsp;<code>nums</code>&nbsp;，表示一些石块的初始位置。再给你两个长度<strong>&nbsp;相等</strong>&nbsp;下标从 <strong>0</strong>&nbsp;开始的整数数组&nbsp;<code>moveFrom</code> 和&nbsp;<code>moveTo</code>&nbsp;。</p>\n\n<p>在&nbsp;<code>moveFrom.length</code>&nbsp;次操作内，你将改变石块的位置。在第&nbsp;<code>i</code>&nbsp;次操作中，你将位置在&nbsp;<code>moveFrom[i]</code>&nbsp;的所有石块移到位置&nbsp;<code>moveTo[i]</code>&nbsp;。</p>\n\n<p>完成这些操作后，请你按升序返回所有 <strong>有</strong>&nbsp;石块的位置。</p>\n\n<p><strong>注意：</strong></p>\n\n<ul>\n\t<li>如果一个位置至少有一个石块，我们称这个位置 <strong>有</strong>&nbsp;石块。</li>\n\t<li>一个位置可能会有多个石块。</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<b>输入：</b>nums = [1,6,7,8], moveFrom = [1,7,2], moveTo = [2,9,5]\n<b>输出：</b>[5,6,8,9]\n<b>解释：</b>一开始，石块在位置 1,6,7,8 。\n第 i = 0 步操作中，我们将位置 1 处的石块移到位置 2 处，位置 2,6,7,8 有石块。\n第 i = 1 步操作中，我们将位置 7 处的石块移到位置 9 处，位置 2,6,8,9 有石块。\n第 i = 2 步操作中，我们将位置 2 处的石块移到位置 5 处，位置 5,6,8,9 有石块。\n最后，至少有一个石块的位置为 [5,6,8,9] 。</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [1,1,3,3], moveFrom = [1,3], moveTo = [2,2]\n<b>输出：</b>[2]\n<b>解释：</b>一开始，石块在位置 [1,1,3,3] 。\n第 i = 0 步操作中，我们将位置 1 处的石块移到位置 2 处，有石块的位置为 [2,2,3,3] 。\n第 i = 1 步操作中，我们将位置 3 处的石块移到位置 2 处，有石块的位置为 [2,2,2,2] 。\n由于 2 是唯一有石块的位置，我们返回 [2] 。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= moveFrom.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>moveFrom.length == moveTo.length</code></li>\n\t<li><code>1 &lt;= nums[i], moveFrom[i], moveTo[i] &lt;= 10<sup>9</sup></code></li>\n\t<li>测试数据保证在进行第&nbsp;<code>i</code>&nbsp;步操作时，<code>moveFrom[i]</code>&nbsp;处至少有一个石块。</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 41,
+    "dislikes": 0,
+    "exampleTestcases": "[1,6,7,8]\n[1,7,2]\n[2,9,5]\n[1,1,3,3]\n[1,3]\n[2,2]",
+    "sampleTestCase": "[1,6,7,8]\n[1,7,2]\n[2,9,5]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"relocateMarbles\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"moveFrom\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"moveTo\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<integer>\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    vector<int> relocateMarbles(vector<int>& nums, vector<int>& moveFrom, vector<int>& moveTo) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public List<Integer> relocateMarbles(int[] nums, int[] moveFrom, int[] moveTo) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def relocateMarbles(self, nums: List[int], moveFrom: List[int], moveTo: List[int]) -> List[int]:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def relocateMarbles(self, nums, moveFrom, moveTo):\n        \"\"\"\n        :type nums: List[int]\n        :type moveFrom: List[int]\n        :type moveTo: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} nums\n * @param {number[]} moveFrom\n * @param {number[]} moveTo\n * @return {number[]}\n */\nvar relocateMarbles = function(nums, moveFrom, moveTo) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function relocateMarbles(nums: number[], moveFrom: number[], moveTo: number[]): number[] {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public IList<int> RelocateMarbles(int[] nums, int[] moveFrom, int[] moveTo) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* relocateMarbles(int* nums, int numsSize, int* moveFrom, int moveFromSize, int* moveTo, int moveToSize, int* returnSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func relocateMarbles(nums []int, moveFrom []int, moveTo []int) []int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun relocateMarbles(nums: IntArray, moveFrom: IntArray, moveTo: IntArray): List<Int> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func relocateMarbles(_ nums: [Int], _ moveFrom: [Int], _ moveTo: [Int]) -> [Int] {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn relocate_marbles(nums: Vec<i32>, move_from: Vec<i32>, move_to: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} nums\n# @param {Integer[]} move_from\n# @param {Integer[]} move_to\n# @return {Integer[]}\ndef relocate_marbles(nums, move_from, move_to)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $moveFrom\n     * @param Integer[] $moveTo\n     * @return Integer[]\n     */\n    function relocateMarbles($nums, $moveFrom, $moveTo) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  List<int> relocateMarbles(List<int> nums, List<int> moveFrom, List<int> moveTo) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def relocateMarbles(nums: Array[Int], moveFrom: Array[Int], moveTo: Array[Int]): List[Int] = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec relocate_marbles(nums :: [integer], move_from :: [integer], move_to :: [integer]) :: [integer]\n  def relocate_marbles(nums, move_from, move_to) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec relocate_marbles(Nums :: [integer()], MoveFrom :: [integer()], MoveTo :: [integer()]) -> [integer()].\nrelocate_marbles(Nums, MoveFrom, MoveTo) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (relocate-marbles nums moveFrom moveTo)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?) (listof exact-integer?))\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func relocateMarbles(nums: Array<Int64>, moveFrom: Array<Int64>, moveTo: Array<Int64>): ArrayList<Int64> {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"23.5K\", \"totalSubmission\": \"37K\", \"totalAcceptedRaw\": 23526, \"totalSubmissionRaw\": 37010, \"acRate\": \"63.6%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

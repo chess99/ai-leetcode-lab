@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:27Z",
+  "source": "https://leetcode.cn/problems/shortest-path-in-a-hidden-grid/",
+  "question": {
+    "questionId": "1931",
+    "questionFrontendId": "1778",
+    "title": "Shortest Path in a Hidden Grid",
+    "titleSlug": "shortest-path-in-a-hidden-grid",
+    "translatedTitle": "未知网格中的最短路径",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 14,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,2],[-1,0]]\n[[0,0,-1],[1,1,1],[2,0,0]]\n[[-1,0],[0,2]]",
+    "sampleTestCase": "[[1,2],[-1,0]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"foobar\",\n  \"params\": [\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"grid\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"javascript\",\n    \"swift\",\n    \"python3\"\n  ]\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"956\", \"totalSubmission\": \"2K\", \"totalAcceptedRaw\": 956, \"totalSubmissionRaw\": 2004, \"acRate\": \"47.7%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

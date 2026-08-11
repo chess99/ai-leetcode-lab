@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:12Z",
+  "source": "https://leetcode.cn/problems/number-of-distinct-substrings-in-a-string/",
+  "question": {
+    "questionId": "1838",
+    "questionFrontendId": "1698",
+    "title": "Number of Distinct Substrings in a String",
+    "titleSlug": "number-of-distinct-substrings-in-a-string",
+    "translatedTitle": "字符串的不同子字符串个数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 21,
+    "dislikes": 0,
+    "exampleTestcases": "\"aabbaba\"\n\"abcdefg\"",
+    "sampleTestCase": "\"aabbaba\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countDistinct\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"2.7K\", \"totalAcceptedRaw\": 1532, \"totalSubmissionRaw\": 2749, \"acRate\": \"55.7%\"}",
+    "topicTags": [
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Suffix Array",
+        "slug": "suffix-array",
+        "translatedName": "后缀数组"
+      },
+      {
+        "name": "Hash Function",
+        "slug": "hash-function",
+        "translatedName": "哈希函数"
+      },
+      {
+        "name": "Rolling Hash",
+        "slug": "rolling-hash",
+        "translatedName": "滚动哈希"
+      }
+    ]
+  }
+}

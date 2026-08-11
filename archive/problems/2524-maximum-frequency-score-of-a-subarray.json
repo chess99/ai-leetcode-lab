@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:32Z",
+  "source": "https://leetcode.cn/problems/maximum-frequency-score-of-a-subarray/",
+  "question": {
+    "questionId": "2667",
+    "questionFrontendId": "2524",
+    "title": "Maximum Frequency Score of a Subarray",
+    "titleSlug": "maximum-frequency-score-of-a-subarray",
+    "translatedTitle": "子数组的最大频率分数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[1,1,1,2,1,2]\n3\n[1,1,1,1,1,1]\n4",
+    "sampleTestCase": "[1,1,1,2,1,2]\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxFrequencyScore\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"940\", \"totalSubmission\": \"2.2K\", \"totalAcceptedRaw\": 940, \"totalSubmissionRaw\": 2184, \"acRate\": \"43.0%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      }
+    ]
+  }
+}

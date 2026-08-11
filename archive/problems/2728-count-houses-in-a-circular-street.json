@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:07Z",
+  "source": "https://leetcode.cn/problems/count-houses-in-a-circular-street/",
+  "question": {
+    "questionId": "2875",
+    "questionFrontendId": "2728",
+    "title": "Count Houses in a Circular Street",
+    "titleSlug": "count-houses-in-a-circular-street",
+    "translatedTitle": "计算一个环形街道上的房屋数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "[0,0,0,0]\n10\n[1,0,1,1,0]\n5",
+    "sampleTestCase": "[0,0,0,0]\n10",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"houseCount\",\n  \"params\": [\n    {\n      \"name\": \"street\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"c\",\n    \"csharp\",\n    \"javascript\",\n    \"ruby\",\n    \"swift\",\n    \"golang\",\n    \"python3\",\n    \"scala\",\n    \"kotlin\",\n    \"rust\",\n    \"php\",\n    \"typescript\",\n    \"racket\",\n    \"dart\"\n  ]\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"517\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 517, \"totalSubmissionRaw\": 1057, \"acRate\": \"48.9%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      }
+    ]
+  }
+}

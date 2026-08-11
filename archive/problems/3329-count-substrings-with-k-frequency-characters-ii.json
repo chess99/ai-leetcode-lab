@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:53Z",
+  "source": "https://leetcode.cn/problems/count-substrings-with-k-frequency-characters-ii/",
+  "question": {
+    "questionId": "3499",
+    "questionFrontendId": "3329",
+    "title": "Count Substrings With K-Frequency Characters II",
+    "titleSlug": "count-substrings-with-k-frequency-characters-ii",
+    "translatedTitle": "字符至少出现 K 次的子字符串 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "\"abacb\"\n2\n\"abcde\"\n1",
+    "sampleTestCase": "\"abacb\"\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfSubstrings\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"229\", \"totalSubmission\": \"721\", \"totalAcceptedRaw\": 229, \"totalSubmissionRaw\": 721, \"acRate\": \"31.8%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      }
+    ]
+  }
+}

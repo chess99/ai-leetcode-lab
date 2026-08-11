@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:30Z",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-all-grid-elements-equal/",
+  "question": {
+    "questionId": "4276",
+    "questionFrontendId": "3888",
+    "title": "Minimum Operations to Make All Grid Elements Equal",
+    "titleSlug": "minimum-operations-to-make-all-grid-elements-equal",
+    "translatedTitle": "使所有网格元素相等的最小操作次数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[[3,3,5],[3,3,5]]\n2\n[[1,2],[2,3]]\n1",
+    "sampleTestCase": "[[3,3,5],[3,3,5]]\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minOperations\",\n  \"params\": [\n    {\n      \"name\": \"grid\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"106\", \"totalSubmission\": \"148\", \"totalAcceptedRaw\": 106, \"totalSubmissionRaw\": 148, \"acRate\": \"71.6%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

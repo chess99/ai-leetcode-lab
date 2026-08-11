@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:12Z",
+  "source": "https://leetcode.cn/problems/guess-the-number-using-bitwise-questions-ii/",
+  "question": {
+    "questionId": "3401",
+    "questionFrontendId": "3094",
+    "title": "Guess the Number Using Bitwise Questions II",
+    "titleSlug": "guess-the-number-using-bitwise-questions-ii",
+    "translatedTitle": "使用按位查询猜测数字 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "31",
+    "sampleTestCase": "31",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"foobar\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"typescriptCustomType\": \"function commonBits(num: number): number {\\n    let x = num ^ __pick__ ^ 1073741823;\\n    let count = 0;\\n    while (x > 0) {\\n        count += x & 1;\\n        x >>= 1;\\n    }\\n    __pick__ ^= num;\\n    return count;\\n}\"\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"290\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 290, \"totalSubmissionRaw\": 1219, \"acRate\": \"23.8%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      }
+    ]
+  }
+}

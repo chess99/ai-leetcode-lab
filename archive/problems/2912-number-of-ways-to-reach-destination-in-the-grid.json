@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:38Z",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-reach-destination-in-the-grid/",
+  "question": {
+    "questionId": "3198",
+    "questionFrontendId": "2912",
+    "title": "Number of Ways to Reach Destination in the Grid",
+    "titleSlug": "number-of-ways-to-reach-destination-in-the-grid",
+    "translatedTitle": "在网格上移动到目的地的方法数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "3\n2\n2\n[1,1]\n[2,2]\n3\n4\n3\n[1,2]\n[2,3]",
+    "sampleTestCase": "3\n2\n2\n[1,1]\n[2,2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfWays\",\n  \"params\": [\n    {\n      \"type\": \"integer\",\n      \"name\": \"n\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"m\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"source\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"dest\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"343\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 343, \"totalSubmissionRaw\": 1381, \"acRate\": \"24.8%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Combinatorics",
+        "slug": "combinatorics",
+        "translatedName": "组合数学"
+      }
+    ]
+  }
+}

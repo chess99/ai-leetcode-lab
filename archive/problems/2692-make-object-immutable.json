@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:01Z",
+  "source": "https://leetcode.cn/problems/make-object-immutable/",
+  "question": {
+    "questionId": "2776",
+    "questionFrontendId": "2692",
+    "title": "Make Object Immutable",
+    "titleSlug": "make-object-immutable",
+    "translatedTitle": "使对象不可变",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "{\"x\":5}\n(obj) => { obj.x = 5; return obj.x; }\n[1,2,3]\n(arr) => { arr[1] = {}; return arr[2]; }\n{\"arr\":[1,2,3]}\n(obj) => { obj.arr.push(4); return 42; }\n{\"x\":2,\"y\":2}\n(obj) => { return Object.keys(obj); }",
+    "sampleTestCase": "{\"x\":5}\n(obj) => { obj.x = 5; return obj.x; }",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"makeImmutable\",\n  \"params\": [\n    {\n      \"name\": \"obj\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"fn\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"390\", \"totalSubmission\": \"670\", \"totalAcceptedRaw\": 390, \"totalSubmissionRaw\": 670, \"acRate\": \"58.2%\"}",
+    "topicTags": []
+  }
+}

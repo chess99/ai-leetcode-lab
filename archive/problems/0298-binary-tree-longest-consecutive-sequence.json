@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:17Z",
+  "source": "https://leetcode.cn/problems/binary-tree-longest-consecutive-sequence/",
+  "question": {
+    "questionId": "298",
+    "questionFrontendId": "298",
+    "title": "Binary Tree Longest Consecutive Sequence",
+    "titleSlug": "binary-tree-longest-consecutive-sequence",
+    "translatedTitle": "二叉树最长连续序列",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 143,
+    "dislikes": 0,
+    "exampleTestcases": "[1,null,3,2,4,null,null,null,5]\n[2,null,3,2,null,1]",
+    "sampleTestCase": "[1,null,3,2,4,null,null,null,5]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"longestConsecutive\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"16.8K\", \"totalSubmission\": \"27.6K\", \"totalAcceptedRaw\": 16770, \"totalSubmissionRaw\": 27581, \"acRate\": \"60.8%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      },
+      {
+        "name": "树形 DP",
+        "slug": "dp-on-trees",
+        "translatedName": null
+      }
+    ]
+  }
+}

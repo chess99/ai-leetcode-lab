@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:41Z",
+  "source": "https://leetcode.cn/problems/check-permutation-lcci/",
+  "question": {
+    "questionId": "100159",
+    "questionFrontendId": "面试题 01.02",
+    "title": "Check Permutation LCCI",
+    "titleSlug": "check-permutation-lcci",
+    "translatedTitle": "判定是否互为字符重排",
+    "content": "<p>Given two strings,write a method to decide if one is a permutation of the other.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong><code>s1</code> = &quot;abc&quot;, <code>s2</code> = &quot;bca&quot;\r\n<strong>Output: </strong>true\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong><code>s1</code> = &quot;abc&quot;, <code>s2</code> = &quot;bad&quot;\r\n<strong>Output: </strong>false\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>0 &lt;= len(s1) &lt;= 100 </code></li>\r\n\t<li><code>0 &lt;= len(s2) &lt;= 100</code></li>\r\n</ol>\r\n",
+    "translatedContent": "<p>给定两个由小写字母组成的字符串 <code>s1</code> 和 <code>s2</code>，请编写一个程序，确定其中一个字符串的字符重新排列后，能否变成另一个字符串。</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入:</strong> <code>s1</code> = \"abc\", <code>s2</code> = \"bca\"\n<strong>输出:</strong> true \n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入:</strong> <code>s1</code> = \"abc\", <code>s2</code> = \"bad\"\n<strong>输出:</strong> false\n</pre>\n\n<p><strong>说明：</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= len(s1) &lt;= 100 </code></li>\n\t<li><code>0 &lt;= len(s2) &lt;= 100 </code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 190,
+    "dislikes": 0,
+    "exampleTestcases": "\"abc\"\n\"bca\"\n\"abc\"\n\"bad\"",
+    "sampleTestCase": "\"abc\"\n\"bca\"",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"CheckPermutation\", \"params\": [{\"name\": \"s1\", \"type\": \"string\"}, {\"name\": \"s2\", \"type\": \"string\"}], \"return\": {\"type\": \"boolean\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    bool CheckPermutation(string s1, string s2) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public boolean CheckPermutation(String s1, String s2) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def CheckPermutation(self, s1: str, s2: str) -> bool:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def CheckPermutation(self, s1, s2):\n        \"\"\"\n        :type s1: str\n        :type s2: str\n        :rtype: bool\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string} s1\n * @param {string} s2\n * @return {boolean}\n */\nvar CheckPermutation = function(s1, s2) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function CheckPermutation(s1: string, s2: string): boolean {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public bool CheckPermutation(string s1, string s2) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "bool CheckPermutation(char* s1, char* s2) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func CheckPermutation(s1 string, s2 string) bool {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun CheckPermutation(s1: String, s2: String): Boolean {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func CheckPermutation(_ s1: String, _ s2: String) -> Bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn check_permutation(s1: String, s2: String) -> bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String} s1\n# @param {String} s2\n# @return {Boolean}\ndef check_permutation(s1, s2)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String $s1\n     * @param String $s2\n     * @return Boolean\n     */\n    function CheckPermutation($s1, $s2) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  bool CheckPermutation(String s1, String s2) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def CheckPermutation(s1: String, s2: String): Boolean = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec check_permutation(s1 :: String.t, s2 :: String.t) :: boolean\n  def check_permutation(s1, s2) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec check_permutation(S1 :: unicode:unicode_binary(), S2 :: unicode:unicode_binary()) -> boolean().\ncheck_permutation(S1, S2) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (check-permutation s1 s2)\n  (-> string? string? boolean?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func CheckPermutation(s1: String, s2: String): Bool {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"152.5K\", \"totalSubmission\": \"232.1K\", \"totalAcceptedRaw\": 152475, \"totalSubmissionRaw\": 232076, \"acRate\": \"65.7%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:01Z",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-the-array-beautiful/",
+  "question": {
+    "questionId": "4108",
+    "questionFrontendId": "3717",
+    "title": "Minimum Operations to Make the Array Beautiful",
+    "titleSlug": "minimum-operations-to-make-the-array-beautiful",
+    "translatedTitle": "使数组变美的最小操作次数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[3,7,9]\n[1,1,1]\n[4]",
+    "sampleTestCase": "[3,7,9]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minOperations\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"204\", \"totalSubmission\": \"330\", \"totalAcceptedRaw\": 204, \"totalSubmissionRaw\": 330, \"acRate\": \"61.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

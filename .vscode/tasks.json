@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "AI LC: Doctor",
+      "type": "shell",
+      "command": "python",
+      "args": ["-m", "ai_leetcode.cli", "doctor"],
+      "problemMatcher": []
+    },
+    {
+      "label": "AI LC: Sync catalog",
+      "type": "shell",
+      "command": "python",
+      "args": ["-m", "ai_leetcode.cli", "sync"],
+      "problemMatcher": []
+    },
+    {
+      "label": "AI LC: Stats",
+      "type": "shell",
+      "command": "python",
+      "args": ["-m", "ai_leetcode.cli", "stats"],
+      "problemMatcher": []
+    }
+  ]
+}

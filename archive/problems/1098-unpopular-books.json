@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:33Z",
+  "source": "https://leetcode.cn/problems/unpopular-books/",
+  "question": {
+    "questionId": "1198",
+    "questionFrontendId": "1098",
+    "title": "Unpopular Books",
+    "titleSlug": "unpopular-books",
+    "translatedTitle": "小众书籍",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 118,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Books\":[\"book_id\",\"name\",\"available_from\"],\"Orders\":[\"order_id\",\"book_id\",\"quantity\",\"dispatch_date\"]},\"rows\":{\"Books\":[[1,\"Kalila And Demna\",\"2010-01-01\"],[2,\"28 Letters\",\"2012-05-12\"],[3,\"The Hobbit\",\"2019-06-10\"],[4,\"13 Reasons Why\",\"2019-06-01\"],[5,\"The Hunger Games\",\"2008-09-21\"]],\"Orders\":[[1,1,2,\"2018-07-26\"],[2,1,1,\"2018-11-05\"],[3,3,8,\"2019-06-11\"],[4,4,6,\"2019-06-05\"],[5,4,5,\"2019-06-20\"],[6,5,9,\"2009-02-02\"],[7,5,8,\"2010-04-13\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Books\":[\"book_id\",\"name\",\"available_from\"],\"Orders\":[\"order_id\",\"book_id\",\"quantity\",\"dispatch_date\"]},\"rows\":{\"Books\":[[1,\"Kalila And Demna\",\"2010-01-01\"],[2,\"28 Letters\",\"2012-05-12\"],[3,\"The Hobbit\",\"2019-06-10\"],[4,\"13 Reasons Why\",\"2019-06-01\"],[5,\"The Hunger Games\",\"2008-09-21\"]],\"Orders\":[[1,1,2,\"2018-07-26\"],[2,1,1,\"2018-11-05\"],[3,3,8,\"2019-06-11\"],[4,4,6,\"2019-06-05\"],[5,4,5,\"2019-06-20\"],[6,5,9,\"2009-02-02\"],[7,5,8,\"2010-04-13\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Books (book_id int, name varchar(50), available_from date)\",\"Create table If Not Exists Orders (order_id int, book_id int, quantity int, dispatch_date date)\"],\"mssql\":[\"Create table Books (book_id int, name varchar(50), available_from date)\",\"Create table Orders (order_id int, book_id int, quantity int, dispatch_date date)\"],\"oraclesql\":[\"Create table Books (book_id int, name varchar(50), available_from date)\",\"Create table Orders (order_id int, book_id int, quantity int, dispatch_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"unpopular_books\",\"pythondata\":[\"Books = pd.DataFrame([], columns=['book_id', 'name', 'available_from']).astype({'book_id':'Int64', 'name':'object', 'available_from':'datetime64[ns]'})\",\"Orders = pd.DataFrame([], columns=['order_id', 'book_id', 'quantity', 'dispatch_date']).astype({'order_id':'Int64', 'book_id':'Int64', 'quantity':'Int64', 'dispatch_date':'datetime64[ns]'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Books (book_id int, name varchar(50), available_from date)\\n\",\"Create table If Not Exists Orders (order_id int, book_id int, quantity int, dispatch_date date)\"],\"database_schema\":{\"Books\":{\"book_id\":\"INT\",\"name\":\"VARCHAR(50)\",\"available_from\":\"DATE\"},\"Orders\":{\"order_id\":\"INT\",\"book_id\":\"INT\",\"quantity\":\"INT\",\"dispatch_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"18.2K\", \"totalSubmission\": \"39.6K\", \"totalAcceptedRaw\": 18204, \"totalSubmissionRaw\": 39569, \"acRate\": \"46.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

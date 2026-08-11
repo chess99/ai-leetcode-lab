@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:18Z",
+  "source": "https://leetcode.cn/problems/good-indices-in-a-digit-string/",
+  "question": {
+    "questionId": "4207",
+    "questionFrontendId": "3817",
+    "title": "Good Indices in a Digit String",
+    "titleSlug": "good-indices-in-a-digit-string",
+    "translatedTitle": "数字字符串中的好索引",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "\"0234567890112\"\n\"01234\"\n\"12345\"",
+    "sampleTestCase": "\"0234567890112\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"goodIndices\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<integer>\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"130\", \"totalSubmission\": \"140\", \"totalAcceptedRaw\": 130, \"totalSubmissionRaw\": 140, \"acRate\": \"92.9%\"}",
+    "topicTags": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:58Z",
+  "source": "https://leetcode.cn/problems/output-contest-matches/",
+  "question": {
+    "questionId": "544",
+    "questionFrontendId": "544",
+    "title": "Output Contest Matches",
+    "titleSlug": "output-contest-matches",
+    "translatedTitle": "输出比赛匹配对",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 64,
+    "dislikes": 0,
+    "exampleTestcases": "4\n8",
+    "sampleTestCase": "4",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"findContestMatch\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.9K\", \"totalSubmission\": \"5.4K\", \"totalAcceptedRaw\": 3916, \"totalSubmissionRaw\": 5373, \"acRate\": \"72.9%\"}",
+    "topicTags": [
+      {
+        "name": "Recursion",
+        "slug": "recursion",
+        "translatedName": "递归"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

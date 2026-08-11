@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:01Z",
+  "source": "https://leetcode.cn/problems/valid-palindrome-iv/",
+  "question": {
+    "questionId": "2468",
+    "questionFrontendId": "2330",
+    "title": "Valid Palindrome IV",
+    "titleSlug": "valid-palindrome-iv",
+    "translatedTitle": "验证回文串 IV",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcdba\"\n\"aa\"\n\"abcdef\"",
+    "sampleTestCase": "\"abcdba\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"makePalindrome\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"907\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 907, \"totalSubmissionRaw\": 1279, \"acRate\": \"70.9%\"}",
+    "topicTags": [
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

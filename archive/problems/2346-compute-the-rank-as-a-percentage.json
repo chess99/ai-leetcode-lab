@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:04Z",
+  "source": "https://leetcode.cn/problems/compute-the-rank-as-a-percentage/",
+  "question": {
+    "questionId": "2484",
+    "questionFrontendId": "2346",
+    "title": "Compute the Rank as a Percentage",
+    "titleSlug": "compute-the-rank-as-a-percentage",
+    "translatedTitle": "以百分比计算排名",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Students\": [\"student_id\", \"department_id\", \"mark\"]}, \"rows\": {\"Students\": [[2, 2, 650], [8, 2, 650], [7, 1, 920], [1, 1, 610], [3, 1, 530]]}}",
+    "sampleTestCase": "{\"headers\": {\"Students\": [\"student_id\", \"department_id\", \"mark\"]}, \"rows\": {\"Students\": [[2, 2, 650], [8, 2, 650], [7, 1, 920], [1, 1, 610], [3, 1, 530]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mssql\":[\"Create table Students (student_id int, department_id int, mark int)\"],\"oraclesql\":[\"Create table Students (student_id int, department_id int, mark int)\"],\"database\":true,\"mysql\":[\"Create table If Not Exists Students (student_id int, department_id int, mark int)\"],\"name\":\"compute_rating\",\"pythondata\":[\"Students = pd.DataFrame([], columns=['student_id', 'department_id', 'mark']).astype({'student_id':'Int64', 'department_id':'Int64', 'mark':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Students (student_id int, department_id int, mark int)\"],\"database_schema\":{\"Students\":{\"student_id\":\"INT\",\"department_id\":\"INT\",\"mark\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.5K\", \"totalSubmission\": \"6.9K\", \"totalAcceptedRaw\": 2543, \"totalSubmissionRaw\": 6851, \"acRate\": \"37.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

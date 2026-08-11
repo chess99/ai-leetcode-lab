@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:26Z",
+  "source": "https://leetcode.cn/problems/sort-features-by-popularity/",
+  "question": {
+    "questionId": "1919",
+    "questionFrontendId": "1772",
+    "title": "Sort Features by Popularity",
+    "titleSlug": "sort-features-by-popularity",
+    "translatedTitle": "按受欢迎程度排列功能",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[\"cooler\",\"lock\",\"touch\"]\n[\"i like cooler cooler\",\"lock touch cool\",\"locker like touch\"]\n[\"a\",\"aa\",\"b\",\"c\"]\n[\"a\",\"a aa\",\"a a a a a\",\"b a\"]",
+    "sampleTestCase": "[\"cooler\",\"lock\",\"touch\"]\n[\"i like cooler cooler\",\"lock touch cool\",\"locker like touch\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"sortFeatures\",\n  \"params\": [\n    {\n      \"type\": \"string[]\",\n      \"name\": \"features\"\n    },\n    {\n      \"type\": \"string[]\",\n      \"name\": \"responses\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 1076, \"totalSubmissionRaw\": 2295, \"acRate\": \"46.9%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

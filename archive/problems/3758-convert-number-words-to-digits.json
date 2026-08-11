@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:08Z",
+  "source": "https://leetcode.cn/problems/convert-number-words-to-digits/",
+  "question": {
+    "questionId": "4148",
+    "questionFrontendId": "3758",
+    "title": "Convert Number Words to Digits",
+    "titleSlug": "convert-number-words-to-digits",
+    "translatedTitle": "将数字词转换为数字",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "\"onefourthree\"\n\"ninexsix\"\n\"zeero\"\n\"tw\"",
+    "sampleTestCase": "\"onefourthree\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"convertNumber\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"172\", \"totalSubmission\": \"211\", \"totalAcceptedRaw\": 172, \"totalSubmissionRaw\": 211, \"acRate\": \"81.5%\"}",
+    "topicTags": [
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

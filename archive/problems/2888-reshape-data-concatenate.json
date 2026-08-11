@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:34Z",
+  "source": "https://leetcode.cn/problems/reshape-data-concatenate/",
+  "question": {
+    "questionId": "3064",
+    "questionFrontendId": "2888",
+    "title": "Reshape Data: Concatenate",
+    "titleSlug": "reshape-data-concatenate",
+    "translatedTitle": "重塑数据：连结",
+    "content": "<pre>\nDataFrame <code>df1</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| student_id  | int    |\n| name        | object |\n| age         | int    |\n+-------------+--------+\n\nDataFrame <code>df2</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| student_id  | int    |\n| name        | object |\n| age         | int    |\n+-------------+--------+\n\n</pre>\n\n<p>Write a solution to concatenate these two DataFrames <strong>vertically</strong> into one DataFrame.</p>\n\n<p>The result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:\ndf1</strong>\n+------------+---------+-----+\n| student_id | name    | age |\n+------------+---------+-----+\n| 1          | Mason   | 8   |\n| 2          | Ava     | 6   |\n| 3          | Taylor  | 15  |\n| 4          | Georgia | 17  |\n+------------+---------+-----+\n<strong>df2\n</strong>+------------+------+-----+\n| student_id | name | age |\n+------------+------+-----+\n| 5          | Leo  | 7   |\n| 6          | Alex | 7   |\n+------------+------+-----+\n<strong>Output:</strong>\n+------------+---------+-----+\n| student_id | name    | age |\n+------------+---------+-----+\n| 1          | Mason   | 8   |\n| 2          | Ava     | 6   |\n| 3          | Taylor  | 15  |\n| 4          | Georgia | 17  |\n| 5          | Leo     | 7   |\n| 6          | Alex    | 7   |\n+------------+---------+-----+\n<strong>Explanation:\n</strong>The two DataFramess are stacked vertically, and their rows are combined.</pre>\n",
+    "translatedContent": "<pre>\nDataFrame <code>df1</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| student_id  | int    |\n| name        | object |\n| age         | int    |\n+-------------+--------+\n\nDataFrame <code>df2</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| student_id  | int    |\n| name        | object |\n| age         | int    |\n+-------------+--------+\n\n</pre>\n\n<p>编写一个解决方案，将两个&nbsp;DataFrames <b>垂直 </b>连接成一个&nbsp;DataFrame。</p>\n\n<p>结果格式如下示例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<pre>\n<strong>输入：\ndf1</strong>\n+------------+---------+-----+\n| student_id | name    | age |\n+------------+---------+-----+\n| 1          | Mason   | 8   |\n| 2          | Ava     | 6   |\n| 3          | Taylor  | 15  |\n| 4          | Georgia | 17  |\n+------------+---------+-----+\n<strong>df2\n</strong>+------------+------+-----+\n| student_id | name | age |\n+------------+------+-----+\n| 5          | Leo  | 7   |\n| 6          | Alex | 7   |\n+------------+------+-----+\n<b>输出：</b>\n+------------+---------+-----+\n| student_id | name    | age |\n+------------+---------+-----+\n| 1          | Mason   | 8   |\n| 2          | Ava     | 6   |\n| 3          | Taylor  | 15  |\n| 4          | Georgia | 17  |\n| 5          | Leo     | 7   |\n| 6          | Alex    | 7   |\n+------------+---------+-----+\n<strong>解释：\n</strong>两个 DataFrame 被垂直堆叠，它们的行被合并。</pre>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"df1\":[\"student_id\",\"name\",\"age\"],\"df2\":[\"student_id\",\"name\",\"age\"]},\"rows\":{\"df1\":[[1,\"Mason\",8],[2,\"Ava\",6],[3,\"Taylor\",15],[4,\"Georgia\",17]],\"df2\":[[5,\"Leo\",7],[6,\"Alex\",7]]}}",
+    "sampleTestCase": "{\"headers\":{\"df1\":[\"student_id\",\"name\",\"age\"],\"df2\":[\"student_id\",\"name\",\"age\"]},\"rows\":{\"df1\":[[1,\"Mason\",8],[2,\"Ava\",6],[3,\"Taylor\",15],[4,\"Georgia\",17]],\"df2\":[[5,\"Leo\",7],[6,\"Alex\",7]]}}",
+    "enableRunCode": true,
+    "metaData": "{\n  \"pythondata\": [\n    \"df1 = pd.DataFrame([], columns=['student_id', 'name', 'age']).astype({'student_id':'Int64', 'name':'object', 'age':'Int64'})\",\n    \"df2 = pd.DataFrame([], columns=['student_id', 'name', 'age']).astype({'student_id':'Int64', 'name':'object', 'age':'Int64'})\"\n  ],\n  \"database\": true,\n  \"name\": \"concatenateTables\",\n  \"languages\": [\n    \"pythondata\"\n  ]\n}",
+    "codeSnippets": [
+      {
+        "lang": "Pandas",
+        "langSlug": "pythondata",
+        "code": "import pandas as pd\n\ndef concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:\n    "
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"8.7K\", \"totalSubmission\": \"9.9K\", \"totalAcceptedRaw\": 8680, \"totalSubmissionRaw\": 9940, \"acRate\": \"87.3%\"}",
+    "topicTags": []
+  }
+}

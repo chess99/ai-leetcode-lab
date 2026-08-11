@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:39Z",
+  "source": "https://leetcode.cn/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/",
+  "question": {
+    "questionId": "758",
+    "questionFrontendId": "426",
+    "title": "Convert Binary Search Tree to Sorted Doubly Linked List",
+    "titleSlug": "convert-binary-search-tree-to-sorted-doubly-linked-list",
+    "translatedTitle": "将二叉搜索树转化为排序的双向链表",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 279,
+    "dislikes": 0,
+    "exampleTestcases": "[4,2,5,1,3]\n[2,1,3]",
+    "sampleTestCase": "[4,2,5,1,3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"treeToDoublyList\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"ListNode\"\n  },\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"javascript\",\n    \"python3\",\n    \"kotlin\",\n    \"ruby\",\n    \"scala\",\n    \"c\",\n    \"golang\",\n    \"swift\",\n    \"php\",\n    \"typescript\"\n  ],\n  \"manual\": true, \"typescriptCustomType\" : \"class _Node {\\n    val: number\\n    left: _Node | null\\n    right: _Node | null\\n    \\n    constructor(val?: number, left?: _Node | null, right?: _Node | null) {\\n        this.val = (val===undefined ? 0 : val)\\n        this.left = (left===undefined ? null : left)\\n        this.right = (right===undefined ? null : right)\\n    }\\n}\\n\"\n\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"18K\", \"totalSubmission\": \"26.4K\", \"totalAcceptedRaw\": 17980, \"totalSubmissionRaw\": 26407, \"acRate\": \"68.1%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Binary Search Tree",
+        "slug": "binary-search-tree",
+        "translatedName": "二叉搜索树"
+      },
+      {
+        "name": "Linked List",
+        "slug": "linked-list",
+        "translatedName": "链表"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      },
+      {
+        "name": "Doubly-Linked List",
+        "slug": "doubly-linked-list",
+        "translatedName": "双向链表"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:56Z",
+  "source": "https://leetcode.cn/problems/tasks-count-in-the-weekend/",
+  "question": {
+    "questionId": "2440",
+    "questionFrontendId": "2298",
+    "title": "Tasks Count in the Weekend",
+    "titleSlug": "tasks-count-in-the-weekend",
+    "translatedTitle": "周末任务计数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Tasks\": [\"task_id\", \"assignee_id\", \"submit_date\"]}, \"rows\": {\"Tasks\": [[1, 1, \"2022-06-13\"], [2, 6, \"2022-06-14\"], [3, 6, \"2022-06-15\"], [4, 3, \"2022-06-18\"], [5, 5, \"2022-06-19\"], [6, 7, \"2022-06-19\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Tasks\": [\"task_id\", \"assignee_id\", \"submit_date\"]}, \"rows\": {\"Tasks\": [[1, 1, \"2022-06-13\"], [2, 6, \"2022-06-14\"], [3, 6, \"2022-06-15\"], [4, 3, \"2022-06-18\"], [5, 5, \"2022-06-19\"], [6, 7, \"2022-06-19\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Tasks (task_id int, assignee_id int, submit_date date)\"],\"mssql\":[\"Create table Tasks (task_id int, assignee_id int, submit_date date)\"],\"oraclesql\":[\"Create table Tasks (task_id int, assignee_id int, submit_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"count_tasks\",\"pythondata\":[\"Tasks = pd.DataFrame([], columns=['task_id', 'assignee_id', 'submit_date']).astype({'task_id':'Int64', 'assignee_id':'Int64', 'submit_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Tasks (task_id int, assignee_id int, submit_date date)\"],\"database_schema\":{\"Tasks\":{\"task_id\":\"INT\",\"assignee_id\":\"INT\",\"submit_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.9K\", \"totalSubmission\": \"3.8K\", \"totalAcceptedRaw\": 2943, \"totalSubmissionRaw\": 3785, \"acRate\": \"77.8%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

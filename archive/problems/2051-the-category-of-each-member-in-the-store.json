@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:15Z",
+  "source": "https://leetcode.cn/problems/the-category-of-each-member-in-the-store/",
+  "question": {
+    "questionId": "2194",
+    "questionFrontendId": "2051",
+    "title": "The Category of Each Member in the Store",
+    "titleSlug": "the-category-of-each-member-in-the-store",
+    "translatedTitle": "商店中每个成员的级别",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Members\":[\"member_id\",\"name\"],\"Visits\":[\"visit_id\",\"member_id\",\"visit_date\"],\"Purchases\":[\"visit_id\",\"charged_amount\"]},\"rows\":{\"Members\":[[9,\"Alice\"],[11,\"Bob\"],[3,\"Winston\"],[8,\"Hercy\"],[1,\"Narihan\"]],\"Visits\":[[22,11,\"2021-10-28\"],[16,11,\"2021-01-12\"],[18,9,\"2021-12-10\"],[19,3,\"2021-10-19\"],[12,11,\"2021-03-01\"],[17,8,\"2021-05-07\"],[21,9,\"2021-05-12\"]],\"Purchases\":[[12,2000],[18,9000],[17,7000]]}}",
+    "sampleTestCase": "{\"headers\":{\"Members\":[\"member_id\",\"name\"],\"Visits\":[\"visit_id\",\"member_id\",\"visit_date\"],\"Purchases\":[\"visit_id\",\"charged_amount\"]},\"rows\":{\"Members\":[[9,\"Alice\"],[11,\"Bob\"],[3,\"Winston\"],[8,\"Hercy\"],[1,\"Narihan\"]],\"Visits\":[[22,11,\"2021-10-28\"],[16,11,\"2021-01-12\"],[18,9,\"2021-12-10\"],[19,3,\"2021-10-19\"],[12,11,\"2021-03-01\"],[17,8,\"2021-05-07\"],[21,9,\"2021-05-12\"]],\"Purchases\":[[12,2000],[18,9000],[17,7000]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Members (member_id int, name varchar(30))\",\"Create table If Not Exists Visits (visit_id int, member_id int, visit_date date)\",\"Create table If Not Exists Purchases (visit_id int, charged_amount int)\"],\"mssql\":[\"Create table Members (member_id int, name varchar(30))\",\"Create table Visits (visit_id int, member_id int, visit_date date)\",\"Create table Purchases (visit_id int, charged_amount int)\"],\"oraclesql\":[\"Create table Members (member_id int, name varchar(30))\",\"Create table Visits (visit_id int, member_id int, visit_date date)\",\"Create table Purchases (visit_id int, charged_amount int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"find_categories\",\"pythondata\":[\"Members = pd.DataFrame([], columns=['member_id', 'name']).astype({'member_id':'Int64', 'name':'object'})\",\"Visits = pd.DataFrame([], columns=['visit_id', 'member_id', 'visit_date']).astype({'visit_id':'Int64', 'member_id':'Int64', 'visit_date':'datetime64[ns]'})\",\"Purchases = pd.DataFrame([], columns=['visit_id', 'charged_amount']).astype({'visit_id':'Int64', 'charged_amount':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Members (member_id int, name varchar(30))\",\"Create table If Not Exists Visits (visit_id int, member_id int, visit_date date)\",\"Create table If Not Exists Purchases (visit_id int, charged_amount int)\"],\"database_schema\":{\"Members\":{\"member_id\":\"INT\",\"name\":\"VARCHAR(30)\"},\"Visits\":{\"visit_id\":\"INT\",\"member_id\":\"INT\",\"visit_date\":\"DATE\"},\"Purchases\":{\"visit_id\":\"INT\",\"charged_amount\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.5K\", \"totalSubmission\": \"5.7K\", \"totalAcceptedRaw\": 3496, \"totalSubmissionRaw\": 5732, \"acRate\": \"61.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

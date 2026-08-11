@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:17Z",
+  "source": "https://leetcode.cn/problems/count-apples-and-oranges/",
+  "question": {
+    "questionId": "1862",
+    "questionFrontendId": "1715",
+    "title": "Count Apples and Oranges",
+    "titleSlug": "count-apples-and-oranges",
+    "translatedTitle": "苹果和橘子的个数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 13,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Boxes\":[\"box_id\",\"chest_id\",\"apple_count\",\"orange_count\"],\"Chests\":[\"chest_id\",\"apple_count\",\"orange_count\"]},\"rows\":{\"Boxes\":[[2,null,6,15],[18,14,4,15],[19,3,8,4],[12,2,19,20],[20,6,12,9],[8,6,9,9],[3,14,16,7]],\"Chests\":[[6,5,6],[14,20,10],[2,8,8],[3,19,4],[16,19,19]]}}",
+    "sampleTestCase": "{\"headers\":{\"Boxes\":[\"box_id\",\"chest_id\",\"apple_count\",\"orange_count\"],\"Chests\":[\"chest_id\",\"apple_count\",\"orange_count\"]},\"rows\":{\"Boxes\":[[2,null,6,15],[18,14,4,15],[19,3,8,4],[12,2,19,20],[20,6,12,9],[8,6,9,9],[3,14,16,7]],\"Chests\":[[6,5,6],[14,20,10],[2,8,8],[3,19,4],[16,19,19]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Boxes (box_id int, chest_id int, apple_count int, orange_count int)\",\"Create table If Not Exists Chests (chest_id int, apple_count int, orange_count int)\"],\"mssql\":[\"Create table Boxes (box_id int, chest_id int, apple_count int, orange_count int)\",\"Create table Chests (chest_id int, apple_count int, orange_count int)\"],\"oraclesql\":[\"Create table Boxes (box_id int, chest_id int, apple_count int, orange_count int)\",\"Create table Chests (chest_id int, apple_count int, orange_count int)\"],\"database\":true,\"name\":\"count_apples_and_oranges\",\"pythondata\":[\"Boxes = pd.DataFrame([], columns=['box_id', 'chest_id', 'apple_count', 'orange_count']).astype({'box_id':'Int64', 'chest_id':'Int64', 'apple_count':'Int64', 'orange_count':'Int64'})\",\"Chests = pd.DataFrame([], columns=['chest_id', 'apple_count', 'orange_count']).astype({'chest_id':'Int64', 'apple_count':'Int64', 'orange_count':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Boxes (box_id int, chest_id int, apple_count int, orange_count int)\\n\",\"Create table If Not Exists Chests (chest_id int, apple_count int, orange_count int)\"],\"database_schema\":{\"Boxes\":{\"box_id\":\"INT\",\"chest_id\":\"INT\",\"apple_count\":\"INT\",\"orange_count\":\"INT\"},\"Chests\":{\"chest_id\":\"INT\",\"apple_count\":\"INT\",\"orange_count\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.4K\", \"totalSubmission\": \"8.9K\", \"totalAcceptedRaw\": 6432, \"totalSubmissionRaw\": 8906, \"acRate\": \"72.2%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:19Z",
+  "source": "https://leetcode.cn/problems/factorial-generator/",
+  "question": {
+    "questionId": "2901",
+    "questionFrontendId": "2803",
+    "title": "Factorial Generator",
+    "titleSlug": "factorial-generator",
+    "translatedTitle": "阶乘生成器",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "5\n2\n0",
+    "sampleTestCase": "5",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"factorial\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"470\", \"totalSubmission\": \"553\", \"totalAcceptedRaw\": 470, \"totalSubmissionRaw\": 553, \"acRate\": \"85.0%\"}",
+    "topicTags": []
+  }
+}

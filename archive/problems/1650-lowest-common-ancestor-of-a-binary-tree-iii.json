@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:04Z",
+  "source": "https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree-iii/",
+  "question": {
+    "questionId": "1790",
+    "questionFrontendId": "1650",
+    "title": "Lowest Common Ancestor of a Binary Tree III",
+    "titleSlug": "lowest-common-ancestor-of-a-binary-tree-iii",
+    "translatedTitle": "二叉树的最近公共祖先 III",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 71,
+    "dislikes": 0,
+    "exampleTestcases": "[3,5,1,6,2,0,8,null,null,7,4]\n5\n1\n[3,5,1,6,2,0,8,null,null,7,4]\n5\n4\n[1,2]\n1\n2",
+    "sampleTestCase": "[3,5,1,6,2,0,8,null,null,7,4]\n5\n1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"lowestCommonAncestor\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"p\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"q\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"TreeNode\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"c\",\n    \"csharp\",\n    \"javascript\",\n    \"ruby\",\n    \"swift\",\n    \"golang\",\n    \"python3\",\n    \"scala\",\n    \"kotlin\",\n    \"php\",\n    \"typescript\"\n  ],\n      \"typescriptCustomType\": \"class _Node {\\n    val: number\\n    left: _Node | null\\n    right: _Node | null\\n    parent: _Node | null\\n    \\n    constructor(v: number) {\\n        this.val = v;\\n        this.left = null;\\n        this.right = null;\\n        this.parent = null;\\n    }\\n}\"\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"9.2K\", \"totalSubmission\": \"11K\", \"totalAcceptedRaw\": 9222, \"totalSubmissionRaw\": 11030, \"acRate\": \"83.6%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      },
+      {
+        "name": "最近公共祖先",
+        "slug": "lowest-common-ancestor",
+        "translatedName": null
+      },
+      {
+        "name": "Binary Lifting",
+        "slug": "binary-lifting",
+        "translatedName": null
+      }
+    ]
+  }
+}

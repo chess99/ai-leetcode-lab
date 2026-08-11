@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:15Z",
+  "source": "https://leetcode.cn/problems/date-range-generator/",
+  "question": {
+    "questionId": "2799",
+    "questionFrontendId": "2777",
+    "title": "Date Range Generator",
+    "titleSlug": "date-range-generator",
+    "translatedTitle": "日期范围生成器",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "\"2023-04-01\"\n\"2023-04-04\"\n1\n\"2023-04-10\"\n\"2023-04-20\"\n3\n\"2023-04-10\"\n\"2023-04-10\"\n1",
+    "sampleTestCase": "\"2023-04-01\"\n\"2023-04-04\"\n1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"dateRangeGenerator\",\n  \"params\": [\n    {\n      \"name\": \"start\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"end\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"step\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"326\", \"totalSubmission\": \"409\", \"totalAcceptedRaw\": 326, \"totalSubmissionRaw\": 409, \"acRate\": \"79.7%\"}",
+    "topicTags": []
+  }
+}

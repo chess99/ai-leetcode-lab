@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:01Z",
+  "source": "https://leetcode.cn/problems/infinite-method-object/",
+  "question": {
+    "questionId": "2772",
+    "questionFrontendId": "2690",
+    "title": "Infinite Method Object",
+    "titleSlug": "infinite-method-object",
+    "translatedTitle": "无穷方法对象",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "\"abc123\"\n\".-qw73n|^2It\"",
+    "sampleTestCase": "\"abc123\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"createInfiniteObject\",\n  \"params\": [\n    {\n      \"type\": \"string\",\n      \"name\": \"method\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ]\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"640\", \"totalSubmission\": \"707\", \"totalAcceptedRaw\": 640, \"totalSubmissionRaw\": 707, \"acRate\": \"90.5%\"}",
+    "topicTags": []
+  }
+}

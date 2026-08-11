@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:33Z",
+  "source": "https://leetcode.cn/problems/create-a-new-column/",
+  "question": {
+    "questionId": "3066",
+    "questionFrontendId": "2881",
+    "title": "Create a New Column",
+    "titleSlug": "create-a-new-column",
+    "translatedTitle": "创建新列",
+    "content": "<pre>\nDataFrame <code>employees</code>\n+-------------+--------+\n| Column Name | Type.  |\n+-------------+--------+\n| name        | object |\n| salary      | int.   |\n+-------------+--------+\n</pre>\n\n<p>A&nbsp;company plans to provide its employees with a bonus.</p>\n\n<p>Write a solution to create a new column name <code>bonus</code> that contains the <strong>doubled values</strong> of the <code>salary</code> column.</p>\n\n<p>The result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong>\nDataFrame employees\n+---------+--------+\n| name    | salary |\n+---------+--------+\n| Piper   | 4548   |\n| Grace   | 28150  |\n| Georgia | 1103   |\n| Willow  | 6593   |\n| Finn    | 74576  |\n| Thomas  | 24433  |\n+---------+--------+\n<strong>Output:</strong>\n+---------+--------+--------+\n| name    | salary | bonus  |\n+---------+--------+--------+\n| Piper   | 4548   | 9096   |\n| Grace   | 28150  | 56300  |\n| Georgia | 1103   | 2206   |\n| Willow  | 6593   | 13186  |\n| Finn    | 74576  | 149152 |\n| Thomas  | 24433  | 48866  |\n+---------+--------+--------+\n<strong>Explanation:</strong> \nA new column bonus is created by doubling the value in the column salary.</pre>\n",
+    "translatedContent": "<pre>\nDataFrame <code>employees</code>\n+-------------+--------+\n| Column Name | Type.  |\n+-------------+--------+\n| name        | object |\n| salary      | int.   |\n+-------------+--------+\n</pre>\n\n<p>一家公司计划为员工提供奖金。</p>\n\n<p>编写一个解决方案，创建一个名为&nbsp;<code>bonus</code>&nbsp;的新列，其中包含&nbsp;<code>salary</code>&nbsp;值的&nbsp;<strong>两倍</strong>。</p>\n\n<p>返回结果格式如下示例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><b>示例 1:</b></p>\n\n<pre>\n<b>输入：</b>\nDataFrame employees\n+---------+--------+\n| name    | salary |\n+---------+--------+\n| Piper   | 4548   |\n| Grace   | 28150  |\n| Georgia | 1103   |\n| Willow  | 6593   |\n| Finn    | 74576  |\n| Thomas  | 24433  |\n+---------+--------+\n<b>输出：</b>\n+---------+--------+--------+\n| name    | salary | bonus  |\n+---------+--------+--------+\n| Piper   | 4548   | 9096   |\n| Grace   | 28150  | 56300  |\n| Georgia | 1103   | 2206   |\n| Willow  |  593   | 13186  |\n| Finn    | 74576  | 149152 |\n| Thomas  | 24433  | 48866  |\n+---------+--------+--------+\n<b>解释：</b>\n通过将 salary 列中的值加倍创建了一个新的 bonus 列。</pre>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"employees\":[\"name\",\"salary\"]},\"rows\":{\"employees\":[[\"Piper\",4548],[\"Grace\",28150],[\"Georgia\",1103],[\"Willow\",6593],[\"Finn\",74576],[\"Thomas\",24433]]}}",
+    "sampleTestCase": "{\"headers\":{\"employees\":[\"name\",\"salary\"]},\"rows\":{\"employees\":[[\"Piper\",4548],[\"Grace\",28150],[\"Georgia\",1103],[\"Willow\",6593],[\"Finn\",74576],[\"Thomas\",24433]]}}",
+    "enableRunCode": true,
+    "metaData": "{\n  \"pythondata\": [\n    \"employees = pd.DataFrame([], columns=['name', 'salary']).astype({'name':'object', 'salary':'Int64'})\"\n  ],\n  \"database\": true,\n  \"name\": \"createBonusColumn\",\n  \"languages\": [\n    \"pythondata\"\n  ]\n}",
+    "codeSnippets": [
+      {
+        "lang": "Pandas",
+        "langSlug": "pythondata",
+        "code": "import pandas as pd\n\ndef createBonusColumn(employees: pd.DataFrame) -> pd.DataFrame:\n    "
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"10.3K\", \"totalSubmission\": \"11.6K\", \"totalAcceptedRaw\": 10338, \"totalSubmissionRaw\": 11566, \"acRate\": \"89.4%\"}",
+    "topicTags": []
+  }
+}

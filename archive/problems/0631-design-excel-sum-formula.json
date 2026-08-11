@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:13Z",
+  "source": "https://leetcode.cn/problems/design-excel-sum-formula/",
+  "question": {
+    "questionId": "631",
+    "questionFrontendId": "631",
+    "title": "Design Excel Sum Formula",
+    "titleSlug": "design-excel-sum-formula",
+    "translatedTitle": "设计 Excel 求和公式",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 39,
+    "dislikes": 0,
+    "exampleTestcases": "[\"Excel\",\"set\",\"sum\",\"set\",\"get\"]\n[[3,\"C\"],[1,\"A\",2],[3,\"C\",[\"A1\",\"A1:B2\"]],[2,\"B\",2],[3,\"C\"]]",
+    "sampleTestCase": "[\"Excel\",\"set\",\"sum\",\"set\",\"get\"]\n[[3,\"C\"],[1,\"A\",2],[3,\"C\",[\"A1\",\"A1:B2\"]],[2,\"B\",2],[3,\"C\"]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"Excel\",\n  \"maxbytesperline\": 200000,\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"integer\",\n        \"name\": \"height\"\n      },\n      {\n        \"type\": \"character\",\n        \"name\": \"width\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"name\": \"set\",\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"row\"\n        },\n        {\n          \"type\": \"character\",\n          \"name\": \"column\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"val\"\n        }\n      ],\n      \"return\": {\n        \"type\": \"void\"\n      }\n    },\n    {\n      \"name\": \"get\",\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"row\"\n        },\n        {\n          \"type\": \"character\",\n          \"name\": \"column\"\n        }\n      ],\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    },\n    {\n      \"name\": \"sum\",\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"row\"\n        },\n        {\n          \"type\": \"character\",\n          \"name\": \"column\"\n        },\n        {\n          \"type\": \"string[]\",\n          \"name\": \"numbers\"\n        }\n      ],\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"systemdesign\": true,\n  \"params\": [\n    {\n      \"name\": \"inputs\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"inputs\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<String>\",\n    \"dealloc\": true\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"6.6K\", \"totalAcceptedRaw\": 2290, \"totalSubmissionRaw\": 6641, \"acRate\": \"34.5%\"}",
+    "topicTags": [
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Topological Sort",
+        "slug": "topological-sort",
+        "translatedName": "拓扑排序"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

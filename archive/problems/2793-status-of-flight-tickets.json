@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:18Z",
+  "source": "https://leetcode.cn/problems/status-of-flight-tickets/",
+  "question": {
+    "questionId": "3003",
+    "questionFrontendId": "2793",
+    "title": "Status of Flight Tickets",
+    "titleSlug": "status-of-flight-tickets",
+    "translatedTitle": "航班机票状态",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Flights\":[\"flight_id\",\"capacity\"],\"Passengers\":[\"passenger_id\",\"flight_id\",\"booking_time\"]},\"rows\":{\"Flights\":[[1,2],[2,2],[3,1]],\"Passengers\":[[101,1,\"2023-07-10 16:30:00\"],[102,1,\"2023-07-10 17:45:00\"],[103,1,\"2023-07-10 12:00:00\"],[104,2,\"2023-07-05 13:23:00\"],[105,2,\"2023-07-05 09:00:00\"],[106,3,\"2023-07-08 11:10:00\"],[107,3,\"2023-07-08 09:10:00\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Flights\":[\"flight_id\",\"capacity\"],\"Passengers\":[\"passenger_id\",\"flight_id\",\"booking_time\"]},\"rows\":{\"Flights\":[[1,2],[2,2],[3,1]],\"Passengers\":[[101,1,\"2023-07-10 16:30:00\"],[102,1,\"2023-07-10 17:45:00\"],[103,1,\"2023-07-10 12:00:00\"],[104,2,\"2023-07-05 13:23:00\"],[105,2,\"2023-07-05 09:00:00\"],[106,3,\"2023-07-08 11:10:00\"],[107,3,\"2023-07-08 09:10:00\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists Flights(flight_id int,capacity int)\",\"Create table if not exists Passengers (passenger_id int,flight_id int,booking_time datetime)\"],\"mssql\":[\"Create table Flights(flight_id int,capacity int)\",\"Create table Passengers (passenger_id int,flight_id int, booking_time datetime)\"],\"oraclesql\":[\"Create table Flights(flight_id int,capacity int)\",\"Create table Passengers (passenger_id int,flight_id int, booking_time date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"],\"database\":true,\"name\":\"ticket_status\",\"pythondata\":[\"Flights = pd.DataFrame([], columns=['flight_id', 'capacity']).astype({'flight_id':'Int64', 'capacity':'Int64'})\",\"Passengers = pd.DataFrame([], columns=['passenger_id', 'flight_id', 'booking_time']).astype({'passenger_id':'Int64', 'flight_id':'Int64', 'booking_time':'datetime64[ns]'})\"],\"postgresql\":[\"Create table if not exists Flights(flight_id int,capacity int)\",\"Create table if not exists Passengers (passenger_id int,flight_id int,booking_time timestamp)\"],\"database_schema\":{\"Flights\":{\"flight_id\":\"INT\",\"capacity\":\"INT\"},\"Passengers\":{\"passenger_id\":\"INT\",\"flight_id\":\"INT\",\"booking_time\":\"DATETIME\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 1141, \"totalSubmissionRaw\": 1503, \"acRate\": \"75.9%\"}",
+    "topicTags": []
+  }
+}

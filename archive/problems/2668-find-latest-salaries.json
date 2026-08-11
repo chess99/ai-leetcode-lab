@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:57Z",
+  "source": "https://leetcode.cn/problems/find-latest-salaries/",
+  "question": {
+    "questionId": "2829",
+    "questionFrontendId": "2668",
+    "title": "Find Latest Salaries",
+    "titleSlug": "find-latest-salaries",
+    "translatedTitle": "查询员工当前薪水",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Salary\":[\"emp_id\",\"firstname\",\"lastname\",\"salary\",\"department_id\"]},\"rows\":{\"Salary\":[[1,\"Todd\",\"Wilson\",110000,\"D1006\"],[1,\"Todd\",\"Wilson\",106119,\"D1006\"],[2,\"Justin\",\"Simon\",128922,\"D1005\"],[2,\"Justin\",\"Simon\",130000,\"D1005\"],[3,\"Kelly\",\"Rosario\",42689,\"D1002\"],[4,\"Patricia\",\"Powell\",162825,\"D1004\"],[4,\"Patricia\",\"Powell\",170000,\"D1004\"],[5,\"Sherry\",\"Golden\",44101,\"D1002\"],[6,\"Natasha\",\"Swanson\",79632,\"D1005\"],[6,\"Natasha\",\"Swanson\",90000,\"D1005\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Salary\":[\"emp_id\",\"firstname\",\"lastname\",\"salary\",\"department_id\"]},\"rows\":{\"Salary\":[[1,\"Todd\",\"Wilson\",110000,\"D1006\"],[1,\"Todd\",\"Wilson\",106119,\"D1006\"],[2,\"Justin\",\"Simon\",128922,\"D1005\"],[2,\"Justin\",\"Simon\",130000,\"D1005\"],[3,\"Kelly\",\"Rosario\",42689,\"D1002\"],[4,\"Patricia\",\"Powell\",162825,\"D1004\"],[4,\"Patricia\",\"Powell\",170000,\"D1004\"],[5,\"Sherry\",\"Golden\",44101,\"D1002\"],[6,\"Natasha\",\"Swanson\",79632,\"D1005\"],[6,\"Natasha\",\"Swanson\",90000,\"D1005\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Salary (emp_id int,firstname varchar(100),lastname varchar(100),salary int, department_id varchar(100))\"],\"mssql\":[\"Create table Salary (emp_id int,firstname varchar(100),lastname varchar(100),salary int, department_id varchar(100))\"],\"oraclesql\":[\"Create table  Salary (emp_id int,firstname varchar(100),lastname varchar(100),salary int, department_id varchar(100))\"],\"database\":true,\"name\":\"find_latest_salaries\",\"pythondata\":[\"Salary = pd.DataFrame([], columns=['emp_id', 'firstname', 'lastname', 'salary', 'department_id']).astype({'emp_id':'Int64', 'firstname':'object', 'lastname':'object', 'salary':'Int64', 'department_id':'object'})\"],\"postgresql\":[\"Create table If Not Exists Salary (emp_id int,firstname varchar(100),lastname varchar(100),salary int, department_id varchar(100))\"],\"database_schema\":{\"Salary\":{\"emp_id\":\"INT\",\"firstname\":\"VARCHAR(100)\",\"lastname\":\"VARCHAR(100)\",\"salary\":\"INT\",\"department_id\":\"VARCHAR(100)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.9K\", \"totalSubmission\": \"2.6K\", \"totalAcceptedRaw\": 1917, \"totalSubmissionRaw\": 2573, \"acRate\": \"74.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

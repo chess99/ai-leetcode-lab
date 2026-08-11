@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:16Z",
+  "source": "https://leetcode.cn/problems/maximum-number-of-potholes-that-can-be-fixed/",
+  "question": {
+    "questionId": "3425",
+    "questionFrontendId": "3119",
+    "title": "Maximum Number of Potholes That Can Be Fixed",
+    "titleSlug": "maximum-number-of-potholes-that-can-be-fixed",
+    "translatedTitle": "最大数量的可修复坑洼",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "\"..\"\n5\n\"..xxxxx\"\n4\n\"x.x.xxx...x\"\n14",
+    "sampleTestCase": "\"..\"\n5",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxPotholes\",\n  \"params\": [\n    {\n      \"name\": \"road\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"budget\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"421\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 421, \"totalSubmissionRaw\": 1616, \"acRate\": \"26.1%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

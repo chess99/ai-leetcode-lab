@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:58Z",
+  "source": "https://leetcode.cn/problems/books-with-null-ratings/",
+  "question": {
+    "questionId": "3695",
+    "questionFrontendId": "3358",
+    "title": "Books with NULL Ratings",
+    "titleSlug": "books-with-null-ratings",
+    "translatedTitle": "评分为 NULL 的图书",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"books\":[\"book_id\",\"title\",\"author\",\"published_year\",\"rating\"]},\"rows\":{\"books\":[[1,\"The Great Gatsby\",\"F. Scott\",1925,4.5],[2,\"To Kill a Mockingbird\",\"Harper Lee\",1960,null],[3,\"Pride and Prejudice\",\"Jane Austen\",1813,4.8],[4,\"The Catcher in the Rye\",\"J.D. Salinger\",1951,null],[5,\"Animal Farm\",\"George Orwell\",1945,4.2],[6,\"Lord of the Flies\",\"William Golding\",1954,null]]}}",
+    "sampleTestCase": "{\"headers\":{\"books\":[\"book_id\",\"title\",\"author\",\"published_year\",\"rating\"]},\"rows\":{\"books\":[[1,\"The Great Gatsby\",\"F. Scott\",1925,4.5],[2,\"To Kill a Mockingbird\",\"Harper Lee\",1960,null],[3,\"Pride and Prejudice\",\"Jane Austen\",1813,4.8],[4,\"The Catcher in the Rye\",\"J.D. Salinger\",1951,null],[5,\"Animal Farm\",\"George Orwell\",1945,4.2],[6,\"Lord of the Flies\",\"William Golding\",1954,null]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table books (\\n    book_id int,\\n    title varchar(255),\\n    author varchar(100),\\n    published_year int,\\n    rating decimal(3,1)\\n)\"],\"mssql\":[\"Create table books (\\n    book_id int,\\n    title varchar(255),\\n    author varchar(100),\\n    published_year int,\\n    rating decimal(3,1)\\n)\"],\"oraclesql\":[\"Create table books (\\n    book_id number,\\n    title varchar2(255),\\n    author varchar2(100),\\n    published_year number,\\n    rating number(3,1)\\n)\"],\"database\":true,\"name\":\"find_unrated_books\",\"postgresql\":[\"CREATE TABLE books (\\n    book_id INTEGER,\\n    title VARCHAR(255),\\n    author VARCHAR(100),\\n    published_year INTEGER,\\n    rating NUMERIC(3, 1)\\n);\\n\"],\"pythondata\":[\"books = pd.DataFrame({ \\\"book_id\\\": pd.Series(dtype=\\\"int\\\"), \\\"title\\\": pd.Series(dtype=\\\"str\\\"), \\\"author\\\": pd.Series(dtype=\\\"str\\\"), \\\"published_year\\\": pd.Series(dtype=\\\"int\\\"), \\\"rating\\\": pd.Series(dtype=\\\"float\\\") })\\n\"],\"database_schema\":{\"books\":{\"book_id\":\"INT\",\"title\":\"VARCHAR(255)\",\"author\":\"VARCHAR(100)\",\"published_year\":\"INT\",\"rating\":\"DECIMAL(3, 1)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"824\", \"totalSubmission\": \"984\", \"totalAcceptedRaw\": 824, \"totalSubmissionRaw\": 984, \"acRate\": \"83.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

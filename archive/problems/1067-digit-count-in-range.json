@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:28Z",
+  "source": "https://leetcode.cn/problems/digit-count-in-range/",
+  "question": {
+    "questionId": "1068",
+    "questionFrontendId": "1067",
+    "title": "Digit Count in Range",
+    "titleSlug": "digit-count-in-range",
+    "translatedTitle": "范围内的数字计数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 33,
+    "dislikes": 0,
+    "exampleTestcases": "1\n1\n13\n3\n100\n250",
+    "sampleTestCase": "1\n1\n13",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"digitsCount\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"d\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"low\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"high\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.7K\", \"totalSubmission\": \"5.5K\", \"totalAcceptedRaw\": 2714, \"totalSubmissionRaw\": 5505, \"acRate\": \"49.3%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

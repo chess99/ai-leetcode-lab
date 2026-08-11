@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:56Z",
+  "source": "https://leetcode.cn/problems/get-kth-magic-number-lcci/",
+  "question": {
+    "questionId": "1000037",
+    "questionFrontendId": "面试题 17.09",
+    "title": "Get Kth Magic Number LCCI",
+    "titleSlug": "get-kth-magic-number-lcci",
+    "translatedTitle": "第 k 个数",
+    "content": "<p>Design an algorithm to find the kth number such that the only prime factors are 3, 5, and 7. Note that 3, 5, and 7 do not have to be factors, but it should not have any other prime factors. For example, the first several multiples would be (in order) 1, 3, 5, 7, 9, 15, 21.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>k = 5\r\n\r\n<strong>Output: </strong>9\r\n</pre>\r\n",
+    "translatedContent": "<p>有些数的素因子只有 3，5，7，请设计一个算法找出第 k 个数。注意，不是必须有这些素因子，而是必须不包含其他的素因子。例如，前几个数按顺序应该是 1，3，5，7，9，15，21。</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>k = 5\n<strong>输出：</strong>9\n</pre>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 260,
+    "dislikes": 0,
+    "exampleTestcases": "1",
+    "sampleTestCase": "1",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"getKthMagicNumber\", \"params\": [{\"name\": \"k\", \"type\": \"integer\"}], \"return\": {\"type\": \"integer\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int getKthMagicNumber(int k) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int getKthMagicNumber(int k) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def getKthMagicNumber(self, k: int) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def getKthMagicNumber(self, k):\n        \"\"\"\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number} k\n * @return {number}\n */\nvar getKthMagicNumber = function(k) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function getKthMagicNumber(k: number): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int GetKthMagicNumber(int k) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int getKthMagicNumber(int k) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func getKthMagicNumber(k int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun getKthMagicNumber(k: Int): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func getKthMagicNumber(_ k: Int) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn get_kth_magic_number(k: i32) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer} k\n# @return {Integer}\ndef get_kth_magic_number(k)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer $k\n     * @return Integer\n     */\n    function getKthMagicNumber($k) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int getKthMagicNumber(int k) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def getKthMagicNumber(k: Int): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec get_kth_magic_number(k :: integer) :: integer\n  def get_kth_magic_number(k) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec get_kth_magic_number(K :: integer()) -> integer().\nget_kth_magic_number(K) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (get-kth-magic-number k)\n  (-> exact-integer? exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func getKthMagicNumber(k: Int64): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"51.9K\", \"totalSubmission\": \"93.8K\", \"totalAcceptedRaw\": 51899, \"totalSubmissionRaw\": 93784, \"acRate\": \"55.3%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

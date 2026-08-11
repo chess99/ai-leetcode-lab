@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:29Z",
+  "source": "https://leetcode.cn/problems/rearrange-string-k-distance-apart/",
+  "question": {
+    "questionId": "358",
+    "questionFrontendId": "358",
+    "title": "Rearrange String k Distance Apart",
+    "titleSlug": "rearrange-string-k-distance-apart",
+    "translatedTitle": "K 距离间隔重排字符串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 143,
+    "dislikes": 0,
+    "exampleTestcases": "\"aabbcc\"\n3\n\"aaabc\"\n3\n\"aaadbbcc\"\n2",
+    "sampleTestCase": "\"aabbcc\"\n3",
+    "enableRunCode": true,
+    "metaData": "{ \r\n  \"name\": \"rearrangeString\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"9K\", \"totalSubmission\": \"23.2K\", \"totalAcceptedRaw\": 9049, \"totalSubmissionRaw\": 23164, \"acRate\": \"39.1%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

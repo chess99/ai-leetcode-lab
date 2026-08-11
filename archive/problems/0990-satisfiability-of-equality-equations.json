@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:13Z",
+  "source": "https://leetcode.cn/problems/satisfiability-of-equality-equations/",
+  "question": {
+    "questionId": "1032",
+    "questionFrontendId": "990",
+    "title": "Satisfiability of Equality Equations",
+    "titleSlug": "satisfiability-of-equality-equations",
+    "translatedTitle": "等式方程的可满足性",
+    "content": "<p>You are given an array of strings <code>equations</code> that represent relationships between variables where each string <code>equations[i]</code> is of length <code>4</code> and takes one of two different forms: <code>&quot;x<sub>i</sub>==y<sub>i</sub>&quot;</code> or <code>&quot;x<sub>i</sub>!=y<sub>i</sub>&quot;</code>.Here, <code>x<sub>i</sub></code> and <code>y<sub>i</sub></code> are lowercase letters (not necessarily different) that represent one-letter variable names.</p>\n\n<p>Return <code>true</code><em> if it is possible to assign integers to variable names so as to satisfy all the given equations, or </em><code>false</code><em> otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> equations = [&quot;a==b&quot;,&quot;b!=a&quot;]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> If we assign say, a = 1 and b = 1, then the first equation is satisfied, but not the second.\nThere is no way to assign the variables to satisfy both equations.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> equations = [&quot;b==a&quot;,&quot;a==b&quot;]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> We could assign a = 1 and b = 1 to satisfy both equations.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= equations.length &lt;= 500</code></li>\n\t<li><code>equations[i].length == 4</code></li>\n\t<li><code>equations[i][0]</code> is a lowercase letter.</li>\n\t<li><code>equations[i][1]</code> is either <code>&#39;=&#39;</code> or <code>&#39;!&#39;</code>.</li>\n\t<li><code>equations[i][2]</code> is <code>&#39;=&#39;</code>.</li>\n\t<li><code>equations[i][3]</code> is a lowercase letter.</li>\n</ul>\n",
+    "translatedContent": "<p>给定一个由表示变量之间关系的字符串方程组成的数组，每个字符串方程 <code>equations[i]</code> 的长度为 <code>4</code>，并采用两种不同的形式之一：<code>&quot;a==b&quot;</code> 或&nbsp;<code>&quot;a!=b&quot;</code>。在这里，a 和 b 是小写字母（不一定不同），表示单字母变量名。</p>\n\n<p>只有当可以将整数分配给变量名，以便满足所有给定的方程时才返回&nbsp;<code>true</code>，否则返回 <code>false</code>。&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<ol>\n</ol>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入：</strong>[&quot;a==b&quot;,&quot;b!=a&quot;]\n<strong>输出：</strong>false\n<strong>解释：</strong>如果我们指定，a = 1 且 b = 1，那么可以满足第一个方程，但无法满足第二个方程。没有办法分配变量同时满足这两个方程。\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><strong>输入：</strong>[&quot;b==a&quot;,&quot;a==b&quot;]\n<strong>输出：</strong>true\n<strong>解释：</strong>我们可以指定 a = 1 且 b = 1 以满足满足这两个方程。\n</pre>\n\n<p><strong>示例 3：</strong></p>\n\n<pre><strong>输入：</strong>[&quot;a==b&quot;,&quot;b==c&quot;,&quot;a==c&quot;]\n<strong>输出：</strong>true\n</pre>\n\n<p><strong>示例 4：</strong></p>\n\n<pre><strong>输入：</strong>[&quot;a==b&quot;,&quot;b!=c&quot;,&quot;c==a&quot;]\n<strong>输出：</strong>false\n</pre>\n\n<p><strong>示例 5：</strong></p>\n\n<pre><strong>输入：</strong>[&quot;c==c&quot;,&quot;b==d&quot;,&quot;x!=z&quot;]\n<strong>输出：</strong>true\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ol>\n\t<li><code>1 &lt;= equations.length &lt;= 500</code></li>\n\t<li><code>equations[i].length == 4</code></li>\n\t<li><code>equations[i][0]</code> 和&nbsp;<code>equations[i][3]</code>&nbsp;是小写字母</li>\n\t<li><code>equations[i][1]</code> 要么是&nbsp;<code>&#39;=&#39;</code>，要么是&nbsp;<code>&#39;!&#39;</code></li>\n\t<li><code>equations[i][2]</code>&nbsp;是&nbsp;<code>&#39;=&#39;</code></li>\n</ol>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 366,
+    "dislikes": 0,
+    "exampleTestcases": "[\"a==b\",\"b!=a\"]\n[\"b==a\",\"a==b\"]",
+    "sampleTestCase": "[\"a==b\",\"b!=a\"]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"equationsPossible\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"equations\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    bool equationsPossible(vector<string>& equations) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public boolean equationsPossible(String[] equations) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def equationsPossible(self, equations: List[str]) -> bool:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def equationsPossible(self, equations):\n        \"\"\"\n        :type equations: List[str]\n        :rtype: bool\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string[]} equations\n * @return {boolean}\n */\nvar equationsPossible = function(equations) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function equationsPossible(equations: string[]): boolean {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public bool EquationsPossible(string[] equations) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "bool equationsPossible(char** equations, int equationsSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func equationsPossible(equations []string) bool {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun equationsPossible(equations: Array<String>): Boolean {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func equationsPossible(_ equations: [String]) -> Bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn equations_possible(equations: Vec<String>) -> bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String[]} equations\n# @return {Boolean}\ndef equations_possible(equations)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String[] $equations\n     * @return Boolean\n     */\n    function equationsPossible($equations) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  bool equationsPossible(List<String> equations) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def equationsPossible(equations: Array[String]): Boolean = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec equations_possible(equations :: [String.t]) :: boolean\n  def equations_possible(equations) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec equations_possible(Equations :: [unicode:unicode_binary()]) -> boolean().\nequations_possible(Equations) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (equations-possible equations)\n  (-> (listof string?) boolean?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func equationsPossible(equations: Array<String>): Bool {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"72.4K\", \"totalSubmission\": \"132.6K\", \"totalAcceptedRaw\": 72422, \"totalSubmissionRaw\": 132626, \"acRate\": \"54.6%\"}",
+    "topicTags": [
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

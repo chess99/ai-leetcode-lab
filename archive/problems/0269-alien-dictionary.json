@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:14Z",
+  "source": "https://leetcode.cn/problems/alien-dictionary/",
+  "question": {
+    "questionId": "269",
+    "questionFrontendId": "269",
+    "title": "Alien Dictionary",
+    "titleSlug": "alien-dictionary",
+    "translatedTitle": "火星词典",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 347,
+    "dislikes": 0,
+    "exampleTestcases": "[\"wrt\",\"wrf\",\"er\",\"ett\",\"rftt\"]\n[\"z\",\"x\"]\n[\"z\",\"x\",\"z\"]",
+    "sampleTestCase": "[\"wrt\",\"wrf\",\"er\",\"ett\",\"rftt\"]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"alienOrder\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"17.7K\", \"totalSubmission\": \"46.2K\", \"totalAcceptedRaw\": 17676, \"totalSubmissionRaw\": 46205, \"acRate\": \"38.3%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Topological Sort",
+        "slug": "topological-sort",
+        "translatedName": "拓扑排序"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "有向无环图",
+        "slug": "directed-acyclic-graph",
+        "translatedName": null
+      }
+    ]
+  }
+}

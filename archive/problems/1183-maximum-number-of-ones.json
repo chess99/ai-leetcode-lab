@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:48Z",
+  "source": "https://leetcode.cn/problems/maximum-number-of-ones/",
+  "question": {
+    "questionId": "1152",
+    "questionFrontendId": "1183",
+    "title": "Maximum Number of Ones",
+    "titleSlug": "maximum-number-of-ones",
+    "translatedTitle": "矩阵中 1 的最大数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 51,
+    "dislikes": 0,
+    "exampleTestcases": "3\n3\n2\n1\n3\n3\n2\n2",
+    "sampleTestCase": "3\n3\n2\n1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maximumNumberOfOnes\",\n  \"params\": [\n    {\n      \"name\": \"width\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"height\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"sideLength\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"maxOnes\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"3.3K\", \"totalAcceptedRaw\": 2034, \"totalSubmissionRaw\": 3276, \"acRate\": \"62.1%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

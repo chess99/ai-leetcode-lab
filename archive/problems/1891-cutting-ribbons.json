@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:48Z",
+  "source": "https://leetcode.cn/problems/cutting-ribbons/",
+  "question": {
+    "questionId": "2045",
+    "questionFrontendId": "1891",
+    "title": "Cutting Ribbons",
+    "titleSlug": "cutting-ribbons",
+    "translatedTitle": "割绳子",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 38,
+    "dislikes": 0,
+    "exampleTestcases": "[9,7,5]\n3\n[7,5,9]\n4\n[5,7,9]\n22",
+    "sampleTestCase": "[9,7,5]\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxLength\",\n  \"params\": [\n    {\n      \"name\": \"ribbons\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.6K\", \"totalSubmission\": \"12.6K\", \"totalAcceptedRaw\": 5605, \"totalSubmissionRaw\": 12556, \"acRate\": \"44.6%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      }
+    ]
+  }
+}

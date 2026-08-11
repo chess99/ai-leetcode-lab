@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:53Z",
+  "source": "https://leetcode.cn/problems/color-the-triangle-red/",
+  "question": {
+    "questionId": "2540",
+    "questionFrontendId": "2647",
+    "title": "Color the Triangle Red",
+    "titleSlug": "color-the-triangle-red",
+    "translatedTitle": "把三角形染成红色",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "3\n2",
+    "sampleTestCase": "3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"colorRed\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[][]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"193\", \"totalSubmission\": \"447\", \"totalAcceptedRaw\": 193, \"totalSubmissionRaw\": 447, \"acRate\": \"43.2%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

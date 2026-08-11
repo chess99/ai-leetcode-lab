@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:51Z",
+  "source": "https://leetcode.cn/problems/sorted-matrix-search-lcci/",
+  "question": {
+    "questionId": "1000016",
+    "questionFrontendId": "面试题 10.09",
+    "title": "Sorted Matrix Search LCCI",
+    "titleSlug": "sorted-matrix-search-lcci",
+    "translatedTitle": "排序矩阵查找",
+    "content": "<p>Given an M x N matrix in which each row and each column is sorted in ascending order, write a method to find an element.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<p>Given matrix:</p>\r\n\r\n<pre>\r\n[\r\n  [1,   4,  7, 11, 15],\r\n  [2,   5,  8, 12, 19],\r\n  [3,   6,  9, 16, 22],\r\n  [10, 13, 14, 17, 24],\r\n  [18, 21, 23, 26, 30]\r\n]\r\n</pre>\r\n\r\n<p>Given target&nbsp;=&nbsp;5,&nbsp;return&nbsp;<code>true.</code></p>\r\n\r\n<p>Given target&nbsp;=&nbsp;20, return&nbsp;<code>false.</code></p>\r\n",
+    "translatedContent": "<p>给定 M×N 矩阵，每一行、每一列都按升序排列，请编写代码找出某元素。</p>\n\n<p><strong>示例：</strong></p>\n\n<p>现有矩阵 matrix 如下：</p>\n\n<pre>\n[\n  [1,   4,  7, 11, 15],\n  [2,   5,  8, 12, 19],\n  [3,   6,  9, 16, 22],\n  [10, 13, 14, 17, 24],\n  [18, 21, 23, 26, 30]\n]\n</pre>\n\n<p>给定 target&nbsp;=&nbsp;<code>5</code>，返回&nbsp;<code>true</code>。</p>\n\n<p>给定&nbsp;target&nbsp;=&nbsp;<code>20</code>，返回&nbsp;<code>false</code>。</p>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 70,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]]\n5",
+    "sampleTestCase": "[[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]]\n5",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"searchMatrix\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"matrix\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  },\r\n  \"manual\": true\r\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    bool searchMatrix(vector<vector<int>>& matrix, int target) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public boolean searchMatrix(int[][] matrix, int target) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def searchMatrix(self, matrix, target):\n        \"\"\"\n        :type matrix: List[List[int]]\n        :type target: int\n        :rtype: bool\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[][]} matrix\n * @param {number} target\n * @return {boolean}\n */\nvar searchMatrix = function(matrix, target) {\n\n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public bool SearchMatrix(int[][] matrix, int target) {\n\n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "bool searchMatrix(int** matrix, int matrixSize, int matrixColSize, int target){\n\n}\n"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func searchMatrix(matrix [][]int, target int) bool {\n\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[][]} matrix\n# @param {Integer} target\n# @return {Boolean}\ndef search_matrix(matrix, target)\n\nend"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"27.2K\", \"totalSubmission\": \"61.1K\", \"totalAcceptedRaw\": 27151, \"totalSubmissionRaw\": 61131, \"acRate\": \"44.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Divide and Conquer",
+        "slug": "divide-and-conquer",
+        "translatedName": "分治"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

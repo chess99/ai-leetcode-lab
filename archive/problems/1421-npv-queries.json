@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:26Z",
+  "source": "https://leetcode.cn/problems/npv-queries/",
+  "question": {
+    "questionId": "1551",
+    "questionFrontendId": "1421",
+    "title": "NPV Queries",
+    "titleSlug": "npv-queries",
+    "translatedTitle": "净现值查询",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 13,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"NPV\":[\"id\",\"year\",\"npv\"],\"Queries\":[\"id\",\"year\"]},\"rows\":{\"NPV\":[[1,2018,100],[7,2020,30],[13,2019,40],[1,2019,113],[2,2008,121],[3,2009,21],[11,2020,99],[7,2019,0]],\"Queries\":[[1,2019],[2,2008],[3,2009],[7,2018],[7,2019],[7,2020],[13,2019]]}}",
+    "sampleTestCase": "{\"headers\":{\"NPV\":[\"id\",\"year\",\"npv\"],\"Queries\":[\"id\",\"year\"]},\"rows\":{\"NPV\":[[1,2018,100],[7,2020,30],[13,2019,40],[1,2019,113],[2,2008,121],[3,2009,21],[11,2020,99],[7,2019,0]],\"Queries\":[[1,2019],[2,2008],[3,2009],[7,2018],[7,2019],[7,2020],[13,2019]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create Table If Not Exists NPV (id int, year int, npv int)\",\"Create Table If Not Exists Queries (id int, year int)\"],\"mssql\":[\"Create Table NPV (id int, year int, npv int)\",\"Create Table Queries (id int, year int)\"],\"oraclesql\":[\"Create Table NPV (id int, year int, npv int)\",\"Create Table Queries (id int, year int)\"],\"database\":true,\"name\":\"npv_queries\",\"pythondata\":[\"NPV = pd.DataFrame([], columns=['id', 'year', 'npv']).astype({'id':'Int64', 'year':'Int64', 'npv':'Int64'})\",\"Queries = pd.DataFrame([], columns=['id', 'year']).astype({'id':'Int64', 'year':'Int64'})\\n\"],\"postgresql\":[\"\\nCreate Table If Not Exists NPV (id int, year int, npv int)\\n\",\"Create Table If Not Exists Queries (id int, year int)\"],\"database_schema\":{\"NPV\":{\"id\":\"INT\",\"year\":\"INT\",\"npv\":\"INT\"},\"Queries\":{\"id\":\"INT\",\"year\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"8.5K\", \"totalSubmission\": \"11.6K\", \"totalAcceptedRaw\": 8459, \"totalSubmissionRaw\": 11606, \"acRate\": \"72.9%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

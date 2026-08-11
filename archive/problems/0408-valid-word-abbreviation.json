@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:37Z",
+  "source": "https://leetcode.cn/problems/valid-word-abbreviation/",
+  "question": {
+    "questionId": "408",
+    "questionFrontendId": "408",
+    "title": "Valid Word Abbreviation",
+    "titleSlug": "valid-word-abbreviation",
+    "translatedTitle": "有效单词缩写",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 87,
+    "dislikes": 0,
+    "exampleTestcases": "\"internationalization\"\n\"i12iz4n\"\n\"apple\"\n\"a2e\"",
+    "sampleTestCase": "\"internationalization\"\n\"i12iz4n\"",
+    "enableRunCode": true,
+    "metaData": "{ \r\n  \"name\": \"validWordAbbreviation\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"word\",\r\n      \"type\": \"string\"\r\n    },\r\n    { \r\n      \"name\": \"abbr\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"9.8K\", \"totalSubmission\": \"26.3K\", \"totalAcceptedRaw\": 9773, \"totalSubmissionRaw\": 26317, \"acRate\": \"37.1%\"}",
+    "topicTags": [
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

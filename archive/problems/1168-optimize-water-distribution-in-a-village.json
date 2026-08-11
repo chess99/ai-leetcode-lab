@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:45Z",
+  "source": "https://leetcode.cn/problems/optimize-water-distribution-in-a-village/",
+  "question": {
+    "questionId": "1144",
+    "questionFrontendId": "1168",
+    "title": "Optimize Water Distribution in a Village",
+    "titleSlug": "optimize-water-distribution-in-a-village",
+    "translatedTitle": "水资源分配优化",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 113,
+    "dislikes": 0,
+    "exampleTestcases": "3\n[1,2,2]\n[[1,2,1],[2,3,1]]\n2\n[1,1]\n[[1,2,1],[1,2,2]]",
+    "sampleTestCase": "3\n[1,2,2]\n[[1,2,1],[2,3,1]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minCostToSupplyWater\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"wells\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"pipes\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.9K\", \"totalSubmission\": \"7.5K\", \"totalAcceptedRaw\": 4852, \"totalSubmissionRaw\": 7469, \"acRate\": \"65.0%\"}",
+    "topicTags": [
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Kruskal 算法",
+        "slug": "kruskals-algorithm",
+        "translatedName": null
+      },
+      {
+        "name": "Minimum Spanning Tree",
+        "slug": "minimum-spanning-tree",
+        "translatedName": "最小生成树"
+      },
+      {
+        "name": "Prim 算法",
+        "slug": "prims-algorithm",
+        "translatedName": null
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      },
+      {
+        "name": "Boruvka 算法",
+        "slug": "boruvkas-algorithm",
+        "translatedName": null
+      }
+    ]
+  }
+}

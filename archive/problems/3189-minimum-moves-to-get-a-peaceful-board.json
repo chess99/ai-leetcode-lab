@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:29Z",
+  "source": "https://leetcode.cn/problems/minimum-moves-to-get-a-peaceful-board/",
+  "question": {
+    "questionId": "3504",
+    "questionFrontendId": "3189",
+    "title": "Minimum Moves to Get a Peaceful Board",
+    "titleSlug": "minimum-moves-to-get-a-peaceful-board",
+    "translatedTitle": "得到一个和平棋盘的最少步骤",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,0],[1,0],[1,1]]\n[[0,0],[0,1],[0,2],[0,3]]",
+    "sampleTestCase": "[[0,0],[1,0],[1,1]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minMoves\",\n  \"params\": [\n    {\n      \"name\": \"rooks\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"211\", \"totalSubmission\": \"1K\", \"totalAcceptedRaw\": 211, \"totalSubmissionRaw\": 1020, \"acRate\": \"20.7%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Counting Sort",
+        "slug": "counting-sort",
+        "translatedName": "计数排序"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

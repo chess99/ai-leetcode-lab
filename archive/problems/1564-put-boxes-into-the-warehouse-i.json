@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:51Z",
+  "source": "https://leetcode.cn/problems/put-boxes-into-the-warehouse-i/",
+  "question": {
+    "questionId": "1703",
+    "questionFrontendId": "1564",
+    "title": "Put Boxes Into the Warehouse I",
+    "titleSlug": "put-boxes-into-the-warehouse-i",
+    "translatedTitle": "把箱子放进仓库里 I",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 18,
+    "dislikes": 0,
+    "exampleTestcases": "[4,3,4,1]\n[5,3,3,4,1]\n[1,2,2,3,4]\n[3,4,1,2]\n[1,2,3]\n[1,2,3,4]",
+    "sampleTestCase": "[4,3,4,1]\n[5,3,3,4,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxBoxesInWarehouse\",\n  \"params\": [\n    {\n      \"name\": \"boxes\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"warehouse\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"3.4K\", \"totalAcceptedRaw\": 2032, \"totalSubmissionRaw\": 3367, \"acRate\": \"60.4%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

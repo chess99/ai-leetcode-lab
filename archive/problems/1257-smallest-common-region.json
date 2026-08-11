@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:59Z",
+  "source": "https://leetcode.cn/problems/smallest-common-region/",
+  "question": {
+    "questionId": "1190",
+    "questionFrontendId": "1257",
+    "title": "Smallest Common Region",
+    "titleSlug": "smallest-common-region",
+    "translatedTitle": "最小公共区域",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 62,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"Earth\",\"North America\",\"South America\"],[\"North America\",\"United States\",\"Canada\"],[\"United States\",\"New York\",\"Boston\"],[\"Canada\",\"Ontario\",\"Quebec\"],[\"South America\",\"Brazil\"]]\n\"Quebec\"\n\"New York\"\n[[\"Earth\", \"North America\", \"South America\"],[\"North America\", \"United States\", \"Canada\"],[\"United States\", \"New York\", \"Boston\"],[\"Canada\", \"Ontario\", \"Quebec\"],[\"South America\", \"Brazil\"]]\n\"Canada\"\n\"South America\"",
+    "sampleTestCase": "[[\"Earth\",\"North America\",\"South America\"],[\"North America\",\"United States\",\"Canada\"],[\"United States\",\"New York\",\"Boston\"],[\"Canada\",\"Ontario\",\"Quebec\"],[\"South America\",\"Brazil\"]]\n\"Quebec\"\n\"New York\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"findSmallestRegion\",\n  \"params\": [\n    {\n      \"name\": \"regions\",\n      \"type\": \"list<list<string>>\"\n    },\n    {\n      \"name\": \"region1\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"region2\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.9K\", \"totalSubmission\": \"6.2K\", \"totalAcceptedRaw\": 3896, \"totalSubmissionRaw\": 6228, \"acRate\": \"62.6%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "最近公共祖先",
+        "slug": "lowest-common-ancestor",
+        "translatedName": null
+      },
+      {
+        "name": "Binary Lifting",
+        "slug": "binary-lifting",
+        "translatedName": null
+      }
+    ]
+  }
+}

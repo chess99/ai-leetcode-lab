@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:59Z",
+  "source": "https://leetcode.cn/problems/design-an-array-statistics-tracker/",
+  "question": {
+    "questionId": "3710",
+    "questionFrontendId": "3369",
+    "title": "Design an Array Statistics Tracker ",
+    "titleSlug": "design-an-array-statistics-tracker",
+    "translatedTitle": "设计数组统计跟踪器",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[\"StatisticsTracker\",\"addNumber\",\"addNumber\",\"addNumber\",\"addNumber\",\"getMean\",\"getMedian\",\"getMode\",\"removeFirstAddedNumber\",\"getMode\"]\n[[],[4],[4],[2],[3],[],[],[],[],[]]\n[\"StatisticsTracker\",\"addNumber\",\"addNumber\",\"getMean\",\"removeFirstAddedNumber\",\"addNumber\",\"addNumber\",\"removeFirstAddedNumber\",\"getMedian\",\"addNumber\",\"getMode\"]\n[[],[9],[5],[],[],[5],[6],[],[],[8],[]]",
+    "sampleTestCase": "[\"StatisticsTracker\",\"addNumber\",\"addNumber\",\"addNumber\",\"addNumber\",\"getMean\",\"getMedian\",\"getMode\",\"removeFirstAddedNumber\",\"getMode\"]\n[[],[4],[4],[2],[3],[],[],[],[],[]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"StatisticsTracker\",\n  \"constructor\": {\n    \"params\": []\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"number\"\n        }\n      ],\n      \"name\": \"addNumber\",\n      \"return\": {\n        \"type\": \"void\"\n      }\n    },\n    {\n      \"params\": [],\n      \"name\": \"removeFirstAddedNumber\",\n      \"return\": {\n        \"type\": \"void\"\n      }\n    },\n    {\n      \"params\": [],\n      \"name\": \"getMean\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    },\n    {\n      \"params\": [],\n      \"name\": \"getMedian\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    },\n    {\n      \"params\": [],\n      \"name\": \"getMode\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"362\", \"totalSubmission\": \"948\", \"totalAcceptedRaw\": 362, \"totalSubmissionRaw\": 948, \"acRate\": \"38.2%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Queue",
+        "slug": "queue",
+        "translatedName": "队列"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Data Stream",
+        "slug": "data-stream",
+        "translatedName": "数据流"
+      },
+      {
+        "name": "Ordered Set",
+        "slug": "ordered-set",
+        "translatedName": "有序集合"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

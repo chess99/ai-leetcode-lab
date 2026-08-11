@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:17Z",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-repair-edges-to-traverse-a-graph/",
+  "question": {
+    "questionId": "4197",
+    "questionFrontendId": "3807",
+    "title": "Minimum Cost to Repair Edges to Traverse a Graph",
+    "titleSlug": "minimum-cost-to-repair-edges-to-traverse-a-graph",
+    "translatedTitle": "修复边以遍历图的最小成本",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "3\n[[0,1,10],[1,2,10],[0,2,100]]\n1\n6\n[[0,2,5],[2,3,6],[3,4,7],[4,5,5],[0,1,10],[1,5,12],[0,3,9],[1,2,8],[2,4,11]]\n2\n3\n[[0,1,1]]\n1",
+    "sampleTestCase": "3\n[[0,1,10],[1,2,10],[0,2,100]]\n1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minCost\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"edges\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"174\", \"totalSubmission\": \"230\", \"totalAcceptedRaw\": 174, \"totalSubmissionRaw\": 230, \"acRate\": \"75.7%\"}",
+    "topicTags": [
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:39Z",
+  "source": "https://leetcode.cn/problems/construct-string-with-minimum-cost-easy/",
+  "question": {
+    "questionId": "3480",
+    "questionFrontendId": "3253",
+    "title": "Construct String with Minimum Cost (Easy)",
+    "titleSlug": "construct-string-with-minimum-cost-easy",
+    "translatedTitle": "最小代价构造字符串（简单）",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcdef\"\n[\"abdef\",\"abc\",\"d\",\"def\",\"ef\"]\n[100,1,1,10,5]\n\"aaaa\"\n[\"z\",\"zz\",\"zzz\"]\n[1,10,100]",
+    "sampleTestCase": "\"abcdef\"\n[\"abdef\",\"abc\",\"d\",\"def\",\"ef\"]\n[100,1,1,10,5]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumCost\",\n  \"params\": [\n    {\n      \"name\": \"target\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string[]\",\n      \"name\": \"words\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"costs\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"271\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 271, \"totalSubmissionRaw\": 1274, \"acRate\": \"21.3%\"}",
+    "topicTags": []
+  }
+}

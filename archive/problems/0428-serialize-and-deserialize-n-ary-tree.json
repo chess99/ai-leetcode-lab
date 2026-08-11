@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:40Z",
+  "source": "https://leetcode.cn/problems/serialize-and-deserialize-n-ary-tree/",
+  "question": {
+    "questionId": "765",
+    "questionFrontendId": "428",
+    "title": "Serialize and Deserialize N-ary Tree",
+    "titleSlug": "serialize-and-deserialize-n-ary-tree",
+    "translatedTitle": "序列化和反序列化 N 叉树",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 138,
+    "dislikes": 0,
+    "exampleTestcases": "[1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]\n[1,null,3,2,4,null,5,6]\n[]",
+    "sampleTestCase": "[1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"CodecDriver\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"javascript\",\n    \"python3\",\n    \"golang\",\n    \"kotlin\",\n    \"ruby\",\n    \"scala\",\n    \"php\",\n    \"swift\",\n    \"typescript\"\n  ],\n  \"manual\": true, \"typescriptCustomType\" : \"class _Node {\\n    val: number\\n    children: _Node[]\\n    \\n    constructor(v: number) {\\n        this.val = v;\\n        this.children = [];\\n    }\\n}\\n\"\n\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.2K\", \"totalSubmission\": \"10.2K\", \"totalAcceptedRaw\": 7237, \"totalSubmissionRaw\": 10157, \"acRate\": \"71.3%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

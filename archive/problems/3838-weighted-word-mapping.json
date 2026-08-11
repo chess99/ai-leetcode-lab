@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:21Z",
+  "source": "https://leetcode.cn/problems/weighted-word-mapping/",
+  "question": {
+    "questionId": "4216",
+    "questionFrontendId": "3838",
+    "title": "Weighted Word Mapping",
+    "titleSlug": "weighted-word-mapping",
+    "translatedTitle": "带权单词映射",
+    "content": "<p>You are given an array of strings <code>words</code>, where each string represents a word containing lowercase English letters.</p>\n\n<p>You are also given an integer array <code>weights</code> of length 26, where <code>weights[i]</code> represents the weight of the <code>i<sup>th</sup></code> lowercase English letter.</p>\n\n<p>The <strong>weight</strong> of a word is defined as the <strong>sum</strong> of the weights of its characters.</p>\n\n<p>For each word, take its weight modulo 26 and map the result to a lowercase English letter using reverse alphabetical order (<code>0 -&gt; &#39;z&#39;, 1 -&gt; &#39;y&#39;, ..., 25 -&gt; &#39;a&#39;</code>).</p>\n\n<p>Return a string formed by concatenating the mapped characters for all words in order.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">words = [&quot;abcd&quot;,&quot;def&quot;,&quot;xyz&quot;], weights = [5,3,12,14,1,2,3,2,10,6,6,9,7,8,7,10,8,9,6,9,9,8,3,7,7,2]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">&quot;rij&quot;</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The weight of <code>&quot;abcd&quot;</code> is <code>5 + 3 + 12 + 14 = 34</code>. The result modulo 26 is <code>34 % 26 = 8</code>, which maps to <code>&#39;r&#39;</code>.</li>\n\t<li>The weight of <code>&quot;def&quot;</code> is <code>14 + 1 + 2 = 17</code>. The result modulo 26 is <code>17 % 26 = 17</code>, which maps to <code>&#39;i&#39;</code>.</li>\n\t<li>The weight of <code>&quot;xyz&quot;</code> is <code>7 + 7 + 2 = 16</code>. The result modulo 26 is <code>16 % 26 = 16</code>, which maps to <code>&#39;j&#39;</code>.</li>\n</ul>\n\n<p>Thus, the string formed by concatenating the mapped characters is <code>&quot;rij&quot;</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">words = [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;], weights = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">&quot;yyy&quot;</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Each word has weight 1. The result modulo 26 is <code>1 % 26 = 1</code>, which maps to <code>&#39;y&#39;</code>.</p>\n\n<p>Thus, the string formed by concatenating the mapped characters is <code>&quot;yyy&quot;</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">words = [&quot;abcd&quot;], weights = [7,5,3,4,3,5,4,9,4,2,2,7,10,2,5,10,6,1,2,2,4,1,3,4,4,5]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">&quot;g&quot;</span></p>\n\n<p><strong>Explanation:​​​​​​​</strong></p>\n\n<p>The weight of <code>&quot;abcd&quot;</code> is <code>7 + 5 + 3 + 4 = 19</code>. The result modulo 26 is <code>19 % 26 = 19</code>, which maps to <code>&#39;g&#39;</code>.</p>\n\n<p>Thus, the string formed by concatenating the mapped characters is <code>&quot;g&quot;</code>.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 10</code></li>\n\t<li><code>weights.length == 26</code></li>\n\t<li><code>1 &lt;= weights[i] &lt;= 100</code></li>\n\t<li><code>words[i]</code> consists of lowercase English letters.</li>\n</ul>\n",
+    "translatedContent": "<p>给你一个字符串数组 <code>words</code>，其中每个字符串表示一个由小写英文字母组成的单词。</p>\n\n<p>同时给你一个长度为 26 的整数数组 <code>weights</code>，其中 <code>weights[i]</code> 表示第 <code>i</code> 个小写英文字母的权重。</p>\n\n<p>单词的 <strong>权重</strong> 定义为其所有字符权重的 <strong>总和</strong>。</p>\n\n<p>对于每个单词，将其权重对 26 取模，并将结果按字母倒序映射到一个小写英文字母（<code>0 -&gt; 'z', 1 -&gt; 'y', ..., 25 -&gt; 'a'</code>）。</p>\n\n<p>返回一个由所有单词映射后的字符按顺序连接而成的字符串。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">words = [\"abcd\",\"def\",\"xyz\"], weights = [5,3,12,14,1,2,3,2,10,6,6,9,7,8,7,10,8,9,6,9,9,8,3,7,7,2]</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">\"rij\"</span></p>\n\n<p><strong>解释：</strong></p>\n\n<ul>\n\t<li><code>\"abcd\"</code> 的权重是 <code>5 + 3 + 12 + 14 = 34</code>。对 26 取模的结果是 <code>34 % 26 = 8</code>，映射为 <code>'r'</code>。</li>\n\t<li><code>\"def\"</code> 的权重是 <code>14 + 1 + 2 = 17</code>。对 26 取模的结果是 <code>17 % 26 = 17</code>，映射为 <code>'i'</code>。</li>\n\t<li><code>\"xyz\"</code> 的权重是 <code>7 + 7 + 2 = 16</code>。对&nbsp;26 取模的结果是 <code>16 % 26 = 16</code>，映射为 <code>'j'</code>。</li>\n</ul>\n\n<p>因此，连接映射字符后形成的字符串是 <code>\"rij\"</code>。</p>\n</div>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">words = [\"a\",\"b\",\"c\"], weights = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">\"yyy\"</span></p>\n\n<p><strong>解释：</strong></p>\n\n<p>每个单词的权重均为 1。对 26 取模的结果是 <code>1 % 26 = 1</code>，映射为 <code>'y'</code>。</p>\n\n<p>因此，连接映射字符后形成的字符串是 <code>\"yyy\"</code>。</p>\n</div>\n\n<p><strong class=\"example\">示例 3：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">words = [\"abcd\"], weights = [7,5,3,4,3,5,4,9,4,2,2,7,10,2,5,10,6,1,2,2,4,1,3,4,4,5]</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">\"g\"</span></p>\n\n<p><strong>解释：</strong></p>\n\n<p><code>\"abcd\"</code> 的权重是 <code>7 + 5 + 3 + 4 = 19</code>。对 26 取模的结果是 <code>19 % 26 = 19</code>，映射为 <code>'g'</code>。</p>\n\n<p>因此，连接映射字符后形成的字符串是 <code>\"g\"</code>。</p>\n</div>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 10</code></li>\n\t<li><code>weights.length == 26</code></li>\n\t<li><code>1 &lt;= weights[i] &lt;= 100</code></li>\n\t<li><code>words[i]</code> 仅由小写英文字母组成。</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 8,
+    "dislikes": 0,
+    "exampleTestcases": "[\"abcd\",\"def\",\"xyz\"]\n[5,3,12,14,1,2,3,2,10,6,6,9,7,8,7,10,8,9,6,9,9,8,3,7,7,2]\n[\"a\",\"b\",\"c\"]\n[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]\n[\"abcd\"]\n[7,5,3,4,3,5,4,9,4,2,2,7,10,2,5,10,6,1,2,2,4,1,3,4,4,5]",
+    "sampleTestCase": "[\"abcd\",\"def\",\"xyz\"]\n[5,3,12,14,1,2,3,2,10,6,6,9,7,8,7,10,8,9,6,9,9,8,3,7,7,2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"mapWordWeights\",\n  \"params\": [\n    {\n      \"name\": \"words\",\n      \"type\": \"string[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"weights\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    string mapWordWeights(vector<string>& words, vector<int>& weights) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public String mapWordWeights(String[] words, int[] weights) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def mapWordWeights(self, words: List[str], weights: List[int]) -> str:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def mapWordWeights(self, words, weights):\n        \"\"\"\n        :type words: List[str]\n        :type weights: List[int]\n        :rtype: str\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string[]} words\n * @param {number[]} weights\n * @return {string}\n */\nvar mapWordWeights = function(words, weights) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function mapWordWeights(words: string[], weights: number[]): string {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public string MapWordWeights(string[] words, int[] weights) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "char* mapWordWeights(char** words, int wordsSize, int* weights, int weightsSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func mapWordWeights(words []string, weights []int) string {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun mapWordWeights(words: Array<String>, weights: IntArray): String {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func mapWordWeights(_ words: [String], _ weights: [Int]) -> String {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn map_word_weights(words: Vec<String>, weights: Vec<i32>) -> String {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String[]} words\n# @param {Integer[]} weights\n# @return {String}\ndef map_word_weights(words, weights)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String[] $words\n     * @param Integer[] $weights\n     * @return String\n     */\n    function mapWordWeights($words, $weights) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  String mapWordWeights(List<String> words, List<int> weights) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def mapWordWeights(words: Array[String], weights: Array[Int]): String = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec map_word_weights(words :: [String.t], weights :: [integer]) :: String.t\n  def map_word_weights(words, weights) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec map_word_weights(Words :: [unicode:unicode_binary()], Weights :: [integer()]) -> unicode:unicode_binary().\nmap_word_weights(Words, Weights) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (map-word-weights words weights)\n  (-> (listof string?) (listof exact-integer?) string?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func mapWordWeights(words: Array<String>, weights: Array<Int64>): String {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"9.7K\", \"totalSubmission\": \"10.6K\", \"totalAcceptedRaw\": 9699, \"totalSubmissionRaw\": 10611, \"acRate\": \"91.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

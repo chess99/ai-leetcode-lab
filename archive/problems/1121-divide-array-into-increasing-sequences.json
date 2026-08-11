@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:37Z",
+  "source": "https://leetcode.cn/problems/divide-array-into-increasing-sequences/",
+  "question": {
+    "questionId": "1118",
+    "questionFrontendId": "1121",
+    "title": "Divide Array Into Increasing Sequences",
+    "titleSlug": "divide-array-into-increasing-sequences",
+    "translatedTitle": "将数组分成几个递增序列",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 33,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,2,3,3,4,4]\n3\n[5,6,6,7,8]\n3",
+    "sampleTestCase": "[1,2,2,3,3,4,4]\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"canDivideIntoSubsequences\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"k\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.2K\", \"totalSubmission\": \"3.6K\", \"totalAcceptedRaw\": 2210, \"totalSubmissionRaw\": 3556, \"acRate\": \"62.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      }
+    ]
+  }
+}

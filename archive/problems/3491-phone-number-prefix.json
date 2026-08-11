@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:22Z",
+  "source": "https://leetcode.cn/problems/phone-number-prefix/",
+  "question": {
+    "questionId": "3836",
+    "questionFrontendId": "3491",
+    "title": "Phone Number Prefix",
+    "titleSlug": "phone-number-prefix",
+    "translatedTitle": "电话号码前缀",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[\"1\",\"2\",\"4\",\"3\"]\n[\"001\",\"007\",\"15\",\"00153\"]",
+    "sampleTestCase": "[\"1\",\"2\",\"4\",\"3\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"phonePrefix\",\n  \"params\": [\n    {\n      \"name\": \"numbers\",\n      \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"342\", \"totalSubmission\": \"428\", \"totalAcceptedRaw\": 342, \"totalSubmissionRaw\": 428, \"acRate\": \"79.9%\"}",
+    "topicTags": [
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

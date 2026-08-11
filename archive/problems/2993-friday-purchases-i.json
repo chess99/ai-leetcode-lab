@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:55Z",
+  "source": "https://leetcode.cn/problems/friday-purchases-i/",
+  "question": {
+    "questionId": "3300",
+    "questionFrontendId": "2993",
+    "title": "Friday Purchases I",
+    "titleSlug": "friday-purchases-i",
+    "translatedTitle": "发生在周五的交易 I",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Purchases\":[\"user_id\",\"purchase_date\",\"amount_spend\"]},\"rows\":{\"Purchases\":[[11,\"2023-11-07\",1126],[15,\"2023-11-30\",7473],[17,\"2023-11-14\",2414],[12,\"2023-11-24\",9692],[8,\"2023-11-03\",5117],[1,\"2023-11-16\",5241],[10,\"2023-11-12\",8266],[13,\"2023-11-24\",12000]]}}",
+    "sampleTestCase": "{\"headers\":{\"Purchases\":[\"user_id\",\"purchase_date\",\"amount_spend\"]},\"rows\":{\"Purchases\":[[11,\"2023-11-07\",1126],[15,\"2023-11-30\",7473],[17,\"2023-11-14\",2414],[12,\"2023-11-24\",9692],[8,\"2023-11-03\",5117],[1,\"2023-11-16\",5241],[10,\"2023-11-12\",8266],[13,\"2023-11-24\",12000]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create Table if Not Exists Purchases( user_id int, purchase_date date, amount_spend int)\"],\"mssql\":[\"Create Table Purchases( user_id int, purchase_date date, amount_spend int)\"],\"oraclesql\":[\"Create Table  Purchases( user_id int, purchase_date date, amount_spend int)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"friday_purchases\",\"pythondata\":[\"Purchases = pd.DataFrame([], columns=['user_id', 'purchase_date', 'amount_spend']).astype({'user_id':'Int64', 'purchase_date':'datetime64[ns]', 'amount_spend':'Int64'})\\n\"],\"postgresql\":[\"Create Table if Not Exists Purchases( user_id int, purchase_date date, amount_spend int)\"],\"database_schema\":{\"Purchases\":{\"user_id\":\"INT\",\"purchase_date\":\"DATE\",\"amount_spend\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 1197, \"totalSubmissionRaw\": 1489, \"acRate\": \"80.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

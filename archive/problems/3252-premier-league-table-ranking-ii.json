@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:39Z",
+  "source": "https://leetcode.cn/problems/premier-league-table-ranking-ii/",
+  "question": {
+    "questionId": "3564",
+    "questionFrontendId": "3252",
+    "title": "Premier League Table Ranking II",
+    "titleSlug": "premier-league-table-ranking-ii",
+    "translatedTitle": "英超积分榜排名 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"TeamStats\": [\"team_id\", \"team_name\", \"matches_played\", \"wins\", \"draws\", \"losses\"]}, \"rows\": {\"TeamStats\": [[1, \"Chelsea\", 22, 13, 2, 7], [2, \"Nottingham Forest\", 27, 6, 6, 15], [3, \"Liverpool\", 17, 1, 8, 8], [4, \"Aston Villa\", 20, 1, 6, 13], [5, \"Fulham\", 31, 18, 1, 12], [6, \"Burnley\", 26, 6, 9, 11], [7, \"Newcastle United\", 33, 11, 10, 12], [8, \"Sheffield United\", 20, 18, 2, 0], [9, \"Luton Town\", 5, 4, 0, 1], [10, \"Everton\", 14, 2, 6, 6]]}}",
+    "sampleTestCase": "{\"headers\": {\"TeamStats\": [\"team_id\", \"team_name\", \"matches_played\", \"wins\", \"draws\", \"losses\"]}, \"rows\": {\"TeamStats\": [[1, \"Chelsea\", 22, 13, 2, 7], [2, \"Nottingham Forest\", 27, 6, 6, 15], [3, \"Liverpool\", 17, 1, 8, 8], [4, \"Aston Villa\", 20, 1, 6, 13], [5, \"Fulham\", 31, 18, 1, 12], [6, \"Burnley\", 26, 6, 9, 11], [7, \"Newcastle United\", 33, 11, 10, 12], [8, \"Sheffield United\", 20, 18, 2, 0], [9, \"Luton Town\", 5, 4, 0, 1], [10, \"Everton\", 14, 2, 6, 6]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists TeamStats( team_id int, team_name varchar(100),matches_played int, wins int,draws int,losses int)\"],\"mssql\":[\"Create table  TeamStats( team_id int, team_name varchar(100),matches_played int, wins int,draws int,losses int)\"],\"oraclesql\":[\"Create table  TeamStats( team_id NUMBER, team_name varchar2(100),matches_played NUMBER, wins NUMBER,draws NUMBER,losses NUMBER)\"],\"postgresql\":[\"CREATE TABLE IF NOT EXISTS TeamStats (\\n    team_id INT,\\n    team_name VARCHAR(100),\\n    matches_played INT,\\n    wins INT,\\n    draws INT,\\n    losses INT\\n);\\n\"],\"pythondata\":[\"TeamStats = pd.DataFrame(data, columns=[\\\"team_id\\\", \\\"team_name\\\", \\\"matches_played\\\", \\\"wins\\\", \\\"draws\\\", \\\"losses\\\"]).astype({\\\"team_id\\\": \\\"int\\\", \\\"team_name\\\": \\\"string\\\", \\\"matches_played\\\": \\\"int\\\", \\\"wins\\\": \\\"int\\\", \\\"draws\\\": \\\"int\\\", \\\"losses\\\": \\\"int\\\"})\\n\"],\"database\":true,\"name\":\"calculate_team_tiers\",\"database_schema\":{\"TeamStats\":{\"team_id\":\"INT\",\"team_name\":\"VARCHAR(100)\",\"matches_played\":\"INT\",\"wins\":\"INT\",\"draws\":\"INT\",\"losses\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"709\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 709, \"totalSubmissionRaw\": 1279, \"acRate\": \"55.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

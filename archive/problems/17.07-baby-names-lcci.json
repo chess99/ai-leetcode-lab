@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:56Z",
+  "source": "https://leetcode.cn/problems/baby-names-lcci/",
+  "question": {
+    "questionId": "1000035",
+    "questionFrontendId": "面试题 17.07",
+    "title": "Baby Names LCCI",
+    "titleSlug": "baby-names-lcci",
+    "translatedTitle": "婴儿名字",
+    "content": "<p>Each year, the government releases a list of the 10000 most common baby names and their frequencies (the number of babies with that name). The only problem with this is that some names have multiple spellings. For example,&quot;John&quot; and &#39;&#39;Jon&quot; are essentially the same name but would be listed separately in the list. Given two lists, one of names/frequencies and the other of pairs of equivalent names, write an algorithm to print a new list of the true frequency of each name. Note that if John and Jon are synonyms, and Jon and Johnny are synonyms, then John and Johnny are synonyms. (It is both transitive and symmetric.) In the final list, choose the name that are <strong>lexicographically smallest</strong> as the &quot;real&quot; name.</p>\r\n\r\n<p><strong>Example: </strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>names = [&quot;John(15)&quot;,&quot;Jon(12)&quot;,&quot;Chris(13)&quot;,&quot;Kris(4)&quot;,&quot;Christopher(19)&quot;], synonyms = [&quot;(Jon,John)&quot;,&quot;(John,Johnny)&quot;,&quot;(Chris,Kris)&quot;,&quot;(Chris,Christopher)&quot;]\r\n<strong>Output: </strong>[&quot;John(27)&quot;,&quot;Chris(36)&quot;]</pre>\r\n\r\n<p>Note:</p>\r\n\r\n<ul>\r\n\t<li><code>names.length &lt;= 100000</code></li>\r\n</ul>\r\n",
+    "translatedContent": "<p>每年，政府都会公布一万个最常见的婴儿名字和它们出现的频率，也就是同名婴儿的数量。有些名字有多种拼法，例如，John 和 Jon 本质上是相同的名字，但被当成了两个名字公布出来。给定两个列表，一个是名字及对应的频率，另一个是本质相同的名字对。设计一个算法打印出每个真实名字的实际频率。注意，如果 John 和 Jon 是相同的，并且 Jon 和 Johnny 相同，则 John 与 Johnny 也相同，即它们有传递和对称性。</p>\n\n<p>在结果列表中，选择<strong> 字典序最小 </strong>的名字作为真实名字。</p>\n\n<p> </p>\n\n<p><strong>示例：</strong></p>\n\n<pre>\n<strong>输入：</strong>names = [\"John(15)\",\"Jon(12)\",\"Chris(13)\",\"Kris(4)\",\"Christopher(19)\"], synonyms = [\"(Jon,John)\",\"(John,Johnny)\",\"(Chris,Kris)\",\"(Chris,Christopher)\"]\n<strong>输出：</strong>[\"John(27)\",\"Chris(36)\"]</pre>\n\n<p> </p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>names.length <= 100000</code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 79,
+    "dislikes": 0,
+    "exampleTestcases": "[\"John(15)\",\"Jon(12)\",\"Chris(13)\",\"Kris(4)\",\"Christopher(19)\"]\n[\"(Jon,John)\",\"(John,Johnny)\",\"(Chris,Kris)\",\"(Chris,Christopher)\"]",
+    "sampleTestCase": "[\"John(15)\",\"Jon(12)\",\"Chris(13)\",\"Kris(4)\",\"Christopher(19)\"]\n[\"(Jon,John)\",\"(John,Johnny)\",\"(Chris,Kris)\",\"(Chris,Christopher)\"]",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"trulyMostPopular\", \"params\": [{\"name\": \"names\", \"type\": \"string[]\"}, {\"name\": \"synonyms\", \"type\": \"string[]\"}], \"return\": {\"type\": \"string[]\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    vector<string> trulyMostPopular(vector<string>& names, vector<string>& synonyms) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public String[] trulyMostPopular(String[] names, String[] synonyms) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def trulyMostPopular(self, names: List[str], synonyms: List[str]) -> List[str]:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def trulyMostPopular(self, names, synonyms):\n        \"\"\"\n        :type names: List[str]\n        :type synonyms: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string[]} names\n * @param {string[]} synonyms\n * @return {string[]}\n */\nvar trulyMostPopular = function(names, synonyms) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function trulyMostPopular(names: string[], synonyms: string[]): string[] {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public string[] TrulyMostPopular(string[] names, string[] synonyms) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** trulyMostPopular(char** names, int namesSize, char** synonyms, int synonymsSize, int* returnSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func trulyMostPopular(names []string, synonyms []string) []string {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun trulyMostPopular(names: Array<String>, synonyms: Array<String>): Array<String> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func trulyMostPopular(_ names: [String], _ synonyms: [String]) -> [String] {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn truly_most_popular(names: Vec<String>, synonyms: Vec<String>) -> Vec<String> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String[]} names\n# @param {String[]} synonyms\n# @return {String[]}\ndef truly_most_popular(names, synonyms)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String[] $names\n     * @param String[] $synonyms\n     * @return String[]\n     */\n    function trulyMostPopular($names, $synonyms) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  List<String> trulyMostPopular(List<String> names, List<String> synonyms) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def trulyMostPopular(names: Array[String], synonyms: Array[String]): Array[String] = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec truly_most_popular(names :: [String.t], synonyms :: [String.t]) :: [String.t]\n  def truly_most_popular(names, synonyms) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec truly_most_popular(Names :: [unicode:unicode_binary()], Synonyms :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\ntruly_most_popular(Names, Synonyms) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (truly-most-popular names synonyms)\n  (-> (listof string?) (listof string?) (listof string?))\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func trulyMostPopular(names: Array<String>, synonyms: Array<String>): Array<String> {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"15.5K\", \"totalSubmission\": \"36.2K\", \"totalAcceptedRaw\": 15538, \"totalSubmissionRaw\": 36220, \"acRate\": \"42.9%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      }
+    ]
+  }
+}

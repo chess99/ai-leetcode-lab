@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:54Z",
+  "source": "https://leetcode.cn/problems/top-three-wineries/",
+  "question": {
+    "questionId": "3288",
+    "questionFrontendId": "2991",
+    "title": "Top Three Wineries ",
+    "titleSlug": "top-three-wineries",
+    "translatedTitle": "最好的三家酒庄",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Wineries\":[\"id\",\"country\",\"points\",\"winery\"]},\"rows\":{\"Wineries\":[[103,\"Australia\",84,\"WhisperingPines\"],[737,\"Australia\",85,\"GrapesGalore\"],[848,\"Australia\",100,\"HarmonyHill\"],[222,\"Hungary\",60,\"MoonlitCellars\"],[116,\"USA\",47,\"RoyalVines\"],[124,\"USA\",45,\"Eagle'sNest\"],[648,\"India\",69,\"SunsetVines\"],[894,\"USA\",39,\"RoyalVines\"],[677,\"USA\",9,\"PacificCrest\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Wineries\":[\"id\",\"country\",\"points\",\"winery\"]},\"rows\":{\"Wineries\":[[103,\"Australia\",84,\"WhisperingPines\"],[737,\"Australia\",85,\"GrapesGalore\"],[848,\"Australia\",100,\"HarmonyHill\"],[222,\"Hungary\",60,\"MoonlitCellars\"],[116,\"USA\",47,\"RoyalVines\"],[124,\"USA\",45,\"Eagle'sNest\"],[648,\"India\",69,\"SunsetVines\"],[894,\"USA\",39,\"RoyalVines\"],[677,\"USA\",9,\"PacificCrest\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if Not Exists Wineries ( id int, country varchar(60), points int, winery varchar(60))\"],\"mssql\":[\"Create table Wineries ( id int, country varchar(60), points int, winery varchar(60))\"],\"oraclesql\":[\"Create table  Wineries ( id int, country varchar(60), points int, winery varchar(60))\"],\"database\":true,\"name\":\"top_three_wineries\",\"postgresql\":[\"CREATE TABLE IF NOT EXISTS Wineries (\\n  id INT,\\n  country VARCHAR(60),\\n  points INT,\\n  winery VARCHAR(60)\\n);\"],\"pythondata\":[\"Wineries = pd.DataFrame([], columns=['id', 'country', 'points', 'winery']).astype({'id':'Int64', 'country':'object', 'points':'Int64', 'winery':'object'})\\n\"],\"database_schema\":{\"Wineries\":{\"id\":\"INT\",\"country\":\"VARCHAR(60)\",\"points\":\"INT\",\"winery\":\"VARCHAR(60)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"900\", \"totalSubmission\": \"1.8K\", \"totalAcceptedRaw\": 900, \"totalSubmissionRaw\": 1768, \"acRate\": \"50.9%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

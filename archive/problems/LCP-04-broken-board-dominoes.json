@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:53Z",
+  "source": "https://leetcode.cn/problems/broken-board-dominoes/",
+  "question": {
+    "questionId": "100093",
+    "questionFrontendId": "LCP 04",
+    "title": "Broken Board Dominoes",
+    "titleSlug": "broken-board-dominoes",
+    "translatedTitle": "覆盖",
+    "content": "<p>English description is not available for the problem. Please switch to Chinese.</p>\r\n",
+    "translatedContent": "<p>你有一块棋盘，棋盘上有一些格子已经坏掉了。你还有无穷块大小为<code>1 * 2</code>的多米诺骨牌，你想把这些骨牌<strong>不重叠</strong>地覆盖在<strong>完好</strong>的格子上，请找出你最多能在棋盘上放多少块骨牌？这些骨牌可以横着或者竖着放。</p>\n\n<p>&nbsp;</p>\n\n<p>输入：<code>n, m</code>代表棋盘的大小；<code>broken</code>是一个<code>b * 2</code>的二维数组，其中每个元素代表棋盘上每一个坏掉的格子的位置。</p>\n\n<p>输出：一个整数，代表最多能在棋盘上放的骨牌数。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入：</strong>n = 2, m = 3, broken = [[1, 0], [1, 1]]\n<strong>输出：</strong>2\n<strong>解释：</strong>我们最多可以放两块骨牌：[[0, 0], [0, 1]]以及[[0, 2], [1, 2]]。（见下图）</pre>\n\n<p><img alt=\"\" src=\"https://assets.leetcode.cn/aliyun-lc-upload/uploads/2019/09/09/domino_example_1.jpg\" style=\"height: 204px; width: 304px;\"></p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><strong>输入：</strong>n = 3, m = 3, broken = []\n<strong>输出：</strong>4\n<strong>解释：</strong>下图是其中一种可行的摆放方式\n</pre>\n\n<p><img alt=\"\" src=\"https://assets.leetcode.cn/aliyun-lc-upload/uploads/2019/09/09/domino_example_2.jpg\" style=\"height: 304px; width: 304px;\"></p>\n\n<p>&nbsp;</p>\n\n<p><strong>限制：</strong></p>\n\n<ol>\n\t<li><code>1 &lt;= n &lt;= 8</code></li>\n\t<li><code>1 &lt;= m &lt;= 8</code></li>\n\t<li><code>0 &lt;= b &lt;= n * m</code></li>\n</ol>\n",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 84,
+    "dislikes": 0,
+    "exampleTestcases": "2\n3\n[[1, 0], [1, 1]]\n3\n3\n[]",
+    "sampleTestCase": "2\n3\n[[1, 0], [1, 1]]",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"domino\", \"params\": [{\"name\": \"n\", \"type\": \"integer\"}, {\"name\": \"m\", \"type\": \"integer\"}, {\"name\": \"broken\", \"type\": \"integer[][]\"}], \"return\": {\"type\": \"integer\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int domino(int n, int m, vector<vector<int>>& broken) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int domino(int n, int m, int[][] broken) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def domino(self, n: int, m: int, broken: List[List[int]]) -> int:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def domino(self, n, m, broken):\n        \"\"\"\n        :type n: int\n        :type m: int\n        :type broken: List[List[int]]\n        :rtype: int\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number} n\n * @param {number} m\n * @param {number[][]} broken\n * @return {number}\n */\nvar domino = function(n, m, broken) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function domino(n: number, m: number, broken: number[][]): number {\n\n};"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\nint domino(int n, int m, int** broken, int brokenSize, int* brokenColSize){\n\n}\n"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func domino(n int, m int, broken [][]int) int {\n\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"5.5K\", \"totalSubmission\": \"12.7K\", \"totalAcceptedRaw\": 5541, \"totalSubmissionRaw\": 12683, \"acRate\": \"43.7%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Graph",
+        "slug": "graph",
+        "translatedName": "图"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Bitmask",
+        "slug": "bitmask",
+        "translatedName": "位掩码"
+      }
+    ]
+  }
+}

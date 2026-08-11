@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:15Z",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-separate-sentence-into-rows/",
+  "question": {
+    "questionId": "2082",
+    "questionFrontendId": "2052",
+    "title": "Minimum Cost to Separate Sentence Into Rows",
+    "titleSlug": "minimum-cost-to-separate-sentence-into-rows",
+    "translatedTitle": "将句子分隔成行的最低成本",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 8,
+    "dislikes": 0,
+    "exampleTestcases": "\"i love leetcode\"\n12\n\"apples and bananas taste great\"\n7\n\"a\"\n5",
+    "sampleTestCase": "\"i love leetcode\"\n12",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumCost\",\n  \"params\": [\n    {\n      \"name\": \"sentence\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"674\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 674, \"totalSubmissionRaw\": 1475, \"acRate\": \"45.7%\"}",
+    "topicTags": [
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

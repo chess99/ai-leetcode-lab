@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:26Z",
+  "source": "https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/",
+  "question": {
+    "questionId": "340",
+    "questionFrontendId": "340",
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "titleSlug": "longest-substring-with-at-most-k-distinct-characters",
+    "translatedTitle": "至多包含 K 个不同字符的最长子串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 293,
+    "dislikes": 0,
+    "exampleTestcases": "\"eceba\"\n2\n\"aa\"\n1",
+    "sampleTestCase": "\"eceba\"\n2",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"lengthOfLongestSubstringKDistinct\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"36.3K\", \"totalSubmission\": \"69.8K\", \"totalAcceptedRaw\": 36339, \"totalSubmissionRaw\": 69843, \"acRate\": \"52.0%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      }
+    ]
+  }
+}

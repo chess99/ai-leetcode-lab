@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:35Z",
+  "source": "https://leetcode.cn/problems/number-of-zigzag-arrays-iii/",
+  "question": {
+    "questionId": "4046",
+    "questionFrontendId": "3916",
+    "title": "Number of ZigZag Arrays III",
+    "titleSlug": "number-of-zigzag-arrays-iii",
+    "translatedTitle": "锯齿形数组的总数 III",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "3\n4\n5\n3\n1\n3",
+    "sampleTestCase": "3\n4\n5",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"zigZagArrays\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"l\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"r\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"115\", \"totalSubmission\": \"131\", \"totalAcceptedRaw\": 115, \"totalSubmissionRaw\": 131, \"acRate\": \"87.8%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

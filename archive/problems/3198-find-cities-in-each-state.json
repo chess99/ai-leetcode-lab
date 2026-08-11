@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:30Z",
+  "source": "https://leetcode.cn/problems/find-cities-in-each-state/",
+  "question": {
+    "questionId": "3505",
+    "questionFrontendId": "3198",
+    "title": "Find Cities in Each State",
+    "titleSlug": "find-cities-in-each-state",
+    "translatedTitle": "查找每个州的城市",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"cities\":[\"state\",\"city\"]},\"rows\":{\"cities\":[[\"California\",\"Los Angeles\"],[\"California\",\"San Francisco\"],[\"California\",\"San Diego\"],[\"Texas\",\"Houston\"],[\"Texas\",\"Austin\"],[\"Texas\",\"Dallas\"],[\"New York\",\"New York City\"],[\"New York\",\"Buffalo\"],[\"New York\",\"Rochester\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"cities\":[\"state\",\"city\"]},\"rows\":{\"cities\":[[\"California\",\"Los Angeles\"],[\"California\",\"San Francisco\"],[\"California\",\"San Diego\"],[\"Texas\",\"Houston\"],[\"Texas\",\"Austin\"],[\"Texas\",\"Dallas\"],[\"New York\",\"New York City\"],[\"New York\",\"Buffalo\"],[\"New York\",\"Rochester\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists cities( state varchar(100),city varchar(100))\"],\"mssql\":[\"Create table  cities( state varchar(100),city varchar(100))\"],\"oraclesql\":[\"Create table cities( state varchar2(100),city varchar2(100))\"],\"database\":true,\"name\":\"find_cities\",\"postgresql\":[\"CREATE TABLE IF NOT EXISTS cities (\\n    state VARCHAR(100),\\n    city VARCHAR(100)\\n);\"],\"pythondata\":[\"cities = pd.DataFrame(columns=['state', 'city'])\"],\"database_schema\":{\"cities\":{\"state\":\"VARCHAR(100)\",\"city\":\"VARCHAR(100)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"938\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 938, \"totalSubmissionRaw\": 1365, \"acRate\": \"68.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

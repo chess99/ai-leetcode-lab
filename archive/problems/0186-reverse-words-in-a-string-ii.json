@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:37:59Z",
+  "source": "https://leetcode.cn/problems/reverse-words-in-a-string-ii/",
+  "question": {
+    "questionId": "186",
+    "questionFrontendId": "186",
+    "title": "Reverse Words in a String II",
+    "titleSlug": "reverse-words-in-a-string-ii",
+    "translatedTitle": "反转字符串中的单词 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 147,
+    "dislikes": 0,
+    "exampleTestcases": "[\"t\",\"h\",\"e\",\" \",\"s\",\"k\",\"y\",\" \",\"i\",\"s\",\" \",\"b\",\"l\",\"u\",\"e\"]\n[\"a\"]",
+    "sampleTestCase": "[\"t\",\"h\",\"e\",\" \",\"s\",\"k\",\"y\",\" \",\"i\",\"s\",\" \",\"b\",\"l\",\"u\",\"e\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"reverseWords\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"character[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"void\"\n  },\n  \"output\": {\n    \"paramindex\": 0\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"25.6K\", \"totalSubmission\": \"33.1K\", \"totalAcceptedRaw\": 25625, \"totalSubmissionRaw\": 33063, \"acRate\": \"77.5%\"}",
+    "topicTags": [
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

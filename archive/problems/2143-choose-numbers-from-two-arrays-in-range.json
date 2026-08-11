@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:28Z",
+  "source": "https://leetcode.cn/problems/choose-numbers-from-two-arrays-in-range/",
+  "question": {
+    "questionId": "2282",
+    "questionFrontendId": "2143",
+    "title": "Choose Numbers From Two Arrays in Range",
+    "titleSlug": "choose-numbers-from-two-arrays-in-range",
+    "translatedTitle": "在两个数组的区间中选取数字",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 11,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,5]\n[2,6,3]\n[0,1]\n[1,0]",
+    "sampleTestCase": "[1,2,5]\n[2,6,3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countSubranges\",\n  \"params\": [\n    {\n      \"name\": \"nums1\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"nums2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"591\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 591, \"totalSubmissionRaw\": 1105, \"acRate\": \"53.5%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

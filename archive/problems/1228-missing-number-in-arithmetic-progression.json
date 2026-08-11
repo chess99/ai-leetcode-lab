@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:54Z",
+  "source": "https://leetcode.cn/problems/missing-number-in-arithmetic-progression/",
+  "question": {
+    "questionId": "1164",
+    "questionFrontendId": "1228",
+    "title": "Missing Number In Arithmetic Progression",
+    "titleSlug": "missing-number-in-arithmetic-progression",
+    "translatedTitle": "等差数列中缺失的数字",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 35,
+    "dislikes": 0,
+    "exampleTestcases": "[5,7,11,13]\n[15,13,12]",
+    "sampleTestCase": "[5,7,11,13]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"missingNumber\",\n  \"params\": [\n    {\n      \"name\": \"arr\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"14.5K\", \"totalAcceptedRaw\": 8049, \"totalSubmissionRaw\": 14508, \"acRate\": \"55.5%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:12Z",
+  "source": "https://leetcode.cn/problems/minimum-factorization/",
+  "question": {
+    "questionId": "625",
+    "questionFrontendId": "625",
+    "title": "Minimum Factorization",
+    "titleSlug": "minimum-factorization",
+    "translatedTitle": "最小因式分解",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 48,
+    "dislikes": 0,
+    "exampleTestcases": "48\n15",
+    "sampleTestCase": "48",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"smallestFactorization\",\n  \"params\": [\n    {\n      \"name\": \"num\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.3K\", \"totalSubmission\": \"15.9K\", \"totalAcceptedRaw\": 5350, \"totalSubmissionRaw\": 15859, \"acRate\": \"33.7%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "质因数分解",
+        "slug": "prime-factorization",
+        "translatedName": null
+      }
+    ]
+  }
+}

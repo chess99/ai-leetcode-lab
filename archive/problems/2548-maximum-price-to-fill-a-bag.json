@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:36Z",
+  "source": "https://leetcode.cn/problems/maximum-price-to-fill-a-bag/",
+  "question": {
+    "questionId": "2693",
+    "questionFrontendId": "2548",
+    "title": "Maximum Price to Fill a Bag",
+    "titleSlug": "maximum-price-to-fill-a-bag",
+    "translatedTitle": "填满背包的最大价格",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "[[50,1],[10,8]]\n5\n[[100,30]]\n50",
+    "sampleTestCase": "[[50,1],[10,8]]\n5",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxPrice\",\n  \"params\": [\n    {\n      \"name\": \"items\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"capacity\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"double\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"2.4K\", \"totalAcceptedRaw\": 1216, \"totalSubmissionRaw\": 2388, \"acRate\": \"50.9%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:49Z",
+  "source": "https://leetcode.cn/problems/minimum-number-of-coins-for-fruits-ii/",
+  "question": {
+    "questionId": "3268",
+    "questionFrontendId": "2969",
+    "title": "Minimum Number of Coins for Fruits II",
+    "titleSlug": "minimum-number-of-coins-for-fruits-ii",
+    "translatedTitle": "购买水果需要的最少金币数 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[3,1,2]\n[1,10,1,1]",
+    "sampleTestCase": "[3,1,2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumCoins\",\n  \"params\": [\n    {\n      \"name\": \"prices\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"320\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 320, \"totalSubmissionRaw\": 1527, \"acRate\": \"21.0%\"}",
+    "topicTags": [
+      {
+        "name": "Queue",
+        "slug": "queue",
+        "translatedName": "队列"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Monotonic Queue",
+        "slug": "monotonic-queue",
+        "translatedName": "单调队列"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

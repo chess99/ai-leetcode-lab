@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:41Z",
+  "source": "https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i/",
+  "question": {
+    "questionId": "3555",
+    "questionFrontendId": "3264",
+    "title": "Final Array State After K Multiplication Operations I",
+    "titleSlug": "final-array-state-after-k-multiplication-operations-i",
+    "translatedTitle": "K 次乘运算后的最终数组 I",
+    "content": "<p>You are given an integer array <code>nums</code>, an integer <code>k</code>, and an integer <code>multiplier</code>.</p>\n\n<p>You need to perform <code>k</code> operations on <code>nums</code>. In each operation:</p>\n\n<ul>\n\t<li>Find the <strong>minimum</strong> value <code>x</code> in <code>nums</code>. If there are multiple occurrences of the minimum value, select the one that appears <strong>first</strong>.</li>\n\t<li>Replace the selected minimum value <code>x</code> with <code>x * multiplier</code>.</li>\n</ul>\n\n<p>Return an integer array denoting the <em>final state</em> of <code>nums</code> after performing all <code>k</code> operations.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [2,1,3,5,6], k = 5, multiplier = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">[8,4,6,5,6]</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Operation</th>\n\t\t\t<th>Result</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>After operation 1</td>\n\t\t\t<td>[2, 2, 3, 5, 6]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>After operation 2</td>\n\t\t\t<td>[4, 2, 3, 5, 6]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>After operation 3</td>\n\t\t\t<td>[4, 4, 3, 5, 6]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>After operation 4</td>\n\t\t\t<td>[4, 4, 6, 5, 6]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>After operation 5</td>\n\t\t\t<td>[8, 4, 6, 5, 6]</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,2], k = 3, multiplier = 4</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">[16,8]</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Operation</th>\n\t\t\t<th>Result</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>After operation 1</td>\n\t\t\t<td>[4, 2]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>After operation 2</td>\n\t\t\t<td>[4, 8]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>After operation 3</td>\n\t\t\t<td>[16, 8]</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n\t<li><code>1 &lt;= k &lt;= 10</code></li>\n\t<li><code>1 &lt;= multiplier &lt;= 5</code></li>\n</ul>\n",
+    "translatedContent": "<p>给你一个整数数组&nbsp;<code>nums</code>&nbsp;，一个整数&nbsp;<code>k</code>&nbsp;&nbsp;和一个整数&nbsp;<code>multiplier</code>&nbsp;。</p>\n\n<p>你需要对 <code>nums</code>&nbsp;执行 <code>k</code>&nbsp;次操作，每次操作中：</p>\n\n<ul>\n\t<li>找到 <code>nums</code>&nbsp;中的 <strong>最小</strong>&nbsp;值&nbsp;<code>x</code>&nbsp;，如果存在多个最小值，选择最 <strong>前面</strong>&nbsp;的一个。</li>\n\t<li>将 <code>x</code>&nbsp;替换为&nbsp;<code>x * multiplier</code>&nbsp;。</li>\n</ul>\n\n<p>请你返回执行完 <code>k</code>&nbsp;次乘运算之后，最终的 <code>nums</code>&nbsp;数组。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<div class=\"example-block\">\n<p><span class=\"example-io\"><b>输入：</b>nums = [2,1,3,5,6], k = 5, multiplier = 2</span></p>\n\n<p><span class=\"example-io\"><b>输出：</b>[8,4,6,5,6]</span></p>\n\n<p><strong>解释：</strong></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>操作</th>\n\t\t\t<th>结果</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1 次操作后</td>\n\t\t\t<td>[2, 2, 3, 5, 6]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2 次操作后</td>\n\t\t\t<td>[4, 2, 3, 5, 6]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3 次操作后</td>\n\t\t\t<td>[4, 4, 3, 5, 6]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4 次操作后</td>\n\t\t\t<td>[4, 4, 6, 5, 6]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5 次操作后</td>\n\t\t\t<td>[8, 4, 6, 5, 6]</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<div class=\"example-block\">\n<p><span class=\"example-io\"><b>输入：</b></span>nums = [1,2], k = 3, multiplier = 4</p>\n\n<p><span class=\"example-io\"><b>输出：</b></span>[16,8]</p>\n\n<p><strong>解释：</strong></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>操作</th>\n\t\t\t<th>结果</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1 次操作后</td>\n\t\t\t<td>[4, 2]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2 次操作后</td>\n\t\t\t<td>[4, 8]</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3 次操作后</td>\n\t\t\t<td>[16, 8]</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n\t<li><code>1 &lt;= k &lt;= 10</code></li>\n\t<li><code>1 &lt;= multiplier &lt;= 5</code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 35,
+    "dislikes": 0,
+    "exampleTestcases": "[2,1,3,5,6]\n5\n2\n[1,2]\n3\n4",
+    "sampleTestCase": "[2,1,3,5,6]\n5\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"getFinalState\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"multiplier\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    vector<int> getFinalState(vector<int>& nums, int k, int multiplier) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int[] getFinalState(int[] nums, int k, int multiplier) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def getFinalState(self, nums: List[int], k: int, multiplier: int) -> List[int]:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def getFinalState(self, nums, k, multiplier):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :type multiplier: int\n        :rtype: List[int]\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @param {number} multiplier\n * @return {number[]}\n */\nvar getFinalState = function(nums, k, multiplier) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function getFinalState(nums: number[], k: number, multiplier: number): number[] {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int[] GetFinalState(int[] nums, int k, int multiplier) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* getFinalState(int* nums, int numsSize, int k, int multiplier, int* returnSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func getFinalState(nums []int, k int, multiplier int) []int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun getFinalState(nums: IntArray, k: Int, multiplier: Int): IntArray {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func getFinalState(_ nums: [Int], _ k: Int, _ multiplier: Int) -> [Int] {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn get_final_state(nums: Vec<i32>, k: i32, multiplier: i32) -> Vec<i32> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer} multiplier\n# @return {Integer[]}\ndef get_final_state(nums, k, multiplier)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @param Integer $multiplier\n     * @return Integer[]\n     */\n    function getFinalState($nums, $k, $multiplier) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  List<int> getFinalState(List<int> nums, int k, int multiplier) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def getFinalState(nums: Array[Int], k: Int, multiplier: Int): Array[Int] = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec get_final_state(nums :: [integer], k :: integer, multiplier :: integer) :: [integer]\n  def get_final_state(nums, k, multiplier) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec get_final_state(Nums :: [integer()], K :: integer(), Multiplier :: integer()) -> [integer()].\nget_final_state(Nums, K, Multiplier) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (get-final-state nums k multiplier)\n  (-> (listof exact-integer?) exact-integer? exact-integer? (listof exact-integer?))\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func getFinalState(nums: Array<Int64>, k: Int64, multiplier: Int64): Array<Int64> {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"26K\", \"totalSubmission\": \"31.7K\", \"totalAcceptedRaw\": 25989, \"totalSubmissionRaw\": 31652, \"acRate\": \"82.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

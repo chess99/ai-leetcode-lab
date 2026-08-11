@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:06Z",
+  "source": "https://leetcode.cn/problems/evaluate-valid-expressions/",
+  "question": {
+    "questionId": "4140",
+    "questionFrontendId": "3749",
+    "title": "Evaluate Valid Expressions",
+    "titleSlug": "evaluate-valid-expressions",
+    "translatedTitle": "计算有效表达式",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "\"add(2,3)\"\n\"-42\"\n\"div(mul(4,sub(9,5)),add(1,1))\"",
+    "sampleTestCase": "\"add(2,3)\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"evaluateExpression\",\n  \"params\": [\n    {\n      \"name\": \"expression\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"231\", \"totalSubmission\": \"282\", \"totalAcceptedRaw\": 231, \"totalSubmissionRaw\": 282, \"acRate\": \"81.9%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Divide and Conquer",
+        "slug": "divide-and-conquer",
+        "translatedName": "分治"
+      }
+    ]
+  }
+}

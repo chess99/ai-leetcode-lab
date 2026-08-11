@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:52Z",
+  "source": "https://leetcode.cn/problems/promise-pool/",
+  "question": {
+    "questionId": "2750",
+    "questionFrontendId": "2636",
+    "title": "Promise Pool",
+    "titleSlug": "promise-pool",
+    "translatedTitle": "Promise 对象池",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 16,
+    "dislikes": 0,
+    "exampleTestcases": "[() => new Promise(res => setTimeout(res, 300)), () => new Promise(res => setTimeout(res, 400)), () => new Promise(res => setTimeout(res, 200))]\n2\n[() => new Promise(res => setTimeout(res, 300)), () => new Promise(res => setTimeout(res, 400)), () => new Promise(res => setTimeout(res, 200))]\n5\n[() => new Promise(res => setTimeout(res, 300)), () => new Promise(res => setTimeout(res, 400)), () => new Promise(res => setTimeout(res, 200))]\n1",
+    "sampleTestCase": "[() => new Promise(res => setTimeout(res, 300)), () => new Promise(res => setTimeout(res, 400)), () => new Promise(res => setTimeout(res, 200))]\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"promisePool\",\n  \"params\": [\n    {\n      \"name\": \"functions\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"n\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"3K\", \"totalAcceptedRaw\": 1987, \"totalSubmissionRaw\": 3005, \"acRate\": \"66.1%\"}",
+    "topicTags": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:23Z",
+  "source": "https://leetcode.cn/problems/number-of-distinct-islands/",
+  "question": {
+    "questionId": "694",
+    "questionFrontendId": "694",
+    "title": "Number of Distinct Islands",
+    "titleSlug": "number-of-distinct-islands",
+    "translatedTitle": "不同岛屿的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 208,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,1,0,0,0],[1,1,0,0,0],[0,0,0,1,1],[0,0,0,1,1]]\n[[1,1,0,1,1],[1,0,0,0,0],[0,0,0,0,1],[1,1,0,1,1]]",
+    "sampleTestCase": "[[1,1,0,0,0],[1,1,0,0,0],[0,0,0,1,1],[0,0,0,1,1]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"numDistinctIslands\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"16.3K\", \"totalSubmission\": \"27.7K\", \"totalAcceptedRaw\": 16274, \"totalSubmissionRaw\": 27675, \"acRate\": \"58.8%\"}",
+    "topicTags": [
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Hash Function",
+        "slug": "hash-function",
+        "translatedName": "哈希函数"
+      }
+    ]
+  }
+}

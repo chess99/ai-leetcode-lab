@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:29Z",
+  "source": "https://leetcode.cn/problems/sort-transformed-array/",
+  "question": {
+    "questionId": "360",
+    "questionFrontendId": "360",
+    "title": "Sort Transformed Array",
+    "titleSlug": "sort-transformed-array",
+    "translatedTitle": "有序转化数组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 93,
+    "dislikes": 0,
+    "exampleTestcases": "[-4,-2,2,4]\n1\n3\n5\n[-4,-2,2,4]\n-1\n3\n5",
+    "sampleTestCase": "[-4,-2,2,4]\n1\n3\n5",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"sortTransformedArray\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"a\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"b\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"c\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.4K\", \"totalSubmission\": \"11.7K\", \"totalAcceptedRaw\": 7387, \"totalSubmissionRaw\": 11717, \"acRate\": \"63.0%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

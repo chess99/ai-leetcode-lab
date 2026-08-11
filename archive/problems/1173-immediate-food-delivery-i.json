@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:45Z",
+  "source": "https://leetcode.cn/problems/immediate-food-delivery-i/",
+  "question": {
+    "questionId": "1291",
+    "questionFrontendId": "1173",
+    "title": "Immediate Food Delivery I",
+    "titleSlug": "immediate-food-delivery-i",
+    "translatedTitle": "即时食物配送 I",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 59,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Delivery\":[\"delivery_id\",\"customer_id\",\"order_date\",\"customer_pref_delivery_date\"]},\"rows\":{\"Delivery\":[[1,1,\"2019-08-01\",\"2019-08-02\"],[2,5,\"2019-08-02\",\"2019-08-02\"],[3,1,\"2019-08-11\",\"2019-08-11\"],[4,3,\"2019-08-24\",\"2019-08-26\"],[5,4,\"2019-08-21\",\"2019-08-22\"],[6,2,\"2019-08-11\",\"2019-08-13\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Delivery\":[\"delivery_id\",\"customer_id\",\"order_date\",\"customer_pref_delivery_date\"]},\"rows\":{\"Delivery\":[[1,1,\"2019-08-01\",\"2019-08-02\"],[2,5,\"2019-08-02\",\"2019-08-02\"],[3,1,\"2019-08-11\",\"2019-08-11\"],[4,3,\"2019-08-24\",\"2019-08-26\"],[5,4,\"2019-08-21\",\"2019-08-22\"],[6,2,\"2019-08-11\",\"2019-08-13\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)\"],\"mssql\":[\"Create table Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)\"],\"oraclesql\":[\"Create table Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"food_delivery\",\"pythondata\":[\"Delivery = pd.DataFrame([], columns=['delivery_id', 'customer_id', 'order_date', 'customer_pref_delivery_date']).astype({'delivery_id':'Int64', 'customer_id':'Int64', 'order_date':'datetime64[ns]', 'customer_pref_delivery_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)\"],\"database_schema\":{\"Delivery\":{\"delivery_id\":\"INT\",\"customer_id\":\"INT\",\"order_date\":\"DATE\",\"customer_pref_delivery_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"32.6K\", \"totalSubmission\": \"42.7K\", \"totalAcceptedRaw\": 32553, \"totalSubmissionRaw\": 42719, \"acRate\": \"76.2%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

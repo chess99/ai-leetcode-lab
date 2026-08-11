@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:15Z",
+  "source": "https://leetcode.cn/problems/solve-the-equation/",
+  "question": {
+    "questionId": "640",
+    "questionFrontendId": "640",
+    "title": "Solve the Equation",
+    "titleSlug": "solve-the-equation",
+    "translatedTitle": "求解方程",
+    "content": "<p>Solve a given equation and return the value of <code>&#39;x&#39;</code> in the form of a string <code>&quot;x=#value&quot;</code>. The equation contains only <code>&#39;+&#39;</code>, <code>&#39;-&#39;</code> operation, the variable <code>&#39;x&#39;</code> and its coefficient. You should return <code>&quot;No solution&quot;</code> if there is no solution for the equation, or <code>&quot;Infinite solutions&quot;</code> if there are infinite solutions for the equation.</p>\n\n<p>If there is exactly one solution for the equation, we ensure that the value of <code>&#39;x&#39;</code> is an integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> equation = &quot;x+5-3+x=6+x-2&quot;\n<strong>Output:</strong> &quot;x=2&quot;\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> equation = &quot;x=x&quot;\n<strong>Output:</strong> &quot;Infinite solutions&quot;\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> equation = &quot;2x=x&quot;\n<strong>Output:</strong> &quot;x=0&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>3 &lt;= equation.length &lt;= 1000</code></li>\n\t<li><code>equation</code> has exactly one <code>&#39;=&#39;</code>.</li>\n\t<li><code>equation</code> consists of integers with an absolute value in the range <code>[0, 100]</code> without any leading zeros, and the variable <code>&#39;x&#39;</code>.</li>\n\t<li>The input is generated that if there is a single solution, it will be an integer.</li>\n</ul>\n",
+    "translatedContent": "<p>求解一个给定的方程，将<code>x</code>以字符串 <code>\"x=#value\"</code>&nbsp;的形式返回。该方程仅包含 <code>'+'</code> ， <code>'-'</code> 操作，变量&nbsp;<code>x</code>&nbsp;和其对应系数。</p>\n\n<p>如果方程没有解或存在的解不为整数，请返回&nbsp;<code>\"No solution\"</code>&nbsp;。如果方程有无限解，则返回 <code>“Infinite solutions”</code> 。</p>\n\n<p>题目保证，如果方程中只有一个解，则 <font color=\"#c7254e\"><font face=\"Menlo, Monaco, Consolas, Courier New, monospace\"><span style=\"font-size:12.6px\"><span style=\"background-color:#f9f2f4\">'x'</span></span></font></font> 的值是一个整数。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入:</strong> equation = \"x+5-3+x=6+x-2\"\n<strong>输出:</strong> \"x=2\"\n</pre>\n\n<p><strong>示例 2:</strong></p>\n\n<pre>\n<strong>输入:</strong> equation = \"x=x\"\n<strong>输出:</strong> \"Infinite solutions\"\n</pre>\n\n<p><strong>示例 3:</strong></p>\n\n<pre>\n<strong>输入:</strong> equation = \"2x=x\"\n<strong>输出:</strong> \"x=0\"\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示:</strong></p>\n\n<ul>\n\t<li><code>3 &lt;= equation.length &lt;= 1000</code></li>\n\t<li><code>equation</code>&nbsp;只有一个&nbsp;<code>'='</code>.&nbsp;</li>\n\t<li>方程由绝对值在&nbsp;<code>[0, 100]</code>&nbsp; 范围内且无任何前导零的整数和变量 <code>'x'</code>&nbsp;组成。<span style=\"display:block\"><span style=\"height:0px\"><span style=\"position:absolute\">​​​</span></span></span></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 227,
+    "dislikes": 0,
+    "exampleTestcases": "\"x+5-3+x=6+x-2\"\n\"x=x\"\n\"2x=x\"",
+    "sampleTestCase": "\"x+5-3+x=6+x-2\"",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"solveEquation\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"equation\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    string solveEquation(string equation) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public String solveEquation(String equation) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def solveEquation(self, equation: str) -> str:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def solveEquation(self, equation):\n        \"\"\"\n        :type equation: str\n        :rtype: str\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string} equation\n * @return {string}\n */\nvar solveEquation = function(equation) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function solveEquation(equation: string): string {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public string SolveEquation(string equation) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "char* solveEquation(char* equation) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func solveEquation(equation string) string {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun solveEquation(equation: String): String {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func solveEquation(_ equation: String) -> String {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn solve_equation(equation: String) -> String {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String} equation\n# @return {String}\ndef solve_equation(equation)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String $equation\n     * @return String\n     */\n    function solveEquation($equation) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  String solveEquation(String equation) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def solveEquation(equation: String): String = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec solve_equation(equation :: String.t) :: String.t\n  def solve_equation(equation) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec solve_equation(Equation :: unicode:unicode_binary()) -> unicode:unicode_binary().\nsolve_equation(Equation) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (solve-equation equation)\n  (-> string? string?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func solveEquation(equation: String): String {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"41.6K\", \"totalSubmission\": \"93.7K\", \"totalAcceptedRaw\": 41635, \"totalSubmissionRaw\": 93706, \"acRate\": \"44.4%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "线性代数",
+        "slug": "linear-algebra",
+        "translatedName": null
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:09Z",
+  "source": "https://leetcode.cn/problems/triangle-judgement/",
+  "question": {
+    "questionId": "610",
+    "questionFrontendId": "610",
+    "title": "Triangle Judgement",
+    "titleSlug": "triangle-judgement",
+    "translatedTitle": "判断三角形",
+    "content": "<p>Table: <code>Triangle</code></p>\n\n<pre>\n+-------------+------+\n| Column Name | Type |\n+-------------+------+\n| x           | int  |\n| y           | int  |\n| z           | int  |\n+-------------+------+\nIn SQL, (x, y, z) is the primary key column for this table.\nEach row of this table contains the lengths of three line segments.\n</pre>\n\n<p>&nbsp;</p>\n\n<p>Report for every three line segments whether they can form a triangle.</p>\n\n<p>Return the result table in <strong>any order</strong>.</p>\n\n<p>The&nbsp;result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> \nTriangle table:\n+----+----+----+\n| x  | y  | z  |\n+----+----+----+\n| 13 | 15 | 30 |\n| 10 | 20 | 15 |\n+----+----+----+\n<strong>Output:</strong> \n+----+----+----+----------+\n| x  | y  | z  | triangle |\n+----+----+----+----------+\n| 13 | 15 | 30 | No       |\n| 10 | 20 | 15 | Yes      |\n+----+----+----+----------+\n</pre>\n",
+    "translatedContent": "<p>表:&nbsp;<code>Triangle</code></p>\n\n<pre>\n+-------------+------+\n| Column Name | Type |\n+-------------+------+\n| x           | int  |\n| y           | int  |\n| z           | int  |\n+-------------+------+\n在 SQL 中，(x, y, z)是该表的主键列。\n该表的每一行包含三个线段的长度。\n</pre>\n\n<p>&nbsp;</p>\n\n<p>对每三个线段报告它们是否可以形成一个三角形。</p>\n\n<p>以&nbsp;<strong>任意顺序&nbsp;</strong>返回结果表。</p>\n\n<p>查询结果格式如下所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1:</strong></p>\n\n<pre>\n<strong>输入:</strong> \nTriangle 表:\n+----+----+----+\n| x  | y  | z  |\n+----+----+----+\n| 13 | 15 | 30 |\n| 10 | 20 | 15 |\n+----+----+----+\n<strong>输出:</strong> \n+----+----+----+----------+\n| x  | y  | z  | triangle |\n+----+----+----+----------+\n| 13 | 15 | 30 | No       |\n| 10 | 20 | 15 | Yes      |\n+----+----+----+----------+</pre>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 121,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Triangle\":[\"x\",\"y\",\"z\"]},\"rows\":{\"Triangle\":[[13,15,30],[10,20,15]]}}",
+    "sampleTestCase": "{\"headers\":{\"Triangle\":[\"x\",\"y\",\"z\"]},\"rows\":{\"Triangle\":[[13,15,30],[10,20,15]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Triangle (x int, y int, z int)\"],\"mssql\":[\"Create table Triangle (x int, y int, z int)\"],\"oraclesql\":[\"Create table Triangle (x int, y int, z int)\"],\"database\":true,\"name\":\"triangle_judgement\",\"pythondata\":[\"Triangle = pd.DataFrame([], columns=['x', 'y', 'z']).astype({'x':'Int64', 'y':'Int64', 'z':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Triangle (x int, y int, z int)\"],\"database_schema\":{\"Triangle\":{\"x\":\"INT\",\"y\":\"INT\",\"z\":\"INT\"}}}",
+    "codeSnippets": [
+      {
+        "lang": "MySQL",
+        "langSlug": "mysql",
+        "code": "# Write your MySQL query statement below"
+      },
+      {
+        "lang": "MS SQL Server",
+        "langSlug": "mssql",
+        "code": "/* Write your T-SQL query statement below */"
+      },
+      {
+        "lang": "PostgreSQL",
+        "langSlug": "postgresql",
+        "code": "-- Write your PostgreSQL query statement below"
+      },
+      {
+        "lang": "Oracle",
+        "langSlug": "oraclesql",
+        "code": "/* Write your PL/SQL query statement below */"
+      },
+      {
+        "lang": "Pandas",
+        "langSlug": "pythondata",
+        "code": "import pandas as pd\n\ndef triangle_judgement(triangle: pd.DataFrame) -> pd.DataFrame:\n    "
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"107.6K\", \"totalSubmission\": \"147.9K\", \"totalAcceptedRaw\": 107604, \"totalSubmissionRaw\": 147892, \"acRate\": \"72.8%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

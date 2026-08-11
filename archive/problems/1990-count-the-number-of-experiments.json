@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:05Z",
+  "source": "https://leetcode.cn/problems/count-the-number-of-experiments/",
+  "question": {
+    "questionId": "2143",
+    "questionFrontendId": "1990",
+    "title": "Count the Number of Experiments",
+    "titleSlug": "count-the-number-of-experiments",
+    "translatedTitle": "统计实验的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 11,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Experiments\":[\"experiment_id\",\"platform\",\"experiment_name\"]},\"rows\":{\"Experiments\":[[4,\"IOS\",\"Programming\"],[13,\"IOS\",\"Sports\"],[14,\"Android\",\"Reading\"],[8,\"Web\",\"Reading\"],[12,\"Web\",\"Reading\"],[18,\"Web\",\"Programming\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Experiments\":[\"experiment_id\",\"platform\",\"experiment_name\"]},\"rows\":{\"Experiments\":[[4,\"IOS\",\"Programming\"],[13,\"IOS\",\"Sports\"],[14,\"Android\",\"Reading\"],[8,\"Web\",\"Reading\"],[12,\"Web\",\"Reading\"],[18,\"Web\",\"Programming\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Experiments (experiment_id int, platform ENUM('Android', 'IOS', 'Web'), experiment_name ENUM('Reading', 'Sports', 'Programming'))\"],\"mssql\":[\"Create table Experiments (experiment_id int, platform VARCHAR(7) NOT NULL CHECK (platform IN ('Android', 'IOS', 'Web')), experiment_name VARCHAR(11) NOT NULL CHECK (experiment_name IN ('Reading', 'Sports', 'Programming')))\"],\"oraclesql\":[\"Create table Experiments (experiment_id int, platform VARCHAR(7) NOT NULL CHECK (platform IN ('Android', 'IOS', 'Web')), experiment_name VARCHAR(11) NOT NULL CHECK (experiment_name IN ('Reading', 'Sports', 'Programming')))\"],\"database\":true,\"name\":\"count_experiments\",\"pythondata\":[\"Experiments = pd.DataFrame([], columns=['experiment_id', 'platform', 'experiment_name']).astype({'experiment_id':'Int64', 'platform':'object', 'experiment_name':'object'})\"],\"postgresql\":[\"Create table If Not Exists Experiments (experiment_id int, platform VARCHAR(30) CHECK (platform IN ('Android', 'IOS', 'Web')), experiment_name VARCHAR(30) CHECK (experiment_name IN ('Reading', 'Sports', 'Programming')))\\n\"],\"database_schema\":{\"Experiments\":{\"experiment_id\":\"INT\",\"platform\":\"ENUM('Android', 'IOS', 'Web')\",\"experiment_name\":\"ENUM('Reading', 'Sports', 'Programming')\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.4K\", \"totalSubmission\": \"9K\", \"totalAcceptedRaw\": 4420, \"totalSubmissionRaw\": 9007, \"acRate\": \"49.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

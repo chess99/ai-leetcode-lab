@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:39Z",
+  "source": "https://leetcode.cn/problems/reported-posts-ii/",
+  "question": {
+    "questionId": "1237",
+    "questionFrontendId": "1132",
+    "title": "Reported Posts II",
+    "titleSlug": "reported-posts-ii",
+    "translatedTitle": "报告的记录 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 58,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Actions\":[\"user_id\",\"post_id\",\"action_date\",\"action\",\"extra\"],\"Removals\":[\"post_id\",\"remove_date\"]},\"rows\":{\"Actions\":[[1,1,\"2019-07-01\",\"view\",null],[1,1,\"2019-07-01\",\"like\",null],[1,1,\"2019-07-01\",\"share\",null],[2,2,\"2019-07-04\",\"view\",null],[2,2,\"2019-07-04\",\"report\",\"spam\"],[3,4,\"2019-07-04\",\"view\",null],[3,4,\"2019-07-04\",\"report\",\"spam\"],[4,3,\"2019-07-02\",\"view\",null],[4,3,\"2019-07-02\",\"report\",\"spam\"],[5,2,\"2019-07-03\",\"view\",null],[5,2,\"2019-07-03\",\"report\",\"racism\"],[5,5,\"2019-07-03\",\"view\",null],[5,5,\"2019-07-03\",\"report\",\"racism\"]],\"Removals\":[[2,\"2019-07-20\"],[3,\"2019-07-18\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Actions\":[\"user_id\",\"post_id\",\"action_date\",\"action\",\"extra\"],\"Removals\":[\"post_id\",\"remove_date\"]},\"rows\":{\"Actions\":[[1,1,\"2019-07-01\",\"view\",null],[1,1,\"2019-07-01\",\"like\",null],[1,1,\"2019-07-01\",\"share\",null],[2,2,\"2019-07-04\",\"view\",null],[2,2,\"2019-07-04\",\"report\",\"spam\"],[3,4,\"2019-07-04\",\"view\",null],[3,4,\"2019-07-04\",\"report\",\"spam\"],[4,3,\"2019-07-02\",\"view\",null],[4,3,\"2019-07-02\",\"report\",\"spam\"],[5,2,\"2019-07-03\",\"view\",null],[5,2,\"2019-07-03\",\"report\",\"racism\"],[5,5,\"2019-07-03\",\"view\",null],[5,5,\"2019-07-03\",\"report\",\"racism\"]],\"Removals\":[[2,\"2019-07-20\"],[3,\"2019-07-18\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Actions (user_id int, post_id int, action_date date, action ENUM('view', 'like', 'reaction', 'comment', 'report', 'share'), extra varchar(10))\",\"create table if not exists Removals (post_id int, remove_date date)\"],\"mssql\":[\"create table Actions (user_id int, post_id int, action_date date, action VARCHAR(10) NOT NULL CHECK (action IN ('view', 'like', 'reaction', 'comment', 'report', 'share')), extra varchar(10))\",\"create table Removals (post_id int, remove_date date)\"],\"oraclesql\":[\"create table Actions (user_id int, post_id int, action_date date, action VARCHAR(10) NOT NULL CHECK (action IN ('view', 'like', 'reaction', 'comment', 'report', 'share')), extra varchar(10))\",\"create table Removals (post_id int, remove_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"reported_posts\",\"pythondata\":[\"Actions = pd.DataFrame([], columns=['user_id', 'post_id', 'action_date', 'action', 'extra']).astype({'user_id':'Int64', 'post_id':'Int64', 'action_date':'datetime64[ns]', 'action':'object', 'extra':'object'})\",\"Removals = pd.DataFrame([], columns=['post_id', 'remove_date']).astype({'post_id':'Int64', 'remove_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Actions (user_id int, post_id int, action_date date, action VARCHAR(10) CHECK (action IN ('view', 'like', 'reaction', 'comment', 'report', 'share')), extra varchar(10))\\n\",\"create table if not exists Removals (post_id int, remove_date date)\\n\"],\"database_schema\":{\"Actions\":{\"user_id\":\"INT\",\"post_id\":\"INT\",\"action_date\":\"DATE\",\"action\":\"ENUM('view', 'like', 'reaction', 'comment', 'report', 'share')\",\"extra\":\"VARCHAR(10)\"},\"Removals\":{\"post_id\":\"INT\",\"remove_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"12.9K\", \"totalSubmission\": \"34.8K\", \"totalAcceptedRaw\": 12869, \"totalSubmissionRaw\": 34827, \"acRate\": \"37.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

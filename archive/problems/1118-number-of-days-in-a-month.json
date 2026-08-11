@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:37Z",
+  "source": "https://leetcode.cn/problems/number-of-days-in-a-month/",
+  "question": {
+    "questionId": "1088",
+    "questionFrontendId": "1118",
+    "title": "Number of Days in a Month",
+    "titleSlug": "number-of-days-in-a-month",
+    "translatedTitle": "一月有多少天",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 9,
+    "dislikes": 0,
+    "exampleTestcases": "1992\n7\n2000\n2\n1900\n2",
+    "sampleTestCase": "1992\n7",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfDays\",\n  \"params\": [\n    {\n      \"name\": \"year\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"month\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.8K\", \"totalSubmission\": \"7.2K\", \"totalAcceptedRaw\": 4785, \"totalSubmissionRaw\": 7183, \"acRate\": \"66.6%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

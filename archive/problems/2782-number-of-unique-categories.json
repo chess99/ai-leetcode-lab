@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:16Z",
+  "source": "https://leetcode.cn/problems/number-of-unique-categories/",
+  "question": {
+    "questionId": "2995",
+    "questionFrontendId": "2782",
+    "title": "Number of Unique Categories",
+    "titleSlug": "number-of-unique-categories",
+    "translatedTitle": "唯一类别的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "6\n[1,1,2,2,3,3]\n5\n[1,2,3,4,5]\n3\n[1,1,1]",
+    "sampleTestCase": "6\n[1,1,2,2,3,3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfCategories\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"categoryHandler\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"c\",\n    \"csharp\",\n    \"javascript\",\n    \"ruby\",\n    \"swift\",\n    \"golang\",\n    \"python3\",\n    \"scala\",\n    \"kotlin\",\n    \"rust\",\n    \"php\",\n    \"typescript\",\n    \"dart\"\n  ],\n\"typescriptCustomType\" : \"class CategoryHandler {\\n    #categories: number[];\\n    constructor(categories: number[]) {\\n        this.#categories = categories;\\n    }\\n\\n    haveSameCategory(a: number, b: number): boolean {\\n        if (a >= this.#categories.length || b >= this.#categories.length || a < 0 || b < 0) {\\n            return false;\\n        }\\n        return this.#categories[a] === this.#categories[b];\\n    }\\n}\\n\"\n   \n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"495\", \"totalSubmission\": \"979\", \"totalAcceptedRaw\": 495, \"totalSubmissionRaw\": 979, \"acRate\": \"50.6%\"}",
+    "topicTags": [
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      }
+    ]
+  }
+}

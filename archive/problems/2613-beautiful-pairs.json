@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:48Z",
+  "source": "https://leetcode.cn/problems/beautiful-pairs/",
+  "question": {
+    "questionId": "2719",
+    "questionFrontendId": "2613",
+    "title": "Beautiful Pairs",
+    "titleSlug": "beautiful-pairs",
+    "translatedTitle": "美数对",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3,2,4]\n[2,3,1,2,3]\n[1,2,4,3,2,5]\n[1,4,2,3,5,1]",
+    "sampleTestCase": "[1,2,3,2,4]\n[2,3,1,2,3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"beautifulPair\",\n  \"params\": [\n    {\n      \"name\": \"nums1\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"nums2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"319\", \"totalSubmission\": \"961\", \"totalAcceptedRaw\": 319, \"totalSubmissionRaw\": 961, \"acRate\": \"33.2%\"}",
+    "topicTags": [
+      {
+        "name": "Geometry",
+        "slug": "geometry",
+        "translatedName": "几何"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Divide and Conquer",
+        "slug": "divide-and-conquer",
+        "translatedName": "分治"
+      },
+      {
+        "name": "Ordered Set",
+        "slug": "ordered-set",
+        "translatedName": "有序集合"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

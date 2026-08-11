@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:36Z",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-build-house-of-cards/",
+  "question": {
+    "questionId": "1385",
+    "questionFrontendId": "2189",
+    "title": "Number of Ways to Build House of Cards",
+    "titleSlug": "number-of-ways-to-build-house-of-cards",
+    "translatedTitle": "建造纸牌屋的方法数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "16\n2\n4",
+    "sampleTestCase": "16",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"houseOfCards\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"726\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 726, \"totalSubmissionRaw\": 1308, \"acRate\": \"55.5%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

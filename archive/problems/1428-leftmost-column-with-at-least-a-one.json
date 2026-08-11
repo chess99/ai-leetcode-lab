@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:27Z",
+  "source": "https://leetcode.cn/problems/leftmost-column-with-at-least-a-one/",
+  "question": {
+    "questionId": "1374",
+    "questionFrontendId": "1428",
+    "title": "Leftmost Column with at Least a One",
+    "titleSlug": "leftmost-column-with-at-least-a-one",
+    "translatedTitle": "至少有一个 1 的最左端列",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 55,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,0],[1,1]]\n[[0,0],[0,1]]\n[[0,0],[0,0]]",
+    "sampleTestCase": "[[0,0],[1,1]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"leftMostColumnWithOne\",\n  \"params\": [\n    {\n      \"name\": \"mat\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true, \n\"typescriptCustomType\" : \"class BinaryMatrix {\\n    __mat: number[][];\\n    __m: number;\\n    __n: number;\\n    __guesses: number;\\n    constructor(mat: number[][]) {\\n        this.__mat = mat;\\n        this.__m = mat.length;\\n        this.__n = mat[0].length;\\n        this.__guesses = 0;\\n    }\\n\\n    get(x: number, y: number): number {\\n        this.__guesses += 1;\\n        return this.__mat[x][y];\\n    }\\n\\n    getCount(): number {\\n        return this.__guesses;\\n    }\\n        \\n    dimensions(): number[] {\\n        return [this.__m, this.__n];\\n    }\\n};\"\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"5.2K\", \"totalAcceptedRaw\": 3343, \"totalSubmissionRaw\": 5193, \"acRate\": \"64.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

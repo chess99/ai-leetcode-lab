@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:06Z",
+  "source": "https://leetcode.cn/problems/kill-process/",
+  "question": {
+    "questionId": "582",
+    "questionFrontendId": "582",
+    "title": "Kill Process",
+    "titleSlug": "kill-process",
+    "translatedTitle": "杀掉进程",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 136,
+    "dislikes": 0,
+    "exampleTestcases": "[1,3,10,5]\n[3,0,5,3]\n5\n[1]\n[0]\n1",
+    "sampleTestCase": "[1,3,10,5]\n[3,0,5,3]\n5",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"killProcess\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"pid\",\r\n      \"type\": \"list<integer>\"\r\n    },\r\n    {\r\n      \"name\": \"ppid\",\r\n      \"type\": \"list<integer>\"\r\n    },\r\n    {\r\n      \"name\": \"kill\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"16.3K\", \"totalSubmission\": \"32.9K\", \"totalAcceptedRaw\": 16306, \"totalSubmissionRaw\": 32937, \"acRate\": \"49.5%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      }
+    ]
+  }
+}

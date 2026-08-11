@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:28Z",
+  "source": "https://leetcode.cn/problems/highest-salaries-difference/",
+  "question": {
+    "questionId": "3155",
+    "questionFrontendId": "2853",
+    "title": "Highest Salaries Difference",
+    "titleSlug": "highest-salaries-difference",
+    "translatedTitle": "最高薪水差异",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Salaries\": [\"emp_name\", \"department\", \"salary\"]},\"rows\":  {\"Salaries\": [[\"Kathy\",\"Engineering\",50000],[\"Roy\",\"Marketing\",30000],[\"Charles\",\"Engineering\",45000],[\"Jack\",\"Engineering\",85000],[\"Benjamin\",\"Marketing\",34000],[\"Anthony\",\"Marketing\",42000],[\"Edward\",\"Engineering\",102000],[\"Terry\",\"Engineering\",44000],[\"Evelyn\",\"Marketing\",53000],[\"Arthur\",\"Engineering\",32000]]}}",
+    "sampleTestCase": "{\"headers\": {\"Salaries\": [\"emp_name\", \"department\", \"salary\"]},\"rows\":  {\"Salaries\": [[\"Kathy\",\"Engineering\",50000],[\"Roy\",\"Marketing\",30000],[\"Charles\",\"Engineering\",45000],[\"Jack\",\"Engineering\",85000],[\"Benjamin\",\"Marketing\",34000],[\"Anthony\",\"Marketing\",42000],[\"Edward\",\"Engineering\",102000],[\"Terry\",\"Engineering\",44000],[\"Evelyn\",\"Marketing\",53000],[\"Arthur\",\"Engineering\",32000]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists Salaries(emp_name varchar(30), department varchar(30),salary int)\"],\"mssql\":[\"Create table Salaries(emp_name varchar(30), department varchar(30),salary int)\"],\"oraclesql\":[\"Create table Salaries(emp_name varchar(30), department varchar(30),salary int)\"],\"database\":true,\"name\":\"salaries_difference\",\"pythondata\":[\"Salaries = pd.DataFrame([], columns=['emp_name', 'department', 'salary']).astype({'emp_name':'object', 'department':'object', 'salary':'Int64'})\"],\"postgresql\":[\"Create table if not exists Salaries(emp_name varchar(30), department varchar(30),salary int)\"],\"database_schema\":{\"Salaries\":{\"emp_name\":\"VARCHAR(30)\",\"department\":\"VARCHAR(30)\",\"salary\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.6K\", \"totalSubmission\": \"2.5K\", \"totalAcceptedRaw\": 1616, \"totalSubmissionRaw\": 2490, \"acRate\": \"64.9%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:33Z",
+  "source": "https://leetcode.cn/problems/display-the-first-three-rows/",
+  "question": {
+    "questionId": "3065",
+    "questionFrontendId": "2879",
+    "title": "Display the First Three Rows",
+    "titleSlug": "display-the-first-three-rows",
+    "translatedTitle": "显示前三行",
+    "content": "<pre>\nDataFrame: <code>employees</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| employee_id | int    |\n| name        | object |\n| department  | object |\n| salary      | int    |\n+-------------+--------+\n</pre>\n\n<p>Write a solution to display the <strong>first <code>3</code> </strong>rows<strong> </strong>of this DataFrame.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:\n</strong>DataFrame employees\n+-------------+-----------+-----------------------+--------+\n| employee_id | name      | department            | salary |\n+-------------+-----------+-----------------------+--------+\n| 3           | Bob       | Operations            | 48675  |\n| 90          | Alice     | Sales                 | 11096  |\n| 9           | Tatiana   | Engineering           | 33805  |\n| 60          | Annabelle | InformationTechnology | 37678  |\n| 49          | Jonathan  | HumanResources        | 23793  |\n| 43          | Khaled    | Administration        | 40454  |\n+-------------+-----------+-----------------------+--------+\n<strong>Output:</strong>\n+-------------+---------+-------------+--------+\n| employee_id | name    | department  | salary |\n+-------------+---------+-------------+--------+\n| 3           | Bob     | Operations  | 48675  |\n| 90          | Alice   | Sales       | 11096  |\n| 9           | Tatiana | Engineering | 33805  |\n+-------------+---------+-------------+--------+\n<strong>Explanation:</strong> \nOnly the first 3 rows are displayed.</pre>\n",
+    "translatedContent": "<pre>\nDataFrame: <code>employees</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| employee_id | int    |\n| name        | object |\n| department  | object |\n| salary      | int    |\n+-------------+--------+\n</pre>\n\n<p>编写一个解决方案，显示这个 DataFrame 的<strong> 前&nbsp;&nbsp;<code>3</code>&nbsp;</strong>行。</p>\n\n<p>&nbsp;</p>\n\n<p><b>示例 1:</b></p>\n\n<pre>\n<strong>输入：\n</strong>DataFrame employees\n+-------------+-----------+-----------------------+--------+\n| employee_id | name      | department            | salary |\n+-------------+-----------+-----------------------+--------+\n| 3           | Bob       | Operations            | 48675  |\n| 90          | Alice     | Sales                 | 11096  |\n| 9           | Tatiana   | Engineering           | 33805  |\n| 60          | Annabelle | InformationTechnology | 37678  |\n| 49          | Jonathan  | HumanResources        | 23793  |\n| 43          | Khaled    | Administration        | 40454  |\n+-------------+-----------+-----------------------+--------+\n<b>输出：</b>\n+-------------+---------+-------------+--------+\n| employee_id | name    | department  | salary |\n+-------------+---------+-------------+--------+\n| 3           | Bob     | Operations  | 48675  |\n| 90          | Alice   | Sales       | 11096  |\n| 9           | Tatiana | Engineering | 33805  |\n+-------------+---------+-------------+--------+\n<b>解释：</b>\n只有前 3 行被显示。</pre>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"employees\":[\"employee_id\",\"name\",\"department\",\"salary\"]},\"rows\":{\"employees\":[[3,\"Bob\",\"Operations\",48675],[90,\"Alice\",\"Sales\",11096],[9,\"Tatiana\",\"Engineering\",33805],[60,\"Annabelle\",\"InformationTechnology\",37678],[49,\"Jonathan\",\"HumanResources\",23793],[43,\"Khaled\",\"Administration\",40454]]}}",
+    "sampleTestCase": "{\"headers\":{\"employees\":[\"employee_id\",\"name\",\"department\",\"salary\"]},\"rows\":{\"employees\":[[3,\"Bob\",\"Operations\",48675],[90,\"Alice\",\"Sales\",11096],[9,\"Tatiana\",\"Engineering\",33805],[60,\"Annabelle\",\"InformationTechnology\",37678],[49,\"Jonathan\",\"HumanResources\",23793],[43,\"Khaled\",\"Administration\",40454]]}}",
+    "enableRunCode": true,
+    "metaData": "{\n  \"pythondata\": [\n    \"employees = pd.DataFrame([], columns=['employee_id', 'name', 'department', 'salary']).astype({'employee_id':'Int64', 'name':'object', 'department':'object', 'salary':'Int64'})\"\n  ],\n  \"database\": true,\n  \"name\": \"selectFirstRows\",\n  \"languages\": [\n    \"pythondata\"\n  ]\n}",
+    "codeSnippets": [
+      {
+        "lang": "Pandas",
+        "langSlug": "pythondata",
+        "code": "import pandas as pd\n\ndef selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:\n    "
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"13.1K\", \"totalSubmission\": \"14.3K\", \"totalAcceptedRaw\": 13091, \"totalSubmissionRaw\": 14276, \"acRate\": \"91.7%\"}",
+    "topicTags": []
+  }
+}

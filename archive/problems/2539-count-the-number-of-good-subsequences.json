@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:35Z",
+  "source": "https://leetcode.cn/problems/count-the-number-of-good-subsequences/",
+  "question": {
+    "questionId": "2683",
+    "questionFrontendId": "2539",
+    "title": "Count the Number of Good Subsequences",
+    "titleSlug": "count-the-number-of-good-subsequences",
+    "translatedTitle": "好子序列的个数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "\"aabb\"\n\"leet\"\n\"abcd\"",
+    "sampleTestCase": "\"aabb\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countGoodSubsequences\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"464\", \"totalSubmission\": \"926\", \"totalAcceptedRaw\": 464, \"totalSubmissionRaw\": 926, \"acRate\": \"50.1%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Combinatorics",
+        "slug": "combinatorics",
+        "translatedName": "组合数学"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      }
+    ]
+  }
+}

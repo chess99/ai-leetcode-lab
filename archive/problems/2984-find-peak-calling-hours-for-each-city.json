@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:53Z",
+  "source": "https://leetcode.cn/problems/find-peak-calling-hours-for-each-city/",
+  "question": {
+    "questionId": "3281",
+    "questionFrontendId": "2984",
+    "title": "Find Peak Calling Hours for Each City",
+    "titleSlug": "find-peak-calling-hours-for-each-city",
+    "translatedTitle": "找到每座城市的高峰通话小时",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Calls\":[\"caller_id\",\"recipient_id\",\"call_time\",\"city\"]},\"rows\":{\"Calls\":[[8,4,\"2021-08-24 22:46:07\",\"Houston\"],[4,8,\"2021-08-24 22:57:13\",\"Houston\"],[5,1,\"2021-08-11 21:28:44\",\"Houston\"],[8,3,\"2021-08-17 22:04:15\",\"Houston\"],[11,3,\"2021-08-17 13:07:00\",\"New York\"],[8,11,\"2021-08-17 14:22:22\",\"New York\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Calls\":[\"caller_id\",\"recipient_id\",\"call_time\",\"city\"]},\"rows\":{\"Calls\":[[8,4,\"2021-08-24 22:46:07\",\"Houston\"],[4,8,\"2021-08-24 22:57:13\",\"Houston\"],[5,1,\"2021-08-11 21:28:44\",\"Houston\"],[8,3,\"2021-08-17 22:04:15\",\"Houston\"],[11,3,\"2021-08-17 13:07:00\",\"New York\"],[8,11,\"2021-08-17 14:22:22\",\"New York\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Calls (caller_id int, recipient_id int, call_time datetime, city varchar(40))\"],\"mssql\":[\"Create table Calls (caller_id int, recipient_id int, call_time datetime, city varchar(40))\"],\"oraclesql\":[\"Create table Calls (caller_id int, recipient_id int, call_time date, city varchar(40))\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"],\"database\":true,\"name\":\"peak_calling_hours\",\"pythondata\":[\"Calls = pd.DataFrame([], columns=['caller_id', 'recipient_id', 'call_time', 'city']).astype({'caller_id':'Int64', 'recipient_id':'Int64', 'call_time':'datetime64[ns]', 'city':'object'})\\n\"],\"postgresql\":[\"CREATE TABLE IF NOT EXISTS Calls (caller_id INT,recipient_id INT,call_time TIMESTAMP,city VARCHAR(40))\"],\"database_schema\":{\"Calls\":{\"caller_id\":\"INT\",\"recipient_id\":\"INT\",\"call_time\":\"DATETIME\",\"city\":\"VARCHAR(40)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 1177, \"totalSubmissionRaw\": 1950, \"acRate\": \"60.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

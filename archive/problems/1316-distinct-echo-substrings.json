@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:08Z",
+  "source": "https://leetcode.cn/problems/distinct-echo-substrings/",
+  "question": {
+    "questionId": "1244",
+    "questionFrontendId": "1316",
+    "title": "Distinct Echo Substrings",
+    "titleSlug": "distinct-echo-substrings",
+    "translatedTitle": "不同的循环子字符串",
+    "content": "<p>Return the number of <strong>distinct</strong> non-empty substrings of <code>text</code>&nbsp;that can be written as the concatenation of some string with itself (i.e. it can be written as <code>a + a</code>&nbsp;where <code>a</code> is some string).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> text = &quot;abcabcabc&quot;\n<strong>Output:</strong> 3\n<b>Explanation: </b>The 3 substrings are &quot;abcabc&quot;, &quot;bcabca&quot; and &quot;cabcab&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> text = &quot;leetcodeleetcode&quot;\n<strong>Output:</strong> 2\n<b>Explanation: </b>The 2 substrings are &quot;ee&quot; and &quot;leetcodeleetcode&quot;.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= text.length &lt;= 2000</code></li>\n\t<li><code>text</code>&nbsp;has only lowercase English letters.</li>\n</ul>\n",
+    "translatedContent": "<p>给你一个字符串&nbsp;<code>text</code> ，请你返回满足下述条件的&nbsp;<strong>不同</strong> 非空子字符串的数目：</p>\n\n<ul>\n\t<li>可以写成某个字符串与其自身相连接的形式（即，可以写为 <code>a&nbsp;+ a</code>，其中 <code>a</code> 是某个字符串）。</li>\n</ul>\n\n<p>例如，<code>abcabc</code>&nbsp;就是&nbsp;<code>abc</code>&nbsp;和它自身连接形成的。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入：</strong>text = &quot;abcabcabc&quot;\n<strong>输出：</strong>3\n<strong>解释：</strong>3 个子字符串分别为 &quot;abcabc&quot;，&quot;bcabca&quot; 和 &quot;cabcab&quot; 。\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><strong>输入：</strong>text = &quot;leetcodeleetcode&quot;\n<strong>输出：</strong>2\n<strong>解释：</strong>2 个子字符串为 &quot;ee&quot; 和 &quot;leetcodeleetcode&quot; 。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= text.length &lt;= 2000</code></li>\n\t<li><code>text</code>&nbsp;只包含小写英文字母。</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 66,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcabcabc\"\n\"leetcodeleetcode\"",
+    "sampleTestCase": "\"abcabcabc\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"distinctEchoSubstrings\",\n  \"params\": [\n    {\n      \"name\": \"text\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int distinctEchoSubstrings(string text) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int distinctEchoSubstrings(String text) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def distinctEchoSubstrings(self, text: str) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def distinctEchoSubstrings(self, text):\n        \"\"\"\n        :type text: str\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string} text\n * @return {number}\n */\nvar distinctEchoSubstrings = function(text) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function distinctEchoSubstrings(text: string): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int DistinctEchoSubstrings(string text) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int distinctEchoSubstrings(char* text) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func distinctEchoSubstrings(text string) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun distinctEchoSubstrings(text: String): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func distinctEchoSubstrings(_ text: String) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn distinct_echo_substrings(text: String) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String} text\n# @return {Integer}\ndef distinct_echo_substrings(text)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String $text\n     * @return Integer\n     */\n    function distinctEchoSubstrings($text) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int distinctEchoSubstrings(String text) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def distinctEchoSubstrings(text: String): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec distinct_echo_substrings(text :: String.t) :: integer\n  def distinct_echo_substrings(text) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec distinct_echo_substrings(Text :: unicode:unicode_binary()) -> integer().\ndistinct_echo_substrings(Text) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (distinct-echo-substrings text)\n  (-> string? exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func distinctEchoSubstrings(text: String): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"8.5K\", \"totalSubmission\": \"15.6K\", \"totalAcceptedRaw\": 8548, \"totalSubmissionRaw\": 15599, \"acRate\": \"54.8%\"}",
+    "topicTags": [
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Suffix Array",
+        "slug": "suffix-array",
+        "translatedName": "后缀数组"
+      },
+      {
+        "name": "Suffix Tree",
+        "slug": "suffix-tree",
+        "translatedName": null
+      },
+      {
+        "name": "Hash Function",
+        "slug": "hash-function",
+        "translatedName": "哈希函数"
+      },
+      {
+        "name": "Rolling Hash",
+        "slug": "rolling-hash",
+        "translatedName": "滚动哈希"
+      },
+      {
+        "name": "Suffix Automato",
+        "slug": "suffix-automaton",
+        "translatedName": null
+      }
+    ]
+  }
+}

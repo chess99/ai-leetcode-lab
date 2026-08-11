@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:59Z",
+  "source": "https://leetcode.cn/problems/maximum-number-of-removal-queries-that-can-be-processed-i/",
+  "question": {
+    "questionId": "3323",
+    "questionFrontendId": "3018",
+    "title": "Maximum Number of Removal Queries That Can Be Processed I",
+    "titleSlug": "maximum-number-of-removal-queries-that-can-be-processed-i",
+    "translatedTitle": "可处理的最大删除操作数 I",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3,4,5]\n[1,2,3,4,6]\n[2,3,2]\n[2,2,3]\n[3,4,3]\n[4,3,2]",
+    "sampleTestCase": "[1,2,3,4,5]\n[1,2,3,4,6]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maximumProcessableQueries\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"queries\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"497\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 497, \"totalSubmissionRaw\": 1504, \"acRate\": \"33.0%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

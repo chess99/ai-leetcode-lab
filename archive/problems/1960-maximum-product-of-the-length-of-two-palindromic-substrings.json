@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:00Z",
+  "source": "https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-substrings/",
+  "question": {
+    "questionId": "1336",
+    "questionFrontendId": "1960",
+    "title": "Maximum Product of the Length of Two Palindromic Substrings",
+    "titleSlug": "maximum-product-of-the-length-of-two-palindromic-substrings",
+    "translatedTitle": "两个回文子字符串长度的最大乘积",
+    "content": "<p>You are given a <strong>0-indexed</strong> string <code>s</code> and are tasked with finding two <strong>non-intersecting palindromic </strong>substrings of <strong>odd</strong> length such that the product of their lengths is maximized.</p>\n\n<p>More formally, you want to choose four integers <code>i</code>, <code>j</code>, <code>k</code>, <code>l</code> such that <code>0 &lt;= i &lt;= j &lt; k &lt;= l &lt; s.length</code> and both the substrings <code>s[i...j]</code> and <code>s[k...l]</code> are palindromes and have odd lengths. <code>s[i...j]</code> denotes a substring from index <code>i</code> to index <code>j</code> <strong>inclusive</strong>.</p>\n\n<p>Return <em>the <strong>maximum</strong> possible product of the lengths of the two non-intersecting palindromic substrings.</em></p>\n\n<p>A <strong>palindrome</strong> is a string that is the same forward and backward. A <strong>substring</strong> is a contiguous sequence of characters in a string.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ababbb&quot;\n<strong>Output:</strong> 9\n<strong>Explanation:</strong> Substrings &quot;aba&quot; and &quot;bbb&quot; are palindromes with odd length. product = 3 * 3 = 9.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;zaaaxbbby&quot;\n<strong>Output:</strong> 9\n<strong>Explanation:</strong> Substrings &quot;aaa&quot; and &quot;bbb&quot; are palindromes with odd length. product = 3 * 3 = 9.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of lowercase English letters.</li>\n</ul>\n",
+    "translatedContent": "<p>给你一个下标从 <strong>0</strong>&nbsp;开始的字符串&nbsp;<code>s</code>&nbsp;，你需要找到两个 <strong>不重叠</strong><strong>的回文&nbsp;</strong>子字符串，它们的长度都必须为 <strong>奇数</strong>&nbsp;，使得它们长度的乘积最大。</p>\n\n<p>更正式地，你想要选择四个整数&nbsp;<code>i</code>&nbsp;，<code>j</code>&nbsp;，<code>k</code>&nbsp;，<code>l</code>&nbsp;，使得&nbsp;<code>0 &lt;= i &lt;= j &lt; k &lt;= l &lt; s.length</code>&nbsp;，且子字符串&nbsp;<code>s[i...j]</code> 和&nbsp;<code>s[k...l]</code>&nbsp;都是回文串且长度为奇数。<code>s[i...j]</code>&nbsp;表示下标从 <code>i</code>&nbsp;到 <code>j</code>&nbsp;且 <strong>包含</strong>&nbsp;两端下标的子字符串。</p>\n\n<p>请你返回两个不重叠回文子字符串长度的 <strong>最大</strong>&nbsp;乘积。</p>\n\n<p><strong>回文字符串</strong>&nbsp;指的是一个从前往后读和从后往前读一模一样的字符串。<strong>子字符串</strong>&nbsp;指的是一个字符串中一段连续字符。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<b>输入：</b>s = \"ababbb\"\n<b>输出：</b>9\n<b>解释：</b>子字符串 \"aba\" 和 \"bbb\" 为奇数长度的回文串。乘积为 3 * 3 = 9 。\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<b>输入：</b>s = \"zaaaxbbby\"\n<b>输出：</b>9\n<b>解释：</b>子字符串 \"aaa\" 和 \"bbb\" 为奇数长度的回文串。乘积为 3 * 3 = 9 。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code>&nbsp;只包含小写英文字母。</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Hard",
+    "likes": 28,
+    "dislikes": 0,
+    "exampleTestcases": "\"ababbb\"\n\"zaaaxbbby\"",
+    "sampleTestCase": "\"ababbb\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxProduct\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    long long maxProduct(string s) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public long maxProduct(String s) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def maxProduct(self, s: str) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def maxProduct(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string} s\n * @return {number}\n */\nvar maxProduct = function(s) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function maxProduct(s: string): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public long MaxProduct(string s) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "long long maxProduct(char* s) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func maxProduct(s string) int64 {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun maxProduct(s: String): Long {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func maxProduct(_ s: String) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn max_product(s: String) -> i64 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String} s\n# @return {Integer}\ndef max_product(s)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function maxProduct($s) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int maxProduct(String s) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def maxProduct(s: String): Long = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec max_product(s :: String.t) :: integer\n  def max_product(s) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec max_product(S :: unicode:unicode_binary()) -> integer().\nmax_product(S) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (max-product s)\n  (-> string? exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func maxProduct(s: String): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"1.9K\", \"totalSubmission\": \"5.6K\", \"totalAcceptedRaw\": 1935, \"totalSubmissionRaw\": 5588, \"acRate\": \"34.6%\"}",
+    "topicTags": [
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Manacher 算法",
+        "slug": "manacher",
+        "translatedName": null
+      },
+      {
+        "name": "Hash Function",
+        "slug": "hash-function",
+        "translatedName": "哈希函数"
+      },
+      {
+        "name": "Rolling Hash",
+        "slug": "rolling-hash",
+        "translatedName": "滚动哈希"
+      },
+      {
+        "name": "Palindromic Tre",
+        "slug": "palindromic-tree",
+        "translatedName": null
+      }
+    ]
+  }
+}

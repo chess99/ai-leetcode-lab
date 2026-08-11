@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:19Z",
+  "source": "https://leetcode.cn/problems/maximize-profit-from-task-assignment/",
+  "question": {
+    "questionId": "3818",
+    "questionFrontendId": "3476",
+    "title": "Maximize Profit from Task Assignment",
+    "titleSlug": "maximize-profit-from-task-assignment",
+    "translatedTitle": "最大化任务分配的利润",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3,4,5]\n[[1,100],[2,400],[3,100],[3,400]]\n[10,10000,100000000]\n[[1,100]]\n[7]\n[[3,3],[3,3]]",
+    "sampleTestCase": "[1,2,3,4,5]\n[[1,100],[2,400],[3,100],[3,400]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxProfit\",\n  \"params\": [\n    {\n      \"name\": \"workers\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"tasks\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"221\", \"totalSubmission\": \"337\", \"totalAcceptedRaw\": 221, \"totalSubmissionRaw\": 337, \"acRate\": \"65.6%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

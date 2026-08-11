@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:51Z",
+  "source": "https://leetcode.cn/problems/curry/",
+  "question": {
+    "questionId": "2740",
+    "questionFrontendId": "2632",
+    "title": "Curry",
+    "titleSlug": "curry",
+    "translatedTitle": "柯里化",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 17,
+    "dislikes": 0,
+    "exampleTestcases": "function sum(a, b, c) { return a + b + c; }\n[[1],[2],[3]]\nfunction sum(a, b, c) { return a + b + c; }\n[[1,2],[3]]\nfunction sum(a, b, c) { return a + b + c; }\n[[],[],[1,2,3]]\nfunction life() { return 42; }\n[[]]",
+    "sampleTestCase": "function sum(a, b, c) { return a + b + c; }\n[[1],[2],[3]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"curry\",\n  \"params\": [\n    {\n      \"name\": \"fn\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"inputs\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.8K\", \"totalSubmission\": \"3.4K\", \"totalAcceptedRaw\": 2826, \"totalSubmissionRaw\": 3409, \"acRate\": \"82.9%\"}",
+    "topicTags": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:22Z",
+  "source": "https://leetcode.cn/problems/generalized-abbreviation/",
+  "question": {
+    "questionId": "320",
+    "questionFrontendId": "320",
+    "title": "Generalized Abbreviation",
+    "titleSlug": "generalized-abbreviation",
+    "translatedTitle": "列举单词的全部缩写",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 119,
+    "dislikes": 0,
+    "exampleTestcases": "\"word\"\n\"a\"",
+    "sampleTestCase": "\"word\"",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"generateAbbreviations\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"word\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.1K\", \"totalSubmission\": \"8.6K\", \"totalAcceptedRaw\": 6086, \"totalSubmissionRaw\": 8607, \"acRate\": \"70.7%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

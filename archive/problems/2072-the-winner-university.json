@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:17Z",
+  "source": "https://leetcode.cn/problems/the-winner-university/",
+  "question": {
+    "questionId": "2214",
+    "questionFrontendId": "2072",
+    "title": "The Winner University",
+    "titleSlug": "the-winner-university",
+    "translatedTitle": "赢得比赛的大学",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 14,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"NewYork\":[\"student_id\",\"score\"],\"California\":[\"student_id\",\"score\"]},\"rows\":{\"NewYork\":[[1,90],[2,87]],\"California\":[[2,89],[3,88]]}}\n{\"headers\":{\"NewYork\":[\"student_id\",\"score\"],\"California\":[\"student_id\",\"score\"]},\"rows\":{\"NewYork\":[[1,89],[2,88]],\"California\":[[2,90],[3,87]]}}\n{\"headers\":{\"NewYork\":[\"student_id\",\"score\"],\"California\":[\"student_id\",\"score\"]},\"rows\":{\"NewYork\":[[1,89],[2,90]],\"California\":[[2,87],[3,99]]}}",
+    "sampleTestCase": "{\"headers\":{\"NewYork\":[\"student_id\",\"score\"],\"California\":[\"student_id\",\"score\"]},\"rows\":{\"NewYork\":[[1,90],[2,87]],\"California\":[[2,89],[3,88]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists NewYork (student_id int, score int)\",\"Create table If Not Exists California (student_id int, score int)\"],\"mssql\":[\"Create table NewYork (student_id int, score int)\",\"Create table California (student_id int, score int)\"],\"oraclesql\":[\"Create table NewYork (student_id int, score int)\",\"Create table California (student_id int, score int)\"],\"database\":true,\"name\":\"find_winner\",\"pythondata\":[\"NewYork = pd.DataFrame([], columns=['student_id', 'score']).astype({'student_id':'Int64', 'score':'Int64'})\",\"California = pd.DataFrame([], columns=['student_id', 'score']).astype({'student_id':'Int64', 'score':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists NewYork (student_id int, score int)\",\"Create table If Not Exists California (student_id int, score int)\"],\"database_schema\":{\"NewYork\":{\"student_id\":\"INT\",\"score\":\"INT\"},\"California\":{\"student_id\":\"INT\",\"score\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.2K\", \"totalSubmission\": \"6K\", \"totalAcceptedRaw\": 4223, \"totalSubmissionRaw\": 5951, \"acRate\": \"71.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

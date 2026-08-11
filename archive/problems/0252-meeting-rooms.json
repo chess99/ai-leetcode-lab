@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:10Z",
+  "source": "https://leetcode.cn/problems/meeting-rooms/",
+  "question": {
+    "questionId": "252",
+    "questionFrontendId": "252",
+    "title": "Meeting Rooms",
+    "titleSlug": "meeting-rooms",
+    "translatedTitle": "会议室",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 177,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,30],[5,10],[15,20]]\n[[7,10],[2,4]]",
+    "sampleTestCase": "[[0,30],[5,10],[15,20]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"canAttendMeetings\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"intervals\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"34K\", \"totalSubmission\": \"57.2K\", \"totalAcceptedRaw\": 34041, \"totalSubmissionRaw\": 57238, \"acRate\": \"59.5%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "快速排序",
+        "slug": "quicksort",
+        "translatedName": null
+      }
+    ]
+  }
+}

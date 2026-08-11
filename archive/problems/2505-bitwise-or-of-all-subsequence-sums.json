@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:29Z",
+  "source": "https://leetcode.cn/problems/bitwise-or-of-all-subsequence-sums/",
+  "question": {
+    "questionId": "2644",
+    "questionFrontendId": "2505",
+    "title": "Bitwise OR of All Subsequence Sums",
+    "titleSlug": "bitwise-or-of-all-subsequence-sums",
+    "translatedTitle": "所有子序列和的按位或",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "[2,1,0,3]\n[0,0,0]",
+    "sampleTestCase": "[2,1,0,3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"subsequenceSumOr\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"469\", \"totalSubmission\": \"967\", \"totalAcceptedRaw\": 469, \"totalSubmissionRaw\": 967, \"acRate\": \"48.5%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Brainteaser",
+        "slug": "brainteaser",
+        "translatedName": "脑筋急转弯"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

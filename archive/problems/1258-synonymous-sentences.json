@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:59Z",
+  "source": "https://leetcode.cn/problems/synonymous-sentences/",
+  "question": {
+    "questionId": "1191",
+    "questionFrontendId": "1258",
+    "title": "Synonymous Sentences",
+    "titleSlug": "synonymous-sentences",
+    "translatedTitle": "近义词句子",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 43,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"happy\",\"joy\"],[\"sad\",\"sorrow\"],[\"joy\",\"cheerful\"]]\n\"I am happy today but was sad yesterday\"\n[[\"happy\",\"joy\"],[\"cheerful\",\"glad\"]]\n\"I am happy today but was sad yesterday\"",
+    "sampleTestCase": "[[\"happy\",\"joy\"],[\"sad\",\"sorrow\"],[\"joy\",\"cheerful\"]]\n\"I am happy today but was sad yesterday\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"generateSentences\",\n  \"params\": [\n    {\n      \"name\": \"synonyms\",\n      \"type\": \"list<list<string>>\"\n    },\n    {\n      \"name\": \"text\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.7K\", \"totalSubmission\": \"4.4K\", \"totalAcceptedRaw\": 2673, \"totalSubmissionRaw\": 4422, \"acRate\": \"60.4%\"}",
+    "topicTags": [
+      {
+        "name": "Sort",
+        "slug": "sort",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Union Find",
+        "slug": "union-find",
+        "translatedName": "并查集"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

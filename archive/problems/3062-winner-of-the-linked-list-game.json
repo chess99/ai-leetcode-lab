@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:07Z",
+  "source": "https://leetcode.cn/problems/winner-of-the-linked-list-game/",
+  "question": {
+    "questionId": "3368",
+    "questionFrontendId": "3062",
+    "title": "Winner of the Linked List Game",
+    "titleSlug": "winner-of-the-linked-list-game",
+    "translatedTitle": "链表游戏的获胜者",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[2,1]",
+    "sampleTestCase": "[2,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"gameResult\",\n  \"params\": [\n    {\n      \"name\": \"head\",\n      \"type\": \"ListNode\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"2.2K\", \"totalAcceptedRaw\": 1107, \"totalSubmissionRaw\": 2161, \"acRate\": \"51.2%\"}",
+    "topicTags": [
+      {
+        "name": "Linked List",
+        "slug": "linked-list",
+        "translatedName": "链表"
+      }
+    ]
+  }
+}

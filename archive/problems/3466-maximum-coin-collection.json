@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:18Z",
+  "source": "https://leetcode.cn/problems/maximum-coin-collection/",
+  "question": {
+    "questionId": "3806",
+    "questionFrontendId": "3466",
+    "title": "Maximum Coin Collection ",
+    "titleSlug": "maximum-coin-collection",
+    "translatedTitle": "最大硬币收集量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[1,-2,-10,3]\n[-5,10,0,1]\n[1,-1,-1,-1]\n[0,3,4,-5]\n[-5,-4,-3]\n[-1,2,3]\n[-3,-3,-3]\n[9,-2,4]\n[-10]\n[-2]",
+    "sampleTestCase": "[1,-2,-10,3]\n[-5,10,0,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxCoins\",\n  \"params\": [\n    {\n      \"name\": \"lane1\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"lane2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"421\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 421, \"totalSubmissionRaw\": 1361, \"acRate\": \"30.9%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

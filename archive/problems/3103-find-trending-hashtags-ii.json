@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:13Z",
+  "source": "https://leetcode.cn/problems/find-trending-hashtags-ii/",
+  "question": {
+    "questionId": "3409",
+    "questionFrontendId": "3103",
+    "title": "Find Trending Hashtags II ",
+    "titleSlug": "find-trending-hashtags-ii",
+    "translatedTitle": "查找热门话题标签 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Tweets\":[\"user_id\",\"tweet_id\",\"tweet\",\"tweet_date\"]},\"rows\":{\"Tweets\":[[135,13,\"Enjoying a great start to the day. #HappyDay #MorningVibes\",\"2024-02-01\"],[136,14,\"Another #HappyDay with good vibes! #FeelGood\",\"2024-02-03\"],[137,15,\"Productivity peaks! #WorkLife #ProductiveDay\",\"2024-02-04\"],[138,16,\"Exploring new tech frontiers. #TechLife #Innovation\",\"2024-02-04\"],[139,17,\"Gratitude for today's moments. #HappyDay #Thankful\",\"2024-02-05\"],[140,18,\"Innovation drives us. #TechLife #FutureTech\",\"2024-02-07\"],[141,19,\"Connecting with nature's serenity. #Nature #Peaceful\",\"2024-02-09\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Tweets\":[\"user_id\",\"tweet_id\",\"tweet\",\"tweet_date\"]},\"rows\":{\"Tweets\":[[135,13,\"Enjoying a great start to the day. #HappyDay #MorningVibes\",\"2024-02-01\"],[136,14,\"Another #HappyDay with good vibes! #FeelGood\",\"2024-02-03\"],[137,15,\"Productivity peaks! #WorkLife #ProductiveDay\",\"2024-02-04\"],[138,16,\"Exploring new tech frontiers. #TechLife #Innovation\",\"2024-02-04\"],[139,17,\"Gratitude for today's moments. #HappyDay #Thankful\",\"2024-02-05\"],[140,18,\"Innovation drives us. #TechLife #FutureTech\",\"2024-02-07\"],[141,19,\"Connecting with nature's serenity. #Nature #Peaceful\",\"2024-02-09\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Tweets (user_id int, tweet_id int,  tweet_date date, tweet varchar(100))\"],\"mssql\":[\"Create table Tweets (user_id int, tweet_id int,  tweet_date date, tweet varchar(100))\"],\"oraclesql\":[\"Create table Tweets (user_id int, tweet_id int,  tweet_date date, tweet varchar(100))\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"find_trending_hashtags\",\"postgresql\":[\"CREATE TABLE Tweets (\\n    user_id INT,\\n    tweet_id INT,\\n    tweet_date DATE,\\n    tweet VARCHAR(100)\\n);\\n\"],\"pythondata\":[\"Tweets = pd.DataFrame([], columns=['user_id', 'tweet_id', 'tweet_date', 'tweet']).astype({'user_id':'Int64', 'tweet_id':'Int64', 'tweet_date':'datetime64[ns]', 'tweet':'object'})\\n\"],\"database_schema\":{\"Tweets\":{\"user_id\":\"INT\",\"tweet_id\":\"INT\",\"tweet_date\":\"DATE\",\"tweet\":\"VARCHAR(100)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"531\", \"totalSubmission\": \"794\", \"totalAcceptedRaw\": 531, \"totalSubmissionRaw\": 794, \"acRate\": \"66.9%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

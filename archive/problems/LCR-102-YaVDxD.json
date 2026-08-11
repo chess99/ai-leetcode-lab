@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:26Z",
+  "source": "https://leetcode.cn/problems/YaVDxD/",
+  "question": {
+    "questionId": "1000288",
+    "questionFrontendId": "LCR 102",
+    "title": "目标和",
+    "titleSlug": "YaVDxD",
+    "translatedTitle": "目标和",
+    "content": "<p>English description is not available for the problem. Please switch to Chinese.</p>\n",
+    "translatedContent": "<p>给定一个正整数数组 <code>nums</code> 和一个整数 <code>target</code> 。</p>\n\n<p>向数组中的每个整数前添加&nbsp;<code>&#39;+&#39;</code> 或 <code>&#39;-&#39;</code> ，然后串联起所有整数，可以构造一个 <strong>表达式</strong> ：</p>\n\n<ul>\n\t<li>例如，<code>nums = [2, 1]</code> ，可以在 <code>2</code> 之前添加 <code>&#39;+&#39;</code> ，在 <code>1</code> 之前添加 <code>&#39;-&#39;</code> ，然后串联起来得到表达式 <code>&quot;+2-1&quot;</code> 。</li>\n</ul>\n\n<p>返回可以通过上述方法构造的、运算结果等于 <code>target</code> 的不同 <strong>表达式</strong> 的数目。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [1,1,1,1,1], target = 3\n<strong>输出：</strong>5\n<strong>解释：</strong>一共有 5 种方法让最终目标和为 3 。\n-1 + 1 + 1 + 1 + 1 = 3\n+1 - 1 + 1 + 1 + 1 = 3\n+1 + 1 - 1 + 1 + 1 = 3\n+1 + 1 + 1 - 1 + 1 = 3\n+1 + 1 + 1 + 1 - 1 = 3\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [1], target = 1\n<strong>输出：</strong>1\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 20</code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 1000</code></li>\n\t<li><code>0 &lt;= sum(nums[i]) &lt;= 1000</code></li>\n\t<li><code>-1000 &lt;= target &lt;= 1000</code></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><meta charset=\"UTF-8\" />注意：本题与主站 494&nbsp;题相同：&nbsp;<a href=\"https://leetcode.cn/problems/target-sum/\">https://leetcode.cn/problems/target-sum/</a></p>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 90,
+    "dislikes": 0,
+    "exampleTestcases": "[1,1,1,1,1]\n3\n[1]\n1",
+    "sampleTestCase": "[1,1,1,1,1]\n3",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"findTargetSumWays\", \"params\": [{\"name\": \"nums\", \"type\": \"integer[]\"}, {\"name\": \"target\", \"type\": \"integer\"}], \"return\": {\"type\": \"integer\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int findTargetSumWays(vector<int>& nums, int target) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int findTargetSumWays(int[] nums, int target) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def findTargetSumWays(self, nums: List[int], target: int) -> int:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def findTargetSumWays(self, nums, target):\n        \"\"\"\n        :type nums: List[int]\n        :type target: int\n        :rtype: int\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar findTargetSumWays = function(nums, target) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function findTargetSumWays(nums: number[], target: number): number {\n\n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int FindTargetSumWays(int[] nums, int target) {\n\n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\nint findTargetSumWays(int* nums, int numsSize, int target){\n\n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func findTargetSumWays(nums []int, target int) int {\n\n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun findTargetSumWays(nums: IntArray, target: Int): Int {\n\n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func findTargetSumWays(_ nums: [Int], _ target: Int) -> Int {\n\n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn find_target_sum_ways(nums: Vec<i32>, target: i32) -> i32 {\n\n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} nums\n# @param {Integer} target\n# @return {Integer}\ndef find_target_sum_ways(nums, target)\n\nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $target\n     * @return Integer\n     */\n    function findTargetSumWays($nums, $target) {\n\n    }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def findTargetSumWays(nums: Array[Int], target: Int): Int = {\n\n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec find_target_sum_ways(nums :: [integer], target :: integer) :: integer\n  def find_target_sum_ways(nums, target) do\n\n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec find_target_sum_ways(Nums :: [integer()], Target :: integer()) -> integer().\nfind_target_sum_ways(Nums, Target) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (find-target-sum-ways nums target)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n\n  )"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"34.1K\", \"totalSubmission\": \"60.4K\", \"totalAcceptedRaw\": 34066, \"totalSubmissionRaw\": 60379, \"acRate\": \"56.4%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

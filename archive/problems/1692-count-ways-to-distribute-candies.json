@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:12Z",
+  "source": "https://leetcode.cn/problems/count-ways-to-distribute-candies/",
+  "question": {
+    "questionId": "1828",
+    "questionFrontendId": "1692",
+    "title": "Count Ways to Distribute Candies",
+    "titleSlug": "count-ways-to-distribute-candies",
+    "translatedTitle": "计算分配糖果的不同方式",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 11,
+    "dislikes": 0,
+    "exampleTestcases": "3\n2\n4\n2\n20\n5",
+    "sampleTestCase": "3\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"waysToDistribute\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"2.4K\", \"totalAcceptedRaw\": 1061, \"totalSubmissionRaw\": 2449, \"acRate\": \"43.3%\"}",
+    "topicTags": [
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

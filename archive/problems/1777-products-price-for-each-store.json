@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:26Z",
+  "source": "https://leetcode.cn/problems/products-price-for-each-store/",
+  "question": {
+    "questionId": "1926",
+    "questionFrontendId": "1777",
+    "title": "Product's Price for Each Store",
+    "titleSlug": "products-price-for-each-store",
+    "translatedTitle": "每家商店的产品价格",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 46,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Products\":[\"product_id\",\"store\",\"price\"]},\"rows\":{\"Products\":[[\"0\",\"store1\",\"95\"],[\"0\",\"store3\",\"105\"],[\"0\",\"store2\",\"100\"],[\"1\",\"store1\",\"70\"],[\"1\",\"store3\",\"80\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Products\":[\"product_id\",\"store\",\"price\"]},\"rows\":{\"Products\":[[\"0\",\"store1\",\"95\"],[\"0\",\"store3\",\"105\"],[\"0\",\"store2\",\"100\"],[\"1\",\"store1\",\"70\"],[\"1\",\"store3\",\"80\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Products (product_id int, store ENUM('store1', 'store2', 'store3'), price int)\"],\"mssql\":[\"Create table Products (product_id int, store varchar(6) not null check(store in ('store1', 'store2', 'store3')), price int)\"],\"oraclesql\":[\"Create table Products (product_id int, store varchar(6) not null check(store in ('store1', 'store2', 'store3')), price int)\"],\"database\":true,\"name\":\"products_price\",\"pythondata\":[\"Products = pd.DataFrame([], columns=['product_id', 'store', 'price']).astype({'product_id':'Int64', 'store':'category', 'price':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Products (product_id int, store VARCHAR(30) CHECK (store IN ('store1', 'store2', 'store3')), price int)\\n\"],\"manual\":false,\"database_schema\":{\"Products\":{\"product_id\":\"INT\",\"store\":\"ENUM('store1', 'store2', 'store3')\",\"price\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"11K\", \"totalSubmission\": \"14.2K\", \"totalAcceptedRaw\": 11021, \"totalSubmissionRaw\": 14180, \"acRate\": \"77.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

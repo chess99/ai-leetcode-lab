@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:46Z",
+  "source": "https://leetcode.cn/problems/optimal-account-balancing/",
+  "question": {
+    "questionId": "465",
+    "questionFrontendId": "465",
+    "title": "Optimal Account Balancing",
+    "titleSlug": "optimal-account-balancing",
+    "translatedTitle": "最优账单平衡",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 173,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,1,10],[2,0,5]]\n[[0,1,10],[1,0,1],[1,2,5],[2,0,5]]",
+    "sampleTestCase": "[[0,1,10],[2,0,5]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"minTransfers\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"transactions\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4.1K\", \"totalSubmission\": \"7.3K\", \"totalAcceptedRaw\": 4104, \"totalSubmissionRaw\": 7260, \"acRate\": \"56.5%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      },
+      {
+        "name": "Bitmask",
+        "slug": "bitmask",
+        "translatedName": "位掩码"
+      }
+    ]
+  }
+}

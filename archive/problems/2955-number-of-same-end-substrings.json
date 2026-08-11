@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:46Z",
+  "source": "https://leetcode.cn/problems/number-of-same-end-substrings/",
+  "question": {
+    "questionId": "3247",
+    "questionFrontendId": "2955",
+    "title": "Number of Same-End Substrings",
+    "titleSlug": "number-of-same-end-substrings",
+    "translatedTitle": "同端子串的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcaab\"\n[[0,0],[1,4],[2,5],[0,5]]\n\"abcd\"\n[[0,3]]",
+    "sampleTestCase": "\"abcaab\"\n[[0,0],[1,4],[2,5],[0,5]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"sameEndSubstringCount\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"queries\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"405\", \"totalSubmission\": \"1K\", \"totalAcceptedRaw\": 405, \"totalSubmissionRaw\": 1018, \"acRate\": \"39.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

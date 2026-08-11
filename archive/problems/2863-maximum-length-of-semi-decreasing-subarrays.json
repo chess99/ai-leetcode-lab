@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:29Z",
+  "source": "https://leetcode.cn/problems/maximum-length-of-semi-decreasing-subarrays/",
+  "question": {
+    "questionId": "3158",
+    "questionFrontendId": "2863",
+    "title": "Maximum Length of Semi-Decreasing Subarrays",
+    "titleSlug": "maximum-length-of-semi-decreasing-subarrays",
+    "translatedTitle": "最长半递减子数组的长度",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 6,
+    "dislikes": 0,
+    "exampleTestcases": "[7,6,5,4,3,2,1,6,10,11]\n[57,55,50,60,61,58,63,59,64,60,63]\n[1,2,3,4]",
+    "sampleTestCase": "[7,6,5,4,3,2,1,6,10,11]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxSubarrayLength\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"748\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 748, \"totalSubmissionRaw\": 1213, \"acRate\": \"61.7%\"}",
+    "topicTags": [
+      {
+        "name": "Stack",
+        "slug": "stack",
+        "translatedName": "栈"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Monotonic Stack",
+        "slug": "monotonic-stack",
+        "translatedName": "单调栈"
+      }
+    ]
+  }
+}

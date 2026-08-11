@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:34Z",
+  "source": "https://leetcode.cn/problems/find-k-length-substrings-with-no-repeated-characters/",
+  "question": {
+    "questionId": "1084",
+    "questionFrontendId": "1100",
+    "title": "Find K-Length Substrings With No Repeated Characters",
+    "titleSlug": "find-k-length-substrings-with-no-repeated-characters",
+    "translatedTitle": "长度为 K 的无重复字符子串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 70,
+    "dislikes": 0,
+    "exampleTestcases": "\"havefunonleetcode\"\n5\n\"home\"\n5",
+    "sampleTestCase": "\"havefunonleetcode\"\n5",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numKLenSubstrNoRepeats\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"k\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"19.6K\", \"totalSubmission\": \"27K\", \"totalAcceptedRaw\": 19601, \"totalSubmissionRaw\": 27040, \"acRate\": \"72.5%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      }
+    ]
+  }
+}

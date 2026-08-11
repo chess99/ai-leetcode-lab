@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:26Z",
+  "source": "https://leetcode.cn/problems/missing-element-in-sorted-array/",
+  "question": {
+    "questionId": "1059",
+    "questionFrontendId": "1060",
+    "title": "Missing Element in Sorted Array",
+    "titleSlug": "missing-element-in-sorted-array",
+    "translatedTitle": "有序数组中的缺失元素",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 172,
+    "dislikes": 0,
+    "exampleTestcases": "[4,7,9,10]\n1\n[4,7,9,10]\n3\n[1,2,4]\n3",
+    "sampleTestCase": "[4,7,9,10]\n1",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"missingElement\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"15.5K\", \"totalSubmission\": \"27K\", \"totalAcceptedRaw\": 15456, \"totalSubmissionRaw\": 26997, \"acRate\": \"57.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      }
+    ]
+  }
+}

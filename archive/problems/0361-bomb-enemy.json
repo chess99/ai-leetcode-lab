@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:29Z",
+  "source": "https://leetcode.cn/problems/bomb-enemy/",
+  "question": {
+    "questionId": "361",
+    "questionFrontendId": "361",
+    "title": "Bomb Enemy",
+    "titleSlug": "bomb-enemy",
+    "translatedTitle": "轰炸敌人",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 123,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"0\",\"E\",\"0\",\"0\"],[\"E\",\"0\",\"W\",\"E\"],[\"0\",\"E\",\"0\",\"0\"]]\n[[\"W\",\"W\",\"W\"],[\"0\",\"0\",\"0\"],[\"E\",\"E\",\"E\"]]",
+    "sampleTestCase": "[[\"0\",\"E\",\"0\",\"0\"],[\"E\",\"0\",\"W\",\"E\"],[\"0\",\"E\",\"0\",\"0\"]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"maxKilledEnemies\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"character[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.3K\", \"totalSubmission\": \"12.2K\", \"totalAcceptedRaw\": 7350, \"totalSubmissionRaw\": 12227, \"acRate\": \"60.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

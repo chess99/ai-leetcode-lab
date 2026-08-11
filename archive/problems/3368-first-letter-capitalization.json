@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:59Z",
+  "source": "https://leetcode.cn/problems/first-letter-capitalization/",
+  "question": {
+    "questionId": "3703",
+    "questionFrontendId": "3368",
+    "title": "First Letter Capitalization",
+    "titleSlug": "first-letter-capitalization",
+    "translatedTitle": "首字母大写",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"user_content\":[\"content_id\",\"content_text\"]},\"rows\":{\"user_content\":[[1,\"hello world of SQL\"],[2,\"the QUICK brown fox\"],[3,\"data science AND machine learning\"],[4,\"TOP rated programming BOOKS\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"user_content\":[\"content_id\",\"content_text\"]},\"rows\":{\"user_content\":[[1,\"hello world of SQL\"],[2,\"the QUICK brown fox\"],[3,\"data science AND machine learning\"],[4,\"TOP rated programming BOOKS\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"CREATE TABLE If not exists user_content (\\n    content_id INT,\\n    content_text VARCHAR(255)\\n)\"],\"mssql\":[\"CREATE TABLE user_content (\\n    content_id INT,\\n    content_text VARCHAR(255)\\n)\"],\"oraclesql\":[\"CREATE TABLE user_content (\\n    content_id NUMBER,\\n    content_text VARCHAR2(255)\\n)\"],\"database\":true,\"name\":\"process_text\",\"postgresql\":[\"CREATE TABLE IF NOT EXISTS user_content (\\n    content_id SERIAL PRIMARY KEY,\\n    content_text VARCHAR(255)\\n);\\n\"],\"pythondata\":[\"user_content = pd.DataFrame({\\n    'content_id': pd.Series(dtype='int'),\\n    'content_text': pd.Series(dtype='str')\\n})\"],\"database_schema\":{\"user_content\":{\"content_id\":\"INT\",\"content_text\":\"VARCHAR(255)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"373\", \"totalSubmission\": \"530\", \"totalAcceptedRaw\": 373, \"totalSubmissionRaw\": 530, \"acRate\": \"70.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

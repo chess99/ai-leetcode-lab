@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:05Z",
+  "source": "https://leetcode.cn/problems/design-a-3d-binary-matrix-with-efficient-layer-tracking/",
+  "question": {
+    "questionId": "3735",
+    "questionFrontendId": "3391",
+    "title": "Design a 3D Binary Matrix with Efficient Layer Tracking",
+    "titleSlug": "design-a-3d-binary-matrix-with-efficient-layer-tracking",
+    "translatedTitle": "设计一个高效的层跟踪三维二进制矩阵",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[\"Matrix3D\",\"setCell\",\"largestMatrix\",\"setCell\",\"largestMatrix\",\"setCell\",\"largestMatrix\"]\n[[3],[0,0,0],[],[1,1,2],[],[0,0,1],[]]\n[\"Matrix3D\",\"setCell\",\"largestMatrix\",\"unsetCell\",\"largestMatrix\"]\n[[4],[2,1,1],[],[2,1,1],[]]",
+    "sampleTestCase": "[\"Matrix3D\",\"setCell\",\"largestMatrix\",\"setCell\",\"largestMatrix\",\"setCell\",\"largestMatrix\"]\n[[3],[0,0,0],[],[1,1,2],[],[0,0,1],[]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"Matrix3D\",\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"integer\",\n        \"name\": \"n\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"x\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"y\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"z\"\n        }\n      ],\n      \"name\": \"setCell\",\n      \"return\": {\n        \"type\": \"void\"\n      }\n    },\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"x\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"y\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"z\"\n        }\n      ],\n      \"name\": \"unsetCell\",\n      \"return\": {\n        \"type\": \"void\"\n      }\n    },\n    {\n      \"params\": [],\n      \"name\": \"largestMatrix\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"301\", \"totalSubmission\": \"388\", \"totalAcceptedRaw\": 301, \"totalSubmissionRaw\": 388, \"acRate\": \"77.6%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      },
+      {
+        "name": "Ordered Set",
+        "slug": "ordered-set",
+        "translatedName": "有序集合"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

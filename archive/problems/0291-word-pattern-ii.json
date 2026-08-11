@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:16Z",
+  "source": "https://leetcode.cn/problems/word-pattern-ii/",
+  "question": {
+    "questionId": "291",
+    "questionFrontendId": "291",
+    "title": "Word Pattern II",
+    "titleSlug": "word-pattern-ii",
+    "translatedTitle": "单词规律 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 129,
+    "dislikes": 0,
+    "exampleTestcases": "\"abab\"\n\"redblueredblue\"\n\"aaaa\"\n\"asdasdasdasd\"\n\"aabb\"\n\"xyzabcxzyabc\"",
+    "sampleTestCase": "\"abab\"\n\"redblueredblue\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"wordPatternMatch\",\n  \"params\": [\n    {\n      \"name\": \"pattern\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.6K\", \"totalSubmission\": \"12.4K\", \"totalAcceptedRaw\": 6551, \"totalSubmissionRaw\": 12415, \"acRate\": \"52.8%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

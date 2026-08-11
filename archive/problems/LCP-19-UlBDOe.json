@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:56Z",
+  "source": "https://leetcode.cn/problems/UlBDOe/",
+  "question": {
+    "questionId": "1000130",
+    "questionFrontendId": "LCP 19",
+    "title": "秋叶收藏集",
+    "titleSlug": "UlBDOe",
+    "translatedTitle": "秋叶收藏集",
+    "content": "English description is not available for the problem. Please switch to Chinese.",
+    "translatedContent": "小扣出去秋游，途中收集了一些红叶和黄叶，他利用这些叶子初步整理了一份秋叶收藏集 `leaves`， 字符串 `leaves` 仅包含小写字符 `r` 和 `y`， 其中字符 `r` 表示一片红叶，字符 `y` 表示一片黄叶。\r\n出于美观整齐的考虑，小扣想要将收藏集中树叶的排列调整成「红、黄、红」三部分。每部分树叶数量可以不相等，但均需大于等于 1。每次调整操作，小扣可以将一片红叶替换成黄叶或者将一片黄叶替换成红叶。请问小扣最少需要多少次调整操作才能将秋叶收藏集调整完毕。\r\n\r\n**示例 1：**\r\n>输入：`leaves = \"rrryyyrryyyrr\"`\r\n>\r\n>输出：`2`\r\n>\r\n>解释：调整两次，将中间的两片红叶替换成黄叶，得到 \"rrryyyyyyyyrr\"\r\n\r\n**示例 2：**\r\n>输入：`leaves = \"ryr\"`\r\n>\r\n>输出：`0`\r\n>\r\n>解释：已符合要求，不需要额外操作\r\n\r\n**提示：**\r\n- `3 <= leaves.length <= 10^5`\r\n- `leaves` 中只包含字符 `'r'` 和字符 `'y'`",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 243,
+    "dislikes": 0,
+    "exampleTestcases": "\"rrryyyrryyyrr\"\n\"ryr\"",
+    "sampleTestCase": "\"rrryyyrryyyrr\"",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"minimumOperations\", \"params\": [{\"name\": \"leaves\", \"type\": \"string\"}], \"return\": {\"type\": \"integer\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int minimumOperations(string leaves) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int minimumOperations(String leaves) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def minimumOperations(self, leaves: str) -> int:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def minimumOperations(self, leaves):\n        \"\"\"\n        :type leaves: str\n        :rtype: int\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string} leaves\n * @return {number}\n */\nvar minimumOperations = function(leaves) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function minimumOperations(leaves: string): number {\n\n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int MinimumOperations(string leaves) {\n\n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\nint minimumOperations(char* leaves){\n\n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func minimumOperations(leaves string) int {\n\n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun minimumOperations(leaves: String): Int {\n\n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func minimumOperations(_ leaves: String) -> Int {\n\n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn minimum_operations(leaves: String) -> i32 {\n\n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String} leaves\n# @return {Integer}\ndef minimum_operations(leaves)\n\nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String $leaves\n     * @return Integer\n     */\n    function minimumOperations($leaves) {\n\n    }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def minimumOperations(leaves: String): Int = {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"24.2K\", \"totalSubmission\": \"46.5K\", \"totalAcceptedRaw\": 24184, \"totalSubmissionRaw\": 46471, \"acRate\": \"52.0%\"}",
+    "topicTags": [
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

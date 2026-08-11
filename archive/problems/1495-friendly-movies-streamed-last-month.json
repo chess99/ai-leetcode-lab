@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:39Z",
+  "source": "https://leetcode.cn/problems/friendly-movies-streamed-last-month/",
+  "question": {
+    "questionId": "1639",
+    "questionFrontendId": "1495",
+    "title": "Friendly Movies Streamed Last Month",
+    "titleSlug": "friendly-movies-streamed-last-month",
+    "translatedTitle": "上月播放的儿童适宜电影",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 13,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"TVProgram\": [\"program_date\", \"content_id\", \"channel\"], \"Content\": [\"content_id\", \"title\", \"Kids_content\", \"content_type\"]}, \"rows\": {\"TVProgram\": [[\"2020-06-10 08:00\", 1, \"LC-Channel\"], [\"2020-05-11 12:00\", 2, \"LC-Channel\"], [\"2020-05-12 12:00\", 3, \"LC-Channel\"], [\"2020-05-13 14:00\", 4, \"Disney Ch\"], [\"2020-06-18 14:00\", 4, \"Disney Ch\"], [\"2020-07-15 16:00\", 5, \"Disney Ch\"]], \"Content\": [[1, \"Leetcode Movie\", \"N\", \"Movies\"], [2, \"Alg. for Kids\", \"Y\", \"Series\"], [3, \"Database Sols\", \"N\", \"Series\"], [4, \"Aladdin\", \"Y\", \"Movies\"], [5, \"Cinderella\", \"Y\", \"Movies\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"TVProgram\": [\"program_date\", \"content_id\", \"channel\"], \"Content\": [\"content_id\", \"title\", \"Kids_content\", \"content_type\"]}, \"rows\": {\"TVProgram\": [[\"2020-06-10 08:00\", 1, \"LC-Channel\"], [\"2020-05-11 12:00\", 2, \"LC-Channel\"], [\"2020-05-12 12:00\", 3, \"LC-Channel\"], [\"2020-05-13 14:00\", 4, \"Disney Ch\"], [\"2020-06-18 14:00\", 4, \"Disney Ch\"], [\"2020-07-15 16:00\", 5, \"Disney Ch\"]], \"Content\": [[1, \"Leetcode Movie\", \"N\", \"Movies\"], [2, \"Alg. for Kids\", \"Y\", \"Series\"], [3, \"Database Sols\", \"N\", \"Series\"], [4, \"Aladdin\", \"Y\", \"Movies\"], [5, \"Cinderella\", \"Y\", \"Movies\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists TVProgram (program_date date, content_id int, channel varchar(30))\",\"Create table If Not Exists Content (content_id varchar(30), title varchar(30), Kids_content ENUM('Y', 'N'), content_type varchar(30))\"],\"mssql\":[\"Create table TVProgram (program_date date, content_id int, channel varchar(30))\",\"Create table Content (content_id varchar(30), title varchar(30), Kids_content varchar(2) NOT NULL CHECK(Kids_content IN('Y', 'N')), content_type varchar(30))\"],\"oraclesql\":[\"Create table TVProgram (program_date date, content_id int, channel varchar(30))\",\"Create table Content (content_id varchar(30), title varchar(30), Kids_content varchar(2) NOT NULL CHECK(Kids_content IN('Y', 'N')), content_type varchar(30))\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI'\"],\"database\":true,\"name\":\"friendly_movies\",\"pythondata\":[\"TVProgram = pd.DataFrame([], columns=['program_date', 'content_id', 'channel']).astype({'program_date':'datetime64[ns]', 'content_id':'Int64', 'channel':'object'})\",\"Content = pd.DataFrame([], columns=['content_id', 'title', 'Kids_content', 'content_type']).astype({'content_id':'object', 'title':'object', 'Kids_content':'object', 'content_type':'object'})\"],\"postgresql\":[\"Create table If Not Exists TVProgram (program_date date, content_id int, channel varchar(30))\\n\",\"Create table If Not Exists Content (content_id int, title varchar(30), Kids_content VARCHAR(30) CHECK (Kids_content IN ('Y', 'N')), content_type varchar(30))\\n\"],\"database_schema\":{\"TVProgram\":{\"program_date\":\"DATE\",\"content_id\":\"INT\",\"channel\":\"VARCHAR(30)\"},\"Content\":{\"content_id\":\"VARCHAR(30)\",\"title\":\"VARCHAR(30)\",\"Kids_content\":\"ENUM('Y', 'N')\",\"content_type\":\"VARCHAR(30)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"14.5K\", \"totalSubmission\": \"27.8K\", \"totalAcceptedRaw\": 14479, \"totalSubmissionRaw\": 27825, \"acRate\": \"52.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

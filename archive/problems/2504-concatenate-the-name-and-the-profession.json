@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:29Z",
+  "source": "https://leetcode.cn/problems/concatenate-the-name-and-the-profession/",
+  "question": {
+    "questionId": "2643",
+    "questionFrontendId": "2504",
+    "title": "Concatenate the Name and the Profession",
+    "titleSlug": "concatenate-the-name-and-the-profession",
+    "translatedTitle": "把名字和职业联系起来",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Person\": [\"person_id\", \"name\", \"profession\"]}, \"rows\": {\"Person\": [[1, \"Alex\", \"Singer\"], [3, \"Alice\", \"Actor\"], [2, \"Bob\", \"Player\"], [4, \"Messi\", \"Doctor\"], [6, \"Tyson\", \"Engineer\"], [5, \"Meir\", \"Lawyer\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Person\": [\"person_id\", \"name\", \"profession\"]}, \"rows\": {\"Person\": [[1, \"Alex\", \"Singer\"], [3, \"Alice\", \"Actor\"], [2, \"Bob\", \"Player\"], [4, \"Messi\", \"Doctor\"], [6, \"Tyson\", \"Engineer\"], [5, \"Meir\", \"Lawyer\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Person (person_id int, name varchar(30), profession ENUM('Doctor','Singer','Actor','Player','Engineer','Lawyer'))\"],\"mssql\":[\"Create table Person (person_id int, name varchar(30), profession varchar(8) not null check(profession in ('Doctor','Singer','Actor','Player','Engineer','Lawyer')))\"],\"oraclesql\":[\"Create table Person (person_id int, name varchar(30), profession varchar(8) not null check(profession in ('Doctor','Singer','Actor','Player','Engineer','Lawyer')))\"],\"database\":true,\"name\":\"concatenate_info\",\"pythondata\":[\"Person = pd.DataFrame([], columns=['person_id', 'name', 'profession']).astype({'person_id':'Int64', 'name':'object', 'profession':'object'})\"],\"postgresql\":[\"Create table If Not Exists Person (person_id int, name varchar(30), profession VARCHAR(30) CHECK (profession IN ('Doctor','Singer','Actor','Player','Engineer','Lawyer')))\\n\"],\"database_schema\":{\"Person\":{\"person_id\":\"INT\",\"name\":\"VARCHAR(30)\",\"profession\":\"ENUM('Doctor', 'Singer', 'Actor', 'Player', 'Engineer', 'Lawyer')\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"2.8K\", \"totalAcceptedRaw\": 2282, \"totalSubmissionRaw\": 2759, \"acRate\": \"82.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:37:54Z",
+  "source": "https://leetcode.cn/problems/read-n-characters-given-read4/",
+  "question": {
+    "questionId": "157",
+    "questionFrontendId": "157",
+    "title": "Read N Characters Given Read4",
+    "titleSlug": "read-n-characters-given-read4",
+    "translatedTitle": "用 Read4 读取 N 个字符",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 74,
+    "dislikes": 0,
+    "exampleTestcases": "\"abc\"\n4\n\"abcde\"\n5\n\"abcdABCD1234\"\n12",
+    "sampleTestCase": "\"abc\"\n4",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"read\",\n  \"params\": [\n    {\n      \"name\": \"file\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"12.8K\", \"totalSubmission\": \"22.9K\", \"totalAcceptedRaw\": 12842, \"totalSubmissionRaw\": 22934, \"acRate\": \"56.0%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      },
+      {
+        "name": "Simulation",
+        "slug": "simulation",
+        "translatedName": "模拟"
+      }
+    ]
+  }
+}

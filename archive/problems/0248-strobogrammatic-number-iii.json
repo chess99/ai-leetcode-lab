@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:10Z",
+  "source": "https://leetcode.cn/problems/strobogrammatic-number-iii/",
+  "question": {
+    "questionId": "248",
+    "questionFrontendId": "248",
+    "title": "Strobogrammatic Number III",
+    "titleSlug": "strobogrammatic-number-iii",
+    "translatedTitle": "中心对称数 III",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 75,
+    "dislikes": 0,
+    "exampleTestcases": "\"50\"\n\"100\"\n\"0\"\n\"0\"",
+    "sampleTestCase": "\"50\"\n\"100\"",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"strobogrammaticInRange\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"low\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"high\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.5K\", \"totalSubmission\": \"11K\", \"totalAcceptedRaw\": 5536, \"totalSubmissionRaw\": 11038, \"acRate\": \"50.2%\"}",
+    "topicTags": [
+      {
+        "name": "Recursion",
+        "slug": "recursion",
+        "translatedName": "递归"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:26Z",
+  "source": "https://leetcode.cn/problems/campus-bikes/",
+  "question": {
+    "questionId": "1052",
+    "questionFrontendId": "1057",
+    "title": "Campus Bikes",
+    "titleSlug": "campus-bikes",
+    "translatedTitle": "校园自行车分配",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 117,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,0],[2,1]]\n[[1,2],[3,3]]\n[[0,0],[1,1],[2,0]]\n[[1,0],[2,2],[2,1]]",
+    "sampleTestCase": "[[0,0],[2,1]]\n[[1,2],[3,3]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"assignBikes\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"workers\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"bikes\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.7K\", \"totalSubmission\": \"12K\", \"totalAcceptedRaw\": 6680, \"totalSubmissionRaw\": 11965, \"acRate\": \"55.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

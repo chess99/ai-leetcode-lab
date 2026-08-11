@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:27Z",
+  "source": "https://leetcode.cn/problems/first-unique-number/",
+  "question": {
+    "questionId": "1366",
+    "questionFrontendId": "1429",
+    "title": "First Unique Number",
+    "titleSlug": "first-unique-number",
+    "translatedTitle": "第一个唯一数字",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 44,
+    "dislikes": 0,
+    "exampleTestcases": "[\"FirstUnique\",\"showFirstUnique\",\"add\",\"showFirstUnique\",\"add\",\"showFirstUnique\",\"add\",\"showFirstUnique\"]\n[[[2,3,5]],[],[5],[],[2],[],[3],[]]\n[\"FirstUnique\",\"showFirstUnique\",\"add\",\"add\",\"add\",\"add\",\"add\",\"showFirstUnique\"]\n[[[7,7,7,7,7,7]],[],[7],[3],[3],[7],[17],[]]\n[\"FirstUnique\",\"showFirstUnique\",\"add\",\"showFirstUnique\"]\n[[[809]],[],[809],[]]",
+    "sampleTestCase": "[\"FirstUnique\",\"showFirstUnique\",\"add\",\"showFirstUnique\",\"add\",\"showFirstUnique\",\"add\",\"showFirstUnique\"]\n[[[2,3,5]],[],[5],[],[2],[],[3],[]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"FirstUnique\",\n  \"constructor\": {\n    \"params\": [\n      {\n        \"name\": \"nums\",\n        \"type\": \"integer[]\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"params\": [],\n      \"name\": \"showFirstUnique\",\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    },\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"value\"\n        }\n      ],\n      \"name\": \"add\",\n      \"return\": {\n        \"type\": \"void\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true,\n  \"manual\": false\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.8K\", \"totalSubmission\": \"14K\", \"totalAcceptedRaw\": 7771, \"totalSubmissionRaw\": 14008, \"acRate\": \"55.5%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Queue",
+        "slug": "queue",
+        "translatedName": "队列"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Data Stream",
+        "slug": "data-stream",
+        "translatedName": "数据流"
+      }
+    ]
+  }
+}

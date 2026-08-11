@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:51Z",
+  "source": "https://leetcode.cn/problems/json-deep-equal/",
+  "question": {
+    "questionId": "2735",
+    "questionFrontendId": "2628",
+    "title": "JSON Deep Equal",
+    "titleSlug": "json-deep-equal",
+    "translatedTitle": "完全相等的 JSON 对象",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 10,
+    "dislikes": 0,
+    "exampleTestcases": "{\"x\":1,\"y\":2}\n{\"x\":1,\"y\":2}\n{\"y\":2,\"x\":1}\n{\"x\":1,\"y\":2}\n{\"x\":null,\"L\":[1,2,3]}\n{\"x\":null,\"L\":[\"1\",\"2\",\"3\"]}\ntrue\nfalse",
+    "sampleTestCase": "{\"x\":1,\"y\":2}\n{\"x\":1,\"y\":2}",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"areDeeplyEqual\",\n  \"params\": [\n    {\n      \"type\": \"string\",\n      \"name\": \"o1\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"o2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"6.7K\", \"totalAcceptedRaw\": 2339, \"totalSubmissionRaw\": 6652, \"acRate\": \"35.2%\"}",
+    "topicTags": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:28Z",
+  "source": "https://leetcode.cn/problems/product-sales-analysis-ii/",
+  "question": {
+    "questionId": "1154",
+    "questionFrontendId": "1069",
+    "title": "Product Sales Analysis II",
+    "titleSlug": "product-sales-analysis-ii",
+    "translatedTitle": "产品销售分析 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 24,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Sales\":[\"sale_id\",\"product_id\",\"year\",\"quantity\",\"price\"],\"Product\":[\"product_id\",\"product_name\"]},\"rows\":{\"Sales\":[[1,100,2008,10,5000],[2,100,2009,12,5000],[7,200,2011,15,9000]],\"Product\":[[100,\"Nokia\"],[200,\"Apple\"],[300,\"Samsung\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Sales\":[\"sale_id\",\"product_id\",\"year\",\"quantity\",\"price\"],\"Product\":[\"product_id\",\"product_name\"]},\"rows\":{\"Sales\":[[1,100,2008,10,5000],[2,100,2009,12,5000],[7,200,2011,15,9000]],\"Product\":[[100,\"Nokia\"],[200,\"Apple\"],[300,\"Samsung\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Sales (sale_id int, product_id int, year int, quantity int, price int)\",\"Create table If Not Exists Product (product_id int, product_name varchar(10))\"],\"mssql\":[\"Create table Sales (sale_id int, product_id int, year int, quantity int, price int)\",\"Create table Product (product_id int, product_name varchar(10))\"],\"oraclesql\":[\"Create table Sales (sale_id int, product_id int, year int, quantity int, price int)\",\"Create table Product (product_id int, product_name varchar(10))\"],\"database\":true,\"name\":\"sales_analysis\",\"pythondata\":[\"Sales = pd.DataFrame([], columns=['sale_id', 'product_id', 'year', 'quantity', 'price']).astype({'sale_id':'Int64', 'product_id':'Int64', 'year':'Int64', 'quantity':'Int64', 'price':'Int64'})\",\"Product = pd.DataFrame([], columns=['product_id', 'product_name']).astype({'product_id':'Int64', 'product_name':'object'})\"],\"postgresql\":[\"Create table If Not Exists Sales (sale_id int, product_id int, year int, quantity int, price int)\\n\",\"Create table If Not Exists Product (product_id int, product_name varchar(10))\"],\"database_schema\":{\"Sales\":{\"sale_id\":\"INT\",\"product_id\":\"INT\",\"year\":\"INT\",\"quantity\":\"INT\",\"price\":\"INT\"},\"Product\":{\"product_id\":\"INT\",\"product_name\":\"VARCHAR(10)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"22.8K\", \"totalSubmission\": \"27.6K\", \"totalAcceptedRaw\": 22767, \"totalSubmissionRaw\": 27602, \"acRate\": \"82.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

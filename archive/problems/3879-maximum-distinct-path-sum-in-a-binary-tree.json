@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:29Z",
+  "source": "https://leetcode.cn/problems/maximum-distinct-path-sum-in-a-binary-tree/",
+  "question": {
+    "questionId": "4218",
+    "questionFrontendId": "3879",
+    "title": "Maximum Distinct Path Sum in a Binary Tree",
+    "titleSlug": "maximum-distinct-path-sum-in-a-binary-tree",
+    "translatedTitle": "二叉树中的最大不同路径和",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[2,2,1]\n[1,-2,5,null,null,3,5]\n[4,6,6,null,null,null,9]",
+    "sampleTestCase": "[2,2,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxSum\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"116\", \"totalSubmission\": \"225\", \"totalAcceptedRaw\": 116, \"totalSubmissionRaw\": 225, \"acRate\": \"51.6%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

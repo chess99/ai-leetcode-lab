@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:19Z",
+  "source": "https://leetcode.cn/problems/shortest-path-to-get-food/",
+  "question": {
+    "questionId": "550",
+    "questionFrontendId": "1730",
+    "title": "Shortest Path to Get Food",
+    "titleSlug": "shortest-path-to-get-food",
+    "translatedTitle": "获取食物的最短路径",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 31,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"X\",\"X\",\"X\",\"X\",\"X\",\"X\"],[\"X\",\"*\",\"O\",\"O\",\"O\",\"X\"],[\"X\",\"O\",\"O\",\"#\",\"O\",\"X\"],[\"X\",\"X\",\"X\",\"X\",\"X\",\"X\"]]\n[[\"X\",\"X\",\"X\",\"X\",\"X\"],[\"X\",\"*\",\"X\",\"O\",\"X\"],[\"X\",\"O\",\"X\",\"#\",\"X\"],[\"X\",\"X\",\"X\",\"X\",\"X\"]]\n[[\"X\",\"X\",\"X\",\"X\",\"X\",\"X\",\"X\",\"X\"],[\"X\",\"*\",\"O\",\"X\",\"O\",\"#\",\"O\",\"X\"],[\"X\",\"O\",\"O\",\"X\",\"O\",\"O\",\"X\",\"X\"],[\"X\",\"O\",\"O\",\"O\",\"O\",\"#\",\"O\",\"X\"],[\"X\",\"X\",\"X\",\"X\",\"X\",\"X\",\"X\",\"X\"]]\n[[\"X\",\"X\",\"X\",\"X\",\"X\"],[\"X\",\"*\",\"X\",\"O\",\"X\"],[\"X\",\"O\",\"X\",\"#\",\"X\"],[\"O\",\"O\",\"O\",\"O\",\"O\"]]",
+    "sampleTestCase": "[[\"X\",\"X\",\"X\",\"X\",\"X\",\"X\"],[\"X\",\"*\",\"O\",\"O\",\"O\",\"X\"],[\"X\",\"O\",\"O\",\"#\",\"O\",\"X\"],[\"X\",\"X\",\"X\",\"X\",\"X\",\"X\"]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"getFood\",\n  \"params\": [\n    {\n      \"name\": \"grid\",\n      \"type\": \"character[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.6K\", \"totalSubmission\": \"5.4K\", \"totalAcceptedRaw\": 2637, \"totalSubmissionRaw\": 5387, \"acRate\": \"49.0%\"}",
+    "topicTags": [
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

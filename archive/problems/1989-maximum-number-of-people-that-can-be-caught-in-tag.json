@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:04Z",
+  "source": "https://leetcode.cn/problems/maximum-number-of-people-that-can-be-caught-in-tag/",
+  "question": {
+    "questionId": "1979",
+    "questionFrontendId": "1989",
+    "title": "Maximum Number of People That Can Be Caught in Tag",
+    "titleSlug": "maximum-number-of-people-that-can-be-caught-in-tag",
+    "translatedTitle": "捉迷藏中可捕获的最大人数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 9,
+    "dislikes": 0,
+    "exampleTestcases": "[0,1,0,1,0]\n3\n[1]\n1\n[0]\n1",
+    "sampleTestCase": "[0,1,0,1,0]\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"catchMaximumAmountofPeople\",\n  \"params\": [\n    {\n      \"name\": \"team\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"dist\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"998\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 998, \"totalSubmissionRaw\": 1940, \"acRate\": \"51.4%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      }
+    ]
+  }
+}

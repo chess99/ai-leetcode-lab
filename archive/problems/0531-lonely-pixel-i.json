@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:56Z",
+  "source": "https://leetcode.cn/problems/lonely-pixel-i/",
+  "question": {
+    "questionId": "531",
+    "questionFrontendId": "531",
+    "title": "Lonely Pixel I",
+    "titleSlug": "lonely-pixel-i",
+    "translatedTitle": "孤独像素 I",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 63,
+    "dislikes": 0,
+    "exampleTestcases": "[[\"W\",\"W\",\"B\"],[\"W\",\"B\",\"W\"],[\"B\",\"W\",\"W\"]]\n[[\"B\",\"B\",\"B\"],[\"B\",\"B\",\"W\"],[\"B\",\"B\",\"B\"]]",
+    "sampleTestCase": "[[\"W\",\"W\",\"B\"],[\"W\",\"B\",\"W\"],[\"B\",\"W\",\"W\"]]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"findLonelyPixel\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"picture\",\r\n      \"type\": \"character[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"11.3K\", \"totalSubmission\": \"17.5K\", \"totalAcceptedRaw\": 11328, \"totalSubmissionRaw\": 17529, \"acRate\": \"64.6%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

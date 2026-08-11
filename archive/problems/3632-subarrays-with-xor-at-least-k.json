@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:46Z",
+  "source": "https://leetcode.cn/problems/subarrays-with-xor-at-least-k/",
+  "question": {
+    "questionId": "3929",
+    "questionFrontendId": "3632",
+    "title": "Subarrays with XOR at Least K",
+    "titleSlug": "subarrays-with-xor-at-least-k",
+    "translatedTitle": "异或至少为 K 的子数组数目",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[3,1,2,3]\n2\n[0,0,0]\n0",
+    "sampleTestCase": "[3,1,2,3]\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countXorSubarrays\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"174\", \"totalSubmission\": \"287\", \"totalAcceptedRaw\": 174, \"totalSubmissionRaw\": 287, \"acRate\": \"60.6%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

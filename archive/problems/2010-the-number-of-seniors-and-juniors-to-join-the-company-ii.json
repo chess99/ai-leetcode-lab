@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:08Z",
+  "source": "https://leetcode.cn/problems/the-number-of-seniors-and-juniors-to-join-the-company-ii/",
+  "question": {
+    "questionId": "2158",
+    "questionFrontendId": "2010",
+    "title": "The Number of Seniors and Juniors to Join the Company II",
+    "titleSlug": "the-number-of-seniors-and-juniors-to-join-the-company-ii",
+    "translatedTitle": "职员招聘人数 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 11,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Candidates\":[\"employee_id\",\"experience\",\"salary\"]},\"rows\":{\"Candidates\":[[1,\"Junior\",10000],[9,\"Junior\",15000],[2,\"Senior\",20000],[11,\"Senior\",16000],[13,\"Senior\",50000],[4,\"Junior\",40000]]}}\n{\"headers\":{\"Candidates\":[\"employee_id\",\"experience\",\"salary\"]},\"rows\":{\"Candidates\":[[1,\"Junior\",25000],[9,\"Junior\",10000],[2,\"Senior\",85000],[11,\"Senior\",80000],[13,\"Senior\",90000],[4,\"Junior\",30000]]}}",
+    "sampleTestCase": "{\"headers\":{\"Candidates\":[\"employee_id\",\"experience\",\"salary\"]},\"rows\":{\"Candidates\":[[1,\"Junior\",10000],[9,\"Junior\",15000],[2,\"Senior\",20000],[11,\"Senior\",16000],[13,\"Senior\",50000],[4,\"Junior\",40000]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Candidates (employee_id int, experience ENUM('Senior', 'Junior'), salary int)\"],\"mssql\":[\"Create table Candidates (employee_id int, experience VARCHAR(6) NOT NULL CHECK (experience IN ('Senior', 'Junior')), salary int)\"],\"oraclesql\":[\"Create table Candidates (employee_id int, experience VARCHAR(6) NOT NULL CHECK (experience IN ('Senior', 'Junior')), salary int)\"],\"database\":true,\"name\":\"number_of_joiners\",\"pythondata\":[\"Candidates = pd.DataFrame([], columns=['employee_id', 'experience', 'salary']).astype({'employee_id':'Int64', 'experience':'object', 'salary':'Int64'})\\n\"],\"postgresql\":[\"Create table If Not Exists Candidates (employee_id int, experience VARCHAR(30) CHECK (experience IN ('Senior', 'Junior')), salary int)\\n\"],\"database_schema\":{\"Candidates\":{\"employee_id\":\"INT\",\"experience\":\"ENUM('Senior', 'Junior')\",\"salary\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"4.8K\", \"totalAcceptedRaw\": 3132, \"totalSubmissionRaw\": 4818, \"acRate\": \"65.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

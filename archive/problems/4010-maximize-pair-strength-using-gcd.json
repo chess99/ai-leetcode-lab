@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:51Z",
+  "source": "https://leetcode.cn/problems/maximize-pair-strength-using-gcd/",
+  "question": {
+    "questionId": "4371",
+    "questionFrontendId": "4010",
+    "title": "Maximize Pair Strength Using GCD",
+    "titleSlug": "maximize-pair-strength-using-gcd",
+    "translatedTitle": "数对的最大强度",
+    "content": "<p>You are given an integer array <code>nums</code>.</p>\n\n<p>Choose exactly one pair of distinct indices <code>i</code> and <code>j</code>. The strength of the pair is defined as <code>(nums[i] * nums[j]) / <span data-keyword=\"gcd-function\">gcd(nums[i], nums[j])</span><sup>2</sup></code>.</p>\n\n<p>Return the maximum strength over all possible pairs.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [2,3,5]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">15</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Choosing <code>i = 1</code> and <code>j = 2</code> gives strength <code>(3 * 5) / gcd(3, 5)<sup>2</sup> = 15 / 1 = 15</code>, which is the maximum over all pairs.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [4,6,8]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">12</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Choosing <code>i = 1</code> and <code>j = 2</code> gives strength <code>(6 * 8) / gcd(6, 8)<sup>2</sup> = 48 / 4 = 12</code>, which is the maximum over all pairs.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [3,3]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Choosing <code>i = 0</code> and <code>j = 1</code> gives strength <code>(3 * 3) / gcd(3, 3)<sup>2</sup> = 9 / 9 = 1</code>, the maximum over all pairs.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 2000</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+    "translatedContent": "<p>给你一个整数数组 <code>nums</code>。</p>\n\n<p>选择&nbsp;<strong>恰好一对&nbsp;</strong>不同下标 <code>i</code> 和 <code>j</code>。该数对的&nbsp;<strong>强度&nbsp;</strong>定义为：</p>\n\n<p><code>(nums[i] * nums[j]) / gcd(nums[i], nums[j])<sup>2</sup></code></p>\n\n<p>返回所有可能数对中的<strong>&nbsp;最大&nbsp;</strong>强度。</p>\n\n<p><code>gcd(a, b)</code> 表示 <code>a</code> 和 <code>b</code> 的<strong>&nbsp;最大公约数&nbsp;</strong>。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">nums = [2,3,5]</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">15</span></p>\n\n<p><strong>解释：</strong></p>\n\n<p>选择 <code>i = 1</code> 和 <code>j = 2</code>，得到强度：</p>\n\n<p><code>(3 * 5) / gcd(3, 5)<sup>2</sup> = 15 / 1 = 15</code>，这是所有数对中的最大值。</p>\n</div>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">nums = [4,6,8]</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">12</span></p>\n\n<p><strong>解释：</strong></p>\n\n<p>选择 <code>i = 1</code> 和 <code>j = 2</code>，得到强度：</p>\n\n<p><code>(6 * 8) / gcd(6, 8)<sup>2</sup> = 48 / 4 = 12</code>，这是所有数对中的最大值。</p>\n</div>\n\n<p><strong class=\"example\">示例 3：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">nums = [3,3]</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">1</span></p>\n\n<p><strong>解释：</strong></p>\n\n<p>选择 <code>i = 0</code> 和 <code>j = 1</code>，得到强度：</p>\n\n<p><code>(3 * 3) / gcd(3, 3)<sup>2</sup> = 9 / 9 = 1</code>，这是唯一数对的强度。</p>\n</div>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 2000</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "[2,3,5]\n[4,6,8]\n[3,3]",
+    "sampleTestCase": "[2,3,5]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxPairStrength\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    long long maxPairStrength(vector<int>& nums) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public long maxPairStrength(int[] nums) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def maxPairStrength(self, nums: list[int]) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def maxPairStrength(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxPairStrength = function(nums) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function maxPairStrength(nums: number[]): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public long MaxPairStrength(int[] nums) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "long long maxPairStrength(int* nums, int numsSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func maxPairStrength(nums []int) int64 {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun maxPairStrength(nums: IntArray): Long {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func maxPairStrength(_ nums: [Int]) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn max_pair_strength(nums: Vec<i32>) -> i64 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} nums\n# @return {Integer}\ndef max_pair_strength(nums)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function maxPairStrength($nums) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int maxPairStrength(List<int> nums) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def maxPairStrength(nums: Array[Int]): Long = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec max_pair_strength(nums :: [integer]) :: integer\n  def max_pair_strength(nums) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec max_pair_strength(Nums :: [integer()]) -> integer().\nmax_pair_strength(Nums) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (max-pair-strength nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func maxPairStrength(nums: Array<Int64>): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"1.7K\", \"totalSubmission\": \"2.9K\", \"totalAcceptedRaw\": 1651, \"totalSubmissionRaw\": 2927, \"acRate\": \"56.4%\"}",
+    "topicTags": []
+  }
+}

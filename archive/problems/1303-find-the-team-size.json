@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:06Z",
+  "source": "https://leetcode.cn/problems/find-the-team-size/",
+  "question": {
+    "questionId": "1438",
+    "questionFrontendId": "1303",
+    "title": "Find the Team Size",
+    "titleSlug": "find-the-team-size",
+    "translatedTitle": "求团队人数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 70,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Employee\":[\"employee_id\",\"team_id\"]},\"rows\":{\"Employee\":[[1,8],[2,8],[3,8],[4,7],[5,9],[6,9]]}}",
+    "sampleTestCase": "{\"headers\":{\"Employee\":[\"employee_id\",\"team_id\"]},\"rows\":{\"Employee\":[[1,8],[2,8],[3,8],[4,7],[5,9],[6,9]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Employee (employee_id int, team_id int)\"],\"mssql\":[\"Create table Employee (employee_id int, team_id int)\"],\"oraclesql\":[\"Create table Employee (employee_id int, team_id int)\"],\"database\":true,\"name\":\"team_size\",\"pythondata\":[\"Employee = pd.DataFrame([], columns=['employee_id', 'team_id']).astype({'employee_id':'Int64', 'team_id':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Employee (employee_id int, team_id int)\"],\"database_schema\":{\"Employee\":{\"employee_id\":\"INT\",\"team_id\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"29.3K\", \"totalSubmission\": \"35.1K\", \"totalAcceptedRaw\": 29265, \"totalSubmissionRaw\": 35072, \"acRate\": \"83.4%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

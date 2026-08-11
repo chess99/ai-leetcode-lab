@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:03Z",
+  "source": "https://leetcode.cn/problems/minimum-adjacent-swaps-to-make-a-valid-array/",
+  "question": {
+    "questionId": "2474",
+    "questionFrontendId": "2340",
+    "title": "Minimum Adjacent Swaps to Make a Valid Array",
+    "titleSlug": "minimum-adjacent-swaps-to-make-a-valid-array",
+    "translatedTitle": "生成有效数组的最少交换次数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 9,
+    "dislikes": 0,
+    "exampleTestcases": "[3,4,5,5,3,1]\n[9]",
+    "sampleTestCase": "[3,4,5,5,3,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumSwaps\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"883\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 883, \"totalSubmissionRaw\": 1314, \"acRate\": \"67.2%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      }
+    ]
+  }
+}

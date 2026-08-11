@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:25Z",
+  "source": "https://leetcode.cn/problems/calculate-parking-fees-and-duration/",
+  "question": {
+    "questionId": "3473",
+    "questionFrontendId": "3166",
+    "title": "Calculate Parking Fees and Duration",
+    "titleSlug": "calculate-parking-fees-and-duration",
+    "translatedTitle": "计算停车费与时长",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"ParkingTransactions\":[\"lot_id\",\"car_id\",\"entry_time\",\"exit_time\",\"fee_paid\"]},\"rows\":{\"ParkingTransactions\":[[1,1001,\"2023-06-01 08:00:00\",\"2023-06-01 10:30:00\",5.00],[1,1001,\"2023-06-02 11:00:00\",\"2023-06-02 12:45:00\",3.00],[2,1001,\"2023-06-01 10:45:00\",\"2023-06-01 12:00:00\",6.00],[2,1002,\"2023-06-01 09:00:00\",\"2023-06-01 11:30:00\",4.00],[3,1001,\"2023-06-03 07:00:00\",\"2023-06-03 09:00:00\",4.00],[3,1002,\"2023-06-02 12:00:00\",\"2023-06-02 14:00:00\",2.00]]}}",
+    "sampleTestCase": "{\"headers\":{\"ParkingTransactions\":[\"lot_id\",\"car_id\",\"entry_time\",\"exit_time\",\"fee_paid\"]},\"rows\":{\"ParkingTransactions\":[[1,1001,\"2023-06-01 08:00:00\",\"2023-06-01 10:30:00\",5.00],[1,1001,\"2023-06-02 11:00:00\",\"2023-06-02 12:45:00\",3.00],[2,1001,\"2023-06-01 10:45:00\",\"2023-06-01 12:00:00\",6.00],[2,1002,\"2023-06-01 09:00:00\",\"2023-06-01 11:30:00\",4.00],[3,1001,\"2023-06-03 07:00:00\",\"2023-06-03 09:00:00\",4.00],[3,1002,\"2023-06-02 12:00:00\",\"2023-06-02 14:00:00\",2.00]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"CREATE TABLE If not exists ParkingTransactions (\\n    lot_id INT,\\n    car_id INT,\\n    entry_time DATETIME,\\n    exit_time DATETIME,\\n    fee_paid DECIMAL(10, 2)\\n)\\n\"],\"mssql\":[\"CREATE TABLE ParkingTransactions (\\n    lot_id INT,\\n    car_id INT,\\n    entry_time DATETIME,\\n    exit_time DATETIME,\\n    fee_paid DECIMAL(10, 2)\\n);\\n\"],\"oraclesql\":[\"CREATE TABLE ParkingTransactions (\\n    lot_id NUMBER,\\n    car_id NUMBER,\\n    entry_time DATE,\\n    exit_time DATE,\\n    fee_paid NUMBER(10, 2)\\n)\\n\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"],\"database\":true,\"name\":\"calculate_fees_and_duration\",\"postgresql\":[\"CREATE TABLE IF NOT EXISTS ParkingTransactions (\\n    lot_id INTEGER,\\n    car_id INTEGER,\\n    entry_time TIMESTAMP,\\n    exit_time TIMESTAMP,\\n    fee_paid NUMERIC(10, 2)\\n);\"],\"pythondata\":[\"ParkingTransactions = pd.DataFrame([], columns=['lot_id', 'car_id', 'entry_time', 'exit_time', 'fee_paid']).astype({\\n    'lot_id': 'Int64',\\n    'car_id': 'Int64',\\n    'entry_time': 'datetime64[ns]',\\n    'exit_time': 'datetime64[ns]',\\n    'fee_paid': 'float64'\\n})\"],\"database_schema\":{\"ParkingTransactions\":{\"lot_id\":\"INT\",\"car_id\":\"INT\",\"entry_time\":\"DATETIME\",\"exit_time\":\"DATETIME\",\"fee_paid\":\"DECIMAL(10, 2)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"828\", \"totalSubmission\": \"1.7K\", \"totalAcceptedRaw\": 828, \"totalSubmissionRaw\": 1691, \"acRate\": \"49.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

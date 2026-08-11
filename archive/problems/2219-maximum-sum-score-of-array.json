@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:41Z",
+  "source": "https://leetcode.cn/problems/maximum-sum-score-of-array/",
+  "question": {
+    "questionId": "2369",
+    "questionFrontendId": "2219",
+    "title": "Maximum Sum Score of Array",
+    "titleSlug": "maximum-sum-score-of-array",
+    "translatedTitle": "数组的最大总分",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "[4,3,-2,5]\n[-3,-5]",
+    "sampleTestCase": "[4,3,-2,5]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maximumSumScore\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"715\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 715, \"totalSubmissionRaw\": 1236, \"acRate\": \"57.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

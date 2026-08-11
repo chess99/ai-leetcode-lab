@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:58Z",
+  "source": "https://leetcode.cn/problems/check-if-two-expression-trees-are-equivalent/",
+  "question": {
+    "questionId": "1750",
+    "questionFrontendId": "1612",
+    "title": "Check If Two Expression Trees are Equivalent",
+    "titleSlug": "check-if-two-expression-trees-are-equivalent",
+    "translatedTitle": "检查两棵二叉表达式树是否等价",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 11,
+    "dislikes": 0,
+    "exampleTestcases": "[x]\n[x]\n[+,a,+,null,null,b,c]\n[+,+,a,b,c]\n[+,a,+,null,null,b,c]\n[+,+,a,b,d]",
+    "sampleTestCase": "[x]\n[x]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"checkEquivalence\",\n  \"params\": [\n    {\n      \"name\": \"root1\",\n      \"type\": \"TreeNode\"\n    },\n    {\n      \"type\": \"TreeNode\",\n      \"name\": \"root2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"python3\",\n    \"javascript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"2K\", \"totalAcceptedRaw\": 1417, \"totalSubmissionRaw\": 1981, \"acRate\": \"71.5%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      }
+    ]
+  }
+}

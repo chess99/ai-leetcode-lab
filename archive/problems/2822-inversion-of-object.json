@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:22Z",
+  "source": "https://leetcode.cn/problems/inversion-of-object/",
+  "question": {
+    "questionId": "2925",
+    "questionFrontendId": "2822",
+    "title": "Inversion of Object",
+    "titleSlug": "inversion-of-object",
+    "translatedTitle": "对象反转",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"a\": \"1\",\"b\": \"2\",\"c\": \"3\",\"d\": \"4\" }\n{\"a\": \"1\",\"b\": \"2\",\"c\": \"2\",\"d\": \"4\" }\n[\"1\",\"2\",\"3\",\"4\"]",
+    "sampleTestCase": "{\"a\": \"1\",\"b\": \"2\",\"c\": \"3\",\"d\": \"4\" }",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"invertObject\",\n  \"params\": [\n    {\n      \"name\": \"obj\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"typescript\",\n    \"javascript\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"520\", \"totalSubmission\": \"820\", \"totalAcceptedRaw\": 520, \"totalSubmissionRaw\": 820, \"acRate\": \"63.4%\"}",
+    "topicTags": []
+  }
+}

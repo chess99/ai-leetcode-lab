@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:41:59Z",
+  "source": "https://leetcode.cn/problems/maximum-font-to-fit-a-sentence-in-a-screen/",
+  "question": {
+    "questionId": "1384",
+    "questionFrontendId": "1618",
+    "title": "Maximum Font to Fit a Sentence in a Screen",
+    "titleSlug": "maximum-font-to-fit-a-sentence-in-a-screen",
+    "translatedTitle": "找出适应屏幕的最大字号",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 5,
+    "dislikes": 0,
+    "exampleTestcases": "\"helloworld\"\n80\n20\n[6,8,10,12,14,16,18,24,36]\n\"leetcode\"\n1000\n50\n[1,2,4]\n\"easyquestion\"\n100\n100\n[10,15,20,25]",
+    "sampleTestCase": "\"helloworld\"\n80\n20\n[6,8,10,12,14,16,18,24,36]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxFont\",\n  \"params\": [\n    {\n      \"name\": \"text\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"w\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"h\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"fonts\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"javascript\",\n    \"python3\"\n  ],\n  \"manual\": true\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 1236, \"totalSubmissionRaw\": 1924, \"acRate\": \"64.2%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      }
+    ]
+  }
+}

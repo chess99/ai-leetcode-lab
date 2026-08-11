@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:44:08Z",
+  "source": "https://leetcode.cn/problems/sort-the-olympic-table/",
+  "question": {
+    "questionId": "2516",
+    "questionFrontendId": "2377",
+    "title": "Sort the Olympic Table",
+    "titleSlug": "sort-the-olympic-table",
+    "translatedTitle": "整理奥运表",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Olympic\":[\"country\",\"gold_medals\",\"silver_medals\",\"bronze_medals\"]},\"rows\":{\"Olympic\":[[\"China\",10,10,20],[\"South Sudan\",0,0,1],[\"USA\",10,10,20],[\"Israel\",2,2,3],[\"Egypt\",2,2,2]]}}",
+    "sampleTestCase": "{\"headers\":{\"Olympic\":[\"country\",\"gold_medals\",\"silver_medals\",\"bronze_medals\"]},\"rows\":{\"Olympic\":[[\"China\",10,10,20],[\"South Sudan\",0,0,1],[\"USA\",10,10,20],[\"Israel\",2,2,3],[\"Egypt\",2,2,2]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Olympic (country varchar(50), gold_medals int, silver_medals int, bronze_medals int)\"],\"mssql\":[\"Create table Olympic (country varchar(50), gold_medals int, silver_medals int, bronze_medals int)\"],\"oraclesql\":[\"Create table Olympic (country varchar(50), gold_medals int, silver_medals int, bronze_medals int)\"],\"database\":true,\"name\":\"sort_table\",\"pythondata\":[\"Olympic = pd.DataFrame([], columns=['country', 'gold_medals', 'silver_medals', 'bronze_medals']).astype({'country':'object', 'gold_medals':'Int64', 'silver_medals':'Int64', 'bronze_medals':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Olympic (country varchar(50), gold_medals int, silver_medals int, bronze_medals int)\"],\"database_schema\":{\"Olympic\":{\"country\":\"VARCHAR(50)\",\"gold_medals\":\"INT\",\"silver_medals\":\"INT\",\"bronze_medals\":\"INT\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.5K\", \"totalSubmission\": \"3K\", \"totalAcceptedRaw\": 2478, \"totalSubmissionRaw\": 3002, \"acRate\": \"82.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

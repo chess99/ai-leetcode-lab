@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:34Z",
+  "source": "https://leetcode.cn/problems/bold-words-in-string/",
+  "question": {
+    "questionId": "760",
+    "questionFrontendId": "758",
+    "title": "Bold Words in String",
+    "titleSlug": "bold-words-in-string",
+    "translatedTitle": "字符串中的加粗单词",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 60,
+    "dislikes": 0,
+    "exampleTestcases": "[\"ab\",\"bc\"]\n\"aabcd\"\n[\"ab\",\"cb\"]\n\"aabcd\"",
+    "sampleTestCase": "[\"ab\",\"bc\"]\n\"aabcd\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"boldWords\",\n  \"params\": [\n    {\n      \"name\": \"words\",\n      \"type\": \"string[]\"\n    },\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.1K\", \"totalSubmission\": \"10.3K\", \"totalAcceptedRaw\": 5094, \"totalSubmissionRaw\": 10348, \"acRate\": \"49.2%\"}",
+    "topicTags": [
+      {
+        "name": "Trie",
+        "slug": "trie",
+        "translatedName": "字典树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "String Matching",
+        "slug": "string-matching",
+        "translatedName": "字符串匹配"
+      },
+      {
+        "name": "AC 自动机",
+        "slug": "aho-corasick-algorithm",
+        "translatedName": null
+      }
+    ]
+  }
+}

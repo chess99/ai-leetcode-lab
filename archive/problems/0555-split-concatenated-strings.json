@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:01Z",
+  "source": "https://leetcode.cn/problems/split-concatenated-strings/",
+  "question": {
+    "questionId": "555",
+    "questionFrontendId": "555",
+    "title": "Split Concatenated Strings",
+    "titleSlug": "split-concatenated-strings",
+    "translatedTitle": "分割连接字符串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 36,
+    "dislikes": 0,
+    "exampleTestcases": "[\"abc\",\"xyz\"]\n[\"abc\"]",
+    "sampleTestCase": "[\"abc\",\"xyz\"]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"splitLoopedString\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"strs\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.4K\", \"totalSubmission\": \"6.3K\", \"totalAcceptedRaw\": 2434, \"totalSubmissionRaw\": 6263, \"acRate\": \"38.9%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

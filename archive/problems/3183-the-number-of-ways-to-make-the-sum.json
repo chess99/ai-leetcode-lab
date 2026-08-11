@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:28Z",
+  "source": "https://leetcode.cn/problems/the-number-of-ways-to-make-the-sum/",
+  "question": {
+    "questionId": "3489",
+    "questionFrontendId": "3183",
+    "title": "The Number of Ways to Make the Sum",
+    "titleSlug": "the-number-of-ways-to-make-the-sum",
+    "translatedTitle": "达到总和的方法数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "4\n12\n5",
+    "sampleTestCase": "4",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"numberOfWays\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"775\", \"totalSubmission\": \"2.1K\", \"totalAcceptedRaw\": 775, \"totalSubmissionRaw\": 2051, \"acRate\": \"37.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "背包问题",
+        "slug": "knapsack-problem",
+        "translatedName": null
+      },
+      {
+        "name": "筛法",
+        "slug": "sieve-theory",
+        "translatedName": null
+      },
+      {
+        "name": "混合背包",
+        "slug": "mixed-knapsack",
+        "translatedName": null
+      }
+    ]
+  }
+}

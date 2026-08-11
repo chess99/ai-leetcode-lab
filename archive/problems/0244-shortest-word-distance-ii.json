@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:09Z",
+  "source": "https://leetcode.cn/problems/shortest-word-distance-ii/",
+  "question": {
+    "questionId": "244",
+    "questionFrontendId": "244",
+    "title": "Shortest Word Distance II",
+    "titleSlug": "shortest-word-distance-ii",
+    "translatedTitle": "最短单词距离 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 105,
+    "dislikes": 0,
+    "exampleTestcases": "[\"WordDistance\",\"shortest\",\"shortest\"]\n[[[\"practice\",\"makes\",\"perfect\",\"coding\",\"makes\"]],[\"coding\",\"practice\"],[\"makes\",\"coding\"]]",
+    "sampleTestCase": "[\"WordDistance\",\"shortest\",\"shortest\"]\n[[[\"practice\",\"makes\",\"perfect\",\"coding\",\"makes\"]],[\"coding\",\"practice\"],[\"makes\",\"coding\"]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"classname\": \"WordDistance\",\n  \"maxbytesperline\": 300000,\n  \"constructor\": {\n    \"params\": [\n      {\n        \"type\": \"string[]\",\n        \"name\": \"wordsDict\"\n      },\n      {\n        \"type\": \"integer\",\n        \"name\": \"wordsSize\",\n        \"lang\": \"c\",\n        \"value\": \"size_1\"\n      }\n    ]\n  },\n  \"methods\": [\n    {\n      \"name\": \"shortest\",\n      \"params\": [\n        {\n          \"type\": \"string\",\n          \"name\": \"word1\"\n        },\n        {\n          \"type\": \"string\",\n          \"name\": \"word2\"\n        }\n      ],\n      \"return\": {\n        \"type\": \"integer\"\n      }\n    }\n  ],\n  \"systemdesign\": true,\n  \"params\": [\n    {\n      \"name\": \"inputs\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"inputs\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<String>\",\n    \"dealloc\": true\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"12.6K\", \"totalSubmission\": \"21K\", \"totalAcceptedRaw\": 12573, \"totalSubmissionRaw\": 21021, \"acRate\": \"59.8%\"}",
+    "topicTags": [
+      {
+        "name": "Design",
+        "slug": "design",
+        "translatedName": "设计"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:19Z",
+  "source": "https://leetcode.cn/problems/path-sum-iv/",
+  "question": {
+    "questionId": "666",
+    "questionFrontendId": "666",
+    "title": "Path Sum IV",
+    "titleSlug": "path-sum-iv",
+    "translatedTitle": "路径总和 IV",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 76,
+    "dislikes": 0,
+    "exampleTestcases": "[113,215,221]\n[113,221]",
+    "sampleTestCase": "[113,215,221]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"pathSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.2K\", \"totalSubmission\": \"8.9K\", \"totalAcceptedRaw\": 5233, \"totalSubmissionRaw\": 8924, \"acRate\": \"58.6%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:50Z",
+  "source": "https://leetcode.cn/problems/minimum-moves-to-balance-circular-array-ii/",
+  "question": {
+    "questionId": "4016",
+    "questionFrontendId": "4004",
+    "title": "Minimum Moves to Balance Circular Array II",
+    "titleSlug": "minimum-moves-to-balance-circular-array-ii",
+    "translatedTitle": "使循环数组余额非负的最少移动次数 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[-1,2,-1]\n[4,-1,-2]\n[-3,-3,5]",
+    "sampleTestCase": "[-1,2,-1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minMoves\",\n  \"params\": [\n    {\n      \"name\": \"balance\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"48\", \"totalSubmission\": \"67\", \"totalAcceptedRaw\": 48, \"totalSubmissionRaw\": 67, \"acRate\": \"71.6%\"}",
+    "topicTags": []
+  }
+}

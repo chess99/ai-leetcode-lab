@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:17Z",
+  "source": "https://leetcode.cn/problems/maximum-number-that-makes-result-of-bitwise-and-zero/",
+  "question": {
+    "questionId": "3433",
+    "questionFrontendId": "3125",
+    "title": "Maximum Number That Makes Result of Bitwise AND Zero",
+    "titleSlug": "maximum-number-that-makes-result-of-bitwise-and-zero",
+    "translatedTitle": "使得按位与结果为 0 的最大数字",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "7\n9\n17",
+    "sampleTestCase": "7",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxNumber\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"long\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"long\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"384\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 384, \"totalSubmissionRaw\": 1396, \"acRate\": \"27.5%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

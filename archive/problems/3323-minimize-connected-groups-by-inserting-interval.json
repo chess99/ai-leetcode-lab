@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:53Z",
+  "source": "https://leetcode.cn/problems/minimize-connected-groups-by-inserting-interval/",
+  "question": {
+    "questionId": "3565",
+    "questionFrontendId": "3323",
+    "title": "Minimize Connected Groups by Inserting Interval",
+    "titleSlug": "minimize-connected-groups-by-inserting-interval",
+    "translatedTitle": "通过插入区间最小化连通组",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 1,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,3],[5,6],[8,10]]\n3\n[[5,10],[1,1],[3,3]]\n1",
+    "sampleTestCase": "[[1,3],[5,6],[8,10]]\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minConnectedGroups\",\n  \"params\": [\n    {\n      \"name\": \"intervals\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"469\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 469, \"totalSubmissionRaw\": 1417, \"acRate\": \"33.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      }
+    ]
+  }
+}

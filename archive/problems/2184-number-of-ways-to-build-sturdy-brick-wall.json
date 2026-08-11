@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:35Z",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-build-sturdy-brick-wall/",
+  "question": {
+    "questionId": "2322",
+    "questionFrontendId": "2184",
+    "title": "Number of Ways to Build Sturdy Brick Wall",
+    "titleSlug": "number-of-ways-to-build-sturdy-brick-wall",
+    "translatedTitle": "建造坚实的砖墙的方法数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 11,
+    "dislikes": 0,
+    "exampleTestcases": "2\n3\n[1,2]\n1\n1\n[5]",
+    "sampleTestCase": "2\n3\n[1,2]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"buildWall\",\n  \"params\": [\n    {\n      \"name\": \"height\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"width\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"bricks\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"820\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 820, \"totalSubmissionRaw\": 1545, \"acRate\": \"53.1%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Bitmask",
+        "slug": "bitmask",
+        "translatedName": "位掩码"
+      }
+    ]
+  }
+}

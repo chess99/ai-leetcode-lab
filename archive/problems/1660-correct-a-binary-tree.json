@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:06Z",
+  "source": "https://leetcode.cn/problems/correct-a-binary-tree/",
+  "question": {
+    "questionId": "1796",
+    "questionFrontendId": "1660",
+    "title": "Correct a Binary Tree",
+    "titleSlug": "correct-a-binary-tree",
+    "translatedTitle": "纠正二叉树",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 21,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3]\n2\n3\n[8,3,1,7,null,9,4,2,null,null,null,5,6]\n7\n4",
+    "sampleTestCase": "[1,2,3]\n2\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"correctBinaryTree\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"fromNode\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"toNode\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"TreeNode\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"csharp\",\n    \"javascript\",\n    \"python3\"\n  ]\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.6K\", \"totalSubmission\": \"2.2K\", \"totalAcceptedRaw\": 1628, \"totalSubmissionRaw\": 2205, \"acRate\": \"73.8%\"}",
+    "topicTags": [
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "translatedName": "树"
+      },
+      {
+        "name": "Depth-First Search",
+        "slug": "depth-first-search",
+        "translatedName": "深度优先搜索"
+      },
+      {
+        "name": "Breadth-First Search",
+        "slug": "breadth-first-search",
+        "translatedName": "广度优先搜索"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Binary Tree",
+        "slug": "binary-tree",
+        "translatedName": "二叉树"
+      }
+    ]
+  }
+}

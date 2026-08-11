@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:00Z",
+  "source": "https://leetcode.cn/problems/find-pattern-in-infinite-stream-i/",
+  "question": {
+    "questionId": "3333",
+    "questionFrontendId": "3023",
+    "title": "Find Pattern in Infinite Stream I",
+    "titleSlug": "find-pattern-in-infinite-stream-i",
+    "translatedTitle": "在无限流中寻找模式 I",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[1,1,1,0,1]\n[0,1]\n[0]\n[0]\n[1,0,1,1,0,1]\n[1,1,0,1]",
+    "sampleTestCase": "[1,1,1,0,1]\n[0,1]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"foobar\",\n  \"params\": [\n    {\n      \"name\": \"stream\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"pattern\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"c\",\n    \"csharp\",\n    \"javascript\",\n    \"ruby\",\n    \"swift\",\n    \"golang\",\n    \"python3\",\n    \"scala\",\n    \"kotlin\",\n    \"rust\",\n    \"php\",\n    \"typescript\",\n    \"dart\"\n  ],\n\"typescriptCustomType\" : \"class InfiniteStream {\\n    #bits: number[];\\n    #cur_index: number = -1;\\n\\n    constructor(bits: number[]) {\\n        this.#bits = bits;\\n    }\\n\\n    public next(): number {\\n        this.#cur_index++;\\n        this.#cur_index %= this.#bits.length;\\n        return this.#bits[this.#cur_index];\\n    }\\n}\"\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"314\", \"totalSubmission\": \"997\", \"totalAcceptedRaw\": 314, \"totalSubmissionRaw\": 997, \"acRate\": \"31.5%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Interactive",
+        "slug": "interactive",
+        "translatedName": "交互"
+      },
+      {
+        "name": "String Matching",
+        "slug": "string-matching",
+        "translatedName": "字符串匹配"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      },
+      {
+        "name": "Hash Function",
+        "slug": "hash-function",
+        "translatedName": "哈希函数"
+      },
+      {
+        "name": "Rolling Hash",
+        "slug": "rolling-hash",
+        "translatedName": "滚动哈希"
+      }
+    ]
+  }
+}

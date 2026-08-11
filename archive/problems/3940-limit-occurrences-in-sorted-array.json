@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:39Z",
+  "source": "https://leetcode.cn/problems/limit-occurrences-in-sorted-array/",
+  "question": {
+    "questionId": "4312",
+    "questionFrontendId": "3940",
+    "title": "Limit Occurrences in Sorted Array",
+    "titleSlug": "limit-occurrences-in-sorted-array",
+    "translatedTitle": "限制有序数组中的元素出现次数",
+    "content": "<p>You are given a <strong>sorted</strong> integer array <code>nums</code> and an integer <code>k</code>.</p>\n\n<p>Return an array such that each <strong>distinct</strong> element appears <strong>at most</strong> <code>k</code> times, while preserving the relative order of the elements in <code>nums</code>.</p>\n\n<p>Note: If a distinct element appears <strong>at least</strong> <code>k</code> times, then it must appear <strong>exactly</strong> <code>k</code> times in the resulting array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,1,1,2,2,3], k = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">[1,1,2,2,3]</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Each element can appear at most 2 times.</p>\n\n<ul>\n\t<li>The element 1 appears 3 times, so only 2 occurrences are kept.</li>\n\t<li>The element 2 appears 2 times, so both occurrences are kept.</li>\n\t<li>The element 3 appears 1 time, so it is kept.</li>\n</ul>\n\n<p>Thus, the resulting array is <code>[1, 1, 2, 2, 3]</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,2,3], k = 1</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">[1,2,3]</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>All elements are distinct and already appear at most once, so the array remains unchanged.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n\t<li><code>nums</code> is sorted in non-decreasing order.</li>\n\t<li><code>1 &lt;= k &lt;= nums.length</code></li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow-up:</strong></p>\n\n<ul>\n\t<li>Can you solve this in-place using O(1) extra space?</li>\n\t<li>Note that the space used for returning or resizing the result does not count toward the space complexity mentioned above, as some languages do not support in-place resizing.</li>\n</ul>\n",
+    "translatedContent": "<p>给你一个&nbsp;<strong>按升序排序&nbsp;</strong>的整数数组 <code>nums</code> 和一个整数 <code>k</code>。</p>\n\n<p>返回一个数组，使得每个<strong>&nbsp;不同</strong>&nbsp;元素最多出现 <code>k</code> 次，同时保持 <code>nums</code> 中元素的相对顺序不变。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">nums = [1,1,1,2,2,3], k = 2</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">[1,1,2,2,3]</span></p>\n\n<p><strong>解释：</strong></p>\n\n<p>每个元素最多可以出现 2 次。</p>\n\n<ul>\n\t<li>元素 1 出现了 3 次，因此只保留其中 2 次。</li>\n\t<li>元素 2 出现了 2 次，因此全部保留。</li>\n\t<li>元素 3 出现了 1 次，因此保留。</li>\n</ul>\n\n<p>因此，结果数组为 <code>[1, 1, 2, 2, 3]</code>。</p>\n</div>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong> <span class=\"example-io\">nums = [1,2,3], k = 1</span></p>\n\n<p><strong>输出：</strong> <span class=\"example-io\">[1,2,3]</span></p>\n\n<p><strong>解释：</strong></p>\n\n<p>所有元素都互不相同，且已经最多只出现一次，因此数组保持不变。</p>\n</div>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n\t<li><code>nums</code> 按非递减顺序排序。</li>\n\t<li><code>1 &lt;= k &lt;= nums.length</code></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>进阶：</strong></p>\n\n<ul>\n\t<li>你能使用原地算法，并仅使用 <code>O(1)</code> 额外空间解决该问题吗？</li>\n\t<li>注意：用于返回结果或调整结果大小所占用的空间不计入上述空间复杂度，因为有些语言不支持原地调整数组大小。</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[1,1,1,2,2,3]\n2\n[1,2,3]\n1",
+    "sampleTestCase": "[1,1,1,2,2,3]\n2",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"limitOccurrences\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"k\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    vector<int> limitOccurrences(vector<int>& nums, int k) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int[] limitOccurrences(int[] nums, int k) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def limitOccurrences(self, nums: list[int], k: int) -> list[int]:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def limitOccurrences(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar limitOccurrences = function(nums, k) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function limitOccurrences(nums: number[], k: number): number[] {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int[] LimitOccurrences(int[] nums, int k) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* limitOccurrences(int* nums, int numsSize, int k, int* returnSize) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func limitOccurrences(nums []int, k int) []int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun limitOccurrences(nums: IntArray, k: Int): IntArray {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func limitOccurrences(_ nums: [Int], _ k: Int) -> [Int] {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn limit_occurrences(nums: Vec<i32>, k: i32) -> Vec<i32> {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer[]}\ndef limit_occurrences(nums, k)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer[]\n     */\n    function limitOccurrences($nums, $k) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  List<int> limitOccurrences(List<int> nums, int k) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def limitOccurrences(nums: Array[Int], k: Int): Array[Int] = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec limit_occurrences(nums :: [integer], k :: integer) :: [integer]\n  def limit_occurrences(nums, k) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec limit_occurrences(Nums :: [integer()], K :: integer()) -> [integer()].\nlimit_occurrences(Nums, K) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (limit-occurrences nums k)\n  (-> (listof exact-integer?) exact-integer? (listof exact-integer?))\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func limitOccurrences(nums: Array<Int64>, k: Int64): Array<Int64> {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"2.5K\", \"totalSubmission\": \"3.3K\", \"totalAcceptedRaw\": 2452, \"totalSubmissionRaw\": 3279, \"acRate\": \"74.8%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      }
+    ]
+  }
+}

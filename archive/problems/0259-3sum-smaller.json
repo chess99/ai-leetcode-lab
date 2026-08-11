@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:11Z",
+  "source": "https://leetcode.cn/problems/3sum-smaller/",
+  "question": {
+    "questionId": "259",
+    "questionFrontendId": "259",
+    "title": "3Sum Smaller",
+    "titleSlug": "3sum-smaller",
+    "translatedTitle": "较小的三数之和",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 177,
+    "dislikes": 0,
+    "exampleTestcases": "[-2,0,1,3]\n2\n[]\n0\n[0]\n0",
+    "sampleTestCase": "[-2,0,1,3]\n2",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"threeSumSmaller\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n        \"name\": \"target\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"16.8K\", \"totalSubmission\": \"30.2K\", \"totalAcceptedRaw\": 16811, \"totalSubmissionRaw\": 30160, \"acRate\": \"55.7%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      }
+    ]
+  }
+}

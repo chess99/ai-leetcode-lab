@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:39Z",
+  "source": "https://leetcode.cn/problems/valid-word-square/",
+  "question": {
+    "questionId": "422",
+    "questionFrontendId": "422",
+    "title": "Valid Word Square",
+    "titleSlug": "valid-word-square",
+    "translatedTitle": "有效的单词方块",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 66,
+    "dislikes": 0,
+    "exampleTestcases": "[\"abcd\",\"bnrt\",\"crmy\",\"dtye\"]\n[\"abcd\",\"bnrt\",\"crm\",\"dt\"]\n[\"ball\",\"area\",\"read\",\"lady\"]",
+    "sampleTestCase": "[\"abcd\",\"bnrt\",\"crmy\",\"dtye\"]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"validWordSquare\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"list<string>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"10.7K\", \"totalSubmission\": \"23.1K\", \"totalAcceptedRaw\": 10674, \"totalSubmissionRaw\": 23051, \"acRate\": \"46.3%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Matrix",
+        "slug": "matrix",
+        "translatedName": "矩阵"
+      }
+    ]
+  }
+}

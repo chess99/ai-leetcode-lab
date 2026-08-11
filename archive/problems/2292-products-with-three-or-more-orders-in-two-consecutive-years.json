@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:55Z",
+  "source": "https://leetcode.cn/problems/products-with-three-or-more-orders-in-two-consecutive-years/",
+  "question": {
+    "questionId": "2431",
+    "questionFrontendId": "2292",
+    "title": "Products With Three or More Orders in Two Consecutive Years",
+    "titleSlug": "products-with-three-or-more-orders-in-two-consecutive-years",
+    "translatedTitle": "连续两年有 3 个及以上订单的产品",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 7,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\": {\"Orders\": [\"order_id\", \"product_id\", \"quantity\", \"purchase_date\"]}, \"rows\": {\"Orders\": [[1, 1, 7, \"2020-03-16\"], [2, 1, 4, \"2020-12-02\"], [3, 1, 7, \"2020-05-10\"], [4, 1, 6, \"2021-12-23\"], [5, 1, 5, \"2021-05-21\"], [6, 1, 6, \"2021-10-11\"], [7, 2, 6, \"2022-10-11\"]]}}",
+    "sampleTestCase": "{\"headers\": {\"Orders\": [\"order_id\", \"product_id\", \"quantity\", \"purchase_date\"]}, \"rows\": {\"Orders\": [[1, 1, 7, \"2020-03-16\"], [2, 1, 4, \"2020-12-02\"], [3, 1, 7, \"2020-05-10\"], [4, 1, 6, \"2021-12-23\"], [5, 1, 5, \"2021-05-21\"], [6, 1, 6, \"2021-10-11\"], [7, 2, 6, \"2022-10-11\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Orders (order_id int, product_id int, quantity int, purchase_date date)\"],\"mssql\":[\"Create table Orders (order_id int, product_id int, quantity int, purchase_date date)\"],\"oraclesql\":[\"Create table Orders (order_id int, product_id int, quantity int, purchase_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"find_valid_products\",\"pythondata\":[\"Orders = pd.DataFrame([], columns=['order_id', 'product_id', 'quantity', 'purchase_date']).astype({'order_id':'Int64', 'product_id':'Int64', 'quantity':'Int64', 'purchase_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Orders (order_id int, product_id int, quantity int, purchase_date date)\"],\"database_schema\":{\"Orders\":{\"order_id\":\"INT\",\"product_id\":\"INT\",\"quantity\":\"INT\",\"purchase_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"7.4K\", \"totalAcceptedRaw\": 3096, \"totalSubmissionRaw\": 7363, \"acRate\": \"42.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

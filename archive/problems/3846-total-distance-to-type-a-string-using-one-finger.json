@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:23Z",
+  "source": "https://leetcode.cn/problems/total-distance-to-type-a-string-using-one-finger/",
+  "question": {
+    "questionId": "4170",
+    "questionFrontendId": "3846",
+    "title": "Total Distance to Type a String Using One Finger",
+    "titleSlug": "total-distance-to-type-a-string-using-one-finger",
+    "translatedTitle": "使用单指输入字符串的总距离",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "\"hello\"\n\"a\"",
+    "sampleTestCase": "\"hello\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"totalDistance\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"111\", \"totalSubmission\": \"118\", \"totalAcceptedRaw\": 111, \"totalSubmissionRaw\": 118, \"acRate\": \"94.1%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

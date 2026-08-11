@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:02Z",
+  "source": "https://leetcode.cn/problems/find-the-punishment-number-of-an-integer/",
+  "question": {
+    "questionId": "2802",
+    "questionFrontendId": "2698",
+    "title": "Find the Punishment Number of an Integer",
+    "titleSlug": "find-the-punishment-number-of-an-integer",
+    "translatedTitle": "求一个整数的惩罚数",
+    "content": "<p>Given a positive integer <code>n</code>, return <em>the <strong>punishment number</strong></em> of <code>n</code>.</p>\n\n<p>The <strong>punishment number</strong> of <code>n</code> is defined as the sum of the squares of all integers <code>i</code> such that:</p>\n\n<ul>\n\t<li><code>1 &lt;= i &lt;= n</code></li>\n\t<li>The decimal representation of <code>i * i</code> can be partitioned into contiguous substrings such that the sum of the integer values of these substrings equals <code>i</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 10\n<strong>Output:</strong> 182\n<strong>Explanation:</strong> There are exactly 3 integers i in the range [1, 10] that satisfy the conditions in the statement:\n- 1 since 1 * 1 = 1\n- 9 since 9 * 9 = 81 and 81 can be partitioned into 8 and 1 with a sum equal to 8 + 1 == 9.\n- 10 since 10 * 10 = 100 and 100 can be partitioned into 10 and 0 with a sum equal to 10 + 0 == 10.\nHence, the punishment number of 10 is 1 + 81 + 100 = 182\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 37\n<strong>Output:</strong> 1478\n<strong>Explanation:</strong> There are exactly 4 integers i in the range [1, 37] that satisfy the conditions in the statement:\n- 1 since 1 * 1 = 1. \n- 9 since 9 * 9 = 81 and 81 can be partitioned into 8 + 1. \n- 10 since 10 * 10 = 100 and 100 can be partitioned into 10 + 0. \n- 36 since 36 * 36 = 1296 and 1296 can be partitioned into 1 + 29 + 6.\nHence, the punishment number of 37 is 1 + 81 + 100 + 1296 = 1478\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 1000</code></li>\n</ul>\n",
+    "translatedContent": "<p>给你一个正整数&nbsp;<code>n</code>&nbsp;，请你返回&nbsp;<code>n</code>&nbsp;的&nbsp;<strong>惩罚数</strong>&nbsp;。</p>\n\n<p><code>n</code>&nbsp;的 <strong>惩罚数</strong>&nbsp;定义为所有满足以下条件 <code>i</code>&nbsp;的数的平方和：</p>\n\n<ul>\n\t<li><code>1 &lt;= i &lt;= n</code></li>\n\t<li><code>i * i</code> 的十进制表示的字符串可以分割成若干连续子字符串，且这些子字符串对应的整数值之和等于 <code>i</code> 。</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<b>输入：</b>n = 10\n<b>输出：</b>182\n<b>解释：</b>总共有 3 个范围在 [1, 10] 的整数 i 满足要求：\n- 1 ，因为 1 * 1 = 1\n- 9 ，因为 9 * 9 = 81 ，且 81 可以分割成 8 + 1 。\n- 10 ，因为 10 * 10 = 100 ，且 100 可以分割成 10 + 0 。\n因此，10 的惩罚数为 1 + 81 + 100 = 182\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<b>输入：</b>n = 37\n<b>输出：</b>1478\n<b>解释：</b>总共有 4 个范围在 [1, 37] 的整数 i 满足要求：\n- 1 ，因为 1 * 1 = 1\n- 9 ，因为 9 * 9 = 81 ，且 81 可以分割成 8 + 1 。\n- 10 ，因为 10 * 10 = 100 ，且 100 可以分割成 10 + 0 。\n- 36 ，因为 36 * 36 = 1296 ，且 1296 可以分割成 1 + 29 + 6 。\n因此，37 的惩罚数为 1 + 81 + 100 + 1296 = 1478\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 1000</code></li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Medium",
+    "likes": 158,
+    "dislikes": 0,
+    "exampleTestcases": "10\n37",
+    "sampleTestCase": "10",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"punishmentNumber\",\n  \"params\": [\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int punishmentNumber(int n) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int punishmentNumber(int n) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def punishmentNumber(self, n: int) -> int:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def punishmentNumber(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number} n\n * @return {number}\n */\nvar punishmentNumber = function(n) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function punishmentNumber(n: number): number {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int PunishmentNumber(int n) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "int punishmentNumber(int n) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func punishmentNumber(n int) int {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun punishmentNumber(n: Int): Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func punishmentNumber(_ n: Int) -> Int {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn punishment_number(n: i32) -> i32 {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer} n\n# @return {Integer}\ndef punishment_number(n)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function punishmentNumber($n) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  int punishmentNumber(int n) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def punishmentNumber(n: Int): Int = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec punishment_number(n :: integer) :: integer\n  def punishment_number(n) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec punishment_number(N :: integer()) -> integer().\npunishment_number(N) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (punishment-number n)\n  (-> exact-integer? exact-integer?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func punishmentNumber(n: Int64): Int64 {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"35.5K\", \"totalSubmission\": \"45.6K\", \"totalAcceptedRaw\": 35462, \"totalSubmissionRaw\": 45590, \"acRate\": \"77.8%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      }
+    ]
+  }
+}

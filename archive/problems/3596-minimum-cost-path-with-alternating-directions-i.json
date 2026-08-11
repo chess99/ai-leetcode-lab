@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:47:40Z",
+  "source": "https://leetcode.cn/problems/minimum-cost-path-with-alternating-directions-i/",
+  "question": {
+    "questionId": "3925",
+    "questionFrontendId": "3596",
+    "title": "Minimum Cost Path with Alternating Directions I",
+    "titleSlug": "minimum-cost-path-with-alternating-directions-i",
+    "translatedTitle": "交替方向的最小路径代价 I",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "1\n1\n2\n1",
+    "sampleTestCase": "1\n1",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minCost\",\n  \"params\": [\n    {\n      \"name\": \"m\",\n      \"type\": \"integer\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"n\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"152\", \"totalSubmission\": \"203\", \"totalAcceptedRaw\": 152, \"totalSubmissionRaw\": 203, \"acRate\": \"74.9%\"}",
+    "topicTags": [
+      {
+        "name": "Brainteaser",
+        "slug": "brainteaser",
+        "translatedName": "脑筋急转弯"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

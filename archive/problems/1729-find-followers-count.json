@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:20Z",
+  "source": "https://leetcode.cn/problems/find-followers-count/",
+  "question": {
+    "questionId": "1877",
+    "questionFrontendId": "1729",
+    "title": "Find Followers Count",
+    "titleSlug": "find-followers-count",
+    "translatedTitle": "求关注者的数量",
+    "content": "<p>Table: <code>Followers</code></p>\n\n<pre>\n+-------------+------+\n| Column Name | Type |\n+-------------+------+\n| user_id     | int  |\n| follower_id | int  |\n+-------------+------+\n(user_id, follower_id) is the primary key (combination of columns with unique values) for this table.\nThis table contains the IDs of a user and a follower in a social media app where the follower follows the user.</pre>\n\n<p>&nbsp;</p>\n\n<p>Write a solution that will, for each user, return the number of followers.</p>\n\n<p>Return the result table ordered by <code>user_id</code> in ascending order.</p>\n\n<p>The&nbsp;result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> \nFollowers table:\n+---------+-------------+\n| user_id | follower_id |\n+---------+-------------+\n| 0       | 1           |\n| 1       | 0           |\n| 2       | 0           |\n| 2       | 1           |\n+---------+-------------+\n<strong>Output:</strong> \n+---------+----------------+\n| user_id | followers_count|\n+---------+----------------+\n| 0       | 1              |\n| 1       | 1              |\n| 2       | 2              |\n+---------+----------------+\n<strong>Explanation:</strong> \nThe followers of 0 are {1}\nThe followers of 1 are {0}\nThe followers of 2 are {0,1}\n</pre>\n",
+    "translatedContent": "<p>表：&nbsp;<code>Followers</code></p>\n\n<pre>\n+-------------+------+\n| Column Name | Type |\n+-------------+------+\n| user_id     | int  |\n| follower_id | int  |\n+-------------+------+\n(user_id, follower_id) 是这个表的主键（具有唯一值的列的组合）。\n该表包含一个关注关系中关注者和用户的编号，其中关注者关注用户。</pre>\n\n<p>&nbsp;</p>\n\n<p>编写解决方案，对于每一个用户，返回该用户的关注者数量。</p>\n\n<p>按&nbsp;<code>user_id</code>&nbsp;的顺序返回结果表。</p>\n\n<p>查询结果的格式如下示例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>\nFollowers 表：\n+---------+-------------+\n| user_id | follower_id |\n+---------+-------------+\n| 0       | 1           |\n| 1       | 0           |\n| 2       | 0           |\n| 2       | 1           |\n+---------+-------------+\n<strong>输出：</strong>\n+---------+----------------+\n| user_id | followers_count|\n+---------+----------------+\n| 0       | 1              |\n| 1       | 1              |\n| 2       | 2              |\n+---------+----------------+\n<strong>解释：</strong>\n0 的关注者有 {1}\n1 的关注者有 {0}\n2 的关注者有 {0,1}</pre>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 65,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Followers\":[\"user_id\",\"follower_id\"]},\"rows\":{\"Followers\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"2\",\"0\"],[\"2\",\"1\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Followers\":[\"user_id\",\"follower_id\"]},\"rows\":{\"Followers\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"2\",\"0\"],[\"2\",\"1\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Followers(user_id int, follower_id int)\"],\"mssql\":[\"Create table Followers(user_id int, follower_id int)\"],\"oraclesql\":[\"Create table Followers(user_id int, follower_id int)\"],\"database\":true,\"name\":\"count_followers\",\"pythondata\":[\"Followers = pd.DataFrame([], columns=['user_id', 'follower_id']).astype({'user_id':'Int64', 'follower_id':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Followers(user_id int, follower_id int)\"],\"database_schema\":{\"Followers\":{\"user_id\":\"INT\",\"follower_id\":\"INT\"}}}",
+    "codeSnippets": [
+      {
+        "lang": "MySQL",
+        "langSlug": "mysql",
+        "code": "# Write your MySQL query statement below"
+      },
+      {
+        "lang": "MS SQL Server",
+        "langSlug": "mssql",
+        "code": "/* Write your T-SQL query statement below */"
+      },
+      {
+        "lang": "PostgreSQL",
+        "langSlug": "postgresql",
+        "code": "-- Write your PostgreSQL query statement below"
+      },
+      {
+        "lang": "Oracle",
+        "langSlug": "oraclesql",
+        "code": "/* Write your PL/SQL query statement below */"
+      },
+      {
+        "lang": "Pandas",
+        "langSlug": "pythondata",
+        "code": "import pandas as pd\n\ndef count_followers(followers: pd.DataFrame) -> pd.DataFrame:\n    "
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"95.4K\", \"totalSubmission\": \"161.7K\", \"totalAcceptedRaw\": 95360, \"totalSubmissionRaw\": 161720, \"acRate\": \"59.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

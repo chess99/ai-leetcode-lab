@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:35Z",
+  "source": "https://leetcode.cn/problems/new-users-daily-count/",
+  "question": {
+    "questionId": "1204",
+    "questionFrontendId": "1107",
+    "title": "New Users Daily Count",
+    "titleSlug": "new-users-daily-count",
+    "translatedTitle": "每日新用户统计",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 45,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Traffic\":[\"user_id\",\"activity\",\"activity_date\"]},\"rows\":{\"Traffic\":[[1,\"login\",\"2019-05-01\"],[1,\"homepage\",\"2019-05-01\"],[1,\"logout\",\"2019-05-01\"],[2,\"login\",\"2019-06-21\"],[2,\"logout\",\"2019-06-21\"],[3,\"login\",\"2019-01-01\"],[3,\"jobs\",\"2019-01-01\"],[3,\"logout\",\"2019-01-01\"],[4,\"login\",\"2019-06-21\"],[4,\"groups\",\"2019-06-21\"],[4,\"logout\",\"2019-06-21\"],[5,\"login\",\"2019-03-01\"],[5,\"logout\",\"2019-03-01\"],[5,\"login\",\"2019-06-21\"],[5,\"logout\",\"2019-06-21\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Traffic\":[\"user_id\",\"activity\",\"activity_date\"]},\"rows\":{\"Traffic\":[[1,\"login\",\"2019-05-01\"],[1,\"homepage\",\"2019-05-01\"],[1,\"logout\",\"2019-05-01\"],[2,\"login\",\"2019-06-21\"],[2,\"logout\",\"2019-06-21\"],[3,\"login\",\"2019-01-01\"],[3,\"jobs\",\"2019-01-01\"],[3,\"logout\",\"2019-01-01\"],[4,\"login\",\"2019-06-21\"],[4,\"groups\",\"2019-06-21\"],[4,\"logout\",\"2019-06-21\"],[5,\"login\",\"2019-03-01\"],[5,\"logout\",\"2019-03-01\"],[5,\"login\",\"2019-06-21\"],[5,\"logout\",\"2019-06-21\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Traffic (user_id int, activity ENUM('login', 'logout', 'jobs', 'groups', 'homepage'), activity_date date)\"],\"mssql\":[\"Create table Traffic (user_id int, activity VARCHAR(10) NOT NULL CHECK (activity IN ('login', 'logout', 'jobs', 'groups', 'homepage')), activity_date date)\"],\"oraclesql\":[\"Create table Traffic (user_id int, activity VARCHAR(10) NOT NULL CHECK (activity IN ('login', 'logout', 'jobs', 'groups', 'homepage')), activity_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"new_users_daily_count\",\"pythondata\":[\"Traffic = pd.DataFrame([], columns=['user_id', 'activity', 'activity_date']).astype({'user_id':'Int64', 'activity':'object', 'activity_date':'datetime64[ns]'})\"],\"manual\":true,\"postgresql\":[\"Create table If Not Exists Traffic (user_id int, activity VARCHAR(30) CHECK (activity IN ('login', 'logout', 'jobs', 'groups', 'homepage')), activity_date date)\\n\"],\"database_schema\":{\"Traffic\":{\"user_id\":\"INT\",\"activity\":\"ENUM('login', 'logout', 'jobs', 'groups', 'homepage')\",\"activity_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"17.7K\", \"totalSubmission\": \"44.2K\", \"totalAcceptedRaw\": 17665, \"totalSubmissionRaw\": 44177, \"acRate\": \"40.0%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

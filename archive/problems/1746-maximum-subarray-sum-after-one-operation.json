@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:21Z",
+  "source": "https://leetcode.cn/problems/maximum-subarray-sum-after-one-operation/",
+  "question": {
+    "questionId": "1893",
+    "questionFrontendId": "1746",
+    "title": "Maximum Subarray Sum After One Operation",
+    "titleSlug": "maximum-subarray-sum-after-one-operation",
+    "translatedTitle": "经过一次操作后的最大子数组和",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 32,
+    "dislikes": 0,
+    "exampleTestcases": "[2,-1,-4,-3]\n[1,-1,1,1,-1,-1,1]",
+    "sampleTestCase": "[2,-1,-4,-3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"maxSumAfterOperation\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"3.7K\", \"totalSubmission\": \"6.2K\", \"totalAcceptedRaw\": 3701, \"totalSubmissionRaw\": 6162, \"acRate\": \"60.1%\"}",
+    "topicTags": [
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      }
+    ]
+  }
+}

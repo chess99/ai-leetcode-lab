@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:07Z",
+  "source": "https://leetcode.cn/problems/linked-list-frequency/",
+  "question": {
+    "questionId": "3359",
+    "questionFrontendId": "3063",
+    "title": "Linked List Frequency",
+    "titleSlug": "linked-list-frequency",
+    "translatedTitle": "链表频率",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Easy",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "[1,1,2,1,2,3]",
+    "sampleTestCase": "[1,1,2,1,2,3]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"frequenciesOfElements\",\n  \"params\": [\n    {\n      \"name\": \"head\",\n      \"type\": \"ListNode\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"ListNode\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"2.5K\", \"totalAcceptedRaw\": 1357, \"totalSubmissionRaw\": 2480, \"acRate\": \"54.7%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Linked List",
+        "slug": "linked-list",
+        "translatedName": "链表"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      }
+    ]
+  }
+}

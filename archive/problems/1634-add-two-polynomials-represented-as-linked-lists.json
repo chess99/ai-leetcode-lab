@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:01Z",
+  "source": "https://leetcode.cn/problems/add-two-polynomials-represented-as-linked-lists/",
+  "question": {
+    "questionId": "1774",
+    "questionFrontendId": "1634",
+    "title": "Add Two Polynomials Represented as Linked Lists",
+    "titleSlug": "add-two-polynomials-represented-as-linked-lists",
+    "translatedTitle": "求两个多项式链表的和",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 19,
+    "dislikes": 0,
+    "exampleTestcases": "[[1,1]]\n[[1,0]]\n[[2,2],[4,1],[3,0]]\n[[3,2],[-4,1],[-1,0]]\n[[1,2]]\n[[-1,2]]",
+    "sampleTestCase": "[[1,1]]\n[[1,0]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"addPoly\",\n  \"params\": [\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"poly1\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"poly2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"javascript\",\n    \"python3\",\n    \"python\",\n    \"csharp\"\n  ]\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"2.8K\", \"totalSubmission\": \"4.7K\", \"totalAcceptedRaw\": 2780, \"totalSubmissionRaw\": 4660, \"acRate\": \"59.7%\"}",
+    "topicTags": [
+      {
+        "name": "Linked List",
+        "slug": "linked-list",
+        "translatedName": "链表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      }
+    ]
+  }
+}

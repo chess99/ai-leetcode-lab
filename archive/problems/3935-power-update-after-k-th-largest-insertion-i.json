@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:48:38Z",
+  "source": "https://leetcode.cn/problems/power-update-after-k-th-largest-insertion-i/",
+  "question": {
+    "questionId": "3970",
+    "questionFrontendId": "3935",
+    "title": "Power Update After K-th Largest Insertion I",
+    "titleSlug": "power-update-after-k-th-largest-insertion-i",
+    "translatedTitle": "插入后第 K 大更新的幂 I",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[2]\n4\n[[3,1],[1,2]]\n[7,5]\n6\n[[4,3],[7,2]]",
+    "sampleTestCase": "[2]\n4\n[[3,1],[1,2]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"powerUpdate\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"p\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"queries\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<integer>\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"98\", \"totalSubmission\": \"108\", \"totalAcceptedRaw\": 98, \"totalSubmissionRaw\": 108, \"acRate\": \"90.7%\"}",
+    "topicTags": [
+      {
+        "name": "Segment Tree",
+        "slug": "segment-tree",
+        "translatedName": "线段树"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Sorting",
+        "slug": "sorting",
+        "translatedName": "排序"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

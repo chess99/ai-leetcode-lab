@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:30Z",
+  "source": "https://leetcode.cn/problems/the-wording-game/",
+  "question": {
+    "questionId": "3173",
+    "questionFrontendId": "2868",
+    "title": "The Wording Game",
+    "titleSlug": "the-wording-game",
+    "translatedTitle": "单词游戏",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "[\"avokado\",\"dabar\"]\n[\"brazil\"]\n[\"ananas\",\"atlas\",\"banana\"]\n[\"albatros\",\"cikla\",\"nogomet\"]\n[\"hrvatska\",\"zastava\"]\n[\"bijeli\",\"galeb\"]",
+    "sampleTestCase": "[\"avokado\",\"dabar\"]\n[\"brazil\"]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"canAliceWin\",\n  \"params\": [\n    {\n      \"name\": \"a\",\n      \"type\": \"string[]\"\n    },\n    {\n      \"type\": \"string[]\",\n      \"name\": \"b\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"266\", \"totalSubmission\": \"666\", \"totalAcceptedRaw\": 266, \"totalSubmissionRaw\": 666, \"acRate\": \"39.9%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Two Pointers",
+        "slug": "two-pointers",
+        "translatedName": "双指针"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Game Theory",
+        "slug": "game-theory",
+        "translatedName": "博弈"
+      }
+    ]
+  }
+}

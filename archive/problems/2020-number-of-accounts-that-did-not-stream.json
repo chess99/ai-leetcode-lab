@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:09Z",
+  "source": "https://leetcode.cn/problems/number-of-accounts-that-did-not-stream/",
+  "question": {
+    "questionId": "2167",
+    "questionFrontendId": "2020",
+    "title": "Number of Accounts That Did Not Stream",
+    "titleSlug": "number-of-accounts-that-did-not-stream",
+    "translatedTitle": "无流量的帐户数",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Subscriptions\":[\"account_id\",\"start_date\",\"end_date\"],\"Streams\":[\"session_id\",\"account_id\",\"stream_date\"]},\"rows\":{\"Subscriptions\":[[9,\"2020-02-18\",\"2021-10-30\"],[3,\"2021-09-21\",\"2021-11-13\"],[11,\"2020-02-28\",\"2020-08-18\"],[13,\"2021-04-20\",\"2021-09-22\"],[4,\"2020-10-26\",\"2021-05-08\"],[5,\"2020-09-11\",\"2021-01-17\"]],\"Streams\":[[14,9,\"2020-05-16\"],[16,3,\"2021-10-27\"],[18,11,\"2020-04-29\"],[17,13,\"2021-08-08\"],[19,4,\"2020-12-31\"],[13,5,\"2021-01-05\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Subscriptions\":[\"account_id\",\"start_date\",\"end_date\"],\"Streams\":[\"session_id\",\"account_id\",\"stream_date\"]},\"rows\":{\"Subscriptions\":[[9,\"2020-02-18\",\"2021-10-30\"],[3,\"2021-09-21\",\"2021-11-13\"],[11,\"2020-02-28\",\"2020-08-18\"],[13,\"2021-04-20\",\"2021-09-22\"],[4,\"2020-10-26\",\"2021-05-08\"],[5,\"2020-09-11\",\"2021-01-17\"]],\"Streams\":[[14,9,\"2020-05-16\"],[16,3,\"2021-10-27\"],[18,11,\"2020-04-29\"],[17,13,\"2021-08-08\"],[19,4,\"2020-12-31\"],[13,5,\"2021-01-05\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Subscriptions (account_id int, start_date date, end_date date)\",\"Create table If Not Exists Streams (session_id int, account_id int, stream_date date)\"],\"mssql\":[\"Create table Subscriptions (account_id int, start_date date, end_date date)\",\"Create table Streams (session_id int, account_id int, stream_date date)\"],\"oraclesql\":[\"Create table Subscriptions (account_id int, start_date date, end_date date)\",\"Create table Streams (session_id int, account_id int, stream_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"find_target_accounts\",\"pythondata\":[\"Subscriptions = pd.DataFrame([], columns=['account_id', 'start_date', 'end_date']).astype({'account_id':'Int64', 'start_date':'datetime64[ns]', 'end_date':'datetime64[ns]'})\",\"Streams = pd.DataFrame([], columns=['session_id', 'account_id', 'stream_date']).astype({'session_id':'Int64', 'account_id':'Int64', 'stream_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Subscriptions (account_id int, start_date date, end_date date)\",\"Create table If Not Exists Streams (session_id int, account_id int, stream_date date)\"],\"database_schema\":{\"Subscriptions\":{\"account_id\":\"INT\",\"start_date\":\"DATE\",\"end_date\":\"DATE\"},\"Streams\":{\"session_id\":\"INT\",\"account_id\":\"INT\",\"stream_date\":\"DATE\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"4K\", \"totalSubmission\": \"6K\", \"totalAcceptedRaw\": 4042, \"totalSubmissionRaw\": 5967, \"acRate\": \"67.7%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

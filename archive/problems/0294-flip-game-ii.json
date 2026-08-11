@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:17Z",
+  "source": "https://leetcode.cn/problems/flip-game-ii/",
+  "question": {
+    "questionId": "294",
+    "questionFrontendId": "294",
+    "title": "Flip Game II",
+    "titleSlug": "flip-game-ii",
+    "translatedTitle": "翻转游戏 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 138,
+    "dislikes": 0,
+    "exampleTestcases": "\"++++\"\n\"+\"",
+    "sampleTestCase": "\"++++\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"canWin\",\n  \"params\": [\n    {\n      \"name\": \"currentState\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"8.1K\", \"totalSubmission\": \"17.2K\", \"totalAcceptedRaw\": 8071, \"totalSubmissionRaw\": 17202, \"acRate\": \"46.9%\"}",
+    "topicTags": [
+      {
+        "name": "Memoization",
+        "slug": "memoization",
+        "translatedName": "记忆化"
+      },
+      {
+        "name": "Minimax",
+        "slug": "minimax-algorithm",
+        "translatedName": "极小化极大"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      },
+      {
+        "name": "Game Theory",
+        "slug": "game-theory",
+        "translatedName": "博弈"
+      },
+      {
+        "name": "Sprague–Grundy ",
+        "slug": "sprague-grundy-theorem",
+        "translatedName": null
+      },
+      {
+        "name": "无偏博弈",
+        "slug": "impartial-game",
+        "translatedName": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:30Z",
+  "source": "https://leetcode.cn/problems/minimum-number-of-lines-to-cover-points/",
+  "question": {
+    "questionId": "2287",
+    "questionFrontendId": "2152",
+    "title": "Minimum Number of Lines to Cover Points",
+    "titleSlug": "minimum-number-of-lines-to-cover-points",
+    "translatedTitle": "穿过所有点的所需最少直线数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 19,
+    "dislikes": 0,
+    "exampleTestcases": "[[0,1],[2,3],[4,5],[4,3]]\n[[0,2],[-2,-2],[1,4]]",
+    "sampleTestCase": "[[0,1],[2,3],[4,5],[4,3]]",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minimumLines\",\n  \"params\": [\n    {\n      \"name\": \"points\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"819\", \"totalSubmission\": \"1.8K\", \"totalAcceptedRaw\": 819, \"totalSubmissionRaw\": 1764, \"acRate\": \"46.4%\"}",
+    "topicTags": [
+      {
+        "name": "Bit Manipulation",
+        "slug": "bit-manipulation",
+        "translatedName": "位运算"
+      },
+      {
+        "name": "Geometry",
+        "slug": "geometry",
+        "translatedName": "几何"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Backtracking",
+        "slug": "backtracking",
+        "translatedName": "回溯"
+      },
+      {
+        "name": "Bitmask",
+        "slug": "bitmask",
+        "translatedName": "位掩码"
+      }
+    ]
+  }
+}

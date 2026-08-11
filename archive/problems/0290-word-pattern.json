@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:16Z",
+  "source": "https://leetcode.cn/problems/word-pattern/",
+  "question": {
+    "questionId": "290",
+    "questionFrontendId": "290",
+    "title": "Word Pattern",
+    "titleSlug": "word-pattern",
+    "translatedTitle": "单词规律",
+    "content": "<p>Given a <code>pattern</code> and a string <code>s</code>, find if <code>s</code>&nbsp;follows the same pattern.</p>\n\n<p>Here <b>follow</b> means a full match, such that there is a bijection between a letter in <code>pattern</code> and a <b>non-empty</b> word in <code>s</code>. Specifically:</p>\n\n<ul>\n\t<li>Each letter in <code>pattern</code> maps to <strong>exactly</strong> one unique word in <code>s</code>.</li>\n\t<li>Each unique word in <code>s</code> maps to <strong>exactly</strong> one letter in <code>pattern</code>.</li>\n\t<li>No two letters map to the same word, and no two words map to the same letter.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">pattern = &quot;abba&quot;, s = &quot;dog cat cat dog&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>The bijection can be established as:</p>\n\n<ul>\n\t<li><code>&#39;a&#39;</code> maps to <code>&quot;dog&quot;</code>.</li>\n\t<li><code>&#39;b&#39;</code> maps to <code>&quot;cat&quot;</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">pattern = &quot;abba&quot;, s = &quot;dog cat cat fish&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">false</span></p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">pattern = &quot;aaaa&quot;, s = &quot;dog cat cat dog&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">false</span></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= pattern.length &lt;= 300</code></li>\n\t<li><code>pattern</code> contains only lower-case English letters.</li>\n\t<li><code>1 &lt;= s.length &lt;= 3000</code></li>\n\t<li><code>s</code> contains only lowercase English letters and spaces <code>&#39; &#39;</code>.</li>\n\t<li><code>s</code> <strong>does not contain</strong> any leading or trailing spaces.</li>\n\t<li>All the words in <code>s</code> are separated by a <strong>single space</strong>.</li>\n</ul>\n",
+    "translatedContent": "<p>给定一种规律 <code>pattern</code>&nbsp;和一个字符串&nbsp;<code>s</code>&nbsp;，判断 <code>s</code>&nbsp;是否遵循相同的规律。</p>\n\n<p>这里的&nbsp;<strong>遵循&nbsp;</strong>指完全匹配，例如，&nbsp;<code>pattern</code>&nbsp;里的每个字母和字符串&nbsp;<code>s</code><strong>&nbsp;</strong>中的每个非空单词之间存在着双向连接的对应规律。具体来说：</p>\n\n<ul>\n\t<li><code>pattern</code>&nbsp;中的每个字母都 <strong>恰好</strong> 映射到 <code>s</code> 中的一个唯一单词。</li>\n\t<li><code>s</code> 中的每个唯一单词都 <strong>恰好</strong> 映射到&nbsp;<code>pattern</code> 中的一个字母。</li>\n\t<li>没有两个字母映射到同一个单词，也没有两个单词映射到同一个字母。</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例1:</strong></p>\n\n<pre>\n<strong>输入:</strong> pattern = <code>\"abba\"</code>, s = <code>\"dog cat cat dog\"</code>\n<strong>输出:</strong> true</pre>\n\n<p><strong class=\"example\">示例 2:</strong></p>\n\n<pre>\n<strong>输入:</strong>pattern = <code>\"abba\"</code>, s = <code>\"dog cat cat fish\"</code>\n<strong>输出:</strong> false</pre>\n\n<p><strong class=\"example\">示例 3:</strong></p>\n\n<pre>\n<strong>输入:</strong> pattern = <code>\"aaaa\"</code>, s = <code>\"dog cat cat dog\"</code>\n<strong>输出:</strong> false</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= pattern.length &lt;= 300</code></li>\n\t<li><code>pattern</code>&nbsp;只包含小写英文字母</li>\n\t<li><code>1 &lt;= s.length &lt;= 3000</code></li>\n\t<li><code>s</code>&nbsp;只包含小写英文字母和&nbsp;<code>' '</code></li>\n\t<li><code>s</code>&nbsp;<strong>不包含</strong> 任何前导或尾随对空格</li>\n\t<li><code>s</code>&nbsp;中每个单词都被 <strong>单个空格 </strong>分隔</li>\n</ul>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 748,
+    "dislikes": 0,
+    "exampleTestcases": "\"abba\"\n\"dog cat cat dog\"\n\"abba\"\n\"dog cat cat fish\"\n\"aaaa\"\n\"dog cat cat dog\"",
+    "sampleTestCase": "\"abba\"\n\"dog cat cat dog\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"wordPattern\",\n  \"params\": [\n    {\n      \"name\": \"pattern\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    bool wordPattern(string pattern, string s) {\n        \n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public boolean wordPattern(String pattern, String s) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def wordPattern(self, pattern: str, s: str) -> bool:\n        "
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def wordPattern(self, pattern, s):\n        \"\"\"\n        :type pattern: str\n        :type s: str\n        :rtype: bool\n        \"\"\"\n        "
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {string} pattern\n * @param {string} s\n * @return {boolean}\n */\nvar wordPattern = function(pattern, s) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function wordPattern(pattern: string, s: string): boolean {\n    \n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public bool WordPattern(string pattern, string s) {\n        \n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "bool wordPattern(char* pattern, char* s) {\n    \n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func wordPattern(pattern string, s string) bool {\n    \n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun wordPattern(pattern: String, s: String): Boolean {\n        \n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func wordPattern(_ pattern: String, _ s: String) -> Bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn word_pattern(pattern: String, s: String) -> bool {\n        \n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {String} pattern\n# @param {String} s\n# @return {Boolean}\ndef word_pattern(pattern, s)\n    \nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param String $pattern\n     * @param String $s\n     * @return Boolean\n     */\n    function wordPattern($pattern, $s) {\n        \n    }\n}"
+      },
+      {
+        "lang": "Dart",
+        "langSlug": "dart",
+        "code": "class Solution {\n  bool wordPattern(String pattern, String s) {\n    \n  }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def wordPattern(pattern: String, s: String): Boolean = {\n        \n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec word_pattern(pattern :: String.t, s :: String.t) :: boolean\n  def word_pattern(pattern, s) do\n    \n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec word_pattern(Pattern :: unicode:unicode_binary(), S :: unicode:unicode_binary()) -> boolean().\nword_pattern(Pattern, S) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (word-pattern pattern s)\n  (-> string? string? boolean?)\n  )"
+      },
+      {
+        "lang": "Cangjie",
+        "langSlug": "cangjie",
+        "code": "class Solution {\n    func wordPattern(pattern: String, s: String): Bool {\n\n    }\n}"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"276.4K\", \"totalSubmission\": \"605K\", \"totalAcceptedRaw\": 276373, \"totalSubmissionRaw\": 604983, \"acRate\": \"45.7%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      }
+    ]
+  }
+}

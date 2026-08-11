@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:30Z",
+  "source": "https://leetcode.cn/problems/plus-one-linked-list/",
+  "question": {
+    "questionId": "369",
+    "questionFrontendId": "369",
+    "title": "Plus One Linked List",
+    "titleSlug": "plus-one-linked-list",
+    "translatedTitle": "给单链表加一",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 133,
+    "dislikes": 0,
+    "exampleTestcases": "[1,2,3]\n[0]",
+    "sampleTestCase": "[1,2,3]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"plusOne\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\",\r\n      \"dealloc\": false\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\",\r\n    \"dealloc\": true\r\n  }\r\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"13.5K\", \"totalSubmission\": \"22.3K\", \"totalAcceptedRaw\": 13502, \"totalSubmissionRaw\": 22301, \"acRate\": \"60.5%\"}",
+    "topicTags": [
+      {
+        "name": "Linked List",
+        "slug": "linked-list",
+        "translatedName": "链表"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

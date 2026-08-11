@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:45Z",
+  "source": "https://leetcode.cn/problems/number-of-divisible-substrings/",
+  "question": {
+    "questionId": "3237",
+    "questionFrontendId": "2950",
+    "title": "Number of Divisible Substrings",
+    "titleSlug": "number-of-divisible-substrings",
+    "translatedTitle": "可整除子串的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 4,
+    "dislikes": 0,
+    "exampleTestcases": "\"asdf\"\n\"bdh\"\n\"abcd\"",
+    "sampleTestCase": "\"asdf\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"countDivisibleSubstrings\",\n  \"params\": [\n    {\n      \"name\": \"word\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"544\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 544, \"totalSubmissionRaw\": 1545, \"acRate\": \"35.2%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Prefix Sum",
+        "slug": "prefix-sum",
+        "translatedName": "前缀和"
+      }
+    ]
+  }
+}

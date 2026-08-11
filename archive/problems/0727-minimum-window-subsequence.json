@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:39:29Z",
+  "source": "https://leetcode.cn/problems/minimum-window-subsequence/",
+  "question": {
+    "questionId": "727",
+    "questionFrontendId": "727",
+    "title": "Minimum Window Subsequence",
+    "titleSlug": "minimum-window-subsequence",
+    "translatedTitle": "最小窗口子序列",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Hard",
+    "likes": 185,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcdebdde\"\n\"bde\"\n\"jmeqksfrsdcmsiwvaovztaqenprpvnbstl\"\n\"u\"",
+    "sampleTestCase": "\"abcdebdde\"\n\"bde\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minWindow\",\n  \"params\": [\n    {\n      \"name\": \"s1\",\n      \"type\": \"string\"\n    },\n    {\n      \"name\": \"s2\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"7.4K\", \"totalSubmission\": \"17K\", \"totalAcceptedRaw\": 7410, \"totalSubmissionRaw\": 16973, \"acRate\": \"43.7%\"}",
+    "topicTags": [
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      }
+    ]
+  }
+}

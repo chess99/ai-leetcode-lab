@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:43:17Z",
+  "source": "https://leetcode.cn/problems/number-of-equal-count-substrings/",
+  "question": {
+    "questionId": "2209",
+    "questionFrontendId": "2067",
+    "title": "Number of Equal Count Substrings",
+    "titleSlug": "number-of-equal-count-substrings",
+    "translatedTitle": "等计数子串的数量",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 11,
+    "dislikes": 0,
+    "exampleTestcases": "\"aaabcbbcc\"\n3\n\"abcd\"\n2\n\"a\"\n5",
+    "sampleTestCase": "\"aaabcbbcc\"\n3",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"equalCountSubstrings\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"count\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 1250, \"totalSubmissionRaw\": 2287, \"acRate\": \"54.7%\"}",
+    "topicTags": [
+      {
+        "name": "Hash Table",
+        "slug": "hash-table",
+        "translatedName": "哈希表"
+      },
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Counting",
+        "slug": "counting",
+        "translatedName": "计数"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:40:44Z",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-connect-sticks/",
+  "question": {
+    "questionId": "1126",
+    "questionFrontendId": "1167",
+    "title": "Minimum Cost to Connect Sticks",
+    "titleSlug": "minimum-cost-to-connect-sticks",
+    "translatedTitle": "连接木棍的最低费用",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 100,
+    "dislikes": 0,
+    "exampleTestcases": "[2,4,3]\n[1,8,3,5]\n[5]",
+    "sampleTestCase": "[2,4,3]",
+    "enableRunCode": true,
+    "metaData": "{\r\n  \"name\": \"connectSticks\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"sticks\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"6.9K\", \"totalSubmission\": \"11.7K\", \"totalAcceptedRaw\": 6949, \"totalSubmissionRaw\": 11669, \"acRate\": \"59.6%\"}",
+    "topicTags": [
+      {
+        "name": "Greedy",
+        "slug": "greedy",
+        "translatedName": "贪心"
+      },
+      {
+        "name": "Array",
+        "slug": "array",
+        "translatedName": "数组"
+      },
+      {
+        "name": "Heap (Priority Queue)",
+        "slug": "heap-priority-queue",
+        "translatedName": "堆（优先队列）"
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:49:08Z",
+  "source": "https://leetcode.cn/problems/xoh6Oh/",
+  "question": {
+    "questionId": "1000228",
+    "questionFrontendId": "LCR 001",
+    "title": "两数相除",
+    "titleSlug": "xoh6Oh",
+    "translatedTitle": "两数相除",
+    "content": "<p>English description is not available for the problem. Please switch to Chinese.</p>\n",
+    "translatedContent": "<p>给定两个整数 <code>a</code> 和 <code>b</code> ，求它们的除法的商 <code>a/b</code> ，要求不得使用乘号 <code>&#39;*&#39;</code>、除号 <code>&#39;/&#39;</code> 以及求余符号 <code>&#39;%&#39;</code>&nbsp;。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>注意：</strong></p>\n\n<ul>\n\t<li>整数除法的结果应当截去（<code>truncate</code>）其小数部分，例如：<code>truncate(8.345) = 8</code>&nbsp;以及&nbsp;<code>truncate(-2.7335) = -2</code></li>\n\t<li>假设我们的环境只能存储 32 位有符号整数，其数值范围是 <code>[&minus;2<sup>31</sup>,&nbsp;2<sup>31</sup>&minus;1]</code>。本题中，如果除法结果溢出，则返回 <code>2<sup>31&nbsp;</sup>&minus; 1</code></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>a = 15, b = 2\n<strong>输出：</strong>7\n<strong><span style=\"white-space: pre-wrap;\">解释：</span></strong>15/2 = truncate(7.5) = 7\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>a = 7, b = -3\n<strong>输出：</strong><span style=\"white-space: pre-wrap;\">-2</span>\n<strong><span style=\"white-space: pre-wrap;\">解释：</span></strong>7/-3 = truncate(-2.33333..) = -2</pre>\n\n<p><strong>示例 3：</strong></p>\n\n<pre>\n<strong>输入：</strong>a = 0, b = 1\n<strong>输出：</strong><span style=\"white-space: pre-wrap;\">0</span></pre>\n\n<p><strong>示例 4：</strong></p>\n\n<pre>\n<strong>输入：</strong>a = 1, b = 1\n<strong>输出：</strong><span style=\"white-space: pre-wrap;\">1</span></pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示:</strong></p>\n\n<ul>\n\t<li><code>-2<sup>31</sup>&nbsp;&lt;= a, b &lt;= 2<sup>31</sup>&nbsp;- 1</code></li>\n\t<li><code>b != 0</code></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>注意：本题与主站 29&nbsp;题相同：<a href=\"https://leetcode.cn/problems/divide-two-integers/\">https://leetcode.cn/problems/divide-two-integers/</a></p>\n\n<p>&nbsp;</p>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 307,
+    "dislikes": 0,
+    "exampleTestcases": "15\n2\n7\n-3\n-7\n3\n0\n1",
+    "sampleTestCase": "15\n2",
+    "enableRunCode": true,
+    "metaData": "{\"name\": \"divide\", \"params\": [{\"name\": \"a\", \"type\": \"integer\"}, {\"name\": \"b\", \"type\": \"integer\"}], \"return\": {\"type\": \"integer\"}}",
+    "codeSnippets": [
+      {
+        "lang": "C++",
+        "langSlug": "cpp",
+        "code": "class Solution {\npublic:\n    int divide(int a, int b) {\n\n    }\n};"
+      },
+      {
+        "lang": "Java",
+        "langSlug": "java",
+        "code": "class Solution {\n    public int divide(int a, int b) {\n\n    }\n}"
+      },
+      {
+        "lang": "Python3",
+        "langSlug": "python3",
+        "code": "class Solution:\n    def divide(self, a: int, b: int) -> int:"
+      },
+      {
+        "lang": "Python",
+        "langSlug": "python",
+        "code": "class Solution(object):\n    def divide(self, a, b):\n        \"\"\"\n        :type a: int\n        :type b: int\n        :rtype: int\n        \"\"\""
+      },
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {number} a\n * @param {number} b\n * @return {number}\n */\nvar divide = function(a, b) {\n\n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "function divide(a: number, b: number): number {\n\n};"
+      },
+      {
+        "lang": "C#",
+        "langSlug": "csharp",
+        "code": "public class Solution {\n    public int Divide(int a, int b) {\n\n    }\n}"
+      },
+      {
+        "lang": "C",
+        "langSlug": "c",
+        "code": "\n\nint divide(int a, int b){\n\n}"
+      },
+      {
+        "lang": "Go",
+        "langSlug": "golang",
+        "code": "func divide(a int, b int) int {\n\n}"
+      },
+      {
+        "lang": "Kotlin",
+        "langSlug": "kotlin",
+        "code": "class Solution {\n    fun divide(a: Int, b: Int): Int {\n\n    }\n}"
+      },
+      {
+        "lang": "Swift",
+        "langSlug": "swift",
+        "code": "class Solution {\n    func divide(_ a: Int, _ b: Int) -> Int {\n\n    }\n}"
+      },
+      {
+        "lang": "Rust",
+        "langSlug": "rust",
+        "code": "impl Solution {\n    pub fn divide(a: i32, b: i32) -> i32 {\n\n    }\n}"
+      },
+      {
+        "lang": "Ruby",
+        "langSlug": "ruby",
+        "code": "# @param {Integer} a\n# @param {Integer} b\n# @return {Integer}\ndef divide(a, b)\n\nend"
+      },
+      {
+        "lang": "PHP",
+        "langSlug": "php",
+        "code": "class Solution {\n\n    /**\n     * @param Integer $a\n     * @param Integer $b\n     * @return Integer\n     */\n    function divide($a, $b) {\n\n    }\n}"
+      },
+      {
+        "lang": "Scala",
+        "langSlug": "scala",
+        "code": "object Solution {\n    def divide(a: Int, b: Int): Int = {\n\n    }\n}"
+      },
+      {
+        "lang": "Elixir",
+        "langSlug": "elixir",
+        "code": "defmodule Solution do\n  @spec divide(a :: integer, b :: integer) :: integer\n  def divide(a, b) do\n\n  end\nend"
+      },
+      {
+        "lang": "Erlang",
+        "langSlug": "erlang",
+        "code": "-spec divide(A :: integer(), B :: integer()) -> integer().\ndivide(A, B) ->\n  ."
+      },
+      {
+        "lang": "Racket",
+        "langSlug": "racket",
+        "code": "(define/contract (divide a b)\n  (-> exact-integer? exact-integer? exact-integer?)\n\n  )"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"75.1K\", \"totalSubmission\": \"352.1K\", \"totalAcceptedRaw\": 75073, \"totalSubmissionRaw\": 352127, \"acRate\": \"21.3%\"}",
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math",
+        "translatedName": "数学"
+      }
+    ]
+  }
+}

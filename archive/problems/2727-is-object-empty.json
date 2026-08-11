@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:45:06Z",
+  "source": "https://leetcode.cn/problems/is-object-empty/",
+  "question": {
+    "questionId": "2864",
+    "questionFrontendId": "2727",
+    "title": "Is Object Empty",
+    "titleSlug": "is-object-empty",
+    "translatedTitle": "判断对象是否为空",
+    "content": "<p>Given an object or an array, return if it is empty.</p>\n\n<ul>\n\t<li>An empty object contains no key-value pairs.</li>\n\t<li>An empty array contains no elements.</li>\n</ul>\n\n<p>You may assume the object or array is the output of&nbsp;<code>JSON.parse</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> obj = {&quot;x&quot;: 5, &quot;y&quot;: 42}\n<strong>Output:</strong> false\n<strong>Explanation:</strong> The object has 2 key-value pairs so it is not empty.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> obj = {}\n<strong>Output:</strong> true\n<strong>Explanation:</strong> The object doesn&#39;t have any key-value pairs so it is empty.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> obj = [null, false, 0]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> The array has 3 elements so it is not empty.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>obj</code> is a valid JSON object or array</li>\n\t<li><code>2 &lt;= JSON.stringify(obj).length &lt;= 10<sup>5</sup></code></li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>Can you solve it in O(1) time?</strong>",
+    "translatedContent": "<p>给定一个对象或数组，判断它是否为空。</p>\n\n<ul>\n\t<li>一个空对象不包含任何键值对。</li>\n\t<li>一个空数组不包含任何元素。</li>\n</ul>\n\n<p>你可以假设对象或数组是通过 <code>JSON.parse</code> 解析得到的。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<pre>\n<b>输入：</b>obj = {\"x\": 5, \"y\": 42}\n<b>输出：</b>false\n<b>解释：</b>这个对象有两个键值对，所以它不为空。\n</pre>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<pre>\n<b>输入：</b>obj = {}\n<b>输出：</b>true\n<b>解释：</b>这个对象没有任何键值对，所以它为空。\n</pre>\n\n<p><strong class=\"example\">示例 3：</strong></p>\n\n<pre>\n<b>输入：</b>obj = [null, false, 0]\n<b>输出：</b>false\n<b>解释：</b>这个数组有 3 个元素，所以它不为空。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>obj</code> 是一个有效的 JSON 对象或数组</li>\n\t<li><code>2 &lt;= JSON.stringify(obj).length &lt;= 10<sup>5</sup></code></li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>你可以在 O(1) 时间复杂度内解决这个问题吗？</strong>",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 3,
+    "dislikes": 0,
+    "exampleTestcases": "{\"x\": 5, \"y\": 42}\n{}\n[null, false, 0]",
+    "sampleTestCase": "{\"x\": 5, \"y\": 42}",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"isEmpty\",\n  \"params\": [\n    {\n      \"name\": \"obj\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ]\n}",
+    "codeSnippets": [
+      {
+        "lang": "JavaScript",
+        "langSlug": "javascript",
+        "code": "/**\n * @param {Object|Array} obj\n * @return {boolean}\n */\nvar isEmpty = function(obj) {\n    \n};"
+      },
+      {
+        "lang": "TypeScript",
+        "langSlug": "typescript",
+        "code": "type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };\ntype Obj = Record<string, JSONValue> | JSONValue[]\n\nfunction isEmpty(obj: Obj): boolean {\n    \n};"
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"10.8K\", \"totalSubmission\": \"14.1K\", \"totalAcceptedRaw\": 10828, \"totalSubmissionRaw\": 14119, \"acRate\": \"76.7%\"}",
+    "topicTags": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:18Z",
+  "source": "https://leetcode.cn/problems/equalize-strings-by-adding-or-removing-characters-at-ends/",
+  "question": {
+    "questionId": "3441",
+    "questionFrontendId": "3135",
+    "title": "Equalize Strings by Adding or Removing Characters at Ends",
+    "titleSlug": "equalize-strings-by-adding-or-removing-characters-at-ends",
+    "translatedTitle": "通过添加或删除结尾字符来同化字符串",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 2,
+    "dislikes": 0,
+    "exampleTestcases": "\"abcde\"\n\"cdef\"\n\"axxy\"\n\"yabx\"\n\"xyz\"\n\"xyz\"",
+    "sampleTestCase": "\"abcde\"\n\"cdef\"",
+    "enableRunCode": true,
+    "metaData": "{\n  \"name\": \"minOperations\",\n  \"params\": [\n    {\n      \"name\": \"initial\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"target\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"294\", \"totalSubmission\": \"1.4K\", \"totalAcceptedRaw\": 294, \"totalSubmissionRaw\": 1362, \"acRate\": \"21.6%\"}",
+    "topicTags": [
+      {
+        "name": "String",
+        "slug": "string",
+        "translatedName": "字符串"
+      },
+      {
+        "name": "Binary Search",
+        "slug": "binary-search",
+        "translatedName": "二分查找"
+      },
+      {
+        "name": "Dynamic Programming",
+        "slug": "dynamic-programming",
+        "translatedName": "动态规划"
+      },
+      {
+        "name": "Sliding Window",
+        "slug": "sliding-window",
+        "translatedName": "滑动窗口"
+      },
+      {
+        "name": "Hash Function",
+        "slug": "hash-function",
+        "translatedName": "哈希函数"
+      }
+    ]
+  }
+}

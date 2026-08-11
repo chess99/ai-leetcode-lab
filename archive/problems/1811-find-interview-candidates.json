@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:42:32Z",
+  "source": "https://leetcode.cn/problems/find-interview-candidates/",
+  "question": {
+    "questionId": "1964",
+    "questionFrontendId": "1811",
+    "title": "Find Interview Candidates",
+    "titleSlug": "find-interview-candidates",
+    "translatedTitle": "寻找面试候选人",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 34,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"Contests\":[\"contest_id\",\"gold_medal\",\"silver_medal\",\"bronze_medal\"],\"Users\":[\"user_id\",\"mail\",\"name\"]},\"rows\":{\"Contests\":[[190,1,5,2],[191,2,3,5],[192,5,2,3],[193,1,3,5],[194,4,5,2],[195,4,2,1],[196,1,5,2]],\"Users\":[[1,\"sarah@leetcode.com\",\"Sarah\"],[2,\"bob@leetcode.com\",\"Bob\"],[3,\"alice@leetcode.com\",\"Alice\"],[4,\"hercy@leetcode.com\",\"Hercy\"],[5,\"quarz@leetcode.com\",\"Quarz\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"Contests\":[\"contest_id\",\"gold_medal\",\"silver_medal\",\"bronze_medal\"],\"Users\":[\"user_id\",\"mail\",\"name\"]},\"rows\":{\"Contests\":[[190,1,5,2],[191,2,3,5],[192,5,2,3],[193,1,3,5],[194,4,5,2],[195,4,2,1],[196,1,5,2]],\"Users\":[[1,\"sarah@leetcode.com\",\"Sarah\"],[2,\"bob@leetcode.com\",\"Bob\"],[3,\"alice@leetcode.com\",\"Alice\"],[4,\"hercy@leetcode.com\",\"Hercy\"],[5,\"quarz@leetcode.com\",\"Quarz\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table If Not Exists Contests (contest_id int, gold_medal int, silver_medal int, bronze_medal int)\",\"Create table If Not Exists Users (user_id int, mail varchar(50), name varchar(30))\"],\"mssql\":[\"Create table Contests (contest_id int, gold_medal int, silver_medal int, bronze_medal int)\",\"Create table Users (user_id int, mail varchar(50), name varchar(30))\"],\"oraclesql\":[\"Create table Contests (contest_id int, gold_medal int, silver_medal int, bronze_medal int)\",\"Create table Users (user_id int, mail varchar(50), name varchar(30))\"],\"database\":true,\"name\":\"find_interview_candidates\",\"pythondata\":[\"Contests = pd.DataFrame([], columns=['contest_id', 'gold_medal', 'silver_medal', 'bronze_medal']).astype({'contest_id':'Int64', 'gold_medal':'Int64', 'silver_medal':'Int64', 'bronze_medal':'Int64'})\",\"Users = pd.DataFrame([], columns=['user_id', 'mail', 'name']).astype({'user_id':'Int64', 'mail':'object', 'name':'object'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Contests (contest_id int, gold_medal int, silver_medal int, bronze_medal int)\",\"Create table If Not Exists Users (user_id int, mail varchar(50), name varchar(30))\"],\"database_schema\":{\"Contests\":{\"contest_id\":\"INT\",\"gold_medal\":\"INT\",\"silver_medal\":\"INT\",\"bronze_medal\":\"INT\"},\"Users\":{\"user_id\":\"INT\",\"mail\":\"VARCHAR(50)\",\"name\":\"VARCHAR(30)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"5.6K\", \"totalSubmission\": \"9.3K\", \"totalAcceptedRaw\": 5571, \"totalSubmissionRaw\": 9266, \"acRate\": \"60.1%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

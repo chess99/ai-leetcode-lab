@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:46:54Z",
+  "source": "https://leetcode.cn/problems/second-highest-salary-ii/",
+  "question": {
+    "questionId": "3660",
+    "questionFrontendId": "3338",
+    "title": "Second Highest Salary II",
+    "titleSlug": "second-highest-salary-ii",
+    "translatedTitle": "第二高的薪水 II",
+    "content": null,
+    "translatedContent": null,
+    "isPaidOnly": true,
+    "difficulty": "Medium",
+    "likes": 0,
+    "dislikes": 0,
+    "exampleTestcases": "{\"headers\":{\"employees\":[\"emp_id\",\"salary\",\"dept\"]},\"rows\":{\"employees\":[[1,70000,\"Sales\"],[2,80000,\"Sales\"],[3,80000,\"Sales\"],[4,90000,\"Sales\"],[5,55000,\"IT\"],[6,65000,\"IT\"],[7,65000,\"IT\"],[8,50000,\"Marketing\"],[9,55000,\"Marketing\"],[10,55000,\"HR\"]]}}",
+    "sampleTestCase": "{\"headers\":{\"employees\":[\"emp_id\",\"salary\",\"dept\"]},\"rows\":{\"employees\":[[1,70000,\"Sales\"],[2,80000,\"Sales\"],[3,80000,\"Sales\"],[4,90000,\"Sales\"],[5,55000,\"IT\"],[6,65000,\"IT\"],[7,65000,\"IT\"],[8,50000,\"Marketing\"],[9,55000,\"Marketing\"],[10,55000,\"HR\"]]}}",
+    "enableRunCode": true,
+    "metaData": "{\"mysql\":[\"Create table if not exists Employees (\\n    emp_id int,\\n    salary int,\\n    dept varchar(50)\\n)\"],\"mssql\":[\"Create table Employees (\\n    emp_id int,\\n    salary int,\\n    dept varchar(50)\\n)\"],\"oraclesql\":[\"Create table Employees (\\n    emp_id number,\\n    salary number,\\n    dept varchar2(50)\\n)\"],\"database\":true,\"name\":\"find_second_highest_salary\",\"postgresql\":[\"CREATE TABLE IF NOT EXISTS Employees (\\n    emp_id INT,\\n    salary INT,\\n    dept VARCHAR(50)\\n);\\n\"],\"pythondata\":[\"employees = pd.DataFrame({\\n    'emp_id': pd.Series(dtype='int'),\\n    'salary': pd.Series(dtype='int'),\\n    'dept': pd.Series(dtype='string')\\n})\"],\"database_schema\":{\"Employees\":{\"emp_id\":\"INT\",\"salary\":\"INT\",\"dept\":\"VARCHAR(50)\"}}}",
+    "codeSnippets": null,
+    "stats": "{\"totalAccepted\": \"768\", \"totalSubmission\": \"888\", \"totalAcceptedRaw\": 768, \"totalSubmissionRaw\": 888, \"acRate\": \"86.5%\"}",
+    "topicTags": [
+      {
+        "name": "数据库",
+        "slug": "database",
+        "translatedName": "数据库"
+      }
+    ]
+  }
+}

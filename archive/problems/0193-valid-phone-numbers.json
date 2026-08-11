@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-08-11T08:38:00Z",
+  "source": "https://leetcode.cn/problems/valid-phone-numbers/",
+  "question": {
+    "questionId": "193",
+    "questionFrontendId": "193",
+    "title": "Valid Phone Numbers",
+    "titleSlug": "valid-phone-numbers",
+    "translatedTitle": "有效电话号码",
+    "content": "<p>Given a text file <code>file.txt</code> that contains a list of phone numbers (one per line), write a one-liner bash script to print all valid phone numbers.</p>\n\n<p>You may assume that a valid phone number must appear in one of the following two formats: (xxx) xxx-xxxx or xxx-xxx-xxxx. (x means a digit)</p>\n\n<p>You may also assume each line in the text file must not contain leading or trailing white spaces.</p>\n\n<p><strong class=\"example\">Example:</strong></p>\n\n<p>Assume that <code>file.txt</code> has the following content:</p>\n\n<pre>\n987-123-4567\n123 456 7890\n(123) 456-7890\n</pre>\n\n<p>Your script should output the following valid phone numbers:</p>\n\n<pre>\n987-123-4567\n(123) 456-7890\n</pre>\n",
+    "translatedContent": "<p>给定一个包含电话号码列表（一行一个电话号码）的文本文件 <code>file.txt</code>，写一个单行 bash 脚本输出所有有效的电话号码。</p>\n\n<p>你可以假设一个有效的电话号码必须满足以下两种格式： (xxx) xxx-xxxx 或 xxx-xxx-xxxx。（x 表示一个数字）</p>\n\n<p>你也可以假设每行前后没有多余的空格字符。</p>\n\n<p> </p>\n\n<p><strong>示例：</strong></p>\n\n<p>假设 <code>file.txt</code> 内容如下：</p>\n\n<pre>\n987-123-4567\n123 456 7890\n(123) 456-7890\n</pre>\n\n<p>你的脚本应当输出下列有效的电话号码：</p>\n\n<pre>\n987-123-4567\n(123) 456-7890\n</pre>\n",
+    "isPaidOnly": false,
+    "difficulty": "Easy",
+    "likes": 176,
+    "dislikes": 0,
+    "exampleTestcases": "0",
+    "sampleTestCase": "0",
+    "enableRunCode": false,
+    "metaData": "{\n  \"shell\": true,\n  \"manual\": true\n}",
+    "codeSnippets": [
+      {
+        "lang": "Bash",
+        "langSlug": "bash",
+        "code": "# Read from the file file.txt and output all valid phone numbers to stdout."
+      }
+    ],
+    "stats": "{\"totalAccepted\": \"51.6K\", \"totalSubmission\": \"153.8K\", \"totalAcceptedRaw\": 51623, \"totalSubmissionRaw\": 153841, \"acRate\": \"33.6%\"}",
+    "topicTags": [
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "translatedName": null
+      }
+    ]
+  }
+}
