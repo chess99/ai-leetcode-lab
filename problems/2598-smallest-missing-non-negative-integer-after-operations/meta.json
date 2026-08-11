@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2661,
+  "questionId": "2661",
+  "questionFrontendId": "2598",
+  "titleSlug": "smallest-missing-non-negative-integer-after-operations",
+  "title": "Smallest Missing Non-negative Integer After Operations",
+  "translatedTitle": "执行操作后的最大 MEX",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-missing-non-negative-integer-after-operations/",
+  "createdAt": "2026-08-11T21:01:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

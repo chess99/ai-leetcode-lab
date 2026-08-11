@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2599,
+  "questionId": "2599",
+  "questionFrontendId": "2516",
+  "titleSlug": "take-k-of-each-character-from-left-and-right",
+  "title": "Take K of Each Character From Left and Right",
+  "translatedTitle": "每种字符至少取 K 个",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/take-k-of-each-character-from-left-and-right/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

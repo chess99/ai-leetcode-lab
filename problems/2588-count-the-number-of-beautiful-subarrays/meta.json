@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2656,
+  "questionId": "2656",
+  "questionFrontendId": "2588",
+  "titleSlug": "count-the-number-of-beautiful-subarrays",
+  "title": "Count the Number of Beautiful Subarrays",
+  "translatedTitle": "统计美丽子数组数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-beautiful-subarrays/",
+  "createdAt": "2026-08-11T21:01:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

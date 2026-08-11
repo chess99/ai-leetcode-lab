@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2710,
+  "questionId": "2710",
+  "questionFrontendId": "2571",
+  "titleSlug": "minimum-operations-to-reduce-an-integer-to-0",
+  "title": "Minimum Operations to Reduce an Integer to 0",
+  "translatedTitle": "将整数减少到零需要的最少操作数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-reduce-an-integer-to-0/",
+  "createdAt": "2026-08-11T21:01:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2625,
+  "questionId": "2625",
+  "questionFrontendId": "2536",
+  "titleSlug": "increment-submatrices-by-one",
+  "title": "Increment Submatrices by One",
+  "translatedTitle": "子矩阵元素加 1",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/increment-submatrices-by-one/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

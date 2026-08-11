@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2705,
+  "questionId": "2705",
+  "questionFrontendId": "2568",
+  "titleSlug": "minimum-impossible-or",
+  "title": "Minimum Impossible OR",
+  "translatedTitle": "最小无法得到的或值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-impossible-or/",
+  "createdAt": "2026-08-11T21:01:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2626,
+  "questionId": "2626",
+  "questionFrontendId": "2537",
+  "titleSlug": "count-the-number-of-good-subarrays",
+  "title": "Count the Number of Good Subarrays",
+  "translatedTitle": "统计好子数组的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-good-subarrays/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

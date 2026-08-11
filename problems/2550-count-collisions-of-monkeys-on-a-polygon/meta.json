@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2680,
+  "questionId": "2680",
+  "questionFrontendId": "2550",
+  "titleSlug": "count-collisions-of-monkeys-on-a-polygon",
+  "title": "Count Collisions of Monkeys on a Polygon",
+  "translatedTitle": "猴子碰撞的方法数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-collisions-of-monkeys-on-a-polygon/",
+  "createdAt": "2026-08-11T21:01:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

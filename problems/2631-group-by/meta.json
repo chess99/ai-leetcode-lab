@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2742,
+  "questionId": "2742",
+  "questionFrontendId": "2631",
+  "titleSlug": "group-by",
+  "title": "Group By",
+  "translatedTitle": "分组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/group-by/",
+  "createdAt": "2026-08-11T21:01:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

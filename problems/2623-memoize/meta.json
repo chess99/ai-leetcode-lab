@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2731,
+  "questionId": "2731",
+  "questionFrontendId": "2623",
+  "titleSlug": "memoize",
+  "title": "Memoize",
+  "translatedTitle": "记忆函数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/memoize/",
+  "createdAt": "2026-08-11T21:01:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

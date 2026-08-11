@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2616,
+  "questionId": "2616",
+  "questionFrontendId": "2530",
+  "titleSlug": "maximal-score-after-applying-k-operations",
+  "title": "Maximal Score After Applying K Operations",
+  "translatedTitle": "执行 K 次操作后的最大分数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximal-score-after-applying-k-operations/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

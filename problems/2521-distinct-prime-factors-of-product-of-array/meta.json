@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2609,
+  "questionId": "2609",
+  "questionFrontendId": "2521",
+  "titleSlug": "distinct-prime-factors-of-product-of-array",
+  "title": "Distinct Prime Factors of Product of Array",
+  "translatedTitle": "数组乘积中的不同质因数数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/distinct-prime-factors-of-product-of-array/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2712,
+  "questionId": "2712",
+  "questionFrontendId": "2576",
+  "titleSlug": "find-the-maximum-number-of-marked-indices",
+  "title": "Find the Maximum Number of Marked Indices",
+  "translatedTitle": "求出最多标记下标",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/",
+  "createdAt": "2026-08-11T21:01:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

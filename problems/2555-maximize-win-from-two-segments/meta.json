@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2673,
+  "questionId": "2673",
+  "questionFrontendId": "2555",
+  "titleSlug": "maximize-win-from-two-segments",
+  "title": "Maximize Win From Two Segments",
+  "translatedTitle": "两个线段获得的最多奖品",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-win-from-two-segments/",
+  "createdAt": "2026-08-11T21:01:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

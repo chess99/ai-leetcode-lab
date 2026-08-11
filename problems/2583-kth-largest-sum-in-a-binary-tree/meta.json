@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2646,
+  "questionId": "2646",
+  "questionFrontendId": "2583",
+  "titleSlug": "kth-largest-sum-in-a-binary-tree",
+  "title": "Kth Largest Sum in a Binary Tree",
+  "translatedTitle": "二叉树中的第 K 大层和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/kth-largest-sum-in-a-binary-tree/",
+  "createdAt": "2026-08-11T21:01:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

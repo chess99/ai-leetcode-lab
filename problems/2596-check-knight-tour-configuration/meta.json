@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2662,
+  "questionId": "2662",
+  "questionFrontendId": "2596",
+  "titleSlug": "check-knight-tour-configuration",
+  "title": "Check Knight Tour Configuration",
+  "translatedTitle": "检查骑士巡视方案",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-knight-tour-configuration/",
+  "createdAt": "2026-08-11T21:01:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

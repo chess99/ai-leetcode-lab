@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2631,
+  "questionId": "2631",
+  "questionFrontendId": "2545",
+  "titleSlug": "sort-the-students-by-their-kth-score",
+  "title": "Sort the Students by Their Kth Score",
+  "translatedTitle": "根据第 K 场考试的分数排序",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-the-students-by-their-kth-score/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

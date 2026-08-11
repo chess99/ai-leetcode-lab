@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2655,
+  "questionId": "2655",
+  "questionFrontendId": "2587",
+  "titleSlug": "rearrange-array-to-maximize-prefix-score",
+  "title": "Rearrange Array to Maximize Prefix Score",
+  "translatedTitle": "重排数组以得到最大前缀分数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/rearrange-array-to-maximize-prefix-score/",
+  "createdAt": "2026-08-11T21:01:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

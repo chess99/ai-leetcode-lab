@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2665,
+  "questionId": "2665",
+  "questionFrontendId": "2594",
+  "titleSlug": "minimum-time-to-repair-cars",
+  "title": "Minimum Time to Repair Cars",
+  "translatedTitle": "修车的最少时间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-repair-cars/",
+  "createdAt": "2026-08-11T21:01:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

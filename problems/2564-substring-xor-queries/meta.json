@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2700,
+  "questionId": "2700",
+  "questionFrontendId": "2564",
+  "titleSlug": "substring-xor-queries",
+  "title": "Substring XOR Queries",
+  "translatedTitle": "子字符串异或查询",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/substring-xor-queries/",
+  "createdAt": "2026-08-11T21:01:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

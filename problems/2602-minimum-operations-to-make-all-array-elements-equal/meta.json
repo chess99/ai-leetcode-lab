@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2718,
+  "questionId": "2718",
+  "questionFrontendId": "2602",
+  "titleSlug": "minimum-operations-to-make-all-array-elements-equal",
+  "title": "Minimum Operations to Make All Array Elements Equal",
+  "translatedTitle": "使数组元素全部相等的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-all-array-elements-equal/",
+  "createdAt": "2026-08-11T21:01:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

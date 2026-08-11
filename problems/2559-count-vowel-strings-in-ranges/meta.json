@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2691,
+  "questionId": "2691",
+  "questionFrontendId": "2559",
+  "titleSlug": "count-vowel-strings-in-ranges",
+  "title": "Count Vowel Strings in Ranges",
+  "translatedTitle": "统计范围内的元音字符串数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-vowel-strings-in-ranges/",
+  "createdAt": "2026-08-11T21:01:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

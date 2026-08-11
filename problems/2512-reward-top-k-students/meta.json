@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2603,
+  "questionId": "2603",
+  "questionFrontendId": "2512",
+  "titleSlug": "reward-top-k-students",
+  "title": "Reward Top K Students",
+  "translatedTitle": "奖励最顶尖的 K 名学生",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reward-top-k-students/",
+  "createdAt": "2026-08-11T21:01:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

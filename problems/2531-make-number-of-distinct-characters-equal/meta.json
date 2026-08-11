@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2615,
+  "questionId": "2615",
+  "questionFrontendId": "2531",
+  "titleSlug": "make-number-of-distinct-characters-equal",
+  "title": "Make Number of Distinct Characters Equal",
+  "translatedTitle": "使字符串中不同字符的数目相等",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/make-number-of-distinct-characters-equal/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

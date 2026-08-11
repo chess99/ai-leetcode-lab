@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2620,
+  "questionId": "2620",
+  "questionFrontendId": "2526",
+  "titleSlug": "find-consecutive-integers-from-a-data-stream",
+  "title": "Find Consecutive Integers from a Data Stream",
+  "translatedTitle": "找到数据流中的连续整数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-consecutive-integers-from-a-data-stream/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

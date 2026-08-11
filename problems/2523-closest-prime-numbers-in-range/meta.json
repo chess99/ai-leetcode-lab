@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2610,
+  "questionId": "2610",
+  "questionFrontendId": "2523",
+  "titleSlug": "closest-prime-numbers-in-range",
+  "title": "Closest Prime Numbers in Range",
+  "translatedTitle": "范围内最接近的两个质数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/closest-prime-numbers-in-range/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

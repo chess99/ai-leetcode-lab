@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2758,
+  "questionId": "2758",
+  "questionFrontendId": "2618",
+  "titleSlug": "check-if-object-instance-of-class",
+  "title": "Check if Object Instance of Class",
+  "translatedTitle": "检查是否是类的对象实例",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/check-if-object-instance-of-class/",
+  "createdAt": "2026-08-11T21:01:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

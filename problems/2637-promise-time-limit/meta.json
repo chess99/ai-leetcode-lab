@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2749,
+  "questionId": "2749",
+  "questionFrontendId": "2637",
+  "titleSlug": "promise-time-limit",
+  "title": "Promise Time Limit",
+  "translatedTitle": "有时间限制的 Promise 对象",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/promise-time-limit/",
+  "createdAt": "2026-08-11T21:01:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

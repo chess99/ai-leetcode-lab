@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2699,
+  "questionId": "2699",
+  "questionFrontendId": "2563",
+  "titleSlug": "count-the-number-of-fair-pairs",
+  "title": "Count the Number of Fair Pairs",
+  "translatedTitle": "统计公平数对的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-fair-pairs/",
+  "createdAt": "2026-08-11T21:01:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

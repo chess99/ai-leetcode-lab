@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2762,
+  "questionId": "2762",
+  "questionFrontendId": "2622",
+  "titleSlug": "cache-with-time-limit",
+  "title": "Cache With Time Limit",
+  "translatedTitle": "有时间限制的缓存",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/cache-with-time-limit/",
+  "createdAt": "2026-08-11T21:01:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

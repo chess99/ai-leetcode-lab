@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2641,
+  "questionId": "2641",
+  "questionFrontendId": "2556",
+  "titleSlug": "disconnect-path-in-a-binary-matrix-by-at-most-one-flip",
+  "title": "Disconnect Path in a Binary Matrix by at Most One Flip",
+  "translatedTitle": "二进制矩阵中翻转最多一次使路径不连通",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/",
+  "createdAt": "2026-08-11T21:01:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2511,
+  "questionId": "2511",
+  "questionFrontendId": "2522",
+  "titleSlug": "partition-string-into-substrings-with-values-at-most-k",
+  "title": "Partition String Into Substrings With Values at Most K",
+  "translatedTitle": "将字符串分割成值不超过 K 的子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-string-into-substrings-with-values-at-most-k/",
+  "createdAt": "2026-08-11T21:01:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
