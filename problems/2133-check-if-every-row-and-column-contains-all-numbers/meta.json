@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2254,
+  "questionId": "2254",
+  "questionFrontendId": "2133",
+  "titleSlug": "check-if-every-row-and-column-contains-all-numbers",
+  "title": "Check if Every Row and Column Contains All Numbers",
+  "translatedTitle": "检查是否每一行每一列都包含全部整数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-every-row-and-column-contains-all-numbers/",
+  "createdAt": "2026-08-11T13:12:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

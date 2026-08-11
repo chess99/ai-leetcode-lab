@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2235,
+  "questionId": "2235",
+  "questionFrontendId": "2129",
+  "titleSlug": "capitalize-the-title",
+  "title": "Capitalize the Title",
+  "translatedTitle": "将标题首字母大写",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/capitalize-the-title/",
+  "createdAt": "2026-08-11T13:10:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

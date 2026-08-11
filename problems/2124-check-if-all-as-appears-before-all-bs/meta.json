@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2243,
+  "questionId": "2243",
+  "questionFrontendId": "2124",
+  "titleSlug": "check-if-all-as-appears-before-all-bs",
+  "title": "Check if All A's Appears Before All B's",
+  "translatedTitle": "检查是否所有 A 都在 B 之前",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-all-as-appears-before-all-bs/",
+  "createdAt": "2026-08-11T13:11:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

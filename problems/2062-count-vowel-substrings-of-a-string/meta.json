@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2186,
+  "questionId": "2186",
+  "questionFrontendId": "2062",
+  "titleSlug": "count-vowel-substrings-of-a-string",
+  "title": "Count Vowel Substrings of a String",
+  "translatedTitle": "统计字符串中的元音子字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-vowel-substrings-of-a-string/",
+  "createdAt": "2026-08-11T13:03:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

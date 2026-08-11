@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2277,
+  "questionId": "2277",
+  "questionFrontendId": "2176",
+  "titleSlug": "count-equal-and-divisible-pairs-in-an-array",
+  "title": "Count Equal and Divisible Pairs in an Array",
+  "translatedTitle": "统计数组中相等且可以被整除的数对",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-equal-and-divisible-pairs-in-an-array/",
+  "createdAt": "2026-08-11T13:05:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

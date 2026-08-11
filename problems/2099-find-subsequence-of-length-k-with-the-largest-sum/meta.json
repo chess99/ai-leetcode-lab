@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2204,
+  "questionId": "2204",
+  "questionFrontendId": "2099",
+  "titleSlug": "find-subsequence-of-length-k-with-the-largest-sum",
+  "title": "Find Subsequence of Length K With the Largest Sum",
+  "translatedTitle": "找到和最大的长度为 K 的子序列",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-subsequence-of-length-k-with-the-largest-sum/",
+  "createdAt": "2026-08-11T13:03:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

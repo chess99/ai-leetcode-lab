@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2159,
+  "questionId": "2159",
+  "questionFrontendId": "2032",
+  "titleSlug": "two-out-of-three",
+  "title": "Two Out of Three",
+  "translatedTitle": "至少在两个数组中出现的值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/two-out-of-three/",
+  "createdAt": "2026-08-11T13:03:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

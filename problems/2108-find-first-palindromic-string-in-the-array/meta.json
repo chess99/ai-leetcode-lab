@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2231,
+  "questionId": "2231",
+  "questionFrontendId": "2108",
+  "titleSlug": "find-first-palindromic-string-in-the-array",
+  "title": "Find First Palindromic String in the Array",
+  "translatedTitle": "找出数组中的第一个回文字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-first-palindromic-string-in-the-array/",
+  "createdAt": "2026-08-11T13:09:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

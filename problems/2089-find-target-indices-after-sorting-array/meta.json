@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2210,
+  "questionId": "2210",
+  "questionFrontendId": "2089",
+  "titleSlug": "find-target-indices-after-sorting-array",
+  "title": "Find Target Indices After Sorting Array",
+  "translatedTitle": "找出数组排序后的目标下标",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-target-indices-after-sorting-array/",
+  "createdAt": "2026-08-11T13:09:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

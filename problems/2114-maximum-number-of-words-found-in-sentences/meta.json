@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2219,
+  "questionId": "2219",
+  "questionFrontendId": "2114",
+  "titleSlug": "maximum-number-of-words-found-in-sentences",
+  "title": "Maximum Number of Words Found in Sentences",
+  "translatedTitle": "句子中的最多单词数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-words-found-in-sentences/",
+  "createdAt": "2026-08-11T13:09:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

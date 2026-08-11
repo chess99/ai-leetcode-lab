@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2195,
+  "questionId": "2195",
+  "questionFrontendId": "2073",
+  "titleSlug": "time-needed-to-buy-tickets",
+  "title": "Time Needed to Buy Tickets",
+  "translatedTitle": "买票需要的时间",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/time-needed-to-buy-tickets/",
+  "createdAt": "2026-08-11T13:03:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

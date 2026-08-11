@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2173,
+  "questionId": "2173",
+  "questionFrontendId": "2047",
+  "titleSlug": "number-of-valid-words-in-a-sentence",
+  "title": "Number of Valid Words in a Sentence",
+  "translatedTitle": "句子中的有效单词数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-valid-words-in-a-sentence/",
+  "createdAt": "2026-08-11T13:04:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

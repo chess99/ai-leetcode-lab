@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2190,
+  "questionId": "2190",
+  "questionFrontendId": "2085",
+  "titleSlug": "count-common-words-with-one-occurrence",
+  "title": "Count Common Words With One Occurrence",
+  "translatedTitle": "统计出现过一次的公共字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-common-words-with-one-occurrence/",
+  "createdAt": "2026-08-11T13:03:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

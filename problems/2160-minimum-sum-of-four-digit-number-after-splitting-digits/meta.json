@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2264,
+  "questionId": "2264",
+  "questionFrontendId": "2160",
+  "titleSlug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+  "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+  "translatedTitle": "拆分数位后四位数字的最小和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-sum-of-four-digit-number-after-splitting-digits/",
+  "createdAt": "2026-08-11T13:05:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
