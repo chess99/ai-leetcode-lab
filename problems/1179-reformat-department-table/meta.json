@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1301,
+  "questionId": "1301",
+  "questionFrontendId": "1179",
+  "titleSlug": "reformat-department-table",
+  "title": "Reformat Department Table",
+  "translatedTitle": "重新格式化部门表",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/reformat-department-table/",
+  "createdAt": "2026-08-11T11:41:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

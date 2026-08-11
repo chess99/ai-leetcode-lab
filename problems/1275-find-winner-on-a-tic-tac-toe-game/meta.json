@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1400,
+  "questionId": "1400",
+  "questionFrontendId": "1275",
+  "titleSlug": "find-winner-on-a-tic-tac-toe-game",
+  "title": "Find Winner on a Tic Tac Toe Game",
+  "translatedTitle": "找出井字棋的获胜者",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-winner-on-a-tic-tac-toe-game/",
+  "createdAt": "2026-08-11T11:45:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

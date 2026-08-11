@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1415,
+  "questionId": "1415",
+  "questionFrontendId": "1280",
+  "titleSlug": "students-and-examinations",
+  "title": "Students and Examinations",
+  "translatedTitle": "学生们参加各科测试的次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/students-and-examinations/",
+  "createdAt": "2026-08-11T11:46:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

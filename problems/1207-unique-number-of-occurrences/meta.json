@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1319,
+  "questionId": "1319",
+  "questionFrontendId": "1207",
+  "titleSlug": "unique-number-of-occurrences",
+  "title": "Unique Number of Occurrences",
+  "translatedTitle": "独一无二的出现次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/unique-number-of-occurrences/",
+  "createdAt": "2026-08-11T11:42:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

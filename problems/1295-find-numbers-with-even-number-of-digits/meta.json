@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1421,
+  "questionId": "1421",
+  "questionFrontendId": "1295",
+  "titleSlug": "find-numbers-with-even-number-of-digits",
+  "title": "Find Numbers with Even Number of Digits",
+  "translatedTitle": "统计位数为偶数的数字",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-numbers-with-even-number-of-digits/",
+  "createdAt": "2026-08-11T11:46:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

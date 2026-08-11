@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1434,
+  "questionId": "1434",
+  "questionFrontendId": "1309",
+  "titleSlug": "decrypt-string-from-alphabet-to-integer-mapping",
+  "title": "Decrypt String from Alphabet to Integer Mapping",
+  "translatedTitle": "解码字母到整数映射",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping/",
+  "createdAt": "2026-08-11T11:46:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

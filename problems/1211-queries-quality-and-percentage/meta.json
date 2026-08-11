@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1338,
+  "questionId": "1338",
+  "questionFrontendId": "1211",
+  "titleSlug": "queries-quality-and-percentage",
+  "title": "Queries Quality and Percentage",
+  "translatedTitle": "查询结果的质量和占比",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/queries-quality-and-percentage/",
+  "createdAt": "2026-08-11T11:43:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

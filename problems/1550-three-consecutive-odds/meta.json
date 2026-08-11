@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1293,
+  "questionId": "1293",
+  "questionFrontendId": "1550",
+  "titleSlug": "three-consecutive-odds",
+  "title": "Three Consecutive Odds",
+  "translatedTitle": "存在连续三个奇数的数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/three-consecutive-odds/",
+  "createdAt": "2026-08-11T11:41:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

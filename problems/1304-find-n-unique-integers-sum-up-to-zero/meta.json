@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1426,
+  "questionId": "1426",
+  "questionFrontendId": "1304",
+  "titleSlug": "find-n-unique-integers-sum-up-to-zero",
+  "title": "Find N Unique Integers Sum up to Zero",
+  "translatedTitle": "和为零的 N 个不同整数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-n-unique-integers-sum-up-to-zero/",
+  "createdAt": "2026-08-11T11:46:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

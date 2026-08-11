@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1444,
+  "questionId": "1444",
+  "questionFrontendId": "1342",
+  "titleSlug": "number-of-steps-to-reduce-a-number-to-zero",
+  "title": "Number of Steps to Reduce a Number to Zero",
+  "translatedTitle": "将数字变成 0 的操作次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-to-zero/",
+  "createdAt": "2026-08-11T11:48:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

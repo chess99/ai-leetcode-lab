@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1289,
+  "questionId": "1289",
+  "questionFrontendId": "1185",
+  "titleSlug": "day-of-the-week",
+  "title": "Day of the Week",
+  "translatedTitle": "一周中的第几天",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/day-of-the-week/",
+  "createdAt": "2026-08-11T11:41:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

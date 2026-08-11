@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1440,
+  "questionId": "1440",
+  "questionFrontendId": "1317",
+  "titleSlug": "convert-integer-to-the-sum-of-two-no-zero-integers",
+  "title": "Convert Integer to the Sum of Two No-Zero Integers",
+  "translatedTitle": "将整数转换为两个无零整数的和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/convert-integer-to-the-sum-of-two-no-zero-integers/",
+  "createdAt": "2026-08-11T11:47:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
