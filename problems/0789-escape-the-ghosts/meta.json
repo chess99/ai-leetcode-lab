@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 805,
+  "questionId": "805",
+  "questionFrontendId": "789",
+  "titleSlug": "escape-the-ghosts",
+  "title": "Escape The Ghosts",
+  "translatedTitle": "逃脱阻碍者",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/escape-the-ghosts/",
+  "createdAt": "2026-08-11T17:44:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

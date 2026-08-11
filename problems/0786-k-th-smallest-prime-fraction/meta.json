@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 802,
+  "questionId": "802",
+  "questionFrontendId": "786",
+  "titleSlug": "k-th-smallest-prime-fraction",
+  "title": "K-th Smallest Prime Fraction",
+  "translatedTitle": "第 K 个最小的质数分数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/k-th-smallest-prime-fraction/",
+  "createdAt": "2026-08-11T17:43:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

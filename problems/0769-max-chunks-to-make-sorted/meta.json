@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 780,
+  "questionId": "780",
+  "questionFrontendId": "769",
+  "titleSlug": "max-chunks-to-make-sorted",
+  "title": "Max Chunks To Make Sorted",
+  "translatedTitle": "最多能完成排序的块",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/max-chunks-to-make-sorted/",
+  "createdAt": "2026-08-11T17:43:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

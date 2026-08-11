@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 811,
+  "questionId": "811",
+  "questionFrontendId": "795",
+  "titleSlug": "number-of-subarrays-with-bounded-maximum",
+  "title": "Number of Subarrays with Bounded Maximum",
+  "translatedTitle": "区间子数组个数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/",
+  "createdAt": "2026-08-11T17:46:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

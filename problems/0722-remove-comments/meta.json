@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 722,
+  "questionId": "722",
+  "questionFrontendId": "722",
+  "titleSlug": "remove-comments",
+  "title": "Remove Comments",
+  "translatedTitle": "删除注释",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-comments/",
+  "createdAt": "2026-08-11T17:41:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

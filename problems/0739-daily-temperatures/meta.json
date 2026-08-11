@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 739,
+  "questionId": "739",
+  "questionFrontendId": "739",
+  "titleSlug": "daily-temperatures",
+  "title": "Daily Temperatures",
+  "translatedTitle": "每日温度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/daily-temperatures/",
+  "createdAt": "2026-08-11T17:41:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

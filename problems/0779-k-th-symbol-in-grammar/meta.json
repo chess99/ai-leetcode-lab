@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 795,
+  "questionId": "795",
+  "questionFrontendId": "779",
+  "titleSlug": "k-th-symbol-in-grammar",
+  "title": "K-th Symbol in Grammar",
+  "translatedTitle": "第K个语法符号",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/k-th-symbol-in-grammar/",
+  "createdAt": "2026-08-11T17:43:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

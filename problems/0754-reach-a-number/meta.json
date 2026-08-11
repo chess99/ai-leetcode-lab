@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 755,
+  "questionId": "755",
+  "questionFrontendId": "754",
+  "titleSlug": "reach-a-number",
+  "title": "Reach a Number",
+  "translatedTitle": "到达终点数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reach-a-number/",
+  "createdAt": "2026-08-11T17:41:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

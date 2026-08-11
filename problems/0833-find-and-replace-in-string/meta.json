@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 862,
+  "questionId": "862",
+  "questionFrontendId": "833",
+  "titleSlug": "find-and-replace-in-string",
+  "title": "Find And Replace in String",
+  "translatedTitle": "字符串中的查找与替换",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-and-replace-in-string/",
+  "createdAt": "2026-08-11T17:48:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

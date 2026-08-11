@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 803,
+  "questionId": "803",
+  "questionFrontendId": "787",
+  "titleSlug": "cheapest-flights-within-k-stops",
+  "title": "Cheapest Flights Within K Stops",
+  "translatedTitle": "K 站中转内最便宜的航班",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/cheapest-flights-within-k-stops/",
+  "createdAt": "2026-08-11T17:43:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

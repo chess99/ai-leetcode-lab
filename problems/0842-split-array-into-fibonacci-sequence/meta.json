@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 872,
+  "questionId": "872",
+  "questionFrontendId": "842",
+  "titleSlug": "split-array-into-fibonacci-sequence",
+  "title": "Split Array into Fibonacci Sequence",
+  "translatedTitle": "将数组拆分成斐波那契序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/split-array-into-fibonacci-sequence/",
+  "createdAt": "2026-08-11T17:50:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

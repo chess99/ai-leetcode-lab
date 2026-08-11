@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 820,
+  "questionId": "820",
+  "questionFrontendId": "802",
+  "titleSlug": "find-eventual-safe-states",
+  "title": "Find Eventual Safe States",
+  "translatedTitle": "找到最终的安全状态",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-eventual-safe-states/",
+  "createdAt": "2026-08-11T17:46:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

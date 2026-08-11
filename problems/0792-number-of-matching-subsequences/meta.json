@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 808,
+  "questionId": "808",
+  "questionFrontendId": "792",
+  "titleSlug": "number-of-matching-subsequences",
+  "title": "Number of Matching Subsequences",
+  "translatedTitle": "匹配子序列的单词数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-matching-subsequences/",
+  "createdAt": "2026-08-11T17:44:45Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

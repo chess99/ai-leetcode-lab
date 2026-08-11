@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 826,
+  "questionId": "826",
+  "questionFrontendId": "808",
+  "titleSlug": "soup-servings",
+  "title": "Soup Servings",
+  "translatedTitle": "分汤",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/soup-servings/",
+  "createdAt": "2026-08-11T17:46:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

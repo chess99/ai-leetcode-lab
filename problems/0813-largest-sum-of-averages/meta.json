@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 831,
+  "questionId": "831",
+  "questionFrontendId": "813",
+  "titleSlug": "largest-sum-of-averages",
+  "title": "Largest Sum of Averages",
+  "translatedTitle": "最大平均值和的分组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-sum-of-averages/",
+  "createdAt": "2026-08-11T17:46:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 790,
+  "questionId": "790",
+  "questionFrontendId": "775",
+  "titleSlug": "global-and-local-inversions",
+  "title": "Global and Local Inversions",
+  "translatedTitle": "全局倒置与局部倒置",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/global-and-local-inversions/",
+  "createdAt": "2026-08-11T17:43:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 768,
+  "questionId": "768",
+  "questionFrontendId": "763",
+  "titleSlug": "partition-labels",
+  "title": "Partition Labels",
+  "translatedTitle": "划分字母区间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-labels/",
+  "createdAt": "2026-08-11T17:41:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

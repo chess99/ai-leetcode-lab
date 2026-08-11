@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 740,
+  "questionId": "740",
+  "questionFrontendId": "740",
+  "titleSlug": "delete-and-earn",
+  "title": "Delete and Earn",
+  "translatedTitle": "删除并获得点数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/delete-and-earn/",
+  "createdAt": "2026-08-11T17:41:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

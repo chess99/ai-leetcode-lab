@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 870,
+  "questionId": "870",
+  "questionFrontendId": "840",
+  "titleSlug": "magic-squares-in-grid",
+  "title": "Magic Squares In Grid",
+  "translatedTitle": "矩阵中的幻方",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/magic-squares-in-grid/",
+  "createdAt": "2026-08-11T17:48:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

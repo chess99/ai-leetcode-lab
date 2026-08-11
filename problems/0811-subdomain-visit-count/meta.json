@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 829,
+  "questionId": "829",
+  "questionFrontendId": "811",
+  "titleSlug": "subdomain-visit-count",
+  "title": "Subdomain Visit Count",
+  "translatedTitle": "子域名访问计数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/subdomain-visit-count/",
+  "createdAt": "2026-08-11T17:46:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 753,
+  "questionId": "753",
+  "questionFrontendId": "752",
+  "titleSlug": "open-the-lock",
+  "title": "Open the Lock",
+  "translatedTitle": "打开转盘锁",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/open-the-lock/",
+  "createdAt": "2026-08-11T17:41:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

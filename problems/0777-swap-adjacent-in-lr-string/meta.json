@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 793,
+  "questionId": "793",
+  "questionFrontendId": "777",
+  "titleSlug": "swap-adjacent-in-lr-string",
+  "title": "Swap Adjacent in LR String",
+  "translatedTitle": "在 LR 字符串中交换相邻字符",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/swap-adjacent-in-lr-string/",
+  "createdAt": "2026-08-11T17:43:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

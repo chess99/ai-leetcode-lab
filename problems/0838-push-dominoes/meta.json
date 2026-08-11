@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 868,
+  "questionId": "868",
+  "questionFrontendId": "838",
+  "titleSlug": "push-dominoes",
+  "title": "Push Dominoes",
+  "translatedTitle": "推多米诺",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/push-dominoes/",
+  "createdAt": "2026-08-11T17:48:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

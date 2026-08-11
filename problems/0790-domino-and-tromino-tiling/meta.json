@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 806,
+  "questionId": "806",
+  "questionFrontendId": "790",
+  "titleSlug": "domino-and-tromino-tiling",
+  "title": "Domino and Tromino Tiling",
+  "translatedTitle": "多米诺和托米诺平铺",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/domino-and-tromino-tiling/",
+  "createdAt": "2026-08-11T17:44:45Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
