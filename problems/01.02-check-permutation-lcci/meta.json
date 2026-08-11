@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100159,
+  "questionId": "100159",
+  "questionFrontendId": "面试题 01.02",
+  "titleSlug": "check-permutation-lcci",
+  "title": "Check Permutation LCCI",
+  "translatedTitle": "判定是否互为字符重排",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-permutation-lcci/",
+  "createdAt": "2026-08-11T15:52:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

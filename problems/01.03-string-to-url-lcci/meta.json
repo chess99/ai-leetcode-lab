@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100160,
+  "questionId": "100160",
+  "questionFrontendId": "面试题 01.03",
+  "titleSlug": "string-to-url-lcci",
+  "title": "String to URL LCCI",
+  "translatedTitle": "URL化",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/string-to-url-lcci/",
+  "createdAt": "2026-08-11T15:52:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

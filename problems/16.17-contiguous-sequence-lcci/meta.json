@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000003,
+  "questionId": "1000003",
+  "questionFrontendId": "面试题 16.17",
+  "titleSlug": "contiguous-sequence-lcci",
+  "title": "Contiguous Sequence LCCI",
+  "translatedTitle": "连续数列",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/contiguous-sequence-lcci/",
+  "createdAt": "2026-08-11T16:01:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

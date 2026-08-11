@@ -1,0 +1,39 @@
+# 面试题 01.02. 判定是否互为字符重排
+
+- 难度：EASY
+- 标签：哈希表, 字符串, 排序
+- 来源：https://leetcode.cn/problems/check-permutation-lcci/
+- 归档：2026-08-11T15:52:34Z
+
+## 题目
+
+<p>给定两个由小写字母组成的字符串 <code>s1</code> 和 <code>s2</code>，请编写一个程序，确定其中一个字符串的字符重新排列后，能否变成另一个字符串。</p>
+
+<p><strong>示例 1：</strong></p>
+
+<pre>
+<strong>输入:</strong> <code>s1</code> = "abc", <code>s2</code> = "bca"
+<strong>输出:</strong> true
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入:</strong> <code>s1</code> = "abc", <code>s2</code> = "bad"
+<strong>输出:</strong> false
+</pre>
+
+<p><strong>说明：</strong></p>
+
+<ul>
+	<li><code>0 &lt;= len(s1) &lt;= 100 </code></li>
+	<li><code>0 &lt;= len(s2) &lt;= 100 </code></li>
+</ul>
+
+
+## 样例输入
+
+```text
+"abc"
+"bca"
+```

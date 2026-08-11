@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000007,
+  "questionId": "1000007",
+  "questionFrontendId": "面试题 02.02",
+  "titleSlug": "kth-node-from-end-of-list-lcci",
+  "title": "Kth Node From End of List LCCI",
+  "translatedTitle": "返回倒数第 k 个节点",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/kth-node-from-end-of-list-lcci/",
+  "createdAt": "2026-08-11T15:54:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

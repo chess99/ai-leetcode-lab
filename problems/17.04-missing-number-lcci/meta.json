@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000032,
+  "questionId": "1000032",
+  "questionFrontendId": "面试题 17.04",
+  "titleSlug": "missing-number-lcci",
+  "title": "Missing Number LCCI",
+  "translatedTitle": "消失的数字",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/missing-number-lcci/",
+  "createdAt": "2026-08-11T16:01:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

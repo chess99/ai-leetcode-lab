@@ -1,0 +1,45 @@
+# LCR 187. 破冰游戏
+
+- 难度：EASY
+- 标签：递归, 数学
+- 来源：https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/
+- 归档：2026-08-11T15:52:28Z
+
+## 题目
+
+<p>社团共有 <code>num</code>&nbsp;位成员参与破冰游戏，编号为 <code>0 ~ num-1</code>。成员们按照编号顺序围绕圆桌而坐。社长抽取一个数字 <code>target</code>，从 0 号成员起开始计数，排在第 <code>target</code> 位的成员离开圆桌，且成员离开后从下一个成员开始计数。请返回游戏结束时最后一位成员的编号。</p>
+
+<p>&nbsp;</p>
+
+<p><strong>示例 1：</strong></p>
+
+<pre>
+<strong>输入：</strong>num = 7, target = 4
+<strong>输出：</strong>1
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>num = 12, target = 5
+<strong>输出：</strong>0
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= num &lt;= 10^5</code></li>
+	<li><code>1 &lt;= target&nbsp;&lt;= 10^6</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
+
+## 样例输入
+
+```text
+7
+4
+```

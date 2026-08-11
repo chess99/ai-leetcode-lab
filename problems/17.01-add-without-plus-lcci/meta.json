@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000025,
+  "questionId": "1000025",
+  "questionFrontendId": "面试题 17.01",
+  "titleSlug": "add-without-plus-lcci",
+  "title": "Add Without Plus LCCI",
+  "translatedTitle": "不用加号的加法",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/add-without-plus-lcci/",
+  "createdAt": "2026-08-11T16:01:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

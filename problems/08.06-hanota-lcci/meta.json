@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000015,
+  "questionId": "1000015",
+  "questionFrontendId": "面试题 08.06",
+  "titleSlug": "hanota-lcci",
+  "title": "Hanota LCCI",
+  "translatedTitle": "汉诺塔问题",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/hanota-lcci/",
+  "createdAt": "2026-08-11T15:59:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

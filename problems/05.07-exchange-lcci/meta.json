@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100182,
+  "questionId": "100182",
+  "questionFrontendId": "面试题 05.07",
+  "titleSlug": "exchange-lcci",
+  "title": "Exchange LCCI",
+  "translatedTitle": "配对交换",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/exchange-lcci/",
+  "createdAt": "2026-08-11T15:57:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
