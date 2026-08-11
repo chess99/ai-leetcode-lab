@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 920,
+  "questionId": "920",
+  "questionFrontendId": "884",
+  "titleSlug": "uncommon-words-from-two-sentences",
+  "title": "Uncommon Words from Two Sentences",
+  "translatedTitle": "两句话中的不常见单词",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/uncommon-words-from-two-sentences/",
+  "createdAt": "2026-08-11T11:07:18Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

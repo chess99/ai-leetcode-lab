@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 767,
+  "questionId": "767",
+  "questionFrontendId": "762",
+  "titleSlug": "prime-number-of-set-bits-in-binary-representation",
+  "title": "Prime Number of Set Bits in Binary Representation",
+  "translatedTitle": "二进制表示中质数个计算置位",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/",
+  "createdAt": "2026-08-11T10:59:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

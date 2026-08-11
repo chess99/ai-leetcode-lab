@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 610,
+  "questionId": "610",
+  "questionFrontendId": "610",
+  "titleSlug": "triangle-judgement",
+  "title": "Triangle Judgement",
+  "translatedTitle": "判断三角形",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/triangle-judgement/",
+  "createdAt": "2026-08-11T10:57:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

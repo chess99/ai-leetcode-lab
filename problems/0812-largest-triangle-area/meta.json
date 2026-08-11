@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 830,
+  "questionId": "830",
+  "questionFrontendId": "812",
+  "titleSlug": "largest-triangle-area",
+  "title": "Largest Triangle Area",
+  "translatedTitle": "最大三角形面积",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-triangle-area/",
+  "createdAt": "2026-08-11T11:04:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

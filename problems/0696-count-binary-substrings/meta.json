@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 696,
+  "questionId": "696",
+  "questionFrontendId": "696",
+  "titleSlug": "count-binary-substrings",
+  "title": "Count Binary Substrings",
+  "translatedTitle": "计数二进制子串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-binary-substrings/",
+  "createdAt": "2026-08-11T11:00:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 932,
+  "questionId": "932",
+  "questionFrontendId": "896",
+  "titleSlug": "monotonic-array",
+  "title": "Monotonic Array",
+  "translatedTitle": "单调数列",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/monotonic-array/",
+  "createdAt": "2026-08-11T11:10:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

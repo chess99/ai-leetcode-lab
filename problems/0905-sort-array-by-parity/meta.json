@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 941,
+  "questionId": "941",
+  "questionFrontendId": "905",
+  "titleSlug": "sort-array-by-parity",
+  "title": "Sort Array By Parity",
+  "translatedTitle": "按奇偶排序数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-array-by-parity/",
+  "createdAt": "2026-08-11T11:11:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

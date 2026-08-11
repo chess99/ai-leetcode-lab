@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 620,
+  "questionId": "620",
+  "questionFrontendId": "620",
+  "titleSlug": "not-boring-movies",
+  "title": "Not Boring Movies",
+  "translatedTitle": "有趣的电影",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/not-boring-movies/",
+  "createdAt": "2026-08-11T10:57:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

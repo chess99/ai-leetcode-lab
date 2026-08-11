@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 661,
+  "questionId": "661",
+  "questionFrontendId": "661",
+  "titleSlug": "image-smoother",
+  "title": "Image Smoother",
+  "translatedTitle": "图片平滑器",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/image-smoother/",
+  "createdAt": "2026-08-11T10:57:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 724,
+  "questionId": "724",
+  "questionFrontendId": "724",
+  "titleSlug": "find-pivot-index",
+  "title": "Find Pivot Index",
+  "translatedTitle": "寻找数组的中心下标",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-pivot-index/",
+  "createdAt": "2026-08-11T11:02:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

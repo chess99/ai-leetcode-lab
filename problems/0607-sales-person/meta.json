@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 607,
+  "questionId": "607",
+  "questionFrontendId": "607",
+  "titleSlug": "sales-person",
+  "title": "Sales Person",
+  "translatedTitle": "销售员",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/sales-person/",
+  "createdAt": "2026-08-11T10:57:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

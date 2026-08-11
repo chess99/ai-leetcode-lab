@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 674,
+  "questionId": "674",
+  "questionFrontendId": "674",
+  "titleSlug": "longest-continuous-increasing-subsequence",
+  "title": "Longest Continuous Increasing Subsequence",
+  "translatedTitle": "最长连续递增序列",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-continuous-increasing-subsequence/",
+  "createdAt": "2026-08-11T10:57:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

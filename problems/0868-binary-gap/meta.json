@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 899,
+  "questionId": "899",
+  "questionFrontendId": "868",
+  "titleSlug": "binary-gap",
+  "title": "Binary Gap",
+  "translatedTitle": "二进制间距",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/binary-gap/",
+  "createdAt": "2026-08-11T11:05:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 812,
+  "questionId": "812",
+  "questionFrontendId": "796",
+  "titleSlug": "rotate-string",
+  "title": "Rotate String",
+  "translatedTitle": "旋转字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/rotate-string/",
+  "createdAt": "2026-08-11T11:04:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

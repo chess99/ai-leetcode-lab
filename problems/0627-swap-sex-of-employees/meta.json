@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 627,
+  "questionId": "627",
+  "questionFrontendId": "627",
+  "titleSlug": "swap-sex-of-employees",
+  "title": "Swap Sex of Employees",
+  "translatedTitle": "变更性别",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/swap-sex-of-employees/",
+  "createdAt": "2026-08-11T10:57:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
