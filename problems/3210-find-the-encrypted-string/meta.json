@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3468,
+  "questionId": "3468",
+  "questionFrontendId": "3210",
+  "titleSlug": "find-the-encrypted-string",
+  "title": "Find the Encrypted String",
+  "translatedTitle": "找出加密后的字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-encrypted-string/",
+  "createdAt": "2026-08-11T14:45:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

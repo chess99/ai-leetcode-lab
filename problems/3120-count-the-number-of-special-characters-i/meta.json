@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3408,
+  "questionId": "3408",
+  "questionFrontendId": "3120",
+  "titleSlug": "count-the-number-of-special-characters-i",
+  "title": "Count the Number of Special Characters I",
+  "translatedTitle": "统计特殊字母的数量 I",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-special-characters-i/",
+  "createdAt": "2026-08-11T14:45:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

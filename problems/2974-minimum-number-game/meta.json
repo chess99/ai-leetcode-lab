@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3226,
+  "questionId": "3226",
+  "questionFrontendId": "2974",
+  "titleSlug": "minimum-number-game",
+  "title": "Minimum Number Game",
+  "translatedTitle": "最小数字游戏",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-game/",
+  "createdAt": "2026-08-11T14:39:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

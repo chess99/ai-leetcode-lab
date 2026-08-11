@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3447,
+  "questionId": "3447",
+  "questionFrontendId": "3174",
+  "titleSlug": "clear-digits",
+  "title": "Clear Digits",
+  "translatedTitle": "清除数字",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/clear-digits/",
+  "createdAt": "2026-08-11T14:45:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

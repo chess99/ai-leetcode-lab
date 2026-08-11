@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3450,
+  "questionId": "3450",
+  "questionFrontendId": "3178",
+  "titleSlug": "find-the-child-who-has-the-ball-after-k-seconds",
+  "title": "Find the Child Who Has the Ball After K Seconds",
+  "translatedTitle": "找出 K 秒后拿着球的孩子",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-child-who-has-the-ball-after-k-seconds/",
+  "createdAt": "2026-08-11T14:45:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

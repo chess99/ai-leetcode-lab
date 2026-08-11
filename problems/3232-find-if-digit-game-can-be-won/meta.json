@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3515,
+  "questionId": "3515",
+  "questionFrontendId": "3232",
+  "titleSlug": "find-if-digit-game-can-be-won",
+  "title": "Find if Digit Game Can Be Won",
+  "translatedTitle": "判断是否可以赢得数字游戏",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-if-digit-game-can-be-won/",
+  "createdAt": "2026-08-11T14:47:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

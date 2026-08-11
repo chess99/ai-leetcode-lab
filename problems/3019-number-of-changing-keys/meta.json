@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3312,
+  "questionId": "3312",
+  "questionFrontendId": "3019",
+  "titleSlug": "number-of-changing-keys",
+  "title": "Number of Changing Keys",
+  "translatedTitle": "按键变更的次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-changing-keys/",
+  "createdAt": "2026-08-11T14:39:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

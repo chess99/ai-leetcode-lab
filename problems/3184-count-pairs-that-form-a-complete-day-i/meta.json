@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3421,
+  "questionId": "3421",
+  "questionFrontendId": "3184",
+  "titleSlug": "count-pairs-that-form-a-complete-day-i",
+  "title": "Count Pairs That Form a Complete Day I",
+  "translatedTitle": "构成整天的下标对数目 I",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-i/",
+  "createdAt": "2026-08-11T14:45:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

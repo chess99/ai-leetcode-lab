@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3426,
+  "questionId": "3426",
+  "questionFrontendId": "3168",
+  "titleSlug": "minimum-number-of-chairs-in-a-waiting-room",
+  "title": "Minimum Number of Chairs in a Waiting Room",
+  "translatedTitle": "候诊室中的最少椅子数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-chairs-in-a-waiting-room/",
+  "createdAt": "2026-08-11T14:45:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

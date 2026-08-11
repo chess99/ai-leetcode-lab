@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3321,
+  "questionId": "3321",
+  "questionFrontendId": "3024",
+  "titleSlug": "type-of-triangle",
+  "title": "Type of Triangle",
+  "translatedTitle": "三角形类型",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/type-of-triangle/",
+  "createdAt": "2026-08-11T14:41:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

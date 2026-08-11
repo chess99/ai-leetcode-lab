@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3367,
+  "questionId": "3367",
+  "questionFrontendId": "3079",
+  "titleSlug": "find-the-sum-of-encrypted-integers",
+  "title": "Find the Sum of Encrypted Integers",
+  "translatedTitle": "求出加密整数的和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-sum-of-encrypted-integers/",
+  "createdAt": "2026-08-11T14:41:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

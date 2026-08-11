@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3353,
+  "questionId": "3353",
+  "questionFrontendId": "3083",
+  "titleSlug": "existence-of-a-substring-in-a-string-and-its-reverse",
+  "title": "Existence of a Substring in a String and Its Reverse",
+  "translatedTitle": "字符串及其反转中是否存在同一子字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/existence-of-a-substring-in-a-string-and-its-reverse/",
+  "createdAt": "2026-08-11T14:41:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

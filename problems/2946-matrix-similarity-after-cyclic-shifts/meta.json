@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3215,
+  "questionId": "3215",
+  "questionFrontendId": "2946",
+  "titleSlug": "matrix-similarity-after-cyclic-shifts",
+  "title": "Matrix Similarity After Cyclic Shifts",
+  "translatedTitle": "循环移位后的矩阵相似检查",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/matrix-similarity-after-cyclic-shifts/",
+  "createdAt": "2026-08-11T14:39:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

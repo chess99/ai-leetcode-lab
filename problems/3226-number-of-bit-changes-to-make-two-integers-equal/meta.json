@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3508,
+  "questionId": "3508",
+  "questionFrontendId": "3226",
+  "titleSlug": "number-of-bit-changes-to-make-two-integers-equal",
+  "title": "Number of Bit Changes to Make Two Integers Equal",
+  "translatedTitle": "使两个整数相等的位更改次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-bit-changes-to-make-two-integers-equal/",
+  "createdAt": "2026-08-11T14:47:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

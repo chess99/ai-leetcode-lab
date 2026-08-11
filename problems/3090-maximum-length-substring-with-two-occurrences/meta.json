@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3349,
+  "questionId": "3349",
+  "questionFrontendId": "3090",
+  "titleSlug": "maximum-length-substring-with-two-occurrences",
+  "title": "Maximum Length Substring With Two Occurrences",
+  "translatedTitle": "每个字符最多出现两次的最长子字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/",
+  "createdAt": "2026-08-11T14:41:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

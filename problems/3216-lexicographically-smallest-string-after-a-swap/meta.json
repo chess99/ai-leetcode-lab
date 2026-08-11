@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3484,
+  "questionId": "3484",
+  "questionFrontendId": "3216",
+  "titleSlug": "lexicographically-smallest-string-after-a-swap",
+  "title": "Lexicographically Smallest String After a Swap",
+  "translatedTitle": "交换后字典序最小的字符串",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lexicographically-smallest-string-after-a-swap/",
+  "createdAt": "2026-08-11T14:47:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

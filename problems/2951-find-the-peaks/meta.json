@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3221,
+  "questionId": "3221",
+  "questionFrontendId": "2951",
+  "titleSlug": "find-the-peaks",
+  "title": "Find the Peaks",
+  "translatedTitle": "找出峰值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-peaks/",
+  "createdAt": "2026-08-11T14:39:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3567,
+  "questionId": "3567",
+  "questionFrontendId": "3280",
+  "titleSlug": "convert-date-to-binary",
+  "title": "Convert Date to Binary",
+  "translatedTitle": "将日期转换为二进制表示",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/convert-date-to-binary/",
+  "createdAt": "2026-08-11T14:48:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

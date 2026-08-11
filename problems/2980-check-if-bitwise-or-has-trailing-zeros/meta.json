@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3246,
+  "questionId": "3246",
+  "questionFrontendId": "2980",
+  "titleSlug": "check-if-bitwise-or-has-trailing-zeros",
+  "title": "Check if Bitwise OR Has Trailing Zeros",
+  "translatedTitle": "检查按位或是否存在尾随零",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-bitwise-or-has-trailing-zeros/",
+  "createdAt": "2026-08-11T14:39:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3372,
+  "questionId": "3372",
+  "questionFrontendId": "3105",
+  "titleSlug": "longest-strictly-increasing-or-strictly-decreasing-subarray",
+  "title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+  "translatedTitle": "最长的严格递增或递减子数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/",
+  "createdAt": "2026-08-11T14:41:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

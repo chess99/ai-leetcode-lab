@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3220,
+  "questionId": "3220",
+  "questionFrontendId": "2960",
+  "titleSlug": "count-tested-devices-after-test-operations",
+  "title": "Count Tested Devices After Test Operations",
+  "translatedTitle": "统计已测试设备",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-tested-devices-after-test-operations/",
+  "createdAt": "2026-08-11T14:39:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

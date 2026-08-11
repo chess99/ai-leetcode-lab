@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3553,
+  "questionId": "3553",
+  "questionFrontendId": "3274",
+  "titleSlug": "check-if-two-chessboard-squares-have-the-same-color",
+  "title": "Check if Two Chessboard Squares Have the Same Color",
+  "translatedTitle": "检查棋盘方格颜色是否相同",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-two-chessboard-squares-have-the-same-color/",
+  "createdAt": "2026-08-11T14:48:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3476,
+  "questionId": "3476",
+  "questionFrontendId": "3190",
+  "titleSlug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
+  "title": "Find Minimum Operations to Make All Elements Divisible by Three",
+  "translatedTitle": "使所有元素都可以被 3 整除的最少操作数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/",
+  "createdAt": "2026-08-11T14:47:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
