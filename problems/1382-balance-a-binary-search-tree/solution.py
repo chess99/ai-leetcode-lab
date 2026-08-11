@@ -1,10 +1,35 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T18:43:09Z
+# Experiment: ai-leetcode-lab, round 1
 from __future__ import annotations
+
+
 class Solution:
- def balanceBST(self,root:TreeNode)->TreeNode:
-  a=[]
-  def walk(n):
-   if n:walk(n.left);a.append(n);walk(n.right)
-  def build(l,r):
-   if l>=r:return None
-   m=(l+r)//2;n=a[m];n.left=build(l,m);n.right=build(m+1,r);return n
-  walk(root);return build(0,len(a))
+    def balanceBST(self, root: TreeNode) -> TreeNode:
+        nodes = []
+        stack = []
+        current = root
+
+        while stack or current:
+            while current:
+                stack.append(current)
+                current = current.left
+            current = stack.pop()
+            nodes.append(current)
+            current = current.right
+
+        def build_balanced(left: int, right: int) -> TreeNode:
+            if left >= right:
+                return None
+
+            middle = (left + right) // 2
+            node = nodes[middle]
+            node.left = build_balanced(left, middle)
+            node.right = build_balanced(middle + 1, right)
+            return node
+
+        return build_balanced(0, len(nodes))
