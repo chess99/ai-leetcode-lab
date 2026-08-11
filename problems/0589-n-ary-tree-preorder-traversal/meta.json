@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 775,
+  "questionId": "775",
+  "questionFrontendId": "589",
+  "titleSlug": "n-ary-tree-preorder-traversal",
+  "title": "N-ary Tree Preorder Traversal",
+  "translatedTitle": "N 叉树的前序遍历",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/n-ary-tree-preorder-traversal/",
+  "createdAt": "2026-08-11T10:47:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

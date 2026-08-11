@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 628,
+  "questionId": "628",
+  "questionFrontendId": "628",
+  "titleSlug": "maximum-product-of-three-numbers",
+  "title": "Maximum Product of Three Numbers",
+  "translatedTitle": "三个数的最大乘积",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-product-of-three-numbers/",
+  "createdAt": "2026-08-11T10:49:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

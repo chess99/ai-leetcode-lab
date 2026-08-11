@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 561,
+  "questionId": "561",
+  "questionFrontendId": "561",
+  "titleSlug": "array-partition",
+  "title": "Array Partition",
+  "translatedTitle": "数组拆分",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/array-partition/",
+  "createdAt": "2026-08-11T10:45:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

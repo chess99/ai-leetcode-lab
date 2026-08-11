@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 645,
+  "questionId": "645",
+  "questionFrontendId": "645",
+  "titleSlug": "set-mismatch",
+  "title": "Set Mismatch",
+  "translatedTitle": "错误的集合",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/set-mismatch/",
+  "createdAt": "2026-08-11T10:52:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
