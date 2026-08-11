@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1714,
+  "questionId": "1714",
+  "questionFrontendId": "1592",
+  "titleSlug": "rearrange-spaces-between-words",
+  "title": "Rearrange Spaces Between Words",
+  "translatedTitle": "重新排列单词间的空格",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/rearrange-spaces-between-words/",
+  "createdAt": "2026-08-11T12:06:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

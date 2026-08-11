@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1720,
+  "questionId": "1720",
+  "questionFrontendId": "1598",
+  "titleSlug": "crawler-log-folder",
+  "title": "Crawler Log Folder",
+  "translatedTitle": "文件夹操作日志搜集器",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/crawler-log-folder/",
+  "createdAt": "2026-08-11T12:06:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -6,6 +6,7 @@ import threading
 import time
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from ai_leetcode.client import JudgeTask
 from ai_leetcode.config import ArchiveConfig, AttemptBudget, ExperimentConfig, Identity
@@ -129,6 +130,25 @@ class RunnerTests(unittest.TestCase):
         with RemoteActionLock(self.root, min_interval_seconds=0):
             pass
         self.assertGreaterEqual(time.monotonic() - started, 0.04)
+
+    def test_remote_lock_retries_transient_windows_release_error(self) -> None:
+        lock = RemoteActionLock(self.root, poll_seconds=0.001, min_interval_seconds=0)
+        lock.__enter__()
+        original_unlink = Path.unlink
+        attempts = 0
+
+        def flaky_unlink(path: Path, *args: object, **kwargs: object) -> None:
+            nonlocal attempts
+            if path == lock.path and attempts == 0:
+                attempts += 1
+                raise PermissionError("simulated Windows sharing violation")
+            original_unlink(path, *args, **kwargs)
+
+        with patch.object(Path, "unlink", new=flaky_unlink):
+            lock.__exit__(None, None, None)
+
+        self.assertEqual(attempts, 1)
+        self.assertFalse(lock.path.exists())
 
 
 if __name__ == "__main__":

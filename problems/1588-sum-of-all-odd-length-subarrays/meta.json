@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1693,
+  "questionId": "1693",
+  "questionFrontendId": "1588",
+  "titleSlug": "sum-of-all-odd-length-subarrays",
+  "title": "Sum of All Odd Length Subarrays",
+  "translatedTitle": "所有奇数长度子数组的和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-all-odd-length-subarrays/",
+  "createdAt": "2026-08-11T12:09:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

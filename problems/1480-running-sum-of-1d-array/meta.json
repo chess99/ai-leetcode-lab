@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1603,
+  "questionId": "1603",
+  "questionFrontendId": "1480",
+  "titleSlug": "running-sum-of-1d-array",
+  "title": "Running Sum of 1d Array",
+  "translatedTitle": "一维数组的动态和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/running-sum-of-1d-array/",
+  "createdAt": "2026-08-11T12:03:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

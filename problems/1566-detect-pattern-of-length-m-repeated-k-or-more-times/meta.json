@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1689,
+  "questionId": "1689",
+  "questionFrontendId": "1566",
+  "titleSlug": "detect-pattern-of-length-m-repeated-k-or-more-times",
+  "title": "Detect Pattern of Length M Repeated K or More Times",
+  "translatedTitle": "重复至少 K 次且长度为 M 的模式",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/detect-pattern-of-length-m-repeated-k-or-more-times/",
+  "createdAt": "2026-08-11T12:08:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

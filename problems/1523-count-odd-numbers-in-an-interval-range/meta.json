@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1630,
+  "questionId": "1630",
+  "questionFrontendId": "1523",
+  "titleSlug": "count-odd-numbers-in-an-interval-range",
+  "title": "Count Odd Numbers in an Interval Range",
+  "translatedTitle": "在区间范围内统计奇数数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/",
+  "createdAt": "2026-08-11T12:06:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1656,
+  "questionId": "1656",
+  "questionFrontendId": "1534",
+  "titleSlug": "count-good-triplets",
+  "title": "Count Good Triplets",
+  "translatedTitle": "统计好三元组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-good-triplets/",
+  "createdAt": "2026-08-11T12:04:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

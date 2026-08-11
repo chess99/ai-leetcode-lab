@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1734,
+  "questionId": "1734",
+  "questionFrontendId": "1587",
+  "titleSlug": "bank-account-summary-ii",
+  "title": "Bank Account Summary II",
+  "translatedTitle": "银行账户概要 II",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/bank-account-summary-ii/",
+  "createdAt": "2026-08-11T12:06:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

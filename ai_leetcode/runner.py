@@ -53,21 +53,36 @@ class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
         self.min_interval_seconds = min_interval_seconds
         self.acquired = False
 
+    def _unlink_with_retry(self, timeout_seconds: float = 1.0) -> bool:
+        deadline = time.monotonic() + timeout_seconds
+        while True:
+            try:
+                self.path.unlink()
+                return True
+            except FileNotFoundError:
+                return True
+            except PermissionError:
+                if time.monotonic() >= deadline:
+                    return False
+                time.sleep(min(self.poll_seconds, 0.05))
+
     def __enter__(self) -> "RemoteActionLock":
         self.path.parent.mkdir(parents=True, exist_ok=True)
         deadline = time.monotonic() + self.wait_seconds
         while True:
             if self.path.exists():
                 try:
-                    info = json.loads(self.path.read_text(encoding="utf-8"))
-                    age = time.time() - float(info.get("unixTime", 0))
-                except (json.JSONDecodeError, OSError, ValueError, TypeError):
+                    age = time.time() - self.path.stat().st_mtime
+                except FileNotFoundError:
+                    continue
+                except OSError:
                     age = 0
                 if age > self.stale_seconds:
-                    try:
-                        self.path.unlink()
-                    except FileNotFoundError:
-                        pass
+                    if not self._unlink_with_retry():
+                        if time.monotonic() >= deadline:
+                            raise RuntimeError(f"清理远程动作锁超时：{self.path}")
+                        time.sleep(self.poll_seconds)
+                        continue
                 else:
                     if time.monotonic() >= deadline:
                         raise RuntimeError(f"等待远程动作锁超时：{self.path}")
@@ -120,9 +135,11 @@ class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
         )
 
     def __exit__(self, exc_type: object, exc_value: object, traceback: object) -> None:
-        if self.acquired and self.path.exists():
-            self.path.unlink()
-        self.acquired = False
+        try:
+            if self.acquired and not self._unlink_with_retry():
+                raise RuntimeError(f"释放远程动作锁超时：{self.path}")
+        finally:
+            self.acquired = False
 
 
 def _working_problem(selector: str, root: Path) -> tuple[dict[str, Any], dict[str, Any], Path, str]:

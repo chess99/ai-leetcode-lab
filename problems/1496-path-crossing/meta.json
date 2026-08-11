@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1619,
+  "questionId": "1619",
+  "questionFrontendId": "1496",
+  "titleSlug": "path-crossing",
+  "title": "Path Crossing",
+  "translatedTitle": "判断路径是否相交",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/path-crossing/",
+  "createdAt": "2026-08-11T12:04:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

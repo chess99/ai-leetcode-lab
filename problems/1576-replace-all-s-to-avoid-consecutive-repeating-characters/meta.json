@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1698,
+  "questionId": "1698",
+  "questionFrontendId": "1576",
+  "titleSlug": "replace-all-s-to-avoid-consecutive-repeating-characters",
+  "title": "Replace All ?'s to Avoid Consecutive Repeating Characters",
+  "translatedTitle": "替换所有的问号",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/replace-all-s-to-avoid-consecutive-repeating-characters/",
+  "createdAt": "2026-08-11T12:09:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

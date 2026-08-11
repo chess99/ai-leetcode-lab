@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1664,
+  "questionId": "1664",
+  "questionFrontendId": "1517",
+  "titleSlug": "find-users-with-valid-e-mails",
+  "title": "Find Users With Valid E-Mails",
+  "translatedTitle": "查找拥有有效邮箱的用户",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-users-with-valid-e-mails/",
+  "createdAt": "2026-08-11T12:10:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
