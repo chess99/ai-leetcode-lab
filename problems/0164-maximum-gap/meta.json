@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 164,
+  "questionId": "164",
+  "questionFrontendId": "164",
+  "titleSlug": "maximum-gap",
+  "title": "Maximum Gap",
+  "translatedTitle": "最大间距",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-gap/",
+  "createdAt": "2026-08-11T16:27:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

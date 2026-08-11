@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 128,
+  "questionId": "128",
+  "questionFrontendId": "128",
+  "titleSlug": "longest-consecutive-sequence",
+  "title": "Longest Consecutive Sequence",
+  "translatedTitle": "最长连续序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-consecutive-sequence/",
+  "createdAt": "2026-08-11T16:24:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

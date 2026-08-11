@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 139,
+  "questionId": "139",
+  "questionFrontendId": "139",
+  "titleSlug": "word-break",
+  "title": "Word Break",
+  "translatedTitle": "单词拆分",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/word-break/",
+  "createdAt": "2026-08-11T16:26:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

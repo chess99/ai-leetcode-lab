@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 235,
+  "questionId": "235",
+  "questionFrontendId": "235",
+  "titleSlug": "lowest-common-ancestor-of-a-binary-search-tree",
+  "title": "Lowest Common Ancestor of a Binary Search Tree",
+  "translatedTitle": "二叉搜索树的最近公共祖先",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+  "createdAt": "2026-08-11T16:33:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

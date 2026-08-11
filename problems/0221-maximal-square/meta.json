@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 221,
+  "questionId": "221",
+  "questionFrontendId": "221",
+  "titleSlug": "maximal-square",
+  "title": "Maximal Square",
+  "translatedTitle": "最大正方形",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximal-square/",
+  "createdAt": "2026-08-11T16:33:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

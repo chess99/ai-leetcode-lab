@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 147,
+  "questionId": "147",
+  "questionFrontendId": "147",
+  "titleSlug": "insertion-sort-list",
+  "title": "Insertion Sort List",
+  "translatedTitle": "对链表进行插入排序",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/insertion-sort-list/",
+  "createdAt": "2026-08-11T16:27:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

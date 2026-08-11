@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 153,
+  "questionId": "153",
+  "questionFrontendId": "153",
+  "titleSlug": "find-minimum-in-rotated-sorted-array",
+  "title": "Find Minimum in Rotated Sorted Array",
+  "translatedTitle": "寻找旋转排序数组中的最小值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/",
+  "createdAt": "2026-08-11T16:27:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

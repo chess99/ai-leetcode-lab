@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 198,
+  "questionId": "198",
+  "questionFrontendId": "198",
+  "titleSlug": "house-robber",
+  "title": "House Robber",
+  "translatedTitle": "打家劫舍",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/house-robber/",
+  "createdAt": "2026-08-11T16:31:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

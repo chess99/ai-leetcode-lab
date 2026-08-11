@@ -1,0 +1,28 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T16:27:12Z
+# Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        stack = []
+        for token in tokens:
+            if token not in {"+", "-", "*", "/"}:
+                stack.append(int(token))
+                continue
+            right = stack.pop()
+            left = stack.pop()
+            if token == "+":
+                stack.append(left + right)
+            elif token == "-":
+                stack.append(left - right)
+            elif token == "*":
+                stack.append(left * right)
+            else:
+                quotient = abs(left) // abs(right)
+                stack.append(-quotient if (left < 0) != (right < 0) else quotient)
+        return stack[-1]

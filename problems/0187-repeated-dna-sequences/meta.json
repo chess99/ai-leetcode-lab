@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 187,
+  "questionId": "187",
+  "questionFrontendId": "187",
+  "titleSlug": "repeated-dna-sequences",
+  "title": "Repeated DNA Sequences",
+  "translatedTitle": "重复的DNA序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/repeated-dna-sequences/",
+  "createdAt": "2026-08-11T16:30:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

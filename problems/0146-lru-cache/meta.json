@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 146,
+  "questionId": "146",
+  "questionFrontendId": "146",
+  "titleSlug": "lru-cache",
+  "title": "LRU Cache",
+  "translatedTitle": "LRU 缓存",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lru-cache/",
+  "createdAt": "2026-08-11T16:27:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

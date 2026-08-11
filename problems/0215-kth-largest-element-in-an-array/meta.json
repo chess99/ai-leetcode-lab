@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 215,
+  "questionId": "215",
+  "questionFrontendId": "215",
+  "titleSlug": "kth-largest-element-in-an-array",
+  "title": "Kth Largest Element in an Array",
+  "translatedTitle": "数组中的第K个最大元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/kth-largest-element-in-an-array/",
+  "createdAt": "2026-08-11T16:33:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

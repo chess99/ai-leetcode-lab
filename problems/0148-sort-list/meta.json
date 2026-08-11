@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 148,
+  "questionId": "148",
+  "questionFrontendId": "148",
+  "titleSlug": "sort-list",
+  "title": "Sort List",
+  "translatedTitle": "排序链表",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-list/",
+  "createdAt": "2026-08-11T16:27:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

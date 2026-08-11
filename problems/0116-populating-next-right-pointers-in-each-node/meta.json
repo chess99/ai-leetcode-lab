@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 116,
+  "questionId": "116",
+  "questionFrontendId": "116",
+  "titleSlug": "populating-next-right-pointers-in-each-node",
+  "title": "Populating Next Right Pointers in Each Node",
+  "translatedTitle": "填充每个节点的下一个右侧节点指针",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/",
+  "createdAt": "2026-08-11T16:24:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 178,
+  "questionId": "178",
+  "questionFrontendId": "178",
+  "titleSlug": "rank-scores",
+  "title": "Rank Scores",
+  "translatedTitle": "分数排名",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/rank-scores/",
+  "createdAt": "2026-08-11T16:30:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

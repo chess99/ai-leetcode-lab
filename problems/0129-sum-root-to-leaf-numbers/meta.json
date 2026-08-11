@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 129,
+  "questionId": "129",
+  "questionFrontendId": "129",
+  "titleSlug": "sum-root-to-leaf-numbers",
+  "title": "Sum Root to Leaf Numbers",
+  "translatedTitle": "求根节点到叶节点数字之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-root-to-leaf-numbers/",
+  "createdAt": "2026-08-11T16:24:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

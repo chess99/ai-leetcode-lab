@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 106,
+  "questionId": "106",
+  "questionFrontendId": "106",
+  "titleSlug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+  "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+  "translatedTitle": "从中序与后序遍历序列构造二叉树",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+  "createdAt": "2026-08-11T16:24:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

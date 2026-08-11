@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 166,
+  "questionId": "166",
+  "questionFrontendId": "166",
+  "titleSlug": "fraction-to-recurring-decimal",
+  "title": "Fraction to Recurring Decimal",
+  "translatedTitle": "分数到小数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/fraction-to-recurring-decimal/",
+  "createdAt": "2026-08-11T16:29:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

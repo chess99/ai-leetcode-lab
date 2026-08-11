@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 176,
+  "questionId": "176",
+  "questionFrontendId": "176",
+  "titleSlug": "second-highest-salary",
+  "title": "Second Highest Salary",
+  "translatedTitle": "第二高的薪水",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/second-highest-salary/",
+  "createdAt": "2026-08-11T16:30:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

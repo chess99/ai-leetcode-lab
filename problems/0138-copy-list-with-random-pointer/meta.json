@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 138,
+  "questionId": "138",
+  "questionFrontendId": "138",
+  "titleSlug": "copy-list-with-random-pointer",
+  "title": "Copy List with Random Pointer",
+  "translatedTitle": "随机链表的复制",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/copy-list-with-random-pointer/",
+  "createdAt": "2026-08-11T16:26:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

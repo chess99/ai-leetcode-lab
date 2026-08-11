@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 133,
+  "questionId": "133",
+  "questionFrontendId": "133",
+  "titleSlug": "clone-graph",
+  "title": "Clone Graph",
+  "translatedTitle": "克隆图",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/clone-graph/",
+  "createdAt": "2026-08-11T16:24:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 194,
+  "questionId": "194",
+  "questionFrontendId": "194",
+  "titleSlug": "transpose-file",
+  "title": "Transpose File",
+  "translatedTitle": "转置文件",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "bash",
+  "solutionFile": "solution.sh",
+  "source": "https://leetcode.cn/problems/transpose-file/",
+  "createdAt": "2026-08-11T16:30:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

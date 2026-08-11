@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 151,
+  "questionId": "151",
+  "questionFrontendId": "151",
+  "titleSlug": "reverse-words-in-a-string",
+  "title": "Reverse Words in a String",
+  "translatedTitle": "反转字符串中的单词",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reverse-words-in-a-string/",
+  "createdAt": "2026-08-11T16:27:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

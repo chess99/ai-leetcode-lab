@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 192,
+  "questionId": "192",
+  "questionFrontendId": "192",
+  "titleSlug": "word-frequency",
+  "title": "Word Frequency",
+  "translatedTitle": "统计词频",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "bash",
+  "solutionFile": "solution.sh",
+  "source": "https://leetcode.cn/problems/word-frequency/",
+  "createdAt": "2026-08-11T16:30:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

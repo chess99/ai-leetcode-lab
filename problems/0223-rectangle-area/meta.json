@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 223,
+  "questionId": "223",
+  "questionFrontendId": "223",
+  "titleSlug": "rectangle-area",
+  "title": "Rectangle Area",
+  "translatedTitle": "矩形面积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/rectangle-area/",
+  "createdAt": "2026-08-11T16:33:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

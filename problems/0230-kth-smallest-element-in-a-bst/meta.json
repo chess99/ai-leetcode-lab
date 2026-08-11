@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 230,
+  "questionId": "230",
+  "questionFrontendId": "230",
+  "titleSlug": "kth-smallest-element-in-a-bst",
+  "title": "Kth Smallest Element in a BST",
+  "translatedTitle": "二叉搜索树中第 K 小的元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/kth-smallest-element-in-a-bst/",
+  "createdAt": "2026-08-11T16:33:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

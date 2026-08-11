@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 209,
+  "questionId": "209",
+  "questionFrontendId": "209",
+  "titleSlug": "minimum-size-subarray-sum",
+  "title": "Minimum Size Subarray Sum",
+  "translatedTitle": "长度最小的子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-size-subarray-sum/",
+  "createdAt": "2026-08-11T16:32:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

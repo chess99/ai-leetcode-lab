@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 150,
+  "questionId": "150",
+  "questionFrontendId": "150",
+  "titleSlug": "evaluate-reverse-polish-notation",
+  "title": "Evaluate Reverse Polish Notation",
+  "translatedTitle": "逆波兰表达式求值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/evaluate-reverse-polish-notation/",
+  "createdAt": "2026-08-11T16:27:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

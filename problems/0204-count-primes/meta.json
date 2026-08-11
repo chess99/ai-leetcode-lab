@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 204,
+  "questionId": "204",
+  "questionFrontendId": "204",
+  "titleSlug": "count-primes",
+  "title": "Count Primes",
+  "translatedTitle": "计数质数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-primes/",
+  "createdAt": "2026-08-11T16:31:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
