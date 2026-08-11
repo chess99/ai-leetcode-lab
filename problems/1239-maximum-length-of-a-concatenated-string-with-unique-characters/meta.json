@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1360,
+  "questionId": "1360",
+  "questionFrontendId": "1239",
+  "titleSlug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+  "title": "Maximum Length of a Concatenated String with Unique Characters",
+  "translatedTitle": "串联字符串的最大长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/",
+  "createdAt": "2026-08-11T18:30:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

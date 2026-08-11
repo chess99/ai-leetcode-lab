@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1278,
+  "questionId": "1278",
+  "questionFrontendId": "1164",
+  "titleSlug": "product-price-at-a-given-date",
+  "title": "Product Price at a Given Date",
+  "translatedTitle": "指定日期的产品价格",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/product-price-at-a-given-date/",
+  "createdAt": "2026-08-11T18:26:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

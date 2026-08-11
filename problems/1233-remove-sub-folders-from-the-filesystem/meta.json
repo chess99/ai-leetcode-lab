@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1350,
+  "questionId": "1350",
+  "questionFrontendId": "1233",
+  "titleSlug": "remove-sub-folders-from-the-filesystem",
+  "title": "Remove Sub-Folders from the Filesystem",
+  "translatedTitle": "删除子文件夹",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/",
+  "createdAt": "2026-08-11T18:29:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

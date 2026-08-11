@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1316,
+  "questionId": "1316",
+  "questionFrontendId": "1195",
+  "titleSlug": "fizz-buzz-multithreaded",
+  "title": "Fizz Buzz Multithreaded",
+  "translatedTitle": "多线程 Fizz Buzz",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/fizz-buzz-multithreaded/",
+  "createdAt": "2026-08-11T18:28:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

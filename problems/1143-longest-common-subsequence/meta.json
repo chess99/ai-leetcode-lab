@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1250,
+  "questionId": "1250",
+  "questionFrontendId": "1143",
+  "titleSlug": "longest-common-subsequence",
+  "title": "Longest Common Subsequence",
+  "translatedTitle": "最长公共子序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-common-subsequence/",
+  "createdAt": "2026-08-11T18:24:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

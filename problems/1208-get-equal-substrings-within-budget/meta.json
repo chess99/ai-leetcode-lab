@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1321,
+  "questionId": "1321",
+  "questionFrontendId": "1208",
+  "titleSlug": "get-equal-substrings-within-budget",
+  "title": "Get Equal Substrings Within Budget",
+  "translatedTitle": "尽可能使字符串相等",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/get-equal-substrings-within-budget/",
+  "createdAt": "2026-08-11T18:28:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

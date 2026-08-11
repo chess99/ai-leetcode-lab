@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1263,
+  "questionId": "1263",
+  "questionFrontendId": "1155",
+  "titleSlug": "number-of-dice-rolls-with-target-sum",
+  "title": "Number of Dice Rolls With Target Sum",
+  "translatedTitle": "掷骰子等于目标和的方法数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/",
+  "createdAt": "2026-08-11T18:26:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

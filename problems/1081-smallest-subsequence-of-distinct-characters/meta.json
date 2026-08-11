@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1159,
+  "questionId": "1159",
+  "questionFrontendId": "1081",
+  "titleSlug": "smallest-subsequence-of-distinct-characters",
+  "title": "Smallest Subsequence of Distinct Characters",
+  "translatedTitle": "不同字符的最小子序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/",
+  "createdAt": "2026-08-11T18:21:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

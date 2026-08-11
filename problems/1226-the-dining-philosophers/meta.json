@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1340,
+  "questionId": "1340",
+  "questionFrontendId": "1226",
+  "titleSlug": "the-dining-philosophers",
+  "title": "The Dining Philosophers",
+  "translatedTitle": "哲学家进餐",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/the-dining-philosophers/",
+  "createdAt": "2026-08-11T18:28:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

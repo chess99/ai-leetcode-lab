@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1272,
+  "questionId": "1272",
+  "questionFrontendId": "1169",
+  "titleSlug": "invalid-transactions",
+  "title": "Invalid Transactions",
+  "translatedTitle": "查询无效交易",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/invalid-transactions/",
+  "createdAt": "2026-08-11T18:26:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

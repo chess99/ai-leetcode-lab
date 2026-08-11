@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1228,
+  "questionId": "1228",
+  "questionFrontendId": "1130",
+  "titleSlug": "minimum-cost-tree-from-leaf-values",
+  "title": "Minimum Cost Tree From Leaf Values",
+  "translatedTitle": "叶值的最小代价生成树",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-tree-from-leaf-values/",
+  "createdAt": "2026-08-11T18:23:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1369,
+  "questionId": "1369",
+  "questionFrontendId": "1247",
+  "titleSlug": "minimum-swaps-to-make-strings-equal",
+  "title": "Minimum Swaps to Make Strings Equal",
+  "translatedTitle": "交换字符使得字符串相同",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-swaps-to-make-strings-equal/",
+  "createdAt": "2026-08-11T18:30:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

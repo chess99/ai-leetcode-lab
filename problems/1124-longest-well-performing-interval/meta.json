@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1219,
+  "questionId": "1219",
+  "questionFrontendId": "1124",
+  "titleSlug": "longest-well-performing-interval",
+  "title": "Longest Well-Performing Interval",
+  "translatedTitle": "表现良好的最长时间段",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-well-performing-interval/",
+  "createdAt": "2026-08-11T18:21:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

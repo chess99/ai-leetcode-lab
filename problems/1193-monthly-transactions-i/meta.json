@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1317,
+  "questionId": "1317",
+  "questionFrontendId": "1193",
+  "titleSlug": "monthly-transactions-i",
+  "title": "Monthly Transactions I",
+  "translatedTitle": "每月交易 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/monthly-transactions-i/",
+  "createdAt": "2026-08-11T18:26:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

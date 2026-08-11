@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1327,
+  "questionId": "1327",
+  "questionFrontendId": "1204",
+  "titleSlug": "last-person-to-fit-in-the-bus",
+  "title": "Last Person to Fit in the Bus",
+  "translatedTitle": "最后一个能进入巴士的人",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/last-person-to-fit-in-the-bus/",
+  "createdAt": "2026-08-11T18:28:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

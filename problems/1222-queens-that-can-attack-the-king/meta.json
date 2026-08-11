@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1342,
+  "questionId": "1342",
+  "questionFrontendId": "1222",
+  "titleSlug": "queens-that-can-attack-the-king",
+  "title": "Queens That Can Attack the King",
+  "translatedTitle": "可以攻击国王的皇后",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/queens-that-can-attack-the-king/",
+  "createdAt": "2026-08-11T18:28:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
