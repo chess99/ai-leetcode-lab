@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3620,
+  "questionId": "3620",
+  "questionFrontendId": "3397",
+  "titleSlug": "maximum-number-of-distinct-elements-after-operations",
+  "title": "Maximum Number of Distinct Elements After Operations",
+  "translatedTitle": "执行操作后不同元素的最大数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-distinct-elements-after-operations/",
+  "createdAt": "2026-08-11T21:59:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

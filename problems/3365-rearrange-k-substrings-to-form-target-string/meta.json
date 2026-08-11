@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3595,
+  "questionId": "3595",
+  "questionFrontendId": "3365",
+  "titleSlug": "rearrange-k-substrings-to-form-target-string",
+  "title": "Rearrange K Substrings to Form Target String",
+  "translatedTitle": "重排子字符串以形成目标字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/rearrange-k-substrings-to-form-target-string/",
+  "createdAt": "2026-08-11T21:59:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

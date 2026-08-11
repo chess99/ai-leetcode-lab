@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3613,
+  "questionId": "3613",
+  "questionFrontendId": "3387",
+  "titleSlug": "maximize-amount-after-two-days-of-conversions",
+  "title": "Maximize Amount After Two Days of Conversions",
+  "translatedTitle": "两天自由外汇交易后的最大货币数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-amount-after-two-days-of-conversions/",
+  "createdAt": "2026-08-11T21:59:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

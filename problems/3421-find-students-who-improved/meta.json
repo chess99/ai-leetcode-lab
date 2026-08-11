@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3767,
+  "questionId": "3767",
+  "questionFrontendId": "3421",
+  "titleSlug": "find-students-who-improved",
+  "title": "Find Students Who Improved",
+  "translatedTitle": "查找进步的学生",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-students-who-improved/",
+  "createdAt": "2026-08-11T21:59:18Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

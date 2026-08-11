@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3750,
+  "questionId": "3750",
+  "questionFrontendId": "3488",
+  "titleSlug": "closest-equal-element-queries",
+  "title": "Closest Equal Element Queries",
+  "translatedTitle": "距离最小相等元素查询",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/closest-equal-element-queries/",
+  "createdAt": "2026-08-11T21:59:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

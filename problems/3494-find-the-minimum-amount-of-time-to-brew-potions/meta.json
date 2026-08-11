@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3794,
+  "questionId": "3794",
+  "questionFrontendId": "3494",
+  "titleSlug": "find-the-minimum-amount-of-time-to-brew-potions",
+  "title": "Find the Minimum Amount of Time to Brew Potions",
+  "translatedTitle": "酿造药水需要的最少总时间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-minimum-amount-of-time-to-brew-potions/",
+  "createdAt": "2026-08-11T21:59:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

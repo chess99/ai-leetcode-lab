@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3720,
+  "questionId": "3720",
+  "questionFrontendId": "3419",
+  "titleSlug": "minimize-the-maximum-edge-weight-of-graph",
+  "title": "Minimize the Maximum Edge Weight of Graph",
+  "translatedTitle": "图的最大边权的最小值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimize-the-maximum-edge-weight-of-graph/",
+  "createdAt": "2026-08-11T21:59:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

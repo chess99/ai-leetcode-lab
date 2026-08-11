@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3653,
+  "questionId": "3653",
+  "questionFrontendId": "3381",
+  "titleSlug": "maximum-subarray-sum-with-length-divisible-by-k",
+  "title": "Maximum Subarray Sum With Length Divisible by K",
+  "translatedTitle": "长度可被 K 整除的子数组的最大元素和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-subarray-sum-with-length-divisible-by-k/",
+  "createdAt": "2026-08-11T21:59:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

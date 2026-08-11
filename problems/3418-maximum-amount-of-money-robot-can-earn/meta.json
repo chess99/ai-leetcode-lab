@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3677,
+  "questionId": "3677",
+  "questionFrontendId": "3418",
+  "titleSlug": "maximum-amount-of-money-robot-can-earn",
+  "title": "Maximum Amount of Money Robot Can Earn",
+  "translatedTitle": "机器人可以获得的最大金币数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-amount-of-money-robot-can-earn/",
+  "createdAt": "2026-08-11T21:59:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

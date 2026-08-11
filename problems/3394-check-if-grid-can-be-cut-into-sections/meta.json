@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3657,
+  "questionId": "3657",
+  "questionFrontendId": "3394",
+  "titleSlug": "check-if-grid-can-be-cut-into-sections",
+  "title": "Check if Grid can be Cut into Sections",
+  "translatedTitle": "判断网格图能否被切割成块",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-grid-can-be-cut-into-sections/",
+  "createdAt": "2026-08-11T21:59:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

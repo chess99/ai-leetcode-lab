@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3716,
+  "questionId": "3716",
+  "questionFrontendId": "3409",
+  "titleSlug": "longest-subsequence-with-decreasing-adjacent-difference",
+  "title": "Longest Subsequence With Decreasing Adjacent Difference",
+  "translatedTitle": "最长相邻绝对差递减子序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-subsequence-with-decreasing-adjacent-difference/",
+  "createdAt": "2026-08-11T21:59:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

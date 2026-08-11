@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3619,
+  "questionId": "3619",
+  "questionFrontendId": "3350",
+  "titleSlug": "adjacent-increasing-subarrays-detection-ii",
+  "title": "Adjacent Increasing Subarrays Detection II",
+  "translatedTitle": "检测相邻递增子数组 II",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/adjacent-increasing-subarrays-detection-ii/",
+  "createdAt": "2026-08-11T21:59:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

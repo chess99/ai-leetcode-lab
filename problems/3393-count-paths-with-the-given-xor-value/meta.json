@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3659,
+  "questionId": "3659",
+  "questionFrontendId": "3393",
+  "titleSlug": "count-paths-with-the-given-xor-value",
+  "title": "Count Paths With the Given XOR Value",
+  "translatedTitle": "统计异或值为给定值的路径数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-paths-with-the-given-xor-value/",
+  "createdAt": "2026-08-11T21:59:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

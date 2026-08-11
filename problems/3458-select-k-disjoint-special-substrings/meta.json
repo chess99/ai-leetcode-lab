@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3771,
+  "questionId": "3771",
+  "questionFrontendId": "3458",
+  "titleSlug": "select-k-disjoint-special-substrings",
+  "title": "Select K Disjoint Special Substrings",
+  "translatedTitle": "选择 K 个互不重叠的特殊子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/select-k-disjoint-special-substrings/",
+  "createdAt": "2026-08-11T21:59:18Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

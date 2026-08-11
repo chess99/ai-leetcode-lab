@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3715,
+  "questionId": "3715",
+  "questionFrontendId": "3413",
+  "titleSlug": "maximum-coins-from-k-consecutive-bags",
+  "title": "Maximum Coins From K Consecutive Bags",
+  "translatedTitle": "收集连续 K 个袋子可以获得的最多硬币数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-coins-from-k-consecutive-bags/",
+  "createdAt": "2026-08-11T21:59:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3714,
+  "questionId": "3714",
+  "questionFrontendId": "3428",
+  "titleSlug": "maximum-and-minimum-sums-of-at-most-size-k-subsequences",
+  "title": "Maximum and Minimum Sums of at Most Size K Subsequences",
+  "translatedTitle": "最多 K 个元素的子序列的最值之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-and-minimum-sums-of-at-most-size-k-subsequences/",
+  "createdAt": "2026-08-11T21:59:18Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
