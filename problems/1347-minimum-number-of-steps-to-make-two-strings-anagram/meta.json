@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1469,
+  "questionId": "1469",
+  "questionFrontendId": "1347",
+  "titleSlug": "minimum-number-of-steps-to-make-two-strings-anagram",
+  "title": "Minimum Number of Steps to Make Two Strings Anagram",
+  "translatedTitle": "制造字母异位词的最小步骤数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
+  "createdAt": "2026-08-11T18:41:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

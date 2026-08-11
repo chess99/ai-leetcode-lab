@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1276,
+  "questionId": "1276",
+  "questionFrontendId": "1362",
+  "titleSlug": "closest-divisors",
+  "title": "Closest Divisors",
+  "translatedTitle": "最接近的因数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/closest-divisors/",
+  "createdAt": "2026-08-11T18:42:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

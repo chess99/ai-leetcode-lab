@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1480,
+  "questionId": "1480",
+  "questionFrontendId": "1341",
+  "titleSlug": "movie-rating",
+  "title": "Movie Rating",
+  "translatedTitle": "电影评分",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/movie-rating/",
+  "createdAt": "2026-08-11T18:41:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

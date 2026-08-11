@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1473,
+  "questionId": "1473",
+  "questionFrontendId": "1371",
+  "titleSlug": "find-the-longest-substring-containing-vowels-in-even-counts",
+  "title": "Find the Longest Substring Containing Vowels in Even Counts",
+  "translatedTitle": "每个元音包含偶数次的最长子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/",
+  "createdAt": "2026-08-11T18:43:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

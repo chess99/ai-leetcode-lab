@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1422,
+  "questionId": "1422",
+  "questionFrontendId": "1296",
+  "titleSlug": "divide-array-in-sets-of-k-consecutive-numbers",
+  "title": "Divide Array in Sets of K Consecutive Numbers",
+  "translatedTitle": "划分数组为连续数字的集合",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/",
+  "createdAt": "2026-08-11T18:37:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

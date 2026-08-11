@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1474,
+  "questionId": "1474",
+  "questionFrontendId": "1372",
+  "titleSlug": "longest-zigzag-path-in-a-binary-tree",
+  "title": "Longest ZigZag Path in a Binary Tree",
+  "translatedTitle": "二叉树中的最长交错路径",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-zigzag-path-in-a-binary-tree/",
+  "createdAt": "2026-08-11T18:43:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

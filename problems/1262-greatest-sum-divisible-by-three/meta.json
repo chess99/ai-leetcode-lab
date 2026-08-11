@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1388,
+  "questionId": "1388",
+  "questionFrontendId": "1262",
+  "titleSlug": "greatest-sum-divisible-by-three",
+  "title": "Greatest Sum Divisible by Three",
+  "translatedTitle": "可被三整除的最大和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/greatest-sum-divisible-by-three/",
+  "createdAt": "2026-08-11T18:37:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

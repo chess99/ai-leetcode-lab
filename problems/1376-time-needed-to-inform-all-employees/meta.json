@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1492,
+  "questionId": "1492",
+  "questionFrontendId": "1376",
+  "titleSlug": "time-needed-to-inform-all-employees",
+  "title": "Time Needed to Inform All Employees",
+  "translatedTitle": "通知所有员工所需的时间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/time-needed-to-inform-all-employees/",
+  "createdAt": "2026-08-11T18:43:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

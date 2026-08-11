@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1396,
+  "questionId": "1396",
+  "questionFrontendId": "1267",
+  "titleSlug": "count-servers-that-communicate",
+  "title": "Count Servers that Communicate",
+  "translatedTitle": "统计参与通信的服务器",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-servers-that-communicate/",
+  "createdAt": "2026-08-11T18:37:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

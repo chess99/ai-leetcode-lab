@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1483,
+  "questionId": "1483",
+  "questionFrontendId": "1366",
+  "titleSlug": "rank-teams-by-votes",
+  "title": "Rank Teams by Votes",
+  "translatedTitle": "通过投票对团队排名",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/rank-teams-by-votes/",
+  "createdAt": "2026-08-11T18:43:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1487,
+  "questionId": "1487",
+  "questionFrontendId": "1386",
+  "titleSlug": "cinema-seat-allocation",
+  "title": "Cinema Seat Allocation",
+  "translatedTitle": "安排电影院座位",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/cinema-seat-allocation/",
+  "createdAt": "2026-08-11T18:43:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

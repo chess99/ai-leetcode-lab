@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1408,
+  "questionId": "1408",
+  "questionFrontendId": "1283",
+  "titleSlug": "find-the-smallest-divisor-given-a-threshold",
+  "title": "Find the Smallest Divisor Given a Threshold",
+  "translatedTitle": "使结果不超过阈值的最小除数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-smallest-divisor-given-a-threshold/",
+  "createdAt": "2026-08-11T18:37:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

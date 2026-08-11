@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1423,
+  "questionId": "1423",
+  "questionFrontendId": "1297",
+  "titleSlug": "maximum-number-of-occurrences-of-a-substring",
+  "title": "Maximum Number of Occurrences of a Substring",
+  "translatedTitle": "子串的最大出现次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-occurrences-of-a-substring/",
+  "createdAt": "2026-08-11T18:37:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

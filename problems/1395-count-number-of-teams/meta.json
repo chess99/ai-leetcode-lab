@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1511,
+  "questionId": "1511",
+  "questionFrontendId": "1395",
+  "titleSlug": "count-number-of-teams",
+  "title": "Count Number of Teams",
+  "translatedTitle": "统计作战单位数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-teams/",
+  "createdAt": "2026-08-11T18:43:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

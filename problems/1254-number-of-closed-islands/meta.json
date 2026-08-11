@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1380,
+  "questionId": "1380",
+  "questionFrontendId": "1254",
+  "titleSlug": "number-of-closed-islands",
+  "title": "Number of Closed Islands",
+  "translatedTitle": "统计封闭岛屿的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-closed-islands/",
+  "createdAt": "2026-08-11T18:37:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

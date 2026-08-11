@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1452,
+  "questionId": "1452",
+  "questionFrontendId": "1321",
+  "titleSlug": "restaurant-growth",
+  "title": "Restaurant Growth",
+  "translatedTitle": "餐馆营业额变化增长",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/restaurant-growth/",
+  "createdAt": "2026-08-11T18:39:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

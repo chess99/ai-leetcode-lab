@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1470,
+  "questionId": "1470",
+  "questionFrontendId": "1348",
+  "titleSlug": "tweet-counts-per-frequency",
+  "title": "Tweet Counts Per Frequency",
+  "translatedTitle": "推文计数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/tweet-counts-per-frequency/",
+  "createdAt": "2026-08-11T18:41:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

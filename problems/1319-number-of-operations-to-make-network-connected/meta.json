@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1442,
+  "questionId": "1442",
+  "questionFrontendId": "1319",
+  "titleSlug": "number-of-operations-to-make-network-connected",
+  "title": "Number of Operations to Make Network Connected",
+  "translatedTitle": "连通网络的操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-operations-to-make-network-connected/",
+  "createdAt": "2026-08-11T18:39:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1232,
+  "questionId": "1232",
+  "questionFrontendId": "1300",
+  "titleSlug": "sum-of-mutated-array-closest-to-target",
+  "title": "Sum of Mutated Array Closest to Target",
+  "translatedTitle": "转变数组后最接近目标值的数组和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-mutated-array-closest-to-target/",
+  "createdAt": "2026-08-11T18:39:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

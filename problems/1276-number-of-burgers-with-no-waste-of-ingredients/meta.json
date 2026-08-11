@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1401,
+  "questionId": "1401",
+  "questionFrontendId": "1276",
+  "titleSlug": "number-of-burgers-with-no-waste-of-ingredients",
+  "title": "Number of Burgers with No Waste of Ingredients",
+  "translatedTitle": "不浪费原料的汉堡制作方案",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-burgers-with-no-waste-of-ingredients/",
+  "createdAt": "2026-08-11T18:37:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

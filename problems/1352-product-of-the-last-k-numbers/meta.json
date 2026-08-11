@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1477,
+  "questionId": "1477",
+  "questionFrontendId": "1352",
+  "titleSlug": "product-of-the-last-k-numbers",
+  "title": "Product of the Last K Numbers",
+  "translatedTitle": "最后 K 个数的乘积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/product-of-the-last-k-numbers/",
+  "createdAt": "2026-08-11T18:41:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

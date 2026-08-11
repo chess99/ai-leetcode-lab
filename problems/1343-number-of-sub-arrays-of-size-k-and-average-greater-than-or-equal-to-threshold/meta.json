@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1445,
+  "questionId": "1445",
+  "questionFrontendId": "1343",
+  "titleSlug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+  "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+  "translatedTitle": "大小为 K 且平均值大于等于阈值的子数组数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/",
+  "createdAt": "2026-08-11T18:41:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

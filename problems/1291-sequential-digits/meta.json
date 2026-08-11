@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1212,
+  "questionId": "1212",
+  "questionFrontendId": "1291",
+  "titleSlug": "sequential-digits",
+  "title": "Sequential Digits",
+  "translatedTitle": "顺次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sequential-digits/",
+  "createdAt": "2026-08-11T18:37:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

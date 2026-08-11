@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1460,
+  "questionId": "1460",
+  "questionFrontendId": "1358",
+  "titleSlug": "number-of-substrings-containing-all-three-characters",
+  "title": "Number of Substrings Containing All Three Characters",
+  "translatedTitle": "包含所有三种字符的子字符串数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/",
+  "createdAt": "2026-08-11T18:42:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1436,
+  "questionId": "1436",
+  "questionFrontendId": "1311",
+  "titleSlug": "get-watched-videos-by-your-friends",
+  "title": "Get Watched Videos by Your Friends",
+  "translatedTitle": "获取你好友已观看的视频",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/get-watched-videos-by-your-friends/",
+  "createdAt": "2026-08-11T18:39:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

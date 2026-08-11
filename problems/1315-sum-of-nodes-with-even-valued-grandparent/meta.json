@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1243,
+  "questionId": "1243",
+  "questionFrontendId": "1315",
+  "titleSlug": "sum-of-nodes-with-even-valued-grandparent",
+  "title": "Sum of Nodes with Even-Valued Grandparent",
+  "translatedTitle": "祖父节点值为偶数的节点和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-nodes-with-even-valued-grandparent/",
+  "createdAt": "2026-08-11T18:39:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1456,
+  "questionId": "1456",
+  "questionFrontendId": "1334",
+  "titleSlug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+  "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+  "translatedTitle": "阈值距离内邻居最少的城市",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+  "createdAt": "2026-08-11T18:41:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

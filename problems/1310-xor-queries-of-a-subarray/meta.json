@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1435,
+  "questionId": "1435",
+  "questionFrontendId": "1310",
+  "titleSlug": "xor-queries-of-a-subarray",
+  "title": "XOR Queries of a Subarray",
+  "translatedTitle": "子数组异或查询",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/xor-queries-of-a-subarray/",
+  "createdAt": "2026-08-11T18:39:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1402,
+  "questionId": "1402",
+  "questionFrontendId": "1277",
+  "titleSlug": "count-square-submatrices-with-all-ones",
+  "title": "Count Square Submatrices with All Ones",
+  "translatedTitle": "统计全为 1 的正方形子矩阵",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-square-submatrices-with-all-ones/",
+  "createdAt": "2026-08-11T18:37:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

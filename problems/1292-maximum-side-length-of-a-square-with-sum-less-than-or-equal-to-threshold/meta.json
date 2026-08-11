@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1413,
+  "questionId": "1413",
+  "questionFrontendId": "1292",
+  "titleSlug": "maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold",
+  "title": "Maximum Side Length of a Square with Sum Less than or Equal to Threshold",
+  "translatedTitle": "元素和小于等于阈值的正方形的最大边长",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/",
+  "createdAt": "2026-08-11T18:37:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

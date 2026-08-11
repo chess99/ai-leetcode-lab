@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1507,
+  "questionId": "1507",
+  "questionFrontendId": "1391",
+  "titleSlug": "check-if-there-is-a-valid-path-in-a-grid",
+  "title": "Check if There is a Valid Path in a Grid",
+  "translatedTitle": "检查网格中是否存在有效路径",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/",
+  "createdAt": "2026-08-11T18:43:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
