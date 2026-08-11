@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2076,
+  "questionId": "2076",
+  "questionFrontendId": "1945",
+  "titleSlug": "sum-of-digits-of-string-after-convert",
+  "title": "Sum of Digits of String After Convert",
+  "translatedTitle": "字符串转化后的各位数字之和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/",
+  "createdAt": "2026-08-11T12:56:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

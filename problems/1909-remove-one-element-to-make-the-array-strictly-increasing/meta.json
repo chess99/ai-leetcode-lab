@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2020,
+  "questionId": "2020",
+  "questionFrontendId": "1909",
+  "titleSlug": "remove-one-element-to-make-the-array-strictly-increasing",
+  "title": "Remove One Element to Make the Array Strictly Increasing",
+  "translatedTitle": "删除一个元素使数组严格递增",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-one-element-to-make-the-array-strictly-increasing/",
+  "createdAt": "2026-08-11T12:51:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

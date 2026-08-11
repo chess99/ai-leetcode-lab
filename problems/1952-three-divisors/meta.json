@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2083,
+  "questionId": "2083",
+  "questionFrontendId": "1952",
+  "titleSlug": "three-divisors",
+  "title": "Three Divisors",
+  "translatedTitle": "三除数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/three-divisors/",
+  "createdAt": "2026-08-11T12:56:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

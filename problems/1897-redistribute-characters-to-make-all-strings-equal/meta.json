@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2025,
+  "questionId": "2025",
+  "questionFrontendId": "1897",
+  "titleSlug": "redistribute-characters-to-make-all-strings-equal",
+  "title": "Redistribute Characters to Make All Strings Equal",
+  "translatedTitle": "重新分配字符使所有字符串都相等",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/redistribute-characters-to-make-all-strings-equal/",
+  "createdAt": "2026-08-11T12:52:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

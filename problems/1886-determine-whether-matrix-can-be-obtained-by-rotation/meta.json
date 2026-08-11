@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2015,
+  "questionId": "2015",
+  "questionFrontendId": "1886",
+  "titleSlug": "determine-whether-matrix-can-be-obtained-by-rotation",
+  "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+  "translatedTitle": "判断矩阵经轮转后是否一致",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/determine-whether-matrix-can-be-obtained-by-rotation/",
+  "createdAt": "2026-08-11T12:51:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

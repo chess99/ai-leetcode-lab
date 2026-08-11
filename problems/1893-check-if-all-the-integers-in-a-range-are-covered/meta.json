@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2005,
+  "questionId": "2005",
+  "questionFrontendId": "1893",
+  "titleSlug": "check-if-all-the-integers-in-a-range-are-covered",
+  "title": "Check if All the Integers in a Range Are Covered",
+  "translatedTitle": "检查是否区域内所有整数都被覆盖",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered/",
+  "createdAt": "2026-08-11T12:51:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

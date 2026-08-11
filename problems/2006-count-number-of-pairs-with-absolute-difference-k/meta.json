@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2116,
+  "questionId": "2116",
+  "questionFrontendId": "2006",
+  "titleSlug": "count-number-of-pairs-with-absolute-difference-k",
+  "title": "Count Number of Pairs With Absolute Difference K",
+  "translatedTitle": "差的绝对值为 K 的数对数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-pairs-with-absolute-difference-k/",
+  "createdAt": "2026-08-11T12:57:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

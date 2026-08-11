@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2048,
+  "questionId": "2048",
+  "questionFrontendId": "1920",
+  "titleSlug": "build-array-from-permutation",
+  "title": "Build Array from Permutation",
+  "translatedTitle": "基于排列构建数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/build-array-from-permutation/",
+  "createdAt": "2026-08-11T12:51:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

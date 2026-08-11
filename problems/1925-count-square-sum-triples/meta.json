@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2037,
+  "questionId": "2037",
+  "questionFrontendId": "1925",
+  "titleSlug": "count-square-sum-triples",
+  "title": "Count Square Sum Triples",
+  "translatedTitle": "统计平方和三元组的数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-square-sum-triples/",
+  "createdAt": "2026-08-11T12:54:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

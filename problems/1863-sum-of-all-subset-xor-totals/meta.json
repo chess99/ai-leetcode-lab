@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1993,
+  "questionId": "1993",
+  "questionFrontendId": "1863",
+  "titleSlug": "sum-of-all-subset-xor-totals",
+  "title": "Sum of All Subset XOR Totals",
+  "translatedTitle": "找出所有子集的异或总和再求和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-all-subset-xor-totals/",
+  "createdAt": "2026-08-11T12:51:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

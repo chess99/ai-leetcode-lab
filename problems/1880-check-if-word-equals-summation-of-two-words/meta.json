@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2010,
+  "questionId": "2010",
+  "questionFrontendId": "1880",
+  "titleSlug": "check-if-word-equals-summation-of-two-words",
+  "title": "Check if Word Equals Summation of Two Words",
+  "translatedTitle": "检查某单词是否等于两单词之和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-word-equals-summation-of-two-words/",
+  "createdAt": "2026-08-11T12:51:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

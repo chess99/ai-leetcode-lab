@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2099,
+  "questionId": "2099",
+  "questionFrontendId": "1967",
+  "titleSlug": "number-of-strings-that-appear-as-substrings-in-word",
+  "title": "Number of Strings That Appear as Substrings in Word",
+  "translatedTitle": "作为子字符串出现在单词中的字符串数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-strings-that-appear-as-substrings-in-word/",
+  "createdAt": "2026-08-11T12:56:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

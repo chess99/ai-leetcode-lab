@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2053,
+  "questionId": "2053",
+  "questionFrontendId": "1941",
+  "titleSlug": "check-if-all-characters-have-equal-number-of-occurrences",
+  "title": "Check if All Characters Have Equal Number of Occurrences",
+  "translatedTitle": "检查是否所有字符出现次数相同",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences/",
+  "createdAt": "2026-08-11T12:51:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

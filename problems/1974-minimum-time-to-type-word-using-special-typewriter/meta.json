@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2088,
+  "questionId": "2088",
+  "questionFrontendId": "1974",
+  "titleSlug": "minimum-time-to-type-word-using-special-typewriter",
+  "title": "Minimum Time to Type Word Using Special Typewriter",
+  "translatedTitle": "使用特殊打字机键入单词的最少时间",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-type-word-using-special-typewriter/",
+  "createdAt": "2026-08-11T12:56:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

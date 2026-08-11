@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2110,
+  "questionId": "2110",
+  "questionFrontendId": "1965",
+  "titleSlug": "employees-with-missing-information",
+  "title": "Employees With Missing Information",
+  "translatedTitle": "丢失信息的雇员",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/employees-with-missing-information/",
+  "createdAt": "2026-08-11T12:56:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

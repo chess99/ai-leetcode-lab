@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2041,
+  "questionId": "2041",
+  "questionFrontendId": "1890",
+  "titleSlug": "the-latest-login-in-2020",
+  "title": "The Latest Login in 2020",
+  "translatedTitle": "2020年最后一次登录",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/the-latest-login-in-2020/",
+  "createdAt": "2026-08-11T12:51:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
