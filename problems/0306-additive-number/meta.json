@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 306,
+  "questionId": "306",
+  "questionFrontendId": "306",
+  "titleSlug": "additive-number",
+  "title": "Additive Number",
+  "translatedTitle": "累加数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/additive-number/",
+  "createdAt": "2026-08-11T16:45:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

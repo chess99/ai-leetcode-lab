@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 238,
+  "questionId": "238",
+  "questionFrontendId": "238",
+  "titleSlug": "product-of-array-except-self",
+  "title": "Product of Array Except Self",
+  "translatedTitle": "除了自身以外数组的乘积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/product-of-array-except-self/",
+  "createdAt": "2026-08-11T16:44:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 373,
+  "questionId": "373",
+  "questionFrontendId": "373",
+  "titleSlug": "find-k-pairs-with-smallest-sums",
+  "title": "Find K Pairs with Smallest Sums",
+  "translatedTitle": "查找和最小的 K 对数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/",
+  "createdAt": "2026-08-11T16:50:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

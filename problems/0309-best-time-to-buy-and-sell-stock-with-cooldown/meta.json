@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 309,
+  "questionId": "309",
+  "questionFrontendId": "309",
+  "titleSlug": "best-time-to-buy-and-sell-stock-with-cooldown",
+  "title": "Best Time to Buy and Sell Stock with Cooldown",
+  "translatedTitle": "买卖股票的最佳时机含冷冻期",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+  "createdAt": "2026-08-11T16:45:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

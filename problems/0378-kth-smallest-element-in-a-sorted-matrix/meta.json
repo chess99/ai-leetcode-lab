@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 378,
+  "questionId": "378",
+  "questionFrontendId": "378",
+  "titleSlug": "kth-smallest-element-in-a-sorted-matrix",
+  "title": "Kth Smallest Element in a Sorted Matrix",
+  "translatedTitle": "有序矩阵中第 K 小的元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/",
+  "createdAt": "2026-08-11T16:50:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

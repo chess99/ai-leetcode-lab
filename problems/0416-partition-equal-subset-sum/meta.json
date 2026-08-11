@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 416,
+  "questionId": "416",
+  "questionFrontendId": "416",
+  "titleSlug": "partition-equal-subset-sum",
+  "title": "Partition Equal Subset Sum",
+  "translatedTitle": "分割等和子集",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-equal-subset-sum/",
+  "createdAt": "2026-08-11T16:53:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

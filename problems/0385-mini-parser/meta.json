@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 385,
+  "questionId": "385",
+  "questionFrontendId": "385",
+  "titleSlug": "mini-parser",
+  "title": "Mini Parser",
+  "translatedTitle": "迷你语法分析器",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/mini-parser/",
+  "createdAt": "2026-08-11T16:50:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

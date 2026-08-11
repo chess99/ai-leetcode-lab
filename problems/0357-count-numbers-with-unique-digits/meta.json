@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 357,
+  "questionId": "357",
+  "questionFrontendId": "357",
+  "titleSlug": "count-numbers-with-unique-digits",
+  "title": "Count Numbers with Unique Digits",
+  "translatedTitle": "统计各位数字都不同的数字个数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-numbers-with-unique-digits/",
+  "createdAt": "2026-08-11T16:47:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

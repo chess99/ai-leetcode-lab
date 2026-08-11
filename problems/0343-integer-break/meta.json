@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 343,
+  "questionId": "343",
+  "questionFrontendId": "343",
+  "titleSlug": "integer-break",
+  "title": "Integer Break",
+  "translatedTitle": "整数拆分",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/integer-break/",
+  "createdAt": "2026-08-11T16:47:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

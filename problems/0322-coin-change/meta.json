@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 322,
+  "questionId": "322",
+  "questionFrontendId": "322",
+  "titleSlug": "coin-change",
+  "title": "Coin Change",
+  "translatedTitle": "零钱兑换",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/coin-change/",
+  "createdAt": "2026-08-11T16:47:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

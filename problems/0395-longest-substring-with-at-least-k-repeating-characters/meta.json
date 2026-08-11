@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 395,
+  "questionId": "395",
+  "questionFrontendId": "395",
+  "titleSlug": "longest-substring-with-at-least-k-repeating-characters",
+  "title": "Longest Substring with At Least K Repeating Characters",
+  "translatedTitle": "至少有 K 个重复字符的最长子串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/",
+  "createdAt": "2026-08-11T16:52:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

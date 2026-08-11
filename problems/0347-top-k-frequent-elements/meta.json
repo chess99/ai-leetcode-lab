@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 347,
+  "questionId": "347",
+  "questionFrontendId": "347",
+  "titleSlug": "top-k-frequent-elements",
+  "title": "Top K Frequent Elements",
+  "translatedTitle": "前 K 个高频元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/top-k-frequent-elements/",
+  "createdAt": "2026-08-11T16:47:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

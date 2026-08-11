@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 241,
+  "questionId": "241",
+  "questionFrontendId": "241",
+  "titleSlug": "different-ways-to-add-parentheses",
+  "title": "Different Ways to Add Parentheses",
+  "translatedTitle": "为运算表达式设计优先级",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/different-ways-to-add-parentheses/",
+  "createdAt": "2026-08-11T16:44:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 313,
+  "questionId": "313",
+  "questionFrontendId": "313",
+  "titleSlug": "super-ugly-number",
+  "title": "Super Ugly Number",
+  "translatedTitle": "超级丑数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/super-ugly-number/",
+  "createdAt": "2026-08-11T16:47:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

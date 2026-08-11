@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 406,
+  "questionId": "406",
+  "questionFrontendId": "406",
+  "titleSlug": "queue-reconstruction-by-height",
+  "title": "Queue Reconstruction by Height",
+  "translatedTitle": "根据身高重建队列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/queue-reconstruction-by-height/",
+  "createdAt": "2026-08-11T16:53:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

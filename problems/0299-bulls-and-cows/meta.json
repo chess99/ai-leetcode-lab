@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 299,
+  "questionId": "299",
+  "questionFrontendId": "299",
+  "titleSlug": "bulls-and-cows",
+  "title": "Bulls and Cows",
+  "translatedTitle": "猜数字游戏",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/bulls-and-cows/",
+  "createdAt": "2026-08-11T16:44:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

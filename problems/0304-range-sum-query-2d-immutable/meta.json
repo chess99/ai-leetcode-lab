@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 304,
+  "questionId": "304",
+  "questionFrontendId": "304",
+  "titleSlug": "range-sum-query-2d-immutable",
+  "title": "Range Sum Query 2D - Immutable",
+  "translatedTitle": "二维区域和检索 - 矩阵不可变",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/range-sum-query-2d-immutable/",
+  "createdAt": "2026-08-11T16:45:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

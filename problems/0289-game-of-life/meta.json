@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 289,
+  "questionId": "289",
+  "questionFrontendId": "289",
+  "titleSlug": "game-of-life",
+  "title": "Game of Life",
+  "translatedTitle": "生命游戏",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/game-of-life/",
+  "createdAt": "2026-08-11T16:44:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

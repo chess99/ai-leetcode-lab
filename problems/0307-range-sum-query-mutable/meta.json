@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 307,
+  "questionId": "307",
+  "questionFrontendId": "307",
+  "titleSlug": "range-sum-query-mutable",
+  "title": "Range Sum Query - Mutable",
+  "translatedTitle": "区域和检索 - 数组可修改",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/range-sum-query-mutable/",
+  "createdAt": "2026-08-11T16:45:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 274,
+  "questionId": "274",
+  "questionFrontendId": "274",
+  "titleSlug": "h-index",
+  "title": "H-Index",
+  "translatedTitle": "H 指数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/h-index/",
+  "createdAt": "2026-08-11T16:44:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

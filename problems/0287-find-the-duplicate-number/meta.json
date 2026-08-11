@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 287,
+  "questionId": "287",
+  "questionFrontendId": "287",
+  "titleSlug": "find-the-duplicate-number",
+  "title": "Find the Duplicate Number",
+  "translatedTitle": "寻找重复数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-duplicate-number/",
+  "createdAt": "2026-08-11T16:44:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

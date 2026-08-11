@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 419,
+  "questionId": "419",
+  "questionFrontendId": "419",
+  "titleSlug": "battleships-in-a-board",
+  "title": "Battleships in a Board",
+  "translatedTitle": "棋盘上的战舰",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/battleships-in-a-board/",
+  "createdAt": "2026-08-11T16:53:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 402,
+  "questionId": "402",
+  "questionFrontendId": "402",
+  "titleSlug": "remove-k-digits",
+  "title": "Remove K Digits",
+  "translatedTitle": "移掉 K 位数字",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-k-digits/",
+  "createdAt": "2026-08-11T16:52:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

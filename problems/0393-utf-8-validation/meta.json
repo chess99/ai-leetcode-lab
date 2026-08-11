@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 393,
+  "questionId": "393",
+  "questionFrontendId": "393",
+  "titleSlug": "utf-8-validation",
+  "title": "UTF-8 Validation",
+  "translatedTitle": "UTF-8 编码验证",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/utf-8-validation/",
+  "createdAt": "2026-08-11T16:52:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

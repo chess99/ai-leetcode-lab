@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 417,
+  "questionId": "417",
+  "questionFrontendId": "417",
+  "titleSlug": "pacific-atlantic-water-flow",
+  "title": "Pacific Atlantic Water Flow",
+  "translatedTitle": "太平洋大西洋水流问题",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/pacific-atlantic-water-flow/",
+  "createdAt": "2026-08-11T16:53:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

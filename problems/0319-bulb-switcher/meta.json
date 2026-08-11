@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 319,
+  "questionId": "319",
+  "questionFrontendId": "319",
+  "titleSlug": "bulb-switcher",
+  "title": "Bulb Switcher",
+  "translatedTitle": "灯泡开关",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/bulb-switcher/",
+  "createdAt": "2026-08-11T16:47:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

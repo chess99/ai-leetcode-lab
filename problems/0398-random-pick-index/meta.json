@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 398,
+  "questionId": "398",
+  "questionFrontendId": "398",
+  "titleSlug": "random-pick-index",
+  "title": "Random Pick Index",
+  "translatedTitle": "随机数索引",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/random-pick-index/",
+  "createdAt": "2026-08-11T16:52:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
