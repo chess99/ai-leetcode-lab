@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3176,
+  "questionId": "3176",
+  "questionFrontendId": "2908",
+  "titleSlug": "minimum-sum-of-mountain-triplets-i",
+  "title": "Minimum Sum of Mountain Triplets I",
+  "translatedTitle": "元素和最小的山形三元组 I",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-sum-of-mountain-triplets-i/",
+  "createdAt": "2026-08-11T14:31:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

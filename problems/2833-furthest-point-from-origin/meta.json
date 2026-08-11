@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3019,
+  "questionId": "3019",
+  "questionFrontendId": "2833",
+  "titleSlug": "furthest-point-from-origin",
+  "title": "Furthest Point From Origin",
+  "translatedTitle": "距离原点最远的点",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/furthest-point-from-origin/",
+  "createdAt": "2026-08-11T14:25:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

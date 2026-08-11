@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2917,
+  "questionId": "2917",
+  "questionFrontendId": "2824",
+  "titleSlug": "count-pairs-whose-sum-is-less-than-target",
+  "title": "Count Pairs Whose Sum is Less than Target",
+  "translatedTitle": "统计和小于目标的下标对数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/",
+  "createdAt": "2026-08-11T14:25:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3070,
+  "questionId": "3070",
+  "questionFrontendId": "2887",
+  "titleSlug": "fill-missing-data",
+  "title": "Fill Missing Data",
+  "translatedTitle": "填充缺失值",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "pythondata",
+  "solutionFile": "solution.pythondata",
+  "source": "https://leetcode.cn/problems/fill-missing-data/",
+  "createdAt": "2026-08-11T14:28:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

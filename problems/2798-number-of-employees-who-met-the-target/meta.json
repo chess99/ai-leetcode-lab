@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2876,
+  "questionId": "2876",
+  "questionFrontendId": "2798",
+  "titleSlug": "number-of-employees-who-met-the-target",
+  "title": "Number of Employees Who Met the Target",
+  "translatedTitle": "满足目标工作时长的员工数目",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-employees-who-met-the-target/",
+  "createdAt": "2026-08-11T14:24:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

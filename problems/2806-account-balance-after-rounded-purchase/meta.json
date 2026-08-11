@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2955,
+  "questionId": "2955",
+  "questionFrontendId": "2806",
+  "titleSlug": "account-balance-after-rounded-purchase",
+  "title": "Account Balance After Rounded Purchase",
+  "translatedTitle": "取整购买后的账户余额",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/account-balance-after-rounded-purchase/",
+  "createdAt": "2026-08-11T14:25:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

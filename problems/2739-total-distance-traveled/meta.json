@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2857,
+  "questionId": "2857",
+  "questionFrontendId": "2739",
+  "titleSlug": "total-distance-traveled",
+  "title": "Total Distance Traveled",
+  "translatedTitle": "总行驶距离",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/total-distance-traveled/",
+  "createdAt": "2026-08-11T14:22:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

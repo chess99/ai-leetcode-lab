@@ -1,0 +1,12 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T14:27:50Z
+# Experiment: ai-leetcode-lab, round 1
+import pandas as pd
+
+def createBonusColumn(employees: pd.DataFrame) -> pd.DataFrame:
+    employees["bonus"] = employees["salary"] * 2
+    return employees

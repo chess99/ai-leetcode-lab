@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3093,
+  "questionId": "3093",
+  "questionFrontendId": "2859",
+  "titleSlug": "sum-of-values-at-indices-with-k-set-bits",
+  "title": "Sum of Values at Indices With K Set Bits",
+  "translatedTitle": "计算 K 置位下标对应元素的和",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-values-at-indices-with-k-set-bits/",
+  "createdAt": "2026-08-11T14:30:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

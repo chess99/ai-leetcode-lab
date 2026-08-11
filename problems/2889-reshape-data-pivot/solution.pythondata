@@ -1,0 +1,11 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T14:28:07Z
+# Experiment: ai-leetcode-lab, round 1
+import pandas as pd
+
+def pivotTable(weather: pd.DataFrame) -> pd.DataFrame:
+    return weather.pivot(index='month', columns='city', values='temperature')

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2860,
+  "questionId": "2860",
+  "questionFrontendId": "2724",
+  "titleSlug": "sort-by",
+  "title": "Sort By",
+  "translatedTitle": "排序方式",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/sort-by/",
+  "createdAt": "2026-08-11T14:22:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

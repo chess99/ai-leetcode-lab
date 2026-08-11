@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3045,
+  "questionId": "3045",
+  "questionFrontendId": "2855",
+  "titleSlug": "minimum-right-shifts-to-sort-the-array",
+  "title": "Minimum Right Shifts to Sort the Array",
+  "translatedTitle": "使数组成为递增数组的最少右移次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-right-shifts-to-sort-the-array/",
+  "createdAt": "2026-08-11T14:25:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

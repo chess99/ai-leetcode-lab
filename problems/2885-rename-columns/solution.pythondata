@@ -1,0 +1,11 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T14:28:08Z
+# Experiment: ai-leetcode-lab, round 1
+import pandas as pd
+
+def renameColumns(students: pd.DataFrame) -> pd.DataFrame:
+    return students.rename(columns={'id': 'student_id', 'name': 'first_name'})

@@ -1,0 +1,13 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T14:25:10Z
+# Experiment: ai-leetcode-lab, round 1
+class Solution:
+    def minOperations(self, nums: List[int], k: int) -> int:
+        needed=set(range(1,k+1))
+        for count,value in enumerate(reversed(nums),1):
+            needed.discard(value)
+            if not needed:return count

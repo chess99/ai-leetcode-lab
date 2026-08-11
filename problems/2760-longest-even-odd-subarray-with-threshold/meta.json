@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2866,
+  "questionId": "2866",
+  "questionFrontendId": "2760",
+  "titleSlug": "longest-even-odd-subarray-with-threshold",
+  "title": "Longest Even Odd Subarray With Threshold",
+  "translatedTitle": "最长奇偶子数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-even-odd-subarray-with-threshold/",
+  "createdAt": "2026-08-11T14:22:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

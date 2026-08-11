@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2864,
+  "questionId": "2864",
+  "questionFrontendId": "2727",
+  "titleSlug": "is-object-empty",
+  "title": "Is Object Empty",
+  "translatedTitle": "判断对象是否为空",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/is-object-empty/",
+  "createdAt": "2026-08-11T14:22:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

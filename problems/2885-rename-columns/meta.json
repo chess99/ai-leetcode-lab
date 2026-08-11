@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3068,
+  "questionId": "3068",
+  "questionFrontendId": "2885",
+  "titleSlug": "rename-columns",
+  "title": "Rename Columns",
+  "translatedTitle": "重命名列",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "pythondata",
+  "solutionFile": "solution.pythondata",
+  "source": "https://leetcode.cn/problems/rename-columns/",
+  "createdAt": "2026-08-11T14:28:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

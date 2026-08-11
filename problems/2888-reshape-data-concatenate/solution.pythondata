@@ -1,0 +1,11 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T14:27:49Z
+# Experiment: ai-leetcode-lab, round 1
+import pandas as pd
+
+def concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
+    return pd.concat([df1, df2], ignore_index=True)

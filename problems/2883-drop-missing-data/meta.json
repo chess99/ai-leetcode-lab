@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3075,
+  "questionId": "3075",
+  "questionFrontendId": "2883",
+  "titleSlug": "drop-missing-data",
+  "title": "Drop Missing Data",
+  "translatedTitle": "删去丢失的数据",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "pythondata",
+  "solutionFile": "solution.pythondata",
+  "source": "https://leetcode.cn/problems/drop-missing-data/",
+  "createdAt": "2026-08-11T14:28:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

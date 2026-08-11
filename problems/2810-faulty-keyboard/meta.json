@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2886,
+  "questionId": "2886",
+  "questionFrontendId": "2810",
+  "titleSlug": "faulty-keyboard",
+  "title": "Faulty Keyboard",
+  "translatedTitle": "故障键盘",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/faulty-keyboard/",
+  "createdAt": "2026-08-11T14:24:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

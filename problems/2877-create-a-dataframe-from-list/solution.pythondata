@@ -1,0 +1,12 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-11T14:27:49Z
+# Experiment: ai-leetcode-lab, round 1
+import pandas as pd
+from typing import List
+
+def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:
+    return pd.DataFrame(student_data, columns=["student_id", "age"])

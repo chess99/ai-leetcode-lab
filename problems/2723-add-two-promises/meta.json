@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2859,
+  "questionId": "2859",
+  "questionFrontendId": "2723",
+  "titleSlug": "add-two-promises",
+  "title": "Add Two Promises",
+  "translatedTitle": "两个 Promise 对象相加",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "javascript",
+  "solutionFile": "solution.js",
+  "source": "https://leetcode.cn/problems/add-two-promises/",
+  "createdAt": "2026-08-11T14:22:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

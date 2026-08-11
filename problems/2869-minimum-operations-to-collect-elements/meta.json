@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3044,
+  "questionId": "3044",
+  "questionFrontendId": "2869",
+  "titleSlug": "minimum-operations-to-collect-elements",
+  "title": "Minimum Operations to Collect Elements",
+  "translatedTitle": "收集元素的最少操作次数",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-collect-elements/",
+  "createdAt": "2026-08-11T14:25:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

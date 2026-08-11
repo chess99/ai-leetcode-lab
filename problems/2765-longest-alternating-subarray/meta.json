@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2870,
+  "questionId": "2870",
+  "questionFrontendId": "2765",
+  "titleSlug": "longest-alternating-subarray",
+  "title": "Longest Alternating Subarray",
+  "translatedTitle": "最长交替子数组",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-alternating-subarray/",
+  "createdAt": "2026-08-11T14:22:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

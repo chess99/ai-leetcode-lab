@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3206,
+  "questionId": "3206",
+  "questionFrontendId": "2956",
+  "titleSlug": "find-common-elements-between-two-arrays",
+  "title": "Find Common Elements Between Two Arrays",
+  "translatedTitle": "找到两个数组中的公共元素",
+  "difficulty": "EASY",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-common-elements-between-two-arrays/",
+  "createdAt": "2026-08-11T14:31:19Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
