@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-12T15:53:21Z",
+  "generatedAt": "2026-08-12T16:36:19Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -9,7 +9,7 @@
   "archivedDetails": 4406,
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
-  "started": 3345,
+  "started": 3405,
   "accepted": 971,
   "deferredProblems": 1,
   "deferredProfileAssignments": 1,
@@ -7176,7 +7176,7 @@
       "cohort": "terra-control",
       "stage": 1,
       "enabled": true,
-      "started": 3344,
+      "started": 3404,
       "accepted": 970,
       "deferred": 1,
       "reviewRequired": 0,
@@ -7184,8 +7184,8 @@
       "submissions": 999,
       "failedSubmissions": 29,
       "firstSubmissionAccepted": 951,
-      "remoteElapsedReports": 1122,
-      "remoteElapsedSeconds": 4133.784,
+      "remoteElapsedReports": 1124,
+      "remoteElapsedSeconds": 4142.565,
       "averageSolveWallSeconds": 4066.637113402062,
       "medianSolveWallSeconds": 689.0,
       "byDifficulty": {
@@ -7195,7 +7195,7 @@
           "deferred": 1
         },
         "HARD": {
-          "started": 560,
+          "started": 620,
           "accepted": 484,
           "deferred": 0
         },
@@ -7239,7 +7239,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 3345,
+    "startedProfileAssignments": 3405,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"
