@@ -7,11 +7,11 @@
 
 ## 思路
 
-以 Signups 为主表左连接 Confirmations，MySQL 将布尔表达式转为 0/1，对 confirmed 条件取平均并四舍五入两位。
+以 Signups 为主表左连接 Confirmations，MySQL 将布尔表达式转为 0/1，对 confirmed 条件取平均并四舍五入两位。没有确认记录时 `AVG` 为 `NULL`，用 `COALESCE` 转为 0。
 
 ## 正确性
 
-左连接保留无确认记录用户，AVG 的空值按题意输出 0；有记录时布尔平均正是确认比例。
+左连接保留无确认记录用户，`COALESCE` 将 `AVG` 的空值按题意输出 0；有记录时布尔平均正是确认比例。
 
 ## 复杂度
 

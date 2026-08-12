@@ -6,6 +6,8 @@
 - Profile：terra-medium
 - 轮次：1
 
+## 思路
+
 ## 算法
 
 升序处理元素，维护已构造合法序列的最后值 `current`。下一个位置最大可取值既不能超过原值（只能减小），也不能超过 `current + 1`（相邻差限制），所以更新为 `min(value, current + 1)`。处理完后 `current` 即最大元素。

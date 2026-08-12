@@ -8,12 +8,11 @@
 from typing import List
 class Solution:
     def minSpaceWastedKResizing(self, nums: List[int], k: int) -> int:
-        n=len(nums);dp=[float('inf')]*n
-        for end in range(n):
-            maximum=total=0
-            for start in range(end,-1,-1):
-                maximum=max(maximum,nums[start]);total+=nums[start]
-                dp[end]=min(dp[end],maximum*(end-start+1)-total)
+        n=len(nums);dp=[0]*n
+        maximum=total=0
+        for end,value in enumerate(nums):
+            maximum=max(maximum,value);total+=value
+            dp[end]=maximum*(end+1)-total
         for _ in range(k):
             next_dp=dp[:]
             for end in range(n):

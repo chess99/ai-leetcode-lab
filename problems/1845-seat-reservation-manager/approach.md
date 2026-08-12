@@ -6,6 +6,8 @@
 - Profile：terra-medium
 - 轮次：1
 
+## 思路
+
 ## 算法
 
 将所有可预约座位号置入最小堆。`reserve` 弹出堆顶，天然得到最小可用座位；`unreserve` 将释放的座位号重新压入堆。

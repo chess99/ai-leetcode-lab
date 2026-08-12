@@ -9,5 +9,9 @@ from typing import List
 class Solution:
     def minimizeTheDifference(self, mat: List[List[int]], target: int) -> int:
         sums={0}
-        for row in mat:sums={total+value for total in sums for value in row if total+value<=target+70}
+        for row in mat:
+            candidates={total+value for total in sums for value in row}
+            sums={total for total in candidates if total<=target}
+            above=[total for total in candidates if total>target]
+            if above:sums.add(min(above))
         return min(abs(total-target) for total in sums)
