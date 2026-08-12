@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1043,
+  "questionId": "1043",
+  "questionFrontendId": "1001",
+  "titleSlug": "grid-illumination",
+  "title": "Grid Illumination",
+  "translatedTitle": "网格照明",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/grid-illumination/",
+  "createdAt": "2026-08-12T06:20:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

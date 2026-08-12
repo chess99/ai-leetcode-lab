@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 963,
+  "questionId": "963",
+  "questionFrontendId": "927",
+  "titleSlug": "three-equal-parts",
+  "title": "Three Equal Parts",
+  "translatedTitle": "三等分",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/three-equal-parts/",
+  "createdAt": "2026-08-12T06:20:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

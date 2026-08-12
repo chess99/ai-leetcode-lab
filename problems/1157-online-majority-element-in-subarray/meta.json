@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1262,
+  "questionId": "1262",
+  "questionFrontendId": "1157",
+  "titleSlug": "online-majority-element-in-subarray",
+  "title": "Online Majority Element In Subarray",
+  "translatedTitle": "子数组中占绝大多数的元素",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/online-majority-element-in-subarray/",
+  "createdAt": "2026-08-12T06:20:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

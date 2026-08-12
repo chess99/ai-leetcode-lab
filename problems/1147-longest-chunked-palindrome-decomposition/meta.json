@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1251,
+  "questionId": "1251",
+  "questionFrontendId": "1147",
+  "titleSlug": "longest-chunked-palindrome-decomposition",
+  "title": "Longest Chunked Palindrome Decomposition",
+  "translatedTitle": "段式回文",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/",
+  "createdAt": "2026-08-12T06:20:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

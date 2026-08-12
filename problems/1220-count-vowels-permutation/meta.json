@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1332,
+  "questionId": "1332",
+  "questionFrontendId": "1220",
+  "titleSlug": "count-vowels-permutation",
+  "title": "Count Vowels Permutation",
+  "translatedTitle": "统计元音字母序列的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-vowels-permutation/",
+  "createdAt": "2026-08-12T06:20:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

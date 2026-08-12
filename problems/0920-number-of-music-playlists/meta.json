@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 956,
+  "questionId": "956",
+  "questionFrontendId": "920",
+  "titleSlug": "number-of-music-playlists",
+  "title": "Number of Music Playlists",
+  "translatedTitle": "播放列表的数量",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-music-playlists/",
+  "createdAt": "2026-08-12T06:20:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

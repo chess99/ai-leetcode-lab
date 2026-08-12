@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 980,
+  "questionId": "980",
+  "questionFrontendId": "943",
+  "titleSlug": "find-the-shortest-superstring",
+  "title": "Find the Shortest Superstring",
+  "translatedTitle": "最短超级串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-shortest-superstring/",
+  "createdAt": "2026-08-12T06:20:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

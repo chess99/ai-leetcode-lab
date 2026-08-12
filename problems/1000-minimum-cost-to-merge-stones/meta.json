@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1042,
+  "questionId": "1042",
+  "questionFrontendId": "1000",
+  "titleSlug": "minimum-cost-to-merge-stones",
+  "title": "Minimum Cost to Merge Stones",
+  "translatedTitle": "合并石头的最低成本",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-merge-stones/",
+  "createdAt": "2026-08-12T06:20:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

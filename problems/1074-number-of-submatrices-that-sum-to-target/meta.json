@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1145,
+  "questionId": "1145",
+  "questionFrontendId": "1074",
+  "titleSlug": "number-of-submatrices-that-sum-to-target",
+  "title": "Number of Submatrices That Sum to Target",
+  "translatedTitle": "元素和为目标值的子矩阵数量",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target/",
+  "createdAt": "2026-08-12T06:20:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1322,
+  "questionId": "1322",
+  "questionFrontendId": "1210",
+  "titleSlug": "minimum-moves-to-reach-target-with-rotations",
+  "title": "Minimum Moves to Reach Target with Rotations",
+  "translatedTitle": "穿过迷宫的最少移动次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/",
+  "createdAt": "2026-08-12T06:20:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

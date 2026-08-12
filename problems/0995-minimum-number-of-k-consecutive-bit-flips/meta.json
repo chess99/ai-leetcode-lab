@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1037,
+  "questionId": "1037",
+  "questionFrontendId": "995",
+  "titleSlug": "minimum-number-of-k-consecutive-bit-flips",
+  "title": "Minimum Number of K Consecutive Bit Flips",
+  "translatedTitle": "K 连续位的最小翻转次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips/",
+  "createdAt": "2026-08-12T06:20:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

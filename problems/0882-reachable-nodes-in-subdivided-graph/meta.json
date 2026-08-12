@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 918,
+  "questionId": "918",
+  "questionFrontendId": "882",
+  "titleSlug": "reachable-nodes-in-subdivided-graph",
+  "title": "Reachable Nodes In Subdivided Graph",
+  "translatedTitle": "细分图中的可到达节点",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/",
+  "createdAt": "2026-08-12T06:20:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 993,
+  "questionId": "993",
+  "questionFrontendId": "956",
+  "titleSlug": "tallest-billboard",
+  "title": "Tallest Billboard",
+  "translatedTitle": "最高的广告牌",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/tallest-billboard/",
+  "createdAt": "2026-08-12T06:20:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

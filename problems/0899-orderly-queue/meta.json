@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 935,
+  "questionId": "935",
+  "questionFrontendId": "899",
+  "titleSlug": "orderly-queue",
+  "title": "Orderly Queue",
+  "translatedTitle": "有序队列",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/orderly-queue/",
+  "createdAt": "2026-08-12T06:20:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

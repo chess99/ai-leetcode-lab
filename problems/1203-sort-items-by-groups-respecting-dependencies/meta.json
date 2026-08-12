@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1309,
+  "questionId": "1309",
+  "questionFrontendId": "1203",
+  "titleSlug": "sort-items-by-groups-respecting-dependencies",
+  "title": "Sort Items by Groups Respecting Dependencies",
+  "translatedTitle": "项目管理",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sort-items-by-groups-respecting-dependencies/",
+  "createdAt": "2026-08-12T06:20:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

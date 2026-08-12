@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1012,
+  "questionId": "1012",
+  "questionFrontendId": "972",
+  "titleSlug": "equal-rational-numbers",
+  "title": "Equal Rational Numbers",
+  "translatedTitle": "相等的有理数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/equal-rational-numbers/",
+  "createdAt": "2026-08-12T06:20:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

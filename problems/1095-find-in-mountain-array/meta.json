@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1185,
+  "questionId": "1185",
+  "questionFrontendId": "1095",
+  "titleSlug": "find-in-mountain-array",
+  "title": "Find in Mountain Array",
+  "translatedTitle": "山脉数组中查找目标值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-in-mountain-array/",
+  "createdAt": "2026-08-12T06:20:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

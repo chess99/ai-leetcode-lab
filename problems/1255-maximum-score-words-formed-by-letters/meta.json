@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1381,
+  "questionId": "1381",
+  "questionFrontendId": "1255",
+  "titleSlug": "maximum-score-words-formed-by-letters",
+  "title": "Maximum Score Words Formed by Letters",
+  "translatedTitle": "得分最高的单词集合",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-score-words-formed-by-letters/",
+  "createdAt": "2026-08-12T06:20:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1017,
+  "questionId": "1017",
+  "questionFrontendId": "975",
+  "titleSlug": "odd-even-jump",
+  "title": "Odd Even Jump",
+  "translatedTitle": "奇偶跳",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/odd-even-jump/",
+  "createdAt": "2026-08-12T06:20:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

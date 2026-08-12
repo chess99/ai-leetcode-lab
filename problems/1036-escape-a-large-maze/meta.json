@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1106,
+  "questionId": "1106",
+  "questionFrontendId": "1036",
+  "titleSlug": "escape-a-large-maze",
+  "title": "Escape a Large Maze",
+  "translatedTitle": "逃离大迷宫",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/escape-a-large-maze/",
+  "createdAt": "2026-08-12T06:20:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

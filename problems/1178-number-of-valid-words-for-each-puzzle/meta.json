@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1282,
+  "questionId": "1282",
+  "questionFrontendId": "1178",
+  "titleSlug": "number-of-valid-words-for-each-puzzle",
+  "title": "Number of Valid Words for Each Puzzle",
+  "translatedTitle": "猜字谜",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-valid-words-for-each-puzzle/",
+  "createdAt": "2026-08-12T06:20:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

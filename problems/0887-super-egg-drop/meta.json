@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 923,
+  "questionId": "923",
+  "questionFrontendId": "887",
+  "titleSlug": "super-egg-drop",
+  "title": "Super Egg Drop",
+  "translatedTitle": "鸡蛋掉落",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/super-egg-drop/",
+  "createdAt": "2026-08-12T06:20:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

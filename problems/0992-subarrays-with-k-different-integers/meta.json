@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1034,
+  "questionId": "1034",
+  "questionFrontendId": "992",
+  "titleSlug": "subarrays-with-k-different-integers",
+  "title": "Subarrays with K Different Integers",
+  "translatedTitle": "K 个不同整数的子数组",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/subarrays-with-k-different-integers/",
+  "createdAt": "2026-08-12T06:20:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

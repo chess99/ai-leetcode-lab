@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1300,
+  "questionId": "1300",
+  "questionFrontendId": "1192",
+  "titleSlug": "critical-connections-in-a-network",
+  "title": "Critical Connections in a Network",
+  "translatedTitle": "查找集群内的关键连接",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/critical-connections-in-a-network/",
+  "createdAt": "2026-08-12T06:20:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

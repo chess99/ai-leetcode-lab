@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1024,
+  "questionId": "1024",
+  "questionFrontendId": "982",
+  "titleSlug": "triples-with-bitwise-and-equal-to-zero",
+  "title": "Triples with Bitwise AND Equal To Zero",
+  "translatedTitle": "按位与为零的三元组",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/triples-with-bitwise-and-equal-to-zero/",
+  "createdAt": "2026-08-12T06:20:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
