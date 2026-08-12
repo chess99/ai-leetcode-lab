@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2200,
+  "questionId": "2200",
+  "questionFrontendId": "2132",
+  "titleSlug": "stamping-the-grid",
+  "title": "Stamping the Grid",
+  "translatedTitle": "用邮票贴满网格图",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/stamping-the-grid/",
+  "createdAt": "2026-08-12T12:52:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

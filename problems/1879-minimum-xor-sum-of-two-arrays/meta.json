@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1989,
+  "questionId": "1989",
+  "questionFrontendId": "1879",
+  "titleSlug": "minimum-xor-sum-of-two-arrays",
+  "title": "Minimum XOR Sum of Two Arrays",
+  "translatedTitle": "两个数组最小的异或值之和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-xor-sum-of-two-arrays/",
+  "createdAt": "2026-08-12T12:51:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2263,
+  "questionId": "2263",
+  "questionFrontendId": "2141",
+  "titleSlug": "maximum-running-time-of-n-computers",
+  "title": "Maximum Running Time of N Computers",
+  "translatedTitle": "同时运行 N 台电脑的最长时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-running-time-of-n-computers/",
+  "createdAt": "2026-08-12T12:52:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

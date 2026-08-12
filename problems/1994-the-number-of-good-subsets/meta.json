@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2105,
+  "questionId": "2105",
+  "questionFrontendId": "1994",
+  "titleSlug": "the-number-of-good-subsets",
+  "title": "The Number of Good Subsets",
+  "translatedTitle": "好子集的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/the-number-of-good-subsets/",
+  "createdAt": "2026-08-12T12:52:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

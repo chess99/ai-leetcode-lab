@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2013,
+  "questionId": "2013",
+  "questionFrontendId": "1883",
+  "titleSlug": "minimum-skips-to-arrive-at-meeting-on-time",
+  "title": "Minimum Skips to Arrive at Meeting On Time",
+  "translatedTitle": "准时抵达会议现场的最小跳过休息次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-skips-to-arrive-at-meeting-on-time/",
+  "createdAt": "2026-08-12T12:51:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

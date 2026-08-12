@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2140,
+  "questionId": "2140",
+  "questionFrontendId": "2014",
+  "titleSlug": "longest-subsequence-repeated-k-times",
+  "title": "Longest Subsequence Repeated k Times",
+  "translatedTitle": "重复 K 次的最长子序列",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-subsequence-repeated-k-times/",
+  "createdAt": "2026-08-12T12:52:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2286,
+  "questionId": "2286",
+  "questionFrontendId": "2167",
+  "titleSlug": "minimum-time-to-remove-all-cars-containing-illegal-goods",
+  "title": "Minimum Time to Remove All Cars Containing Illegal Goods",
+  "translatedTitle": "移除所有载有违禁货物车厢所需的最少时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/",
+  "createdAt": "2026-08-12T12:52:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

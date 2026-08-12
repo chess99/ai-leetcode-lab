@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2246,
+  "questionId": "2246",
+  "questionFrontendId": "2127",
+  "titleSlug": "maximum-employees-to-be-invited-to-a-meeting",
+  "title": "Maximum Employees to Be Invited to a Meeting",
+  "translatedTitle": "参加会议的最多员工数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting/",
+  "createdAt": "2026-08-12T12:52:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

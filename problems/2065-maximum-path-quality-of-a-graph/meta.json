@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2189,
+  "questionId": "2189",
+  "questionFrontendId": "2065",
+  "titleSlug": "maximum-path-quality-of-a-graph",
+  "title": "Maximum Path Quality of a Graph",
+  "translatedTitle": "最大化一张图中的路径价值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-path-quality-of-a-graph/",
+  "createdAt": "2026-08-12T12:52:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2051,
+  "questionId": "2051",
+  "questionFrontendId": "1923",
+  "titleSlug": "longest-common-subpath",
+  "title": "Longest Common Subpath",
+  "translatedTitle": "最长公共子路径",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-common-subpath/",
+  "createdAt": "2026-08-12T12:52:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

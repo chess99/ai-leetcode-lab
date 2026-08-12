@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2213,
+  "questionId": "2213",
+  "questionFrontendId": "2092",
+  "titleSlug": "find-all-people-with-secret",
+  "title": "Find All People With Secret",
+  "translatedTitle": "找出知晓秘密的所有专家",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-all-people-with-secret/",
+  "createdAt": "2026-08-12T12:52:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

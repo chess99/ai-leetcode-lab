@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2096,
+  "questionId": "2096",
+  "questionFrontendId": "1964",
+  "titleSlug": "find-the-longest-valid-obstacle-course-at-each-position",
+  "title": "Find the Longest Valid Obstacle Course at Each Position",
+  "translatedTitle": "找出到每个位置为止最长的有效障碍赛跑路线",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-longest-valid-obstacle-course-at-each-position/",
+  "createdAt": "2026-08-12T12:52:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

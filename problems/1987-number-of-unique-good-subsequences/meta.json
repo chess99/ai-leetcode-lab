@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2115,
+  "questionId": "2115",
+  "questionFrontendId": "1987",
+  "titleSlug": "number-of-unique-good-subsequences",
+  "title": "Number of Unique Good Subsequences",
+  "translatedTitle": "不同的好子序列数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-unique-good-subsequences/",
+  "createdAt": "2026-08-12T12:52:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

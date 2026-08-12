@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2184,
+  "questionId": "2184",
+  "questionFrontendId": "2060",
+  "titleSlug": "check-if-an-original-string-exists-given-two-encoded-strings",
+  "title": "Check if an Original String Exists Given Two Encoded Strings",
+  "translatedTitle": "同源字符串检测",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-an-original-string-exists-given-two-encoded-strings/",
+  "createdAt": "2026-08-12T12:52:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2267,
+  "questionId": "2267",
+  "questionFrontendId": "2163",
+  "titleSlug": "minimum-difference-in-sums-after-removal-of-elements",
+  "title": "Minimum Difference in Sums After Removal of Elements",
+  "translatedTitle": "删除元素后和的最小差值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-difference-in-sums-after-removal-of-elements/",
+  "createdAt": "2026-08-12T12:52:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

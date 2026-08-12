@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2135,
+  "questionId": "2135",
+  "questionFrontendId": "2025",
+  "titleSlug": "maximum-number-of-ways-to-partition-an-array",
+  "title": "Maximum Number of Ways to Partition an Array",
+  "translatedTitle": "分割数组的最多方案数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-ways-to-partition-an-array/",
+  "createdAt": "2026-08-12T12:52:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

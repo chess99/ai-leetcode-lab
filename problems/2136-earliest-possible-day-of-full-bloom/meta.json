@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2257,
+  "questionId": "2257",
+  "questionFrontendId": "2136",
+  "titleSlug": "earliest-possible-day-of-full-bloom",
+  "title": "Earliest Possible Day of Full Bloom",
+  "translatedTitle": "全部开花的最早一天",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/earliest-possible-day-of-full-bloom/",
+  "createdAt": "2026-08-12T12:52:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

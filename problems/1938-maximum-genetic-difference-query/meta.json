@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2068,
+  "questionId": "2068",
+  "questionFrontendId": "1938",
+  "titleSlug": "maximum-genetic-difference-query",
+  "title": "Maximum Genetic Difference Query",
+  "translatedTitle": "查询最大基因差",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-genetic-difference-query/",
+  "createdAt": "2026-08-12T12:52:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

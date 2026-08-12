@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2251,
+  "questionId": "2251",
+  "questionFrontendId": "2147",
+  "titleSlug": "number-of-ways-to-divide-a-long-corridor",
+  "title": "Number of Ways to Divide a Long Corridor",
+  "translatedTitle": "分隔长廊的方案数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-divide-a-long-corridor/",
+  "createdAt": "2026-08-12T12:52:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

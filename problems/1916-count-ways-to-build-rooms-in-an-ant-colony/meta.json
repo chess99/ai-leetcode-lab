@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1313,
+  "questionId": "1313",
+  "questionFrontendId": "1916",
+  "titleSlug": "count-ways-to-build-rooms-in-an-ant-colony",
+  "title": "Count Ways to Build Rooms in an Ant Colony",
+  "translatedTitle": "统计为蚁群构筑房间的不同顺序",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-ways-to-build-rooms-in-an-ant-colony/",
+  "createdAt": "2026-08-12T12:52:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

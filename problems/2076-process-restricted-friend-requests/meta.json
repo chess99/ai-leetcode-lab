@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2198,
+  "questionId": "2198",
+  "questionFrontendId": "2076",
+  "titleSlug": "process-restricted-friend-requests",
+  "title": "Process Restricted Friend Requests",
+  "translatedTitle": "处理含限制条件的好友请求",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/process-restricted-friend-requests/",
+  "createdAt": "2026-08-12T12:52:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

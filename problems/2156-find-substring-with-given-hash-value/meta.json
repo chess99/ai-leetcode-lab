@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2275,
+  "questionId": "2275",
+  "questionFrontendId": "2156",
+  "titleSlug": "find-substring-with-given-hash-value",
+  "title": "Find Substring With Given Hash Value",
+  "translatedTitle": "查找给定哈希值的子串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-substring-with-given-hash-value/",
+  "createdAt": "2026-08-12T12:52:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2060,
+  "questionId": "2060",
+  "questionFrontendId": "1932",
+  "titleSlug": "merge-bsts-to-create-single-bst",
+  "title": "Merge BSTs to Create Single BST",
+  "translatedTitle": "合并多棵二叉搜索树",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/merge-bsts-to-create-single-bst/",
+  "createdAt": "2026-08-12T12:52:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

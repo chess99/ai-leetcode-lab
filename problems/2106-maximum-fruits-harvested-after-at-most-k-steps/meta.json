@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2229,
+  "questionId": "2229",
+  "questionFrontendId": "2106",
+  "titleSlug": "maximum-fruits-harvested-after-at-most-k-steps",
+  "title": "Maximum Fruits Harvested After at Most K Steps",
+  "translatedTitle": "摘水果",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/",
+  "createdAt": "2026-08-12T12:52:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

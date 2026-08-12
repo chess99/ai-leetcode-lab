@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2091,
+  "questionId": "2091",
+  "questionFrontendId": "1977",
+  "titleSlug": "number-of-ways-to-separate-numbers",
+  "title": "Number of Ways to Separate Numbers",
+  "translatedTitle": "划分数字的方案数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-separate-numbers/",
+  "createdAt": "2026-08-12T12:52:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

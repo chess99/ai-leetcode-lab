@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2086,
+  "questionId": "2086",
+  "questionFrontendId": "1955",
+  "titleSlug": "count-number-of-special-subsequences",
+  "title": "Count Number of Special Subsequences",
+  "translatedTitle": "统计特殊子序列的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-special-subsequences/",
+  "createdAt": "2026-08-12T12:52:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

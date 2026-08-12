@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2131,
+  "questionId": "2131",
+  "questionFrontendId": "2003",
+  "titleSlug": "smallest-missing-genetic-value-in-each-subtree",
+  "title": "Smallest Missing Genetic Value in Each Subtree",
+  "translatedTitle": "每棵子树内缺失的最小基因值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-missing-genetic-value-in-each-subtree/",
+  "createdAt": "2026-08-12T12:52:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

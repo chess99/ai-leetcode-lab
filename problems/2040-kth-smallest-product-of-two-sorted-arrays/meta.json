@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2150,
+  "questionId": "2150",
+  "questionFrontendId": "2040",
+  "titleSlug": "kth-smallest-product-of-two-sorted-arrays",
+  "title": "Kth Smallest Product of Two Sorted Arrays",
+  "translatedTitle": "两个有序数组的第 K 小乘积",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/kth-smallest-product-of-two-sorted-arrays/",
+  "createdAt": "2026-08-12T12:52:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1336,
+  "questionId": "1336",
+  "questionFrontendId": "1960",
+  "titleSlug": "maximum-product-of-the-length-of-two-palindromic-substrings",
+  "title": "Maximum Product of the Length of Two Palindromic Substrings",
+  "translatedTitle": "两个回文子字符串长度的最大乘积",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-substrings/",
+  "createdAt": "2026-08-12T12:52:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

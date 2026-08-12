@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2157,
+  "questionId": "2157",
+  "questionFrontendId": "2030",
+  "titleSlug": "smallest-k-length-subsequence-with-occurrences-of-a-letter",
+  "title": "Smallest K-Length Subsequence With Occurrences of a Letter",
+  "translatedTitle": "含特定字母的最小子序列",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/",
+  "createdAt": "2026-08-12T12:52:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

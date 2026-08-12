@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2162,
+  "questionId": "2162",
+  "questionFrontendId": "2035",
+  "titleSlug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+  "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+  "translatedTitle": "将数组分成两个数组并最小化数组和的差",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-array-into-two-arrays-to-minimize-sum-difference/",
+  "createdAt": "2026-08-12T12:52:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

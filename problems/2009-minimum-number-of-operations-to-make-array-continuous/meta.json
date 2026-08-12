@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2119,
+  "questionId": "2119",
+  "questionFrontendId": "2009",
+  "titleSlug": "minimum-number-of-operations-to-make-array-continuous",
+  "title": "Minimum Number of Operations to Make Array Continuous",
+  "translatedTitle": "使数组连续的最少操作数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-continuous/",
+  "createdAt": "2026-08-12T12:52:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

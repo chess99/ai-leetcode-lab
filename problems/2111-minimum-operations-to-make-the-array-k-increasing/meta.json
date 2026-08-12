@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2234,
+  "questionId": "2234",
+  "questionFrontendId": "2111",
+  "titleSlug": "minimum-operations-to-make-the-array-k-increasing",
+  "title": "Minimum Operations to Make the Array K-Increasing",
+  "translatedTitle": "使数组 K 递增的最少操作次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-the-array-k-increasing/",
+  "createdAt": "2026-08-12T12:52:09Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

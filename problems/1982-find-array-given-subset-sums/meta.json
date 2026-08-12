@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2109,
+  "questionId": "2109",
+  "questionFrontendId": "1982",
+  "titleSlug": "find-array-given-subset-sums",
+  "title": "Find Array Given Subset Sums",
+  "translatedTitle": "从子集的和还原数组",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-array-given-subset-sums/",
+  "createdAt": "2026-08-12T12:52:03Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

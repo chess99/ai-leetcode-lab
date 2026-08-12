@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2101,
+  "questionId": "2101",
+  "questionFrontendId": "1970",
+  "titleSlug": "last-day-where-you-can-still-cross",
+  "title": "Last Day Where You Can Still Cross",
+  "translatedTitle": "你能穿过矩阵的最后一天",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/last-day-where-you-can-still-cross/",
+  "createdAt": "2026-08-12T12:52:02Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2280,
+  "questionId": "2280",
+  "questionFrontendId": "2179",
+  "titleSlug": "count-good-triplets-in-an-array",
+  "title": "Count Good Triplets in an Array",
+  "translatedTitle": "统计数组中好三元组数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-good-triplets-in-an-array/",
+  "createdAt": "2026-08-12T12:52:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
