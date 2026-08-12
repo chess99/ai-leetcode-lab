@@ -9,6 +9,9 @@ from typing import List
 
 class Solution:
     def minimumSubarrayLength(self, nums: List[int], k: int) -> int:
+        if k == 0:
+            return 1
+
         bit_count = [0] * 31
         current = 0
         left = 0

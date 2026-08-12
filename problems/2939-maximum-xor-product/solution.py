@@ -8,7 +8,7 @@
 class Solution:
     def maximumXorProduct(self, a: int, b: int, n: int) -> int:
         mod = 10 ** 9 + 7
-        left, right = a >> n, b >> n
+        left, right = (a >> n) << n, (b >> n) << n
         for bit in range(n - 1, -1, -1):
             mask = 1 << bit
             if bool(a & mask) == bool(b & mask):
