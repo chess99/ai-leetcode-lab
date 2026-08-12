@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 828,
+  "questionId": "828",
+  "questionFrontendId": "810",
+  "titleSlug": "chalkboard-xor-game",
+  "title": "Chalkboard XOR Game",
+  "translatedTitle": "黑板异或游戏",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/chalkboard-xor-game/",
+  "createdAt": "2026-08-12T06:02:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

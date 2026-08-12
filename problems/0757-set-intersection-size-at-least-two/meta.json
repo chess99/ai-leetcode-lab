@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 759,
+  "questionId": "759",
+  "questionFrontendId": "757",
+  "titleSlug": "set-intersection-size-at-least-two",
+  "title": "Set Intersection Size At Least Two",
+  "translatedTitle": "设置交集大小至少为2",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/set-intersection-size-at-least-two/",
+  "createdAt": "2026-08-12T06:02:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 754,
+  "questionId": "754",
+  "questionFrontendId": "753",
+  "titleSlug": "cracking-the-safe",
+  "title": "Cracking the Safe",
+  "translatedTitle": "破解保险箱",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/cracking-the-safe/",
+  "createdAt": "2026-08-12T06:02:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

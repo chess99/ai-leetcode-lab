@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 821,
+  "questionId": "821",
+  "questionFrontendId": "803",
+  "titleSlug": "bricks-falling-when-hit",
+  "title": "Bricks Falling When Hit",
+  "translatedTitle": "打砖块",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/bricks-falling-when-hit/",
+  "createdAt": "2026-08-12T06:02:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 591,
+  "questionId": "591",
+  "questionFrontendId": "591",
+  "titleSlug": "tag-validator",
+  "title": "Tag Validator",
+  "translatedTitle": "标签验证器",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/tag-validator/",
+  "createdAt": "2026-08-12T06:02:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

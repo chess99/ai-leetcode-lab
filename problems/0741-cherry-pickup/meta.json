@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 741,
+  "questionId": "741",
+  "questionFrontendId": "741",
+  "titleSlug": "cherry-pickup",
+  "title": "Cherry Pickup",
+  "translatedTitle": "摘樱桃",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/cherry-pickup/",
+  "createdAt": "2026-08-12T06:02:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

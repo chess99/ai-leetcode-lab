@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 679,
+  "questionId": "679",
+  "questionFrontendId": "679",
+  "titleSlug": "24-game",
+  "title": "24 Game",
+  "translatedTitle": "24 点游戏",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/24-game/",
+  "createdAt": "2026-08-12T06:02:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

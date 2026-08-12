@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 668,
+  "questionId": "668",
+  "questionFrontendId": "668",
+  "titleSlug": "kth-smallest-number-in-multiplication-table",
+  "title": "Kth Smallest Number in Multiplication Table",
+  "translatedTitle": "乘法表中第k小的数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/",
+  "createdAt": "2026-08-12T06:02:45Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

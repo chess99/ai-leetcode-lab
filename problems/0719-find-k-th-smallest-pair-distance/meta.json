@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 719,
+  "questionId": "719",
+  "questionFrontendId": "719",
+  "titleSlug": "find-k-th-smallest-pair-distance",
+  "title": "Find K-th Smallest Pair Distance",
+  "translatedTitle": "找出第 K 小的数对距离",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-k-th-smallest-pair-distance/",
+  "createdAt": "2026-08-12T06:02:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

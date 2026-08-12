@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 887,
+  "questionId": "887",
+  "questionFrontendId": "857",
+  "titleSlug": "minimum-cost-to-hire-k-workers",
+  "title": "Minimum Cost to Hire K Workers",
+  "translatedTitle": "雇佣 K 名工人的最低成本",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-hire-k-workers/",
+  "createdAt": "2026-08-12T06:02:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

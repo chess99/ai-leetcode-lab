@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 884,
+  "questionId": "884",
+  "questionFrontendId": "854",
+  "titleSlug": "k-similar-strings",
+  "title": "K-Similar Strings",
+  "translatedTitle": "相似度为 K 的字符串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/k-similar-strings/",
+  "createdAt": "2026-08-12T06:02:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

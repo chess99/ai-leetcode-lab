@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 750,
+  "questionId": "750",
+  "questionFrontendId": "749",
+  "titleSlug": "contain-virus",
+  "title": "Contain Virus",
+  "translatedTitle": "隔离病毒",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/contain-virus/",
+  "createdAt": "2026-08-12T06:02:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

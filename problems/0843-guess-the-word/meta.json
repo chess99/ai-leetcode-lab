@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 873,
+  "questionId": "873",
+  "questionFrontendId": "843",
+  "titleSlug": "guess-the-word",
+  "title": "Guess the Word",
+  "translatedTitle": "猜猜这个单词",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/guess-the-word/",
+  "createdAt": "2026-08-12T06:02:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

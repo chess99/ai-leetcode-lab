@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 833,
+  "questionId": "833",
+  "questionFrontendId": "815",
+  "titleSlug": "bus-routes",
+  "title": "Bus Routes",
+  "translatedTitle": "公交路线",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/bus-routes/",
+  "createdAt": "2026-08-12T06:02:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

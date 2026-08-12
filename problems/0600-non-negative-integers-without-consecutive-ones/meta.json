@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 600,
+  "questionId": "600",
+  "questionFrontendId": "600",
+  "titleSlug": "non-negative-integers-without-consecutive-ones",
+  "title": "Non-negative Integers without Consecutive Ones",
+  "translatedTitle": "不含连续1的非负整数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/",
+  "createdAt": "2026-08-12T06:02:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

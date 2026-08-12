@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 855,
+  "questionId": "855",
+  "questionFrontendId": "828",
+  "titleSlug": "count-unique-characters-of-all-substrings-of-a-given-string",
+  "title": "Count Unique Characters of All Substrings of a Given String",
+  "translatedTitle": "统计子串中的唯一字符",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/",
+  "createdAt": "2026-08-12T06:02:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
