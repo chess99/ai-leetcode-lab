@@ -7,6 +7,8 @@
 # Experiment: ai-leetcode-lab, round 1
 class Solution:
     def numDecodings(self, s: str) -> int:
+        if not s:
+            return 0
         if s[0] == "0":
             return 0
         previous, current = 1, 1

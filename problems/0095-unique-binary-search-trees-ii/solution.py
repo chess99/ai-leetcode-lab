@@ -5,11 +5,13 @@
 # Profile: terra-medium
 # Created: 2026-08-11T16:18:30Z
 # Experiment: ai-leetcode-lab, round 1
+from functools import lru_cache
 from typing import List, Optional
 
 
 class Solution:
     def generateTrees(self, n: int) -> List[Optional["TreeNode"]]:
+        @lru_cache(None)
         def build(lower: int, upper: int) -> List[Optional["TreeNode"]]:
             if lower > upper:
                 return [None]
