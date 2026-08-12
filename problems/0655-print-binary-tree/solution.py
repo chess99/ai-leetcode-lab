@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T17:29:05Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -16,6 +18,9 @@ from typing import List, Optional
 
 class Solution:
     def printTree(self, root: Optional[TreeNode]) -> List[List[str]]:
+        if root is None:
+            return []
+
         def height(node): return 0 if node is None else 1 + max(height(node.left), height(node.right))
         h = height(root); result = [[""] * (2 ** h - 1) for _ in range(h)]
         def fill(node, row, left, right):

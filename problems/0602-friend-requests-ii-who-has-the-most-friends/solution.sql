@@ -5,7 +5,6 @@
 -- Profile: terra-medium
 -- Created: 2026-08-11T17:24:41Z
 -- Experiment: ai-leetcode-lab, round 1
-# Write your MySQL query statement below
 SELECT id, COUNT(*) AS num
 FROM (
     SELECT requester_id AS id

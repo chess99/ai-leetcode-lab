@@ -16,7 +16,9 @@ class Solution:
             best = sum(count * unit_price for count, unit_price in zip(remaining, price))
             for offer in special:
                 quantities = offer[:-1]
-                if all(quantity <= count for quantity, count in zip(quantities, remaining)):
+                if any(quantities) and all(
+                    quantity <= count for quantity, count in zip(quantities, remaining)
+                ):
                     next_remaining = tuple(
                         count - quantity for count, quantity in zip(remaining, quantities)
                     )

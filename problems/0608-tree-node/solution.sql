@@ -5,7 +5,6 @@
 -- Profile: terra-medium
 -- Created: 2026-08-11T17:24:42Z
 -- Experiment: ai-leetcode-lab, round 1
-# Write your MySQL query statement below
 SELECT parent.id,
        CASE
            WHEN parent.p_id IS NULL THEN 'Root'
