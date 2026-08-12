@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 483,
+  "questionId": "483",
+  "questionFrontendId": "483",
+  "titleSlug": "smallest-good-base",
+  "title": "Smallest Good Base",
+  "translatedTitle": "最小好进制",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-good-base/",
+  "createdAt": "2026-08-12T05:38:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 282,
+  "questionId": "282",
+  "questionFrontendId": "282",
+  "titleSlug": "expression-add-operators",
+  "title": "Expression Add Operators",
+  "translatedTitle": "给表达式添加运算符",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/expression-add-operators/",
+  "createdAt": "2026-08-12T05:38:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

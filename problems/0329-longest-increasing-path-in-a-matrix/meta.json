@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 329,
+  "questionId": "329",
+  "questionFrontendId": "329",
+  "titleSlug": "longest-increasing-path-in-a-matrix",
+  "title": "Longest Increasing Path in a Matrix",
+  "translatedTitle": "矩阵中的最长递增路径",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/",
+  "createdAt": "2026-08-12T05:38:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

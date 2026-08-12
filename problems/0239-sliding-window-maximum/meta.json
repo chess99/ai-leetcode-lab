@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 239,
+  "questionId": "239",
+  "questionFrontendId": "239",
+  "titleSlug": "sliding-window-maximum",
+  "title": "Sliding Window Maximum",
+  "translatedTitle": "滑动窗口最大值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sliding-window-maximum/",
+  "createdAt": "2026-08-12T05:38:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

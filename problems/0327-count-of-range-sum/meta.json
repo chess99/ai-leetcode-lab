@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 327,
+  "questionId": "327",
+  "questionFrontendId": "327",
+  "titleSlug": "count-of-range-sum",
+  "title": "Count of Range Sum",
+  "translatedTitle": "区间和的个数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-of-range-sum/",
+  "createdAt": "2026-08-12T05:38:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

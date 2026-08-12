@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 123,
+  "questionId": "123",
+  "questionFrontendId": "123",
+  "titleSlug": "best-time-to-buy-and-sell-stock-iii",
+  "title": "Best Time to Buy and Sell Stock III",
+  "translatedTitle": "买卖股票的最佳时机 III",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/",
+  "createdAt": "2026-08-12T05:38:06Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

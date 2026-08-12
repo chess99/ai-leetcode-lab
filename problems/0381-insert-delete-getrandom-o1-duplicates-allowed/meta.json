@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 381,
+  "questionId": "381",
+  "questionFrontendId": "381",
+  "titleSlug": "insert-delete-getrandom-o1-duplicates-allowed",
+  "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+  "translatedTitle": "O(1) 时间插入、删除和获取随机元素 - 允许重复",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/insert-delete-getrandom-o1-duplicates-allowed/",
+  "createdAt": "2026-08-12T05:38:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

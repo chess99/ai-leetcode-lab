@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 335,
+  "questionId": "335",
+  "questionFrontendId": "335",
+  "titleSlug": "self-crossing",
+  "title": "Self Crossing",
+  "translatedTitle": "路径交叉",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/self-crossing/",
+  "createdAt": "2026-08-12T05:38:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

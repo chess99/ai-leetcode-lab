@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 332,
+  "questionId": "332",
+  "questionFrontendId": "332",
+  "titleSlug": "reconstruct-itinerary",
+  "title": "Reconstruct Itinerary",
+  "translatedTitle": "重新安排行程",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reconstruct-itinerary/",
+  "createdAt": "2026-08-12T05:38:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 149,
+  "questionId": "149",
+  "questionFrontendId": "149",
+  "titleSlug": "max-points-on-a-line",
+  "title": "Max Points on a Line",
+  "translatedTitle": "直线上最多的点数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/max-points-on-a-line/",
+  "createdAt": "2026-08-12T05:38:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

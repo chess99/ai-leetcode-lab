@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 185,
+  "questionId": "185",
+  "questionFrontendId": "185",
+  "titleSlug": "department-top-three-salaries",
+  "title": "Department Top Three Salaries",
+  "translatedTitle": "部门工资前三高的所有员工",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/department-top-three-salaries/",
+  "createdAt": "2026-08-12T05:38:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

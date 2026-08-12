@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 233,
+  "questionId": "233",
+  "questionFrontendId": "233",
+  "titleSlug": "number-of-digit-one",
+  "title": "Number of Digit One",
+  "translatedTitle": "数字 1 的个数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-digit-one/",
+  "createdAt": "2026-08-12T05:38:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

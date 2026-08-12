@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 224,
+  "questionId": "224",
+  "questionFrontendId": "224",
+  "titleSlug": "basic-calculator",
+  "title": "Basic Calculator",
+  "translatedTitle": "基本计算器",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/basic-calculator/",
+  "createdAt": "2026-08-12T05:38:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 273,
+  "questionId": "273",
+  "questionFrontendId": "273",
+  "titleSlug": "integer-to-english-words",
+  "title": "Integer to English Words",
+  "translatedTitle": "整数转换英文表示",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/integer-to-english-words/",
+  "createdAt": "2026-08-12T05:38:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

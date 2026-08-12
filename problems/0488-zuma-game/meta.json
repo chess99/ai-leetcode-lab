@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 488,
+  "questionId": "488",
+  "questionFrontendId": "488",
+  "titleSlug": "zuma-game",
+  "title": "Zuma Game",
+  "translatedTitle": "祖玛游戏",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/zuma-game/",
+  "createdAt": "2026-08-12T05:38:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

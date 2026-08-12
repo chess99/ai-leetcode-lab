@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 352,
+  "questionId": "352",
+  "questionFrontendId": "352",
+  "titleSlug": "data-stream-as-disjoint-intervals",
+  "title": "Data Stream as Disjoint Intervals",
+  "translatedTitle": "将数据流变为多个不相交区间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/data-stream-as-disjoint-intervals/",
+  "createdAt": "2026-08-12T05:38:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

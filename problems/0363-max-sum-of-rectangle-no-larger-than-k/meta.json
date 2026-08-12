@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 363,
+  "questionId": "363",
+  "questionFrontendId": "363",
+  "titleSlug": "max-sum-of-rectangle-no-larger-than-k",
+  "title": "Max Sum of Rectangle No Larger Than K",
+  "translatedTitle": "矩形区域不超过 K 的最大数值和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/max-sum-of-rectangle-no-larger-than-k/",
+  "createdAt": "2026-08-12T05:38:14Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

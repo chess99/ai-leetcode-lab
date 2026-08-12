@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 135,
+  "questionId": "135",
+  "questionFrontendId": "135",
+  "titleSlug": "candy",
+  "title": "Candy",
+  "translatedTitle": "分发糖果",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/candy/",
+  "createdAt": "2026-08-12T05:38:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

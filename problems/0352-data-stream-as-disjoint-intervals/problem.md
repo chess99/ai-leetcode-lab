@@ -1,0 +1,65 @@
+# 352. 将数据流变为多个不相交区间
+
+- 难度：HARD
+- 标签：并查集, 设计, 哈希表, 二分查找, 数据流, 有序集合
+- 来源：https://leetcode.cn/problems/data-stream-as-disjoint-intervals/
+- 归档：2026-08-12T05:38:13Z
+
+## 题目
+
+<p>给你一个由非负整数组成的数据流输入 <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub></code>，请你将目前为止看到的数字汇总为一组不相交的区间列表。</p>
+
+<p>实现 <code>SummaryRanges</code> 类：</p>
+
+<ul>
+	<li><code>SummaryRanges()</code> 初始化一个空的数据流对象。</li>
+	<li><code>void addNum(int value)</code> 将整数 <code>value</code> 添加到数据流中。</li>
+	<li><code>int[][] getIntervals()</code> 返回当前数据流中的整数汇总为一组不相交的区间列表 <code>[start<sub>i</sub>, end<sub>i</sub>]</code>。答案应按 <code>start<sub>i</sub></code> 升序排序。</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong class="example">示例 1：</strong></p>
+
+<pre>
+<strong>输入</strong>
+["SummaryRanges", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals"]
+[[], [1], [], [3], [], [7], [], [2], [], [6], []]
+<strong>输出</strong>
+[null, null, [[1, 1]], null, [[1, 1], [3, 3]], null, [[1, 1], [3, 3], [7, 7]], null, [[1, 3], [7, 7]], null, [[1, 3], [6, 7]]]
+
+<strong>解释</strong>
+SummaryRanges summaryRanges = new SummaryRanges();
+summaryRanges.addNum(1);      // arr = [1]
+summaryRanges.getIntervals(); // 返回 [[1, 1]]
+summaryRanges.addNum(3);      // arr = [1, 3]
+summaryRanges.getIntervals(); // 返回 [[1, 1], [3, 3]]
+summaryRanges.addNum(7);      // arr = [1, 3, 7]
+summaryRanges.getIntervals(); // 返回 [[1, 1], [3, 3], [7, 7]]
+summaryRanges.addNum(2);      // arr = [1, 2, 3, 7]
+summaryRanges.getIntervals(); // 返回 [[1, 3], [7, 7]]
+summaryRanges.addNum(6);      // arr = [1, 2, 3, 6, 7]
+summaryRanges.getIntervals(); // 返回 [[1, 3], [6, 7]]
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>0 &lt;= value &lt;= 10<sup>4</sup></code></li>
+	<li>最多会调用 <code>addNum</code> 和 <code>getIntervals</code> 方法 <code>3 * 10<sup>4</sup></code> 次。</li>
+	<li>最多会调用 <code>getIntervals</code> 方法 <code>10<sup>2</sup></code> 次。</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>进阶：</strong>如果存在大量合并，并且与数据流的大小相比，不相交区间的数量很小，该怎么办?</p>
+
+
+## 样例输入
+
+```text
+["SummaryRanges","addNum","getIntervals","addNum","getIntervals","addNum","getIntervals","addNum","getIntervals","addNum","getIntervals"]
+[[],[1],[],[3],[],[7],[],[2],[],[6],[]]
+```

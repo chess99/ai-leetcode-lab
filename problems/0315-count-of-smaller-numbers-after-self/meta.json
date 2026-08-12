@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 315,
+  "questionId": "315",
+  "questionFrontendId": "315",
+  "titleSlug": "count-of-smaller-numbers-after-self",
+  "title": "Count of Smaller Numbers After Self",
+  "translatedTitle": "计算右侧小于当前元素的个数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-of-smaller-numbers-after-self/",
+  "createdAt": "2026-08-12T05:38:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

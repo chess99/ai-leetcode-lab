@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 440,
+  "questionId": "440",
+  "questionFrontendId": "440",
+  "titleSlug": "k-th-smallest-in-lexicographical-order",
+  "title": "K-th Smallest in Lexicographical Order",
+  "translatedTitle": "字典序的第K小数字",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/k-th-smallest-in-lexicographical-order/",
+  "createdAt": "2026-08-12T05:38:15Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

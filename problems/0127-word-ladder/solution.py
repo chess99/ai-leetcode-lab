@@ -1,0 +1,25 @@
+# AI solution attribution
+# Client: Codex Desktop
+# Model: gpt-5.6-terra
+# Reasoning effort: medium
+# Profile: terra-medium
+# Created: 2026-08-12T05:38:07Z
+# Experiment: ai-leetcode-lab, round 1
+from collections import deque
+from typing import List
+
+
+class Solution:
+    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+        words = set(wordList)
+        if endWord not in words: return 0
+        queue = deque([(beginWord, 1)])
+        while queue:
+            word, steps = queue.popleft()
+            if word == endWord: return steps
+            for i in range(len(word)):
+                for ch in "abcdefghijklmnopqrstuvwxyz":
+                    candidate = word[:i] + ch + word[i + 1:]
+                    if candidate in words:
+                        words.remove(candidate); queue.append((candidate, steps + 1))
+        return 0

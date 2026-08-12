@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 127,
+  "questionId": "127",
+  "questionFrontendId": "127",
+  "titleSlug": "word-ladder",
+  "title": "Word Ladder",
+  "translatedTitle": "单词接龙",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/word-ladder/",
+  "createdAt": "2026-08-12T05:38:07Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

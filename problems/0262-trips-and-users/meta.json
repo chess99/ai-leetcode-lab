@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 262,
+  "questionId": "262",
+  "questionFrontendId": "262",
+  "titleSlug": "trips-and-users",
+  "title": "Trips and Users",
+  "translatedTitle": "行程和用户",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/trips-and-users/",
+  "createdAt": "2026-08-12T05:38:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
