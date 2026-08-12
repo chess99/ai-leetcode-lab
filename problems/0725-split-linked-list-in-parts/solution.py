@@ -5,11 +5,12 @@
 # Profile: terra-medium
 # Created: 2026-08-11T17:41:39Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val, self.next = val, next
 from typing import List, Optional
 
 

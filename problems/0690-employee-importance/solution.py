@@ -13,6 +13,9 @@ class Employee:
         self.importance = importance
         self.subordinates = subordinates
 """
+class Employee:
+    def __init__(self, id, importance, subordinates):
+        self.id, self.importance, self.subordinates = id, importance, subordinates
 from typing import List
 
 
