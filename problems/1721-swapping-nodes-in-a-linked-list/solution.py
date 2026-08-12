@@ -7,6 +7,9 @@
 # Experiment: ai-leetcode-lab, round 1
 from __future__ import annotations
 
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val, self.next = val, next
 
 class Solution:
     def swapNodes(self, head: ListNode, k: int) -> ListNode:
