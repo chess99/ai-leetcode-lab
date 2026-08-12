@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3697,
+  "questionId": "3697",
+  "questionFrontendId": "3444",
+  "titleSlug": "minimum-increments-for-target-multiples-in-an-array",
+  "title": "Minimum Increments for Target Multiples in an Array",
+  "translatedTitle": "使数组包含目标值倍数的最少增量",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-increments-for-target-multiples-in-an-array/",
+  "createdAt": "2026-08-12T16:38:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

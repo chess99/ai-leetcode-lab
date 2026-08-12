@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3922,
+  "questionId": "3922",
+  "questionFrontendId": "3609",
+  "titleSlug": "minimum-moves-to-reach-target-in-grid",
+  "title": "Minimum Moves to Reach Target in Grid",
+  "translatedTitle": "到达目标点的最小移动次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-moves-to-reach-target-in-grid/",
+  "createdAt": "2026-08-12T16:38:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3829,
+  "questionId": "3829",
+  "questionFrontendId": "3515",
+  "titleSlug": "shortest-path-in-a-weighted-tree",
+  "title": "Shortest Path in a Weighted Tree",
+  "translatedTitle": "带权树中的最短路径",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/shortest-path-in-a-weighted-tree/",
+  "createdAt": "2026-08-12T16:38:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

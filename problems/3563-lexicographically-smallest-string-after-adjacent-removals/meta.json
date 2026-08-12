@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3867,
+  "questionId": "3867",
+  "questionFrontendId": "3563",
+  "titleSlug": "lexicographically-smallest-string-after-adjacent-removals",
+  "title": "Lexicographically Smallest String After Adjacent Removals",
+  "translatedTitle": "移除相邻字符后字典序最小的字符串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lexicographically-smallest-string-after-adjacent-removals/",
+  "createdAt": "2026-08-12T16:38:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

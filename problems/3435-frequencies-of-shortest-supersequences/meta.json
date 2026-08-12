@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3713,
+  "questionId": "3713",
+  "questionFrontendId": "3435",
+  "titleSlug": "frequencies-of-shortest-supersequences",
+  "title": "Frequencies of Shortest Supersequences",
+  "translatedTitle": "最短公共超序列的字母出现频率",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/frequencies-of-shortest-supersequences/",
+  "createdAt": "2026-08-12T16:38:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

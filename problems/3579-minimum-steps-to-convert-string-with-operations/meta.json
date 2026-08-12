@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3866,
+  "questionId": "3866",
+  "questionFrontendId": "3579",
+  "titleSlug": "minimum-steps-to-convert-string-with-operations",
+  "title": "Minimum Steps to Convert String with Operations",
+  "translatedTitle": "字符串转换需要的最小操作数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-steps-to-convert-string-with-operations/",
+  "createdAt": "2026-08-12T16:38:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

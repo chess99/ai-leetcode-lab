@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3765,
+  "questionId": "3765",
+  "questionFrontendId": "3500",
+  "titleSlug": "minimum-cost-to-divide-array-into-subarrays",
+  "title": "Minimum Cost to Divide Array Into Subarrays",
+  "translatedTitle": "将数组分割为子数组的最小代价",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-divide-array-into-subarrays/",
+  "createdAt": "2026-08-12T16:38:16Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

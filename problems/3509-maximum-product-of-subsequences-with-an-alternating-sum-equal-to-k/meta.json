@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3777,
+  "questionId": "3777",
+  "questionFrontendId": "3509",
+  "titleSlug": "maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k",
+  "title": "Maximum Product of Subsequences With an Alternating Sum Equal to K",
+  "translatedTitle": "最大化交错和为 K 的子序列乘积",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/",
+  "createdAt": "2026-08-12T16:38:17Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

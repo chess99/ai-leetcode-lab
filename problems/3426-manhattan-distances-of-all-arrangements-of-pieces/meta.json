@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3739,
+  "questionId": "3739",
+  "questionFrontendId": "3426",
+  "titleSlug": "manhattan-distances-of-all-arrangements-of-pieces",
+  "title": "Manhattan Distances of All Arrangements of Pieces",
+  "translatedTitle": "所有安放棋子方案的曼哈顿距离",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/manhattan-distances-of-all-arrangements-of-pieces/",
+  "createdAt": "2026-08-12T16:38:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

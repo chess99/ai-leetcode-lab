@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3891,
+  "questionId": "3891",
+  "questionFrontendId": "3554",
+  "titleSlug": "find-category-recommendation-pairs",
+  "title": "Find Category Recommendation Pairs",
+  "translatedTitle": "查找类别推荐对",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-category-recommendation-pairs/",
+  "createdAt": "2026-08-12T16:38:45Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

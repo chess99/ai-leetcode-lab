@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3789,
+  "questionId": "3789",
+  "questionFrontendId": "3480",
+  "titleSlug": "maximize-subarrays-after-removing-one-conflicting-pair",
+  "title": "Maximize Subarrays After Removing One Conflicting Pair",
+  "translatedTitle": "删除一个冲突对后最大子数组数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-subarrays-after-removing-one-conflicting-pair/",
+  "createdAt": "2026-08-12T16:39:08Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3696,
+  "questionId": "3696",
+  "questionFrontendId": "3448",
+  "titleSlug": "count-substrings-divisible-by-last-digit",
+  "title": "Count Substrings Divisible By Last Digit",
+  "translatedTitle": "统计可以被最后一个数位整除的子字符串数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-substrings-divisible-by-last-digit/",
+  "createdAt": "2026-08-12T16:38:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

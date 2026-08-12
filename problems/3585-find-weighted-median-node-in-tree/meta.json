@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3900,
+  "questionId": "3900",
+  "questionFrontendId": "3585",
+  "titleSlug": "find-weighted-median-node-in-tree",
+  "title": "Find Weighted Median Node in Tree",
+  "translatedTitle": "树中找到带权中位节点",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-weighted-median-node-in-tree/",
+  "createdAt": "2026-08-12T16:38:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

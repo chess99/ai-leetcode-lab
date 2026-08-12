@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3701,
+  "questionId": "3701",
+  "questionFrontendId": "3441",
+  "titleSlug": "minimum-cost-good-caption",
+  "title": "Minimum Cost Good Caption",
+  "translatedTitle": "变成好标题的最少代价",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-good-caption/",
+  "createdAt": "2026-08-12T16:38:20Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

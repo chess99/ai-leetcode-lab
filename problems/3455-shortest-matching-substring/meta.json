@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3692,
+  "questionId": "3692",
+  "questionFrontendId": "3455",
+  "titleSlug": "shortest-matching-substring",
+  "title": "Shortest Matching Substring",
+  "translatedTitle": "最短匹配子字符串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/shortest-matching-substring/",
+  "createdAt": "2026-08-12T16:38:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

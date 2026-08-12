@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3792,
+  "questionId": "3792",
+  "questionFrontendId": "3451",
+  "titleSlug": "find-invalid-ip-addresses",
+  "title": "Find Invalid IP Addresses",
+  "translatedTitle": "查找无效的 IP 地址",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-invalid-ip-addresses/",
+  "createdAt": "2026-08-12T16:39:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

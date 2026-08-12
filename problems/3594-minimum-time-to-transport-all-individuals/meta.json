@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3896,
+  "questionId": "3896",
+  "questionFrontendId": "3594",
+  "titleSlug": "minimum-time-to-transport-all-individuals",
+  "title": "Minimum Time to Transport All Individuals",
+  "translatedTitle": "所有人渡河所需的最短时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-transport-all-individuals/",
+  "createdAt": "2026-08-12T16:38:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

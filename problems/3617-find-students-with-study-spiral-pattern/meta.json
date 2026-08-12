@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3961,
+  "questionId": "3961",
+  "questionFrontendId": "3617",
+  "titleSlug": "find-students-with-study-spiral-pattern",
+  "title": "Find Students with Study Spiral Pattern",
+  "translatedTitle": "查找具有螺旋学习模式的学生",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-students-with-study-spiral-pattern/",
+  "createdAt": "2026-08-12T16:38:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

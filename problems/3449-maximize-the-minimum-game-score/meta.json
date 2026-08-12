@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3762,
+  "questionId": "3762",
+  "questionFrontendId": "3449",
+  "titleSlug": "maximize-the-minimum-game-score",
+  "title": "Maximize the Minimum Game Score",
+  "translatedTitle": "最大化游戏分数的最小值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-the-minimum-game-score/",
+  "createdAt": "2026-08-12T16:38:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

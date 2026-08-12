@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3828,
+  "questionId": "3828",
+  "questionFrontendId": "3482",
+  "titleSlug": "analyze-organization-hierarchy",
+  "title": "Analyze Organization Hierarchy",
+  "translatedTitle": "分析组织层级",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/analyze-organization-hierarchy/",
+  "createdAt": "2026-08-12T16:39:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

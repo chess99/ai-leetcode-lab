@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3878,
+  "questionId": "3878",
+  "questionFrontendId": "3569",
+  "titleSlug": "maximize-count-of-distinct-primes-after-split",
+  "title": "Maximize Count of Distinct Primes After Split",
+  "translatedTitle": "分割数组后不同质数的最大数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-count-of-distinct-primes-after-split/",
+  "createdAt": "2026-08-12T16:38:21Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
