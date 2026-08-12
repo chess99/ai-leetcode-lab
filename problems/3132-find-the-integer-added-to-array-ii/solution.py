@@ -9,9 +9,11 @@ from typing import List
 class Solution:
  def minimumAddedInteger(self, nums1: List[int], nums2: List[int]) -> int:
   nums1.sort(); nums2.sort()
+  answer=float("inf")
   for i in range(3):
    x=nums2[0]-nums1[i]; p=q=0
    while p<len(nums1) and q<len(nums2):
     if nums1[p]+x==nums2[q]:q+=1
     p+=1
-   if q==len(nums2):return x
+   if q==len(nums2):answer=min(answer,x)
+  return answer

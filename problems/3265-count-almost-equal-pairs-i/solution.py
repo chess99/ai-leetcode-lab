@@ -20,7 +20,12 @@ class Solution:
             return result
 
         answer = 0
+        previous = []
         for index, value in enumerate(nums):
             possible = variants(value)
-            answer += sum(other in possible for other in nums[:index])
+            answer += sum(
+                other in possible or value in other_possible
+                for other, other_possible in previous
+            )
+            previous.append((value, possible))
         return answer
