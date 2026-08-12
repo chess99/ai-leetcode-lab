@@ -22,4 +22,4 @@ FROM reaction_counts
 WHERE reaction_rank = 1
   AND total_count >= 5
   AND reaction_count * 10 >= total_count * 6
-ORDER BY reaction_count / total_count DESC, user_id;
+ORDER BY reaction_ratio DESC, user_id;
