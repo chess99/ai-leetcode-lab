@@ -27,4 +27,4 @@ WHERE total_orders >= 3
   AND peak_orders * 100 >= total_orders * 60
   AND raw_average_rating >= 4.00
   AND rated_orders * 2 >= total_orders
-ORDER BY raw_average_rating DESC, customer_id DESC;
+ORDER BY average_rating DESC, customer_id DESC;
