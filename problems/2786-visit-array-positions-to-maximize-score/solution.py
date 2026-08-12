@@ -8,8 +8,14 @@
 from typing import List
 class Solution:
     def maxScore(self, nums: List[int], x: int) -> int:
-        even=odd=-10**30
-        for v in nums:
-            if v%2: odd=max(odd+v,even+v-x,v)
-            else: even=max(even+v,odd+v-x,v)
+        even = odd = -10**30
+        if nums[0] % 2:
+            odd = nums[0]
+        else:
+            even = nums[0]
+        for v in nums[1:]:
+            if v % 2:
+                odd = max(odd + v, even + v - x)
+            else:
+                even = max(even + v, odd + v - x)
         return max(even,odd)

@@ -7,6 +7,14 @@
 # Experiment: ai-leetcode-lab, round 1
 from math import gcd
 from typing import Optional
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):

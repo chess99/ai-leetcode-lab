@@ -12,5 +12,6 @@ class Solution:
         for i,x in enumerate(nums):
             active+=delta[i]; need=x-active
             if need<0 or (need and i+k>len(nums)): return False
-            active+=need; delta[i+k]-=need
+            if need:
+                active+=need; delta[i+k]-=need
         return True

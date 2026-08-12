@@ -6,6 +6,14 @@
 # Created: 2026-08-11T21:23:05Z
 # Experiment: ai-leetcode-lab, round 1
 from typing import Optional
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
 class Solution:
     def doubleIt(self, head: Optional['ListNode']) -> Optional['ListNode']:
         if head.val >= 5:

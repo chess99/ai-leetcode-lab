@@ -13,6 +13,7 @@ class Solution:
         for i,x in enumerate(nums):pos[x].append(i)
         ans=n
         for ids in pos.values():
-            gap=max(b-a for a,b in zip(ids,ids[1:]))
-            gap=max(gap,ids[0]+n-ids[-1]); ans=min(ans,gap//2)
+            gaps=[b-a for a,b in zip(ids,ids[1:])]
+            gaps.append(ids[0]+n-ids[-1])
+            ans=min(ans,max(gaps)//2)
         return ans
