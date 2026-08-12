@@ -27,6 +27,6 @@ class CustomStack:
         return value
 
     def increment(self, k: int, val: int) -> None:
-        if self.pending_increment:
+        if k > 0 and self.pending_increment:
             last_affected = min(k, len(self.pending_increment)) - 1
             self.pending_increment[last_affected] += val
