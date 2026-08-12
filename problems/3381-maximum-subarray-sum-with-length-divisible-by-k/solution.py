@@ -12,7 +12,8 @@ class Solution:
     def maxSubarraySum(self, nums: List[int], k: int) -> int:
         minimum = [float('inf')] * k
         minimum[0] = 0
-        prefix = answer = 0
+        prefix = 0
+        answer = -float('inf')
         for i, value in enumerate(nums, 1):
             prefix += value
             rem = i % k

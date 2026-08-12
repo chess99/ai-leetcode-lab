@@ -15,6 +15,7 @@ class Solution:
             total = answer = 0
             right = 0
             for left_index, (left, end, value) in enumerate(intervals):
+                right = max(right, left_index)
                 limit = left + k
                 while right < len(intervals) and intervals[right][1] < limit:
                     a, b, coins_per_bag = intervals[right]

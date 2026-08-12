@@ -12,9 +12,9 @@ class Solution:
   m,n=len(grid),len(grid[0]);q=deque([(0,0,health-grid[0][0])]);seen=[[-1]*n for _ in range(m)]
   while q:
    i,j,h=q.popleft()
-   if h<=seen[i][j]:continue
+   if h<=0 or h<=seen[i][j]:continue
    seen[i][j]=h
-   if (i,j)==(m-1,n-1):return h>0
+   if (i,j)==(m-1,n-1):return True
    for x,y in ((i-1,j),(i+1,j),(i,j-1),(i,j+1)):
     if 0<=x<m and 0<=y<n and h-grid[x][y]>seen[x][y]:q.append((x,y,h-grid[x][y]))
   return False

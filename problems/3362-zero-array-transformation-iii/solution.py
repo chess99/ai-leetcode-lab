@@ -23,7 +23,9 @@ class Solution:
             while heap and -heap[0] < position:
                 heapq.heappop(heap)
             while active < need:
-                if not heap:
+                # Valid intervals are popped first by their farthest right end.
+                # After those are consumed, an expired interval can surface.
+                if not heap or -heap[0] < position:
                     return -1
                 right = -heapq.heappop(heap)
                 selected += 1

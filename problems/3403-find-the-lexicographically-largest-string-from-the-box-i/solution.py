@@ -10,4 +10,4 @@ class Solution:
         if numFriends == 1:
             return word
         length = len(word) - numFriends + 1
-        return max(word[i:i + length] for i in range(len(word) - length + 1))
+        return max(word[i:min(len(word), i + length)] for i in range(len(word)))
