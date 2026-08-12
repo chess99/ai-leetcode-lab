@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1433,
+  "questionId": "1433",
+  "questionFrontendId": "2227",
+  "titleSlug": "encrypt-and-decrypt-strings",
+  "title": "Encrypt and Decrypt Strings",
+  "translatedTitle": "加密解密字符串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/encrypt-and-decrypt-strings/",
+  "createdAt": "2026-08-12T13:47:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

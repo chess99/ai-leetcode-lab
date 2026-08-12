@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2559,
+  "questionId": "2559",
+  "questionFrontendId": "2472",
+  "titleSlug": "maximum-number-of-non-overlapping-palindrome-substrings",
+  "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+  "translatedTitle": "不重叠回文子字符串的最大数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-non-overlapping-palindrome-substrings/",
+  "createdAt": "2026-08-12T13:47:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

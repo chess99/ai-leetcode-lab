@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2423,
+  "questionId": "2423",
+  "questionFrontendId": "2344",
+  "titleSlug": "minimum-deletions-to-make-array-divisible",
+  "title": "Minimum Deletions to Make Array Divisible",
+  "translatedTitle": "使数组可以被整除的最少删除次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-deletions-to-make-array-divisible/",
+  "createdAt": "2026-08-12T13:47:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

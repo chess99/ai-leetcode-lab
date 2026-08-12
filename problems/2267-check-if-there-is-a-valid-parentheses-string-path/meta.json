@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2349,
+  "questionId": "2349",
+  "questionFrontendId": "2267",
+  "titleSlug": "check-if-there-is-a-valid-parentheses-string-path",
+  "title": " Check if There Is a Valid Parentheses String Path",
+  "translatedTitle": "检查是否有合法括号字符串路径",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-there-is-a-valid-parentheses-string-path/",
+  "createdAt": "2026-08-12T13:47:45Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

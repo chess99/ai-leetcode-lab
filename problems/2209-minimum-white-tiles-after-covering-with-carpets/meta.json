@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2311,
+  "questionId": "2311",
+  "questionFrontendId": "2209",
+  "titleSlug": "minimum-white-tiles-after-covering-with-carpets",
+  "title": "Minimum White Tiles After Covering With Carpets",
+  "translatedTitle": "用地毯覆盖后的最少白色砖块",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-white-tiles-after-covering-with-carpets/",
+  "createdAt": "2026-08-12T13:47:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

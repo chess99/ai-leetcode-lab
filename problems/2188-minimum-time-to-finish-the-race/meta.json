@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2295,
+  "questionId": "2295",
+  "questionFrontendId": "2188",
+  "titleSlug": "minimum-time-to-finish-the-race",
+  "title": "Minimum Time to Finish the Race",
+  "translatedTitle": "完成比赛的最少时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-finish-the-race/",
+  "createdAt": "2026-08-12T13:47:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

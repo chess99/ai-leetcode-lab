@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2505,
+  "questionId": "2505",
+  "questionFrontendId": "2421",
+  "titleSlug": "number-of-good-paths",
+  "title": "Number of Good Paths",
+  "translatedTitle": "好路径的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-good-paths/",
+  "createdAt": "2026-08-12T13:47:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

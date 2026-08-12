@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2360,
+  "questionId": "2360",
+  "questionFrontendId": "2272",
+  "titleSlug": "substring-with-largest-variance",
+  "title": "Substring With Largest Variance",
+  "translatedTitle": "最大波动的子字符串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/substring-with-largest-variance/",
+  "createdAt": "2026-08-12T13:47:45Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2430,
+  "questionId": "2430",
+  "questionFrontendId": "2354",
+  "titleSlug": "number-of-excellent-pairs",
+  "title": "Number of Excellent Pairs",
+  "translatedTitle": "优质数对的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-excellent-pairs/",
+  "createdAt": "2026-08-12T13:47:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

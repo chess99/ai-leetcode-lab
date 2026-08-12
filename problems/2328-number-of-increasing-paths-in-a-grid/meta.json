@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2409,
+  "questionId": "2409",
+  "questionFrontendId": "2328",
+  "titleSlug": "number-of-increasing-paths-in-a-grid",
+  "title": "Number of Increasing Paths in a Grid",
+  "translatedTitle": "网格图中递增路径的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-increasing-paths-in-a-grid/",
+  "createdAt": "2026-08-12T13:47:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2321,
+  "questionId": "2321",
+  "questionFrontendId": "2203",
+  "titleSlug": "minimum-weighted-subgraph-with-the-required-paths",
+  "title": "Minimum Weighted Subgraph With the Required Paths",
+  "translatedTitle": "包含要求路径的最小带权子图",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-weighted-subgraph-with-the-required-paths/",
+  "createdAt": "2026-08-12T13:47:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

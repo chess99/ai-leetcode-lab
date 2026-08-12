@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2449,
+  "questionId": "2449",
+  "questionFrontendId": "2398",
+  "titleSlug": "maximum-number-of-robots-within-budget",
+  "title": "Maximum Number of Robots Within Budget",
+  "translatedTitle": "预算内的最多机器人数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-robots-within-budget/",
+  "createdAt": "2026-08-12T13:47:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

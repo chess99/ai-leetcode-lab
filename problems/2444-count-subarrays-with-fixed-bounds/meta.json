@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2527,
+  "questionId": "2527",
+  "questionFrontendId": "2444",
+  "titleSlug": "count-subarrays-with-fixed-bounds",
+  "title": "Count Subarrays With Fixed Bounds",
+  "translatedTitle": "统计定界子数组的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-subarrays-with-fixed-bounds/",
+  "createdAt": "2026-08-12T13:47:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

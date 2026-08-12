@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2521,
+  "questionId": "2521",
+  "questionFrontendId": "2435",
+  "titleSlug": "paths-in-matrix-whose-sum-is-divisible-by-k",
+  "title": "Paths in Matrix Whose Sum Is Divisible by K",
+  "translatedTitle": "矩阵中和能被 K 整除的路径",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/paths-in-matrix-whose-sum-is-divisible-by-k/",
+  "createdAt": "2026-08-12T13:47:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

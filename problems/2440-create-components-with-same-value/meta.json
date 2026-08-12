@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2531,
+  "questionId": "2531",
+  "questionFrontendId": "2440",
+  "titleSlug": "create-components-with-same-value",
+  "title": "Create Components With Same Value",
+  "translatedTitle": "创建价值相同的连通块",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/create-components-with-same-value/",
+  "createdAt": "2026-08-12T13:47:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

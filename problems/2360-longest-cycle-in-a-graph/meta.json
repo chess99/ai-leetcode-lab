@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2439,
+  "questionId": "2439",
+  "questionFrontendId": "2360",
+  "titleSlug": "longest-cycle-in-a-graph",
+  "title": "Longest Cycle in a Graph",
+  "translatedTitle": "图中的最长环",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-cycle-in-a-graph/",
+  "createdAt": "2026-08-12T13:47:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

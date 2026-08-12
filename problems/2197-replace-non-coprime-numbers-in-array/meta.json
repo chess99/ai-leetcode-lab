@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2307,
+  "questionId": "2307",
+  "questionFrontendId": "2197",
+  "titleSlug": "replace-non-coprime-numbers-in-array",
+  "title": "Replace Non-Coprime Numbers in Array",
+  "translatedTitle": "替换数组中的非互质数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/",
+  "createdAt": "2026-08-12T13:47:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

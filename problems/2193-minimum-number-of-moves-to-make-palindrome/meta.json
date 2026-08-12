@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1356,
+  "questionId": "1356",
+  "questionFrontendId": "2193",
+  "titleSlug": "minimum-number-of-moves-to-make-palindrome",
+  "title": "Minimum Number of Moves to Make Palindrome",
+  "translatedTitle": "得到回文串的最少操作次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-moves-to-make-palindrome/",
+  "createdAt": "2026-08-12T13:47:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

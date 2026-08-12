@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2393,
+  "questionId": "2393",
+  "questionFrontendId": "2301",
+  "titleSlug": "match-substring-after-replacement",
+  "title": "Match Substring After Replacement",
+  "translatedTitle": "替换字符后匹配",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/match-substring-after-replacement/",
+  "createdAt": "2026-08-12T13:47:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

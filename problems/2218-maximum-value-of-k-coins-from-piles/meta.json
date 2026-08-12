@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1393,
+  "questionId": "1393",
+  "questionFrontendId": "2218",
+  "titleSlug": "maximum-value-of-k-coins-from-piles",
+  "title": "Maximum Value of K Coins From Piles",
+  "translatedTitle": "从栈中取出 K 个硬币的最大面值和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-value-of-k-coins-from-piles/",
+  "createdAt": "2026-08-12T13:47:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

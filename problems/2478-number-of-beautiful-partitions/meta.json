@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2569,
+  "questionId": "2569",
+  "questionFrontendId": "2478",
+  "titleSlug": "number-of-beautiful-partitions",
+  "title": "Number of Beautiful Partitions",
+  "translatedTitle": "完美分割的方案数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-beautiful-partitions/",
+  "createdAt": "2026-08-12T13:47:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

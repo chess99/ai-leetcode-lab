@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2400,
+  "questionId": "2400",
+  "questionFrontendId": "2322",
+  "titleSlug": "minimum-score-after-removals-on-a-tree",
+  "title": "Minimum Score After Removals on a Tree",
+  "translatedTitle": "从树中删除边的最小分数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-score-after-removals-on-a-tree/",
+  "createdAt": "2026-08-12T13:47:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

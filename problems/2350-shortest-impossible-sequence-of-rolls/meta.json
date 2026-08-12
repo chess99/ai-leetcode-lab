@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2435,
+  "questionId": "2435",
+  "questionFrontendId": "2350",
+  "titleSlug": "shortest-impossible-sequence-of-rolls",
+  "title": "Shortest Impossible Sequence of Rolls",
+  "translatedTitle": "不可能得到的最短骰子序列",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/shortest-impossible-sequence-of-rolls/",
+  "createdAt": "2026-08-12T13:47:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

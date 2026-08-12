@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2510,
+  "questionId": "2510",
+  "questionFrontendId": "2430",
+  "titleSlug": "maximum-deletions-on-a-string",
+  "title": "Maximum Deletions on a String",
+  "translatedTitle": "对字母串可执行的最大删除数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-deletions-on-a-string/",
+  "createdAt": "2026-08-12T13:47:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

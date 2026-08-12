@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2499,
+  "questionId": "2499",
+  "questionFrontendId": "2412",
+  "titleSlug": "minimum-money-required-before-transactions",
+  "title": "Minimum Money Required Before Transactions",
+  "translatedTitle": "完成所有交易的初始最少钱数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-money-required-before-transactions/",
+  "createdAt": "2026-08-12T13:47:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

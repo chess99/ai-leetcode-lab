@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2364,
+  "questionId": "2364",
+  "questionFrontendId": "2246",
+  "titleSlug": "longest-path-with-different-adjacent-characters",
+  "title": "Longest Path With Different Adjacent Characters",
+  "translatedTitle": "相邻字符不同的最长路径",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/",
+  "createdAt": "2026-08-12T13:47:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

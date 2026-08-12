@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2457,
+  "questionId": "2457",
+  "questionFrontendId": "2376",
+  "titleSlug": "count-special-integers",
+  "title": "Count Special Integers",
+  "translatedTitle": "统计特殊整数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-special-integers/",
+  "createdAt": "2026-08-12T13:47:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

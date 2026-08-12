@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2334,
+  "questionId": "2334",
+  "questionFrontendId": "2251",
+  "titleSlug": "number-of-flowers-in-full-bloom",
+  "title": "Number of Flowers in Full Bloom",
+  "translatedTitle": "花期内花的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-flowers-in-full-bloom/",
+  "createdAt": "2026-08-12T13:47:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
