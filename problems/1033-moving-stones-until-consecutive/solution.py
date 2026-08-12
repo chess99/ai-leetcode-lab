@@ -16,5 +16,5 @@ class Solution:
         if left_gap == 1 and right_gap == 1:
             return [0, 0]
         minimum = 1 if left_gap <= 2 or right_gap <= 2 else 2
-        maximum = max(left_gap, right_gap) - 1
+        maximum = c - a - 2
         return [minimum, maximum]

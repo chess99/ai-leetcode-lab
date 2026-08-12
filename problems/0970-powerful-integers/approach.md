@@ -5,6 +5,8 @@
 - 推理档位：medium
 - Profile：terra-medium
 
+## 思路
+
 枚举不超过 bound 的 x、y 幂次并用集合去重。
 
 ## 复杂度

@@ -13,6 +13,11 @@ class Solution:
     def canReorderDoubled(self, arr: List[int]) -> bool:
         counts = Counter(arr)
         for value in sorted(counts, key=abs):
+            if value == 0:
+                if counts[value] % 2:
+                    return False
+                counts[value] = 0
+                continue
             if counts[value] > counts[2 * value]: return False
             counts[2 * value] -= counts[value]
         return True
