@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100233,
+  "questionId": "100233",
+  "questionFrontendId": "面试题 08.12",
+  "titleSlug": "eight-queens-lcci",
+  "title": "Eight Queens LCCI",
+  "translatedTitle": "八皇后",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/eight-queens-lcci/",
+  "createdAt": "2026-08-12T18:34:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

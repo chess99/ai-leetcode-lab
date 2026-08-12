@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000044,
+  "questionId": "1000044",
+  "questionFrontendId": "面试题 17.19",
+  "titleSlug": "missing-two-lcci",
+  "title": "Missing Two LCCI",
+  "translatedTitle": "消失的两个数字",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/missing-two-lcci/",
+  "createdAt": "2026-08-12T18:34:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

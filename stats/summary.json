@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-12T17:55:49Z",
+  "generatedAt": "2026-08-12T18:34:05Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -9,10 +9,10 @@
   "archivedDetails": 4406,
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
-  "started": 3525,
+  "started": 3585,
   "accepted": 971,
-  "deferredProblems": 9,
-  "deferredProfileAssignments": 9,
+  "deferredProblems": 23,
+  "deferredProfileAssignments": 23,
   "reviewRequired": 0,
   "remainingAccessible": 2657,
   "remoteTests": 1,
@@ -7176,9 +7176,9 @@
       "cohort": "terra-control",
       "stage": 1,
       "enabled": true,
-      "started": 3524,
+      "started": 3584,
       "accepted": 970,
-      "deferred": 9,
+      "deferred": 23,
       "reviewRequired": 0,
       "remoteTests": 0,
       "submissions": 999,
@@ -7195,9 +7195,9 @@
           "deferred": 1
         },
         "HARD": {
-          "started": 740,
+          "started": 800,
           "accepted": 484,
-          "deferred": 8
+          "deferred": 22
         },
         "MEDIUM": {
           "started": 1836,
@@ -7225,15 +7225,29 @@
     "sol-ultra": [],
     "terra-low": [],
     "terra-medium": [
+      "Db3wC1",
+      "K8GULz",
+      "count-good-integers-on-a-grid-path",
+      "count-non-decreasing-arrays-with-given-digit-sums",
       "count-number-of-trapezoids-ii",
       "find-users-with-valid-e-mails",
+      "good-subsequence-queries",
+      "lexicographically-maximum-mex-array",
+      "maximize-fixed-points-after-deletions",
+      "maximum-score-with-co-prime-element",
+      "maximum-sum-of-alternating-subsequence-with-distance-at-least-k",
+      "maximum-sum-of-m-non-overlapping-subarrays-ii",
       "maximum-total-subarray-value-ii",
+      "maximum-value-of-concatenated-binary-segments",
       "maximum-walls-destroyed-by-robots",
       "minimum-steps-to-convert-string-with-operations",
       "next-special-palindrome-number",
+      "number-of-pairs-after-increment",
       "partition-array-for-maximum-xor-and-and",
+      "smallest-unique-subarray",
       "sum-of-beautiful-subsequences",
-      "threshold-majority-queries"
+      "threshold-majority-queries",
+      "you-le-yuan-de-you-lan-ji-hua"
     ]
   },
   "reviewRequiredByProfile": {
@@ -7247,7 +7261,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 3525,
+    "startedProfileAssignments": 3585,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"

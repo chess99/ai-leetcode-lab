@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000028,
+  "questionId": "1000028",
+  "questionFrontendId": "面试题 17.20",
+  "titleSlug": "continuous-median-lcci",
+  "title": "Continuous Median LCCI",
+  "translatedTitle": "连续中值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/continuous-median-lcci/",
+  "createdAt": "2026-08-12T18:34:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

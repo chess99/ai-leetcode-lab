@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000010,
+  "questionId": "1000010",
+  "questionFrontendId": "面试题 04.09",
+  "titleSlug": "bst-sequences-lcci",
+  "title": "BST Sequences LCCI",
+  "translatedTitle": "二叉搜索树序列",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/bst-sequences-lcci/",
+  "createdAt": "2026-08-12T18:34:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
