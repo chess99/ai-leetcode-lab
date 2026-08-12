@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2744,
+  "questionId": "2744",
+  "questionFrontendId": "2630",
+  "titleSlug": "memoize-ii",
+  "title": "Memoize II",
+  "translatedTitle": "记忆函数 II",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "typescript",
+  "solutionFile": "solution.ts",
+  "source": "https://leetcode.cn/problems/memoize-ii/",
+  "createdAt": "2026-08-12T14:41:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

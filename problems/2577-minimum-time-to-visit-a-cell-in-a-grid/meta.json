@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2711,
+  "questionId": "2711",
+  "questionFrontendId": "2577",
+  "titleSlug": "minimum-time-to-visit-a-cell-in-a-grid",
+  "title": "Minimum Time to Visit a Cell In a Grid",
+  "translatedTitle": "在网格图中访问一个格子的最少时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-visit-a-cell-in-a-grid/",
+  "createdAt": "2026-08-12T14:40:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

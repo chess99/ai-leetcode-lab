@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2681,
+  "questionId": "2681",
+  "questionFrontendId": "2551",
+  "titleSlug": "put-marbles-in-bags",
+  "title": "Put Marbles in Bags",
+  "translatedTitle": "将珠子放入背包中",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/put-marbles-in-bags/",
+  "createdAt": "2026-08-12T14:40:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

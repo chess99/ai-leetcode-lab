@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2884,
+  "questionId": "2884",
+  "questionFrontendId": "2781",
+  "titleSlug": "length-of-the-longest-valid-substring",
+  "title": "Length of the Longest Valid Substring",
+  "translatedTitle": "最长合法子字符串的长度",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/length-of-the-longest-valid-substring/",
+  "createdAt": "2026-08-12T14:40:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

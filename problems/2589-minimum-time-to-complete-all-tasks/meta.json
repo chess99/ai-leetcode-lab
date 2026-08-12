@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2657,
+  "questionId": "2657",
+  "questionFrontendId": "2589",
+  "titleSlug": "minimum-time-to-complete-all-tasks",
+  "title": "Minimum Time to Complete All Tasks",
+  "translatedTitle": "完成所有任务的最少时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-complete-all-tasks/",
+  "createdAt": "2026-08-12T14:40:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2682,
+  "questionId": "2682",
+  "questionFrontendId": "2552",
+  "titleSlug": "count-increasing-quadruplets",
+  "title": "Count Increasing Quadruplets",
+  "translatedTitle": "统计上升四元组",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-increasing-quadruplets/",
+  "createdAt": "2026-08-12T14:40:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

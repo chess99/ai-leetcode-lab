@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2703,
+  "questionId": "2703",
+  "questionFrontendId": "2569",
+  "titleSlug": "handling-sum-queries-after-update",
+  "title": "Handling Sum Queries After Update",
+  "translatedTitle": "更新数组后处理求和查询",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/handling-sum-queries-after-update/",
+  "createdAt": "2026-08-12T14:40:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

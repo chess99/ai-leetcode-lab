@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2905,
+  "questionId": "2905",
+  "questionFrontendId": "2791",
+  "titleSlug": "count-paths-that-can-form-a-palindrome-in-a-tree",
+  "title": "Count Paths That Can Form a Palindrome in a Tree",
+  "translatedTitle": "树中可以形成回文的路径数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-paths-that-can-form-a-palindrome-in-a-tree/",
+  "createdAt": "2026-08-12T14:40:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

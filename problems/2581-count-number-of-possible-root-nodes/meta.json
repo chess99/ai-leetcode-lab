@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2652,
+  "questionId": "2652",
+  "questionFrontendId": "2581",
+  "titleSlug": "count-number-of-possible-root-nodes",
+  "title": "Count Number of Possible Root Nodes",
+  "translatedTitle": "统计可能的树根数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-number-of-possible-root-nodes/",
+  "createdAt": "2026-08-12T14:40:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

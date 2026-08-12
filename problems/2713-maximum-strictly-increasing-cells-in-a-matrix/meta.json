@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2818,
+  "questionId": "2818",
+  "questionFrontendId": "2713",
+  "titleSlug": "maximum-strictly-increasing-cells-in-a-matrix",
+  "title": "Maximum Strictly Increasing Cells in a Matrix",
+  "translatedTitle": "矩阵中严格递增的单元格数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-strictly-increasing-cells-in-a-matrix/",
+  "createdAt": "2026-08-12T14:40:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2671,
+  "questionId": "2671",
+  "questionFrontendId": "2608",
+  "titleSlug": "shortest-cycle-in-a-graph",
+  "title": "Shortest Cycle in a Graph",
+  "translatedTitle": "图中的最短环",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/shortest-cycle-in-a-graph/",
+  "createdAt": "2026-08-12T14:40:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

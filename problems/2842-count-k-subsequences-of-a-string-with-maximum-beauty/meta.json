@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3057,
+  "questionId": "3057",
+  "questionFrontendId": "2842",
+  "titleSlug": "count-k-subsequences-of-a-string-with-maximum-beauty",
+  "title": "Count K-Subsequences of a String With Maximum Beauty",
+  "translatedTitle": "统计一个字符串的 k 子序列美丽值最大的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-k-subsequences-of-a-string-with-maximum-beauty/",
+  "createdAt": "2026-08-12T14:40:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

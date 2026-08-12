@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2635,
+  "questionId": "2635",
+  "questionFrontendId": "2543",
+  "titleSlug": "check-if-point-is-reachable",
+  "title": "Check if Point Is Reachable",
+  "translatedTitle": "判断一个点是否可以到达",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-point-is-reachable/",
+  "createdAt": "2026-08-12T14:40:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

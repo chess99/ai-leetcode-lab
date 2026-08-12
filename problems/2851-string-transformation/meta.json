@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3024,
+  "questionId": "3024",
+  "questionFrontendId": "2851",
+  "titleSlug": "string-transformation",
+  "title": "String Transformation",
+  "translatedTitle": "字符串转换",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/string-transformation/",
+  "createdAt": "2026-08-12T14:40:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

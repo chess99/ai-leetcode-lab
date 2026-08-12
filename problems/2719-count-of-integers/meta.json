@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2757,
+  "questionId": "2757",
+  "questionFrontendId": "2719",
+  "titleSlug": "count-of-integers",
+  "title": "Count of Integers",
+  "translatedTitle": "统计整数数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-of-integers/",
+  "createdAt": "2026-08-12T14:40:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

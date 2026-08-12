@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2642,
+  "questionId": "2642",
+  "questionFrontendId": "2532",
+  "titleSlug": "time-to-cross-a-bridge",
+  "title": "Time to Cross a Bridge",
+  "translatedTitle": "过桥的时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/time-to-cross-a-bridge/",
+  "createdAt": "2026-08-12T14:40:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

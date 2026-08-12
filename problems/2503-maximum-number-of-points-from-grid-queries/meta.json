@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2588,
+  "questionId": "2588",
+  "questionFrontendId": "2503",
+  "titleSlug": "maximum-number-of-points-from-grid-queries",
+  "title": "Maximum Number of Points From Grid Queries",
+  "translatedTitle": "矩阵查询可获得的最大分数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-points-from-grid-queries/",
+  "createdAt": "2026-08-12T14:40:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

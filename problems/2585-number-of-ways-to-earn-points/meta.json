@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2648,
+  "questionId": "2648",
+  "questionFrontendId": "2585",
+  "titleSlug": "number-of-ways-to-earn-points",
+  "title": "Number of Ways to Earn Points",
+  "translatedTitle": "获得分数的方法数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-earn-points/",
+  "createdAt": "2026-08-12T14:40:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

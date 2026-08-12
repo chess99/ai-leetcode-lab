@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3105,
+  "questionId": "3105",
+  "questionFrontendId": "2858",
+  "titleSlug": "minimum-edge-reversals-so-every-node-is-reachable",
+  "title": "Minimum Edge Reversals So Every Node Is Reachable",
+  "translatedTitle": "可以到达每一个节点的最少边反转次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-edge-reversals-so-every-node-is-reachable/",
+  "createdAt": "2026-08-12T14:40:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

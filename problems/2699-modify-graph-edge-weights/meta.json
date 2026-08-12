@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2803,
+  "questionId": "2803",
+  "questionFrontendId": "2699",
+  "titleSlug": "modify-graph-edge-weights",
+  "title": "Modify Graph Edge Weights",
+  "translatedTitle": "修改图中的边权",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/modify-graph-edge-weights/",
+  "createdAt": "2026-08-12T14:40:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

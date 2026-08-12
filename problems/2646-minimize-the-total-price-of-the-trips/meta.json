@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2739,
+  "questionId": "2739",
+  "questionFrontendId": "2646",
+  "titleSlug": "minimize-the-total-price-of-the-trips",
+  "title": "Minimize the Total Price of the Trips",
+  "translatedTitle": "最小化旅行的价格总和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimize-the-total-price-of-the-trips/",
+  "createdAt": "2026-08-12T14:40:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

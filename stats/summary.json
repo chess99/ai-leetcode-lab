@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-12T14:38:19Z",
+  "generatedAt": "2026-08-12T15:53:21Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -9,18 +9,18 @@
   "archivedDetails": 4406,
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
-  "started": 3225,
-  "accepted": 924,
+  "started": 3345,
+  "accepted": 971,
   "deferredProblems": 1,
   "deferredProfileAssignments": 1,
   "reviewRequired": 0,
-  "remainingAccessible": 2704,
+  "remainingAccessible": 2657,
   "remoteTests": 1,
-  "submissions": 950,
-  "firstSubmissionAccepted": 905,
-  "firstRoundAccepted": 924,
-  "firstSubmissionAcceptanceRate": 0.9794372294372294,
-  "overallSubmissionAcceptanceRate": 0.9726315789473684,
+  "submissions": 1000,
+  "firstSubmissionAccepted": 952,
+  "firstRoundAccepted": 971,
+  "firstSubmissionAcceptanceRate": 0.98043254376931,
+  "overallSubmissionAcceptanceRate": 0.971,
   "byDifficulty": {
     "EASY": {
       "total": 1078,
@@ -28,7 +28,7 @@
     },
     "HARD": {
       "total": 1032,
-      "accepted": 437
+      "accepted": 484
     },
     "MEDIUM": {
       "total": 2296,
@@ -41,7 +41,7 @@
       "terra-medium": 485
     },
     "HARD": {
-      "terra-medium": 437
+      "terra-medium": 484
     },
     "MEDIUM": {
       "terra-medium": 1
@@ -93,6 +93,13 @@
     "add-digits": {
       "frontendId": "258",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "add-edges-to-make-degrees-of-all-nodes-even": {
+      "frontendId": "2508",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -650,6 +657,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "check-if-point-is-reachable": {
+      "frontendId": "2543",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "check-if-string-is-a-prefix-of-array": {
       "frontendId": "1961",
       "difficulty": "EASY",
@@ -895,6 +909,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "count-anagrams": {
+      "frontendId": "2514",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "count-array-pairs-divisible-by-k": {
       "frontendId": "2183",
       "difficulty": "HARD",
@@ -972,6 +993,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "count-increasing-quadruplets": {
+      "frontendId": "2552",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "count-integers-in-intervals": {
       "frontendId": "2276",
       "difficulty": "HARD",
@@ -1014,6 +1042,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "count-number-of-possible-root-nodes": {
+      "frontendId": "2581",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "count-number-of-special-subsequences": {
       "frontendId": "1955",
       "difficulty": "HARD",
@@ -1024,6 +1059,13 @@
     "count-odd-numbers-in-an-interval-range": {
       "frontendId": "1523",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "count-of-integers": {
+      "frontendId": "2719",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -1070,6 +1112,20 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "count-palindromic-subsequences": {
+      "frontendId": "2484",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "count-paths-that-can-form-a-palindrome-in-a-tree": {
+      "frontendId": "2791",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "count-special-integers": {
       "frontendId": "2376",
       "difficulty": "HARD",
@@ -1091,8 +1147,22 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "count-stepping-numbers-in-range": {
+      "frontendId": "2801",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "count-subarrays-with-fixed-bounds": {
       "frontendId": "2444",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "count-subarrays-with-median-k": {
+      "frontendId": "2488",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -1280,6 +1350,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "cycle-length-queries-in-a-tree": {
+      "frontendId": "2509",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "daily-leads-and-partners": {
       "frontendId": "1693",
       "difficulty": "EASY",
@@ -1420,6 +1497,20 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "design-cancellable-function": {
+      "frontendId": "2650",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "design-graph-with-shortest-path-calculator": {
+      "frontendId": "2642",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "design-hashmap": {
       "frontendId": "706",
       "difficulty": "EASY",
@@ -1518,6 +1609,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "difference-between-maximum-and-minimum-price-sum": {
+      "frontendId": "2538",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "dinner-plate-stacks": {
       "frontendId": "1172",
       "difficulty": "HARD",
@@ -1584,6 +1682,13 @@
     "divide-array-into-equal-pairs": {
       "frontendId": "2206",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "divide-nodes-into-the-maximum-number-of-groups": {
+      "frontendId": "2493",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -1766,6 +1871,13 @@
     "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree": {
       "frontendId": "1379",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "find-a-good-subset-of-the-matrix": {
+      "frontendId": "2732",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -2078,6 +2190,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "find-the-string-with-lcp": {
+      "frontendId": "2573",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "find-the-town-judge": {
       "frontendId": "997",
       "difficulty": "EASY",
@@ -2267,6 +2386,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "greatest-common-divisor-traversal": {
+      "frontendId": "2709",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "greatest-english-letter-in-upper-and-lower-case": {
       "frontendId": "2309",
       "difficulty": "EASY",
@@ -2312,6 +2438,13 @@
     "hamming-distance": {
       "frontendId": "461",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "handling-sum-queries-after-update": {
+      "frontendId": "2569",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -2708,6 +2841,20 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "length-of-the-longest-valid-substring": {
+      "frontendId": "2781",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "lexicographically-smallest-beautiful-string": {
+      "frontendId": "2663",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "lfu-cache": {
       "frontendId": "460",
       "difficulty": "HARD",
@@ -2883,6 +3030,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "make-array-empty": {
+      "frontendId": "2659",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "make-array-strictly-increasing": {
       "frontendId": "1187",
       "difficulty": "HARD",
@@ -3019,6 +3173,13 @@
     "maximize-sum-of-array-after-k-negations": {
       "frontendId": "1005",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "maximize-the-minimum-powered-city": {
+      "frontendId": "2528",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -3191,6 +3352,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "maximum-number-of-groups-with-increasing-length": {
+      "frontendId": "2790",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "maximum-number-of-non-overlapping-palindrome-substrings": {
       "frontendId": "2472",
       "difficulty": "HARD",
@@ -3200,6 +3368,13 @@
     },
     "maximum-number-of-non-overlapping-substrings": {
       "frontendId": "1520",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "maximum-number-of-points-from-grid-queries": {
+      "frontendId": "2503",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -3387,6 +3562,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "maximum-sum-queries": {
+      "frontendId": "2736",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "maximum-total-beauty-of-the-gardens": {
       "frontendId": "2234",
       "difficulty": "HARD",
@@ -3431,6 +3613,13 @@
     },
     "meeting-rooms-iii": {
       "frontendId": "2402",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "memoize-ii": {
+      "frontendId": "2630",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -3515,6 +3704,13 @@
     },
     "minimize-malware-spread-ii": {
       "frontendId": "928",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "minimize-the-total-price-of-the-trips": {
+      "frontendId": "2646",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -3627,6 +3823,13 @@
     },
     "minimum-cost-to-reach-destination-in-time": {
       "frontendId": "1928",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "minimum-cost-to-split-an-array": {
+      "frontendId": "2547",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -3863,6 +4066,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "minimum-number-of-visited-cells-in-a-grid": {
+      "frontendId": "2617",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "minimum-obstacle-removal-to-reach-corner": {
       "frontendId": "2290",
       "difficulty": "HARD",
@@ -3907,6 +4117,13 @@
     },
     "minimum-replacements-to-sort-the-array": {
       "frontendId": "2366",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "minimum-reverse-operations": {
+      "frontendId": "2612",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -3961,6 +4178,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "minimum-time-to-make-array-sum-at-most-x": {
+      "frontendId": "2809",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "minimum-time-to-remove-all-cars-containing-illegal-goods": {
       "frontendId": "2167",
       "difficulty": "HARD",
@@ -3975,9 +4199,23 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "minimum-time-to-visit-a-cell-in-a-grid": {
+      "frontendId": "2577",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "minimum-time-visiting-all-points": {
       "frontendId": "1266",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "minimum-total-cost-to-make-arrays-unequal": {
+      "frontendId": "2499",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -4027,6 +4265,13 @@
     "missing-number": {
       "frontendId": "268",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "modify-graph-edge-weights": {
+      "frontendId": "2699",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -4262,6 +4507,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "number-of-great-partitions": {
+      "frontendId": "2518",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "number-of-increasing-paths-in-a-grid": {
       "frontendId": "2328",
       "difficulty": "HARD",
@@ -4409,6 +4661,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "number-of-ways-to-earn-points": {
+      "frontendId": "2585",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "number-of-ways-to-form-a-target-string-given-a-dictionary": {
       "frontendId": "1639",
       "difficulty": "HARD",
@@ -4516,6 +4775,13 @@
     },
     "painting-a-grid-with-three-different-colors": {
       "frontendId": "1931",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "painting-the-walls": {
+      "frontendId": "2742",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -4717,6 +4983,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "power-of-heroes": {
+      "frontendId": "2681",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "power-of-three": {
       "frontendId": "326",
       "difficulty": "EASY",
@@ -4815,6 +5088,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "put-marbles-in-bags": {
+      "frontendId": "2551",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "queries-quality-and-percentage": {
       "frontendId": "1211",
       "difficulty": "EASY",
@@ -4909,6 +5189,13 @@
     "rearrange-spaces-between-words": {
       "frontendId": "1592",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "rearranging-fruits": {
+      "frontendId": "2561",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -5263,6 +5550,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "robot-collisions": {
+      "frontendId": "2751",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "robot-return-to-origin": {
       "frontendId": "657",
       "difficulty": "EASY",
@@ -5434,6 +5728,13 @@
     "shortest-completing-word": {
       "frontendId": "748",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "shortest-cycle-in-a-graph": {
+      "frontendId": "2608",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -5704,6 +6005,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "split-the-array-to-make-coprime-products": {
+      "frontendId": "2584",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "sqrtx": {
       "frontendId": "69",
       "difficulty": "EASY",
@@ -5844,6 +6152,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "subsequence-with-the-minimum-score": {
+      "frontendId": "2565",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "substring-with-concatenation-of-all-words": {
       "frontendId": "30",
       "difficulty": "HARD",
@@ -5923,6 +6238,13 @@
     },
     "sum-of-floored-pairs": {
       "frontendId": "1862",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "sum-of-imbalance-numbers-of-all-subarrays": {
+      "frontendId": "2763",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -6169,6 +6491,13 @@
     "time-needed-to-buy-tickets": {
       "frontendId": "2073",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "time-to-cross-a-bridge": {
+      "frontendId": "2532",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -6519,11 +6848,11 @@
   },
   "acceptedByProfile": {
     "sol-xhigh": 1,
-    "terra-medium": 923
+    "terra-medium": 970
   },
   "acceptedByAgent": {
     "Codex Desktop / gpt-5.6-sol": 1,
-    "Codex Desktop / gpt-5.6-terra": 923
+    "Codex Desktop / gpt-5.6-terra": 970
   },
   "profiles": {
     "sol-low": {
@@ -6847,18 +7176,18 @@
       "cohort": "terra-control",
       "stage": 1,
       "enabled": true,
-      "started": 3224,
-      "accepted": 923,
+      "started": 3344,
+      "accepted": 970,
       "deferred": 1,
       "reviewRequired": 0,
       "remoteTests": 0,
-      "submissions": 949,
-      "failedSubmissions": 26,
-      "firstSubmissionAccepted": 904,
-      "remoteElapsedReports": 1066,
-      "remoteElapsedSeconds": 3926.981,
-      "averageSolveWallSeconds": 4203.975081256772,
-      "medianSolveWallSeconds": 367.0,
+      "submissions": 999,
+      "failedSubmissions": 29,
+      "firstSubmissionAccepted": 951,
+      "remoteElapsedReports": 1122,
+      "remoteElapsedSeconds": 4133.784,
+      "averageSolveWallSeconds": 4066.637113402062,
+      "medianSolveWallSeconds": 689.0,
       "byDifficulty": {
         "EASY": {
           "started": 948,
@@ -6866,8 +7195,8 @@
           "deferred": 1
         },
         "HARD": {
-          "started": 440,
-          "accepted": 437,
+          "started": 560,
+          "accepted": 484,
           "deferred": 0
         },
         "MEDIUM": {
@@ -6910,7 +7239,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 3225,
+    "startedProfileAssignments": 3345,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"

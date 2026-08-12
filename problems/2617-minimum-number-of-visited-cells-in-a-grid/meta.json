@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2697,
+  "questionId": "2697",
+  "questionFrontendId": "2617",
+  "titleSlug": "minimum-number-of-visited-cells-in-a-grid",
+  "title": "Minimum Number of Visited Cells in a Grid",
+  "translatedTitle": "网格图中最少访问的格子数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-visited-cells-in-a-grid/",
+  "createdAt": "2026-08-12T14:40:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

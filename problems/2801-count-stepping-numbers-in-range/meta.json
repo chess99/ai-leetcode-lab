@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2921,
+  "questionId": "2921",
+  "questionFrontendId": "2801",
+  "titleSlug": "count-stepping-numbers-in-range",
+  "title": "Count Stepping Numbers in Range",
+  "translatedTitle": "统计范围内的步进数字数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-stepping-numbers-in-range/",
+  "createdAt": "2026-08-12T14:40:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

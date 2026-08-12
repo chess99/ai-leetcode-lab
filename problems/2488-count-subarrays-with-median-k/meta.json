@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2574,
+  "questionId": "2574",
+  "questionFrontendId": "2488",
+  "titleSlug": "count-subarrays-with-median-k",
+  "title": "Count Subarrays With Median K",
+  "translatedTitle": "统计中位数为 K 的子数组",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-subarrays-with-median-k/",
+  "createdAt": "2026-08-12T14:40:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

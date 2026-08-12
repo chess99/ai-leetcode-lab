@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2605,
+  "questionId": "2605",
+  "questionFrontendId": "2514",
+  "titleSlug": "count-anagrams",
+  "title": "Count Anagrams",
+  "translatedTitle": "统计同位异构字符串数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-anagrams/",
+  "createdAt": "2026-08-12T14:40:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
