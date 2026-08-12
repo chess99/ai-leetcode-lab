@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100305,
+  "questionId": "100305",
+  "questionFrontendId": "LCR 155",
+  "titleSlug": "er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof",
+  "title": "将二叉搜索树转化为排序的双向链表",
+  "translatedTitle": "将二叉搜索树转化为排序的双向链表",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/",
+  "createdAt": "2026-08-12T04:46:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

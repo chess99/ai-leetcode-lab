@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000271,
+  "questionId": "1000271",
+  "questionFrontendId": "LCR 093",
+  "titleSlug": "Q91FMA",
+  "title": "最长的斐波那契子序列的长度",
+  "translatedTitle": "最长的斐波那契子序列的长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/Q91FMA/",
+  "createdAt": "2026-08-12T04:46:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

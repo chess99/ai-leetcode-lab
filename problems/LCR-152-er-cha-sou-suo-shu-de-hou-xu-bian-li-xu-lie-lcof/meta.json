@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100315,
+  "questionId": "100315",
+  "questionFrontendId": "LCR 152",
+  "titleSlug": "er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof",
+  "title": "验证二叉搜索树的后序遍历序列",
+  "translatedTitle": "验证二叉搜索树的后序遍历序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/",
+  "createdAt": "2026-08-12T04:46:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
