@@ -5,14 +5,14 @@
 # Profile: terra-medium
 # Created: 2026-08-11T17:53:40Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
 from collections import deque
 from typing import List
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode:
+    def __init__(self, x):
+        self.val, self.left, self.right = x, None, None
 
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
