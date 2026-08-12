@@ -5,13 +5,14 @@
 # Profile: terra-medium
 # Created: 2026-08-11T16:26:41Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
 from typing import Optional
 
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val, self.next = val, next
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
         """

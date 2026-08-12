@@ -14,6 +14,9 @@ class Node:
         self.right = right
         self.next = next
 """
+class Node:
+    def __init__(self, val=0, left=None, right=None, next=None):
+        self.val, self.left, self.right, self.next = val, left, right, next
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':

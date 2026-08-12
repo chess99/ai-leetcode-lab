@@ -5,14 +5,14 @@
 # Profile: terra-medium
 # Created: 2026-08-11T16:29:22Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
 from typing import Optional
 
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val, self.left, self.right = val, left, right
 class BSTIterator:
 
     def __init__(self, root: Optional[TreeNode]):

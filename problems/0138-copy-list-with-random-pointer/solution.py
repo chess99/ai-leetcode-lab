@@ -13,6 +13,11 @@ class Node:
         self.next = next
         self.random = random
 """
+class Node:
+    def __init__(self, x, next=None, random=None):
+        self.val, self.next, self.random = int(x), next, random
+
+from typing import Optional
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
