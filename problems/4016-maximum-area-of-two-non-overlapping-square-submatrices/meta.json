@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4120,
+  "questionId": "4120",
+  "questionFrontendId": "4016",
+  "titleSlug": "maximum-area-of-two-non-overlapping-square-submatrices",
+  "title": "Maximum Area of Two Non-Overlapping Square Submatrices",
+  "translatedTitle": "两个不重叠子正方形的最大面积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-area-of-two-non-overlapping-square-submatrices/",
+  "createdAt": "2026-08-12T03:37:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4203,
+  "questionId": "4203",
+  "questionFrontendId": "4012",
+  "titleSlug": "count-of-unfinished-tasks-after-each-shift",
+  "title": "Count of Unfinished Tasks After Each Shift",
+  "translatedTitle": "统计每个班次结束后的未完成任务数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-of-unfinished-tasks-after-each-shift/",
+  "createdAt": "2026-08-12T03:37:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

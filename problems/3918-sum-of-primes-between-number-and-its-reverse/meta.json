@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4297,
+  "questionId": "4297",
+  "questionFrontendId": "3918",
+  "titleSlug": "sum-of-primes-between-number-and-its-reverse",
+  "title": "Sum of Primes Between Number and Its Reverse",
+  "translatedTitle": "数与其逆序数之间的质数和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-primes-between-number-and-its-reverse/",
+  "createdAt": "2026-08-12T03:37:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

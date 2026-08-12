@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4283,
+  "questionId": "4283",
+  "questionFrontendId": "3905",
+  "titleSlug": "multi-source-flood-fill",
+  "title": "Multi Source Flood Fill",
+  "translatedTitle": "多源图像渲染",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/multi-source-flood-fill/",
+  "createdAt": "2026-08-12T03:37:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

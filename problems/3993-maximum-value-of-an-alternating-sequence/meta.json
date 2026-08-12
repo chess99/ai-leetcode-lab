@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4364,
+  "questionId": "4364",
+  "questionFrontendId": "3993",
+  "titleSlug": "maximum-value-of-an-alternating-sequence",
+  "title": "Maximum Value of an Alternating Sequence",
+  "translatedTitle": "交替数列的最大元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-value-of-an-alternating-sequence/",
+  "createdAt": "2026-08-12T03:37:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

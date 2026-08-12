@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4277,
+  "questionId": "4277",
+  "questionFrontendId": "3896",
+  "titleSlug": "minimum-operations-to-transform-array-into-alternating-prime",
+  "title": "Minimum Operations to Transform Array into Alternating Prime",
+  "translatedTitle": "将数组转换为交替质数数组的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-transform-array-into-alternating-prime/",
+  "createdAt": "2026-08-12T03:37:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

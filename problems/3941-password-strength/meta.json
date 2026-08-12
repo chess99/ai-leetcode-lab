@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4313,
+  "questionId": "4313",
+  "questionFrontendId": "3941",
+  "titleSlug": "password-strength",
+  "title": "Password Strength",
+  "translatedTitle": "密码强度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/password-strength/",
+  "createdAt": "2026-08-12T03:37:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

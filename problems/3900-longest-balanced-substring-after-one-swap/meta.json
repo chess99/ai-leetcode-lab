@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4265,
+  "questionId": "4265",
+  "questionFrontendId": "3900",
+  "titleSlug": "longest-balanced-substring-after-one-swap",
+  "title": "Longest Balanced Substring After One Swap",
+  "translatedTitle": "一次交换后的最长平衡子串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-balanced-substring-after-one-swap/",
+  "createdAt": "2026-08-12T03:37:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

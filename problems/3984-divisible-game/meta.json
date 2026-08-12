@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4188,
+  "questionId": "4188",
+  "questionFrontendId": "3984",
+  "titleSlug": "divisible-game",
+  "title": "Divisible Game",
+  "translatedTitle": "可整除游戏",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/divisible-game/",
+  "createdAt": "2026-08-12T03:37:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

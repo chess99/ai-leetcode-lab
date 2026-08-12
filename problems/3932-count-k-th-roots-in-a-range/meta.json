@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4303,
+  "questionId": "4303",
+  "questionFrontendId": "3932",
+  "titleSlug": "count-k-th-roots-in-a-range",
+  "title": "Count K-th Roots in a Range",
+  "translatedTitle": "统计区间内的完全 K 次幂数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-k-th-roots-in-a-range/",
+  "createdAt": "2026-08-12T03:37:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

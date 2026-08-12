@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4338,
+  "questionId": "4338",
+  "questionFrontendId": "4001",
+  "titleSlug": "aggregate-two-time-series",
+  "title": "Aggregate Two Time Series",
+  "translatedTitle": "聚合两个时间序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/aggregate-two-time-series/",
+  "createdAt": "2026-08-12T03:37:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

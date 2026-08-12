@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4334,
+  "questionId": "4334",
+  "questionFrontendId": "3980",
+  "titleSlug": "minimum-operations-to-transform-binary-string",
+  "title": "Minimum Operations to Transform Binary String",
+  "translatedTitle": "变换二进制字符串的最少操作次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-transform-binary-string/",
+  "createdAt": "2026-08-12T03:37:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

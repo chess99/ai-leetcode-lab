@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4343,
+  "questionId": "4343",
+  "questionFrontendId": "3988",
+  "titleSlug": "create-grid-with-exactly-k-paths-i",
+  "title": "Create Grid With Exactly K Paths I",
+  "translatedTitle": "创建一个恰好有 K 条路径的网格图 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/create-grid-with-exactly-k-paths-i/",
+  "createdAt": "2026-08-12T03:37:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

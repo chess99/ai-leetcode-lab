@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4292,
+  "questionId": "4292",
+  "questionFrontendId": "3909",
+  "titleSlug": "compare-sums-of-bitonic-parts",
+  "title": "Compare Sums of Bitonic Parts",
+  "translatedTitle": "比较双调部分的和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/compare-sums-of-bitonic-parts/",
+  "createdAt": "2026-08-12T03:37:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

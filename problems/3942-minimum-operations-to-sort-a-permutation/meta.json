@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4184,
+  "questionId": "4184",
+  "questionFrontendId": "3942",
+  "titleSlug": "minimum-operations-to-sort-a-permutation",
+  "title": "Minimum Operations to Sort a Permutation",
+  "translatedTitle": "排序排列的最少操作数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-sort-a-permutation/",
+  "createdAt": "2026-08-12T03:37:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

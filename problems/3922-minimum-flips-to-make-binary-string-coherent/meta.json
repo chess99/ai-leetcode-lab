@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4131,
+  "questionId": "4131",
+  "questionFrontendId": "3922",
+  "titleSlug": "minimum-flips-to-make-binary-string-coherent",
+  "title": "Minimum Flips to Make Binary String Coherent",
+  "translatedTitle": "使二进制字符串连贯的最少翻转次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-flips-to-make-binary-string-coherent/",
+  "createdAt": "2026-08-12T03:37:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

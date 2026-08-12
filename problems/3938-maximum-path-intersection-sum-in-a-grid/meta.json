@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3901,
+  "questionId": "3901",
+  "questionFrontendId": "3938",
+  "titleSlug": "maximum-path-intersection-sum-in-a-grid",
+  "title": "Maximum Path Intersection Sum in a Grid",
+  "translatedTitle": "矩阵中最大共享路径和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-path-intersection-sum-in-a-grid/",
+  "createdAt": "2026-08-12T03:37:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3724,
+  "questionId": "3724",
+  "questionFrontendId": "3975",
+  "titleSlug": "filter-occupied-intervals",
+  "title": "Filter Occupied Intervals",
+  "translatedTitle": "筛选忙碌区间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/filter-occupied-intervals/",
+  "createdAt": "2026-08-12T03:37:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

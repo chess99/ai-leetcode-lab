@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3730,
+  "questionId": "3730",
+  "questionFrontendId": "3976",
+  "titleSlug": "maximum-subarray-sum-after-multiplier",
+  "title": "Maximum Subarray Sum After Multiplier",
+  "translatedTitle": "乘以系数后最大子数组和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-subarray-sum-after-multiplier/",
+  "createdAt": "2026-08-12T03:37:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

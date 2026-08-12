@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4301,
+  "questionId": "4301",
+  "questionFrontendId": "3927",
+  "titleSlug": "minimize-array-sum-using-divisible-replacements",
+  "title": "Minimize Array Sum Using Divisible Replacements",
+  "translatedTitle": "可整除替换后的数组最小元素和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimize-array-sum-using-divisible-replacements/",
+  "createdAt": "2026-08-12T03:37:27Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

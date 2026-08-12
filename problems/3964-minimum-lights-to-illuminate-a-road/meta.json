@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4330,
+  "questionId": "4330",
+  "questionFrontendId": "3964",
+  "titleSlug": "minimum-lights-to-illuminate-a-road",
+  "title": "Minimum Lights to Illuminate a Road",
+  "translatedTitle": "照亮道路的最少灯泡数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-lights-to-illuminate-a-road/",
+  "createdAt": "2026-08-12T03:37:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

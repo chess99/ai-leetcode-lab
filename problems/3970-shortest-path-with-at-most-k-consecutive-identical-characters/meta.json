@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4104,
+  "questionId": "4104",
+  "questionFrontendId": "3970",
+  "titleSlug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+  "title": "Shortest Path With At Most K Consecutive Identical Characters",
+  "translatedTitle": "最多 K 个连续相同字符的最短路径",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/shortest-path-with-at-most-k-consecutive-identical-characters/",
+  "createdAt": "2026-08-12T03:37:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

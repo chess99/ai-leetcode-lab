@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4323,
+  "questionId": "4323",
+  "questionFrontendId": "4011",
+  "titleSlug": "count-subarrays-with-even-odd-ratio-i",
+  "title": "Count Subarrays With Even Odd Ratio I",
+  "translatedTitle": "按奇偶比统计子数组 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-subarrays-with-even-odd-ratio-i/",
+  "createdAt": "2026-08-12T03:37:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

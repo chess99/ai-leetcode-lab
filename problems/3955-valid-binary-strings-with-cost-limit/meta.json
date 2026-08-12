@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4289,
+  "questionId": "4289",
+  "questionFrontendId": "3955",
+  "titleSlug": "valid-binary-strings-with-cost-limit",
+  "title": "Valid Binary Strings With Cost Limit",
+  "translatedTitle": "成本限制的有效二进制字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/valid-binary-strings-with-cost-limit/",
+  "createdAt": "2026-08-12T03:37:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

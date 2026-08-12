@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100096,
+  "questionId": "100096",
+  "questionFrontendId": "LCP 03",
+  "titleSlug": "programmable-robot",
+  "title": "Programmable Robot",
+  "translatedTitle": "机器人大冒险",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/programmable-robot/",
+  "createdAt": "2026-08-12T03:37:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

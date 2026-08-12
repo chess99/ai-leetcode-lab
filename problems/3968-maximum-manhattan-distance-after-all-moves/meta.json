@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4340,
+  "questionId": "4340",
+  "questionFrontendId": "3968",
+  "titleSlug": "maximum-manhattan-distance-after-all-moves",
+  "title": "Maximum Manhattan Distance After All Moves",
+  "translatedTitle": "移动后的最大曼哈顿距离",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-manhattan-distance-after-all-moves/",
+  "createdAt": "2026-08-12T03:37:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4270,
+  "questionId": "4270",
+  "questionFrontendId": "3914",
+  "titleSlug": "minimum-operations-to-make-array-non-decreasing",
+  "title": "Minimum Operations to Make Array Non Decreasing",
+  "translatedTitle": "使数组非递减需要的最小累计值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-array-non-decreasing/",
+  "createdAt": "2026-08-12T03:37:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4300,
+  "questionId": "4300",
+  "questionFrontendId": "3937",
+  "titleSlug": "minimum-operations-to-make-array-modulo-alternating-i",
+  "title": "Minimum Operations to Make Array Modulo Alternating I",
+  "translatedTitle": "使数组变为模交替数组的最少操作次数 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-array-modulo-alternating-i/",
+  "createdAt": "2026-08-12T03:37:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

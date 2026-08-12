@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4318,
+  "questionId": "4318",
+  "questionFrontendId": "3969",
+  "titleSlug": "valid-subarrays-with-matching-sum-digits-i",
+  "title": "Valid Subarrays With Matching Sum Digits I",
+  "translatedTitle": "求和后首尾数字相同的有效子数组 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/valid-subarrays-with-matching-sum-digits-i/",
+  "createdAt": "2026-08-12T03:37:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

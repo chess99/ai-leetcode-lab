@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4133,
+  "questionId": "4133",
+  "questionFrontendId": "3923",
+  "titleSlug": "minimum-generations-to-target-point",
+  "title": "Minimum Generations to Target Point",
+  "translatedTitle": "得到目标点的最少代数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-generations-to-target-point/",
+  "createdAt": "2026-08-12T03:37:26Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

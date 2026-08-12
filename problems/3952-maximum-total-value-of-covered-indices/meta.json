@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4142,
+  "questionId": "4142",
+  "questionFrontendId": "3952",
+  "titleSlug": "maximum-total-value-of-covered-indices",
+  "title": "Maximum Total Value of Covered Indices",
+  "translatedTitle": "下标覆盖处的最大总和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-total-value-of-covered-indices/",
+  "createdAt": "2026-08-12T03:37:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

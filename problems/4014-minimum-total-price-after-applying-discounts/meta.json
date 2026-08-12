@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4363,
+  "questionId": "4363",
+  "questionFrontendId": "4014",
+  "titleSlug": "minimum-total-price-after-applying-discounts",
+  "title": "Minimum Total Price After Applying Discounts",
+  "translatedTitle": "应用折扣后的最低总价",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-total-price-after-applying-discounts/",
+  "createdAt": "2026-08-12T03:37:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
