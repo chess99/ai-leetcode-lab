@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1701,
+  "questionId": "1701",
+  "questionFrontendId": "1579",
+  "titleSlug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+  "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+  "translatedTitle": "保证图可完全遍历",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/",
+  "createdAt": "2026-08-12T11:06:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

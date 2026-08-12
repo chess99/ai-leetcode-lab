@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1633,
+  "questionId": "1633",
+  "questionFrontendId": "1526",
+  "titleSlug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+  "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+  "translatedTitle": "形成目标数组的子数组最少增加次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/",
+  "createdAt": "2026-08-12T08:09:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

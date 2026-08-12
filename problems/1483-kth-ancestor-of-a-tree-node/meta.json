@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1296,
+  "questionId": "1296",
+  "questionFrontendId": "1483",
+  "titleSlug": "kth-ancestor-of-a-tree-node",
+  "title": "Kth Ancestor of a Tree Node",
+  "translatedTitle": "树节点的第 K 个祖先",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/",
+  "createdAt": "2026-08-12T08:09:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

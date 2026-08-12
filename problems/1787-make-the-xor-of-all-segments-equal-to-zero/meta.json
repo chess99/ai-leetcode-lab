@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1913,
+  "questionId": "1913",
+  "questionFrontendId": "1787",
+  "titleSlug": "make-the-xor-of-all-segments-equal-to-zero",
+  "title": "Make the XOR of All Segments Equal to Zero",
+  "translatedTitle": "使所有区间的异或结果为零",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/make-the-xor-of-all-segments-equal-to-zero/",
+  "createdAt": "2026-08-12T11:06:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

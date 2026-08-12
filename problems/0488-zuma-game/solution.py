@@ -51,8 +51,15 @@ class Solution:
                 remaining = tuple(remaining)
                 next_states = set()
                 for position in range(len(state) + 1):
-                    # Positions inside the same run produce an identical board.
-                    if position > 0 and state[position - 1] == color:
+                    # Any useful insertion can be represented by either adding
+                    # beside the same color, or splitting an equal-color pair.
+                    # Other insertions cannot create/prepare a removable run
+                    # more effectively and only explode the state space.
+                    beside_same = position < len(state) and state[position] == color
+                    split_pair = (0 < position < len(state)
+                                  and state[position - 1] == state[position]
+                                  and state[position] != color)
+                    if not beside_same and not split_pair:
                         continue
                     following = shrink(state[:position] + color + state[position:])
                     if following in next_states:
@@ -61,6 +68,8 @@ class Solution:
                     rest = search(following, remaining)
                     if rest >= 0:
                         best = min(best, 1 + rest)
+                        if best == 1:
+                            return best
             return -1 if best == 6 else best
 
         return search(board, tuple(initial[color] for color in colors))

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1766,
+  "questionId": "1766",
+  "questionFrontendId": "1671",
+  "titleSlug": "minimum-number-of-removals-to-make-mountain-array",
+  "title": "Minimum Number of Removals to Make Mountain Array",
+  "translatedTitle": "得到山形数组的最少删除次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array/",
+  "createdAt": "2026-08-12T11:06:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

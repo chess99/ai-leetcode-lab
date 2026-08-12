@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1508,
+  "questionId": "1508",
+  "questionFrontendId": "1392",
+  "titleSlug": "longest-happy-prefix",
+  "title": "Longest Happy Prefix",
+  "translatedTitle": "最长快乐前缀",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-happy-prefix/",
+  "createdAt": "2026-08-12T08:09:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

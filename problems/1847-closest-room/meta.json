@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1957,
+  "questionId": "1957",
+  "questionFrontendId": "1847",
+  "titleSlug": "closest-room",
+  "title": "Closest Room",
+  "translatedTitle": "最近的房间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/closest-room/",
+  "createdAt": "2026-08-12T11:06:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

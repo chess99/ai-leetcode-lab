@@ -67,7 +67,7 @@ sol-low（可选预扫） → sol-medium → sol-high → sol-xhigh → sol-max�
 4. 正式提交只用 `.\ai-lc.ps1 submit <slug> --profile <profile-id>`。
 5. 当前轮三次提交均失败后，只有真正采用不同思路时才能用 `retry` 开启第二轮。
 6. 当前 Profile 不值得继续时，执行 `.\ai-lc.ps1 defer <slug> --profile <profile-id> --reason "..."`，然后继续 `next`，不得让难题阻塞批刷。
-7. Accepted 后立即运行 `.\ai-lc.ps1 stats`，检查归因，再提交本题、追加日志和自动统计。
+7. 单题 Accepted 后立即运行 `.\ai-lc.ps1 stats`，检查归因，再提交本题、追加日志和自动统计。批量提交必须使用仓库脚本暂缓逐题统计，并在整批结束后统一重建一次；不得省略批末统计。
 
 ## 6. 有限尝试预算
 
@@ -113,7 +113,7 @@ Token 数据只有在客户端提供精确用量时才记录：
 2. 一个阶段结束后，把未通过集合交给下一级 Profile。
 3. 每个 worker 一次只处理明确分配的独立题目录；禁止两个 worker 并行修改同一道题。
 4. worker 的所有 CLI 调用都显式传 `--profile`，不得修改共享 `.ai/identity.env`。
-5. LeetCode 远程动作必须尊重 `.runtime/remote-action.lock`，所以本地推理可以并行，远程试跑和提交会串行；连续 HTTP 429 由 CLI 指数退避，worker 不得绕过冷却窗口。
+5. LeetCode 远程动作必须尊重 `.runtime/remote-action.lock` 和 13 秒最小间隔，所以本地推理可以并行，远程试跑和提交会串行；连续 HTTP 429 由 CLI 指数退避，worker 不得绕过冷却窗口。
 6. orchestrator 负责选题、汇总统计和 Git 提交；worker 不提交其他 worker 的文件。
 
 若平台不能控制子 Agent 的模型或推理档位，不得伪造 Profile；改由用户在对应配置的独立任务中运行。

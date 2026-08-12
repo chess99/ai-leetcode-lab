@@ -65,5 +65,8 @@ class Solution:
             return result
 
         polynomial = expression_value()
-        ordered = sorted(polynomial.items(), key=lambda item: (-len(item[0]), item[0]))
+        ordered = sorted(
+            ((term, coefficient) for term, coefficient in polynomial.items() if coefficient),
+            key=lambda item: (-len(item[0]), item[0]),
+        )
         return ['*'.join((str(coefficient),) + term) for term, coefficient in ordered]

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1881,
+  "questionId": "1881",
+  "questionFrontendId": "1755",
+  "titleSlug": "closest-subsequence-sum",
+  "title": "Closest Subsequence Sum",
+  "translatedTitle": "最接近目标值的子序列和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/closest-subsequence-sum/",
+  "createdAt": "2026-08-12T11:06:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

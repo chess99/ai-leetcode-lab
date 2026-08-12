@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1613,
+  "questionId": "1613",
+  "questionFrontendId": "1489",
+  "titleSlug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+  "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+  "translatedTitle": "找到最小生成树里的关键边和伪关键边",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/",
+  "createdAt": "2026-08-12T08:09:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

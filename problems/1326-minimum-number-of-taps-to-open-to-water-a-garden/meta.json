@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1451,
+  "questionId": "1451",
+  "questionFrontendId": "1326",
+  "titleSlug": "minimum-number-of-taps-to-open-to-water-a-garden",
+  "title": "Minimum Number of Taps to Open to Water a Garden",
+  "translatedTitle": "灌溉花园的最少水龙头数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/",
+  "createdAt": "2026-08-12T08:09:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

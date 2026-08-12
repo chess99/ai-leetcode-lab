@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1732,
+  "questionId": "1732",
+  "questionFrontendId": "1611",
+  "titleSlug": "minimum-one-bit-operations-to-make-integers-zero",
+  "title": "Minimum One Bit Operations to Make Integers Zero",
+  "translatedTitle": "使整数变为 0 的最少操作次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/",
+  "createdAt": "2026-08-12T11:06:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

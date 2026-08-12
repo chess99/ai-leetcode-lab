@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1493,
+  "questionId": "1493",
+  "questionFrontendId": "1377",
+  "titleSlug": "frog-position-after-t-seconds",
+  "title": "Frog Position After T Seconds",
+  "translatedTitle": "T 秒后青蛙的位置",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/frog-position-after-t-seconds/",
+  "createdAt": "2026-08-12T08:09:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -42,7 +42,7 @@ class RemoteActionLock(AbstractContextManager["RemoteActionLock"]):
         stale_seconds: int = 900,
         wait_seconds: float = 300,
         poll_seconds: float = 0.2,
-        min_interval_seconds: float = 6.0,
+        min_interval_seconds: float = 13.0,
     ):
         self.path = root / ".runtime" / "remote-action.lock"
         self.last_action_path = root / ".runtime" / "last-remote-action.json"

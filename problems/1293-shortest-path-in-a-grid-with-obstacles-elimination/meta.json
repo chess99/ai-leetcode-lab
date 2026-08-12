@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1414,
+  "questionId": "1414",
+  "questionFrontendId": "1293",
+  "titleSlug": "shortest-path-in-a-grid-with-obstacles-elimination",
+  "title": "Shortest Path in a Grid with Obstacles Elimination",
+  "translatedTitle": "网格中的最短路径",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+  "createdAt": "2026-08-12T08:09:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

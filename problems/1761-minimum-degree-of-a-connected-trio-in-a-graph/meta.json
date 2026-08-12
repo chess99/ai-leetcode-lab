@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1887,
+  "questionId": "1887",
+  "questionFrontendId": "1761",
+  "titleSlug": "minimum-degree-of-a-connected-trio-in-a-graph",
+  "title": "Minimum Degree of a Connected Trio in a Graph",
+  "translatedTitle": "一个图中连通三元组的最小度数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-degree-of-a-connected-trio-in-a-graph/",
+  "createdAt": "2026-08-12T11:06:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

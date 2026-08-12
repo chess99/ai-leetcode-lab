@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1789,
+  "questionId": "1789",
+  "questionFrontendId": "1687",
+  "titleSlug": "delivering-boxes-from-storage-to-ports",
+  "title": "Delivering Boxes from Storage to Ports",
+  "translatedTitle": "从仓库到码头运输箱子",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/delivering-boxes-from-storage-to-ports/",
+  "createdAt": "2026-08-12T11:06:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

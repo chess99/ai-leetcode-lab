@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1244,
+  "questionId": "1244",
+  "questionFrontendId": "1316",
+  "titleSlug": "distinct-echo-substrings",
+  "title": "Distinct Echo Substrings",
+  "translatedTitle": "不同的循环子字符串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/distinct-echo-substrings/",
+  "createdAt": "2026-08-12T08:09:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

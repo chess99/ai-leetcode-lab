@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1825,
+  "questionId": "1825",
+  "questionFrontendId": "1723",
+  "titleSlug": "find-minimum-time-to-finish-all-jobs",
+  "title": "Find Minimum Time to Finish All Jobs",
+  "translatedTitle": "完成所有工作的最短时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-minimum-time-to-finish-all-jobs/",
+  "createdAt": "2026-08-12T11:06:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

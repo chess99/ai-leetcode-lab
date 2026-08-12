@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1429,
+  "questionId": "1429",
+  "questionFrontendId": "1307",
+  "titleSlug": "verbal-arithmetic-puzzle",
+  "title": "Verbal Arithmetic Puzzle",
+  "translatedTitle": "口算难题",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/verbal-arithmetic-puzzle/",
+  "createdAt": "2026-08-12T08:09:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

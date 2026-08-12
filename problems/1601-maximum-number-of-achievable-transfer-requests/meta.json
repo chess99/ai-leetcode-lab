@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1723,
+  "questionId": "1723",
+  "questionFrontendId": "1601",
+  "titleSlug": "maximum-number-of-achievable-transfer-requests",
+  "title": "Maximum Number of Achievable Transfer Requests",
+  "translatedTitle": "最多可达成的换楼请求数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-achievable-transfer-requests/",
+  "createdAt": "2026-08-12T11:06:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

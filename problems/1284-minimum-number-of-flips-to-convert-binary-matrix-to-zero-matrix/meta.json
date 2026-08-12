@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1409,
+  "questionId": "1409",
+  "questionFrontendId": "1284",
+  "titleSlug": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+  "title": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+  "translatedTitle": "转化为全零矩阵的最少反转次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/",
+  "createdAt": "2026-08-12T08:09:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1707,
+  "questionId": "1707",
+  "questionFrontendId": "1585",
+  "titleSlug": "check-if-string-is-transformable-with-substring-sort-operations",
+  "title": "Check If String Is Transformable With Substring Sort Operations",
+  "translatedTitle": "检查字符串是否可以通过排序子字符串得到另一个字符串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-string-is-transformable-with-substring-sort-operations/",
+  "createdAt": "2026-08-12T11:06:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

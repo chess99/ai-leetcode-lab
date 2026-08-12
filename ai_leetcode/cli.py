@@ -180,7 +180,8 @@ def _cmd_submit(args: argparse.Namespace) -> int:
         EventStore(),
     )
     _print_json(result)
-    write_stats(config.attempt_budget)
+    if not args.defer_stats:
+        write_stats(config.attempt_budget)
     return 0 if result.get("outcome") == "accepted" else 2
 
 
@@ -342,6 +343,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     submit = subparsers.add_parser("submit", help="消耗预算正式提交并等待判题")
     submit.add_argument("selector")
+    submit.add_argument(
+        "--defer-stats",
+        action="store_true",
+        help="批量提交时暂缓重建统计；整批结束后必须运行 stats",
+    )
     add_profile(submit)
     submit.set_defaults(func=_cmd_submit)
 

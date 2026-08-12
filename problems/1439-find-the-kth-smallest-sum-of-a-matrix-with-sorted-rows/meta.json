@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1550,
+  "questionId": "1550",
+  "questionFrontendId": "1439",
+  "titleSlug": "find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows",
+  "title": "Find the Kth Smallest Sum of a Matrix With Sorted Rows",
+  "translatedTitle": "有序矩阵中的第 k 个最小数组和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/",
+  "createdAt": "2026-08-12T08:09:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

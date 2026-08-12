@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1805,
+  "questionId": "1805",
+  "questionFrontendId": "1703",
+  "titleSlug": "minimum-adjacent-swaps-for-k-consecutive-ones",
+  "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+  "translatedTitle": "得到连续 K 个 1 的最少相邻交换次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-adjacent-swaps-for-k-consecutive-ones/",
+  "createdAt": "2026-08-12T11:06:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

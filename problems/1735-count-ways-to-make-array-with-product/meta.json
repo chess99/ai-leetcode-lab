@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1836,
+  "questionId": "1836",
+  "questionFrontendId": "1735",
+  "titleSlug": "count-ways-to-make-array-with-product",
+  "title": "Count Ways to Make Array With Product",
+  "translatedTitle": "生成乘积数组的方案数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-ways-to-make-array-with-product/",
+  "createdAt": "2026-08-12T11:06:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

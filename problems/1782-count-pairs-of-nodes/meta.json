@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1891,
+  "questionId": "1891",
+  "questionFrontendId": "1782",
+  "titleSlug": "count-pairs-of-nodes",
+  "title": "Count Pairs Of Nodes",
+  "translatedTitle": "统计点对的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-pairs-of-nodes/",
+  "createdAt": "2026-08-12T11:06:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

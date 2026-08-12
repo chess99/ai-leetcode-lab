@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1437,
+  "questionId": "1437",
+  "questionFrontendId": "1312",
+  "titleSlug": "minimum-insertion-steps-to-make-a-string-palindrome",
+  "title": "Minimum Insertion Steps to Make a String Palindrome",
+  "translatedTitle": "让字符串成为回文串的最少插入次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
+  "createdAt": "2026-08-12T08:09:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

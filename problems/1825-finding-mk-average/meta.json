@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1953,
+  "questionId": "1953",
+  "questionFrontendId": "1825",
+  "titleSlug": "finding-mk-average",
+  "title": "Finding MK Average",
+  "translatedTitle": "求出 MK 平均值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/finding-mk-average/",
+  "createdAt": "2026-08-12T11:06:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

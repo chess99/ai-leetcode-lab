@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1963,
+  "questionId": "1963",
+  "questionFrontendId": "1835",
+  "titleSlug": "find-xor-sum-of-all-pairs-bitwise-and",
+  "title": "Find XOR Sum of All Pairs Bitwise AND",
+  "translatedTitle": "所有数对按位与结果的异或和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-xor-sum-of-all-pairs-bitwise-and/",
+  "createdAt": "2026-08-12T11:06:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1461,
+  "questionId": "1461",
+  "questionFrontendId": "1359",
+  "titleSlug": "count-all-valid-pickup-and-delivery-options",
+  "title": "Count All Valid Pickup and Delivery Options",
+  "translatedTitle": "有效的快递序列数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-all-valid-pickup-and-delivery-options/",
+  "createdAt": "2026-08-12T08:09:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

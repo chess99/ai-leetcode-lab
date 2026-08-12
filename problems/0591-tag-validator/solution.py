@@ -7,6 +7,9 @@
 # Experiment: ai-leetcode-lab, round 1
 class Solution:
     def isValid(self, code: str) -> bool:
+        def valid_name(name):
+            return 1 <= len(name) <= 9 and all('A' <= char <= 'Z' for char in name)
+
         stack=[]; i=0
         while i<len(code):
             if code.startswith('<![CDATA[',i):
@@ -18,14 +21,14 @@ class Solution:
                 end=code.find('>',i)
                 if end<0:return False
                 name=code[i+2:end]
-                if not stack or stack.pop()!=name:return False
+                if not valid_name(name) or not stack or stack.pop()!=name:return False
                 i=end+1
                 if not stack and i<len(code):return False
             elif code[i]=='<':
                 end=code.find('>',i)
                 if end<0:return False
                 name=code[i+1:end]
-                if not (1<=len(name)<=9 and name.isupper()):return False
+                if not valid_name(name):return False
                 stack.append(name);i=end+1
             else:
                 if not stack:return False

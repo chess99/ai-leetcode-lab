@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1571,
+  "questionId": "1571",
+  "questionFrontendId": "1478",
+  "titleSlug": "allocate-mailboxes",
+  "title": "Allocate Mailboxes",
+  "translatedTitle": "安排邮筒",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/allocate-mailboxes/",
+  "createdAt": "2026-08-12T08:09:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

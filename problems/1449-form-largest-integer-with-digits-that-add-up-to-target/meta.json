@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1545,
+  "questionId": "1545",
+  "questionFrontendId": "1449",
+  "titleSlug": "form-largest-integer-with-digits-that-add-up-to-target",
+  "title": "Form Largest Integer With Digits That Add up to Target",
+  "translatedTitle": "数位成本和为目标值的最大数字",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/",
+  "createdAt": "2026-08-12T08:09:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1941,
+  "questionId": "1941",
+  "questionFrontendId": "1830",
+  "titleSlug": "minimum-number-of-operations-to-make-string-sorted",
+  "title": "Minimum Number of Operations to Make String Sorted",
+  "translatedTitle": "使字符串有序的最少操作次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-number-of-operations-to-make-string-sorted/",
+  "createdAt": "2026-08-12T11:06:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

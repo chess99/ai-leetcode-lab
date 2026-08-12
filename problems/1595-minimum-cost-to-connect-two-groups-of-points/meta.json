@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1717,
+  "questionId": "1717",
+  "questionFrontendId": "1595",
+  "titleSlug": "minimum-cost-to-connect-two-groups-of-points",
+  "title": "Minimum Cost to Connect Two Groups of Points",
+  "translatedTitle": "连通两组点的最小成本",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points/",
+  "createdAt": "2026-08-12T11:06:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

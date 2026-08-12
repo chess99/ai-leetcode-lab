@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1875,
+  "questionId": "1875",
+  "questionFrontendId": "1766",
+  "titleSlug": "tree-of-coprimes",
+  "title": "Tree of Coprimes",
+  "translatedTitle": "互质树",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/tree-of-coprimes/",
+  "createdAt": "2026-08-12T11:06:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

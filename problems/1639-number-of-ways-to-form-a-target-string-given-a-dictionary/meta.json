@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1744,
+  "questionId": "1744",
+  "questionFrontendId": "1639",
+  "titleSlug": "number-of-ways-to-form-a-target-string-given-a-dictionary",
+  "title": "Number of Ways to Form a Target String Given a Dictionary",
+  "translatedTitle": "通过给定词典构造目标字符串的方案数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/",
+  "createdAt": "2026-08-12T11:06:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1733,
+  "questionId": "1733",
+  "questionFrontendId": "1610",
+  "titleSlug": "maximum-number-of-visible-points",
+  "title": "Maximum Number of Visible Points",
+  "translatedTitle": "可见点的最大数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-visible-points/",
+  "createdAt": "2026-08-12T11:06:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

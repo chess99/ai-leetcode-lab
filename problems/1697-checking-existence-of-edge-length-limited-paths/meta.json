@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1815,
+  "questionId": "1815",
+  "questionFrontendId": "1697",
+  "titleSlug": "checking-existence-of-edge-length-limited-paths",
+  "title": "Checking Existence of Edge Length Limited Paths",
+  "translatedTitle": "检查边长度限制的路径是否存在",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths/",
+  "createdAt": "2026-08-12T11:06:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1784,
+  "questionId": "1784",
+  "questionFrontendId": "1665",
+  "titleSlug": "minimum-initial-energy-to-finish-tasks",
+  "title": "Minimum Initial Energy to Finish Tasks",
+  "translatedTitle": "完成所有任务的最少初始能量",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-initial-energy-to-finish-tasks/",
+  "createdAt": "2026-08-12T11:06:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

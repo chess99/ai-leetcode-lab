@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1947,
+  "questionId": "1947",
+  "questionFrontendId": "1819",
+  "titleSlug": "number-of-different-subsequences-gcds",
+  "title": "Number of Different Subsequences GCDs",
+  "translatedTitle": "序列中不同最大公约数的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-different-subsequences-gcds/",
+  "createdAt": "2026-08-12T11:06:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,58 @@
+# 1505. 最多 K 次交换相邻数位后得到的最小整数
+
+- 难度：HARD
+- 标签：贪心, 树状数组, 线段树, 字符串
+- 来源：https://leetcode.cn/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/
+- 归档：2026-08-12T08:09:58Z
+
+## 题目
+
+<p>给定一个字符串&nbsp;<code>num</code> 表示非常大的整数和一个整数 <code>k</code>。你可以交换这个整数相邻数位的数字 <strong>最多</strong>&nbsp;<code>k</code>&nbsp;次。</p>
+
+<p>请你返回你能得到的最小整数，并以字符串形式返回。</p>
+
+<p>&nbsp;</p>
+
+<p><strong>示例 1：</strong></p>
+
+<p><img alt="" src="https://assets.leetcode.com/uploads/2020/06/17/q4_1.jpg" style="height:40px; width:500px" /></p>
+
+<pre>
+<strong>输入：</strong>num = "4321", k = 4
+<strong>输出：</strong>"1342"
+<strong>解释：</strong>4321 通过 4 次交换相邻数位得到最小整数的步骤如上图所示。
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>num = "100", k = 1
+<strong>输出：</strong>"010"
+<strong>解释：</strong>输出可以包含前导 0 ，但输入保证不会有前导 0 。
+</pre>
+
+<p><strong>示例 3：</strong></p>
+
+<pre>
+<strong>输入：</strong>num = "36789", k = 1000
+<strong>输出：</strong>"36789"
+<strong>解释：</strong>不需要做任何交换。
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= num.length &lt;= 3 * 10<sup>4</sup></code></li>
+	<li><code>num</code>&nbsp;只包含&nbsp;<strong>数字</strong>&nbsp;且不含有<strong>&nbsp;前导 0&nbsp;</strong>。</li>
+	<li><code>1 &lt;= k &lt;= 10<sup>9</sup></code></li>
+</ul>
+
+
+## 样例输入
+
+```text
+"4321"
+4
+```

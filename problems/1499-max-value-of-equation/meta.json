@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1622,
+  "questionId": "1622",
+  "questionFrontendId": "1499",
+  "titleSlug": "max-value-of-equation",
+  "title": "Max Value of Equation",
+  "translatedTitle": "满足不等式的最大值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/max-value-of-equation/",
+  "createdAt": "2026-08-12T08:09:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

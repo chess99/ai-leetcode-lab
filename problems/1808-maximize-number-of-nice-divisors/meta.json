@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1936,
+  "questionId": "1936",
+  "questionFrontendId": "1808",
+  "titleSlug": "maximize-number-of-nice-divisors",
+  "title": "Maximize Number of Nice Divisors",
+  "translatedTitle": "好因子的最大数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-number-of-nice-divisors/",
+  "createdAt": "2026-08-12T11:06:45Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

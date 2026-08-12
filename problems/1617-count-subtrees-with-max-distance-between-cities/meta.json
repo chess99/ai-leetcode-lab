@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1740,
+  "questionId": "1740",
+  "questionFrontendId": "1617",
+  "titleSlug": "count-subtrees-with-max-distance-between-cities",
+  "title": "Count Subtrees With Max Distance Between Cities",
+  "translatedTitle": "统计子树中城市之间最大距离",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-subtrees-with-max-distance-between-cities/",
+  "createdAt": "2026-08-12T11:06:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

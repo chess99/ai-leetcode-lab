@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1471,
+  "questionId": "1471",
+  "questionFrontendId": "1349",
+  "titleSlug": "maximum-students-taking-exam",
+  "title": "Maximum Students Taking Exam",
+  "translatedTitle": "参加考试的最大学生数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-students-taking-exam/",
+  "createdAt": "2026-08-12T08:09:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1977,
+  "questionId": "1977",
+  "questionFrontendId": "1851",
+  "titleSlug": "minimum-interval-to-include-each-query",
+  "title": "Minimum Interval to Include Each Query",
+  "translatedTitle": "包含每个查询的最小区间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-interval-to-include-each-query/",
+  "createdAt": "2026-08-12T11:06:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
