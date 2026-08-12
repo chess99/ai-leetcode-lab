@@ -15,20 +15,26 @@ class Solution:
         for r, row in enumerate(matrix):
             for c, ch in enumerate(row):
                 if ch.isupper(): portals[ch].append((r, c))
-        q = deque([(0, 0, 0)])
-        seen = {(0, 0)}
+        inf = m * n + 1
+        dist = [[inf] * n for _ in range(m)]
+        dist[0][0] = 0
+        q = deque([(0, 0)])
         used = set()
         while q:
-            r, c, dist = q.popleft()
-            if (r, c) == (m - 1, n - 1): return dist
+            r, c = q.popleft()
+            current = dist[r][c]
             ch = matrix[r][c]
             if ch.isupper() and ch not in used:
                 used.add(ch)
                 for nr, nc in portals[ch]:
-                    if (nr, nc) not in seen:
-                        seen.add((nr, nc)); q.appendleft((nr, nc, dist))
+                    if current < dist[nr][nc]:
+                        dist[nr][nc] = current
+                        q.appendleft((nr, nc))
             for dr, dc in ((1,0),(-1,0),(0,1),(0,-1)):
                 nr, nc = r + dr, c + dc
-                if 0 <= nr < m and 0 <= nc < n and matrix[nr][nc] != '#' and (nr,nc) not in seen:
-                    seen.add((nr,nc)); q.append((nr,nc,dist+1))
-        return -1
+                if (0 <= nr < m and 0 <= nc < n and matrix[nr][nc] != '#'
+                        and current + 1 < dist[nr][nc]):
+                    dist[nr][nc] = current + 1
+                    q.append((nr,nc))
+        answer = dist[m - 1][n - 1]
+        return answer if answer < inf else -1
