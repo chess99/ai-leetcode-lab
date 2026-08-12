@@ -7,6 +7,9 @@
 # Experiment: ai-leetcode-lab, round 1
 from typing import Optional
 
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val, self.next = val, next
 
 class Solution:
     def oddEvenList(self, head: Optional["ListNode"]) -> Optional["ListNode"]:

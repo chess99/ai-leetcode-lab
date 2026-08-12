@@ -7,15 +7,28 @@
 # Experiment: ai-leetcode-lab, round 1
 from typing import Optional, Tuple
 
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val, self.left, self.right = val, left, right
 
 class Solution:
     def rob(self, root: Optional["TreeNode"]) -> int:
-        def dfs(node: Optional["TreeNode"]) -> Tuple[int, int]:
-            if not node:
-                return 0, 0
-            left, right = dfs(node.left), dfs(node.right)
+        if root is None:
+            return 0
+        states = {}
+        stack = [(root, False)]
+        while stack:
+            node, visited = stack.pop()
+            if not visited:
+                stack.append((node, True))
+                if node.right:
+                    stack.append((node.right, False))
+                if node.left:
+                    stack.append((node.left, False))
+                continue
+            left = states.get(node.left, (0, 0))
+            right = states.get(node.right, (0, 0))
             take = node.val + left[1] + right[1]
             skip = max(left) + max(right)
-            return take, skip
-
-        return max(dfs(root))
+            states[node] = (take, skip)
+        return max(states[root])
