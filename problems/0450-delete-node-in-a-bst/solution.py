@@ -8,20 +8,31 @@
 from __future__ import annotations
 from typing import Optional
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val, self.left, self.right = val, left, right
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
-        if not root:return None
-        if key<root.val:root.left=self.deleteNode(root.left,key)
-        elif key>root.val:root.right=self.deleteNode(root.right,key)
+        parent = None
+        node = root
+        while node and node.val != key:
+            parent = node
+            node = node.left if key < node.val else node.right
+        if node is None:
+            return root
+        if node.left and node.right:
+            successor_parent = node
+            successor = node.right
+            while successor.left:
+                successor_parent = successor
+                successor = successor.left
+            node.val = successor.val
+            parent, node = successor_parent, successor
+        replacement = node.left or node.right
+        if parent is None:
+            return replacement
+        if parent.left is node:
+            parent.left = replacement
         else:
-            if not root.left:return root.right
-            if not root.right:return root.left
-            successor=root.right
-            while successor.left:successor=successor.left
-            root.val=successor.val;root.right=self.deleteNode(root.right,successor.val)
+            parent.right = replacement
         return root

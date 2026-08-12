@@ -14,6 +14,9 @@ class Node:
         self.next = next
         self.child = child
 """
+class Node:
+    def __init__(self, val=0, prev=None, next=None, child=None):
+        self.val, self.prev, self.next, self.child = val, prev, next, child
 
 from typing import Optional
 

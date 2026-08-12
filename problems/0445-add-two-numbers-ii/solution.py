@@ -6,6 +6,8 @@
 # Created: 2026-08-11T17:03:34Z
 # Experiment: ai-leetcode-lab, round 1
 from typing import Optional
+class ListNode:
+ def __init__(self,val=0,next=None):self.val,self.next=val,next
 class Solution:
  def addTwoNumbers(self,l1:Optional["ListNode"],l2:Optional["ListNode"])->Optional["ListNode"]:
   a=[];b=[]

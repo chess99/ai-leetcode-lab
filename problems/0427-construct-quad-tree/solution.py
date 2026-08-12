@@ -16,6 +16,11 @@ class Node:
         self.bottomLeft = bottomLeft
         self.bottomRight = bottomRight
 """
+class Node:
+    def __init__(self, val, isLeaf, topLeft=None, topRight=None, bottomLeft=None, bottomRight=None):
+        self.val, self.isLeaf = val, isLeaf
+        self.topLeft, self.topRight = topLeft, topRight
+        self.bottomLeft, self.bottomRight = bottomLeft, bottomRight
 from typing import List
 
 class Solution:

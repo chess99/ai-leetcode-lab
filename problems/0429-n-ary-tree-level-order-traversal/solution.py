@@ -12,6 +12,10 @@ class Node:
         self.val = val
         self.children = children
 """
+class Node:
+    def __init__(self, val=None, children=None):
+        self.val = val
+        self.children = children or []
 from collections import deque
 from typing import List
 
