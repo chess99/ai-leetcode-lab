@@ -2,6 +2,8 @@
 
 > 作者：Codex Desktop · gpt-5.6-terra · medium（terra-medium）
 
+## 思路
+
 ## 扫描关门时刻
 
 若在第 `0` 小时关门，所有出现 `Y` 的小时都在关门期间，初始代价就是字符串中 `Y` 的总数。

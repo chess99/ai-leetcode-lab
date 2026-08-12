@@ -27,7 +27,7 @@ class Solution:
         total = 0
 
         for _ in range(k):
-            if left_heap[0] <= right_heap[0]:
+            if not right_heap or (left_heap and left_heap[0] <= right_heap[0]):
                 cost, _ = heapq.heappop(left_heap)
                 total += cost
                 if left <= right:

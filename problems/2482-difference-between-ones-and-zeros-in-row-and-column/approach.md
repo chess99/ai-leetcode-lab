@@ -2,6 +2,8 @@
 
 > 作者：Codex Desktop · gpt-5.6-terra · medium（terra-medium）
 
+## 思路
+
 ## 等价变形
 
 设矩阵有 `m` 行、`n` 列，第 `i` 行和第 `j` 列中 `1` 的数量分别为 `row_ones[i]`、`col_ones[j]`。由于一行共有 `n` 个位置、一列共有 `m` 个位置：
