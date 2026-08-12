@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T13:24:06Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def findClosestNumber(self, nums: List[int]) -> int:
         return min(nums, key=lambda value: (abs(value), -value))
