@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000252,
+  "questionId": "1000252",
+  "questionFrontendId": "LCR 016",
+  "titleSlug": "wtcaE1",
+  "title": "无重复字符的最长子串",
+  "translatedTitle": "无重复字符的最长子串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/wtcaE1/",
+  "createdAt": "2026-08-12T04:15:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000267,
+  "questionId": "1000267",
+  "questionFrontendId": "LCR 030",
+  "titleSlug": "FortPu",
+  "title": "O(1) 时间插入、删除和获取随机元素",
+  "translatedTitle": "O(1) 时间插入、删除和获取随机元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/FortPu/",
+  "createdAt": "2026-08-12T04:15:28Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

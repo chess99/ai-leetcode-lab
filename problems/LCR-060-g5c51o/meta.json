@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000324,
+  "questionId": "1000324",
+  "questionFrontendId": "LCR 060",
+  "titleSlug": "g5c51o",
+  "title": "前 K 个高频元素",
+  "translatedTitle": "前 K 个高频元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/g5c51o/",
+  "createdAt": "2026-08-12T04:15:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
