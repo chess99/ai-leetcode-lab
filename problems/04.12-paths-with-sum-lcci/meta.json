@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000009,
+  "questionId": "1000009",
+  "questionFrontendId": "面试题 04.12",
+  "titleSlug": "paths-with-sum-lcci",
+  "title": "Paths with Sum LCCI",
+  "translatedTitle": "求和路径",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/paths-with-sum-lcci/",
+  "createdAt": "2026-08-12T05:00:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000040,
+  "questionId": "1000040",
+  "questionFrontendId": "面试题 10.02",
+  "titleSlug": "group-anagrams-lcci",
+  "title": "Group Anagrams LCCI",
+  "translatedTitle": "变位词组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/group-anagrams-lcci/",
+  "createdAt": "2026-08-12T05:00:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

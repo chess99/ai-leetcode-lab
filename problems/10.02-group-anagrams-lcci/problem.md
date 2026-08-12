@@ -1,0 +1,37 @@
+# 面试题 10.02. 变位词组
+
+- 难度：MEDIUM
+- 标签：数组, 哈希表, 字符串, 排序
+- 来源：https://leetcode.cn/problems/group-anagrams-lcci/
+- 归档：2026-08-12T05:00:57Z
+
+## 题目
+
+<p>编写一种方法，对字符串数组进行排序，将所有变位词组合在一起。变位词是指字母相同，但排列不同的字符串。</p>
+
+<p><strong>注意：</strong>本题相对原题稍作修改</p>
+
+<p><strong>示例：</strong></p>
+
+<pre>
+<strong>输入：</strong><code>["eat", "tea", "tan", "ate", "nat", "bat"]</code>,
+<strong>输出：</strong>
+[
+  ["ate","eat","tea"],
+  ["nat","tan"],
+  ["bat"]
+]</pre>
+
+<p><strong>说明：</strong></p>
+
+<ul>
+	<li>所有输入均为小写字母。</li>
+	<li>不考虑答案输出的顺序。</li>
+</ul>
+
+
+## 样例输入
+
+```text
+["eat","tea","tan","ate","nat","bat"]
+```

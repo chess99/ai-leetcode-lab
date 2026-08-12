@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000008,
+  "questionId": "1000008",
+  "questionFrontendId": "面试题 02.04",
+  "titleSlug": "partition-list-lcci",
+  "title": "Partition List LCCI",
+  "translatedTitle": "分割链表",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-list-lcci/",
+  "createdAt": "2026-08-12T05:00:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

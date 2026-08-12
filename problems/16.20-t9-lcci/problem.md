@@ -1,0 +1,42 @@
+# 面试题 16.20. T9键盘
+
+- 难度：MEDIUM
+- 标签：数组, 哈希表, 字符串
+- 来源：https://leetcode.cn/problems/t9-lcci/
+- 归档：2026-08-12T05:01:03Z
+
+## 题目
+
+<p>在老式手机上，用户通过数字键盘输入，手机将提供与这些数字相匹配的单词列表。每个数字映射到0至4个字母。给定一个数字序列，实现一个算法来返回匹配单词的列表。你会得到一张含有有效单词的列表。映射如下图所示：</p>
+
+<p><img src="https://assets.leetcode.cn/aliyun-lc-upload/original_images/17_telephone_keypad.png" style="width: 200px;" /></p>
+
+<p><strong>示例 1：</strong></p>
+
+<pre>
+<strong>输入：</strong>num = "8733", words = ["tree", "used"]
+<strong>输出：</strong>["tree", "used"]
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>num = "2", words = ["a", "b", "c", "d"]
+<strong>输出：</strong>["a", "b", "c"]</pre>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>num.length &lt;= 1000</code></li>
+	<li><code>words.length &lt;= 500</code></li>
+	<li><code>words[i].length == num.length</code></li>
+	<li><code>num</code>中不会出现 0, 1 这两个数字</li>
+</ul>
+
+
+## 样例输入
+
+```text
+"8733"
+["tree", "used"]
+```

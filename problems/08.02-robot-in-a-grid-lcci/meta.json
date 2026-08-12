@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000011,
+  "questionId": "1000011",
+  "questionFrontendId": "面试题 08.02",
+  "titleSlug": "robot-in-a-grid-lcci",
+  "title": "Robot in a Grid LCCI",
+  "translatedTitle": "迷路的机器人",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/robot-in-a-grid-lcci/",
+  "createdAt": "2026-08-12T05:00:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

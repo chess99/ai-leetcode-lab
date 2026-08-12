@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000050,
+  "questionId": "1000050",
+  "questionFrontendId": "面试题 16.22",
+  "titleSlug": "langtons-ant-lcci",
+  "title": "Langtons Ant LCCI",
+  "translatedTitle": "兰顿蚂蚁",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/langtons-ant-lcci/",
+  "createdAt": "2026-08-12T05:01:04Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
