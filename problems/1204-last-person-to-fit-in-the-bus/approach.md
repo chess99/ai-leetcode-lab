@@ -4,6 +4,8 @@
 - 模型：gpt-5.6-terra
 - 推理档位：medium
 - Profile：terra-medium
+
+## 思路
 - 轮次：1
 
 ## 思路

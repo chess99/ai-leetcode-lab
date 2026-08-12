@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T18:41:14Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):

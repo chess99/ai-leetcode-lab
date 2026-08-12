@@ -11,6 +11,8 @@ class Solution:
         stack = [start]
         while stack:
             index = stack.pop()
+            if arr[index] < 0:
+                continue
             if arr[index] == 0: return True
             jump = arr[index]; arr[index] = -1
             for next_index in (index - jump, index + jump):
