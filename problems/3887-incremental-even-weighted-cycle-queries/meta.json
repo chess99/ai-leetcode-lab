@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4114,
+  "questionId": "4114",
+  "questionFrontendId": "3887",
+  "titleSlug": "incremental-even-weighted-cycle-queries",
+  "title": "Incremental Even-Weighted Cycle Queries",
+  "translatedTitle": "增量偶权环查询",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/incremental-even-weighted-cycle-queries/",
+  "createdAt": "2026-08-12T17:58:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

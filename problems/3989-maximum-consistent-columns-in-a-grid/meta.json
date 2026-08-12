@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4225,
+  "questionId": "4225",
+  "questionFrontendId": "3989",
+  "titleSlug": "maximum-consistent-columns-in-a-grid",
+  "title": "Maximum Consistent Columns in a Grid",
+  "translatedTitle": "网格中保持一致的最大列数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-consistent-columns-in-a-grid/",
+  "createdAt": "2026-08-12T17:58:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

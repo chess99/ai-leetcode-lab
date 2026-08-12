@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000093,
+  "questionId": "1000093",
+  "questionFrontendId": "LCP 13",
+  "titleSlug": "xun-bao",
+  "title": "寻宝",
+  "translatedTitle": "寻宝",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/xun-bao/",
+  "createdAt": "2026-08-12T17:58:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

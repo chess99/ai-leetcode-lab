@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4259,
+  "questionId": "4259",
+  "questionFrontendId": "3883",
+  "titleSlug": "count-non-decreasing-arrays-with-given-digit-sums",
+  "title": "Count Non Decreasing Arrays With Given Digit Sums",
+  "translatedTitle": "统计满足数位和数组的非递减数组数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-non-decreasing-arrays-with-given-digit-sums/",
+  "createdAt": "2026-08-12T17:58:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

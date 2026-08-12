@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4279,
+  "questionId": "4279",
+  "questionFrontendId": "3910",
+  "titleSlug": "count-connected-subgraphs-with-even-node-sum",
+  "title": "Count Connected Subgraphs with Even Node Sum",
+  "translatedTitle": "统计节点和为偶数的连通子图",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-connected-subgraphs-with-even-node-sum/",
+  "createdAt": "2026-08-12T17:58:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

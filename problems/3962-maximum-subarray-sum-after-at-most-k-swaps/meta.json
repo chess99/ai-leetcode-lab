@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4246,
+  "questionId": "4246",
+  "questionFrontendId": "3962",
+  "titleSlug": "maximum-subarray-sum-after-at-most-k-swaps",
+  "title": "Maximum Subarray Sum After at Most K Swaps",
+  "translatedTitle": "至多 K 次交换后最大子数组和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-subarray-sum-after-at-most-k-swaps/",
+  "createdAt": "2026-08-12T17:58:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

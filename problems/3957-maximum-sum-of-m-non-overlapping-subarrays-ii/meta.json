@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4125,
+  "questionId": "4125",
+  "questionFrontendId": "3957",
+  "titleSlug": "maximum-sum-of-m-non-overlapping-subarrays-ii",
+  "title": "Maximum Sum of M Non-Overlapping Subarrays II",
+  "translatedTitle": "M 个非重叠子数组最大和 II",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-sum-of-m-non-overlapping-subarrays-ii/",
+  "createdAt": "2026-08-12T17:58:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

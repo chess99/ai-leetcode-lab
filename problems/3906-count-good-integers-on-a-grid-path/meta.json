@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4124,
+  "questionId": "4124",
+  "questionFrontendId": "3906",
+  "titleSlug": "count-good-integers-on-a-grid-path",
+  "title": "Count Good Integers on a Grid Path",
+  "translatedTitle": "统计网格路径中好整数的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-good-integers-on-a-grid-path/",
+  "createdAt": "2026-08-12T17:58:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

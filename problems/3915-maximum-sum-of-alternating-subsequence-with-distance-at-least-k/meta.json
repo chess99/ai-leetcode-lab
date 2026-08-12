@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4260,
+  "questionId": "4260",
+  "questionFrontendId": "3915",
+  "titleSlug": "maximum-sum-of-alternating-subsequence-with-distance-at-least-k",
+  "title": "Maximum Sum of Alternating Subsequence With Distance at Least K",
+  "translatedTitle": "距离至少为 K 的交替子序列的最大和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-sum-of-alternating-subsequence-with-distance-at-least-k/",
+  "createdAt": "2026-08-12T17:58:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4244,
+  "questionId": "4244",
+  "questionFrontendId": "4009",
+  "titleSlug": "minimum-possible-maximum-waiting-time",
+  "title": "Minimum Possible Maximum Waiting Time",
+  "translatedTitle": "最小化最大可能等待时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-possible-maximum-waiting-time/",
+  "createdAt": "2026-08-12T17:58:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

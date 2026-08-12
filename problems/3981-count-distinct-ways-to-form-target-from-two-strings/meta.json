@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4082,
+  "questionId": "4082",
+  "questionFrontendId": "3981",
+  "titleSlug": "count-distinct-ways-to-form-target-from-two-strings",
+  "title": "Count Distinct Ways to Form Target from Two Strings",
+  "translatedTitle": "统计从两个字符串形成目标字符串的不同方案数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-distinct-ways-to-form-target-from-two-strings/",
+  "createdAt": "2026-08-12T17:58:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

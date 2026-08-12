@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4278,
+  "questionId": "4278",
+  "questionFrontendId": "3897",
+  "titleSlug": "maximum-value-of-concatenated-binary-segments",
+  "title": "Maximum Value of Concatenated Binary Segments",
+  "translatedTitle": "连接二进制片段得到的最大值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-value-of-concatenated-binary-segments/",
+  "createdAt": "2026-08-12T17:58:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

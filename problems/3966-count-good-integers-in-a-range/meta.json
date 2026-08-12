@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4310,
+  "questionId": "4310",
+  "questionFrontendId": "3966",
+  "titleSlug": "count-good-integers-in-a-range",
+  "title": "Count Good Integers in a Range",
+  "translatedTitle": "统计范围内的好整数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-good-integers-in-a-range/",
+  "createdAt": "2026-08-12T17:58:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

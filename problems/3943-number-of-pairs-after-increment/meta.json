@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4076,
+  "questionId": "4076",
+  "questionFrontendId": "3943",
+  "titleSlug": "number-of-pairs-after-increment",
+  "title": "Number of Pairs After Increment",
+  "translatedTitle": "递增后的数对数量",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-pairs-after-increment/",
+  "createdAt": "2026-08-12T17:58:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

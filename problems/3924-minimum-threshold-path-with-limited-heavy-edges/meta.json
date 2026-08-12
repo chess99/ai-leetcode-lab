@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4102,
+  "questionId": "4102",
+  "questionFrontendId": "3924",
+  "titleSlug": "minimum-threshold-path-with-limited-heavy-edges",
+  "title": "Minimum Threshold Path With Limited Heavy Edges",
+  "translatedTitle": "有限重边的最小阈值路径",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-threshold-path-with-limited-heavy-edges/",
+  "createdAt": "2026-08-12T17:58:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

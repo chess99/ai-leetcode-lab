@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4206,
+  "questionId": "4206",
+  "questionFrontendId": "3977",
+  "titleSlug": "minimum-time-to-reach-target-with-limited-power",
+  "title": "Minimum Time to Reach Target With Limited Power",
+  "translatedTitle": "有限电量到达目标节点的最少时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-reach-target-with-limited-power/",
+  "createdAt": "2026-08-12T17:58:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 100094,
+  "questionId": "100094",
+  "questionFrontendId": "LCP 05",
+  "titleSlug": "coin-bonus",
+  "title": "Coin Bonus",
+  "translatedTitle": "发 LeetCoin",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/coin-bonus/",
+  "createdAt": "2026-08-12T17:58:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

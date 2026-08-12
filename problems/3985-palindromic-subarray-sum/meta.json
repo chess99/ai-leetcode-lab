@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4031,
+  "questionId": "4031",
+  "questionFrontendId": "3985",
+  "titleSlug": "palindromic-subarray-sum",
+  "title": "Palindromic Subarray Sum",
+  "translatedTitle": "回文子数组求和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/palindromic-subarray-sum/",
+  "createdAt": "2026-08-12T17:58:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

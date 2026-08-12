@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4263,
+  "questionId": "4263",
+  "questionFrontendId": "3892",
+  "titleSlug": "minimum-operations-to-achieve-at-least-k-peaks",
+  "title": "Minimum Operations to Achieve At Least K Peaks",
+  "translatedTitle": "产生至少 K 个峰值的最少操作次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-achieve-at-least-k-peaks/",
+  "createdAt": "2026-08-12T17:58:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
