@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3531,
+  "questionId": "3531",
+  "questionFrontendId": "3273",
+  "titleSlug": "minimum-amount-of-damage-dealt-to-bob",
+  "title": "Minimum Amount of Damage Dealt to Bob",
+  "translatedTitle": "对 Bob 造成的最少伤害",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-amount-of-damage-dealt-to-bob/",
+  "createdAt": "2026-08-12T15:59:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

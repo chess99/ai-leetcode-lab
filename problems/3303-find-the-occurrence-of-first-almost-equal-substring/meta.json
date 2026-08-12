@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3580,
+  "questionId": "3580",
+  "questionFrontendId": "3303",
+  "titleSlug": "find-the-occurrence-of-first-almost-equal-substring",
+  "title": "Find the Occurrence of First Almost Equal Substring",
+  "translatedTitle": "第一个几乎相等子字符串的下标",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-occurrence-of-first-almost-equal-substring/",
+  "createdAt": "2026-08-12T15:59:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

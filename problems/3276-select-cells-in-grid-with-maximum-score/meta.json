@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3563,
+  "questionId": "3563",
+  "questionFrontendId": "3276",
+  "titleSlug": "select-cells-in-grid-with-maximum-score",
+  "title": "Select Cells in Grid With Maximum Score",
+  "translatedTitle": "选择矩阵中单元格的最大得分",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/select-cells-in-grid-with-maximum-score/",
+  "createdAt": "2026-08-12T15:59:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

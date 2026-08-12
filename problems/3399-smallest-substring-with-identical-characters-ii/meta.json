@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3706,
+  "questionId": "3706",
+  "questionFrontendId": "3399",
+  "titleSlug": "smallest-substring-with-identical-characters-ii",
+  "title": "Smallest Substring With Identical Characters II",
+  "translatedTitle": "字符相同的最短子字符串 II",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/smallest-substring-with-identical-characters-ii/",
+  "createdAt": "2026-08-12T15:58:12Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

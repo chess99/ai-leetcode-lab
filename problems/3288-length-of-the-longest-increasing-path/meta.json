@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3571,
+  "questionId": "3571",
+  "questionFrontendId": "3288",
+  "titleSlug": "length-of-the-longest-increasing-path",
+  "title": "Length of the Longest Increasing Path",
+  "translatedTitle": "最长上升路径的长度",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/length-of-the-longest-increasing-path/",
+  "createdAt": "2026-08-12T15:59:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3680,
+  "questionId": "3680",
+  "questionFrontendId": "3378",
+  "titleSlug": "count-connected-components-in-lcm-graph",
+  "title": "Count Connected Components in LCM Graph",
+  "translatedTitle": "统计最小公倍数图中的连通块数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-connected-components-in-lcm-graph/",
+  "createdAt": "2026-08-12T15:58:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

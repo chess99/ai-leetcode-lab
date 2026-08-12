@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3478,
+  "questionId": "3478",
+  "questionFrontendId": "3235",
+  "titleSlug": "check-if-the-rectangle-corner-is-reachable",
+  "title": "Check if the Rectangle Corner Is Reachable",
+  "translatedTitle": "判断矩形的两个角落是否可达",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/check-if-the-rectangle-corner-is-reachable/",
+  "createdAt": "2026-08-12T15:57:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

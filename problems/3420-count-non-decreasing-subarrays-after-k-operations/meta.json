@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3674,
+  "questionId": "3674",
+  "questionFrontendId": "3420",
+  "titleSlug": "count-non-decreasing-subarrays-after-k-operations",
+  "title": "Count Non-Decreasing Subarrays After K Operations",
+  "translatedTitle": "统计 K 次操作以内得到非递减子数组的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-non-decreasing-subarrays-after-k-operations/",
+  "createdAt": "2026-08-12T15:58:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

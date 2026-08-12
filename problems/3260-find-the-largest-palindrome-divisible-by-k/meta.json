@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3552,
+  "questionId": "3552",
+  "questionFrontendId": "3260",
+  "titleSlug": "find-the-largest-palindrome-divisible-by-k",
+  "title": "Find the Largest Palindrome Divisible by K",
+  "translatedTitle": "找出最大的 N 位 K 回文数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-largest-palindrome-divisible-by-k/",
+  "createdAt": "2026-08-12T15:57:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3546,
+  "questionId": "3546",
+  "questionFrontendId": "3261",
+  "titleSlug": "count-substrings-that-satisfy-k-constraint-ii",
+  "title": "Count Substrings That Satisfy K-Constraint II",
+  "translatedTitle": "统计满足 K 约束的子字符串数量 II",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-substrings-that-satisfy-k-constraint-ii/",
+  "createdAt": "2026-08-12T15:57:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

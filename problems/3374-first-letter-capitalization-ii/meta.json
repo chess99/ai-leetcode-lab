@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3711,
+  "questionId": "3711",
+  "questionFrontendId": "3374",
+  "titleSlug": "first-letter-capitalization-ii",
+  "title": "First Letter Capitalization II",
+  "translatedTitle": "首字母大写 II",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/first-letter-capitalization-ii/",
+  "createdAt": "2026-08-12T15:59:05Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

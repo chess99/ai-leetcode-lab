@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3675,
+  "questionId": "3675",
+  "questionFrontendId": "3367",
+  "titleSlug": "maximize-sum-of-weights-after-edge-removals",
+  "title": "Maximize Sum of Weights after Edge Removals",
+  "translatedTitle": "移除边之后的权重最大和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-sum-of-weights-after-edge-removals/",
+  "createdAt": "2026-08-12T15:58:11Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

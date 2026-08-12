@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3682,
+  "questionId": "3682",
+  "questionFrontendId": "3405",
+  "titleSlug": "count-the-number-of-arrays-with-k-matching-adjacent-elements",
+  "title": "Count the Number of Arrays with K Matching Adjacent Elements",
+  "translatedTitle": "统计恰好有 K 个相等相邻元素的数组数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/",
+  "createdAt": "2026-08-12T15:58:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3572,
+  "questionId": "3572",
+  "questionFrontendId": "3298",
+  "titleSlug": "count-substrings-that-can-be-rearranged-to-contain-a-string-ii",
+  "title": "Count Substrings That Can Be Rearranged to Contain a String II",
+  "translatedTitle": "统计重新排列后包含另一个字符串的子字符串数目 II",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/",
+  "createdAt": "2026-08-12T15:59:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

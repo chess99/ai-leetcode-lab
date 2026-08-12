@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3588,
+  "questionId": "3588",
+  "questionFrontendId": "3320",
+  "titleSlug": "count-the-number-of-winning-sequences",
+  "title": "Count The Number of Winning Sequences",
+  "translatedTitle": "统计能获胜的出招序列数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-winning-sequences/",
+  "createdAt": "2026-08-12T15:59:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

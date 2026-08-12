@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3535,
+  "questionId": "3535",
+  "questionFrontendId": "3250",
+  "titleSlug": "find-the-count-of-monotonic-pairs-i",
+  "title": "Find the Count of Monotonic Pairs I",
+  "translatedTitle": "单调数组对的数目 I",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-i/",
+  "createdAt": "2026-08-12T15:57:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

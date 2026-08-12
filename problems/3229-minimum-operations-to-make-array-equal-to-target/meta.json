@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3454,
+  "questionId": "3454",
+  "questionFrontendId": "3229",
+  "titleSlug": "minimum-operations-to-make-array-equal-to-target",
+  "title": "Minimum Operations to Make Array Equal to Target",
+  "translatedTitle": "使数组等于目标数组所需的最少操作次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-array-equal-to-target/",
+  "createdAt": "2026-08-12T15:57:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3575,
+  "questionId": "3575",
+  "questionFrontendId": "3287",
+  "titleSlug": "find-the-maximum-sequence-value-of-array",
+  "title": "Find the Maximum Sequence Value of Array",
+  "translatedTitle": "求出数组中最大序列值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-maximum-sequence-value-of-array/",
+  "createdAt": "2026-08-12T15:59:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

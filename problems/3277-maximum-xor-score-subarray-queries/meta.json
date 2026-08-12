@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3551,
+  "questionId": "3551",
+  "questionFrontendId": "3277",
+  "titleSlug": "maximum-xor-score-subarray-queries",
+  "title": "Maximum XOR Score Subarray Queries",
+  "translatedTitle": "查询子数组最大异或分数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-xor-score-subarray-queries/",
+  "createdAt": "2026-08-12T15:59:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3631,
+  "questionId": "3631",
+  "questionFrontendId": "3352",
+  "titleSlug": "count-k-reducible-numbers-less-than-n",
+  "title": "Count K-Reducible Numbers Less Than N",
+  "translatedTitle": "统计小于 N 的 K 可约简整数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-k-reducible-numbers-less-than-n/",
+  "createdAt": "2026-08-12T15:58:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

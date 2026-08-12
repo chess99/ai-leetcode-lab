@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3583,
+  "questionId": "3583",
+  "questionFrontendId": "3312",
+  "titleSlug": "sorted-gcd-pair-queries",
+  "title": "Sorted GCD Pair Queries",
+  "translatedTitle": "查询排序后的最大公约数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sorted-gcd-pair-queries/",
+  "createdAt": "2026-08-12T15:59:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

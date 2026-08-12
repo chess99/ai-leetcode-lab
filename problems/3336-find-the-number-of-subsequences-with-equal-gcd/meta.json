@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3608,
+  "questionId": "3608",
+  "questionFrontendId": "3336",
+  "titleSlug": "find-the-number-of-subsequences-with-equal-gcd",
+  "title": "Find the Number of Subsequences With Equal GCD",
+  "translatedTitle": "最大公约数相等的子序列数量",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-the-number-of-subsequences-with-equal-gcd/",
+  "createdAt": "2026-08-12T15:59:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

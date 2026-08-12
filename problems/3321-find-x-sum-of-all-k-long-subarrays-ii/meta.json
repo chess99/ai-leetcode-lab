@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3592,
+  "questionId": "3592",
+  "questionFrontendId": "3321",
+  "titleSlug": "find-x-sum-of-all-k-long-subarrays-ii",
+  "title": "Find X-Sum of All K-Long Subarrays II",
+  "translatedTitle": "计算子数组的 x-sum II",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-x-sum-of-all-k-long-subarrays-ii/",
+  "createdAt": "2026-08-12T15:59:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

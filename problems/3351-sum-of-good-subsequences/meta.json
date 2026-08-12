@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3646,
+  "questionId": "3646",
+  "questionFrontendId": "3351",
+  "titleSlug": "sum-of-good-subsequences",
+  "title": "Sum of Good Subsequences",
+  "translatedTitle": "好子序列的元素之和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-good-subsequences/",
+  "createdAt": "2026-08-12T15:58:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

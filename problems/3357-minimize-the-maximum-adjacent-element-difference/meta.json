@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3658,
+  "questionId": "3658",
+  "questionFrontendId": "3357",
+  "titleSlug": "minimize-the-maximum-adjacent-element-difference",
+  "title": "Minimize the Maximum Adjacent Element Difference",
+  "translatedTitle": "最小化相邻元素的最大差值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimize-the-maximum-adjacent-element-difference/",
+  "createdAt": "2026-08-12T15:58:10Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

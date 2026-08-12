@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3460,
+  "questionId": "3460",
+  "questionFrontendId": "3193",
+  "titleSlug": "count-the-number-of-inversions",
+  "title": "Count the Number of Inversions",
+  "translatedTitle": "统计逆序对的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-inversions/",
+  "createdAt": "2026-08-12T15:57:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

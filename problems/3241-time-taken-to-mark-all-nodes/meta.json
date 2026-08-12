@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3532,
+  "questionId": "3532",
+  "questionFrontendId": "3241",
+  "titleSlug": "time-taken-to-mark-all-nodes",
+  "title": "Time Taken to Mark All Nodes",
+  "translatedTitle": "标记所有节点需要的时间",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/time-taken-to-mark-all-nodes/",
+  "createdAt": "2026-08-12T15:57:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

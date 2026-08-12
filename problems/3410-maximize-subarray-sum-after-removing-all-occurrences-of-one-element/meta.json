@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3688,
+  "questionId": "3688",
+  "questionFrontendId": "3410",
+  "titleSlug": "maximize-subarray-sum-after-removing-all-occurrences-of-one-element",
+  "title": "Maximize Subarray Sum After Removing All Occurrences of One Element",
+  "translatedTitle": "删除所有值为某个元素后的最大子数组和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-subarray-sum-after-removing-all-occurrences-of-one-element/",
+  "createdAt": "2026-08-12T15:58:13Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

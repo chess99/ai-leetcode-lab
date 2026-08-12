@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3560,
+  "questionId": "3560",
+  "questionFrontendId": "3283",
+  "titleSlug": "maximum-number-of-moves-to-kill-all-pawns",
+  "title": "Maximum Number of Moves to Kill All Pawns",
+  "translatedTitle": "吃掉所有兵需要的最多移动次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-number-of-moves-to-kill-all-pawns/",
+  "createdAt": "2026-08-12T15:59:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
