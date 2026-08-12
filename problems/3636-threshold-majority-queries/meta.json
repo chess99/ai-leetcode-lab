@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3955,
+  "questionId": "3955",
+  "questionFrontendId": "3636",
+  "titleSlug": "threshold-majority-queries",
+  "title": "Threshold Majority Queries",
+  "translatedTitle": "查询超过阈值频率最高元素",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/threshold-majority-queries/",
+  "createdAt": "2026-08-12T17:28:23Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3957,
+  "questionId": "3957",
+  "questionFrontendId": "3715",
+  "titleSlug": "sum-of-perfect-square-ancestors",
+  "title": "Sum of Perfect Square Ancestors",
+  "translatedTitle": "完全平方数的祖先个数总和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-perfect-square-ancestors/",
+  "createdAt": "2026-08-12T17:28:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

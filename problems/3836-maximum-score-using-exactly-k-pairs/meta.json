@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4202,
+  "questionId": "4202",
+  "questionFrontendId": "3836",
+  "titleSlug": "maximum-score-using-exactly-k-pairs",
+  "title": "Maximum Score Using Exactly K Pairs",
+  "translatedTitle": "恰好 K 个下标对的最大得分",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-score-using-exactly-k-pairs/",
+  "createdAt": "2026-08-12T17:28:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

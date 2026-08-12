@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3990,
+  "questionId": "3990",
+  "questionFrontendId": "3681",
+  "titleSlug": "maximum-xor-of-subsequences",
+  "title": "Maximum XOR of Subsequences",
+  "translatedTitle": "子序列最大 XOR 值",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-xor-of-subsequences/",
+  "createdAt": "2026-08-12T17:28:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

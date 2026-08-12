@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4153,
+  "questionId": "4153",
+  "questionFrontendId": "3797",
+  "titleSlug": "count-routes-to-climb-a-rectangular-grid",
+  "title": "Count Routes to Climb a Rectangular Grid",
+  "translatedTitle": "统计在矩形格子里移动的路径数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-routes-to-climb-a-rectangular-grid/",
+  "createdAt": "2026-08-12T17:28:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

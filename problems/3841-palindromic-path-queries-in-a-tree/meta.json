@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4209,
+  "questionId": "4209",
+  "questionFrontendId": "3841",
+  "titleSlug": "palindromic-path-queries-in-a-tree",
+  "title": "Palindromic Path Queries in a Tree",
+  "translatedTitle": "查询树上回文路径",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/palindromic-path-queries-in-a-tree/",
+  "createdAt": "2026-08-12T17:28:57Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

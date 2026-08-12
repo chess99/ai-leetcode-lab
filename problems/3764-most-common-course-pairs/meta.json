@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4169,
+  "questionId": "4169",
+  "questionFrontendId": "3764",
+  "titleSlug": "most-common-course-pairs",
+  "title": "Most Common Course Pairs",
+  "translatedTitle": "最常见的课程组合",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/most-common-course-pairs/",
+  "createdAt": "2026-08-12T17:28:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

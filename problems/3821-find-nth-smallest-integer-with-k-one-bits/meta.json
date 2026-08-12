@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4189,
+  "questionId": "4189",
+  "questionFrontendId": "3821",
+  "titleSlug": "find-nth-smallest-integer-with-k-one-bits",
+  "title": "Find Nth Smallest Integer With K One Bits",
+  "translatedTitle": "二进制中恰好K个1的第N小整数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-nth-smallest-integer-with-k-one-bits/",
+  "createdAt": "2026-08-12T17:28:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

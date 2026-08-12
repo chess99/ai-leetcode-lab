@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4043,
+  "questionId": "4043",
+  "questionFrontendId": "3673",
+  "titleSlug": "find-zombie-sessions",
+  "title": "Find Zombie Sessions",
+  "translatedTitle": "查找僵尸会话",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-zombie-sessions/",
+  "createdAt": "2026-08-12T17:28:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

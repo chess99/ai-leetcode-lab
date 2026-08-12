@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3983,
+  "questionId": "3983",
+  "questionFrontendId": "3666",
+  "titleSlug": "minimum-operations-to-equalize-binary-string",
+  "title": "Minimum Operations to Equalize Binary String",
+  "translatedTitle": "使二进制字符串全为 1 的最少操作次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-equalize-binary-string/",
+  "createdAt": "2026-08-12T17:28:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4249,
+  "questionId": "4249",
+  "questionFrontendId": "3873",
+  "titleSlug": "maximum-points-activated-with-one-addition",
+  "title": "Maximum Points Activated with One Addition",
+  "translatedTitle": "添加一个点后可激活的最大点数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-points-activated-with-one-addition/",
+  "createdAt": "2026-08-12T17:29:01Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3982,
+  "questionId": "3982",
+  "questionFrontendId": "3661",
+  "titleSlug": "maximum-walls-destroyed-by-robots",
+  "title": "Maximum Walls Destroyed by Robots",
+  "translatedTitle": "可以被机器人摧毁的最大墙壁数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-walls-destroyed-by-robots/",
+  "createdAt": "2026-08-12T17:28:25Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

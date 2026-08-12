@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4065,
+  "questionId": "4065",
+  "questionFrontendId": "3850",
+  "titleSlug": "count-sequences-to-k",
+  "title": "Count Sequences to K",
+  "translatedTitle": "统计结果等于 K 的序列数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-sequences-to-k/",
+  "createdAt": "2026-08-12T17:28:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

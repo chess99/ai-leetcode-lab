@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4192,
+  "questionId": "4192",
+  "questionFrontendId": "3864",
+  "titleSlug": "minimum-cost-to-partition-a-binary-string",
+  "title": "Minimum Cost to Partition a Binary String",
+  "translatedTitle": "划分二进制字符串的最小费用",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-partition-a-binary-string/",
+  "createdAt": "2026-08-12T17:29:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

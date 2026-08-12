@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4198,
+  "questionId": "4198",
+  "questionFrontendId": "3830",
+  "titleSlug": "longest-alternating-subarray-after-removing-at-most-one-element",
+  "title": "Longest Alternating Subarray After Removing At Most One Element",
+  "translatedTitle": "移除至多一个元素后的最长交替子数组",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-alternating-subarray-after-removing-at-most-one-element/",
+  "createdAt": "2026-08-12T17:28:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

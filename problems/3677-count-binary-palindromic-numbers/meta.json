@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4023,
+  "questionId": "4023",
+  "questionFrontendId": "3677",
+  "titleSlug": "count-binary-palindromic-numbers",
+  "title": "Count Binary Palindromic Numbers",
+  "translatedTitle": "统计二进制回文数字的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-binary-palindromic-numbers/",
+  "createdAt": "2026-08-12T17:28:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

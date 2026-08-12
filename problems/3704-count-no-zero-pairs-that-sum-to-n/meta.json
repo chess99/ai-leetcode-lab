@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4049,
+  "questionId": "4049",
+  "questionFrontendId": "3704",
+  "titleSlug": "count-no-zero-pairs-that-sum-to-n",
+  "title": "Count No-Zero Pairs That Sum to N",
+  "translatedTitle": "统计和为 N 的无零数对",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-no-zero-pairs-that-sum-to-n/",
+  "createdAt": "2026-08-12T17:28:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

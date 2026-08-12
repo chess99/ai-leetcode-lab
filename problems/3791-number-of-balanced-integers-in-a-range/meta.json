@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4095,
+  "questionId": "4095",
+  "questionFrontendId": "3791",
+  "titleSlug": "number-of-balanced-integers-in-a-range",
+  "title": "Number of Balanced Integers in a Range",
+  "translatedTitle": "给定范围内平衡整数的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-balanced-integers-in-a-range/",
+  "createdAt": "2026-08-12T17:28:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

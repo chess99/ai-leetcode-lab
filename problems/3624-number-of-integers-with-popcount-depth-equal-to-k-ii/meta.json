@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3941,
+  "questionId": "3941",
+  "questionFrontendId": "3624",
+  "titleSlug": "number-of-integers-with-popcount-depth-equal-to-k-ii",
+  "title": "Number of Integers With Popcount-Depth Equal to K II",
+  "translatedTitle": "位计数深度为 K 的整数数目 II",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/",
+  "createdAt": "2026-08-12T17:28:22Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

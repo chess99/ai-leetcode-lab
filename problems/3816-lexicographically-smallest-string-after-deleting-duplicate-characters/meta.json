@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4086,
+  "questionId": "4086",
+  "questionFrontendId": "3816",
+  "titleSlug": "lexicographically-smallest-string-after-deleting-duplicate-characters",
+  "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+  "translatedTitle": "删除重复字符后的字典序最小字符串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lexicographically-smallest-string-after-deleting-duplicate-characters/",
+  "createdAt": "2026-08-12T17:28:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

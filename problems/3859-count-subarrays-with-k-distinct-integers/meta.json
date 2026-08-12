@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4002,
+  "questionId": "4002",
+  "questionFrontendId": "3859",
+  "titleSlug": "count-subarrays-with-k-distinct-integers",
+  "title": "Count Subarrays With K Distinct Integers",
+  "translatedTitle": "统计包含 K 个不同整数的子数组",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-subarrays-with-k-distinct-integers/",
+  "createdAt": "2026-08-12T17:28:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4144,
+  "questionId": "4144",
+  "questionFrontendId": "3801",
+  "titleSlug": "minimum-cost-to-merge-sorted-lists",
+  "title": "Minimum Cost to Merge Sorted Lists",
+  "translatedTitle": "合并有序列表的最小成本",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-merge-sorted-lists/",
+  "createdAt": "2026-08-12T17:28:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

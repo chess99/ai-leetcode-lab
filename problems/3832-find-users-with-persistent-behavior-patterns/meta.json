@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4227,
+  "questionId": "4227",
+  "questionFrontendId": "3832",
+  "titleSlug": "find-users-with-persistent-behavior-patterns",
+  "title": "Find Users with Persistent Behavior Patterns",
+  "translatedTitle": "查找具有持续行为模式的用户",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-users-with-persistent-behavior-patterns/",
+  "createdAt": "2026-08-12T17:28:56Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4145,
+  "questionId": "4145",
+  "questionFrontendId": "3768",
+  "titleSlug": "minimum-inversion-count-in-subarrays-of-fixed-length",
+  "title": "Minimum Inversion Count in Subarrays of Fixed Length",
+  "translatedTitle": "固定长度子数组中的最小逆序对数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-inversion-count-in-subarrays-of-fixed-length/",
+  "createdAt": "2026-08-12T17:28:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4159,
+  "questionId": "4159",
+  "questionFrontendId": "3869",
+  "titleSlug": "count-fancy-numbers-in-a-range",
+  "title": "Count Fancy Numbers in a Range",
+  "translatedTitle": "统计区间内奇妙数的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-fancy-numbers-in-a-range/",
+  "createdAt": "2026-08-12T17:29:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

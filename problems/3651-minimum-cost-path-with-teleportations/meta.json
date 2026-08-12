@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3889,
+  "questionId": "3889",
+  "questionFrontendId": "3651",
+  "titleSlug": "minimum-cost-path-with-teleportations",
+  "title": "Minimum Cost Path with Teleportations",
+  "translatedTitle": "带传送的最小路径成本",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-path-with-teleportations/",
+  "createdAt": "2026-08-12T17:28:24Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

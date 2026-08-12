@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4027,
+  "questionId": "4027",
+  "questionFrontendId": "3686",
+  "titleSlug": "number-of-stable-subsequences",
+  "title": "Number of Stable Subsequences",
+  "translatedTitle": "稳定子序列的数量",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-stable-subsequences/",
+  "createdAt": "2026-08-12T17:28:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
