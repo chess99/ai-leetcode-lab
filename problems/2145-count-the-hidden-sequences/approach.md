@@ -6,6 +6,8 @@
 - Profile：terra-medium
 - 轮次：1
 
+## 思路
+
 ## 算法
 
 令隐藏数组首项为 `x`，其余元素均为 `x` 加上 `differences` 的前缀和。扫描前缀和的最小值 `minimum` 与最大值 `maximum`。为使所有元素落入 `[lower, upper]`，`x` 的可选区间长度为区间总长度减去前缀和跨度，即 `(upper - lower + 1) - (maximum - minimum)`，负数则为 0。

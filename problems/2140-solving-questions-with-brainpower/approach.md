@@ -6,6 +6,8 @@
 - Profile：terra-medium
 - 轮次：1
 
+## 思路
+
 ## 算法
 
 从后向前动态规划。`best[i]` 表示从第 `i` 题开始最多可得分。跳过当前题可得 `best[i + 1]`；解决当前题获得其分数，下一可选下标为 `i + brainpower + 1`，收益为 `points + best[next]`。取二者较大值。
