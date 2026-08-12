@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3996,
+  "questionId": "3996",
+  "questionFrontendId": "3642",
+  "titleSlug": "find-books-with-polarized-opinions",
+  "title": "Find Books with Polarized Opinions",
+  "translatedTitle": "查找有两极分化观点的书籍",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-books-with-polarized-opinions/",
+  "createdAt": "2026-08-12T02:47:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

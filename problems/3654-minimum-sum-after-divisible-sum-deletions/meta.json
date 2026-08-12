@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3966,
+  "questionId": "3966",
+  "questionFrontendId": "3654",
+  "titleSlug": "minimum-sum-after-divisible-sum-deletions",
+  "title": "Minimum Sum After Divisible Sum Deletions",
+  "translatedTitle": "删除可整除和后的最小数组和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-sum-after-divisible-sum-deletions/",
+  "createdAt": "2026-08-12T02:47:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

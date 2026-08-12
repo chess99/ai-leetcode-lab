@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4000,
+  "questionId": "4000",
+  "questionFrontendId": "3676",
+  "titleSlug": "count-bowl-subarrays",
+  "title": "Count Bowl Subarrays",
+  "translatedTitle": "碗子数组的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-bowl-subarrays/",
+  "createdAt": "2026-08-12T02:47:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3873,
+  "questionId": "3873",
+  "questionFrontendId": "3685",
+  "titleSlug": "subsequence-sum-after-capping-elements",
+  "title": "Subsequence Sum After Capping Elements",
+  "translatedTitle": "含上限元素的子序列和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/subsequence-sum-after-capping-elements/",
+  "createdAt": "2026-08-12T02:47:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3979,
+  "questionId": "3979",
+  "questionFrontendId": "3659",
+  "titleSlug": "partition-array-into-k-distinct-groups",
+  "title": "Partition Array Into K-Distinct Groups",
+  "translatedTitle": "数组元素分组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/partition-array-into-k-distinct-groups/",
+  "createdAt": "2026-08-12T02:47:44Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

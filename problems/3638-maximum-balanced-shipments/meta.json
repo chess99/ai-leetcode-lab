@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3954,
+  "questionId": "3954",
+  "questionFrontendId": "3638",
+  "titleSlug": "maximum-balanced-shipments",
+  "title": "Maximum Balanced Shipments",
+  "translatedTitle": "平衡装运的最大数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-balanced-shipments/",
+  "createdAt": "2026-08-12T02:47:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

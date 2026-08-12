@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3950,
+  "questionId": "3950",
+  "questionFrontendId": "3644",
+  "titleSlug": "maximum-k-to-sort-a-permutation",
+  "title": "Maximum K to Sort a Permutation",
+  "translatedTitle": "排序排列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-k-to-sort-a-permutation/",
+  "createdAt": "2026-08-12T02:47:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

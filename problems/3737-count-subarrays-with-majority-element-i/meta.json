@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4074,
+  "questionId": "4074",
+  "questionFrontendId": "3737",
+  "titleSlug": "count-subarrays-with-majority-element-i",
+  "title": "Count Subarrays With Majority Element I",
+  "translatedTitle": "统计主要元素子数组数目 I",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-subarrays-with-majority-element-i/",
+  "createdAt": "2026-08-12T02:47:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

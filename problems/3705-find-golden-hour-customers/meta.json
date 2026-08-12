@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4091,
+  "questionId": "4091",
+  "questionFrontendId": "3705",
+  "titleSlug": "find-golden-hour-customers",
+  "title": "Find Golden Hour Customers",
+  "translatedTitle": "寻找黄金时段客户",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-golden-hour-customers/",
+  "createdAt": "2026-08-12T02:47:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

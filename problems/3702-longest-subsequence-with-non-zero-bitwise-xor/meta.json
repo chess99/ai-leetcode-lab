@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4033,
+  "questionId": "4033",
+  "questionFrontendId": "3702",
+  "titleSlug": "longest-subsequence-with-non-zero-bitwise-xor",
+  "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+  "translatedTitle": "按位异或非零的最长子序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-subsequence-with-non-zero-bitwise-xor/",
+  "createdAt": "2026-08-12T02:47:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4054,
+  "questionId": "4054",
+  "questionFrontendId": "3747",
+  "titleSlug": "count-distinct-integers-after-removing-zeros",
+  "title": "Count Distinct Integers After Removing Zeros",
+  "translatedTitle": "统计移除零后不同整数的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-distinct-integers-after-removing-zeros/",
+  "createdAt": "2026-08-12T02:47:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

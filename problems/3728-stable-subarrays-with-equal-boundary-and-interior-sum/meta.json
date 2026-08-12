@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4083,
+  "questionId": "4083",
+  "questionFrontendId": "3728",
+  "titleSlug": "stable-subarrays-with-equal-boundary-and-interior-sum",
+  "title": "Stable Subarrays With Equal Boundary and Interior Sum",
+  "translatedTitle": "边界与内部和相等的稳定子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/stable-subarrays-with-equal-boundary-and-interior-sum/",
+  "createdAt": "2026-08-12T02:47:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

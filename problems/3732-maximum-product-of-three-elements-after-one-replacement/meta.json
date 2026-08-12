@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4101,
+  "questionId": "4101",
+  "questionFrontendId": "3732",
+  "titleSlug": "maximum-product-of-three-elements-after-one-replacement",
+  "title": "Maximum Product of Three Elements After One Replacement",
+  "translatedTitle": "一次替换后的三元素最大乘积",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-product-of-three-elements-after-one-replacement/",
+  "createdAt": "2026-08-12T02:47:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

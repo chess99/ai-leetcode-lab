@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4141,
+  "questionId": "4141",
+  "questionFrontendId": "3759",
+  "titleSlug": "count-elements-with-at-least-k-greater-values",
+  "title": "Count Elements With at Least K Greater Values",
+  "translatedTitle": "统计合格元素的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-elements-with-at-least-k-greater-values/",
+  "createdAt": "2026-08-12T02:47:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

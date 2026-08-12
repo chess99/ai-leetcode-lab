@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3953,
+  "questionId": "3953",
+  "questionFrontendId": "3679",
+  "titleSlug": "minimum-discards-to-balance-inventory",
+  "title": " Minimum Discards to Balance Inventory",
+  "translatedTitle": "使库存平衡的最少丢弃次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-discards-to-balance-inventory/",
+  "createdAt": "2026-08-12T02:47:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

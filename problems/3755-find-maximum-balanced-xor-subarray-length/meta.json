@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3946,
+  "questionId": "3946",
+  "questionFrontendId": "3755",
+  "titleSlug": "find-maximum-balanced-xor-subarray-length",
+  "title": "Find Maximum Balanced XOR Subarray Length",
+  "translatedTitle": "最大平衡异或子数组的长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-maximum-balanced-xor-subarray-length/",
+  "createdAt": "2026-08-12T02:47:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

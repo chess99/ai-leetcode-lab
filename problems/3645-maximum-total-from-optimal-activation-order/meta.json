@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3959,
+  "questionId": "3959",
+  "questionFrontendId": "3645",
+  "titleSlug": "maximum-total-from-optimal-activation-order",
+  "title": "Maximum Total from Optimal Activation Order",
+  "translatedTitle": "最优激活顺序得到的最大总和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-total-from-optimal-activation-order/",
+  "createdAt": "2026-08-12T02:47:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

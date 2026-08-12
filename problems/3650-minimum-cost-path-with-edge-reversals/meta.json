@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3887,
+  "questionId": "3887",
+  "questionFrontendId": "3650",
+  "titleSlug": "minimum-cost-path-with-edge-reversals",
+  "title": "Minimum Cost Path with Edge Reversals",
+  "translatedTitle": "边反转的最小路径总成本",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-path-with-edge-reversals/",
+  "createdAt": "2026-08-12T02:47:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

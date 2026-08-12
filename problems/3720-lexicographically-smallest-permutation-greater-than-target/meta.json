@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4020,
+  "questionId": "4020",
+  "questionFrontendId": "3720",
+  "titleSlug": "lexicographically-smallest-permutation-greater-than-target",
+  "title": "Lexicographically Smallest Permutation Greater Than Target",
+  "translatedTitle": "大于目标字符串的最小字典序排列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lexicographically-smallest-permutation-greater-than-target/",
+  "createdAt": "2026-08-12T02:47:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4021,
+  "questionId": "4021",
+  "questionFrontendId": "3694",
+  "titleSlug": "distinct-points-reachable-after-substring-removal",
+  "title": "Distinct Points Reachable After Substring Removal",
+  "translatedTitle": "删除子字符串后不同的终点",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/distinct-points-reachable-after-substring-removal/",
+  "createdAt": "2026-08-12T02:47:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

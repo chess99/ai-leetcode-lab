@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3944,
+  "questionId": "3944",
+  "questionFrontendId": "3639",
+  "titleSlug": "minimum-time-to-activate-string",
+  "title": "Minimum Time to Activate String",
+  "translatedTitle": "变为活跃状态的最小时间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-activate-string/",
+  "createdAt": "2026-08-12T02:47:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4103,
+  "questionId": "4103",
+  "questionFrontendId": "3716",
+  "titleSlug": "find-churn-risk-customers",
+  "title": "Find Churn Risk Customers",
+  "translatedTitle": "寻找流失风险客户",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "mysql",
+  "solutionFile": "solution.sql",
+  "source": "https://leetcode.cn/problems/find-churn-risk-customers/",
+  "createdAt": "2026-08-12T02:47:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

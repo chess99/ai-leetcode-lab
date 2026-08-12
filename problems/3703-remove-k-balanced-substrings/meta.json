@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4019,
+  "questionId": "4019",
+  "questionFrontendId": "3703",
+  "titleSlug": "remove-k-balanced-substrings",
+  "title": "Remove K-Balanced Substrings",
+  "translatedTitle": "移除K-平衡子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/remove-k-balanced-substrings/",
+  "createdAt": "2026-08-12T02:47:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3933,
+  "questionId": "3933",
+  "questionFrontendId": "3629",
+  "titleSlug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+  "title": "Minimum Jumps to Reach End via Prime Teleportation",
+  "translatedTitle": "通过质数传送到达终点的最少跳跃次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-jumps-to-reach-end-via-prime-teleportation/",
+  "createdAt": "2026-08-12T02:47:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

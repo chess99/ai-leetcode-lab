@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4015,
+  "questionId": "4015",
+  "questionFrontendId": "3698",
+  "titleSlug": "split-array-with-minimum-difference",
+  "title": "Split Array With Minimum Difference",
+  "translatedTitle": "分割数组得到最小绝对差",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/split-array-with-minimum-difference/",
+  "createdAt": "2026-08-12T02:47:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

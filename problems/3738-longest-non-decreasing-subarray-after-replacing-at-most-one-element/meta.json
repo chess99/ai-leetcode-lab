@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4098,
+  "questionId": "4098",
+  "questionFrontendId": "3738",
+  "titleSlug": "longest-non-decreasing-subarray-after-replacing-at-most-one-element",
+  "title": "Longest Non-Decreasing Subarray After Replacing at Most One Element",
+  "translatedTitle": "替换至多一个元素后最长非递减子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/",
+  "createdAt": "2026-08-12T02:47:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

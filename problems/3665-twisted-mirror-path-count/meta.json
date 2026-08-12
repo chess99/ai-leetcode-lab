@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3938,
+  "questionId": "3938",
+  "questionFrontendId": "3665",
+  "titleSlug": "twisted-mirror-path-count",
+  "title": "Twisted Mirror Path Count",
+  "translatedTitle": "统计镜子反射路径数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/twisted-mirror-path-count/",
+  "createdAt": "2026-08-12T02:47:45Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

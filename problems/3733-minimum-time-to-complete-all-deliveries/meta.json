@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4048,
+  "questionId": "4048",
+  "questionFrontendId": "3733",
+  "titleSlug": "minimum-time-to-complete-all-deliveries",
+  "title": "Minimum Time to Complete All Deliveries",
+  "translatedTitle": "完成所有送货任务的最少时间",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-time-to-complete-all-deliveries/",
+  "createdAt": "2026-08-12T02:47:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

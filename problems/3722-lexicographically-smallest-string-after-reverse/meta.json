@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4073,
+  "questionId": "4073",
+  "questionFrontendId": "3722",
+  "titleSlug": "lexicographically-smallest-string-after-reverse",
+  "title": "Lexicographically Smallest String After Reverse",
+  "translatedTitle": "反转后字典序最小的字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/lexicographically-smallest-string-after-reverse/",
+  "createdAt": "2026-08-12T02:47:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
