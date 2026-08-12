@@ -5,6 +5,8 @@
 - 推理档位：medium
 - Profile：terra-medium
 
+## 思路
+
 `dp[i]` 为前 i 项最优值，枚举末段长度不超过 k 并维护该段最大值转移。
 
 ## 复杂度

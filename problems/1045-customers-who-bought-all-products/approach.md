@@ -4,6 +4,8 @@
 - 模型：gpt-5.6-terra
 - 推理档位：medium
 - Profile：terra-medium
+
+## 思路
 - 语言：MySQL
 
 按客户分组，购买的不同产品数等于 Product 总数时即购买全部产品。

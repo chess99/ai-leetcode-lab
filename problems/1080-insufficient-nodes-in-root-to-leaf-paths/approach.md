@@ -5,6 +5,8 @@
 - 推理档位：medium
 - Profile：terra-medium
 
+## 思路
+
 后序递归传递路径和；不满足 limit 的叶子删除，内部节点两子树皆删后也删除。
 
 ## 复杂度

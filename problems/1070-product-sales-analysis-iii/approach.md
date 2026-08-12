@@ -4,6 +4,8 @@
 - 模型：gpt-5.6-terra
 - 推理档位：medium
 - Profile：terra-medium
+
+## 思路
 - 语言：MySQL
 
 按产品分组取最小年份，再筛选该年份销售记录。
