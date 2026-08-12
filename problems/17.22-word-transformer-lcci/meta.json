@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 1000030,
+  "questionId": "1000030",
+  "questionFrontendId": "面试题 17.22",
+  "titleSlug": "word-transformer-lcci",
+  "title": "Word Transformer LCCI",
+  "translatedTitle": "单词转换",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/word-transformer-lcci/",
+  "createdAt": "2026-08-12T05:22:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

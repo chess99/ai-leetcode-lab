@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 42,
+  "questionId": "42",
+  "questionFrontendId": "42",
+  "titleSlug": "trapping-rain-water",
+  "title": "Trapping Rain Water",
+  "translatedTitle": "接雨水",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/trapping-rain-water/",
+  "createdAt": "2026-08-12T05:24:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

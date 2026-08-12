@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 10,
+  "questionId": "10",
+  "questionFrontendId": "10",
+  "titleSlug": "regular-expression-matching",
+  "title": "Regular Expression Matching",
+  "translatedTitle": "正则表达式匹配",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/regular-expression-matching/",
+  "createdAt": "2026-08-12T05:24:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

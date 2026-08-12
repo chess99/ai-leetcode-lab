@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 23,
+  "questionId": "23",
+  "questionFrontendId": "23",
+  "titleSlug": "merge-k-sorted-lists",
+  "title": "Merge k Sorted Lists",
+  "translatedTitle": "合并 K 个升序链表",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/merge-k-sorted-lists/",
+  "createdAt": "2026-08-12T05:24:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

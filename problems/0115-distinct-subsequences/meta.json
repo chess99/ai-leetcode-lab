@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 115,
+  "questionId": "115",
+  "questionFrontendId": "115",
+  "titleSlug": "distinct-subsequences",
+  "title": "Distinct Subsequences",
+  "translatedTitle": "不同的子序列",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/distinct-subsequences/",
+  "createdAt": "2026-08-12T05:24:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

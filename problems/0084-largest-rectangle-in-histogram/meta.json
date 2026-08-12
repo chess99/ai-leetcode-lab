@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 84,
+  "questionId": "84",
+  "questionFrontendId": "84",
+  "titleSlug": "largest-rectangle-in-histogram",
+  "title": "Largest Rectangle in Histogram",
+  "translatedTitle": "柱状图中最大的矩形",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-rectangle-in-histogram/",
+  "createdAt": "2026-08-12T05:24:55Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
