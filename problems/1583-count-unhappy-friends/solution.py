@@ -12,4 +12,4 @@ class Solution:
         for person, order in enumerate(preferences):
             for place, other in enumerate(order):rank[person][other]=place
         for a,b in pairs:partner[a]=b;partner[b]=a
-        return sum(any(rank[x][u]<rank[x][partner[x]] and rank[u][x]<rank[u][partner[u]] for u in range(n)) for x in range(n))
+        return sum(any(u != x and rank[x][u]<rank[x][partner[x]] and rank[u][x]<rank[u][partner[u]] for u in range(n)) for x in range(n))

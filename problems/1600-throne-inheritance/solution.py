@@ -20,10 +20,12 @@ class ThroneInheritance:
 
     def getInheritanceOrder(self) -> List[str]:
         order=[]
-        def visit(name):
+        stack=[self.king]
+        while stack:
+            name=stack.pop()
             if name not in self.dead:order.append(name)
-            for child in self.children[name]:visit(child)
-        visit(self.king);return order
+            stack.extend(reversed(self.children[name]))
+        return order
 
 
 # Your ThroneInheritance object will be instantiated and called as such:
