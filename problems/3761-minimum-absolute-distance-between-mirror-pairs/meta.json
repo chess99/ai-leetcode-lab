@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4139,
+  "questionId": "4139",
+  "questionFrontendId": "3761",
+  "titleSlug": "minimum-absolute-distance-between-mirror-pairs",
+  "title": "Minimum Absolute Distance Between Mirror Pairs",
+  "translatedTitle": "镜像对之间最小绝对距离",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-absolute-distance-between-mirror-pairs/",
+  "createdAt": "2026-08-12T03:13:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

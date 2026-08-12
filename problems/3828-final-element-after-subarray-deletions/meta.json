@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4122,
+  "questionId": "4122",
+  "questionFrontendId": "3828",
+  "titleSlug": "final-element-after-subarray-deletions",
+  "title": "Final Element After Subarray Deletions",
+  "translatedTitle": "删除子数组后的最终元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/final-element-after-subarray-deletions/",
+  "createdAt": "2026-08-12T03:13:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

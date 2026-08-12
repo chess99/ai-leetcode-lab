@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4100,
+  "questionId": "4100",
+  "questionFrontendId": "3765",
+  "titleSlug": "complete-prime-number",
+  "title": "Complete Prime Number",
+  "translatedTitle": "完全质数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/complete-prime-number/",
+  "createdAt": "2026-08-12T03:13:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4217,
+  "questionId": "4217",
+  "questionFrontendId": "3843",
+  "titleSlug": "first-element-with-unique-frequency",
+  "title": "First Element with Unique Frequency",
+  "translatedTitle": "频率唯一的第一个元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/first-element-with-unique-frequency/",
+  "createdAt": "2026-08-12T03:13:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

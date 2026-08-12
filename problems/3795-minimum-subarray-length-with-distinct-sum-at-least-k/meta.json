@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4152,
+  "questionId": "4152",
+  "questionFrontendId": "3795",
+  "titleSlug": "minimum-subarray-length-with-distinct-sum-at-least-k",
+  "title": "Minimum Subarray Length With Distinct Sum At Least K",
+  "translatedTitle": "不同元素和至少为 K 的最短子数组长度",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-subarray-length-with-distinct-sum-at-least-k/",
+  "createdAt": "2026-08-12T03:13:33Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

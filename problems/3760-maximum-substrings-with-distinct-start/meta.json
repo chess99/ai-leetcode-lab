@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4087,
+  "questionId": "4087",
+  "questionFrontendId": "3760",
+  "titleSlug": "maximum-substrings-with-distinct-start",
+  "title": "Maximum Substrings With Distinct Start",
+  "translatedTitle": "不同首字母的子字符串数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-substrings-with-distinct-start/",
+  "createdAt": "2026-08-12T03:13:29Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4160,
+  "questionId": "4160",
+  "questionFrontendId": "3780",
+  "titleSlug": "maximum-sum-of-three-numbers-divisible-by-three",
+  "title": "Maximum Sum of Three Numbers Divisible by Three",
+  "translatedTitle": "能被 3 整除的三元组最大和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-sum-of-three-numbers-divisible-by-three/",
+  "createdAt": "2026-08-12T03:13:32Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

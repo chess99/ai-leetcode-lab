@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4213,
+  "questionId": "4213",
+  "questionFrontendId": "3834",
+  "titleSlug": "merge-adjacent-equal-elements",
+  "title": "Merge Adjacent Equal Elements",
+  "translatedTitle": "合并相邻且相等的元素",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/merge-adjacent-equal-elements/",
+  "createdAt": "2026-08-12T03:13:38Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4183,
+  "questionId": "4183",
+  "questionFrontendId": "3805",
+  "titleSlug": "count-caesar-cipher-pairs",
+  "title": "Count Caesar Cipher Pairs",
+  "translatedTitle": "统计凯撒加密对数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-caesar-cipher-pairs/",
+  "createdAt": "2026-08-12T03:13:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

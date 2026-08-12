@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4242,
+  "questionId": "4242",
+  "questionFrontendId": "3867",
+  "titleSlug": "sum-of-gcd-of-formed-pairs",
+  "title": "Sum of GCD of Formed Pairs",
+  "translatedTitle": "数对的最大公约数之和",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/sum-of-gcd-of-formed-pairs/",
+  "createdAt": "2026-08-12T03:13:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

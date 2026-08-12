@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4032,
+  "questionId": "4032",
+  "questionFrontendId": "3825",
+  "titleSlug": "longest-strictly-increasing-subsequence-with-non-zero-bitwise-and",
+  "title": "Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND",
+  "translatedTitle": "按位与结果非零的最长上升子序列",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/",
+  "createdAt": "2026-08-12T03:13:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

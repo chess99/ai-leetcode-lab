@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4176,
+  "questionId": "4176",
+  "questionFrontendId": "3824",
+  "titleSlug": "minimum-k-to-reduce-array-within-limit",
+  "title": "Minimum K to Reduce Array Within Limit",
+  "translatedTitle": "减小数组使其满足条件的最小 K 值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-k-to-reduce-array-within-limit/",
+  "createdAt": "2026-08-12T03:13:37Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

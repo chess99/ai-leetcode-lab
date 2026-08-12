@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4013,
+  "questionId": "4013",
+  "questionFrontendId": "3853",
+  "titleSlug": "merge-close-characters",
+  "title": "Merge Close Characters",
+  "translatedTitle": "合并靠近字符",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/merge-close-characters/",
+  "createdAt": "2026-08-12T03:13:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

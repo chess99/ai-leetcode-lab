@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4044,
+  "questionId": "4044",
+  "questionFrontendId": "3849",
+  "titleSlug": "maximum-bitwise-xor-after-rearrangement",
+  "title": "Maximum Bitwise XOR After Rearrangement",
+  "translatedTitle": "重新排列后的最大按位异或值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-bitwise-xor-after-rearrangement/",
+  "createdAt": "2026-08-12T03:13:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

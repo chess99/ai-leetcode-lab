@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4156,
+  "questionId": "4156",
+  "questionFrontendId": "3800",
+  "titleSlug": "minimum-cost-to-make-two-binary-strings-equal",
+  "title": "Minimum Cost to Make Two Binary Strings Equal",
+  "translatedTitle": "使二进制字符串相等的最小成本",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-make-two-binary-strings-equal/",
+  "createdAt": "2026-08-12T03:13:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

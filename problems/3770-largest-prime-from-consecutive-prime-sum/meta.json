@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4085,
+  "questionId": "4085",
+  "questionFrontendId": "3770",
+  "titleSlug": "largest-prime-from-consecutive-prime-sum",
+  "title": "Largest Prime from Consecutive Prime Sum",
+  "translatedTitle": "可表示为连续质数和的最大质数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/largest-prime-from-consecutive-prime-sum/",
+  "createdAt": "2026-08-12T03:13:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

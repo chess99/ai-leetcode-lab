@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4146,
+  "questionId": "4146",
+  "questionFrontendId": "3771",
+  "titleSlug": "total-score-of-dungeon-runs",
+  "title": "Total Score of Dungeon Runs",
+  "translatedTitle": "探索地牢的得分",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/total-score-of-dungeon-runs/",
+  "createdAt": "2026-08-12T03:13:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

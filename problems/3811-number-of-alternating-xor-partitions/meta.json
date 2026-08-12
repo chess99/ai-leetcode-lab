@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4143,
+  "questionId": "4143",
+  "questionFrontendId": "3811",
+  "titleSlug": "number-of-alternating-xor-partitions",
+  "title": "Number of Alternating XOR Partitions",
+  "translatedTitle": "交替按位异或分割的数目",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-alternating-xor-partitions/",
+  "createdAt": "2026-08-12T03:13:35Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

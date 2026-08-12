@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4129,
+  "questionId": "4129",
+  "questionFrontendId": "3804",
+  "titleSlug": "number-of-centered-subarrays",
+  "title": "Number of Centered Subarrays",
+  "translatedTitle": "中心子数组的数量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-centered-subarrays/",
+  "createdAt": "2026-08-12T03:13:34Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4205,
+  "questionId": "4205",
+  "questionFrontendId": "3882",
+  "titleSlug": "minimum-xor-path-in-a-grid",
+  "title": "Minimum XOR Path in a Grid",
+  "translatedTitle": "网格图中最小异或路径",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-xor-path-in-a-grid/",
+  "createdAt": "2026-08-12T03:13:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

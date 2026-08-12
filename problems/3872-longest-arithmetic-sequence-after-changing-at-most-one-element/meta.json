@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4230,
+  "questionId": "4230",
+  "questionFrontendId": "3872",
+  "titleSlug": "longest-arithmetic-sequence-after-changing-at-most-one-element",
+  "title": "Longest Arithmetic Sequence After Changing At Most One Element",
+  "translatedTitle": "替换最多一个元素后的最长等差子数组",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-arithmetic-sequence-after-changing-at-most-one-element/",
+  "createdAt": "2026-08-12T03:13:42Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

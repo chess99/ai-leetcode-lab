@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4079,
+  "questionId": "4079",
+  "questionFrontendId": "3814",
+  "titleSlug": "maximum-capacity-within-budget",
+  "title": "Maximum Capacity Within Budget",
+  "translatedTitle": "预算下的最大总容量",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-capacity-within-budget/",
+  "createdAt": "2026-08-12T03:13:36Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

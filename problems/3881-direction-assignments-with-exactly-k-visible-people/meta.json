@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4251,
+  "questionId": "4251",
+  "questionFrontendId": "3881",
+  "titleSlug": "direction-assignments-with-exactly-k-visible-people",
+  "title": "Direction Assignments with Exactly K Visible People",
+  "translatedTitle": "恰好看到 K 个人的方向选择",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/direction-assignments-with-exactly-k-visible-people/",
+  "createdAt": "2026-08-12T03:13:43Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

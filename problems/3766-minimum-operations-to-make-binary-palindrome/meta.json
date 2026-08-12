@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4099,
+  "questionId": "4099",
+  "questionFrontendId": "3766",
+  "titleSlug": "minimum-operations-to-make-binary-palindrome",
+  "title": "Minimum Operations to Make Binary Palindrome",
+  "translatedTitle": "将数字变成二进制回文数的最少操作",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-operations-to-make-binary-palindrome/",
+  "createdAt": "2026-08-12T03:13:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

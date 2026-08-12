@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4161,
+  "questionId": "4161",
+  "questionFrontendId": "3858",
+  "titleSlug": "minimum-bitwise-or-from-grid",
+  "title": "Minimum Bitwise OR From Grid",
+  "translatedTitle": "按位或的最小值",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-bitwise-or-from-grid/",
+  "createdAt": "2026-08-12T03:13:41Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

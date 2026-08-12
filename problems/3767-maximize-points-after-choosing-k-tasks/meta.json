@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4089,
+  "questionId": "4089",
+  "questionFrontendId": "3767",
+  "titleSlug": "maximize-points-after-choosing-k-tasks",
+  "title": "Maximize Points After Choosing K Tasks",
+  "translatedTitle": "选择 K 个任务的最大总分数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-points-after-choosing-k-tasks/",
+  "createdAt": "2026-08-12T03:13:30Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

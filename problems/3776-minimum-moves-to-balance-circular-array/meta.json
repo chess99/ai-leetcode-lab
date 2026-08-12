@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4018,
+  "questionId": "4018",
+  "questionFrontendId": "3776",
+  "titleSlug": "minimum-moves-to-balance-circular-array",
+  "title": "Minimum Moves to Balance Circular Array",
+  "translatedTitle": "使循环数组余额非负的最少移动次数",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-moves-to-balance-circular-array/",
+  "createdAt": "2026-08-12T03:13:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

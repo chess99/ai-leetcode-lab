@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4157,
+  "questionId": "4157",
+  "questionFrontendId": "3775",
+  "titleSlug": "reverse-words-with-same-vowel-count",
+  "title": "Reverse Words With Same Vowel Count",
+  "translatedTitle": "反转元音数相同的单词",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/reverse-words-with-same-vowel-count/",
+  "createdAt": "2026-08-12T03:13:31Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

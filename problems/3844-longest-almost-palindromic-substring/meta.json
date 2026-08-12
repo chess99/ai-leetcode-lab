@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4221,
+  "questionId": "4221",
+  "questionFrontendId": "3844",
+  "titleSlug": "longest-almost-palindromic-substring",
+  "title": "Longest Almost-Palindromic Substring",
+  "translatedTitle": "最长的准回文子字符串",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/longest-almost-palindromic-substring/",
+  "createdAt": "2026-08-12T03:13:39Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

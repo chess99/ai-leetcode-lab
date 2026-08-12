@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 4024,
+  "questionId": "4024",
+  "questionFrontendId": "3857",
+  "titleSlug": "minimum-cost-to-split-into-ones",
+  "title": "Minimum Cost to Split into Ones",
+  "translatedTitle": "拆分到 1 的最小总代价",
+  "difficulty": "MEDIUM",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-cost-to-split-into-ones/",
+  "createdAt": "2026-08-12T03:13:40Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
