@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3218,
+  "questionId": "3218",
+  "questionFrontendId": "2973",
+  "titleSlug": "find-number-of-coins-to-place-in-tree-nodes",
+  "title": "Find Number of Coins to Place in Tree Nodes",
+  "translatedTitle": "树中每个节点放置的金币数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-number-of-coins-to-place-in-tree-nodes/",
+  "createdAt": "2026-08-12T15:15:51Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

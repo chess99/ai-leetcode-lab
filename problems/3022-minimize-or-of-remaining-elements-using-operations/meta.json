@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3261,
+  "questionId": "3261",
+  "questionFrontendId": "3022",
+  "titleSlug": "minimize-or-of-remaining-elements-using-operations",
+  "title": "Minimize OR of Remaining Elements Using Operations",
+  "translatedTitle": "给定操作次数内使剩余元素的或值最小",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimize-or-of-remaining-elements-using-operations/",
+  "createdAt": "2026-08-12T15:15:53Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

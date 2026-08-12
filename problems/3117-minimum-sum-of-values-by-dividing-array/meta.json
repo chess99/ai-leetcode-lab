@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3364,
+  "questionId": "3364",
+  "questionFrontendId": "3117",
+  "titleSlug": "minimum-sum-of-values-by-dividing-array",
+  "title": "Minimum Sum of Values by Dividing Array",
+  "translatedTitle": "划分数组得到最小的值之和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-sum-of-values-by-dividing-array/",
+  "createdAt": "2026-08-12T15:15:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

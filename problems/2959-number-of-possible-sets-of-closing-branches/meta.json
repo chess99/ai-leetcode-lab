@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3217,
+  "questionId": "3217",
+  "questionFrontendId": "2959",
+  "titleSlug": "number-of-possible-sets-of-closing-branches",
+  "title": "Number of Possible Sets of Closing Branches",
+  "translatedTitle": "关闭分部的可行集合数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/number-of-possible-sets-of-closing-branches/",
+  "createdAt": "2026-08-12T15:15:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

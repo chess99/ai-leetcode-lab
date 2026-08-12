@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3224,
+  "questionId": "3224",
+  "questionFrontendId": "2954",
+  "titleSlug": "count-the-number-of-infection-sequences",
+  "title": "Count the Number of Infection Sequences",
+  "translatedTitle": "统计感冒序列的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-infection-sequences/",
+  "createdAt": "2026-08-12T15:15:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

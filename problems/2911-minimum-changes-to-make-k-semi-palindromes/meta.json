@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 2879,
+  "questionId": "2879",
+  "questionFrontendId": "2911",
+  "titleSlug": "minimum-changes-to-make-k-semi-palindromes",
+  "title": "Minimum Changes to Make K Semi-palindromes",
+  "translatedTitle": "得到 K 个半回文串的最少修改次数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/minimum-changes-to-make-k-semi-palindromes/",
+  "createdAt": "2026-08-12T15:15:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3386,
+  "questionId": "3386",
+  "questionFrontendId": "3123",
+  "titleSlug": "find-edges-in-shortest-paths",
+  "title": "Find Edges in Shortest Paths",
+  "translatedTitle": "最短路径中的边",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-edges-in-shortest-paths/",
+  "createdAt": "2026-08-12T15:15:58Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

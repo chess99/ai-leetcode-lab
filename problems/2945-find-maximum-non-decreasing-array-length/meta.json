@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3211,
+  "questionId": "3211",
+  "questionFrontendId": "2945",
+  "titleSlug": "find-maximum-non-decreasing-array-length",
+  "title": "Find Maximum Non-decreasing Array Length",
+  "translatedTitle": "找到最大非递减数组的长度",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-maximum-non-decreasing-array-length/",
+  "createdAt": "2026-08-12T15:15:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

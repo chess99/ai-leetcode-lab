@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3181,
+  "questionId": "3181",
+  "questionFrontendId": "2940",
+  "titleSlug": "find-building-where-alice-and-bob-can-meet",
+  "title": "Find Building Where Alice and Bob Can Meet",
+  "translatedTitle": "找到 Alice 和 Bob 可以相遇的建筑",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-building-where-alice-and-bob-can-meet/",
+  "createdAt": "2026-08-12T15:15:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

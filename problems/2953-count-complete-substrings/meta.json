@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3223,
+  "questionId": "3223",
+  "questionFrontendId": "2953",
+  "titleSlug": "count-complete-substrings",
+  "title": "Count Complete Substrings",
+  "translatedTitle": "统计完全子字符串",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-complete-substrings/",
+  "createdAt": "2026-08-12T15:15:49Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3423,
+  "questionId": "3423",
+  "questionFrontendId": "3165",
+  "titleSlug": "maximum-sum-of-subsequence-with-non-adjacent-elements",
+  "title": "Maximum Sum of Subsequence With Non-adjacent Elements",
+  "translatedTitle": "不包含相邻元素的子序列的最大和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/",
+  "createdAt": "2026-08-12T15:16:00Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

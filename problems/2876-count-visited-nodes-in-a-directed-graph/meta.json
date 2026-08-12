@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3140,
+  "questionId": "3140",
+  "questionFrontendId": "2876",
+  "titleSlug": "count-visited-nodes-in-a-directed-graph",
+  "title": "Count Visited Nodes in a Directed Graph",
+  "translatedTitle": "有向图访问计数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-visited-nodes-in-a-directed-graph/",
+  "createdAt": "2026-08-12T15:15:46Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

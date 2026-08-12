@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3212,
+  "questionId": "3212",
+  "questionFrontendId": "2963",
+  "titleSlug": "count-the-number-of-good-partitions",
+  "title": "Count the Number of Good Partitions",
+  "translatedTitle": "统计好分割方案的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-the-number-of-good-partitions/",
+  "createdAt": "2026-08-12T15:15:50Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

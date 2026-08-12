@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3298,
+  "questionId": "3298",
+  "questionFrontendId": "3041",
+  "titleSlug": "maximize-consecutive-elements-in-an-array-after-modification",
+  "title": "Maximize Consecutive Elements in an Array After Modification",
+  "translatedTitle": "修改数组后最大化数组中的连续元素数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-consecutive-elements-in-an-array-after-modification/",
+  "createdAt": "2026-08-12T15:15:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3414,
+  "questionId": "3414",
+  "questionFrontendId": "3154",
+  "titleSlug": "find-number-of-ways-to-reach-the-k-th-stair",
+  "title": "Find Number of Ways to Reach the K-th Stair",
+  "translatedTitle": "到达第 K 级台阶的方案数",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/find-number-of-ways-to-reach-the-k-th-stair/",
+  "createdAt": "2026-08-12T15:15:59Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

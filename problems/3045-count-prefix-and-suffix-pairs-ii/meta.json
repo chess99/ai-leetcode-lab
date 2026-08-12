@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3305,
+  "questionId": "3305",
+  "questionFrontendId": "3045",
+  "titleSlug": "count-prefix-and-suffix-pairs-ii",
+  "title": "Count Prefix and Suffix Pairs II",
+  "translatedTitle": "统计前后缀下标对 II",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-prefix-and-suffix-pairs-ii/",
+  "createdAt": "2026-08-12T15:15:54Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

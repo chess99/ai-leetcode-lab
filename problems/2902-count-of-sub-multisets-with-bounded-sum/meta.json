@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3091,
+  "questionId": "3091",
+  "questionFrontendId": "2902",
+  "titleSlug": "count-of-sub-multisets-with-bounded-sum",
+  "title": "Count of Sub-Multisets With Bounded Sum",
+  "translatedTitle": "和带限制的子多重集合的数目",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/count-of-sub-multisets-with-bounded-sum/",
+  "createdAt": "2026-08-12T15:15:47Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

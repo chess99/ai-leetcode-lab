@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3233,
+  "questionId": "3233",
+  "questionFrontendId": "3003",
+  "titleSlug": "maximize-the-number-of-partitions-after-operations",
+  "title": "Maximize the Number of Partitions After Operations",
+  "translatedTitle": "执行操作后的最大分割数量",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximize-the-number-of-partitions-after-operations/",
+  "createdAt": "2026-08-12T15:15:52Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}

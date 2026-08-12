@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": 3184,
+  "questionId": "3184",
+  "questionFrontendId": "2926",
+  "titleSlug": "maximum-balanced-subsequence-sum",
+  "title": "Maximum Balanced Subsequence Sum",
+  "translatedTitle": "平衡子序列的最大和",
+  "difficulty": "HARD",
+  "paidOnly": false,
+  "language": "python3",
+  "solutionFile": "solution.py",
+  "source": "https://leetcode.cn/problems/maximum-balanced-subsequence-sum/",
+  "createdAt": "2026-08-12T15:15:48Z",
+  "createdBy": {
+    "client": "Codex Desktop",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "profileId": "terra-medium"
+  }
+}
