@@ -428,6 +428,104 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         if profile_id in highest_profiles and slug not in accepted
     ]
 
+    # 把实验结果收敛为一个互斥且完备的矩阵：每道免费题只会落在
+    # “首次 Accepted Profile”“最高档仍未解决”或“仍在阶梯中”之一。
+    # 这样最终报告无需再把多个统计区块人工拼接起来。
+    accessible_slugs = {str(item["titleSlug"]) for item in accessible_problems}
+    unresolved_slugs = {
+        str(item["slug"])
+        for item in unresolved_at_highest
+        if str(item["slug"]) in accessible_slugs
+    }
+    pending_ladder_slugs = accessible_slugs - accepted - unresolved_slugs
+    difficulty_levels = sorted(difficulty_total)
+
+    capability_rows: list[dict[str, Any]] = []
+    accepted_profile_order = list(configured_profiles.execution_ladder)
+    accepted_profile_order.extend(
+        sorted(set(first_success_profile.values()) - set(accepted_profile_order))
+    )
+    for profile_id in accepted_profile_order:
+        counts = {
+            level: sum(
+                1
+                for slug, accepted_profile in first_success_profile.items()
+                if accepted_profile == profile_id
+                and slug in accessible_slugs
+                and str(by_slug[slug].get("difficulty", "UNKNOWN")) == level
+            )
+            for level in difficulty_levels
+        }
+        profile = profile_config.get(profile_id)
+        capability_rows.append(
+            {
+                "kind": "firstAccepted",
+                "profileId": profile_id,
+                "model": profile.model if profile else "unknown",
+                "reasoningEffort": profile.reasoning_effort if profile else "unknown",
+                "byDifficulty": counts,
+                "total": sum(counts.values()),
+            }
+        )
+
+    for profile_id in sorted(
+        {str(item["profileId"]) for item in unresolved_at_highest},
+        key=lambda value: (
+            configured_profiles.execution_ladder.index(value)
+            if value in configured_profiles.execution_ladder
+            else len(configured_profiles.execution_ladder),
+            value,
+        ),
+    ):
+        slugs = {
+            str(item["slug"])
+            for item in unresolved_at_highest
+            if str(item["profileId"]) == profile_id
+            and str(item["slug"]) in accessible_slugs
+        }
+        counts = {
+            level: sum(
+                1
+                for slug in slugs
+                if str(by_slug[slug].get("difficulty", "UNKNOWN")) == level
+            )
+            for level in difficulty_levels
+        }
+        profile = profile_config.get(profile_id)
+        capability_rows.append(
+            {
+                "kind": "highestUnresolved",
+                "profileId": profile_id,
+                "model": profile.model if profile else "unknown",
+                "reasoningEffort": profile.reasoning_effort if profile else "unknown",
+                "byDifficulty": counts,
+                "total": sum(counts.values()),
+            }
+        )
+
+    pending_counts = {
+        level: sum(
+            1
+            for slug in pending_ladder_slugs
+            if str(by_slug[slug].get("difficulty", "UNKNOWN")) == level
+        )
+        for level in difficulty_levels
+    }
+    capability_rows.append(
+        {
+            "kind": "pendingInLadder",
+            "profileId": None,
+            "model": None,
+            "reasoningEffort": None,
+            "byDifficulty": pending_counts,
+            "total": sum(pending_counts.values()),
+        }
+    )
+    accounted_counts = {
+        level: sum(int(row["byDifficulty"][level]) for row in capability_rows)
+        for level in difficulty_levels
+    }
+
     first_submission_accepts = sum(
         1
         for event in accepted_by_slug.values()
@@ -678,6 +776,18 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         "ladderPaths": ladder_paths,
         "escalationQueueByProfile": escalation_queue,
         "unresolvedAtHighestProfile": unresolved_at_highest,
+        "capabilityByDifficulty": {
+            "policy": (
+                "每道免费题互斥归入首次远程 Accepted Profile、最高档仍未解决或仍在阶梯中；"
+                "高档可继承低档失败产物，因此衡量阶梯协作结果而非独立盲测。"
+            ),
+            "difficultyOrder": difficulty_levels,
+            "rows": capability_rows,
+            "accountedByDifficulty": accounted_counts,
+            "eligibleByDifficulty": dict(sorted(difficulty_total.items())),
+            "pending": len(pending_ladder_slugs),
+            "isComplete": not pending_ladder_slugs,
+        },
         "firstSuccessByDifficulty": {
             level: dict(sorted(counts.items()))
             for level, counts in sorted(first_success_by_difficulty.items())
@@ -766,10 +876,46 @@ def render_markdown(summary: dict[str, Any]) -> str:
             f"| {level} | {values['eligible']} | {values['accepted']} | "
             f"{values['remoteAcceptanceCoverage']:.2%} |"
         )
-    lines.extend(["", "## 首次成功 Profile × 难度", ""])
-    for level, values in summary["firstSuccessByDifficulty"].items():
-        distribution = "，".join(f"{profile}: {count}" for profile, count in values.items()) or "尚无"
-        lines.append(f"- {level}：{distribution}")
+    capability = summary["capabilityByDifficulty"]
+    levels = capability["difficultyOrder"]
+    lines.extend(
+        [
+            "",
+            "## 模型能力分布矩阵",
+            "",
+            f"> {capability['policy']}",
+            "",
+            "| 结果归属 | " + " | ".join(levels) + " | 合计 |",
+            "|---|" + "---:|" * (len(levels) + 1),
+        ]
+    )
+    for row in capability["rows"]:
+        if row["kind"] == "firstAccepted":
+            label = (
+                f"首次 Accepted：{row['profileId']} "
+                f"({row['model']} / {row['reasoningEffort']})"
+            )
+        elif row["kind"] == "highestUnresolved":
+            label = (
+                f"最高档仍未解决：{row['profileId']} "
+                f"({row['model']} / {row['reasoningEffort']})"
+            )
+        else:
+            label = "仍在阶梯中"
+        lines.append(
+            f"| {label} | "
+            + " | ".join(str(row["byDifficulty"][level]) for level in levels)
+            + f" | {row['total']} |"
+        )
+    matrix_state = "已形成最终分布" if capability["isComplete"] else "仍是阶段性分布"
+    lines.extend(
+        [
+            "",
+            f"矩阵核算：{sum(capability['accountedByDifficulty'].values())} / "
+            f"{sum(capability['eligibleByDifficulty'].values())} 题；{matrix_state}，"
+            f"仍在阶梯中 {capability['pending']} 题。",
+        ]
+    )
     lines.extend(
         [
             "",

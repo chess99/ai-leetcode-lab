@@ -1,6 +1,6 @@
 # AI 刷题实验统计
 
-更新时间：2026-08-13T05:36:42Z
+更新时间：2026-08-13T05:49:46Z
 
 ## 总览
 
@@ -52,11 +52,20 @@
 | HARD | 843 | 484 | 57.41% |
 | MEDIUM | 1836 | 1 | 0.05% |
 
-## 首次成功 Profile × 难度
+## 模型能力分布矩阵
 
-- EASY：sol-xhigh: 1，terra-medium: 485
-- HARD：terra-medium: 484
-- MEDIUM：terra-medium: 1
+> 每道免费题互斥归入首次远程 Accepted Profile、最高档仍未解决或仍在阶梯中；高档可继承低档失败产物，因此衡量阶梯协作结果而非独立盲测。
+
+| 结果归属 | EASY | HARD | MEDIUM | 合计 |
+|---|---:|---:|---:|---:|
+| 首次 Accepted：terra-medium (gpt-5.6-terra / medium) | 485 | 484 | 1 | 970 |
+| 首次 Accepted：sol-medium (gpt-5.6-sol / medium) | 0 | 0 | 0 | 0 |
+| 首次 Accepted：sol-high (gpt-5.6-sol / high) | 0 | 0 | 0 | 0 |
+| 首次 Accepted：sol-xhigh (gpt-5.6-sol / xhigh) | 1 | 0 | 0 | 1 |
+| 首次 Accepted：sol-ultra (gpt-5.6-sol / ultra) | 0 | 0 | 0 | 0 |
+| 仍在阶梯中 | 463 | 359 | 1835 | 2657 |
+
+矩阵核算：3628 / 3628 题；仍是阶段性分布，仍在阶梯中 2657 题。
 
 ## 免费题流程进度 × 难度
 

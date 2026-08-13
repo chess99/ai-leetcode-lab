@@ -154,6 +154,39 @@ class StatsTests(unittest.TestCase):
             summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
             self.assertEqual(summary["acceptedByProfile"], {"sol-medium": 1})
             self.assertEqual(summary["firstSuccessByDifficulty"]["EASY"], {"sol-medium": 1})
+            capability = summary["capabilityByDifficulty"]
+            self.assertEqual(capability["difficultyOrder"], ["EASY"])
+            self.assertEqual(
+                capability["rows"],
+                [
+                    {
+                        "kind": "firstAccepted",
+                        "profileId": "sol-medium",
+                        "model": "gpt-5.6-sol",
+                        "reasoningEffort": "medium",
+                        "byDifficulty": {"EASY": 1},
+                        "total": 1,
+                    },
+                    {
+                        "kind": "firstAccepted",
+                        "profileId": "sol-high",
+                        "model": "gpt-5.6-sol",
+                        "reasoningEffort": "high",
+                        "byDifficulty": {"EASY": 0},
+                        "total": 0,
+                    },
+                    {
+                        "kind": "pendingInLadder",
+                        "profileId": None,
+                        "model": None,
+                        "reasoningEffort": None,
+                        "byDifficulty": {"EASY": 0},
+                        "total": 0,
+                    },
+                ],
+            )
+            self.assertTrue(capability["isComplete"])
+            self.assertEqual(capability["accountedByDifficulty"], {"EASY": 1})
             self.assertEqual(
                 summary["firstSuccessByProblem"]["two-sum"]["profileId"], "sol-medium"
             )
@@ -353,6 +386,23 @@ class StatsTests(unittest.TestCase):
                 summary["experimentByDifficulty"]["EASY"]["awaitingRemoteAccepted"], 1
             )
             self.assertEqual(summary["awaitingRemoteAccepted"], 1)
+            capability = summary["capabilityByDifficulty"]
+            self.assertFalse(capability["isComplete"])
+            self.assertEqual(capability["pending"], 1)
+            self.assertEqual(capability["accountedByDifficulty"], {"EASY": 1})
+            self.assertEqual(
+                [row for row in capability["rows"] if row["kind"] == "pendingInLadder"],
+                [
+                    {
+                        "kind": "pendingInLadder",
+                        "profileId": None,
+                        "model": None,
+                        "reasoningEffort": None,
+                        "byDifficulty": {"EASY": 1},
+                        "total": 1,
+                    }
+                ],
+            )
 
     def test_defer_populates_next_profile_escalation_queue(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -472,6 +522,23 @@ class StatsTests(unittest.TestCase):
             self.assertEqual(
                 summary["unresolvedAtHighestProfile"],
                 [{"profileId": "sol-high", "slug": "hard-one"}],
+            )
+            capability = summary["capabilityByDifficulty"]
+            self.assertTrue(capability["isComplete"])
+            self.assertEqual(capability["pending"], 0)
+            self.assertEqual(capability["accountedByDifficulty"], {"HARD": 1})
+            self.assertEqual(
+                [row for row in capability["rows"] if row["kind"] == "highestUnresolved"],
+                [
+                    {
+                        "kind": "highestUnresolved",
+                        "profileId": "sol-high",
+                        "model": "gpt-5.6-sol",
+                        "reasoningEffort": "high",
+                        "byDifficulty": {"HARD": 1},
+                        "total": 1,
+                    }
+                ],
             )
 
 
