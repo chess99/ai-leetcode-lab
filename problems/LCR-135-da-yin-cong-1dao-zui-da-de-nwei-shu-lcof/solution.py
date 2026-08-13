@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:40:23Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def countNumbers(self, cnt: int) -> List[int]:
         return list(range(1, 10 ** cnt))

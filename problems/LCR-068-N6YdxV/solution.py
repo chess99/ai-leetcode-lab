@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:37:35Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums)

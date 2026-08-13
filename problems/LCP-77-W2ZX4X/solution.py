@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:32:12Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def runeReserve(self, runes: List[int]) -> int:
         runes.sort()

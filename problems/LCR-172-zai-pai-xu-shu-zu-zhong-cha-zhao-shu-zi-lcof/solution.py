@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:45:39Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def countTarget(self, scores: List[int], target: int) -> int:
         def lower_bound(value: int) -> int:

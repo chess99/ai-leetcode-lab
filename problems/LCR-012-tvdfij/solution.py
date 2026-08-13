@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:32:24Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
         total = sum(nums)

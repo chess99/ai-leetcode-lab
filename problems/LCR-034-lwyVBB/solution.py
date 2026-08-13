@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:35:10Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
         position = {char: index for index, char in enumerate(order)}

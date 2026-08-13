@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:46:46Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def fileCombination(self, target: int) -> List[List[int]]:
         result = []

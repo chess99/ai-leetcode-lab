@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:45:39Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
+
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         left, right = headA, headB

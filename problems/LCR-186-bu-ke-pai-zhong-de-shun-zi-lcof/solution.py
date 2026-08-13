@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:52:28Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def checkDynasty(self, places: List[int]) -> bool:
         places.sort()

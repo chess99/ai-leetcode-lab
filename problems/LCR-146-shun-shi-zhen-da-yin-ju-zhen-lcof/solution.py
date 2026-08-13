@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:43:01Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def spiralArray(self, array: List[List[int]]) -> List[int]:
         if not array or not array[0]:

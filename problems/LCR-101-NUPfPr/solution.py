@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:39:38Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         total = sum(nums)

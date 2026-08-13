@@ -5,6 +5,11 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:42:36Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
+from typing import Optional
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):

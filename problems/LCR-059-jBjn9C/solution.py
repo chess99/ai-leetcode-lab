@@ -6,6 +6,7 @@
 # Created: 2026-08-11T15:37:35Z
 # Experiment: ai-leetcode-lab, round 1
 import heapq
+from typing import List
 
 
 class KthLargest:
