@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:06:10Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def differenceOfSum(self, nums: List[int]) -> int:
         return abs(sum(nums)-sum(int(digit) for value in nums for digit in str(value)))

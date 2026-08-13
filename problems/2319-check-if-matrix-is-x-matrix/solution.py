@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T13:25:11Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def checkXMatrix(self, grid: List[List[int]]) -> bool:
         n=len(grid)

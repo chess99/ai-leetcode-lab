@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T13:58:40Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def arithmeticTriplets(self, nums: List[int], diff: int) -> int:
         values = set(nums)

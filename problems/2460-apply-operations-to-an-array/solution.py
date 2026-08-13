@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:03:43Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:
         for index in range(len(nums)-1):

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:08:07Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def leftRightDifference(self, nums: List[int]) -> List[int]:
         right=sum(nums);left=0;result=[]

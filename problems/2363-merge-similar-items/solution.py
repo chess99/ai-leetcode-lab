@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T13:58:52Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def mergeSimilarItems(self, items1: List[List[int]], items2: List[List[int]]) -> List[List[int]]:
         from collections import defaultdict

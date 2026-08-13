@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T13:58:53Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def minNumberOfHours(self, initialEnergy: int, initialExperience: int, energy: List[int], experience: List[int]) -> int:
         hours = 0

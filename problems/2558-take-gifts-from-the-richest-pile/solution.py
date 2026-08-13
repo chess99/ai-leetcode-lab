@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:07:58Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def pickGifts(self, gifts: List[int], k: int) -> int:
         import heapq

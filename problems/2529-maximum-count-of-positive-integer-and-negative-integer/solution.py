@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:05:57Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def maximumCount(self, nums: List[int]) -> int:
         return max(sum(value < 0 for value in nums), sum(value > 0 for value in nums))

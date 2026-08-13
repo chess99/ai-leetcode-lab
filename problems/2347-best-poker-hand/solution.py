@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T13:58:39Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def bestHand(self, ranks: List[int], suits: List[str]) -> str:
         if len(set(suits)) == 1:

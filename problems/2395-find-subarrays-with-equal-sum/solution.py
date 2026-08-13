@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T13:59:15Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def findSubarrays(self, nums: List[int]) -> bool:
         seen=set()

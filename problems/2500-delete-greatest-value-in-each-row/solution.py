@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:05:39Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def deleteGreatestValue(self, grid: List[List[int]]) -> int:
         for row in grid:

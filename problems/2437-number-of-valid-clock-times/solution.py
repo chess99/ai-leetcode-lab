@@ -7,5 +7,9 @@
 # Experiment: ai-leetcode-lab, round 1
 class Solution:
     def countTime(self, time: str) -> int:
-        hours, minutes = time.split(':')
-        return sum(f'{h:02d}'.startswith(hours) for h in range(24)) * sum(f'{m:02d}'.startswith(minutes) for m in range(60))
+        return sum(
+            all(pattern == '?' or pattern == digit
+                for pattern, digit in zip(time, f'{hour:02d}:{minute:02d}'))
+            for hour in range(24)
+            for minute in range(60)
+        )

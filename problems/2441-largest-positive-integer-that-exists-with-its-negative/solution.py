@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:03:12Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def findMaxK(self, nums: List[int]) -> int:
         values = set(nums)

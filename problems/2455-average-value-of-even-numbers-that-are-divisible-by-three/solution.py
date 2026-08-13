@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:03:27Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def averageValue(self, nums: List[int]) -> int:
         values = [value for value in nums if value % 6 == 0]

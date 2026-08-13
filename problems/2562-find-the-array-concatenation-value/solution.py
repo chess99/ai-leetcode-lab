@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:08:06Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def findTheArrayConcVal(self, nums: List[int]) -> int:
         total=0;left=0;right=len(nums)-1

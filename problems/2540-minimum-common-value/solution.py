@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:06:10Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def getCommon(self, nums1: List[int], nums2: List[int]) -> int:
         i=j=0
