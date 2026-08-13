@@ -93,6 +93,20 @@ class EventBudgetTests(unittest.TestCase):
         self.assertEqual(event["input_tokens"], 120)
         self.assertNotIn("cached_input_tokens", event)
 
+    def test_candidate_ready_records_profile_validation_and_code_hash(self) -> None:
+        self.store.ensure_profile_started(self.problem, "python3", self.identity)
+        event = self.store.record_candidate_ready(
+            problem=self.problem,
+            identity=self.identity,
+            language="python3",
+            code="class Solution:\n    pass\n",
+            validation="题面样例与随机 oracle 通过",
+        )
+        self.assertEqual(event["type"], "candidate_ready")
+        self.assertEqual(event["profile_id"], "sol-medium")
+        self.assertEqual(len(event["code_sha256"]), 64)
+        self.assertIn("oracle", event["validation"])
+
 
 if __name__ == "__main__":
     unittest.main()

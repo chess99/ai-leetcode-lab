@@ -141,6 +141,13 @@ class StatsTests(unittest.TestCase):
                 output_tokens=20,
                 **identity,
             )
+            store.append(
+                "candidate_ready",
+                slug="two-sum",
+                code_sha256="a" * 64,
+                validation="oracle passed",
+                **identity,
+            )
 
             summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
             self.assertEqual(summary["acceptedByProfile"], {"sol-medium": 1})
@@ -149,6 +156,8 @@ class StatsTests(unittest.TestCase):
                 summary["firstSuccessByProblem"]["two-sum"]["profileId"], "sol-medium"
             )
             self.assertEqual(summary["profiles"]["sol-medium"]["usage"]["inputTokens"], 100)
+            self.assertEqual(summary["profiles"]["sol-medium"]["candidateReady"], 1)
+            self.assertEqual(summary["candidateReady"], 1)
             self.assertEqual(summary["usageCoverage"]["coverage"], 1.0)
 
     def test_infrastructure_failures_do_not_lower_submission_acceptance_rate(self) -> None:

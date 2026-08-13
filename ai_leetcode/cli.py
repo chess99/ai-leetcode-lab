@@ -241,6 +241,31 @@ def _cmd_report_usage(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_candidate_ready(args: argparse.Namespace) -> int:
+    identity = _identity(args)
+    assert identity is not None
+    problem = resolve_problem(args.selector)
+    from .config import problem_key
+
+    directory = ROOT / "problems" / problem_key(problem)
+    try:
+        meta = json.loads((directory / "meta.json").read_text(encoding="utf-8"))
+        code = (directory / str(meta["solutionFile"])).read_text(encoding="utf-8")
+    except (FileNotFoundError, KeyError, json.JSONDecodeError) as exc:
+        raise ConfigError(f"无法读取本地候选：{directory}") from exc
+    if "NotImplementedError" in code or "TODO" in code or "FIXME" in code:
+        raise ConfigError("占位解答不能记录为 candidate-ready")
+    event = EventStore().record_candidate_ready(
+        problem=problem,
+        identity=identity,
+        language=str(meta["language"]),
+        code=code,
+        validation=args.validation,
+    )
+    _print_json(event)
+    return 0
+
+
 def _cmd_profiles(args: argparse.Namespace) -> int:
     config = load_profiles()
     _print_json(
@@ -387,6 +412,14 @@ def build_parser() -> argparse.ArgumentParser:
     report_usage.add_argument("--source", required=True, help="可核验的数据来源，例如客户端 usage API")
     add_profile(report_usage)
     report_usage.set_defaults(func=_cmd_report_usage)
+
+    candidate_ready = subparsers.add_parser(
+        "candidate-ready", help="记录已通过本地验证的候选代码及哈希"
+    )
+    candidate_ready.add_argument("selector")
+    candidate_ready.add_argument("--validation", required=True, help="可核验的本地验证摘要")
+    add_profile(candidate_ready, required=True)
+    candidate_ready.set_defaults(func=_cmd_candidate_ready)
 
     profiles = subparsers.add_parser("profiles", help="列出模型与推理档位实验 Profile")
     profiles.set_defaults(func=_cmd_profiles)

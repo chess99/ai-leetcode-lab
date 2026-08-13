@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import uuid
 from dataclasses import dataclass
@@ -327,3 +328,35 @@ class EventStore:
         }
         fields.update({key: value for key, value in optional.items() if value is not None})
         return self.append("usage_reported", **fields)
+
+    def record_candidate_ready(
+        self,
+        *,
+        problem: dict[str, Any],
+        identity: Identity,
+        language: str,
+        code: str,
+        validation: str,
+    ) -> dict[str, Any]:
+        slug = str(problem["titleSlug"])
+        if not any(
+            event.get("type") in {"problem_started", "profile_started"}
+            and event.get("profile_id") == identity.profile_id
+            for event in self.for_problem(slug)
+        ):
+            raise BudgetError(f"请先用 Profile {identity.profile_id} start 该题")
+        if not validation.strip():
+            raise BudgetError("候选验证记录不能为空")
+        return self.append(
+            "candidate_ready",
+            slug=slug,
+            question_id=str(problem.get("questionId") or problem.get("id", "")),
+            frontend_id=str(problem.get("questionFrontendId", "")),
+            language=language,
+            code_sha256=hashlib.sha256(code.encode("utf-8")).hexdigest(),
+            validation=validation.strip(),
+            client=identity.client,
+            model=identity.model,
+            reasoning_effort=identity.reasoning_effort,
+            profile_id=identity.profile_id,
+        )

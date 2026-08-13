@@ -191,6 +191,11 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
     profile_ids = [profile.id for profile in configured_profiles.profiles]
     profile_ids.extend(sorted(observed_profiles - set(profile_ids)))
     usage_reports = [event for event in events if event.get("type") == "usage_reported"]
+    candidate_events = [event for event in events if event.get("type") == "candidate_ready"]
+    latest_candidate_by_pair: dict[tuple[str, str], dict[str, Any]] = {}
+    for event in candidate_events:
+        if event.get("slug") and event.get("profile_id"):
+            latest_candidate_by_pair[(str(event["slug"]), str(event["profile_id"]))] = event
     profile_stats: dict[str, dict[str, Any]] = {}
     for profile_id in profile_ids:
         profile = profile_config.get(profile_id)
@@ -225,6 +230,9 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         profile_usage_reports = [
             event for event in usage_reports if str(event.get("profile_id")) == profile_id
         ]
+        profile_candidate_slugs = {
+            slug for slug, pid in latest_candidate_by_pair if pid == profile_id
+        }
         remote_elapsed_values = [
             int(event["remote_elapsed_ms"])
             for event in profile_results
@@ -300,6 +308,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             "started": len(profile_started_slugs),
             "accepted": len(profile_accepted_slugs),
             "deferred": len(profile_deferred_slugs),
+            "candidateReady": len(profile_candidate_slugs),
             "reviewRequired": sum(1 for _, pid in review_required_pairs if pid == profile_id),
             "remoteTests": len(profile_tests),
             "submissions": len(profile_submissions),
@@ -481,6 +490,8 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         },
         "awaitingRemoteAccepted": len(awaiting_remote_accepted),
         "acceptedCodeDrift": sorted(accepted_code_drift, key=lambda item: item["slug"]),
+        "candidateReady": len({slug for slug, _ in latest_candidate_by_pair}),
+        "candidateReadyProfileAssignments": len(latest_candidate_by_pair),
         "firstSuccessByDifficulty": {
             level: dict(sorted(counts.items()))
             for level, counts in sorted(first_success_by_difficulty.items())
@@ -526,6 +537,7 @@ def render_markdown(summary: dict[str, Any]) -> str:
         f"| 归档中可读题面 | {summary['archivedReadableDetails']} |",
         f"| 归档中锁定/不可用题面 | {summary['archivedLockedOrUnavailable']} |",
         f"| 已开始 | {summary['started']} |",
+        f"| 已记录本地候选 | {summary['candidateReady']} |",
         f"| Accepted | {summary['accepted']} |",
         f"| 免费题仍待远程 Accepted | {summary['awaitingRemoteAccepted']} |",
         f"| 已 defer 的题 | {summary['deferredProblems']} |",
@@ -542,13 +554,13 @@ def render_markdown(summary: dict[str, Any]) -> str:
         "",
         "## Profile 阶梯",
         "",
-        "| Profile | 模型 | 推理档位 | 已开始 | 首次成功 | defer | 提交 | Token 覆盖 |",
-        "|---|---|---|---:|---:|---:|---:|---:|",
+        "| Profile | 模型 | 推理档位 | 已开始 | 本地候选 | 首次成功 | defer | 提交 | Token 覆盖 |",
+        "|---|---|---|---:|---:|---:|---:|---:|---:|",
     ]
     for profile_id, values in summary["profiles"].items():
         lines.append(
             f"| {profile_id} | {values['model']} | {values['reasoningEffort']} | "
-            f"{values['started']} | {values['accepted']} | {values['deferred']} | "
+            f"{values['started']} | {values['candidateReady']} | {values['accepted']} | {values['deferred']} | "
             f"{values['submissions']} | {values['usage']['coverageOfStarted']:.2%} |"
         )
     lines.extend(
