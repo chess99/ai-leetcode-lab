@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T02:12:04Z",
+  "generatedAt": "2026-08-13T02:14:15Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -6992,7 +6992,7 @@
       "cohort": "sol-escalation",
       "stage": 1,
       "enabled": true,
-      "started": 0,
+      "started": 16,
       "accepted": 0,
       "deferred": 0,
       "reviewRequired": 0,
@@ -7014,7 +7014,7 @@
           "failedSubmissionProblems": 0
         },
         "HARD": {
-          "started": 0,
+          "started": 16,
           "accepted": 0,
           "deferred": 0,
           "failedSubmissionAttempts": 0,
@@ -7406,7 +7406,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 3628,
+    "startedProfileAssignments": 3644,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"

@@ -1,6 +1,6 @@
 # AI 刷题实验统计
 
-更新时间：2026-08-13T02:12:04Z
+更新时间：2026-08-13T02:14:15Z
 
 ## 总览
 
@@ -32,7 +32,7 @@
 | Profile | 模型 | 推理档位 | 已开始 | 首次成功 | defer | 提交 | Token 覆盖 |
 |---|---|---|---:|---:|---:|---:|---:|
 | sol-low | gpt-5.6-sol | low | 0 | 0 | 0 | 0 | 0.00% |
-| sol-medium | gpt-5.6-sol | medium | 0 | 0 | 0 | 0 | 0.00% |
+| sol-medium | gpt-5.6-sol | medium | 16 | 0 | 0 | 0 | 0.00% |
 | sol-high | gpt-5.6-sol | high | 0 | 0 | 0 | 0 | 0.00% |
 | sol-xhigh | gpt-5.6-sol | xhigh | 1 | 1 | 0 | 1 | 0.00% |
 | sol-max | gpt-5.6-sol | max | 0 | 0 | 0 | 0 | 0.00% |
