@@ -227,6 +227,7 @@ class StatsTests(unittest.TestCase):
 
             summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
             self.assertEqual(len(summary["acceptedCodeDrift"]), 1)
+            self.assertEqual(summary["acceptedCodeExactMatchCount"], 0)
             self.assertTrue(summary["acceptedCodeDrift"][0]["currentCandidateRecorded"])
             self.assertEqual(summary["candidateCodeDrift"], [])
 

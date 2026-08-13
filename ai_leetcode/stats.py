@@ -509,6 +509,24 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
                 )
             accepted_code_drift.append(drift)
 
+    accepted_code_exact_match_count = 0
+    for slug, accepted_event in accepted_by_slug.items():
+        start = submission_starts_by_action.get(accepted_event.get("action_id"), {})
+        accepted_hash = str(
+            accepted_event.get("code_sha256") or start.get("code_sha256") or ""
+        )
+        problem = by_slug.get(slug)
+        if not accepted_hash or problem is None:
+            continue
+        directory = root / "problems" / problem_key(problem)
+        try:
+            meta = json.loads((directory / "meta.json").read_text(encoding="utf-8"))
+            current = (directory / str(meta["solutionFile"])).read_text(encoding="utf-8")
+        except (FileNotFoundError, KeyError, OSError, UnicodeError, json.JSONDecodeError):
+            continue
+        if hashlib.sha256(current.encode("utf-8")).hexdigest() == accepted_hash:
+            accepted_code_exact_match_count += 1
+
     current_candidate_drift: list[dict[str, Any]] = []
     for (slug, profile_id), candidate_event in latest_candidate_by_pair.items():
         candidate_hash = str(candidate_event.get("code_sha256") or "")
@@ -651,6 +669,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         },
         "awaitingRemoteAccepted": len(awaiting_remote_accepted),
         "acceptedCodeDrift": sorted(accepted_code_drift, key=lambda item: item["slug"]),
+        "acceptedCodeExactMatchCount": accepted_code_exact_match_count,
         "candidateCodeDrift": sorted(
             current_candidate_drift, key=lambda item: (item["slug"], item["profileId"])
         ),
@@ -777,6 +796,7 @@ def render_markdown(summary: dict[str, Any]) -> str:
             f"当前本地代码与 Accepted 代码哈希不同：{len(summary['acceptedCodeDrift'])} 题；"
             f"其中 {sum(1 for item in summary['acceptedCodeDrift'] if item.get('currentCandidateRecorded'))} 题"
             "已另有可追溯 candidate-ready，首次 Accepted 归因保持不变。",
+            f"当前本地代码与 Accepted 代码哈希完全一致：{summary['acceptedCodeExactMatchCount']} 题。",
             f"当前本地代码与 candidate-ready 哈希漂移：{len(summary['candidateCodeDrift'])} 个 Profile/题组合。",
         ]
     )

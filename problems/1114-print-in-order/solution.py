@@ -13,7 +13,7 @@ class Foo:
 
 
     def first(self, printFirst: 'Callable[[], None]') -> None:
-
+        
         # printFirst() outputs "first". Do not change or remove this line.
         printFirst()
         self.first_done.set()

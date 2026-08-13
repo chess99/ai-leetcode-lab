@@ -35,7 +35,7 @@ function memoize(fn: Fn): Fn {
 }
 
 
-/**
+/** 
  * let callCount = 0;
  * const memoizedFn = memoize(function (a, b) {
  *	 callCount += 1;
@@ -43,5 +43,5 @@ function memoize(fn: Fn): Fn {
  * })
  * memoizedFn(2, 3) // 5
  * memoizedFn(2, 3) // 5
- * console.log(callCount) // 1
+ * console.log(callCount) // 1 
  */
