@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T04:07:37Z",
+  "generatedAt": "2026-08-13T04:29:18Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -109,22 +109,30 @@
     {
       "slug": "memoize-ii",
       "acceptedCodeSha256": "3c3f255e3c93ec0229bebcdd63a935c46c4b522ae286fd9e0e96709f7ffb4bba",
-      "currentCodeSha256": "f38cf369c6ecf3bc4303343ec4b455f916c8f20ba2b3b0107ad76995f6a99d8f"
+      "currentCodeSha256": "f38cf369c6ecf3bc4303343ec4b455f916c8f20ba2b3b0107ad76995f6a99d8f",
+      "currentCandidateRecorded": true,
+      "currentCandidateCodeSha256": "f38cf369c6ecf3bc4303343ec4b455f916c8f20ba2b3b0107ad76995f6a99d8f"
     },
     {
       "slug": "print-in-order",
       "acceptedCodeSha256": "3fe8f557fdce51b2cb4f7bcc12cf9db24f1f2be44a4f638b06a4eacbd8648df0",
-      "currentCodeSha256": "c895032443cf2302f281a641cbab9380c80294fa80c39d450e78534af1af9352"
+      "currentCodeSha256": "c895032443cf2302f281a641cbab9380c80294fa80c39d450e78534af1af9352",
+      "currentCandidateRecorded": true,
+      "currentCandidateCodeSha256": "c895032443cf2302f281a641cbab9380c80294fa80c39d450e78534af1af9352"
     },
     {
       "slug": "remove-outermost-parentheses",
       "acceptedCodeSha256": "38de99cc20858e16a23b07387384267060288902d0a7aab2affcabb16f3a74fd",
-      "currentCodeSha256": "eb38ac3d722f2a5515852d927cae08b519fe065454320e06fe82c3f473162f9b"
+      "currentCodeSha256": "eb38ac3d722f2a5515852d927cae08b519fe065454320e06fe82c3f473162f9b",
+      "currentCandidateRecorded": true,
+      "currentCandidateCodeSha256": "eb38ac3d722f2a5515852d927cae08b519fe065454320e06fe82c3f473162f9b"
     },
     {
       "slug": "two-sum",
       "acceptedCodeSha256": "23f208dd361fb576249a9b43089f27ccdaa6550cc01ba2ca11a15509381160cf",
-      "currentCodeSha256": "e3760f57ae132b366152f7033b3fe397fde7c3f95784b01f4a0347458a8f00f6"
+      "currentCodeSha256": "e3760f57ae132b366152f7033b3fe397fde7c3f95784b01f4a0347458a8f00f6",
+      "currentCandidateRecorded": true,
+      "currentCandidateCodeSha256": "e3760f57ae132b366152f7033b3fe397fde7c3f95784b01f4a0347458a8f00f6"
     }
   ],
   "candidateCodeDrift": [],

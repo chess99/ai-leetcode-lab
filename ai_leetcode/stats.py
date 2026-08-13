@@ -491,13 +491,23 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             continue
         current_hash = hashlib.sha256(current.encode("utf-8")).hexdigest()
         if current_hash != accepted_hash:
-            accepted_code_drift.append(
-                {
-                    "slug": slug,
-                    "acceptedCodeSha256": accepted_hash,
-                    "currentCodeSha256": current_hash,
-                }
+            latest_candidate = latest_candidate_by_pair.get(
+                (slug, _event_profile(accepted_event, submission_starts_by_action))
             )
+            drift = {
+                "slug": slug,
+                "acceptedCodeSha256": accepted_hash,
+                "currentCodeSha256": current_hash,
+                "currentCandidateRecorded": bool(
+                    latest_candidate
+                    and str(latest_candidate.get("code_sha256") or "") == current_hash
+                ),
+            }
+            if latest_candidate is not None:
+                drift["currentCandidateCodeSha256"] = str(
+                    latest_candidate.get("code_sha256") or ""
+                )
+            accepted_code_drift.append(drift)
 
     current_candidate_drift: list[dict[str, Any]] = []
     for (slug, profile_id), candidate_event in latest_candidate_by_pair.items():
@@ -764,7 +774,9 @@ def render_markdown(summary: dict[str, Any]) -> str:
             f"基础设施错误：远程试跑 {summary['infrastructureErrors']['remoteTests']} 次，"
             f"正式提交 {summary['infrastructureErrors']['submissions']} 次；"
             "均不计入模型提交数、失败数或通过率。",
-            f"当前本地代码与 Accepted 代码哈希漂移：{len(summary['acceptedCodeDrift'])} 题。",
+            f"当前本地代码与 Accepted 代码哈希不同：{len(summary['acceptedCodeDrift'])} 题；"
+            f"其中 {sum(1 for item in summary['acceptedCodeDrift'] if item.get('currentCandidateRecorded'))} 题"
+            "已另有可追溯 candidate-ready，首次 Accepted 归因保持不变。",
             f"当前本地代码与 candidate-ready 哈希漂移：{len(summary['candidateCodeDrift'])} 个 Profile/题组合。",
         ]
     )

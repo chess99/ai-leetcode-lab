@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import tempfile
 import unittest
@@ -164,6 +165,70 @@ class StatsTests(unittest.TestCase):
             )
             self.assertEqual(summary["candidateCodeDrift"], [])
             self.assertEqual(summary["usageCoverage"]["coverage"], 1.0)
+
+    def test_accepted_code_drift_distinguishes_a_recorded_current_candidate(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.write_profiles(root)
+            (root / "archive").mkdir()
+            (root / "archive" / "catalog.json").write_text(
+                json.dumps(
+                    {
+                        "problems": [
+                            {
+                                "id": 1,
+                                "titleSlug": "two-sum",
+                                "questionFrontendId": "1",
+                                "difficulty": "EASY",
+                                "paidOnly": False,
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            problem_dir = root / "problems" / "0001-two-sum"
+            problem_dir.mkdir(parents=True)
+            (problem_dir / "meta.json").write_text(
+                json.dumps({"solutionFile": "solution.py"}), encoding="utf-8"
+            )
+            accepted_code = "class Solution:\n    pass\n"
+            current_code = "class Solution:\n    answer = 42\n"
+            (problem_dir / "solution.py").write_text(current_code, encoding="utf-8")
+
+            identity = {
+                "client": "Codex Desktop",
+                "model": "gpt-5.6-sol",
+                "reasoning_effort": "medium",
+                "profile_id": "sol-medium",
+            }
+            store = EventStore(root)
+            store.append("problem_started", slug="two-sum", **identity)
+            store.append(
+                "submission_started",
+                action_id="submit-1",
+                slug="two-sum",
+                code_sha256=hashlib.sha256(accepted_code.encode()).hexdigest(),
+                **identity,
+            )
+            store.append(
+                "submission_result",
+                action_id="submit-1",
+                slug="two-sum",
+                outcome="accepted",
+                **identity,
+            )
+            store.append(
+                "candidate_ready",
+                slug="two-sum",
+                code_sha256=hashlib.sha256(current_code.encode()).hexdigest(),
+                **identity,
+            )
+
+            summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
+            self.assertEqual(len(summary["acceptedCodeDrift"]), 1)
+            self.assertTrue(summary["acceptedCodeDrift"][0]["currentCandidateRecorded"])
+            self.assertEqual(summary["candidateCodeDrift"], [])
 
     def test_infrastructure_failures_do_not_lower_submission_acceptance_rate(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
