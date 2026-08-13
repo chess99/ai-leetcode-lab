@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:26:45Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def fraction(self, cont: List[int]) -> List[int]:
         numerator, denominator = cont[-1], 1

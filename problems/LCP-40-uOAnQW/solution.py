@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:31:48Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def maximumScore(self, cards: List[int], cnt: int) -> int:
         cards.sort(reverse=True)

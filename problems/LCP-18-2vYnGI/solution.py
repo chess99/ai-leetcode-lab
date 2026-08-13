@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:27:25Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def breakfastNumber(self, staple: List[int], drinks: List[int], x: int) -> int:
         from bisect import bisect_right

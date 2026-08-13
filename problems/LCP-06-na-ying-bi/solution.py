@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:26:46Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def minCount(self, coins: List[int]) -> int:
         return sum((coin + 1) // 2 for coin in coins)

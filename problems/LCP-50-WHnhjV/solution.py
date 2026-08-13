@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:31:48Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def giveGem(self, gem: List[int], operations: List[List[int]]) -> int:
         for source, target in operations:

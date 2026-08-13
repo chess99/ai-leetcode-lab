@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:27:26Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def minimumSwitchingTimes(self, source: List[List[int]], target: List[List[int]]) -> int:
         counts = {}

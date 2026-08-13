@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:27:26Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def storeWater(self, bucket: List[int], vat: List[int]) -> int:
         maximum_vat = max(vat)
