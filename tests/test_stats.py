@@ -275,6 +275,75 @@ class StatsTests(unittest.TestCase):
             self.assertTrue(summary["acceptedCodeDrift"][0]["currentCandidateRecorded"])
             self.assertEqual(summary["candidateCodeDrift"], [])
 
+    def test_deferred_candidate_hash_remains_historical_after_escalation(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.write_profiles(root)
+            (root / "archive").mkdir()
+            (root / "archive" / "catalog.json").write_text(
+                json.dumps(
+                    {
+                        "problems": [
+                            {
+                                "id": 1,
+                                "titleSlug": "two-sum",
+                                "questionFrontendId": "1",
+                                "difficulty": "EASY",
+                                "paidOnly": False,
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            problem_dir = root / "problems" / "0001-two-sum"
+            problem_dir.mkdir(parents=True)
+            (problem_dir / "meta.json").write_text(
+                json.dumps({"solutionFile": "solution.py"}), encoding="utf-8"
+            )
+            lower_code = "class Solution:\n    pass\n"
+            higher_code = "class Solution:\n    answer = 42\n"
+            (problem_dir / "solution.py").write_text(higher_code, encoding="utf-8")
+
+            store = EventStore(root)
+            lower_identity = {
+                "client": "Codex Desktop",
+                "model": "gpt-5.6-sol",
+                "reasoning_effort": "medium",
+                "profile_id": "sol-medium",
+            }
+            higher_identity = {
+                "client": "Codex Desktop",
+                "model": "gpt-5.6-sol",
+                "reasoning_effort": "high",
+                "profile_id": "sol-high",
+            }
+            store.append("profile_started", slug="two-sum", **lower_identity)
+            store.append(
+                "candidate_ready",
+                slug="two-sum",
+                code_sha256=hashlib.sha256(lower_code.encode()).hexdigest(),
+                **lower_identity,
+            )
+            store.append("profile_deferred", slug="two-sum", **lower_identity)
+            store.append("profile_started", slug="two-sum", **higher_identity)
+            store.append(
+                "candidate_ready",
+                slug="two-sum",
+                code_sha256=hashlib.sha256(higher_code.encode()).hexdigest(),
+                **higher_identity,
+            )
+
+            summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
+            self.assertEqual(summary["candidateCodeDrift"], [])
+            self.assertEqual(summary["candidateReady"], 1)
+            self.assertEqual(summary["candidateReadyProfileAssignments"], 2)
+            path = summary["ladderPaths"]["two-sum"]
+            self.assertTrue(path[0]["candidateReady"])
+            self.assertTrue(path[0]["deferred"])
+            self.assertTrue(path[1]["candidateReady"])
+            self.assertFalse(path[1]["deferred"])
+
     def test_infrastructure_failures_do_not_lower_submission_acceptance_rate(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

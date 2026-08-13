@@ -668,6 +668,12 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
 
     current_candidate_drift: list[dict[str, Any]] = []
     for (slug, profile_id), candidate_event in latest_candidate_by_pair.items():
+        # A deferred lower-profile candidate is a historical experiment artifact.
+        # Once the ladder escalates, a higher profile is expected to replace the
+        # shared local solution, so the older candidate hash must remain
+        # traceable without being treated as current-code drift.
+        if (slug, profile_id) in deferred_pairs:
+            continue
         candidate_hash = str(candidate_event.get("code_sha256") or "")
         problem = by_slug.get(slug)
         if not candidate_hash or problem is None:
