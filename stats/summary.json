@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T03:14:49Z",
+  "generatedAt": "2026-08-13T03:16:45Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -33014,39 +33014,11 @@
         "needsNewCandidate": false
       },
       {
-        "slug": "K8GULz",
-        "fromProfile": "sol-medium",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      },
-      {
-        "slug": "WInSav",
-        "fromProfile": "sol-medium",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      },
-      {
-        "slug": "XxZZjK",
-        "fromProfile": "sol-medium",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      },
-      {
         "slug": "cnHoX6",
         "fromProfile": "sol-medium",
         "targetStarted": true,
         "targetCandidateReady": true,
         "needsNewCandidate": false
-      },
-      {
-        "slug": "kskhHQ",
-        "fromProfile": "sol-medium",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
       },
       {
         "slug": "you-le-yuan-de-you-lan-ji-hua",
@@ -33056,70 +33028,86 @@
         "needsNewCandidate": false
       }
     ],
-    "sol-xhigh": [
-      {
-        "slug": "K8GULz",
-        "fromProfile": "sol-high",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      },
-      {
-        "slug": "WInSav",
-        "fromProfile": "sol-high",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      },
-      {
-        "slug": "XxZZjK",
-        "fromProfile": "sol-high",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      },
-      {
-        "slug": "kskhHQ",
-        "fromProfile": "sol-high",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      }
-    ],
+    "sol-xhigh": [],
     "sol-max": [],
-    "sol-ultra": [
-      {
-        "slug": "K8GULz",
-        "fromProfile": "sol-xhigh",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      },
-      {
-        "slug": "WInSav",
-        "fromProfile": "sol-xhigh",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      },
-      {
-        "slug": "XxZZjK",
-        "fromProfile": "sol-xhigh",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      },
-      {
-        "slug": "kskhHQ",
-        "fromProfile": "sol-xhigh",
-        "targetStarted": true,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
-      }
-    ],
+    "sol-ultra": [],
     "terra-low": [],
     "terra-medium": []
   },
+  "unresolvedAtHighestProfile": [
+    {
+      "profileId": "sol-ultra",
+      "slug": "K8GULz"
+    },
+    {
+      "profileId": "sol-ultra",
+      "slug": "WInSav"
+    },
+    {
+      "profileId": "sol-ultra",
+      "slug": "XxZZjK"
+    },
+    {
+      "profileId": "sol-ultra",
+      "slug": "kskhHQ"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "1ybDKD"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "3aqs1c"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "Db3wC1"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "De4qBB"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "K8GULz"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "NfY1m5"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "WInSav"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "XxZZjK"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "cnHoX6"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "kskhHQ"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "maximum-total-subarray-value-ii"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "minimum-steps-to-convert-string-with-operations"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "rdmXM7"
+    },
+    {
+      "profileId": "terra-medium",
+      "slug": "you-le-yuan-de-you-lan-ji-hua"
+    }
+  ],
   "firstSuccessByDifficulty": {
     "EASY": {
       "sol-xhigh": 1,

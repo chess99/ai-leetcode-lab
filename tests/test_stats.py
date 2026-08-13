@@ -303,6 +303,38 @@ class StatsTests(unittest.TestCase):
             self.assertEqual(item["slug"], "hard-one")
             self.assertTrue(item["needsNewCandidate"])
 
+    def test_escalation_queue_does_not_duplicate_completed_historical_edges(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.write_profiles(root)
+            (root / "archive").mkdir()
+            (root / "archive" / "catalog.json").write_text(
+                json.dumps(
+                    {
+                        "problems": [
+                            {
+                                "titleSlug": "hard-one",
+                                "questionFrontendId": "99",
+                                "difficulty": "HARD",
+                                "paidOnly": False,
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            store = EventStore(root)
+            for profile_id in ("sol-medium", "sol-high"):
+                store.append("profile_started", slug="hard-one", profile_id=profile_id)
+                store.append("profile_deferred", slug="hard-one", profile_id=profile_id)
+
+            summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
+            self.assertEqual(summary["escalationQueueByProfile"]["sol-high"], [])
+            self.assertEqual(
+                summary["unresolvedAtHighestProfile"],
+                [{"profileId": "sol-high", "slug": "hard-one"}],
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

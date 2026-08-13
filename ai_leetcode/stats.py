@@ -356,6 +356,10 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         target = next_profile.get(profile_id)
         if not target or slug in accepted:
             continue
+        if (slug, target) in deferred_pairs:
+            # The problem already passed through this target Profile; its current
+            # escalation state belongs to a later stage, not this historical edge.
+            continue
         target_candidate = latest_candidate_by_pair.get((slug, target))
         escalation_queue.setdefault(target, []).append(
             {
@@ -366,6 +370,19 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
                 "needsNewCandidate": target_candidate is None,
             }
         )
+    highest_profiles = {
+        max(
+            (profile for profile in profiles if profile.enabled),
+            key=lambda profile: profile.stage,
+        ).id
+        for profiles in profiles_by_cohort.values()
+        if any(profile.enabled for profile in profiles)
+    }
+    unresolved_at_highest = [
+        {"profileId": profile_id, "slug": slug}
+        for slug, profile_id in sorted(deferred_pairs, key=lambda pair: (pair[1], pair[0]))
+        if profile_id in highest_profiles and slug not in accepted
+    ]
 
     first_submission_accepts = sum(
         1
@@ -572,6 +589,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         "candidateReadyProfileAssignments": len(latest_candidate_by_pair),
         "ladderPaths": ladder_paths,
         "escalationQueueByProfile": escalation_queue,
+        "unresolvedAtHighestProfile": unresolved_at_highest,
         "firstSuccessByDifficulty": {
             level: dict(sorted(counts.items()))
             for level, counts in sorted(first_success_by_difficulty.items())
@@ -698,6 +716,15 @@ def render_markdown(summary: dict[str, Any]) -> str:
         lines.append(f"- {profile_id}：{len(pending_items)} 题待产出新的本地候选")
     if not any_escalation:
         lines.append("当前没有等待更高 Profile 重新解题的题目。")
+    lines.extend(["", "## 最高档仍未解决", ""])
+    if summary["unresolvedAtHighestProfile"]:
+        grouped: dict[str, list[str]] = {}
+        for item in summary["unresolvedAtHighestProfile"]:
+            grouped.setdefault(item["profileId"], []).append(item["slug"])
+        for profile_id, slugs in grouped.items():
+            lines.append(f"- {profile_id}：{len(slugs)} 题")
+    else:
+        lines.append("当前没有到达最高档后仍未解决的题目。")
     lines.extend(["", "## Agent 贡献", ""])
     if summary["acceptedByAgent"]:
         for name, count in summary["acceptedByAgent"].items():
