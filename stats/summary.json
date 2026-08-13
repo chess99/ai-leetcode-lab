@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T02:31:10Z",
+  "generatedAt": "2026-08-13T02:38:01Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -12,7 +12,7 @@
   "started": 3628,
   "accepted": 971,
   "deferredProblems": 33,
-  "deferredProfileAssignments": 41,
+  "deferredProfileAssignments": 45,
   "reviewRequired": 0,
   "remainingAccessible": 2657,
   "remoteTests": 1,
@@ -114,8 +114,8 @@
       "currentCodeSha256": "e3760f57ae132b366152f7033b3fe397fde7c3f95784b01f4a0347458a8f00f6"
     }
   ],
-  "candidateReady": 24,
-  "candidateReadyProfileAssignments": 24,
+  "candidateReady": 28,
+  "candidateReadyProfileAssignments": 28,
   "firstSuccessByDifficulty": {
     "EASY": {
       "sol-xhigh": 1,
@@ -7050,8 +7050,8 @@
       "enabled": true,
       "started": 8,
       "accepted": 0,
-      "deferred": 0,
-      "candidateReady": 0,
+      "deferred": 4,
+      "candidateReady": 4,
       "reviewRequired": 0,
       "remoteTests": 0,
       "submissions": 0,
@@ -7073,7 +7073,7 @@
         "HARD": {
           "started": 8,
           "accepted": 0,
-          "deferred": 0,
+          "deferred": 4,
           "failedSubmissionAttempts": 0,
           "failedSubmissionProblems": 0
         },
@@ -7101,7 +7101,7 @@
       "cohort": "sol-escalation",
       "stage": 3,
       "enabled": true,
-      "started": 1,
+      "started": 5,
       "accepted": 1,
       "deferred": 0,
       "candidateReady": 0,
@@ -7124,7 +7124,7 @@
           "failedSubmissionProblems": 0
         },
         "HARD": {
-          "started": 0,
+          "started": 4,
           "accepted": 0,
           "deferred": 0,
           "failedSubmissionAttempts": 0,
@@ -7373,7 +7373,12 @@
       "kskhHQ",
       "you-le-yuan-de-you-lan-ji-hua"
     ],
-    "sol-high": [],
+    "sol-high": [
+      "K8GULz",
+      "WInSav",
+      "XxZZjK",
+      "kskhHQ"
+    ],
     "sol-xhigh": [],
     "sol-max": [],
     "sol-ultra": [],
@@ -7425,7 +7430,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 3652,
+    "startedProfileAssignments": 3656,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"
