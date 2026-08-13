@@ -1,6 +1,6 @@
 # AI 刷题实验统计
 
-更新时间：2026-08-13T02:27:24Z
+更新时间：2026-08-13T02:31:10Z
 
 ## 总览
 
@@ -13,6 +13,7 @@
 | 归档中可读题面 | 3628 |
 | 归档中锁定/不可用题面 | 778 |
 | 已开始 | 3628 |
+| 已记录本地候选 | 24 |
 | Accepted | 971 |
 | 免费题仍待远程 Accepted | 2657 |
 | 已 defer 的题 | 33 |
@@ -29,16 +30,16 @@
 
 ## Profile 阶梯
 
-| Profile | 模型 | 推理档位 | 已开始 | 首次成功 | defer | 提交 | Token 覆盖 |
-|---|---|---|---:|---:|---:|---:|---:|
-| sol-low | gpt-5.6-sol | low | 0 | 0 | 0 | 0 | 0.00% |
-| sol-medium | gpt-5.6-sol | medium | 16 | 0 | 8 | 0 | 0.00% |
-| sol-high | gpt-5.6-sol | high | 8 | 0 | 0 | 0 | 0.00% |
-| sol-xhigh | gpt-5.6-sol | xhigh | 1 | 1 | 0 | 1 | 0.00% |
-| sol-max | gpt-5.6-sol | max | 0 | 0 | 0 | 0 | 0.00% |
-| sol-ultra | gpt-5.6-sol | ultra | 0 | 0 | 0 | 0 | 0.00% |
-| terra-low | gpt-5.6-terra | low | 0 | 0 | 0 | 0 | 0.00% |
-| terra-medium | gpt-5.6-terra | medium | 3627 | 970 | 33 | 999 | 0.00% |
+| Profile | 模型 | 推理档位 | 已开始 | 本地候选 | 首次成功 | defer | 提交 | Token 覆盖 |
+|---|---|---|---:|---:|---:|---:|---:|---:|
+| sol-low | gpt-5.6-sol | low | 0 | 0 | 0 | 0 | 0 | 0.00% |
+| sol-medium | gpt-5.6-sol | medium | 16 | 6 | 0 | 8 | 0 | 0.00% |
+| sol-high | gpt-5.6-sol | high | 8 | 0 | 0 | 0 | 0 | 0.00% |
+| sol-xhigh | gpt-5.6-sol | xhigh | 1 | 0 | 1 | 0 | 1 | 0.00% |
+| sol-max | gpt-5.6-sol | max | 0 | 0 | 0 | 0 | 0 | 0.00% |
+| sol-ultra | gpt-5.6-sol | ultra | 0 | 0 | 0 | 0 | 0 | 0.00% |
+| terra-low | gpt-5.6-terra | low | 0 | 0 | 0 | 0 | 0 | 0.00% |
+| terra-medium | gpt-5.6-terra | medium | 3627 | 18 | 970 | 33 | 999 | 0.00% |
 
 > “首次成功 Profile”表示按既定升档流程首次获得 Accepted 的档位；高档可能继承低档失败产物，
 > 因此它衡量的是阶梯实验结果，不等同于各模型从空白起步的独立盲测能力。
