@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T05:01:14Z",
+  "generatedAt": "2026-08-13T05:36:47Z",
   "eligibleProblems": 3628,
   "directoriesPresent": 3628,
-  "validLocalCandidates": 3627,
-  "invalidLocalCandidates": 1,
+  "validLocalCandidates": 3628,
+  "invalidLocalCandidates": 0,
   "languageCounts": {
     "bash": 4,
     "javascript": 36,
@@ -15,7 +15,7 @@
   },
   "syntaxChecked": {
     "javascript": 36,
-    "python3": 3465,
+    "python3": 3466,
     "pythondata": 19
   },
   "syntaxGateAvailability": {
@@ -32,9 +32,7 @@
   "missingDirectories": [],
   "duplicateDirectories": {},
   "malformedDirectories": [],
-  "placeholderSlugs": [
-    "K8GULz"
-  ],
+  "placeholderSlugs": [],
   "candidateCodeSha256": {
     "01-matrix": "e3bfd317953eb65dbeaae5689cb2795a57695fe712f49e84f0614447ef43c100",
     "05ZEDJ": "136828b671a245ac3459c5aeba56053317d16f601e63fec0e62d6857e1400bff",
@@ -102,6 +100,7 @@
     "JFETK5": "136f8eb86d90a052a0c9e85f53564fcf441c361988c04098a10996e7d63c1cd1",
     "Jf1JuT": "5cfb6da4a704f69feb911837838110cd6b7ae8cb015e6be46ee45759ee8a9f57",
     "Ju9Xwi": "267b679db894b037c1d0026b743a94be2e52aa0a7cea44f97b64ec2cd0d142af",
+    "K8GULz": "6bf6cc0487bb8f38a2d2c2e6c9f93667a7df35ddd5eb88491fa4a3072cf38abc",
     "KnLfVT": "9f2830cb14b6134f667bdc6321515980f8e1a0d838a67ca060ea5b235f85d436",
     "LGjMqU": "efb52c823c7edefa57b318bffe01a752be9d204c6a6cc70254899816a983367a",
     "LwUNpT": "0bd5fd63a7c9d7c358f7221b72f048ce14e2a40d55b91ce2d549acb49cee930b",
@@ -3664,11 +3663,6 @@
     "zuma-game": "101f396f92ce2109da8f09d80f284f70f1bb58ea6655ab85113a2ed76f306a50",
     "zuo-xuan-zhuan-zi-fu-chuan-lcof": "191fefb16c9e414533f0c5876c2d715b18a95ab1afd84c8f1e91917c0d5f7f9c"
   },
-  "issues": [
-    {
-      "slug": "K8GULz",
-      "kind": "placeholder_marker"
-    }
-  ],
+  "issues": [],
   "policy": "本地候选仅表示目录、必要文件、语言映射、占位标记与可用静态语法门禁通过；可用原语言门禁会执行；缺少本机检查器的语言仅做文件和占位静态门禁。本地候选不等于远程 Accepted。"
 }
