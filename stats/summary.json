@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T07:44:35Z",
+  "generatedAt": "2026-08-13T07:51:20Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -17,17 +17,17 @@
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
   "started": 3628,
-  "accepted": 1018,
+  "accepted": 1023,
   "deferredProblems": 14,
   "deferredProfileAssignments": 30,
   "reviewRequired": 0,
-  "remainingAccessible": 2610,
+  "remainingAccessible": 2605,
   "remoteTests": 1,
-  "submissions": 1047,
-  "firstSubmissionAccepted": 999,
-  "firstRoundAccepted": 1018,
-  "firstSubmissionAcceptanceRate": 0.981335952848723,
-  "overallSubmissionAcceptanceRate": 0.9723018147086915,
+  "submissions": 1052,
+  "firstSubmissionAccepted": 1004,
+  "firstRoundAccepted": 1023,
+  "firstSubmissionAcceptanceRate": 0.9814271749755621,
+  "overallSubmissionAcceptanceRate": 0.9724334600760456,
   "byDifficulty": {
     "EASY": {
       "eligible": 949,
@@ -41,8 +41,8 @@
     },
     "MEDIUM": {
       "eligible": 1836,
-      "accepted": 48,
-      "remoteAcceptanceCoverage": 0.026143790849673203
+      "accepted": 53,
+      "remoteAcceptanceCoverage": 0.02886710239651416
     }
   },
   "catalogByDifficulty": {
@@ -86,12 +86,12 @@
     "MEDIUM": {
       "eligible": 1836,
       "started": 1836,
-      "submitted": 48,
-      "remoteAccepted": 48,
+      "submitted": 53,
+      "remoteAccepted": 53,
       "failedSubmissionProblems": 0,
       "deferred": 0,
-      "awaitingRemoteAccepted": 1788,
-      "remoteAcceptanceCoverage": 0.026143790849673203
+      "awaitingRemoteAccepted": 1783,
+      "remoteAcceptanceCoverage": 0.02886710239651416
     }
   },
   "failedSubmissions": {
@@ -104,9 +104,9 @@
     "total": 140,
     "countsAgainstModelMetrics": false
   },
-  "awaitingRemoteAccepted": 2610,
+  "awaitingRemoteAccepted": 2605,
   "acceptedCodeDrift": [],
-  "acceptedCodeExactMatchCount": 1018,
+  "acceptedCodeExactMatchCount": 1023,
   "candidateCodeDrift": [],
   "candidateReady": 3628,
   "candidateReadyProfileAssignments": 3628,
@@ -24966,7 +24966,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "55a686eea098f1489720721d48f14edafa5d663f7e1fbf532fa2a8ebbeb5ddc3",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "partition-list-lcci": [
@@ -26735,7 +26735,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "efec45a927eafabda662b501f8aedb935f5a10e90cd2de1f7c8be0b4cc145f46",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "remove-duplicates-from-sorted-list": [
@@ -26753,7 +26753,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "a4d4d7027eea0e576a61f1996c6c5fa420f470765093c881a179efac5cadb00b",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "remove-element": [
@@ -27824,7 +27824,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "40389b0c17f04a172789eeafbca6c6a236b5a01d94281f88ccc8649ee2673ecf",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "search-insert-position": [
@@ -32583,7 +32583,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "f0d51df14d0a83a24c0bd635de3267551d7fcf2f96b3e18f79cd69f441b8efb3",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "word-search-ii": [
@@ -33116,9 +33116,9 @@
         "byDifficulty": {
           "EASY": 485,
           "HARD": 484,
-          "MEDIUM": 48
+          "MEDIUM": 53
         },
-        "total": 1017
+        "total": 1022
       },
       {
         "kind": "firstAccepted",
@@ -33176,9 +33176,9 @@
         "byDifficulty": {
           "EASY": 463,
           "HARD": 359,
-          "MEDIUM": 1788
+          "MEDIUM": 1783
         },
-        "total": 2610
+        "total": 2605
       }
     ],
     "accountedByDifficulty": {
@@ -33191,7 +33191,7 @@
       "HARD": 843,
       "MEDIUM": 1836
     },
-    "pending": 2610,
+    "pending": 2605,
     "isComplete": false,
     "byProblem": {
       "01-matrix": {
@@ -55117,10 +55117,10 @@
       "partition-list": {
         "frontendId": "86",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "partition-list-lcci": {
         "frontendId": "面试题 02.04",
@@ -56677,10 +56677,10 @@
       "remove-duplicates-from-sorted-array-ii": {
         "frontendId": "80",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "remove-duplicates-from-sorted-list": {
         "frontendId": "83",
@@ -56693,10 +56693,10 @@
       "remove-duplicates-from-sorted-list-ii": {
         "frontendId": "82",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "remove-element": {
         "frontendId": "27",
@@ -57645,10 +57645,10 @@
       "search-in-rotated-sorted-array-ii": {
         "frontendId": "81",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "search-insert-position": {
         "frontendId": "35",
@@ -61869,10 +61869,10 @@
       "word-search": {
         "frontendId": "79",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "word-search-ii": {
         "frontendId": "212",
@@ -62229,7 +62229,7 @@
       "terra-medium": 484
     },
     "MEDIUM": {
-      "terra-medium": 48
+      "terra-medium": 53
     }
   },
   "firstSuccessByProblem": {
@@ -67238,6 +67238,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "partition-list": {
+      "frontendId": "86",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "pascals-triangle": {
       "frontendId": "118",
       "difficulty": "EASY",
@@ -67728,9 +67735,23 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "remove-duplicates-from-sorted-array-ii": {
+      "frontendId": "80",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "remove-duplicates-from-sorted-list": {
       "frontendId": "83",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "remove-duplicates-from-sorted-list-ii": {
+      "frontendId": "82",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -68059,6 +68080,13 @@
     },
     "search-in-rotated-sorted-array": {
       "frontendId": "33",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "search-in-rotated-sorted-array-ii": {
+      "frontendId": "81",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -69324,6 +69352,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "word-search": {
+      "frontendId": "79",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "word-search-ii": {
       "frontendId": "212",
       "difficulty": "HARD",
@@ -69362,11 +69397,11 @@
   },
   "acceptedByProfile": {
     "sol-xhigh": 1,
-    "terra-medium": 1017
+    "terra-medium": 1022
   },
   "acceptedByAgent": {
     "Codex Desktop / gpt-5.6-sol": 1,
-    "Codex Desktop / gpt-5.6-terra": 1017
+    "Codex Desktop / gpt-5.6-terra": 1022
   },
   "profiles": {
     "sol-low": {
@@ -69775,23 +69810,23 @@
       "stage": 1,
       "enabled": true,
       "started": 3627,
-      "accepted": 1017,
+      "accepted": 1022,
       "deferred": 14,
       "candidateReady": 3613,
       "reviewRequired": 0,
       "remoteTests": 0,
-      "submissions": 1046,
+      "submissions": 1051,
       "failedSubmissions": 29,
       "failedSubmissionProblems": 23,
       "infrastructureErrors": {
         "remoteTests": 0,
         "submissions": 140
       },
-      "firstSubmissionAccepted": 998,
-      "remoteElapsedReports": 1186,
-      "remoteElapsedSeconds": 4350.205,
-      "averageSolveWallSeconds": 10377.311701081613,
-      "medianSolveWallSeconds": 1303.0,
+      "firstSubmissionAccepted": 1003,
+      "remoteElapsedReports": 1191,
+      "remoteElapsedSeconds": 4369.455,
+      "averageSolveWallSeconds": 11022.520547945205,
+      "medianSolveWallSeconds": 1337.0,
       "byDifficulty": {
         "EASY": {
           "started": 948,
@@ -69809,7 +69844,7 @@
         },
         "MEDIUM": {
           "started": 1836,
-          "accepted": 48,
+          "accepted": 53,
           "deferred": 0,
           "failedSubmissionAttempts": 0,
           "failedSubmissionProblems": 0
