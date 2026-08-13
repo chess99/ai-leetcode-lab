@@ -46,6 +46,8 @@ sol-low（可选） → sol-medium → sol-high → sol-xhigh → sol-max（可�
 .\ai-lc.ps1 next --profile sol-medium --difficulty easy
 .\ai-lc.ps1 start <slug> --profile sol-medium
 # 编辑 problems/<题号-slug>/solution.py 与 approach.md
+.\ai-lc.ps1 candidate-ready <slug> --profile sol-medium `
+  --level oracle --validation "题面样例与随机小规模 oracle 对拍通过"
 .\ai-lc.ps1 test <slug> --profile sol-medium
 .\ai-lc.ps1 submit <slug> --profile sol-medium
 .\ai-lc.ps1 stats
@@ -64,13 +66,27 @@ sol-low（可选） → sol-medium → sol-high → sol-xhigh → sol-max（可�
 .\scripts\run-submit-queue.ps1 -Profile terra-medium
 ```
 
-队列始终通过仓库 CLI 提交，并遵守共享锁、13 秒最小间隔和指数退避。一次正常判题失败会把该题 defer 给更高 Profile；HTTP 429、网络和平台故障不计模型失败，队列等待后重试同一道题。运行状态保存在忽略目录 `.runtime/submit-queue-state.json`；创建 `.runtime/submit-queue.stop` 可在当前动作结束后安全停止。`-MaxTerminalResults` 可用于小批量试运行，`-StatsEvery` 控制统计刷新频率。
+完整 Profile 阶梯可以交给监督器依次送判：
+
+```powershell
+.\scripts\run-profile-ladder.ps1
+```
+
+队列始终通过仓库 CLI 提交，并只选择“当前 Profile 的 candidate-ready 哈希与工作区代码一致”的题；选择器和提交器均执行此门禁。队列遵守共享锁、13 秒最小间隔和指数退避。一次正常判题失败会把该题 defer 给更高 Profile；HTTP 429、网络和平台故障不计模型失败，队列等待后重试同一道题。运行状态保存在忽略目录 `.runtime/submit-queue-state.json`；创建 `.runtime/submit-queue.stop` 可在当前动作结束后安全停止。`-MaxTerminalResults` 可用于小批量试运行，`-StatsEvery` 控制统计刷新频率。
 
 更高档位接手同一题时，`start` 不会覆盖现有解答：
 
 ```powershell
 .\ai-lc.ps1 start <slug> --profile sol-high
 .\ai-lc.ps1 status <slug> --profile sol-high
+```
+
+如果某题先 defer，后来又在同一 Profile 得到可靠候选，必须用追加事件恢复：
+
+```powershell
+.\ai-lc.ps1 candidate-ready <slug> --profile sol-high `
+  --level oracle --validation "新的算法通过小规模 oracle"
+.\ai-lc.ps1 resume <slug> --profile sol-high --reason "已有可靠候选，恢复送判"
 ```
 
 若客户端能给出精确用量，可单独追加；不能获取时不要调用：
