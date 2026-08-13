@@ -7,8 +7,8 @@
 # Experiment: ai-leetcode-lab, round 1
 class Solution:
  def convertBST(self,root):
-  s=0
-  def f(x):
-   nonlocal s
-   if x:f(x.right);s+=x.val;x.val=s;f(x.left)
-  f(root);return root
+  total=0;stack=[];node=root
+  while stack or node:
+   while node:stack.append(node);node=node.right
+   node=stack.pop();total+=node.val;node.val=total;node=node.left
+  return root

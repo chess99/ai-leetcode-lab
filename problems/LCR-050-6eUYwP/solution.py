@@ -9,7 +9,15 @@ from collections import defaultdict
 class Solution:
  def pathSum(self,root,targetSum):
   d=defaultdict(int);d[0]=1
-  def f(x,s):
-   if not x:return 0
-   s+=x.val;r=d[s-targetSum];d[s]+=1;r+=f(x.left,s)+f(x.right,s);d[s]-=1;return r
-  return f(root,0)
+  if not root:return 0
+  answer=0;stack=[(root,0,False)]
+  while stack:
+   node,prefix,leaving=stack.pop()
+   if leaving:
+    d[prefix]-=1
+    continue
+   prefix+=node.val;answer+=d[prefix-targetSum];d[prefix]+=1
+   stack.append((node,prefix,True))
+   if node.right:stack.append((node.right,prefix,False))
+   if node.left:stack.append((node.left,prefix,False))
+  return answer
