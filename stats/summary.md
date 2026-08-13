@@ -1,6 +1,6 @@
 # AI 刷题实验统计
 
-更新时间：2026-08-13T02:45:50Z
+更新时间：2026-08-13T02:50:22Z
 
 ## 总览
 
@@ -37,7 +37,7 @@
 | sol-high | gpt-5.6-sol | high | 8 | 4 | 0 | 4 | 0 | 0.00% |
 | sol-xhigh | gpt-5.6-sol | xhigh | 5 | 0 | 1 | 4 | 1 | 0.00% |
 | sol-max | gpt-5.6-sol | max | 0 | 0 | 0 | 0 | 0 | 0.00% |
-| sol-ultra | gpt-5.6-sol | ultra | 4 | 0 | 0 | 0 | 0 | 0.00% |
+| sol-ultra | gpt-5.6-sol | ultra | 4 | 0 | 0 | 4 | 0 | 0.00% |
 | terra-low | gpt-5.6-terra | low | 0 | 0 | 0 | 0 | 0 | 0.00% |
 | terra-medium | gpt-5.6-terra | medium | 3627 | 18 | 970 | 33 | 999 | 0.00% |
 
