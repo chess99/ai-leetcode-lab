@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:15:40Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def minMoves(self, nums: List[int]) -> int:
         maximum = max(nums)

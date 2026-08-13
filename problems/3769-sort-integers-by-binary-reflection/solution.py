@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:16:06Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def sortByReflection(self, nums: List[int]) -> List[int]:
         def reflection(value: int) -> int:

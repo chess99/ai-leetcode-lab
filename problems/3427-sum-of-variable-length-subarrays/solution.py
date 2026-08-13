@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:59:43Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def subarraySum(self, nums: List[int]) -> int:
         prefix = [0]

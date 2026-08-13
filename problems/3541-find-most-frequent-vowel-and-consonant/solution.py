@@ -10,5 +10,7 @@ class Solution:
         counts = {}
         for char in s:
             counts[char] = counts.get(char, 0) + 1
-        vowels = set('aeiou')
-        return max((counts[char] for char in counts if char in vowels), default=0) + max((counts[char] for char in counts if char not in vowels), default=0)
+        vowels = set("aeiou")
+        most_vowels = max((counts[char] for char in counts if char in vowels), default=0)
+        most_consonants = max((counts[char] for char in counts if char not in vowels), default=0)
+        return most_vowels + most_consonants

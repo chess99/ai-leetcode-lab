@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:07:51Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def isTrionic(self, nums: List[int]) -> bool:
         index = 1

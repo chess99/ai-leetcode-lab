@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:07:48Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def earliestFinishTime(self, landStartTime: List[int], landDuration: List[int], waterStartTime: List[int], waterDuration: List[int]) -> int:
         answer = float("inf")
@@ -17,4 +20,4 @@ class Solution:
                     max(land_finish, water_start) + water_length,
                     max(water_finish, land_start) + land_length,
                 )
-        return answer
+        return int(answer)

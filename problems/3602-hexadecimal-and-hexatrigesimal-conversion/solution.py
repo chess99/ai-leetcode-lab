@@ -9,6 +9,8 @@ class Solution:
     def concatHex36(self, n: int) -> str:
         def to_base(value: int, base: int) -> str:
             digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            if value == 0:
+                return "0"
             result = []
             while value:
                 result.append(digits[value % base])

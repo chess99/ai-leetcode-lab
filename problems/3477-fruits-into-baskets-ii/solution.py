@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:02:09Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def numOfUnplacedFruits(self, fruits: List[int], baskets: List[int]) -> int:
         unplaced = 0

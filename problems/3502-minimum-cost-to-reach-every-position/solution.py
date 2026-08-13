@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:03:55Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def minCosts(self, cost: List[int]) -> List[int]:
         answer = []

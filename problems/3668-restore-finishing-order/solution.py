@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:08:07Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def recoverOrder(self, order: List[int], friends: List[int]) -> List[int]:
         friend_ids = set(friends)

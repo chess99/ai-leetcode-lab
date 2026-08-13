@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:08:07Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def minOperations(self, nums: List[int]) -> int:
         return 0 if len(set(nums)) == 1 else 1

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:15:57Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def maximizeExpressionOfThree(self, nums: List[int]) -> int:
         values = sorted(nums)

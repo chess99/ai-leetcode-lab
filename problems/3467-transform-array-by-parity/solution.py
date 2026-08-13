@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:02:00Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def transformArray(self, nums: List[int]) -> List[int]:
         even_count = sum(num % 2 == 0 for num in nums)

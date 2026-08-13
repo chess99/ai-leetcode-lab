@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:02:10Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def totalNumbers(self, digits: List[int]) -> int:
         numbers = set()

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:07:54Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def reverseSubmatrix(self, grid: List[List[int]], x: int, y: int, k: int) -> List[List[int]]:
         for offset in range(k // 2):

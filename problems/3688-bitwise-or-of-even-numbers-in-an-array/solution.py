@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:08:25Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def evenNumberBitwiseORs(self, nums: List[int]) -> int:
         result = 0
