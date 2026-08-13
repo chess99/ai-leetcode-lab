@@ -274,6 +274,35 @@ class StatsTests(unittest.TestCase):
             )
             self.assertEqual(summary["awaitingRemoteAccepted"], 1)
 
+    def test_defer_populates_next_profile_escalation_queue(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.write_profiles(root)
+            (root / "archive").mkdir()
+            (root / "archive" / "catalog.json").write_text(
+                json.dumps(
+                    {
+                        "problems": [
+                            {
+                                "titleSlug": "hard-one",
+                                "questionFrontendId": "99",
+                                "difficulty": "HARD",
+                                "paidOnly": False,
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            store = EventStore(root)
+            store.append("problem_started", slug="hard-one", profile_id="sol-medium")
+            store.append("profile_deferred", slug="hard-one", profile_id="sol-medium")
+
+            summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
+            item = summary["escalationQueueByProfile"]["sol-high"][0]
+            self.assertEqual(item["slug"], "hard-one")
+            self.assertTrue(item["needsNewCandidate"])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -44,8 +44,8 @@
       "reasoningEffort": "max",
       "cohort": "sol-escalation",
       "stage": 4,
-      "enabled": true,
-      "description": "可选的 xhigh 与 ultra 中间档"
+      "enabled": false,
+      "description": "可选的 xhigh 与 ultra 中间档；当前实验未启用"
     },
     {
       "id": "sol-ultra",

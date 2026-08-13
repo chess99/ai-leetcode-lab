@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T03:11:25Z",
+  "generatedAt": "2026-08-13T03:14:49Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -32995,6 +32995,131 @@
       }
     ]
   },
+  "escalationQueueByProfile": {
+    "sol-low": [],
+    "sol-medium": [],
+    "sol-high": [
+      {
+        "slug": "1ybDKD",
+        "fromProfile": "sol-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
+        "slug": "De4qBB",
+        "fromProfile": "sol-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
+        "slug": "K8GULz",
+        "fromProfile": "sol-medium",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "WInSav",
+        "fromProfile": "sol-medium",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "XxZZjK",
+        "fromProfile": "sol-medium",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "cnHoX6",
+        "fromProfile": "sol-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
+        "slug": "kskhHQ",
+        "fromProfile": "sol-medium",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "you-le-yuan-de-you-lan-ji-hua",
+        "fromProfile": "sol-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      }
+    ],
+    "sol-xhigh": [
+      {
+        "slug": "K8GULz",
+        "fromProfile": "sol-high",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "WInSav",
+        "fromProfile": "sol-high",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "XxZZjK",
+        "fromProfile": "sol-high",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "kskhHQ",
+        "fromProfile": "sol-high",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      }
+    ],
+    "sol-max": [],
+    "sol-ultra": [
+      {
+        "slug": "K8GULz",
+        "fromProfile": "sol-xhigh",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "WInSav",
+        "fromProfile": "sol-xhigh",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "XxZZjK",
+        "fromProfile": "sol-xhigh",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
+        "slug": "kskhHQ",
+        "fromProfile": "sol-xhigh",
+        "targetStarted": true,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      }
+    ],
+    "terra-low": [],
+    "terra-medium": []
+  },
   "firstSuccessByDifficulty": {
     "EASY": {
       "sol-xhigh": 1,
@@ -40032,7 +40157,7 @@
       "reasoningEffort": "max",
       "cohort": "sol-escalation",
       "stage": 4,
-      "enabled": true,
+      "enabled": false,
       "started": 0,
       "accepted": 0,
       "deferred": 0,

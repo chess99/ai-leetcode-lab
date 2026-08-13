@@ -341,6 +341,32 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             },
         }
 
+    escalation_queue: dict[str, list[dict[str, Any]]] = {profile_id: [] for profile_id in profile_ids}
+    profiles_by_cohort: dict[str, list[Any]] = {}
+    for profile in configured_profiles.profiles:
+        profiles_by_cohort.setdefault(profile.cohort, []).append(profile)
+    next_profile: dict[str, str] = {}
+    for cohort_profiles in profiles_by_cohort.values():
+        ordered = sorted(
+            (profile for profile in cohort_profiles if profile.enabled), key=lambda profile: profile.stage
+        )
+        for current, following in zip(ordered, ordered[1:]):
+            next_profile[current.id] = following.id
+    for slug, profile_id in sorted(deferred_pairs):
+        target = next_profile.get(profile_id)
+        if not target or slug in accepted:
+            continue
+        target_candidate = latest_candidate_by_pair.get((slug, target))
+        escalation_queue.setdefault(target, []).append(
+            {
+                "slug": slug,
+                "fromProfile": profile_id,
+                "targetStarted": (slug, target) in started_pairs,
+                "targetCandidateReady": target_candidate is not None,
+                "needsNewCandidate": target_candidate is None,
+            }
+        )
+
     first_submission_accepts = sum(
         1
         for event in accepted_by_slug.values()
@@ -545,6 +571,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         "candidateReady": len({slug for slug, _ in latest_candidate_by_pair}),
         "candidateReadyProfileAssignments": len(latest_candidate_by_pair),
         "ladderPaths": ladder_paths,
+        "escalationQueueByProfile": escalation_queue,
         "firstSuccessByDifficulty": {
             level: dict(sorted(counts.items()))
             for level, counts in sorted(first_success_by_difficulty.items())
@@ -661,6 +688,16 @@ def render_markdown(summary: dict[str, Any]) -> str:
             f"当前本地代码与 candidate-ready 哈希漂移：{len(summary['candidateCodeDrift'])} 个 Profile/题组合。",
         ]
     )
+    lines.extend(["", "## 待升级重新解题", ""])
+    any_escalation = False
+    for profile_id, items in summary["escalationQueueByProfile"].items():
+        pending_items = [item for item in items if item["needsNewCandidate"]]
+        if not pending_items:
+            continue
+        any_escalation = True
+        lines.append(f"- {profile_id}：{len(pending_items)} 题待产出新的本地候选")
+    if not any_escalation:
+        lines.append("当前没有等待更高 Profile 重新解题的题目。")
     lines.extend(["", "## Agent 贡献", ""])
     if summary["acceptedByAgent"]:
         for name, count in summary["acceptedByAgent"].items():
