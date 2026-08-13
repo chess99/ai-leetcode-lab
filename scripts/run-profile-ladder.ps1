@@ -16,12 +16,11 @@ $env:PYTHONUTF8 = "1"
 $env:PYTHONPATH = $repoRoot
 
 if ($Profiles.Count -eq 0) {
-    $profileOutput = @(& python -m ai_leetcode.cli profiles 2>&1)
+    $profileOutput = @(& python -m ai_leetcode.cli execution-ladder 2>&1)
     if ($LASTEXITCODE -ne 0) {
         throw "Failed to read the configured execution ladder: $($profileOutput -join ' ')"
     }
-    $profileConfig = ($profileOutput -join "`n") | ConvertFrom-Json
-    $Profiles = @($profileConfig.executionLadder)
+    $Profiles = @($profileOutput | ForEach-Object { "$_".Trim() } | Where-Object { $_ })
     if ($Profiles.Count -eq 0) {
         throw "config/profiles.json does not define executionLadder."
     }

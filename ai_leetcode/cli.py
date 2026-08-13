@@ -422,6 +422,12 @@ def _cmd_profiles(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_execution_ladder(args: argparse.Namespace) -> int:
+    for profile_id in load_profiles().execution_ladder:
+        print(profile_id)
+    return 0
+
+
 def _cmd_stats(args: argparse.Namespace) -> int:
     config = load_config()
     summary = write_stats(config.attempt_budget)
@@ -610,6 +616,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     profiles = subparsers.add_parser("profiles", help="列出模型与推理档位实验 Profile")
     profiles.set_defaults(func=_cmd_profiles)
+
+    execution_ladder = subparsers.add_parser(
+        "execution-ladder", help="逐行列出本实验的 Profile 执行顺序"
+    )
+    execution_ladder.set_defaults(func=_cmd_execution_ladder)
 
     stats = subparsers.add_parser("stats", help="重建统计报告")
     stats.set_defaults(func=_cmd_stats)
