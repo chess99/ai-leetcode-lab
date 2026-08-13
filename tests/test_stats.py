@@ -86,6 +86,7 @@ class StatsTests(unittest.TestCase):
             summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
             self.assertEqual(summary["acceptedByAgent"], {"client-a / model-b": 1})
             self.assertEqual(summary["acceptedByProfile"], {"unprofiled": 1})
+            self.assertEqual(summary["byDifficulty"]["EASY"]["eligible"], 1)
 
     def test_summary_attributes_first_success_and_token_coverage_to_profile(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -217,6 +218,46 @@ class StatsTests(unittest.TestCase):
             self.assertEqual(summary["overallSubmissionAcceptanceRate"], 1.0)
             self.assertEqual(summary["profiles"]["sol-medium"]["remoteTests"], 0)
             self.assertEqual(summary["profiles"]["sol-medium"]["submissions"], 1)
+            self.assertEqual(summary["profiles"]["sol-medium"]["failedSubmissions"], 0)
+
+    def test_free_difficulty_denominator_excludes_paid_and_reports_pending(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.write_profiles(root)
+            (root / "archive").mkdir()
+            (root / "archive" / "catalog.json").write_text(
+                json.dumps(
+                    {
+                        "problems": [
+                            {
+                                "titleSlug": "free-easy",
+                                "questionFrontendId": "1",
+                                "difficulty": "EASY",
+                                "paidOnly": False,
+                            },
+                            {
+                                "titleSlug": "paid-easy",
+                                "questionFrontendId": "2",
+                                "difficulty": "EASY",
+                                "paidOnly": True,
+                            },
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            store = EventStore(root)
+            store.append(
+                "problem_started",
+                slug="free-easy",
+                profile_id="sol-medium",
+            )
+
+            summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
+            self.assertEqual(summary["catalogByDifficulty"]["EASY"], {"all": 2, "free": 1, "paid": 1})
+            self.assertEqual(summary["byDifficulty"]["EASY"]["eligible"], 1)
+            self.assertEqual(summary["experimentByDifficulty"]["EASY"]["pending"], 1)
+            self.assertEqual(summary["pendingAccessible"], 1)
 
 
 if __name__ == "__main__":

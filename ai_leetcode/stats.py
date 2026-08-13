@@ -2,13 +2,22 @@ from __future__ import annotations
 
 from collections import Counter
 from datetime import datetime
+import hashlib
 import json
 from pathlib import Path
 from statistics import mean, median
 from typing import Any
 
 from .archive import load_catalog
-from .config import AttemptBudget, ROOT, atomic_write_json, atomic_write_text, load_profiles, utc_now
+from .config import (
+    AttemptBudget,
+    ROOT,
+    atomic_write_json,
+    atomic_write_text,
+    load_profiles,
+    problem_key,
+    utc_now,
+)
 from .events import EventStore
 
 
@@ -94,6 +103,23 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         and event.get("profile_id")
     }
 
+    retry_counts: Counter[tuple[str, str]] = Counter(
+        (str(event["slug"]), str(event["profile_id"]))
+        for event in events
+        if event.get("type") == "retry_opened"
+        and event.get("slug")
+        and event.get("profile_id")
+    )
+    charged_submissions_by_pair_and_round: Counter[tuple[str, str, int]] = Counter(
+        (
+            str(event.get("slug")),
+            str(event.get("profile_id")),
+            int(event.get("round", 1)),
+        )
+        for event in charged_submission_starts
+        if event.get("slug") and event.get("profile_id")
+    )
+
     first_success_profile: dict[str, str] = {
         slug: _event_profile(event, submission_starts_by_action)
         for slug, event in accepted_by_slug.items()
@@ -132,11 +158,20 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
     for slug, profile_id in started_pairs - deferred_pairs:
         if slug in accepted:
             continue
-        usage = store.usage(slug, profile_id)
-        if usage.round_number >= budget.max_rounds and usage.submissions >= budget.submissions_per_round:
+        round_number = 1 + retry_counts[(slug, profile_id)]
+        submissions = charged_submissions_by_pair_and_round[
+            (slug, profile_id, round_number)
+        ]
+        if round_number >= budget.max_rounds and submissions >= budget.submissions_per_round:
             review_required_pairs.add((slug, profile_id))
 
-    difficulty_total = Counter(str(item.get("difficulty", "UNKNOWN")) for item in problems)
+    accessible_problems = [item for item in problems if not item.get("paidOnly")]
+    paid_problems = [item for item in problems if item.get("paidOnly")]
+    difficulty_total = Counter(
+        str(item.get("difficulty", "UNKNOWN")) for item in accessible_problems
+    )
+    all_difficulty_total = Counter(str(item.get("difficulty", "UNKNOWN")) for item in problems)
+    paid_difficulty_total = Counter(str(item.get("difficulty", "UNKNOWN")) for item in paid_problems)
     difficulty_accepted = Counter(
         str(by_slug[slug].get("difficulty", "UNKNOWN")) for slug in accepted if slug in by_slug
     )
@@ -177,6 +212,16 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             for event in result_events
             if _event_profile(event, action_starts_by_action) == profile_id
         ]
+        profile_failed_results = [
+            event
+            for event in profile_results
+            if event.get("type") == "submission_result"
+            and event.get("outcome") in {"failed", "rejected"}
+            and event.get("counts_against_budget", True)
+        ]
+        profile_failed_slugs = {
+            str(event["slug"]) for event in profile_failed_results if event.get("slug")
+        }
         profile_usage_reports = [
             event for event in usage_reports if str(event.get("profile_id")) == profile_id
         ]
@@ -230,6 +275,21 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
                     for slug in profile_deferred_slugs
                     if str(by_slug.get(slug, {}).get("difficulty", "UNKNOWN")) == level
                 ),
+                "failedSubmissionAttempts": sum(
+                    1
+                    for event in profile_failed_results
+                    if str(
+                        by_slug.get(str(event.get("slug")), {}).get(
+                            "difficulty", "UNKNOWN"
+                        )
+                    )
+                    == level
+                ),
+                "failedSubmissionProblems": sum(
+                    1
+                    for slug in profile_failed_slugs
+                    if str(by_slug.get(slug, {}).get("difficulty", "UNKNOWN")) == level
+                ),
             }
         profile_stats[profile_id] = {
             "model": profile.model if profile else "unknown",
@@ -243,12 +303,8 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             "reviewRequired": sum(1 for _, pid in review_required_pairs if pid == profile_id),
             "remoteTests": len(profile_tests),
             "submissions": len(profile_submissions),
-            "failedSubmissions": sum(
-                1
-                for event in profile_results
-                if event.get("type") == "submission_result"
-                and event.get("outcome") in {"failed", "rejected"}
-            ),
+            "failedSubmissions": len(profile_failed_results),
+            "failedSubmissionProblems": len(profile_failed_slugs),
             "firstSubmissionAccepted": sum(
                 1
                 for slug in profile_accepted_slugs
@@ -293,7 +349,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             continue
     archived = len(archived_files)
     total = len(problems)
-    accessible = sum(1 for item in problems if not item.get("paidOnly"))
+    accessible = len(accessible_problems)
     accessible_accepted = sum(
         1 for slug in accepted if slug in by_slug and not by_slug[slug].get("paidOnly")
     )
@@ -301,8 +357,77 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
     reported_pairs = {
         (str(event.get("slug")), str(event.get("profile_id"))) for event in usage_reports
     }
+    submitted_slugs = {
+        str(event["slug"]) for event in charged_submission_starts if event.get("slug")
+    }
+    failed_result_events = [
+        event
+        for event in result_events
+        if event.get("type") == "submission_result"
+        and event.get("outcome") in {"failed", "rejected"}
+        and event.get("counts_against_budget", True)
+    ]
+    failed_submission_slugs = {
+        str(event["slug"]) for event in failed_result_events if event.get("slug")
+    }
+    pending = {
+        str(item["titleSlug"])
+        for item in accessible_problems
+        if str(item["titleSlug"]) not in accepted
+        and not any(str(item["titleSlug"]) == slug for slug, _ in deferred_pairs)
+    }
+
+    accepted_code_drift: list[dict[str, Any]] = []
+    for slug, accepted_event in accepted_by_slug.items():
+        start = submission_starts_by_action.get(accepted_event.get("action_id"), {})
+        accepted_hash = str(
+            accepted_event.get("code_sha256") or start.get("code_sha256") or ""
+        )
+        problem = by_slug.get(slug)
+        if not accepted_hash or problem is None:
+            continue
+        directory = root / "problems" / problem_key(problem)
+        try:
+            meta = json.loads((directory / "meta.json").read_text(encoding="utf-8"))
+            current = (directory / str(meta["solutionFile"])).read_text(encoding="utf-8")
+        except (FileNotFoundError, KeyError, OSError, UnicodeError, json.JSONDecodeError):
+            continue
+        current_hash = hashlib.sha256(current.encode("utf-8")).hexdigest()
+        if current_hash != accepted_hash:
+            accepted_code_drift.append(
+                {
+                    "slug": slug,
+                    "acceptedCodeSha256": accepted_hash,
+                    "currentCodeSha256": current_hash,
+                }
+            )
+
+    def terminal_by_difficulty(level: str) -> dict[str, Any]:
+        eligible_slugs = {
+            str(item["titleSlug"])
+            for item in accessible_problems
+            if str(item.get("difficulty", "UNKNOWN")) == level
+        }
+        level_deferred = {slug for slug, _ in deferred_pairs} & eligible_slugs
+        level_accepted = accepted & eligible_slugs
+        level_pending = pending & eligible_slugs
+        level_submitted = submitted_slugs & eligible_slugs
+        level_failed = failed_submission_slugs & eligible_slugs
+        eligible_count = len(eligible_slugs)
+        return {
+            "eligible": eligible_count,
+            "started": len(started & eligible_slugs),
+            "submitted": len(level_submitted),
+            "remoteAccepted": len(level_accepted),
+            "failedSubmissionProblems": len(level_failed),
+            "deferred": len(level_deferred),
+            "pending": len(level_pending),
+            "remoteAcceptanceCoverage": (
+                len(level_accepted) / eligible_count if eligible_count else 0.0
+            ),
+        }
     return {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "generatedAt": utc_now(),
         "catalogSyncedAt": catalog.get("syncedAt"),
         "defaultProfile": configured_profiles.default_profile,
@@ -329,9 +454,34 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             else 0.0
         ),
         "byDifficulty": {
-            level: {"total": difficulty_total[level], "accepted": difficulty_accepted[level]}
+            level: {
+                "eligible": difficulty_total[level],
+                "accepted": difficulty_accepted[level],
+                "remoteAcceptanceCoverage": (
+                    difficulty_accepted[level] / difficulty_total[level]
+                    if difficulty_total[level]
+                    else 0.0
+                ),
+            }
             for level in sorted(difficulty_total)
         },
+        "catalogByDifficulty": {
+            level: {
+                "all": all_difficulty_total[level],
+                "free": difficulty_total[level],
+                "paid": paid_difficulty_total[level],
+            }
+            for level in sorted(all_difficulty_total)
+        },
+        "experimentByDifficulty": {
+            level: terminal_by_difficulty(level) for level in sorted(difficulty_total)
+        },
+        "failedSubmissions": {
+            "attempts": len(failed_result_events),
+            "uniqueProblems": len(failed_submission_slugs),
+        },
+        "pendingAccessible": len(pending),
+        "acceptedCodeDrift": sorted(accepted_code_drift, key=lambda item: item["slug"]),
         "firstSuccessByDifficulty": {
             level: dict(sorted(counts.items()))
             for level, counts in sorted(first_success_by_difficulty.items())
@@ -378,6 +528,7 @@ def render_markdown(summary: dict[str, Any]) -> str:
         f"| 归档中锁定/不可用题面 | {summary['archivedLockedOrUnavailable']} |",
         f"| 已开始 | {summary['started']} |",
         f"| Accepted | {summary['accepted']} |",
+        f"| 免费题仍待远程终态 | {summary['pendingAccessible']} |",
         f"| 已 defer 的题 | {summary['deferredProblems']} |",
         f"| 等待复盘的 Profile/题组合 | {summary['reviewRequired']} |",
         f"| 远程试跑 | {summary['remoteTests']} |",
@@ -407,18 +558,44 @@ def render_markdown(summary: dict[str, Any]) -> str:
             "> “首次成功 Profile”表示按既定升档流程首次获得 Accepted 的档位；高档可能继承低档失败产物，",
             "> 因此它衡量的是阶梯实验结果，不等同于各模型从空白起步的独立盲测能力。",
             "",
-            "## 难度分布",
+            "## 免费实验集难度分布",
             "",
-            "| 难度 | 总数 | 已通过 |",
-            "|---|---:|---:|",
+            "| 难度 | 免费题 | 远程 Accepted | 覆盖率 |",
+            "|---|---:|---:|---:|",
         ]
     )
     for level, values in summary["byDifficulty"].items():
-        lines.append(f"| {level} | {values['total']} | {values['accepted']} |")
+        lines.append(
+            f"| {level} | {values['eligible']} | {values['accepted']} | "
+            f"{values['remoteAcceptanceCoverage']:.2%} |"
+        )
     lines.extend(["", "## 首次成功 Profile × 难度", ""])
     for level, values in summary["firstSuccessByDifficulty"].items():
         distribution = "，".join(f"{profile}: {count}" for profile, count in values.items()) or "尚无"
         lines.append(f"- {level}：{distribution}")
+    lines.extend(
+        [
+            "",
+            "## 免费题流程终态 × 难度",
+            "",
+            "| 难度 | 已开始 | 已提交 | 远程 Accepted | 有失败提交 | defer | pending |",
+            "|---|---:|---:|---:|---:|---:|---:|",
+        ]
+    )
+    for level, values in summary["experimentByDifficulty"].items():
+        lines.append(
+            f"| {level} | {values['started']} | {values['submitted']} | "
+            f"{values['remoteAccepted']} | {values['failedSubmissionProblems']} | "
+            f"{values['deferred']} | {values['pending']} |"
+        )
+    lines.extend(
+        [
+            "",
+            f"失败正式提交：{summary['failedSubmissions']['attempts']} 次，"
+            f"涉及 {summary['failedSubmissions']['uniqueProblems']} 题。",
+            f"当前本地代码与 Accepted 代码哈希漂移：{len(summary['acceptedCodeDrift'])} 题。",
+        ]
+    )
     lines.extend(["", "## Agent 贡献", ""])
     if summary["acceptedByAgent"]:
         for name, count in summary["acceptedByAgent"].items():

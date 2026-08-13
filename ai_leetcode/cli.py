@@ -19,6 +19,7 @@ from .archive import (
 )
 from .client import ApiError, LeetCodeClient
 from .config import ConfigError, ROOT, load_config, load_credentials, load_identity, load_profiles
+from .coverage import write_coverage
 from .doctor import print_checks, run_doctor
 from .events import BudgetError, EventStore
 from .runner import RemoteActionLock, run_remote_test, submit_solution
@@ -273,6 +274,12 @@ def _cmd_stats(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_audit(args: argparse.Namespace) -> int:
+    report = write_coverage()
+    _print_json(report)
+    return 0 if report["invalidLocalCandidates"] == 0 else 2
+
+
 def _cmd_status(args: argparse.Namespace) -> int:
     config = load_config()
     if args.selector:
@@ -386,6 +393,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     stats = subparsers.add_parser("stats", help="重建统计报告")
     stats.set_defaults(func=_cmd_stats)
+
+    audit = subparsers.add_parser("audit", help="审计全部免费题的本地候选覆盖与静态门禁")
+    audit.set_defaults(func=_cmd_audit)
 
     status = subparsers.add_parser("status", help="查看全局或单题状态")
     status.add_argument("selector", nargs="?")

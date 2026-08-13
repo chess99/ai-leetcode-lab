@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 2,
-  "generatedAt": "2026-08-13T01:41:05Z",
+  "schemaVersion": 3,
+  "generatedAt": "2026-08-13T02:12:04Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -23,18 +23,97 @@
   "overallSubmissionAcceptanceRate": 0.971,
   "byDifficulty": {
     "EASY": {
-      "total": 1078,
-      "accepted": 486
+      "eligible": 949,
+      "accepted": 486,
+      "remoteAcceptanceCoverage": 0.512118018967334
     },
     "HARD": {
-      "total": 1032,
-      "accepted": 484
+      "eligible": 843,
+      "accepted": 484,
+      "remoteAcceptanceCoverage": 0.5741399762752076
     },
     "MEDIUM": {
-      "total": 2296,
-      "accepted": 1
+      "eligible": 1836,
+      "accepted": 1,
+      "remoteAcceptanceCoverage": 0.0005446623093681918
     }
   },
+  "catalogByDifficulty": {
+    "EASY": {
+      "all": 1078,
+      "free": 949,
+      "paid": 129
+    },
+    "HARD": {
+      "all": 1032,
+      "free": 843,
+      "paid": 189
+    },
+    "MEDIUM": {
+      "all": 2296,
+      "free": 1836,
+      "paid": 460
+    }
+  },
+  "experimentByDifficulty": {
+    "EASY": {
+      "eligible": 949,
+      "started": 949,
+      "submitted": 487,
+      "remoteAccepted": 486,
+      "failedSubmissionProblems": 10,
+      "deferred": 1,
+      "pending": 462,
+      "remoteAcceptanceCoverage": 0.512118018967334
+    },
+    "HARD": {
+      "eligible": 843,
+      "started": 843,
+      "submitted": 487,
+      "remoteAccepted": 484,
+      "failedSubmissionProblems": 13,
+      "deferred": 32,
+      "pending": 327,
+      "remoteAcceptanceCoverage": 0.5741399762752076
+    },
+    "MEDIUM": {
+      "eligible": 1836,
+      "started": 1836,
+      "submitted": 1,
+      "remoteAccepted": 1,
+      "failedSubmissionProblems": 0,
+      "deferred": 0,
+      "pending": 1835,
+      "remoteAcceptanceCoverage": 0.0005446623093681918
+    }
+  },
+  "failedSubmissions": {
+    "attempts": 29,
+    "uniqueProblems": 23
+  },
+  "pendingAccessible": 2624,
+  "acceptedCodeDrift": [
+    {
+      "slug": "memoize-ii",
+      "acceptedCodeSha256": "3c3f255e3c93ec0229bebcdd63a935c46c4b522ae286fd9e0e96709f7ffb4bba",
+      "currentCodeSha256": "f38cf369c6ecf3bc4303343ec4b455f916c8f20ba2b3b0107ad76995f6a99d8f"
+    },
+    {
+      "slug": "print-in-order",
+      "acceptedCodeSha256": "3fe8f557fdce51b2cb4f7bcc12cf9db24f1f2be44a4f638b06a4eacbd8648df0",
+      "currentCodeSha256": "c895032443cf2302f281a641cbab9380c80294fa80c39d450e78534af1af9352"
+    },
+    {
+      "slug": "remove-outermost-parentheses",
+      "acceptedCodeSha256": "38de99cc20858e16a23b07387384267060288902d0a7aab2affcabb16f3a74fd",
+      "currentCodeSha256": "eb38ac3d722f2a5515852d927cae08b519fe065454320e06fe82c3f473162f9b"
+    },
+    {
+      "slug": "two-sum",
+      "acceptedCodeSha256": "23f208dd361fb576249a9b43089f27ccdaa6550cc01ba2ca11a15509381160cf",
+      "currentCodeSha256": "e3760f57ae132b366152f7033b3fe397fde7c3f95784b01f4a0347458a8f00f6"
+    }
+  ],
   "firstSuccessByDifficulty": {
     "EASY": {
       "sol-xhigh": 1,
@@ -6868,6 +6947,7 @@
       "remoteTests": 0,
       "submissions": 0,
       "failedSubmissions": 0,
+      "failedSubmissionProblems": 0,
       "firstSubmissionAccepted": 0,
       "remoteElapsedReports": 0,
       "remoteElapsedSeconds": null,
@@ -6877,17 +6957,23 @@
         "EASY": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "HARD": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "MEDIUM": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         }
       },
       "usage": {
@@ -6913,6 +6999,7 @@
       "remoteTests": 0,
       "submissions": 0,
       "failedSubmissions": 0,
+      "failedSubmissionProblems": 0,
       "firstSubmissionAccepted": 0,
       "remoteElapsedReports": 0,
       "remoteElapsedSeconds": null,
@@ -6922,17 +7009,23 @@
         "EASY": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "HARD": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "MEDIUM": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         }
       },
       "usage": {
@@ -6958,6 +7051,7 @@
       "remoteTests": 0,
       "submissions": 0,
       "failedSubmissions": 0,
+      "failedSubmissionProblems": 0,
       "firstSubmissionAccepted": 0,
       "remoteElapsedReports": 0,
       "remoteElapsedSeconds": null,
@@ -6967,17 +7061,23 @@
         "EASY": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "HARD": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "MEDIUM": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         }
       },
       "usage": {
@@ -7003,6 +7103,7 @@
       "remoteTests": 1,
       "submissions": 1,
       "failedSubmissions": 0,
+      "failedSubmissionProblems": 0,
       "firstSubmissionAccepted": 1,
       "remoteElapsedReports": 0,
       "remoteElapsedSeconds": null,
@@ -7012,17 +7113,23 @@
         "EASY": {
           "started": 1,
           "accepted": 1,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "HARD": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "MEDIUM": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         }
       },
       "usage": {
@@ -7048,6 +7155,7 @@
       "remoteTests": 0,
       "submissions": 0,
       "failedSubmissions": 0,
+      "failedSubmissionProblems": 0,
       "firstSubmissionAccepted": 0,
       "remoteElapsedReports": 0,
       "remoteElapsedSeconds": null,
@@ -7057,17 +7165,23 @@
         "EASY": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "HARD": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "MEDIUM": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         }
       },
       "usage": {
@@ -7093,6 +7207,7 @@
       "remoteTests": 0,
       "submissions": 0,
       "failedSubmissions": 0,
+      "failedSubmissionProblems": 0,
       "firstSubmissionAccepted": 0,
       "remoteElapsedReports": 0,
       "remoteElapsedSeconds": null,
@@ -7102,17 +7217,23 @@
         "EASY": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "HARD": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "MEDIUM": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         }
       },
       "usage": {
@@ -7138,6 +7259,7 @@
       "remoteTests": 0,
       "submissions": 0,
       "failedSubmissions": 0,
+      "failedSubmissionProblems": 0,
       "firstSubmissionAccepted": 0,
       "remoteElapsedReports": 0,
       "remoteElapsedSeconds": null,
@@ -7147,17 +7269,23 @@
         "EASY": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "HARD": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         },
         "MEDIUM": {
           "started": 0,
           "accepted": 0,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         }
       },
       "usage": {
@@ -7183,26 +7311,33 @@
       "remoteTests": 0,
       "submissions": 999,
       "failedSubmissions": 29,
+      "failedSubmissionProblems": 23,
       "firstSubmissionAccepted": 951,
-      "remoteElapsedReports": 1129,
-      "remoteElapsedSeconds": 4164.799,
+      "remoteElapsedReports": 1130,
+      "remoteElapsedSeconds": 4169.127,
       "averageSolveWallSeconds": 4066.637113402062,
       "medianSolveWallSeconds": 689.0,
       "byDifficulty": {
         "EASY": {
           "started": 948,
           "accepted": 485,
-          "deferred": 1
+          "deferred": 1,
+          "failedSubmissionAttempts": 13,
+          "failedSubmissionProblems": 10
         },
         "HARD": {
           "started": 843,
           "accepted": 484,
-          "deferred": 32
+          "deferred": 32,
+          "failedSubmissionAttempts": 16,
+          "failedSubmissionProblems": 13
         },
         "MEDIUM": {
           "started": 1836,
           "accepted": 1,
-          "deferred": 0
+          "deferred": 0,
+          "failedSubmissionAttempts": 0,
+          "failedSubmissionProblems": 0
         }
       },
       "usage": {
