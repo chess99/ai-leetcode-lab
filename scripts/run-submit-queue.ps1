@@ -5,7 +5,9 @@ param(
 
     [int] $MaxTerminalResults = 0,
 
-    [int] $InfrastructureDelaySeconds = 60
+    [int] $InfrastructureDelaySeconds = 60,
+
+    [switch] $ClearStop
 )
 
 $ErrorActionPreference = "Stop"
@@ -20,11 +22,15 @@ $env:PYTHONPATH = $repoRoot
 $runtimeDirectory = Join-Path $repoRoot ".runtime"
 $statePath = Join-Path $runtimeDirectory "submit-queue-state.json"
 $stopPath = Join-Path $runtimeDirectory "submit-queue.stop"
+$instanceLockPath = Join-Path $runtimeDirectory "submit-queue-instance.lock"
 $attemptsPath = Join-Path $repoRoot "data\attempts.jsonl"
 New-Item -ItemType Directory -Force -Path $runtimeDirectory | Out-Null
 
-if (Test-Path -LiteralPath $stopPath) {
+if ($ClearStop -and (Test-Path -LiteralPath $stopPath -PathType Leaf)) {
     Remove-Item -LiteralPath $stopPath -Force
+}
+if (Test-Path -LiteralPath $stopPath -PathType Leaf) {
+    throw "The queue stop marker exists. Remove it explicitly or restart with -ClearStop."
 }
 
 $acceptedThisRun = 0
@@ -32,6 +38,51 @@ $deferredThisRun = 0
 $infrastructureFailures = 0
 $terminalSinceStats = 0
 $currentSlug = $null
+$instanceLockStream = $null
+
+function Acquire-InstanceLock {
+    for ($attempt = 0; $attempt -lt 2; $attempt++) {
+        try {
+            $stream = [System.IO.File]::Open(
+                $instanceLockPath,
+                [System.IO.FileMode]::CreateNew,
+                [System.IO.FileAccess]::ReadWrite,
+                [System.IO.FileShare]::Read
+            )
+            $payload = [Text.Encoding]::UTF8.GetBytes(
+                (@{ pid = $PID; startedAt = [DateTimeOffset]::UtcNow.ToString("o") } |
+                    ConvertTo-Json -Compress)
+            )
+            $stream.Write($payload, 0, $payload.Length)
+            $stream.Flush()
+            return $stream
+        }
+        catch [System.IO.IOException] {
+            $ownerPid = $null
+            try {
+                $owner = Get-Content -LiteralPath $instanceLockPath -Encoding utf8 -Raw |
+                    ConvertFrom-Json
+                $ownerPid = [int]$owner.pid
+            }
+            catch {
+                # If the owner cannot be read, removal below will still fail while active.
+            }
+            if ($ownerPid -and (Get-Process -Id $ownerPid -ErrorAction SilentlyContinue)) {
+                throw "A submission queue is already running with PID $ownerPid."
+            }
+            if ($attempt -eq 0) {
+                try {
+                    Remove-Item -LiteralPath $instanceLockPath -Force
+                    continue
+                }
+                catch {
+                    throw "The submission queue lock is active and could not be recovered."
+                }
+            }
+            throw
+        }
+    }
+}
 
 function Write-QueueState {
     param(
@@ -61,9 +112,8 @@ function Invoke-AiLc {
 
     $previousPreference = $ErrorActionPreference
     try {
-        # Windows PowerShell wraps native stderr lines as ErrorRecord objects. The CLI
-        # exit code and append-only judge event determine control flow, so capture those
-        # lines without letting the outer Stop preference abort the queue.
+        # Windows PowerShell wraps native stderr as ErrorRecord objects. The CLI exit
+        # code and append-only judge event determine control flow for this queue.
         $ErrorActionPreference = "Continue"
         $output = @(& python -m ai_leetcode.cli @Arguments 2>&1)
         $exitCode = $LASTEXITCODE
@@ -76,23 +126,57 @@ function Invoke-AiLc {
     }
     return [pscustomobject]@{
         ExitCode = $exitCode
-        Output = $output
+        Output = @($output | ForEach-Object { "$_" })
+        Text = (@($output | ForEach-Object { "$_" }) -join "`n")
     }
 }
 
-function Get-LatestSubmissionResult {
-    param([Parameter(Mandatory = $true)][string] $Slug)
+function Get-AttemptsOffset {
+    if (Test-Path -LiteralPath $attemptsPath -PathType Leaf) {
+        return [long](Get-Item -LiteralPath $attemptsPath).Length
+    }
+    return [long]0
+}
+
+function Get-NewSubmissionResult {
+    param(
+        [Parameter(Mandatory = $true)][string] $Slug,
+        [Parameter(Mandatory = $true)][long] $Offset
+    )
 
     if (-not (Test-Path -LiteralPath $attemptsPath -PathType Leaf)) {
         return $null
     }
-    $lines = @(Get-Content -LiteralPath $attemptsPath -Encoding utf8)
-    for ($index = $lines.Count - 1; $index -ge 0; $index--) {
-        if (-not $lines[$index].Trim()) {
+    $stream = [System.IO.File]::Open(
+        $attemptsPath,
+        [System.IO.FileMode]::Open,
+        [System.IO.FileAccess]::Read,
+        [System.IO.FileShare]::ReadWrite
+    )
+    try {
+        if ($Offset -gt $stream.Length) {
+            throw "The attempt log became shorter while the queue was running."
+        }
+        [void]$stream.Seek($Offset, [System.IO.SeekOrigin]::Begin)
+        $reader = [System.IO.StreamReader]::new($stream, [Text.Encoding]::UTF8, $true, 4096, $true)
+        try {
+            $appended = $reader.ReadToEnd()
+        }
+        finally {
+            $reader.Dispose()
+        }
+    }
+    finally {
+        $stream.Dispose()
+    }
+
+    $latest = $null
+    foreach ($line in @($appended -split "`r?`n")) {
+        if (-not $line.Trim()) {
             continue
         }
         try {
-            $event = $lines[$index] | ConvertFrom-Json
+            $event = $line | ConvertFrom-Json
         }
         catch {
             continue
@@ -102,10 +186,10 @@ function Get-LatestSubmissionResult {
             $event.slug -eq $Slug -and
             $event.profile_id -eq $Profile
         ) {
-            return $event
+            $latest = $event
         }
     }
-    return $null
+    return $latest
 }
 
 function Get-BackoffSeconds {
@@ -123,6 +207,20 @@ function Get-BackoffSeconds {
     catch {
         return $InfrastructureDelaySeconds
     }
+}
+
+function Wait-Interruptibly {
+    param([Parameter(Mandatory = $true)][int] $Seconds)
+
+    $deadline = [DateTimeOffset]::UtcNow.AddSeconds([Math]::Max($Seconds, 0))
+    while ([DateTimeOffset]::UtcNow -lt $deadline) {
+        if (Test-Path -LiteralPath $stopPath -PathType Leaf) {
+            return $false
+        }
+        $remaining = [Math]::Ceiling(($deadline - [DateTimeOffset]::UtcNow).TotalSeconds)
+        Start-Sleep -Seconds ([Math]::Min([int]$remaining, 5))
+    }
+    return $true
 }
 
 function Update-Statistics {
@@ -143,16 +241,17 @@ function Defer-CurrentProblem {
         "--reason", $Reason
     )
     if ($defer.ExitCode -ne 0) {
-        throw "Failed to defer $currentSlug."
+        throw "Failed to defer ${currentSlug}: $($defer.Text)"
     }
     $script:deferredThisRun++
     $script:terminalSinceStats++
     Write-QueueState -Status "running" -Outcome "deferred"
 }
 
+$instanceLockStream = Acquire-InstanceLock
 Write-QueueState -Status "starting"
 try {
-    while (-not (Test-Path -LiteralPath $stopPath)) {
+    while (-not (Test-Path -LiteralPath $stopPath -PathType Leaf)) {
         if (
             $MaxTerminalResults -gt 0 -and
             ($acceptedThisRun + $deferredThisRun) -ge $MaxTerminalResults
@@ -162,10 +261,13 @@ try {
 
         $next = Invoke-AiLc -Arguments @("next", "--profile", $Profile)
         if ($next.ExitCode -ne 0) {
-            Write-Output "QUEUE_EMPTY"
-            break
+            if ($next.Text -match "没有符合条件的未完成题目") {
+                Write-Output "QUEUE_EMPTY"
+                break
+            }
+            throw "Failed to select the next problem: $($next.Text)"
         }
-        $nextLine = @($next.Output | ForEach-Object { "$_" } | Where-Object { $_.Trim() })[-1]
+        $nextLine = @($next.Output | Where-Object { $_.Trim() })[-1]
         $currentSlug = @($nextLine -split "\s+")[-1]
         if (-not $currentSlug) {
             throw "Could not parse the next problem slug from: $nextLine"
@@ -173,40 +275,66 @@ try {
 
         Write-QueueState -Status "submitting"
         Write-Output "SUBMIT $currentSlug"
-        $previous = Get-LatestSubmissionResult -Slug $currentSlug
+        $eventOffset = Get-AttemptsOffset
         $submit = Invoke-AiLc -Arguments @(
             "submit", $currentSlug,
             "--profile", $Profile,
             "--defer-stats"
         )
-        $result = Get-LatestSubmissionResult -Slug $currentSlug
+        $result = Get-NewSubmissionResult -Slug $currentSlug -Offset $eventOffset
 
-        if ($submit.ExitCode -eq 0 -and $result.outcome -eq "accepted") {
-            $acceptedThisRun++
-            $terminalSinceStats++
-            $infrastructureFailures = 0
-            Write-QueueState -Status "running" -Outcome "accepted"
-        }
-        elseif ($null -ne $result -and $result.event_id -ne $previous.event_id) {
-            if ($result.outcome -eq "infrastructure_error") {
+        if ($null -ne $result) {
+            if ($result.outcome -eq "accepted") {
+                $acceptedThisRun++
+                $terminalSinceStats++
+                $infrastructureFailures = 0
+                Write-QueueState -Status "running" -Outcome "accepted"
+            }
+            elseif ($result.outcome -eq "infrastructure_error") {
                 $infrastructureFailures++
                 $errorText = "$($result.error)"
-                if ($errorText -match "HTTP (401|403)|认证|登录") {
+                if ($errorText -match "HTTP (401|403)") {
                     Write-QueueState -Status "authentication_failed" -Outcome $result.outcome
                     throw "Authentication failed while submitting ${currentSlug}: $errorText"
                 }
                 $delay = Get-BackoffSeconds
                 Write-QueueState -Status "backoff" -Outcome $result.outcome
                 Write-Warning "Infrastructure failure for $currentSlug; retrying after $delay seconds."
-                Start-Sleep -Seconds $delay
+                if (-not (Wait-Interruptibly -Seconds $delay)) {
+                    break
+                }
                 continue
             }
-
-            Defer-CurrentProblem -Reason "terra-medium 第一次正式提交未 Accepted，保留给更高档位按实验阶梯重试"
+            elseif ($result.outcome -in @("failed", "rejected")) {
+                Defer-CurrentProblem -Reason "terra-medium first submission was not Accepted; escalate to the next profile"
+            }
+            else {
+                throw "Unknown submission outcome for ${currentSlug}: $($result.outcome)"
+            }
+        }
+        elseif ($submit.Text -match "submission budget|budget.*exhausted|max.*round") {
+            Defer-CurrentProblem -Reason "terra-medium submission budget is exhausted; escalate to the next profile"
+        }
+        elseif ($submit.Text -match "Accepted|defer") {
+            # Another authorized local action may have completed the item; reselect.
+            Write-QueueState -Status "running" -Outcome "already_terminal"
+            continue
+        }
+        elseif ($submit.Text -match "HTTP (401|403)") {
+            Write-QueueState -Status "authentication_failed" -Outcome "authentication_error_without_event"
+            throw "Authentication failed while submitting ${currentSlug}: $($submit.Text)"
+        }
+        elseif ($submit.Text -match "HTTP 429|HTTP 5\d\d|timed out|timeout") {
+            $infrastructureFailures++
+            $delay = Get-BackoffSeconds
+            Write-QueueState -Status "backoff" -Outcome "infrastructure_error_without_event"
+            if (-not (Wait-Interruptibly -Seconds $delay)) {
+                break
+            }
+            continue
         }
         else {
-            # No new judge result normally means the Profile budget was already exhausted.
-            Defer-CurrentProblem -Reason "terra-medium 已无可用正式提交预算，保留给更高档位按实验阶梯重试"
+            throw "Submission exited without a judge event for ${currentSlug}: $($submit.Text)"
         }
 
         if ($StatsEvery -gt 0 -and $terminalSinceStats -ge $StatsEvery) {
@@ -215,11 +343,30 @@ try {
     }
 
     Update-Statistics
-    $finalStatus = if (Test-Path -LiteralPath $stopPath) { "stopped" } else { "completed" }
+    $finalStatus = if (Test-Path -LiteralPath $stopPath -PathType Leaf) {
+        "stopped"
+    }
+    elseif (
+        $MaxTerminalResults -gt 0 -and
+        ($acceptedThisRun + $deferredThisRun) -ge $MaxTerminalResults
+    ) {
+        "limit_reached"
+    }
+    else {
+        "completed"
+    }
     Write-QueueState -Status $finalStatus
     Write-Output "QUEUE_$($finalStatus.ToUpper()) accepted=$acceptedThisRun deferred=$deferredThisRun"
 }
 catch {
     Write-QueueState -Status "failed" -Outcome $_.Exception.Message
     throw
+}
+finally {
+    if ($null -ne $instanceLockStream) {
+        $instanceLockStream.Dispose()
+    }
+    if (Test-Path -LiteralPath $instanceLockPath -PathType Leaf) {
+        Remove-Item -LiteralPath $instanceLockPath -Force
+    }
 }
