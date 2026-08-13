@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T07:27:31Z",
+  "generatedAt": "2026-08-13T07:28:47Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -17,17 +17,17 @@
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
   "started": 3628,
-  "accepted": 1006,
+  "accepted": 1007,
   "deferredProblems": 14,
   "deferredProfileAssignments": 30,
   "reviewRequired": 0,
-  "remainingAccessible": 2622,
+  "remainingAccessible": 2621,
   "remoteTests": 1,
-  "submissions": 1035,
-  "firstSubmissionAccepted": 987,
-  "firstRoundAccepted": 1006,
-  "firstSubmissionAcceptanceRate": 0.9811133200795229,
-  "overallSubmissionAcceptanceRate": 0.9719806763285024,
+  "submissions": 1036,
+  "firstSubmissionAccepted": 988,
+  "firstRoundAccepted": 1007,
+  "firstSubmissionAcceptanceRate": 0.9811320754716981,
+  "overallSubmissionAcceptanceRate": 0.972007722007722,
   "byDifficulty": {
     "EASY": {
       "eligible": 949,
@@ -41,8 +41,8 @@
     },
     "MEDIUM": {
       "eligible": 1836,
-      "accepted": 36,
-      "remoteAcceptanceCoverage": 0.0196078431372549
+      "accepted": 37,
+      "remoteAcceptanceCoverage": 0.020152505446623094
     }
   },
   "catalogByDifficulty": {
@@ -86,12 +86,12 @@
     "MEDIUM": {
       "eligible": 1836,
       "started": 1836,
-      "submitted": 36,
-      "remoteAccepted": 36,
+      "submitted": 37,
+      "remoteAccepted": 37,
       "failedSubmissionProblems": 0,
       "deferred": 0,
-      "awaitingRemoteAccepted": 1800,
-      "remoteAcceptanceCoverage": 0.0196078431372549
+      "awaitingRemoteAccepted": 1799,
+      "remoteAcceptanceCoverage": 0.020152505446623094
     }
   },
   "failedSubmissions": {
@@ -104,9 +104,9 @@
     "total": 140,
     "countsAgainstModelMetrics": false
   },
-  "awaitingRemoteAccepted": 2622,
+  "awaitingRemoteAccepted": 2621,
   "acceptedCodeDrift": [],
-  "acceptedCodeExactMatchCount": 1006,
+  "acceptedCodeExactMatchCount": 1007,
   "candidateCodeDrift": [],
   "candidateReady": 3628,
   "candidateReadyProfileAssignments": 3628,
@@ -29417,7 +29417,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "a270578b098e923c002f4f567df47d1db67c21b2c4a19bb6fea5583b2748b419",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "spiral-matrix-iii": [
@@ -33116,9 +33116,9 @@
         "byDifficulty": {
           "EASY": 485,
           "HARD": 484,
-          "MEDIUM": 36
+          "MEDIUM": 37
         },
-        "total": 1005
+        "total": 1006
       },
       {
         "kind": "firstAccepted",
@@ -33176,9 +33176,9 @@
         "byDifficulty": {
           "EASY": 463,
           "HARD": 359,
-          "MEDIUM": 1800
+          "MEDIUM": 1799
         },
-        "total": 2622
+        "total": 2621
       }
     ],
     "accountedByDifficulty": {
@@ -33191,7 +33191,7 @@
       "HARD": 843,
       "MEDIUM": 1836
     },
-    "pending": 2622,
+    "pending": 2621,
     "isComplete": false,
     "byProblem": {
       "01-matrix": {
@@ -59061,10 +59061,10 @@
       "spiral-matrix-ii": {
         "frontendId": "59",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "spiral-matrix-iii": {
         "frontendId": "885",
@@ -62229,7 +62229,7 @@
       "terra-medium": 484
     },
     "MEDIUM": {
-      "terra-medium": 36
+      "terra-medium": 37
     }
   },
   "firstSuccessByProblem": {
@@ -68379,6 +68379,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "spiral-matrix-ii": {
+      "frontendId": "59",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "split-a-string-in-balanced-strings": {
       "frontendId": "1221",
       "difficulty": "EASY",
@@ -69278,11 +69285,11 @@
   },
   "acceptedByProfile": {
     "sol-xhigh": 1,
-    "terra-medium": 1005
+    "terra-medium": 1006
   },
   "acceptedByAgent": {
     "Codex Desktop / gpt-5.6-sol": 1,
-    "Codex Desktop / gpt-5.6-terra": 1005
+    "Codex Desktop / gpt-5.6-terra": 1006
   },
   "profiles": {
     "sol-low": {
@@ -69691,23 +69698,23 @@
       "stage": 1,
       "enabled": true,
       "started": 3627,
-      "accepted": 1005,
+      "accepted": 1006,
       "deferred": 14,
       "candidateReady": 3613,
       "reviewRequired": 0,
       "remoteTests": 0,
-      "submissions": 1034,
+      "submissions": 1035,
       "failedSubmissions": 29,
       "failedSubmissionProblems": 23,
       "infrastructureErrors": {
         "remoteTests": 0,
         "submissions": 140
       },
-      "firstSubmissionAccepted": 986,
-      "remoteElapsedReports": 1174,
-      "remoteElapsedSeconds": 4310.534,
-      "averageSolveWallSeconds": 8809.925373134329,
-      "medianSolveWallSeconds": 1240.0,
+      "firstSubmissionAccepted": 987,
+      "remoteElapsedReports": 1175,
+      "remoteElapsedSeconds": 4313.737,
+      "averageSolveWallSeconds": 8941.53180914513,
+      "medianSolveWallSeconds": 1247.0,
       "byDifficulty": {
         "EASY": {
           "started": 948,
@@ -69725,7 +69732,7 @@
         },
         "MEDIUM": {
           "started": 1836,
-          "accepted": 36,
+          "accepted": 37,
           "deferred": 0,
           "failedSubmissionAttempts": 0,
           "failedSubmissionProblems": 0
