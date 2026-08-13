@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T02:26:43Z",
+  "generatedAt": "2026-08-13T02:37:25Z",
   "eligibleProblems": 3628,
   "directoriesPresent": 3628,
-  "validLocalCandidates": 3620,
-  "invalidLocalCandidates": 8,
+  "validLocalCandidates": 3624,
+  "invalidLocalCandidates": 4,
   "languageCounts": {
     "bash": 4,
     "javascript": 36,
@@ -15,7 +15,7 @@
   },
   "syntaxChecked": {
     "javascript": 36,
-    "python3": 3458,
+    "python3": 3462,
     "pythondata": 19
   },
   "syntaxGateAvailability": {
@@ -33,14 +33,10 @@
   "duplicateDirectories": {},
   "malformedDirectories": [],
   "placeholderSlugs": [
-    "1ybDKD",
-    "De4qBB",
     "K8GULz",
     "WInSav",
     "XxZZjK",
-    "cnHoX6",
-    "kskhHQ",
-    "you-le-yuan-de-you-lan-ji-hua"
+    "kskhHQ"
   ],
   "candidateCodeSha256": {
     "01-matrix": "e3bfd317953eb65dbeaae5689cb2795a57695fe712f49e84f0614447ef43c100",
@@ -56,6 +52,7 @@
     "1GxJYY": "69753734196c45c6172063c7427d108b1aa83bafe79365c04eec5b24228b58bf",
     "1fGaJU": "c0605da9ab6b5392a596cf95df4cbce6d5db81d1b3a7a75b3a987a6658d2cdbf",
     "1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof": "240f2abcb3a13a4f4a2fff1a19ab34b6a7471635ff4670ae8d8b64296b58f44d",
+    "1ybDKD": "8d9d34b3901b422ac0db4fc4ffa4bde3f4843fa5c418ceaf3021bb31547e09fd",
     "2-keys-keyboard": "0e7601a0d9c53880dc20bf6f8cc74c5d439ef06695517ff69ca1a232a2668c3a",
     "21dk04": "8614071079887e3538e6190e33f66e9b56dae8e42102236fc2e37191d5723de8",
     "24-game": "c98c674475c1d2a7f7274da4f0a20af0259ac2a09eef2513b8efeeaddd48dd44",
@@ -92,6 +89,7 @@
     "D9PW8w": "c7ea8854d21fb8a3366af672fbb9f7ea7f71aa8d25edbd8f3c288313386befa7",
     "DFPeFJ": "9010de6bf0cbf327237f5f9b188e2f09bdb344fcf982b984a101a3bcb3ca75ce",
     "Db3wC1": "728ce198d20cfb460262d39e0fefa118843d0b6c73d35f7d7a12fdb02e4e1a70",
+    "De4qBB": "b1d7732abe4e2bf497e19e25909c6af4dde23843fbc3c6683071ff541b7234d6",
     "EJvmW4": "1f65a95070b078cce45a26af05708080aeec1eb7b534e650b472e64739efeb96",
     "EXvqDp": "1daaa9d99c77abbfbe3e230af8d3e0ed4c8a00de477f417a27de58ef2386235c",
     "FortPu": "8b63911b6afbbf3d6a2ee3298c5a6d98755fe3c23d0760065061bc517a16160a",
@@ -479,6 +477,7 @@
     "closest-room": "ddbda7d5001a35e4d5a7535ac0abc14454c3f9609d41dcf96cc3b5383b8692f0",
     "closest-subsequence-sum": "4b2ff912f1c07b3d1a0baebd5cf5d142c382b58cfc081a8416f73b882fc58bb2",
     "clumsy-factorial": "2fcf254c324b3e9ed5d37e1ccd3b2e744cda30956743b3d4c8b370b7e9caf096",
+    "cnHoX6": "edc9aabd4becbbd47f38a5225c94792166b350a01ee68d32ee2b316350223d9e",
     "coin-bonus": "d2d01a295be0a7de9112cfde21eb2858a6ce2bf8715fb2a989636c5f7d59aad9",
     "coin-change": "6f157b48e6d0a0fbec3c01585f19a5d5c4962fd0984c1d8da772f54b9248b86b",
     "coin-change-ii": "c13717e97145edb80e6732c900ec0f1cd4fe799897ec61566c9dcb8e6bbbdbda",
@@ -3642,6 +3641,7 @@
     "xx4gT2": "989019e973f487ade4261430f3be9e38cef324b7802a411da185f3c02c2c0880",
     "yong-liang-ge-zhan-shi-xian-dui-lie-lcof": "4e2b1aac8c0557b8e71ebeda49082ba8eadf8572b1f0ceadcff01a6dfdf0e8dc",
     "you-le-yuan-de-mi-gong": "6a47e8ed4e1dbed21b1df63655f36e9b1a8d17d76df93509a5885bb01f0175c9",
+    "you-le-yuan-de-you-lan-ji-hua": "d3e13040c0343b3b7e8fc963767ac196b6667bb261dc1a9597e5fdcb78abeb63",
     "yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof": "e822c0a34b3040bcf72ba70ecc0f963c7d89021b450952c39f33150673a44281",
     "z1R5dt": "d60c0e5bd2d793cfe4bae6e83d931078853b86fdf71bfafc57583b311da68120",
     "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof": "1ef72d9549e5feb998cd8ce21e3be77e8d5bf9808a9668dd5893bded95a5cad6",
@@ -3666,14 +3666,6 @@
   },
   "issues": [
     {
-      "slug": "1ybDKD",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "De4qBB",
-      "kind": "placeholder_marker"
-    },
-    {
       "slug": "K8GULz",
       "kind": "placeholder_marker"
     },
@@ -3686,15 +3678,7 @@
       "kind": "placeholder_marker"
     },
     {
-      "slug": "cnHoX6",
-      "kind": "placeholder_marker"
-    },
-    {
       "slug": "kskhHQ",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "you-le-yuan-de-you-lan-ji-hua",
       "kind": "placeholder_marker"
     }
   ],
