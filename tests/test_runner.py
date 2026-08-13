@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import tempfile
 import threading
 import time
@@ -101,6 +102,10 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(event["profile_id"], "sol-medium")
         self.assertEqual(event["reasoning_effort"], "medium")
         self.assertIn("remote_elapsed_ms", event)
+        self.assertEqual(
+            event["code_sha256"],
+            hashlib.sha256("class Solution:\n    pass\n".encode()).hexdigest(),
+        )
 
     def test_remote_lock_queues_parallel_workers(self) -> None:
         first = RemoteActionLock(
