@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:41:20Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def triangleType(self, nums: List[int]) -> str:
         a, b, c = sorted(nums)

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:41:40Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def minimumBoxes(self, apple: List[int], capacity: List[int]) -> int:
         remaining = sum(apple)

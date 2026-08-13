@@ -7,4 +7,10 @@
 # Experiment: ai-leetcode-lab, round 1
 class Solution:
     def distributeCandies(self, n: int, limit: int) -> int:
-        return sum(a+b+c==n for a in range(min(limit,n)+1) for b in range(min(limit,n-a)+1) for c in range(min(limit,n-a-b)+1))
+        result = 0
+        for first in range(min(limit, n) + 1):
+            for second in range(min(limit, n - first) + 1):
+                third = n - first - second
+                if third <= limit:
+                    result += 1
+        return result

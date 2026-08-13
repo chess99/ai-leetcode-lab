@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:39:07Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def areSimilar(self, mat: List[List[int]], k: int) -> bool:
         width = len(mat[0])

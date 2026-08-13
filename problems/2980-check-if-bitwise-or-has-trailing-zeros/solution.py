@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:39:31Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def hasTrailingZeros(self, nums: List[int]) -> bool:
         return sum(value % 2 == 0 for value in nums) >= 2

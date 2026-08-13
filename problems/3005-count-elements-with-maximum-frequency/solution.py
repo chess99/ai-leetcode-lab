@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:39:31Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def maxFrequencyElements(self, nums: List[int]) -> int:
         from collections import Counter

@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:25:20Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def isAcronym(self, words: List[str], s: str) -> bool:
         return ''.join(word[0] for word in words) == s

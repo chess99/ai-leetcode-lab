@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:39:08Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def numberGame(self, nums: List[int]) -> List[int]:
         nums.sort()

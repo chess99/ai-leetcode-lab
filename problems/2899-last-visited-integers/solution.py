@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:30:51Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def lastVisitedIntegers(self, nums: List[int]) -> List[int]:
         seen = []

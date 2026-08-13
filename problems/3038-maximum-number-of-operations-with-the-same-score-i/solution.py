@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:41:20Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def maxOperations(self, nums: List[int]) -> int:
         score = nums[0] + nums[1]

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:30:50Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def getLongestSubsequence(self, words: List[str], groups: List[int]) -> List[str]:
         result = []

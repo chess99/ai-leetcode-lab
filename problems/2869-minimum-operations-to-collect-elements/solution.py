@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:25:10Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def minOperations(self, nums: List[int], k: int) -> int:
         needed=set(range(1,k+1))
