@@ -6,9 +6,6 @@
 # Created: 2026-08-11T17:48:18Z
 # Experiment: ai-leetcode-lab, round 1
 # Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val, self.next = val, next
 from typing import List, Optional
 class Solution:
     def numComponents(self, head: Optional[ListNode], nums: List[int]) -> int:

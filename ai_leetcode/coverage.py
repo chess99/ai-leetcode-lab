@@ -152,11 +152,25 @@ def _python_template_interface(source: str) -> tuple[str, dict[str, int]]:
     return expected_class.name, methods
 
 
+def _python_template_supplied_classes(source: str) -> set[str]:
+    return set(re.findall(r"(?m)^\s*#\s*class\s+([A-Za-z_]\w*)\b", source))
+
+
 def _python_interface_issue(
     *, template_source: str, candidate_tree: ast.Module, slug: str
 ) -> dict[str, Any] | None:
     expected_class, expected_methods = _python_template_interface(template_source)
     classes = [node for node in candidate_tree.body if isinstance(node, ast.ClassDef)]
+    redefined = sorted(
+        _python_template_supplied_classes(template_source)
+        & {node.name for node in classes}
+    )
+    if redefined:
+        return {
+            "slug": slug,
+            "kind": "python_interface_redefines_judge_class",
+            "classes": redefined,
+        }
     matching = next((node for node in classes if node.name == expected_class), None)
     if matching is None:
         return {

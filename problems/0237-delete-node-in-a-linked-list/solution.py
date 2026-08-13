@@ -6,9 +6,6 @@
 # Created: 2026-08-11T16:44:37Z
 # Experiment: ai-leetcode-lab, round 1
 # Definition for singly-linked list.
-class ListNode:
-    def __init__(self, x):
-        self.val, self.next = x, None
 
 class Solution:
     def deleteNode(self, node):

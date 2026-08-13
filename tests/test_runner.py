@@ -49,6 +49,14 @@ class RunnerTests(unittest.TestCase):
         _validate_submission_source(
             "javascript", "from __future__ import annotations"
         )
+
+    def test_python_judge_class_redefinition_is_blocked(self) -> None:
+        with self.assertRaisesRegex(Exception, "ListNode"):
+            _validate_submission_source(
+                "python3",
+                "class ListNode:\n    pass\nclass Solution:\n    pass\n",
+                template_source="# class ListNode:\n#     pass\nclass Solution:\n    pass\n",
+            )
     def setUp(self) -> None:
         self.temp = tempfile.TemporaryDirectory()
         self.root = Path(self.temp.name)

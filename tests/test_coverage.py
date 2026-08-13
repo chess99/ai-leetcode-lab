@@ -191,6 +191,24 @@ class CoverageTests(unittest.TestCase):
             "python_submission_incompatible_future_annotations",
         )
 
+    def test_python_interface_detects_redefined_judge_class(self) -> None:
+        report = self._audit_single_python(
+            "# class ListNode:\n"
+            "#     pass\n"
+            "class Solution:\n"
+            "    def run(self, node: ListNode):\n"
+            "        ",
+            "class ListNode:\n"
+            "    pass\n"
+            "class Solution:\n"
+            "    def run(self, node):\n"
+            "        return node\n",
+        )
+        self.assertEqual(report["validLocalCandidates"], 0)
+        self.assertEqual(
+            report["issues"][0]["kind"], "python_interface_redefines_judge_class"
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

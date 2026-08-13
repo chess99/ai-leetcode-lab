@@ -7,9 +7,6 @@
 # Experiment: ai-leetcode-lab, round 1
 from typing import Optional
 # Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val, self.left, self.right = val, left, right
 class Solution:
     def subtreeWithAllDeepest(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         def find(node):

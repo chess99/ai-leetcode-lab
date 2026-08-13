@@ -8,9 +8,6 @@
 from typing import Optional
 
 # Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val, self.left, self.right = val, left, right
 class Solution:
     def convertBST(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         total = 0

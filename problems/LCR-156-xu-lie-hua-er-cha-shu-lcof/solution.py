@@ -6,11 +6,6 @@
 # Created: 2026-08-12T18:34:28Z
 # Experiment: ai-leetcode-lab, round 1
 # Definition for a binary tree node.
-class TreeNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
 
 class Codec:
 

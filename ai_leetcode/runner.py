@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import ast
 import hashlib
 import json
 import os
+import re
 import time
 from contextlib import AbstractContextManager
 from pathlib import Path
@@ -187,7 +189,9 @@ def _working_problem(selector: str, root: Path) -> tuple[dict[str, Any], dict[st
     return problem, meta, solution_path, code
 
 
-def _validate_submission_source(language: str, code: str) -> None:
+def _validate_submission_source(
+    language: str, code: str, *, template_source: str | None = None
+) -> None:
     if language != "python3":
         return
     for line_number, line in enumerate(code.splitlines(), start=1):
@@ -197,6 +201,37 @@ def _validate_submission_source(language: str, code: str) -> None:
                 "LeetCode 可能在源码前注入节点类型，导致该导入不再位于文件开头；"
                 f"当前位于第 {line_number} 行"
             )
+    if template_source is None:
+        return
+    try:
+        candidate_tree = ast.parse(code)
+    except SyntaxError:
+        return
+    supplied_classes = set(
+        re.findall(r"(?m)^\s*#\s*class\s+([A-Za-z_]\w*)\b", template_source)
+    )
+    candidate_classes = {
+        node.name for node in candidate_tree.body if isinstance(node, ast.ClassDef)
+    }
+    redefined = sorted(supplied_classes & candidate_classes)
+    if redefined:
+        raise ArchiveError(
+            "Python3 候选不能重定义 LeetCode 判题器提供的类型："
+            + ", ".join(redefined)
+        )
+
+
+def _python_template_for_problem(problem: dict[str, Any], root: Path) -> str | None:
+    archive_path = root / "archive" / "problems" / f"{problem_key(problem)}.json"
+    try:
+        archive = json.loads(archive_path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError, OSError, UnicodeError):
+        return None
+    question = archive.get("question") or {}
+    for snippet in question.get("codeSnippets") or []:
+        if snippet.get("langSlug") == "python3" and isinstance(snippet.get("code"), str):
+            return str(snippet["code"])
+    return None
 
 
 def _safe_judge_result(raw: dict[str, Any]) -> dict[str, Any]:
@@ -225,7 +260,9 @@ def run_remote_test(
     problem, meta, _, code = _working_problem(selector, root)
     code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
     language = str(meta["language"])
-    _validate_submission_source(language, code)
+    _validate_submission_source(
+        language, code, template_source=_python_template_for_problem(problem, root)
+    )
     sample = test_input
     if sample is None:
         from .archive import load_detail
@@ -310,6 +347,9 @@ def submit_solution(
     problem, meta, _, code = _working_problem(selector, root)
     code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
     language = str(meta["language"])
+    _validate_submission_source(
+        language, code, template_source=_python_template_for_problem(problem, root)
+    )
     if events.matching_candidate(str(problem["titleSlug"]), identity.profile_id, code_hash) is None:
         raise ArchiveError(
             f"当前代码没有匹配 Profile {identity.profile_id} 的 candidate-ready 哈希；"

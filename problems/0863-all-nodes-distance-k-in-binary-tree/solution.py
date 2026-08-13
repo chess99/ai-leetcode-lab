@@ -8,9 +8,6 @@
 from collections import deque
 from typing import List
 # Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, x):
-        self.val, self.left, self.right = x, None, None
 
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:

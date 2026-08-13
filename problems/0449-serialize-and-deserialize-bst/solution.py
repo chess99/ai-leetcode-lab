@@ -7,9 +7,6 @@
 # Experiment: ai-leetcode-lab, round 1
 from typing import Optional
 # Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, x):
-        self.val, self.left, self.right = x, None, None
 
 class Codec:
 

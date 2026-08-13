@@ -7,9 +7,6 @@
 # Experiment: ai-leetcode-lab, round 1
 from typing import Optional, Tuple
 
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val, self.left, self.right = val, left, right
 
 class Solution:
     def rob(self, root: Optional["TreeNode"]) -> int:

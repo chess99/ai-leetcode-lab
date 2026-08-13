@@ -6,9 +6,6 @@
 # Created: 2026-08-11T18:06:56Z
 # Experiment: ai-leetcode-lab, round 1
 # Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val, self.left, self.right = val, left, right
 class Solution:
     def smallestFromLeaf(self, root: Optional[TreeNode]) -> str:
         best = "{"
