@@ -1,24 +1,24 @@
 # AI solution attribution
 # Client: Codex Desktop
-# Model: gpt-5.6-terra
+# Model: gpt-5.6-sol
 # Reasoning effort: medium
-# Profile: terra-medium
-# Created: 2026-08-11T16:52:41Z
+# Profile: sol-medium
+# Created: 2026-08-13
 # Experiment: ai-leetcode-lab, round 1
 import random
+from collections import defaultdict
 from typing import List
-class Solution:
 
+
+class Solution:
     def __init__(self, nums: List[int]):
-        self.nums = nums
+        positions = defaultdict(list)
+        for index, value in enumerate(nums):
+            positions[value].append(index)
+        self.positions = positions
 
     def pick(self, target: int) -> int:
-        chosen = count = 0
-        for index, value in enumerate(self.nums):
-            if value == target:
-                count += 1
-                if random.randrange(count) == 0: chosen = index
-        return chosen
+        return random.choice(self.positions[target])
 
 
 # Your Solution object will be instantiated and called as such:
