@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T05:53:05Z",
+  "generatedAt": "2026-08-13T06:05:53Z",
   "eligibleProblems": 3628,
   "directoriesPresent": 3628,
   "validLocalCandidates": 3628,
@@ -18,6 +18,10 @@
     "python3": 3466,
     "pythondata": 19
   },
+  "interfaceChecked": {
+    "python3": 3466
+  },
+  "interfaceGateSkipped": {},
   "syntaxGateAvailability": {
     "javascript": true,
     "bash": false,
@@ -874,7 +878,7 @@
     "design-linked-list": "00be25ec07d9e22af92ef153d221539e5c820aac544767bae19d347e3510d12c",
     "design-memory-allocator": "5780fbc135fb6663bd4c00ed748fa8ec18fbeb94e6825caaf5234d509e5273d0",
     "design-movie-rental-system": "7a3ee3bc5139d934f2f26dc32dc64c6da2aeea4e977dda2caf30e4e712c94d56",
-    "design-neighbor-sum-service": "2e0d8997295922badeb37ea7e53fc59aa54a1ec79c2a598901c75a61c5565830",
+    "design-neighbor-sum-service": "6ab2ed09bd3d110c583aaf5cdc68560ddb1e9100c89f4cc612ec65ef4f1a3b83",
     "design-parking-system": "88fe876eaf26f3df0178bf0ce831a3208f8ac625a31466e8409f2596524929c3",
     "design-ride-sharing-system": "dc09c5a4f4f4f98e138215d286589cfe81e96a57ee2617805c1aca7f7a11c113",
     "design-skiplist": "4d228d18b17133aa486ba51e2bae75da636753fa5ea4da08ca98257826fcbdec",
@@ -3664,5 +3668,5 @@
     "zuo-xuan-zhuan-zi-fu-chuan-lcof": "191fefb16c9e414533f0c5876c2d715b18a95ab1afd84c8f1e91917c0d5f7f9c"
   },
   "issues": [],
-  "policy": "本地候选仅表示目录、必要文件、语言映射、占位标记与可用静态语法门禁通过；可用原语言门禁会执行；缺少本机检查器的语言仅做文件和占位静态门禁。本地候选不等于远程 Accepted。"
+  "policy": "本地候选仅表示目录、必要文件、语言映射、占位标记与可用静态语法门禁通过；Python3 候选还会与归档判题模板核对顶层类、公开方法和位置参数数量；可用原语言门禁会执行；缺少本机检查器的语言仅做文件和占位静态门禁。本地候选不等于远程 Accepted。"
 }

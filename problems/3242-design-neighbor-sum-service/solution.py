@@ -8,7 +8,7 @@
 from typing import List
 
 
-class neighborSum:
+class NeighborSum:
 
     def __init__(self, grid: List[List[int]]):
         self.grid = grid
@@ -34,7 +34,7 @@ class neighborSum:
         )
 
 
-# Your neighborSum object will be instantiated and called as such:
-# obj = neighborSum(grid)
+# Your NeighborSum object will be instantiated and called as such:
+# obj = NeighborSum(grid)
 # param_1 = obj.adjacentSum(value)
 # param_2 = obj.diagonalSum(value)
