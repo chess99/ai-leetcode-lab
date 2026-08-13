@@ -59,8 +59,18 @@ function Write-QueueState {
 function Invoke-AiLc {
     param([Parameter(Mandatory = $true)][string[]] $Arguments)
 
-    $output = @(& python -m ai_leetcode.cli @Arguments 2>&1)
-    $exitCode = $LASTEXITCODE
+    $previousPreference = $ErrorActionPreference
+    try {
+        # Windows PowerShell wraps native stderr lines as ErrorRecord objects. The CLI
+        # exit code and append-only judge event determine control flow, so capture those
+        # lines without letting the outer Stop preference abort the queue.
+        $ErrorActionPreference = "Continue"
+        $output = @(& python -m ai_leetcode.cli @Arguments 2>&1)
+        $exitCode = $LASTEXITCODE
+    }
+    finally {
+        $ErrorActionPreference = $previousPreference
+    }
     foreach ($line in $output) {
         [Console]::WriteLine("$line")
     }
