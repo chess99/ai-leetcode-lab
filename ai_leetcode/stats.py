@@ -370,11 +370,10 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
     failed_submission_slugs = {
         str(event["slug"]) for event in failed_result_events if event.get("slug")
     }
-    pending = {
+    awaiting_remote_accepted = {
         str(item["titleSlug"])
         for item in accessible_problems
         if str(item["titleSlug"]) not in accepted
-        and not any(str(item["titleSlug"]) == slug for slug, _ in deferred_pairs)
     }
 
     accepted_code_drift: list[dict[str, Any]] = []
@@ -410,7 +409,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         }
         level_deferred = {slug for slug, _ in deferred_pairs} & eligible_slugs
         level_accepted = accepted & eligible_slugs
-        level_pending = pending & eligible_slugs
+        level_awaiting = awaiting_remote_accepted & eligible_slugs
         level_submitted = submitted_slugs & eligible_slugs
         level_failed = failed_submission_slugs & eligible_slugs
         eligible_count = len(eligible_slugs)
@@ -421,7 +420,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             "remoteAccepted": len(level_accepted),
             "failedSubmissionProblems": len(level_failed),
             "deferred": len(level_deferred),
-            "pending": len(level_pending),
+            "awaitingRemoteAccepted": len(level_awaiting),
             "remoteAcceptanceCoverage": (
                 len(level_accepted) / eligible_count if eligible_count else 0.0
             ),
@@ -480,7 +479,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             "attempts": len(failed_result_events),
             "uniqueProblems": len(failed_submission_slugs),
         },
-        "pendingAccessible": len(pending),
+        "awaitingRemoteAccepted": len(awaiting_remote_accepted),
         "acceptedCodeDrift": sorted(accepted_code_drift, key=lambda item: item["slug"]),
         "firstSuccessByDifficulty": {
             level: dict(sorted(counts.items()))
@@ -528,7 +527,7 @@ def render_markdown(summary: dict[str, Any]) -> str:
         f"| 归档中锁定/不可用题面 | {summary['archivedLockedOrUnavailable']} |",
         f"| 已开始 | {summary['started']} |",
         f"| Accepted | {summary['accepted']} |",
-        f"| 免费题仍待远程终态 | {summary['pendingAccessible']} |",
+        f"| 免费题仍待远程 Accepted | {summary['awaitingRemoteAccepted']} |",
         f"| 已 defer 的题 | {summary['deferredProblems']} |",
         f"| 等待复盘的 Profile/题组合 | {summary['reviewRequired']} |",
         f"| 远程试跑 | {summary['remoteTests']} |",
@@ -576,9 +575,9 @@ def render_markdown(summary: dict[str, Any]) -> str:
     lines.extend(
         [
             "",
-            "## 免费题流程终态 × 难度",
+            "## 免费题流程进度 × 难度",
             "",
-            "| 难度 | 已开始 | 已提交 | 远程 Accepted | 有失败提交 | defer | pending |",
+            "| 难度 | 已开始 | 已提交 | 远程 Accepted | 有失败提交 | 曾 defer | 待 Accepted |",
             "|---|---:|---:|---:|---:|---:|---:|",
         ]
     )
@@ -586,7 +585,7 @@ def render_markdown(summary: dict[str, Any]) -> str:
         lines.append(
             f"| {level} | {values['started']} | {values['submitted']} | "
             f"{values['remoteAccepted']} | {values['failedSubmissionProblems']} | "
-            f"{values['deferred']} | {values['pending']} |"
+            f"{values['deferred']} | {values['awaitingRemoteAccepted']} |"
         )
     lines.extend(
         [

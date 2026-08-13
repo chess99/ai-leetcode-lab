@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T02:14:15Z",
+  "generatedAt": "2026-08-13T02:23:17Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -63,7 +63,7 @@
       "remoteAccepted": 486,
       "failedSubmissionProblems": 10,
       "deferred": 1,
-      "pending": 462,
+      "awaitingRemoteAccepted": 463,
       "remoteAcceptanceCoverage": 0.512118018967334
     },
     "HARD": {
@@ -73,7 +73,7 @@
       "remoteAccepted": 484,
       "failedSubmissionProblems": 13,
       "deferred": 32,
-      "pending": 327,
+      "awaitingRemoteAccepted": 359,
       "remoteAcceptanceCoverage": 0.5741399762752076
     },
     "MEDIUM": {
@@ -83,7 +83,7 @@
       "remoteAccepted": 1,
       "failedSubmissionProblems": 0,
       "deferred": 0,
-      "pending": 1835,
+      "awaitingRemoteAccepted": 1835,
       "remoteAcceptanceCoverage": 0.0005446623093681918
     }
   },
@@ -91,7 +91,7 @@
     "attempts": 29,
     "uniqueProblems": 23
   },
-  "pendingAccessible": 2624,
+  "awaitingRemoteAccepted": 2657,
   "acceptedCodeDrift": [
     {
       "slug": "memoize-ii",

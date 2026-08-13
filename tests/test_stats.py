@@ -256,8 +256,10 @@ class StatsTests(unittest.TestCase):
             summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
             self.assertEqual(summary["catalogByDifficulty"]["EASY"], {"all": 2, "free": 1, "paid": 1})
             self.assertEqual(summary["byDifficulty"]["EASY"]["eligible"], 1)
-            self.assertEqual(summary["experimentByDifficulty"]["EASY"]["pending"], 1)
-            self.assertEqual(summary["pendingAccessible"], 1)
+            self.assertEqual(
+                summary["experimentByDifficulty"]["EASY"]["awaitingRemoteAccepted"], 1
+            )
+            self.assertEqual(summary["awaitingRemoteAccepted"], 1)
 
 
 if __name__ == "__main__":
