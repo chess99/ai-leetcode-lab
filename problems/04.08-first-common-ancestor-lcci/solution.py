@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:00:52Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -14,13 +17,34 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
-        def search(node):
-            if not node or node is p or node is q:
-                return node
-            left = search(node.left)
-            right = search(node.right)
-            if left and right:
-                return node
-            return left or right
-
-        return search(root)
+        if not root:
+            return None
+        stack = [[root, 0, None]]
+        result = None
+        while stack:
+            node, state, left_result = stack[-1]
+            if state == 0:
+                if node is p or node is q:
+                    result = node
+                    stack.pop()
+                    continue
+                stack[-1][1] = 1
+                if node.left:
+                    stack.append([node.left, 0, None])
+                else:
+                    result = None
+            elif state == 1:
+                stack[-1][1] = 2
+                stack[-1][2] = result
+                if node.right:
+                    stack.append([node.right, 0, None])
+                else:
+                    result = None
+            else:
+                right_result = result
+                if left_result and right_result:
+                    result = node
+                else:
+                    result = left_result or right_result
+                stack.pop()
+        return result
