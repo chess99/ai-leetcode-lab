@@ -277,6 +277,16 @@ try {
 
         Write-QueueState -Status "submitting"
         Write-Output "SUBMIT $currentSlug"
+        $preflightDelay = Get-BackoffSeconds
+        $backoffPath = Join-Path $runtimeDirectory "remote-backoff.json"
+        if (Test-Path -LiteralPath $backoffPath -PathType Leaf) {
+            Write-QueueState -Status "backoff" -Outcome "preflight_backoff"
+            Write-Output "WAIT preflight backoff $preflightDelay seconds"
+            if (-not (Wait-Interruptibly -Seconds $preflightDelay)) {
+                break
+            }
+            Write-QueueState -Status "submitting"
+        }
         $eventOffset = Get-AttemptsOffset
         $submit = Invoke-AiLc -Arguments @(
             "submit", $currentSlug,
