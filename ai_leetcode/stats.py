@@ -410,6 +410,30 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
                 }
             )
 
+    ladder_paths: dict[str, list[dict[str, Any]]] = {}
+    for slug in sorted(
+        {slug for slug, _ in started_pairs}
+        | {slug for slug, _ in deferred_pairs}
+        | set(first_success_profile)
+    ):
+        profile_path = []
+        for profile_id in profile_ids:
+            if (slug, profile_id) not in started_pairs:
+                continue
+            candidate = latest_candidate_by_pair.get((slug, profile_id))
+            profile_path.append(
+                {
+                    "profileId": profile_id,
+                    "candidateReady": candidate is not None,
+                    "candidateCodeSha256": (
+                        candidate.get("code_sha256") if candidate is not None else None
+                    ),
+                    "deferred": (slug, profile_id) in deferred_pairs,
+                    "remoteAccepted": first_success_profile.get(slug) == profile_id,
+                }
+            )
+        ladder_paths[slug] = profile_path
+
     def terminal_by_difficulty(level: str) -> dict[str, Any]:
         eligible_slugs = {
             str(item["titleSlug"])
@@ -492,6 +516,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         "acceptedCodeDrift": sorted(accepted_code_drift, key=lambda item: item["slug"]),
         "candidateReady": len({slug for slug, _ in latest_candidate_by_pair}),
         "candidateReadyProfileAssignments": len(latest_candidate_by_pair),
+        "ladderPaths": ladder_paths,
         "firstSuccessByDifficulty": {
             level: dict(sorted(counts.items()))
             for level, counts in sorted(first_success_by_difficulty.items())

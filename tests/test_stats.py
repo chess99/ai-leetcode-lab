@@ -158,6 +158,9 @@ class StatsTests(unittest.TestCase):
             self.assertEqual(summary["profiles"]["sol-medium"]["usage"]["inputTokens"], 100)
             self.assertEqual(summary["profiles"]["sol-medium"]["candidateReady"], 1)
             self.assertEqual(summary["candidateReady"], 1)
+            self.assertEqual(
+                summary["ladderPaths"]["two-sum"][0]["candidateReady"], True
+            )
             self.assertEqual(summary["usageCoverage"]["coverage"], 1.0)
 
     def test_infrastructure_failures_do_not_lower_submission_acceptance_rate(self) -> None:
