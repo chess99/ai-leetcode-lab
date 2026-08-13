@@ -95,13 +95,15 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
 
     charged_submission_starts = charged_starts(submission_starts)
     charged_test_starts = charged_starts(test_starts)
-    deferred_pairs = {
-        (str(event["slug"]), str(event["profile_id"]))
-        for event in events
-        if event.get("type") == "profile_deferred"
-        and event.get("slug")
-        and event.get("profile_id")
-    }
+    deferred_pairs: set[tuple[str, str]] = set()
+    for event in events:
+        if not event.get("slug") or not event.get("profile_id"):
+            continue
+        pair = (str(event["slug"]), str(event["profile_id"]))
+        if event.get("type") == "profile_deferred":
+            deferred_pairs.add(pair)
+        elif event.get("type") == "profile_resumed":
+            deferred_pairs.discard(pair)
 
     retry_counts: Counter[tuple[str, str]] = Counter(
         (str(event["slug"]), str(event["profile_id"]))

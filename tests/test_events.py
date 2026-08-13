@@ -66,6 +66,16 @@ class EventBudgetTests(unittest.TestCase):
         with self.assertRaises(BudgetError):
             self.reserve_submission()
 
+    def test_resume_reopens_deferred_profile_append_only(self) -> None:
+        self.store.ensure_profile_started(self.problem, "python3", self.identity)
+        self.store.defer_profile("two-sum", "当前档位先跳过", self.identity)
+        event = self.store.resume_profile(
+            "two-sum", "已经得到通过本地 oracle 的可靠候选", self.identity
+        )
+        self.assertEqual(event["type"], "profile_resumed")
+        self.assertFalse(self.store.usage("two-sum", "sol-medium").deferred)
+        self.reserve_submission()
+
     def test_profile_annotation_projects_without_rewriting_history(self) -> None:
         historical = self.store.append("problem_started", slug="two-sum", client="old", model="old")
         original = self.store.path.read_text(encoding="utf-8")
@@ -106,6 +116,7 @@ class EventBudgetTests(unittest.TestCase):
         self.assertEqual(event["profile_id"], "sol-medium")
         self.assertEqual(len(event["code_sha256"]), 64)
         self.assertIn("oracle", event["validation"])
+        self.assertEqual(event["validation_level"], "oracle")
 
 
 if __name__ == "__main__":

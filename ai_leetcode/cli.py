@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -18,8 +20,16 @@ from .archive import (
     sync_details,
 )
 from .client import ApiError, LeetCodeClient
-from .config import ConfigError, ROOT, load_config, load_credentials, load_identity, load_profiles
-from .coverage import write_coverage
+from .config import (
+    ConfigError,
+    ROOT,
+    load_config,
+    load_credentials,
+    load_identity,
+    load_profiles,
+    problem_key,
+)
+from .coverage import audit_coverage, write_coverage
 from .doctor import print_checks, run_doctor
 from .events import BudgetError, EventStore
 from .runner import RemoteActionLock, run_remote_test, submit_solution
@@ -87,23 +97,49 @@ def _cmd_next(args: argparse.Namespace) -> int:
         for event in events
         if event.get("type") == "submission_result" and event.get("outcome") == "accepted"
     }
-    deferred = {
-        event.get("slug")
-        for event in events
-        if event.get("type") == "profile_deferred"
-        and event.get("profile_id") == identity.profile_id
-    }
+    deferred: set[str] = set()
+    candidate_hashes: dict[str, str] = {}
+    for event in events:
+        if event.get("profile_id") != identity.profile_id or not event.get("slug"):
+            continue
+        if event.get("type") == "profile_deferred":
+            deferred.add(str(event["slug"]))
+        elif event.get("type") == "profile_resumed":
+            deferred.discard(str(event["slug"]))
+        if (
+            event.get("type") == "candidate_ready"
+            and event.get("profile_id") == identity.profile_id
+            and event.get("slug")
+        ):
+            candidate_hashes[str(event["slug"])] = str(event.get("code_sha256") or "")
+
+    def candidate_matches(item: dict[str, Any]) -> bool:
+        if not args.candidate_ready_only:
+            return True
+        slug = str(item["titleSlug"])
+        expected = candidate_hashes.get(slug)
+        if not expected:
+            return False
+        directory = ROOT / "problems" / problem_key(item)
+        try:
+            meta = json.loads((directory / "meta.json").read_text(encoding="utf-8"))
+            code = (directory / str(meta["solutionFile"])).read_text(encoding="utf-8")
+        except (FileNotFoundError, KeyError, json.JSONDecodeError):
+            return False
+        return hashlib.sha256(code.encode("utf-8")).hexdigest() == expected
     active = [
         item
         for item in catalog["problems"]
         if item["titleSlug"] in started - accepted - deferred
         and _eligible(item, args.difficulty, args.include_paid)
+        and candidate_matches(item)
     ]
     candidates = active or [
         item
         for item in catalog["problems"]
         if item["titleSlug"] not in (started | accepted | deferred)
         and _eligible(item, args.difficulty, args.include_paid)
+        and candidate_matches(item)
     ]
     if not candidates:
         print("没有符合条件的未完成题目")
@@ -206,6 +242,15 @@ def _cmd_defer(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_resume(args: argparse.Namespace) -> int:
+    identity = _identity(args)
+    assert identity is not None
+    problem = resolve_problem(args.selector)
+    event = EventStore().resume_profile(str(problem["titleSlug"]), args.reason, identity)
+    _print_json(event)
+    return 0
+
+
 def _cmd_annotate_profile(args: argparse.Namespace) -> int:
     identity = _identity(args)
     assert identity is not None
@@ -245,8 +290,6 @@ def _cmd_candidate_ready(args: argparse.Namespace) -> int:
     identity = _identity(args)
     assert identity is not None
     problem = resolve_problem(args.selector)
-    from .config import problem_key
-
     directory = ROOT / "problems" / problem_key(problem)
     try:
         meta = json.loads((directory / "meta.json").read_text(encoding="utf-8"))
@@ -261,9 +304,98 @@ def _cmd_candidate_ready(args: argparse.Namespace) -> int:
         language=str(meta["language"]),
         code=code,
         validation=args.validation,
+        validation_level=args.level,
     )
     _print_json(event)
     return 0
+
+
+def _candidate_profile(source: str) -> str | None:
+    match = re.search(r"(?m)^(?:#|//|--)\s*Profile:\s*([\w-]+)\s*$", source[:1000])
+    if match:
+        return match.group(1)
+    match = re.search(
+        r"(?m)^(?:#|//|--)\s*Completed by:.*?/\s*([\w-]+)\s*$",
+        source[:1000],
+    )
+    return match.group(1) if match else None
+
+
+def _cmd_backfill_candidates(args: argparse.Namespace) -> int:
+    coverage = audit_coverage()
+    candidate_hashes = coverage["candidateCodeSha256"]
+    catalog = load_catalog()
+    by_slug = {str(item["titleSlug"]): item for item in catalog["problems"]}
+    configured = {profile.id for profile in load_profiles().profiles}
+    store = EventStore()
+    events = store.effective_events()
+    started_pairs = {
+        (str(event["slug"]), str(event["profile_id"]))
+        for event in events
+        if event.get("type") in {"problem_started", "profile_started"}
+        and event.get("slug")
+        and event.get("profile_id")
+    }
+    current_candidates: dict[tuple[str, str], str] = {}
+    for event in events:
+        if (
+            event.get("type") == "candidate_ready"
+            and event.get("slug")
+            and event.get("profile_id")
+        ):
+            current_candidates[(str(event["slug"]), str(event["profile_id"]))] = str(
+                event.get("code_sha256") or ""
+            )
+
+    appended = 0
+    skipped = 0
+    failures: list[str] = []
+    for slug, code_hash in sorted(candidate_hashes.items()):
+        problem = by_slug.get(slug)
+        if problem is None:
+            failures.append(f"{slug}: catalog entry missing")
+            continue
+        directory = ROOT / "problems" / problem_key(problem)
+        try:
+            meta = json.loads((directory / "meta.json").read_text(encoding="utf-8"))
+            source = (directory / str(meta["solutionFile"])).read_text(encoding="utf-8")
+        except (FileNotFoundError, KeyError, json.JSONDecodeError) as exc:
+            failures.append(f"{slug}: {exc}")
+            continue
+        profile_id = _candidate_profile(source)
+        pair = (slug, str(profile_id))
+        if profile_id not in configured:
+            failures.append(f"{slug}: unrecognized Profile in solution header: {profile_id}")
+            continue
+        if pair not in started_pairs:
+            failures.append(f"{slug}: Profile {profile_id} was never started")
+            continue
+        if current_candidates.get(pair) == code_hash:
+            skipped += 1
+            continue
+        store.append(
+            "candidate_ready",
+            slug=slug,
+            question_id=str(problem.get("questionId") or problem.get("id", "")),
+            frontend_id=str(problem.get("questionFrontendId", "")),
+            language=str(meta["language"]),
+            code_sha256=code_hash,
+            validation=args.validation,
+            validation_level="static_gate",
+            source="backfill-candidates",
+            profile_id=profile_id,
+            model=next(profile.model for profile in load_profiles().profiles if profile.id == profile_id),
+            reasoning_effort=next(
+                profile.reasoning_effort
+                for profile in load_profiles().profiles
+                if profile.id == profile_id
+            ),
+            client="Codex Desktop",
+        )
+        appended += 1
+    result = {"appended": appended, "skipped": skipped, "failures": failures}
+    _print_json(result)
+    return 1 if failures else 0
 
 
 def _cmd_profiles(args: argparse.Namespace) -> int:
@@ -357,6 +489,11 @@ def build_parser() -> argparse.ArgumentParser:
     next_parser = subparsers.add_parser("next", help="选择下一道未完成题目")
     next_parser.add_argument("--difficulty", choices=["easy", "medium", "hard"])
     next_parser.add_argument("--include-paid", action="store_true")
+    next_parser.add_argument(
+        "--candidate-ready-only",
+        action="store_true",
+        help="仅返回当前 Profile 的 candidate-ready 哈希与工作区代码一致的题",
+    )
     add_profile(next_parser)
     next_parser.set_defaults(func=_cmd_next)
 
@@ -395,6 +532,12 @@ def build_parser() -> argparse.ArgumentParser:
     add_profile(defer)
     defer.set_defaults(func=_cmd_defer)
 
+    resume = subparsers.add_parser("resume", help="追加事件恢复当前 Profile 的 defer 题")
+    resume.add_argument("selector")
+    resume.add_argument("--reason", required=True, help="恢复依据，例如已得到可靠本地候选")
+    add_profile(resume, required=True)
+    resume.set_defaults(func=_cmd_resume)
+
     annotate = subparsers.add_parser("annotate-profile", help="以追加事件无损校正历史 Profile")
     annotate.add_argument("selector")
     annotate.add_argument("--event-id", action="append", help="可重复指定待校正事件 ID")
@@ -418,8 +561,23 @@ def build_parser() -> argparse.ArgumentParser:
     )
     candidate_ready.add_argument("selector")
     candidate_ready.add_argument("--validation", required=True, help="可核验的本地验证摘要")
+    candidate_ready.add_argument(
+        "--level",
+        choices=["samples", "oracle", "manual"],
+        default="oracle",
+        help="本地验证层级；默认 oracle",
+    )
     add_profile(candidate_ready, required=True)
     candidate_ready.set_defaults(func=_cmd_candidate_ready)
+
+    backfill_candidates = subparsers.add_parser(
+        "backfill-candidates", help="按解答署名为全部静态门禁候选补充哈希事件"
+    )
+    backfill_candidates.add_argument(
+        "--validation",
+        default="全量覆盖审计：必要文件、语言映射、无占位标记及可用原语言语法门禁通过",
+    )
+    backfill_candidates.set_defaults(func=_cmd_backfill_candidates)
 
     profiles = subparsers.add_parser("profiles", help="列出模型与推理档位实验 Profile")
     profiles.set_defaults(func=_cmd_profiles)

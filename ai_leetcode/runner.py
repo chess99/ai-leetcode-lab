@@ -297,6 +297,11 @@ def submit_solution(
     problem, meta, _, code = _working_problem(selector, root)
     code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
     language = str(meta["language"])
+    if events.matching_candidate(str(problem["titleSlug"]), identity.profile_id, code_hash) is None:
+        raise ArchiveError(
+            f"当前代码没有匹配 Profile {identity.profile_id} 的 candidate-ready 哈希；"
+            "请先完成本地验证并记录候选"
+        )
     with RemoteActionLock(root) as remote_lock:
         working_problem = {**problem, "questionId": meta["questionId"]}
         events.ensure_profile_started(working_problem, language, identity)

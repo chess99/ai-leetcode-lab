@@ -85,6 +85,18 @@ class RunnerTests(unittest.TestCase):
     def test_submit_records_judge_accepted(self) -> None:
         client = AcceptedClient()
         store = EventStore(self.root)
+        store.ensure_profile_started(
+            {"titleSlug": "two-sum", "id": 1, "questionFrontendId": "1"},
+            "python3",
+            Identity("test-client", "test-model", "medium", "sol-medium"),
+        )
+        store.record_candidate_ready(
+            problem={"titleSlug": "two-sum", "id": 1, "questionFrontendId": "1"},
+            identity=Identity("test-client", "test-model", "medium", "sol-medium"),
+            language="python3",
+            code="class Solution:\n    pass\n",
+            validation="unit test",
+        )
         event = submit_solution(
             "two-sum",
             client,  # type: ignore[arg-type]
@@ -106,6 +118,17 @@ class RunnerTests(unittest.TestCase):
             event["code_sha256"],
             hashlib.sha256("class Solution:\n    pass\n".encode()).hexdigest(),
         )
+
+    def test_submit_rejects_code_without_matching_candidate_hash(self) -> None:
+        with self.assertRaisesRegex(Exception, "candidate-ready"):
+            submit_solution(
+                "two-sum",
+                AcceptedClient(),  # type: ignore[arg-type]
+                self.config,
+                Identity("test-client", "test-model", "medium", "sol-medium"),
+                EventStore(self.root),
+                root=self.root,
+            )
 
     def test_remote_lock_queues_parallel_workers(self) -> None:
         first = RemoteActionLock(

@@ -259,7 +259,9 @@ try {
             break
         }
 
-        $next = Invoke-AiLc -Arguments @("next", "--profile", $Profile)
+        $next = Invoke-AiLc -Arguments @(
+            "next", "--profile", $Profile, "--candidate-ready-only"
+        )
         if ($next.ExitCode -ne 0) {
             if ($next.Text -match "没有符合条件的未完成题目") {
                 Write-Output "QUEUE_EMPTY"
@@ -306,14 +308,14 @@ try {
                 continue
             }
             elseif ($result.outcome -in @("failed", "rejected")) {
-                Defer-CurrentProblem -Reason "terra-medium first submission was not Accepted; escalate to the next profile"
+                Defer-CurrentProblem -Reason "$Profile first submission was not Accepted; escalate to the next profile"
             }
             else {
                 throw "Unknown submission outcome for ${currentSlug}: $($result.outcome)"
             }
         }
         elseif ($submit.Text -match "submission budget|budget.*exhausted|max.*round") {
-            Defer-CurrentProblem -Reason "terra-medium submission budget is exhausted; escalate to the next profile"
+            Defer-CurrentProblem -Reason "$Profile submission budget is exhausted; escalate to the next profile"
         }
         elseif ($submit.Text -match "Accepted|defer") {
             # Another authorized local action may have completed the item; reselect.
@@ -323,6 +325,10 @@ try {
         elseif ($submit.Text -match "HTTP (401|403)") {
             Write-QueueState -Status "authentication_failed" -Outcome "authentication_error_without_event"
             throw "Authentication failed while submitting ${currentSlug}: $($submit.Text)"
+        }
+        elseif ($submit.Text -match "candidate-ready") {
+            Write-QueueState -Status "candidate_required" -Outcome "candidate_hash_mismatch"
+            throw "Candidate provenance gate blocked ${currentSlug}: $($submit.Text)"
         }
         elseif ($submit.Text -match "HTTP 429|HTTP 5\d\d|timed out|timeout") {
             $infrastructureFailures++

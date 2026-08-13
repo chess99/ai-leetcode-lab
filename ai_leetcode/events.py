@@ -120,7 +120,12 @@ class EventStore:
             event.get("type") == "submission_result" and event.get("outcome") == "accepted"
             for event in events
         )
-        deferred = any(event.get("type") == "profile_deferred" for event in profile_events)
+        deferred = False
+        for event in profile_events:
+            if event.get("type") == "profile_deferred":
+                deferred = True
+            elif event.get("type") == "profile_resumed":
+                deferred = False
         return Usage(
             round_number=round_number,
             remote_tests=charged_starts("remote_test_started"),
@@ -256,6 +261,24 @@ class EventStore:
             profile_id=identity.profile_id,
         )
 
+    def resume_profile(self, slug: str, reason: str, identity: Identity) -> dict[str, Any]:
+        usage = self.usage(slug, identity.profile_id)
+        if usage.accepted:
+            raise BudgetError("该题已经 Accepted，无需恢复 Profile")
+        if not usage.deferred:
+            raise BudgetError(f"该题在 Profile {identity.profile_id} 当前不是 defer 状态")
+        if not reason.strip():
+            raise BudgetError("恢复 Profile 必须说明依据")
+        return self.append(
+            "profile_resumed",
+            slug=slug,
+            reason=reason.strip(),
+            client=identity.client,
+            model=identity.model,
+            reasoning_effort=identity.reasoning_effort,
+            profile_id=identity.profile_id,
+        )
+
     def annotate_profile(
         self,
         slug: str,
@@ -337,6 +360,7 @@ class EventStore:
         language: str,
         code: str,
         validation: str,
+        validation_level: str = "oracle",
     ) -> dict[str, Any]:
         slug = str(problem["titleSlug"])
         if not any(
@@ -355,8 +379,23 @@ class EventStore:
             language=language,
             code_sha256=hashlib.sha256(code.encode("utf-8")).hexdigest(),
             validation=validation.strip(),
+            validation_level=validation_level,
             client=identity.client,
             model=identity.model,
             reasoning_effort=identity.reasoning_effort,
             profile_id=identity.profile_id,
         )
+
+    def matching_candidate(
+        self, slug: str, profile_id: str, code_sha256: str
+    ) -> dict[str, Any] | None:
+        latest = None
+        for event in self.for_problem(slug):
+            if (
+                event.get("type") == "candidate_ready"
+                and event.get("profile_id") == profile_id
+            ):
+                latest = event
+        if latest is None or latest.get("code_sha256") != code_sha256:
+            return None
+        return latest
