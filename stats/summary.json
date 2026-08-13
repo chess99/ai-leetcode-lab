@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T04:29:18Z",
+  "generatedAt": "2026-08-13T04:50:45Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -19,7 +19,7 @@
   "started": 3628,
   "accepted": 971,
   "deferredProblems": 14,
-  "deferredProfileAssignments": 32,
+  "deferredProfileAssignments": 31,
   "reviewRequired": 0,
   "remainingAccessible": 2657,
   "remoteTests": 1,
@@ -136,8 +136,8 @@
     }
   ],
   "candidateCodeDrift": [],
-  "candidateReady": 3626,
-  "candidateReadyProfileAssignments": 3626,
+  "candidateReady": 3627,
+  "candidateReadyProfileAssignments": 3627,
   "ladderPaths": {
     "01-matrix": [
       {
@@ -1303,9 +1303,9 @@
       },
       {
         "profileId": "sol-ultra",
-        "candidateReady": false,
-        "candidateCodeSha256": null,
-        "deferred": true,
+        "candidateReady": true,
+        "candidateCodeSha256": "6eb1a835d07f5b9aac8fa477258309d835a1214f9459ee41e700b759df043945",
+        "deferred": false,
         "remoteAccepted": false
       },
       {
@@ -33103,6 +33103,13 @@
         "needsNewCandidate": false
       },
       {
+        "slug": "XxZZjK",
+        "fromProfile": "sol-xhigh",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
         "slug": "kskhHQ",
         "fromProfile": "sol-xhigh",
         "targetStarted": true,
@@ -33117,10 +33124,6 @@
     {
       "profileId": "sol-ultra",
       "slug": "K8GULz"
-    },
-    {
-      "profileId": "sol-ultra",
-      "slug": "XxZZjK"
     }
   ],
   "firstSuccessByDifficulty": {
@@ -40236,8 +40239,8 @@
       "enabled": true,
       "started": 4,
       "accepted": 0,
-      "deferred": 2,
-      "candidateReady": 2,
+      "deferred": 1,
+      "candidateReady": 3,
       "reviewRequired": 0,
       "remoteTests": 0,
       "submissions": 0,
@@ -40263,7 +40266,7 @@
         "HARD": {
           "started": 4,
           "accepted": 0,
-          "deferred": 2,
+          "deferred": 1,
           "failedSubmissionAttempts": 0,
           "failedSubmissionProblems": 0
         },
@@ -40426,8 +40429,7 @@
     ],
     "sol-max": [],
     "sol-ultra": [
-      "K8GULz",
-      "XxZZjK"
+      "K8GULz"
     ],
     "terra-low": [],
     "terra-medium": [

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T04:08:06Z",
+  "generatedAt": "2026-08-13T04:49:30Z",
   "eligibleProblems": 3628,
   "directoriesPresent": 3628,
-  "validLocalCandidates": 3626,
-  "invalidLocalCandidates": 2,
+  "validLocalCandidates": 3627,
+  "invalidLocalCandidates": 1,
   "languageCounts": {
     "bash": 4,
     "javascript": 36,
@@ -15,7 +15,7 @@
   },
   "syntaxChecked": {
     "javascript": 36,
-    "python3": 3464,
+    "python3": 3465,
     "pythondata": 19
   },
   "syntaxGateAvailability": {
@@ -33,8 +33,7 @@
   "duplicateDirectories": {},
   "malformedDirectories": [],
   "placeholderSlugs": [
-    "K8GULz",
-    "XxZZjK"
+    "K8GULz"
   ],
   "candidateCodeSha256": {
     "01-matrix": "e3bfd317953eb65dbeaae5689cb2795a57695fe712f49e84f0614447ef43c100",
@@ -151,6 +150,7 @@
     "WqXACV": "40427344e401444c26c9a93ac767be8588bfb8c1012c62f65f4b9e5155c707aa",
     "XagZNi": "2b05d3ca757d0b50a3e0be316fe03ad5cb9c6fe7aa223f41de32688ab07e7322",
     "XltzEq": "95f53f2914055eeef0049cca6c4a88e11cbee27785274390d2bb1de8abd5f0a8",
+    "XxZZjK": "6eb1a835d07f5b9aac8fa477258309d835a1214f9459ee41e700b759df043945",
     "Y1VbOX": "ab42e1acf183575ffecf9aa9961c6c5d399df44e3c9efc9ac5308cda630a07c3",
     "YaVDxD": "9c0d82cbde64b1af1d33c6e54c225f35403bdf432107b4d12c692a2db65d784e",
     "YesdPw": "e375d2bff7f344eeb04ab437abf95f4ef65f38920e8704267fadb296e7799015",
@@ -3667,10 +3667,6 @@
   "issues": [
     {
       "slug": "K8GULz",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "XxZZjK",
       "kind": "placeholder_marker"
     }
   ],
