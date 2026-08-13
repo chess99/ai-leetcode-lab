@@ -84,6 +84,9 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         if event.get("type") in {"remote_test_result", "submission_result"}
     ]
     results_by_action = {event.get("action_id"): event for event in result_events}
+    infrastructure_result_events = [
+        event for event in result_events if event.get("outcome") == "infrastructure_error"
+    ]
 
     def charged_starts(starts: list[dict[str, Any]]) -> list[dict[str, Any]]:
         charged: list[dict[str, Any]] = []
@@ -219,6 +222,11 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             for event in result_events
             if _event_profile(event, action_starts_by_action) == profile_id
         ]
+        profile_infrastructure_results = [
+            event
+            for event in profile_results
+            if event.get("outcome") == "infrastructure_error"
+        ]
         profile_failed_results = [
             event
             for event in profile_results
@@ -316,6 +324,18 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             "submissions": len(profile_submissions),
             "failedSubmissions": len(profile_failed_results),
             "failedSubmissionProblems": len(profile_failed_slugs),
+            "infrastructureErrors": {
+                "remoteTests": sum(
+                    1
+                    for event in profile_infrastructure_results
+                    if event.get("type") == "remote_test_result"
+                ),
+                "submissions": sum(
+                    1
+                    for event in profile_infrastructure_results
+                    if event.get("type") == "submission_result"
+                ),
+            },
             "firstSubmissionAccepted": sum(
                 1
                 for slug in profile_accepted_slugs
@@ -580,6 +600,20 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             "attempts": len(failed_result_events),
             "uniqueProblems": len(failed_submission_slugs),
         },
+        "infrastructureErrors": {
+            "remoteTests": sum(
+                1
+                for event in infrastructure_result_events
+                if event.get("type") == "remote_test_result"
+            ),
+            "submissions": sum(
+                1
+                for event in infrastructure_result_events
+                if event.get("type") == "submission_result"
+            ),
+            "total": len(infrastructure_result_events),
+            "countsAgainstModelMetrics": False,
+        },
         "awaitingRemoteAccepted": len(awaiting_remote_accepted),
         "acceptedCodeDrift": sorted(accepted_code_drift, key=lambda item: item["slug"]),
         "candidateCodeDrift": sorted(
@@ -702,6 +736,9 @@ def render_markdown(summary: dict[str, Any]) -> str:
             "",
             f"失败正式提交：{summary['failedSubmissions']['attempts']} 次，"
             f"涉及 {summary['failedSubmissions']['uniqueProblems']} 题。",
+            f"基础设施错误：远程试跑 {summary['infrastructureErrors']['remoteTests']} 次，"
+            f"正式提交 {summary['infrastructureErrors']['submissions']} 次；"
+            "均不计入模型提交数、失败数或通过率。",
             f"当前本地代码与 Accepted 代码哈希漂移：{len(summary['acceptedCodeDrift'])} 题。",
             f"当前本地代码与 candidate-ready 哈希漂移：{len(summary['candidateCodeDrift'])} 个 Profile/题组合。",
         ]

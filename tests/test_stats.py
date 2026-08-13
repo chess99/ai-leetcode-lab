@@ -232,6 +232,19 @@ class StatsTests(unittest.TestCase):
             self.assertEqual(summary["profiles"]["sol-medium"]["remoteTests"], 0)
             self.assertEqual(summary["profiles"]["sol-medium"]["submissions"], 1)
             self.assertEqual(summary["profiles"]["sol-medium"]["failedSubmissions"], 0)
+            self.assertEqual(
+                summary["infrastructureErrors"],
+                {
+                    "remoteTests": 1,
+                    "submissions": 1,
+                    "total": 2,
+                    "countsAgainstModelMetrics": False,
+                },
+            )
+            self.assertEqual(
+                summary["profiles"]["sol-medium"]["infrastructureErrors"],
+                {"remoteTests": 1, "submissions": 1},
+            )
 
     def test_free_difficulty_denominator_excludes_paid_and_reports_pending(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
