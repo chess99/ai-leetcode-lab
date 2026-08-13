@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T02:19:42Z",
+  "generatedAt": "2026-08-13T02:26:43Z",
   "eligibleProblems": 3628,
   "directoriesPresent": 3628,
-  "validLocalCandidates": 3614,
-  "invalidLocalCandidates": 14,
+  "validLocalCandidates": 3620,
+  "invalidLocalCandidates": 8,
   "languageCounts": {
     "bash": 4,
     "javascript": 36,
@@ -15,7 +15,7 @@
   },
   "syntaxChecked": {
     "javascript": 36,
-    "python3": 3452,
+    "python3": 3458,
     "pythondata": 19
   },
   "syntaxGateAvailability": {
@@ -34,18 +34,12 @@
   "malformedDirectories": [],
   "placeholderSlugs": [
     "1ybDKD",
-    "3aqs1c",
-    "Db3wC1",
     "De4qBB",
     "K8GULz",
-    "NfY1m5",
     "WInSav",
     "XxZZjK",
     "cnHoX6",
     "kskhHQ",
-    "maximum-total-subarray-value-ii",
-    "minimum-steps-to-convert-string-with-operations",
-    "rdmXM7",
     "you-le-yuan-de-you-lan-ji-hua"
   ],
   "candidateCodeSha256": {
@@ -70,6 +64,7 @@
     "2bCMpM": "e33d83c9f0ec6f5adb2fb9d1815a413abb18276859c73aaa044419f58ce0e970",
     "2vYnGI": "38960a4569c983693b70db867bcb7a4325c9d33a39359fead4cebd7e7b6da8b6",
     "3Etpl5": "969622fc67f83483ffcd7448fdfc7c8fe73ac8f2f2095e6f6dff0c0086af0b63",
+    "3aqs1c": "a0ce5baca4fa6963808ac5828dfb7089593988e88d8461480d57400ff33459c9",
     "3sum": "d8131debf5f85221223eb4a3727ed38a188afcef555737d9fa5f0a23e22cba5a",
     "3sum-closest": "543ad5e6149b46aa1f0bb89dddbde7c07a48421ce19f62c732742e7c196c8518",
     "3sum-with-multiplicity": "8c211b8e8550efd4b9c0705770c91fdfc6b03c92f4b379d0a58e73f6dbc3a692",
@@ -96,6 +91,7 @@
     "D0F0SV": "ca40b91b78582ec50d2f384a92090070efc97ff58b9a02f9e82b280c7b0441e6",
     "D9PW8w": "c7ea8854d21fb8a3366af672fbb9f7ea7f71aa8d25edbd8f3c288313386befa7",
     "DFPeFJ": "9010de6bf0cbf327237f5f9b188e2f09bdb344fcf982b984a101a3bcb3ca75ce",
+    "Db3wC1": "728ce198d20cfb460262d39e0fefa118843d0b6c73d35f7d7a12fdb02e4e1a70",
     "EJvmW4": "1f65a95070b078cce45a26af05708080aeec1eb7b534e650b472e64739efeb96",
     "EXvqDp": "1daaa9d99c77abbfbe3e230af8d3e0ed4c8a00de477f417a27de58ef2386235c",
     "FortPu": "8b63911b6afbbf3d6a2ee3298c5a6d98755fe3c23d0760065061bc517a16160a",
@@ -121,6 +117,7 @@
     "NUPfPr": "ad41a85ee9b28ab70a41bdfa2a6e53ce06246bfd5c2b740ceb9acb7d81e13bb5",
     "NYBBNL": "bd6ce3bf1320f71286c3f9acdde6cc96d8c7b77b2f679728898dcc1921e8112f",
     "NaqhDT": "f20971481a836ab3208d40f0cd4fd4fd3d712cb7a63ca71e6d022f6f0f2a9954",
+    "NfY1m5": "7d66e7f2d7757c7b8d2a7fe9c240b50776d64a29158480617dfa153207fec78d",
     "Nsibyl": "a2bb5cb6233a87f2c73af7afc7f5e5da8b83afae51d80abd007c999fca0c253e",
     "O4NDxx": "ba60c0c113fc7c8272da3cb38628be57ad68d7ecdab49663092b7c25f97c8d2a",
     "OrIXps": "f8e82f51f92e5be7a92b45fa184cdc28c0cfa1887ac2d66487180e919d941a11",
@@ -2087,6 +2084,7 @@
     "maximum-total-reward-using-operations-i": "6a19abbdd4c5f9f931d586cb53531f2b14e609013a5ff17c4eedf712b4963fcf",
     "maximum-total-reward-using-operations-ii": "4c361ee8c2a0e6b7cc5f303e3bb8d5ebf96d5160361a5c5e0e2b61e8eab45271",
     "maximum-total-subarray-value-i": "b5708ee70162905c6e401b40508dfd2d0ddc4174bdfbc66105fda11569ec11c4",
+    "maximum-total-subarray-value-ii": "1710e7a400b27fb9ae1ec0a1d1a7c279783c1326f55450f63bb778de9d9d1822",
     "maximum-total-sum-of-k-selected-elements": "90c2a1103d8c2d95be5da8b450c18c059f0a6816cbe0576126c55a6a895916a0",
     "maximum-total-value": "721d8ff768d6746a786d947948d4ef464f9c29e5b67b435f9e24feef20a6a6b8",
     "maximum-total-value-of-covered-indices": "a2b1d5c980b8bfb003d4cf07b4ada120b3e686ab412bf6da5b2208a164feeafc",
@@ -2461,6 +2459,7 @@
     "minimum-space-wasted-from-packaging": "1d732b31b93a89c3162ab67a9d2d4ba5cb7c0008bf0af094c9ab71e41d7a4fb0",
     "minimum-speed-to-arrive-on-time": "7b4547c0c1f2f83e76dde8a84979f421f466188090e7106e4e92b8454c0aa6cd",
     "minimum-stability-factor-of-array": "196a543b41d01564778bcb096d6cc26d1f305f42232be210d06917899b42f8e8",
+    "minimum-steps-to-convert-string-with-operations": "b039003c983488d89a210d78059786b5143c0768d4d2b9ffea58719bb0dd8bf6",
     "minimum-string-length-after-balanced-removals": "cfac0a1656b403cb2461a8edc9a2f6457f601919b8161b449580770b3ae6c0cd",
     "minimum-string-length-after-removing-substrings": "4fe0e3b7d0d55a6c9f63defaecf0a24fb0101b443cf34e40981d49a2daf46f12",
     "minimum-subarray-length-with-distinct-sum-at-least-k": "3287bf52014614ffbb30c3741c75f8cd5ee69195de8a84ad696394728ae02cc6",
@@ -2918,6 +2917,7 @@
     "rank-transform-of-a-matrix": "cd1934a817e442de0fe53ad3d4e80728feed6b949fd85a51399b27d18d8a0934",
     "rank-transform-of-an-array": "c52719f9e65e0e6c8b24334e6eb19f260613e658268cc92944f814f28e6cb2b9",
     "ransom-note": "8ac31a3c2972c1c4117192a34d3c27ff94412d54b052afa8cdc1bd4ae532de4b",
+    "rdmXM7": "a5045547b8540003b055d58bf498e784e8d1c3868675538f59ab293279b67a26",
     "re-space-lcci": "bc5ce8791b051c537439c518f5bca0acefa34a7415628b3ab39bed0023030dcc",
     "reach-a-number": "9cd9f9b028ce3a9c84cde8e1f137b6dd0ad6a4dcb7a267583430ebaf4142184d",
     "reach-end-of-array-with-max-score": "c3a9192fc74ef913ce017120af64d9a7e272cf232210ab308a9e5151b1812f5e",
@@ -3670,23 +3670,11 @@
       "kind": "placeholder_marker"
     },
     {
-      "slug": "3aqs1c",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "Db3wC1",
-      "kind": "placeholder_marker"
-    },
-    {
       "slug": "De4qBB",
       "kind": "placeholder_marker"
     },
     {
       "slug": "K8GULz",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "NfY1m5",
       "kind": "placeholder_marker"
     },
     {
@@ -3703,18 +3691,6 @@
     },
     {
       "slug": "kskhHQ",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "maximum-total-subarray-value-ii",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "minimum-steps-to-convert-string-with-operations",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "rdmXM7",
       "kind": "placeholder_marker"
     },
     {
