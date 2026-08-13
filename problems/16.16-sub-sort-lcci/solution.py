@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:01:02Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def subSort(self, array: List[int]) -> List[int]:
         right = -1

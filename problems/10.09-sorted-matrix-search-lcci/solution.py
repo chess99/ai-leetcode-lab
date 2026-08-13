@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:00:58Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix:return False

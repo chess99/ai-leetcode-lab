@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:00:57Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         from collections import defaultdict

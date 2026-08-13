@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:01:00Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def tictactoe(self, board: List[str]) -> str:
         size = len(board)

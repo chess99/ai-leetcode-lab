@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:01:01Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def bestLine(self, points: List[List[int]]) -> List[int]:
         from math import gcd

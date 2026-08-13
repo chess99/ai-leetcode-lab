@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:00:57Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def search(self, arr: List[int], target: int) -> int:
         for index, value in enumerate(arr):

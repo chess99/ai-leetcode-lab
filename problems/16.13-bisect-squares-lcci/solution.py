@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:01:01Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def cutSquares(self, square1: List[int], square2: List[int]) -> List[float]:
         x1, y1, side1 = square1
@@ -25,5 +28,8 @@ class Solution:
         high = max(y1 + side1, y2 + side2)
         inverse_slope = 1 / slope
         intercept = center1[0] - inverse_slope * center1[1]
-        return [inverse_slope * low + intercept, low,
-                inverse_slope * high + intercept, high]
+        first = [inverse_slope * low + intercept, low]
+        second = [inverse_slope * high + intercept, high]
+        if first[0] > second[0]:
+            first, second = second, first
+        return first + second

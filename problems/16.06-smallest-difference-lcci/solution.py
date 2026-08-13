@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:01:00Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def smallestDifference(self, a: List[int], b: List[int]) -> int:
         a.sort()

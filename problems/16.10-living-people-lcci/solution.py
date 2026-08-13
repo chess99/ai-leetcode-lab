@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:01:01Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def maxAliveYear(self, birth: List[int], death: List[int]) -> int:
         changes = [0] * 102

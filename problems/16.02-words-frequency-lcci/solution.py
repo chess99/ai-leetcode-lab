@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:00:59Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class WordsFrequency:
 
     def __init__(self, book: List[str]):

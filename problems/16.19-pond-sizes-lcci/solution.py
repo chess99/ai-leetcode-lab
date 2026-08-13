@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-12T05:01:03Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def pondSizes(self, land: List[List[int]]) -> List[int]:
         sizes = []
