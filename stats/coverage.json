@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T03:33:11Z",
+  "generatedAt": "2026-08-13T03:36:06Z",
   "eligibleProblems": 3628,
   "directoriesPresent": 3628,
-  "validLocalCandidates": 3626,
-  "invalidLocalCandidates": 2,
+  "validLocalCandidates": 3625,
+  "invalidLocalCandidates": 3,
   "languageCounts": {
     "bash": 4,
     "javascript": 36,
@@ -15,7 +15,7 @@
   },
   "syntaxChecked": {
     "javascript": 36,
-    "python3": 3464,
+    "python3": 3463,
     "pythondata": 19
   },
   "syntaxGateAvailability": {
@@ -34,7 +34,8 @@
   "malformedDirectories": [],
   "placeholderSlugs": [
     "K8GULz",
-    "XxZZjK"
+    "XxZZjK",
+    "kskhHQ"
   ],
   "candidateCodeSha256": {
     "01-matrix": "e3bfd317953eb65dbeaae5689cb2795a57695fe712f49e84f0614447ef43c100",
@@ -1548,7 +1549,6 @@
     "knight-probability-in-chessboard": "319e59cfca030255cecff32d688775f485658e45a415c3f2988a64a63d1e693d",
     "koko-eating-bananas": "a0a9940ce59e36d94112436e1d801624170861c8679dd25e259f8795a452b3e5",
     "kplEvH": "45ea4a7d9721b487d827eded2107aa2ee2d6fcd9b491a19d19c138457a78124f",
-    "kskhHQ": "8a2983561ff34cdbc8a2ba34188ff28e7e06b54be91c36e805e598735685d7e1",
     "kth-ancestor-of-a-tree-node": "607559de77d75e679d6eb95ec1c320a3213026b22ec0a73c4c03f8c347e72501",
     "kth-distinct-string-in-an-array": "8f708f8d5ec1df760b447da9bdb6974036789a2b02f1198e187176bf67fda404",
     "kth-largest-element-in-a-stream": "0fc7efc7b2ec96e64e32880ee5475171471a4b3c90875adb95cbdb7e60c6eaf4",
@@ -3671,6 +3671,10 @@
     },
     {
       "slug": "XxZZjK",
+      "kind": "placeholder_marker"
+    },
+    {
+      "slug": "kskhHQ",
       "kind": "placeholder_marker"
     }
   ],
