@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:07:33Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def vowelStrings(self, words: List[str], left: int, right: int) -> int:
         vowels = set('aeiou')

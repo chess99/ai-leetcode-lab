@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:07:59Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def maxDivScore(self, nums: List[int], divisors: List[int]) -> int:
         best_score = -1; answer = float('inf')

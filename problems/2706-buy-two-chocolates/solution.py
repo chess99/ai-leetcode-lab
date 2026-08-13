@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:10:29Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def buyChoco(self, prices: List[int], money: int) -> int:
         first,second=sorted(prices)[:2];return money-first-second if first+second<=money else money

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:24:34Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def maxSum(self, nums: List[int]) -> int:
         best = [-1] * 10

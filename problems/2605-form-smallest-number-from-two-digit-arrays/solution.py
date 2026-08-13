@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:07:33Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def minNumber(self, nums1: List[int], nums2: List[int]) -> int:
         common = set(nums1) & set(nums2)

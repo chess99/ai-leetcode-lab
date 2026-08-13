@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:24:33Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:
         return sum(hour >= target for hour in hours)

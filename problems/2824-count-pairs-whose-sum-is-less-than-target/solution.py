@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:25:19Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def countPairs(self, nums: List[int], target: int) -> int:
         nums.sort(); left, right = 0, len(nums)-1; result = 0

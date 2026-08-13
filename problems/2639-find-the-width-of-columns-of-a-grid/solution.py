@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:07:58Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def findColumnWidth(self, grid: List[List[int]]) -> List[int]:
         return [max(len(str(row[c])) for row in grid) for c in range(len(grid[0]))]

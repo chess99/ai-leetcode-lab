@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:24:33Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def splitWordsBySeparator(self, words: List[str], separator: str) -> List[str]:
         result = []

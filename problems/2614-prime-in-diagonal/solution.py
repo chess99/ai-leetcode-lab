@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:10:09Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def diagonalPrime(self, nums: List[List[int]]) -> int:
         def is_prime(value):

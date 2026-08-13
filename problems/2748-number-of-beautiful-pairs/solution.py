@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:22:21Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def countBeautifulPairs(self, nums: List[int]) -> int:
         def first_digit(num: int) -> int:
