@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T02:50:26Z",
+  "generatedAt": "2026-08-13T03:33:11Z",
   "eligibleProblems": 3628,
   "directoriesPresent": 3628,
-  "validLocalCandidates": 3624,
-  "invalidLocalCandidates": 4,
+  "validLocalCandidates": 3626,
+  "invalidLocalCandidates": 2,
   "languageCounts": {
     "bash": 4,
     "javascript": 36,
@@ -15,7 +15,7 @@
   },
   "syntaxChecked": {
     "javascript": 36,
-    "python3": 3462,
+    "python3": 3464,
     "pythondata": 19
   },
   "syntaxGateAvailability": {
@@ -34,9 +34,7 @@
   "malformedDirectories": [],
   "placeholderSlugs": [
     "K8GULz",
-    "WInSav",
-    "XxZZjK",
-    "kskhHQ"
+    "XxZZjK"
   ],
   "candidateCodeSha256": {
     "01-matrix": "e3bfd317953eb65dbeaae5689cb2795a57695fe712f49e84f0614447ef43c100",
@@ -147,6 +145,7 @@
     "W2ZX4X": "12e4221acb84de7712fef32ad03b70d793cb53d7167bbc8058bba62bf50a099f",
     "WGki4K": "5e61d5a6e1b6caf138c26bb5f3fa285e21fdbd7ebc853cdb374c71d8b9268a57",
     "WHnhjV": "e79a9a10140752743d79dba433fc3a600acbe97504cd6697d16de9191ad1fa9e",
+    "WInSav": "f5cc1ebe1f167d02dd98639eeb9b15e89ea3c534450e0feead3dc3bd787b670c",
     "WNC0Lk": "fa53e0b7220223ed764d21fede0f79acd9ac6fa2caa46caf474fdbf80a3045c7",
     "WhsWhI": "48323416d0d2da23893815874a3bcb13f7082bb76bdc2af1412d1ed4ec624bdb",
     "WqXACV": "40427344e401444c26c9a93ac767be8588bfb8c1012c62f65f4b9e5155c707aa",
@@ -1549,6 +1548,7 @@
     "knight-probability-in-chessboard": "319e59cfca030255cecff32d688775f485658e45a415c3f2988a64a63d1e693d",
     "koko-eating-bananas": "a0a9940ce59e36d94112436e1d801624170861c8679dd25e259f8795a452b3e5",
     "kplEvH": "45ea4a7d9721b487d827eded2107aa2ee2d6fcd9b491a19d19c138457a78124f",
+    "kskhHQ": "8a2983561ff34cdbc8a2ba34188ff28e7e06b54be91c36e805e598735685d7e1",
     "kth-ancestor-of-a-tree-node": "607559de77d75e679d6eb95ec1c320a3213026b22ec0a73c4c03f8c347e72501",
     "kth-distinct-string-in-an-array": "8f708f8d5ec1df760b447da9bdb6974036789a2b02f1198e187176bf67fda404",
     "kth-largest-element-in-a-stream": "0fc7efc7b2ec96e64e32880ee5475171471a4b3c90875adb95cbdb7e60c6eaf4",
@@ -3670,15 +3670,7 @@
       "kind": "placeholder_marker"
     },
     {
-      "slug": "WInSav",
-      "kind": "placeholder_marker"
-    },
-    {
       "slug": "XxZZjK",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "kskhHQ",
       "kind": "placeholder_marker"
     }
   ],

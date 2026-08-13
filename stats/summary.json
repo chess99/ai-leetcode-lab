@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T03:16:45Z",
+  "generatedAt": "2026-08-13T03:33:13Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "catalogTotal": 4406,
@@ -12,7 +12,7 @@
   "started": 3628,
   "accepted": 971,
   "deferredProblems": 14,
-  "deferredProfileAssignments": 34,
+  "deferredProfileAssignments": 33,
   "reviewRequired": 0,
   "remainingAccessible": 2657,
   "remoteTests": 1,
@@ -115,8 +115,8 @@
     }
   ],
   "candidateCodeDrift": [],
-  "candidateReady": 3624,
-  "candidateReadyProfileAssignments": 3624,
+  "candidateReady": 3625,
+  "candidateReadyProfileAssignments": 3625,
   "ladderPaths": {
     "01-matrix": [
       {
@@ -1200,9 +1200,9 @@
       },
       {
         "profileId": "sol-ultra",
-        "candidateReady": false,
-        "candidateCodeSha256": null,
-        "deferred": true,
+        "candidateReady": true,
+        "candidateCodeSha256": "f5cc1ebe1f167d02dd98639eeb9b15e89ea3c534450e0feead3dc3bd787b670c",
+        "deferred": false,
         "remoteAccepted": false
       },
       {
@@ -33030,7 +33030,15 @@
     ],
     "sol-xhigh": [],
     "sol-max": [],
-    "sol-ultra": [],
+    "sol-ultra": [
+      {
+        "slug": "WInSav",
+        "fromProfile": "sol-xhigh",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      }
+    ],
     "terra-low": [],
     "terra-medium": []
   },
@@ -33038,10 +33046,6 @@
     {
       "profileId": "sol-ultra",
       "slug": "K8GULz"
-    },
-    {
-      "profileId": "sol-ultra",
-      "slug": "WInSav"
     },
     {
       "profileId": "sol-ultra",
@@ -40201,8 +40205,8 @@
       "enabled": true,
       "started": 4,
       "accepted": 0,
-      "deferred": 4,
-      "candidateReady": 0,
+      "deferred": 3,
+      "candidateReady": 1,
       "reviewRequired": 0,
       "remoteTests": 0,
       "submissions": 0,
@@ -40224,7 +40228,7 @@
         "HARD": {
           "started": 4,
           "accepted": 0,
-          "deferred": 4,
+          "deferred": 3,
           "failedSubmissionAttempts": 0,
           "failedSubmissionProblems": 0
         },
@@ -40315,8 +40319,8 @@
       "failedSubmissions": 29,
       "failedSubmissionProblems": 23,
       "firstSubmissionAccepted": 951,
-      "remoteElapsedReports": 1135,
-      "remoteElapsedSeconds": 4193.205,
+      "remoteElapsedReports": 1136,
+      "remoteElapsedSeconds": 4197.58,
       "averageSolveWallSeconds": 4066.637113402062,
       "medianSolveWallSeconds": 689.0,
       "byDifficulty": {
@@ -40380,7 +40384,6 @@
     "sol-max": [],
     "sol-ultra": [
       "K8GULz",
-      "WInSav",
       "XxZZjK",
       "kskhHQ"
     ],

@@ -1,6 +1,6 @@
 # AI 刷题实验统计
 
-更新时间：2026-08-13T03:16:45Z
+更新时间：2026-08-13T03:33:13Z
 
 ## 总览
 
@@ -13,7 +13,7 @@
 | 归档中可读题面 | 3628 |
 | 归档中锁定/不可用题面 | 778 |
 | 已开始 | 3628 |
-| 已记录本地候选 | 3624 |
+| 已记录本地候选 | 3625 |
 | Accepted | 971 |
 | 免费题仍待远程 Accepted | 2657 |
 | 已 defer 的题 | 14 |
@@ -37,7 +37,7 @@
 | sol-high | gpt-5.6-sol | high | 8 | 4 | 0 | 4 | 0 | 0.00% |
 | sol-xhigh | gpt-5.6-sol | xhigh | 5 | 1 | 1 | 4 | 1 | 0.00% |
 | sol-max | gpt-5.6-sol | max | 0 | 0 | 0 | 0 | 0 | 0.00% |
-| sol-ultra | gpt-5.6-sol | ultra | 4 | 0 | 0 | 4 | 0 | 0.00% |
+| sol-ultra | gpt-5.6-sol | ultra | 4 | 1 | 0 | 3 | 0 | 0.00% |
 | terra-low | gpt-5.6-terra | low | 0 | 0 | 0 | 0 | 0 | 0.00% |
 | terra-medium | gpt-5.6-terra | medium | 3627 | 3613 | 970 | 14 | 999 | 0.00% |
 
@@ -76,7 +76,7 @@
 
 ## 最高档仍未解决
 
-- sol-ultra：4 题
+- sol-ultra：3 题
 - terra-medium：14 题
 
 ## Agent 贡献
