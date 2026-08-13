@@ -188,6 +188,17 @@ class StatsTests(unittest.TestCase):
             self.assertTrue(capability["isComplete"])
             self.assertEqual(capability["accountedByDifficulty"], {"EASY": 1})
             self.assertEqual(
+                capability["byProblem"]["two-sum"],
+                {
+                    "frontendId": "1",
+                    "difficulty": "EASY",
+                    "kind": "firstAccepted",
+                    "profileId": "sol-medium",
+                    "model": "gpt-5.6-sol",
+                    "reasoningEffort": "medium",
+                },
+            )
+            self.assertEqual(
                 summary["firstSuccessByProblem"]["two-sum"]["profileId"], "sol-medium"
             )
             self.assertEqual(summary["profiles"]["sol-medium"]["usage"]["inputTokens"], 100)
@@ -403,6 +414,18 @@ class StatsTests(unittest.TestCase):
                     }
                 ],
             )
+            self.assertEqual(
+                capability["byProblem"]["free-easy"],
+                {
+                    "frontendId": "1",
+                    "difficulty": "EASY",
+                    "kind": "pendingInLadder",
+                    "profileId": None,
+                    "model": None,
+                    "reasoningEffort": None,
+                },
+            )
+            self.assertNotIn("paid-easy", capability["byProblem"])
 
     def test_defer_populates_next_profile_escalation_queue(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -539,6 +562,17 @@ class StatsTests(unittest.TestCase):
                         "total": 1,
                     }
                 ],
+            )
+            self.assertEqual(
+                capability["byProblem"]["hard-one"],
+                {
+                    "frontendId": "99",
+                    "difficulty": "HARD",
+                    "kind": "highestUnresolved",
+                    "profileId": "sol-high",
+                    "model": "gpt-5.6-sol",
+                    "reasoningEffort": "high",
+                },
             )
 
 

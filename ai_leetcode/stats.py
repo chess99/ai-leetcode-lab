@@ -440,6 +440,47 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
     pending_ladder_slugs = accessible_slugs - accepted - unresolved_slugs
     difficulty_levels = sorted(difficulty_total)
 
+    unresolved_profile_by_slug = {
+        str(item["slug"]): str(item["profileId"])
+        for item in unresolved_at_highest
+        if str(item["slug"]) in accessible_slugs
+    }
+    capability_by_problem: dict[str, dict[str, Any]] = {}
+    for slug in sorted(accessible_slugs):
+        problem = by_slug[slug]
+        profile_id = first_success_profile.get(slug)
+        if profile_id is not None:
+            success = first_success_by_problem[slug]
+            capability_by_problem[slug] = {
+                "frontendId": problem.get("questionFrontendId"),
+                "difficulty": problem.get("difficulty", "UNKNOWN"),
+                "kind": "firstAccepted",
+                "profileId": profile_id,
+                "model": success["model"],
+                "reasoningEffort": success["reasoningEffort"],
+            }
+            continue
+        profile_id = unresolved_profile_by_slug.get(slug)
+        if profile_id is not None:
+            profile = profile_config.get(profile_id)
+            capability_by_problem[slug] = {
+                "frontendId": problem.get("questionFrontendId"),
+                "difficulty": problem.get("difficulty", "UNKNOWN"),
+                "kind": "highestUnresolved",
+                "profileId": profile_id,
+                "model": profile.model if profile else "unknown",
+                "reasoningEffort": profile.reasoning_effort if profile else "unknown",
+            }
+            continue
+        capability_by_problem[slug] = {
+            "frontendId": problem.get("questionFrontendId"),
+            "difficulty": problem.get("difficulty", "UNKNOWN"),
+            "kind": "pendingInLadder",
+            "profileId": None,
+            "model": None,
+            "reasoningEffort": None,
+        }
+
     capability_rows: list[dict[str, Any]] = []
     accepted_profile_order = list(configured_profiles.execution_ladder)
     accepted_profile_order.extend(
@@ -787,6 +828,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
             "eligibleByDifficulty": dict(sorted(difficulty_total.items())),
             "pending": len(pending_ladder_slugs),
             "isComplete": not pending_ladder_slugs,
+            "byProblem": capability_by_problem,
         },
         "firstSuccessByDifficulty": {
             level: dict(sorted(counts.items()))
