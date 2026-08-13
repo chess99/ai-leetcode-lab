@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T16:03:28Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def massage(self, nums: List[int]) -> int:
         skip = take = 0

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:56:59Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class AnimalShelf:
 
     def __init__(self):

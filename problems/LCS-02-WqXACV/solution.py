@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:52:34Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def halfQuestions(self, questions: List[int]) -> int:
         frequencies = {}

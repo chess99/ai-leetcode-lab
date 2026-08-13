@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:59:37Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         write = m + n - 1

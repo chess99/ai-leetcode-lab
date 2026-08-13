@@ -5,6 +5,11 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:57:16Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
+from typing import List, Optional
+
+
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
         def build(left: int, right: int) -> Optional[TreeNode]:

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T16:01:50Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         best = current = nums[0]

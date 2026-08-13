@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:59:37Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def findString(self, words: List[str], s: str) -> int:
         left, right = 0, len(words) - 1

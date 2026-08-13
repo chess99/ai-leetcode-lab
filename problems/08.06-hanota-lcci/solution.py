@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:59:37Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def hanota(self, A: List[int], B: List[int], C: List[int]) -> None:
         def move(count: int, source: List[int], auxiliary: List[int], target: List[int]) -> None:

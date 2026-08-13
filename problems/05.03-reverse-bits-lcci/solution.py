@@ -18,4 +18,4 @@ class Solution:
                 current = 0
             best = max(best, previous + 1 + current)
             num >>= 1
-        return best
+        return min(best, 32)

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:59:36Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def findMagicIndex(self, nums: List[int]) -> int:
         for index, value in enumerate(nums):

@@ -5,6 +5,11 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:54:54Z
 # Experiment: ai-leetcode-lab, round 1
+from __future__ import annotations
+
+from typing import Optional
+
+
 class Solution:
     def removeDuplicateNodes(self, head: Optional[ListNode]) -> Optional[ListNode]:
         seen = set()

@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T16:02:16Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         candidate = None
