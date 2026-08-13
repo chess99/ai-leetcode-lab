@@ -12,7 +12,7 @@
 sol-low（可选） → sol-medium → sol-high → sol-xhigh → sol-max（可选） → sol-ultra
 ```
 
-正式批刷默认从 `sol-medium` 开始。某题在当前 Profile 不值得继续时可以 `defer`，它会从当前档位的选题队列中移除，但仍能在更高档位重新获得完整尝试预算。Terra Profile 是不同模型家族的对照组，不与 Sol 档位混排。
+Profile 的 `cohort` 表示模型家族/统计分组，`executionLadder` 则表示本次实验真实升级顺序。当前执行顺序是 `terra-medium → sol-medium → sol-high → sol-xhigh → sol-ultra`：Terra 仍是不同模型家族的对照基线，但它未通过的题会按用户指定实验流程交给 Sol。某题在当前 Profile 不值得继续时可以 `defer`，它会从当前档位的选题队列中移除，并在下一执行档获得完整尝试预算。
 
 最终统计的是“首次成功 Profile”。这是逐级升级、允许高档继承低档失败产物的实验结果，不是每个模型从空白开始的独立盲测结果。
 
@@ -72,7 +72,7 @@ sol-low（可选） → sol-medium → sol-high → sol-xhigh → sol-max（可�
 .\scripts\run-profile-ladder.ps1
 ```
 
-队列始终通过仓库 CLI 提交，并只选择“当前 Profile 的 candidate-ready 哈希与工作区代码一致”的题；选择器和提交器均执行此门禁。队列遵守共享锁、13 秒最小间隔、滚动提交额度门禁和指数退避。一次正常判题失败会把该题 defer 给更高 Profile；HTTP 429、网络和平台故障不计模型失败，队列等待后重试同一道题。运行状态保存在忽略目录 `.runtime/submit-queue-state.json`；创建 `.runtime/submit-queue.stop` 可在当前动作结束后安全停止。`-MaxTerminalResults` 可用于小批量试运行，`-StatsEvery` 控制统计刷新频率；`ai-lc.ps1 quota-status` 可查看本地证据计算出的窗口占用和下次允许时间。
+队列始终通过仓库 CLI 提交，并只选择“当前 Profile 的 candidate-ready 哈希与工作区代码一致”的题；选择器和提交器均执行此门禁。监督器从 `executionLadder` 读取真实顺序。队列遵守共享锁、13 秒最小间隔、滚动提交额度门禁和指数退避。一次正常判题失败会把该题 defer 给下一 Profile；如果下一档仍缺真实模型产出的新候选，队列进入 `candidate_wait`，不会误跳过该档。HTTP 429、网络和平台故障不计模型失败。运行状态保存在忽略目录 `.runtime/submit-queue-state.json`；创建 `.runtime/submit-queue.stop` 可在当前动作结束后安全停止。`-MaxTerminalResults` 可用于小批量试运行，`-StatsEvery` 控制统计刷新频率；`ai-lc.ps1 quota-status` 可查看本地证据计算出的窗口占用和下次允许时间。
 
 更高档位接手同一题时，`start` 不会覆盖现有解答：
 

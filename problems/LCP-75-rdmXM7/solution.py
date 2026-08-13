@@ -4,6 +4,7 @@
 # Reasoning effort: medium
 # Profile: sol-medium
 # Experiment: ai-leetcode-lab, round 1
+# Revised by: Codex Desktop / gpt-5.6-sol / medium / sol-medium
 from collections import deque
 from heapq import heappop, heappush
 from typing import List

@@ -1,8 +1,9 @@
 # AI solution attribution
 # Client: Codex Desktop
-# Model: gpt-5.6-sol
+# Model: gpt-5.6-terra
 # Reasoning effort: medium
-# Profile: sol-medium
+# Profile: terra-medium
+# Revised by: Codex Desktop / gpt-5.6-sol / medium / sol-medium
 # Experiment: ai-leetcode-lab, round 1
 from typing import List
 

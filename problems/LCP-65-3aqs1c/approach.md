@@ -1,3 +1,6 @@
+> 初始署名：Codex Desktop / gpt-5.6-terra / medium / terra-medium
+> Revised by: Codex Desktop / gpt-5.6-sol / medium / sol-medium
+
 ## 算法
 
 把每条指令选择正负号后，任意连续段的和等于两个前缀和之差。因此所有连续段绝对值的最大值，恰好是全部前缀和的最大值与最小值之差。

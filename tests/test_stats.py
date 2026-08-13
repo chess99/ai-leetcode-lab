@@ -18,6 +18,7 @@ class StatsTests(unittest.TestCase):
             json.dumps(
                 {
                     "defaultProfile": "sol-medium",
+                    "executionLadder": ["sol-medium", "sol-high"],
                     "profiles": [
                         {
                             "id": "sol-medium",
@@ -315,6 +316,65 @@ class StatsTests(unittest.TestCase):
             item = summary["escalationQueueByProfile"]["sol-high"][0]
             self.assertEqual(item["slug"], "hard-one")
             self.assertTrue(item["needsNewCandidate"])
+
+    def test_execution_ladder_escalates_across_model_cohorts(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "config").mkdir()
+            (root / "config" / "profiles.json").write_text(
+                json.dumps(
+                    {
+                        "defaultProfile": "sol-medium",
+                        "executionLadder": ["terra-medium", "sol-medium"],
+                        "profiles": [
+                            {
+                                "id": "terra-medium",
+                                "model": "gpt-5.6-terra",
+                                "reasoningEffort": "medium",
+                                "cohort": "terra-control",
+                                "stage": 1,
+                                "enabled": True,
+                            },
+                            {
+                                "id": "sol-medium",
+                                "model": "gpt-5.6-sol",
+                                "reasoningEffort": "medium",
+                                "cohort": "sol-escalation",
+                                "stage": 1,
+                                "enabled": True,
+                            },
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (root / "archive").mkdir()
+            (root / "archive" / "catalog.json").write_text(
+                json.dumps(
+                    {
+                        "problems": [
+                            {
+                                "titleSlug": "hard-one",
+                                "questionFrontendId": "99",
+                                "difficulty": "HARD",
+                                "paidOnly": False,
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            store = EventStore(root)
+            store.append("problem_started", slug="hard-one", profile_id="terra-medium")
+            store.append("profile_deferred", slug="hard-one", profile_id="terra-medium")
+
+            summary = build_summary(AttemptBudget(5, 3, 2, 0.01, 1), root=root)
+            self.assertEqual(summary["executionLadder"], ["terra-medium", "sol-medium"])
+            self.assertEqual(
+                summary["escalationQueueByProfile"]["sol-medium"][0]["slug"],
+                "hard-one",
+            )
+            self.assertEqual(summary["unresolvedAtHighestProfile"], [])
 
     def test_escalation_queue_does_not_duplicate_completed_historical_edges(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

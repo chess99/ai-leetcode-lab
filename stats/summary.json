@@ -1,8 +1,15 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T03:45:22Z",
+  "generatedAt": "2026-08-13T03:55:07Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
+  "executionLadder": [
+    "terra-medium",
+    "sol-medium",
+    "sol-high",
+    "sol-xhigh",
+    "sol-ultra"
+  ],
   "catalogTotal": 4406,
   "accessibleWithoutPremium": 3628,
   "paidOnly": 778,
@@ -340,7 +347,7 @@
       {
         "profileId": "sol-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "a0ce5baca4fa6963808ac5828dfb7089593988e88d8461480d57400ff33459c9",
+        "candidateCodeSha256": "d4236ed7e99e881956743cbc3eec4e0c3c0c9d0b88e66b54bd573a846fca62ab",
         "deferred": false,
         "remoteAccepted": false
       },
@@ -590,7 +597,7 @@
       {
         "profileId": "sol-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "728ce198d20cfb460262d39e0fefa118843d0b6c73d35f7d7a12fdb02e4e1a70",
+        "candidateCodeSha256": "eec0d70f11f80299641e809f9a08f224dae5c2196674ac9f922df68f3f27e70e",
         "deferred": false,
         "remoteAccepted": false
       },
@@ -891,7 +898,7 @@
       {
         "profileId": "sol-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "7d66e7f2d7757c7b8d2a7fe9c240b50776d64a29158480617dfa153207fec78d",
+        "candidateCodeSha256": "157e177b17a9ff78c8f915768cc9a0fd607236ab547acf779fc4677638d0a168",
         "deferred": false,
         "remoteAccepted": false
       },
@@ -18735,7 +18742,7 @@
       {
         "profileId": "sol-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "1710e7a400b27fb9ae1ec0a1d1a7c279783c1326f55450f63bb778de9d9d1822",
+        "candidateCodeSha256": "a9b95a72a89ee81aab024d61f0a6ffbb596e04d2bec5097d81dfe994a3f29742",
         "deferred": false,
         "remoteAccepted": false
       },
@@ -22117,7 +22124,7 @@
       {
         "profileId": "sol-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "b039003c983488d89a210d78059786b5143c0768d4d2b9ffea58719bb0dd8bf6",
+        "candidateCodeSha256": "504ae0a57ea34918732b2cab80c57de7ba020c45a834d535929aa0c8236df409",
         "deferred": false,
         "remoteAccepted": false
       },
@@ -26253,7 +26260,7 @@
       {
         "profileId": "sol-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "a5045547b8540003b055d58bf498e784e8d1c3868675538f59ab293279b67a26",
+        "candidateCodeSha256": "05503699f0a387131e78e78a1e845d963b6cbba5a0b0695e2bff4ff1e9aa49f1",
         "deferred": false,
         "remoteAccepted": false
       },
@@ -33003,7 +33010,50 @@
   },
   "escalationQueueByProfile": {
     "sol-low": [],
-    "sol-medium": [],
+    "sol-medium": [
+      {
+        "slug": "3aqs1c",
+        "fromProfile": "terra-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
+        "slug": "Db3wC1",
+        "fromProfile": "terra-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
+        "slug": "NfY1m5",
+        "fromProfile": "terra-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
+        "slug": "maximum-total-subarray-value-ii",
+        "fromProfile": "terra-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
+        "slug": "minimum-steps-to-convert-string-with-operations",
+        "fromProfile": "terra-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
+        "slug": "rdmXM7",
+        "fromProfile": "terra-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      }
+    ],
     "sol-high": [
       {
         "slug": "1ybDKD",
@@ -33060,62 +33110,6 @@
     {
       "profileId": "sol-ultra",
       "slug": "kskhHQ"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "1ybDKD"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "3aqs1c"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "Db3wC1"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "De4qBB"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "K8GULz"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "NfY1m5"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "WInSav"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "XxZZjK"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "cnHoX6"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "kskhHQ"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "maximum-total-subarray-value-ii"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "minimum-steps-to-convert-string-with-operations"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "rdmXM7"
-    },
-    {
-      "profileId": "terra-medium",
-      "slug": "you-le-yuan-de-you-lan-ji-hua"
     }
   ],
   "firstSuccessByDifficulty": {

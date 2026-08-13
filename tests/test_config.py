@@ -19,6 +19,7 @@ class ProfileConfigTests(unittest.TestCase):
                 json.dumps(
                     {
                         "defaultProfile": "sol-medium",
+                        "executionLadder": ["sol-medium"],
                         "profiles": [
                             {
                                 "id": "sol-medium",
@@ -51,6 +52,7 @@ class ProfileConfigTests(unittest.TestCase):
             self.assertEqual(identity.reasoning_effort, "medium")
             self.assertEqual(identity.profile_id, "sol-medium")
             self.assertEqual(load_profiles(root).default_profile, "sol-medium")
+            self.assertEqual(load_profiles(root).execution_ladder, ("sol-medium",))
 
 
 if __name__ == "__main__":

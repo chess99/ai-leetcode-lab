@@ -404,6 +404,7 @@ def _cmd_profiles(args: argparse.Namespace) -> int:
     _print_json(
         {
             "defaultProfile": config.default_profile,
+            "executionLadder": list(config.execution_ladder),
             "profiles": [
                 {
                     "id": profile.id,
@@ -440,6 +441,22 @@ def _cmd_quota_status(args: argparse.Namespace) -> int:
         buffer_seconds=args.buffer_seconds,
     )
     print(json.dumps(status, ensure_ascii=False, separators=(",", ":")))
+    return 0
+
+
+def _cmd_escalation_status(args: argparse.Namespace) -> int:
+    summary = build_summary(load_config().attempt_budget)
+    items = summary["escalationQueueByProfile"].get(args.profile, [])
+    pending = [item for item in items if item["needsNewCandidate"]]
+    _print_json(
+        {
+            "profileId": args.profile,
+            "assigned": len(items),
+            "candidateReady": len(items) - len(pending),
+            "needsNewCandidate": len(pending),
+            "pendingSlugs": [item["slug"] for item in pending],
+        }
+    )
     return 0
 
 
@@ -604,6 +621,12 @@ def build_parser() -> argparse.ArgumentParser:
     quota_status.add_argument("--window-hours", type=float, default=24)
     quota_status.add_argument("--buffer-seconds", type=int, default=15)
     quota_status.set_defaults(func=_cmd_quota_status)
+
+    escalation_status = subparsers.add_parser(
+        "escalation-status", help="查看指定 Profile 的升档候选准备状态"
+    )
+    add_profile(escalation_status, required=True)
+    escalation_status.set_defaults(func=_cmd_escalation_status)
 
     audit = subparsers.add_parser("audit", help="审计全部免费题的本地候选覆盖与静态门禁")
     audit.set_defaults(func=_cmd_audit)

@@ -1,6 +1,13 @@
 {
   "schemaVersion": 1,
   "defaultProfile": "sol-medium",
+  "executionLadder": [
+    "terra-medium",
+    "sol-medium",
+    "sol-high",
+    "sol-xhigh",
+    "sol-ultra"
+  ],
   "profiles": [
     {
       "id": "sol-low",

@@ -76,6 +76,7 @@ class Profile:
 class ProfilesConfig:
     default_profile: str
     profiles: tuple[Profile, ...]
+    execution_ladder: tuple[str, ...] = ()
 
     def get(self, profile_id: str) -> Profile:
         for profile in self.profiles:
@@ -197,7 +198,26 @@ def load_profiles(root: Path = ROOT) -> ProfilesConfig:
     default_profile = str(raw.get("defaultProfile", "")).strip()
     if default_profile not in seen:
         raise ConfigError(f"defaultProfile 不存在：{default_profile}")
-    return ProfilesConfig(default_profile=default_profile, profiles=tuple(profiles))
+    raw_ladder = raw.get("executionLadder", [])
+    if not isinstance(raw_ladder, list):
+        raise ConfigError("executionLadder 必须是 Profile ID 数组")
+    execution_ladder = tuple(str(profile_id).strip() for profile_id in raw_ladder)
+    if any(not profile_id or profile_id not in seen for profile_id in execution_ladder):
+        raise ConfigError("executionLadder 包含空值或未知 Profile")
+    if len(set(execution_ladder)) != len(execution_ladder):
+        raise ConfigError("executionLadder 不允许重复 Profile")
+    disabled = {
+        profile.id for profile in profiles if not profile.enabled
+    } & set(execution_ladder)
+    if disabled:
+        raise ConfigError(
+            f"executionLadder 包含未启用 Profile：{', '.join(sorted(disabled))}"
+        )
+    return ProfilesConfig(
+        default_profile=default_profile,
+        profiles=tuple(profiles),
+        execution_ladder=execution_ladder,
+    )
 
 
 def read_env_file(path: Path) -> dict[str, str]:

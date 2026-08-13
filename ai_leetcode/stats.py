@@ -366,12 +366,21 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
     for profile in configured_profiles.profiles:
         profiles_by_cohort.setdefault(profile.cohort, []).append(profile)
     next_profile: dict[str, str] = {}
-    for cohort_profiles in profiles_by_cohort.values():
-        ordered = sorted(
-            (profile for profile in cohort_profiles if profile.enabled), key=lambda profile: profile.stage
+    if configured_profiles.execution_ladder:
+        next_profile.update(
+            zip(
+                configured_profiles.execution_ladder,
+                configured_profiles.execution_ladder[1:],
+            )
         )
-        for current, following in zip(ordered, ordered[1:]):
-            next_profile[current.id] = following.id
+    else:
+        for cohort_profiles in profiles_by_cohort.values():
+            ordered = sorted(
+                (profile for profile in cohort_profiles if profile.enabled),
+                key=lambda profile: profile.stage,
+            )
+            for current, following in zip(ordered, ordered[1:]):
+                next_profile[current.id] = following.id
     for slug, profile_id in sorted(deferred_pairs):
         target = next_profile.get(profile_id)
         if not target or slug in accepted:
@@ -390,14 +399,29 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
                 "needsNewCandidate": target_candidate is None,
             }
         )
-    highest_profiles = {
-        max(
-            (profile for profile in profiles if profile.enabled),
-            key=lambda profile: profile.stage,
-        ).id
-        for profiles in profiles_by_cohort.values()
-        if any(profile.enabled for profile in profiles)
-    }
+    if configured_profiles.execution_ladder:
+        ladder_cohorts = {
+            profile_config[profile_id].cohort
+            for profile_id in configured_profiles.execution_ladder
+        }
+        highest_profiles = {configured_profiles.execution_ladder[-1]}
+        highest_profiles.update(
+            max(
+                (profile for profile in profiles if profile.enabled),
+                key=lambda profile: profile.stage,
+            ).id
+            for cohort, profiles in profiles_by_cohort.items()
+            if cohort not in ladder_cohorts and any(profile.enabled for profile in profiles)
+        )
+    else:
+        highest_profiles = {
+            max(
+                (profile for profile in profiles if profile.enabled),
+                key=lambda profile: profile.stage,
+            ).id
+            for profiles in profiles_by_cohort.values()
+            if any(profile.enabled for profile in profiles)
+        }
     unresolved_at_highest = [
         {"profileId": profile_id, "slug": slug}
         for slug, profile_id in sorted(deferred_pairs, key=lambda pair: (pair[1], pair[0]))
@@ -551,6 +575,7 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         "generatedAt": utc_now(),
         "catalogSyncedAt": catalog.get("syncedAt"),
         "defaultProfile": configured_profiles.default_profile,
+        "executionLadder": list(configured_profiles.execution_ladder),
         "catalogTotal": total,
         "accessibleWithoutPremium": accessible,
         "paidOnly": total - accessible,

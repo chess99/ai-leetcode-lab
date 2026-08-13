@@ -1,6 +1,7 @@
 # 解题记录
 
-- AI 客户端：Codex Desktop；模型：gpt-5.6-sol；推理档位：medium；Profile：sol-medium；轮次：1
+- 初始署名：Codex Desktop / gpt-5.6-terra / medium / terra-medium
+- Revised by: Codex Desktop / gpt-5.6-sol / medium / sol-medium
 
 ## 算法
 
@@ -15,7 +16,3 @@
 ## 复杂度
 
 令 `C=N*M`、时间长度为 `T`。每层对每个格子的至多五条移动做常数次 `C` 位整数运算，按位复杂度计时间 `O(T*C^2/w)`（`w` 为机器字长），空间 `O(C^2/w)`；Python 大整数在约束内将二维布尔关系压缩为约 0.8MB/组。
-
-## 边界条件与本地验证
-
-覆盖起终点相同、原地等待、在当前开放但未来变为陷阱的格子提前使用永久卷轴、最后时刻到达。题面三个样例输出 `true、false、false`；随机小迷宫与显式枚举永久目标的完整状态 BFS 对拍。

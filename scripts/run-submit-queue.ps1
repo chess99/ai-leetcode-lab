@@ -13,6 +13,8 @@ param(
 
     [int] $RemoteQuotaBufferSeconds = 15,
 
+    [int] $CandidateWaitSeconds = 30,
+
     [switch] $ClearStop
 )
 
@@ -240,6 +242,21 @@ function Get-QuotaStatus {
     }
 }
 
+function Get-EscalationStatus {
+    $status = Invoke-AiLc -Arguments @(
+        "escalation-status", "--profile", $Profile
+    )
+    if ($status.ExitCode -ne 0) {
+        throw "Failed to calculate the candidate escalation status."
+    }
+    try {
+        return $status.Text | ConvertFrom-Json
+    }
+    catch {
+        throw "Could not parse escalation status: $($status.Text)"
+    }
+}
+
 function Wait-Interruptibly {
     param([Parameter(Mandatory = $true)][int] $Seconds)
 
@@ -290,6 +307,31 @@ try {
             break
         }
 
+        $next = Invoke-AiLc -Arguments @(
+            "next", "--profile", $Profile, "--candidate-ready-only"
+        )
+        if ($next.ExitCode -ne 0) {
+            if ($next.Text -match "没有符合条件的未完成题目") {
+                $escalation = Get-EscalationStatus
+                if ([int]$escalation.needsNewCandidate -gt 0) {
+                    Write-QueueState -Status "candidate_wait" -Outcome "escalation_candidates_pending"
+                    Write-Output "WAIT $($escalation.needsNewCandidate) candidates for $Profile"
+                    if (-not (Wait-Interruptibly -Seconds $CandidateWaitSeconds)) {
+                        break
+                    }
+                    continue
+                }
+                Write-Output "QUEUE_EMPTY"
+                break
+            }
+            throw "Failed to select the next problem: $($next.Text)"
+        }
+        $nextLine = @($next.Output | Where-Object { $_.Trim() })[-1]
+        $currentSlug = @($nextLine -split "\s+")[-1]
+        if (-not $currentSlug) {
+            throw "Could not parse the next problem slug from: $nextLine"
+        }
+
         $quota = Get-QuotaStatus
         $quotaWaitSeconds = [int]$quota.waitSeconds
         $quotaNextAllowedAt = $quota.nextAllowedAt
@@ -302,22 +344,6 @@ try {
             $quotaWaitSeconds = 0
             $quotaNextAllowedAt = $null
             continue
-        }
-
-        $next = Invoke-AiLc -Arguments @(
-            "next", "--profile", $Profile, "--candidate-ready-only"
-        )
-        if ($next.ExitCode -ne 0) {
-            if ($next.Text -match "没有符合条件的未完成题目") {
-                Write-Output "QUEUE_EMPTY"
-                break
-            }
-            throw "Failed to select the next problem: $($next.Text)"
-        }
-        $nextLine = @($next.Output | Where-Object { $_.Trim() })[-1]
-        $currentSlug = @($nextLine -split "\s+")[-1]
-        if (-not $currentSlug) {
-            throw "Could not parse the next problem slug from: $nextLine"
         }
 
         Write-QueueState -Status "submitting"

@@ -1,11 +1,5 @@
 param(
-    [string[]] $Profiles = @(
-        "terra-medium",
-        "sol-medium",
-        "sol-high",
-        "sol-xhigh",
-        "sol-ultra"
-    ),
+    [string[]] $Profiles = @(),
 
     [int] $StatsEvery = 25,
 
@@ -18,6 +12,20 @@ if (-not $repoRoot) {
     throw "The current directory is not inside a Git repository."
 }
 Set-Location -LiteralPath $repoRoot
+$env:PYTHONUTF8 = "1"
+$env:PYTHONPATH = $repoRoot
+
+if ($Profiles.Count -eq 0) {
+    $profileOutput = @(& python -m ai_leetcode.cli profiles 2>&1)
+    if ($LASTEXITCODE -ne 0) {
+        throw "Failed to read the configured execution ladder: $($profileOutput -join ' ')"
+    }
+    $profileConfig = ($profileOutput -join "`n") | ConvertFrom-Json
+    $Profiles = @($profileConfig.executionLadder)
+    if ($Profiles.Count -eq 0) {
+        throw "config/profiles.json does not define executionLadder."
+    }
+}
 
 $runtimeDirectory = Join-Path $repoRoot ".runtime"
 $statePath = Join-Path $runtimeDirectory "profile-ladder-state.json"

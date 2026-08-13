@@ -5,6 +5,7 @@
 # Profile: sol-medium
 # Created: 2026-08-12T17:28:47Z
 # Experiment: ai-leetcode-lab, round 1
+# Revised by: Codex Desktop / gpt-5.6-sol / medium / sol-medium
 from typing import List
 import heapq
 

@@ -27,6 +27,7 @@ sol-low（可选预扫） → sol-medium → sol-high → sol-xhigh → sol-max�
 - 用户所说的 Extra High 统一记录为 `xhigh`。
 - `sol-medium` 是正式批刷基线；可先用 `sol-low` 做低成本预扫。
 - Terra 是不同模型家族，只作为独立对照组，不能解释成 Sol 的更低档。
+- `cohort` 只表达模型家族/统计分组；实际跨模型升级由 `config/profiles.json` 的 `executionLadder` 定义。当前实验按用户指定从 `terra-medium` 失败题进入 `sol-medium`，但统计仍保留二者真实模型身份。
 - 统计归因到“首次成功 Profile”：即按升档流程首次获得 Accepted 的 Profile。
 - 高档可以继承低档留下的失败代码和分析，因此该指标衡量阶梯式协作实验，不等同于每个模型从空白开始的独立盲测能力。若未来需要盲测，必须另建隔离工作区和独立实验批次，不能混入当前数据。
 
@@ -111,6 +112,7 @@ Token 数据只有在客户端提供精确用量时才记录：
 
 1. 先让低档 worker 批量处理能快速解决的题，失败即 defer。
 2. 一个阶段结束后，把未通过集合交给下一级 Profile。
+   当前档没有可送判候选、但仍有上一级转入且缺候选的题时，监督器必须停在 `candidate_wait`，由真实目标 Profile agent 产出新候选后再继续，不得空跑到更高档。
 3. 每个 worker 一次只处理明确分配的独立题目录；禁止两个 worker 并行修改同一道题。
 4. worker 的所有 CLI 调用都显式传 `--profile`，不得修改共享 `.ai/identity.env`。
 5. LeetCode 远程动作必须尊重 `.runtime/remote-action.lock` 和 13 秒最小间隔，所以本地推理可以并行，远程试跑和提交会串行；连续 HTTP 429 由 CLI 指数退避，worker 不得绕过冷却窗口。

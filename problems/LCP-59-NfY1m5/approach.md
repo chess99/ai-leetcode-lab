@@ -1,9 +1,7 @@
 # 解题记录
 
-- AI 客户端：Codex Desktop
-- 模型：gpt-5.6-sol
-- 推理档位：medium
-- Profile：sol-medium
+- 初始署名：Codex Desktop / gpt-5.6-terra / medium / terra-medium
+- Revised by: Codex Desktop / gpt-5.6-sol / medium / sol-medium
 
 ## 算法
 

@@ -5,6 +5,7 @@
 # Profile: sol-medium
 # Created: 2026-08-12T16:38:22Z
 # Experiment: ai-leetcode-lab, round 1
+# Revised by: Codex Desktop / gpt-5.6-sol / medium / sol-medium
 class Solution:
     def minOperations(self, word1: str, word2: str) -> int:
         n = len(word1)
