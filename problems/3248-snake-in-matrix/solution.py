@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:48:00Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def finalPositionOfSnake(self, n: int, commands: List[str]) -> int:
         row = col = 0

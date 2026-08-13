@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:57:38Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def countValidSelections(self, nums: List[int]) -> int:
         total = sum(nums)

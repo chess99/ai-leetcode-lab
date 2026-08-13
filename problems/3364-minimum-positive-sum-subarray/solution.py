@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:57:38Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def minimumSumSubarray(self, nums: List[int], l: int, r: int) -> int:
         answer = float("inf")

@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:45:04Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def canMakeSquare(self, grid: List[List[str]]) -> bool:
         for row in range(2):

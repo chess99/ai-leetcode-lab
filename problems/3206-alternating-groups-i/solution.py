@@ -5,6 +5,14 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:45:50Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def numberOfAlternatingGroups(self, colors: List[int]) -> int:
-        return sum(colors[i] != colors[(i+1)%len(colors)] != colors[(i+2)%len(colors)] for i in range(len(colors)))
+        size = len(colors)
+        return sum(
+            colors[index] != colors[(index + 1) % size]
+            and colors[(index + 1) % size] != colors[(index + 2) % size]
+            for index in range(size)
+        )

@@ -8,6 +8,9 @@
 class Solution:
     def hasMatch(self, s: str, p: str) -> bool:
         prefix, suffix = p.split('*')
+        if not prefix and not suffix:
+            return True
+
         for start in range(len(s) - len(prefix) + 1):
             if not s.startswith(prefix, start):
                 continue

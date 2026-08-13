@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:45:31Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def satisfiesConditions(self, grid: List[List[int]]) -> bool:
         rows = len(grid)

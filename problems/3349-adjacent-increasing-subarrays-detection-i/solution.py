@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:57:26Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def hasIncreasingSubarrays(self, nums: List[int], k: int) -> bool:
         for start in range(len(nums) - 2 * k + 1):

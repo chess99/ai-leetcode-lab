@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:41:52Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def longestMonotonicSubarray(self, nums: List[int]) -> int:
         inc = dec = best = 1

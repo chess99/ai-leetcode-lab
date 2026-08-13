@@ -5,6 +5,8 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:45:41Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
 class Solution:
     def duplicateNumbersXOR(self, nums: List[int]) -> int:
         seen = set()

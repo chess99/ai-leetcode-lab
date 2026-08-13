@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:59:42Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def maxLength(self, nums: List[int]) -> int:
         from math import gcd, lcm

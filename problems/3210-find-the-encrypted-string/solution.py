@@ -7,4 +7,5 @@
 # Experiment: ai-leetcode-lab, round 1
 class Solution:
     def getEncryptedString(self, s: str, k: int) -> str:
-        return s[k%len(s):]+s[:k%len(s)]
+        shift = k % len(s)
+        return s[shift:] + s[:shift]

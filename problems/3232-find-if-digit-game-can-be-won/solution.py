@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:47:49Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def canAliceWin(self, nums: List[int]) -> bool:
         single_digit_sum = sum(value for value in nums if value < 10)

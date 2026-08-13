@@ -5,7 +5,10 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:47:54Z
 # Experiment: ai-leetcode-lab, round 1
-class NeighborSum:
+from typing import List
+
+
+class neighborSum:
 
     def __init__(self, grid: List[List[int]]):
         self.grid = grid
@@ -31,7 +34,7 @@ class NeighborSum:
         )
 
 
-# Your NeighborSum object will be instantiated and called as such:
-# obj = NeighborSum(grid)
+# Your neighborSum object will be instantiated and called as such:
+# obj = neighborSum(grid)
 # param_1 = obj.adjacentSum(value)
 # param_2 = obj.diagonalSum(value)

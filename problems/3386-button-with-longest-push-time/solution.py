@@ -5,6 +5,9 @@
 # Profile: terra-medium
 # Created: 2026-08-11T14:59:23Z
 # Experiment: ai-leetcode-lab, round 1
+from typing import List
+
+
 class Solution:
     def buttonWithLongestTime(self, events: List[List[int]]) -> int:
         longest = -1

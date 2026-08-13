@@ -7,4 +7,14 @@
 # Experiment: ai-leetcode-lab, round 1
 class Solution:
     def countKConstraintSubstrings(self, s: str, k: int) -> int:
-        return sum(s[i:j].count('0')<=k or s[i:j].count('1')<=k for i in range(len(s)) for j in range(i+1,len(s)+1))
+        answer = 0
+        for left in range(len(s)):
+            zero_count = one_count = 0
+            for right in range(left, len(s)):
+                if s[right] == "0":
+                    zero_count += 1
+                else:
+                    one_count += 1
+                if zero_count <= k or one_count <= k:
+                    answer += 1
+        return answer
