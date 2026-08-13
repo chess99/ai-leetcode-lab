@@ -410,6 +410,29 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
                 }
             )
 
+    current_candidate_drift: list[dict[str, Any]] = []
+    for (slug, profile_id), candidate_event in latest_candidate_by_pair.items():
+        candidate_hash = str(candidate_event.get("code_sha256") or "")
+        problem = by_slug.get(slug)
+        if not candidate_hash or problem is None:
+            continue
+        directory = root / "problems" / problem_key(problem)
+        try:
+            meta = json.loads((directory / "meta.json").read_text(encoding="utf-8"))
+            current = (directory / str(meta["solutionFile"])).read_text(encoding="utf-8")
+        except (FileNotFoundError, KeyError, OSError, UnicodeError, json.JSONDecodeError):
+            continue
+        current_hash = hashlib.sha256(current.encode("utf-8")).hexdigest()
+        if current_hash != candidate_hash:
+            current_candidate_drift.append(
+                {
+                    "slug": slug,
+                    "profileId": profile_id,
+                    "candidateCodeSha256": candidate_hash,
+                    "currentCodeSha256": current_hash,
+                }
+            )
+
     ladder_paths: dict[str, list[dict[str, Any]]] = {}
     for slug in sorted(
         {slug for slug, _ in started_pairs}
@@ -514,6 +537,9 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         },
         "awaitingRemoteAccepted": len(awaiting_remote_accepted),
         "acceptedCodeDrift": sorted(accepted_code_drift, key=lambda item: item["slug"]),
+        "candidateCodeDrift": sorted(
+            current_candidate_drift, key=lambda item: (item["slug"], item["profileId"])
+        ),
         "candidateReady": len({slug for slug, _ in latest_candidate_by_pair}),
         "candidateReadyProfileAssignments": len(latest_candidate_by_pair),
         "ladderPaths": ladder_paths,
@@ -630,6 +656,7 @@ def render_markdown(summary: dict[str, Any]) -> str:
             f"失败正式提交：{summary['failedSubmissions']['attempts']} 次，"
             f"涉及 {summary['failedSubmissions']['uniqueProblems']} 题。",
             f"当前本地代码与 Accepted 代码哈希漂移：{len(summary['acceptedCodeDrift'])} 题。",
+            f"当前本地代码与 candidate-ready 哈希漂移：{len(summary['candidateCodeDrift'])} 个 Profile/题组合。",
         ]
     )
     lines.extend(["", "## Agent 贡献", ""])
