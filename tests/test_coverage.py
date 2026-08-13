@@ -52,6 +52,7 @@ class CoverageTests(unittest.TestCase):
             self.assertEqual(report["validLocalCandidates"], 1)
             self.assertEqual(report["placeholderSlugs"], ["todo"])
             self.assertEqual(len(report["candidateCodeSha256"]["ok"]), 64)
+            self.assertIn("javascript", report["syntaxGateAvailability"])
 
     def test_audit_detects_missing_directory_and_language_mismatch(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

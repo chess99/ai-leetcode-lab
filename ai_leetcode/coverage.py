@@ -6,6 +6,8 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import shutil
+import subprocess
 from typing import Any
 
 from .archive import load_catalog
@@ -74,6 +76,10 @@ def audit_coverage(*, root: Path = ROOT) -> dict[str, Any]:
     valid_candidates: set[str] = set()
     candidate_hashes: dict[str, str] = {}
     placeholder_slugs: set[str] = set()
+    external_syntax_candidates: dict[str, list[tuple[str, Path]]] = {
+        "javascript": [],
+        "bash": [],
+    }
     for slug in sorted(set(eligible_by_slug) & set(directories_by_slug)):
         paths = directories_by_slug[slug]
         if len(paths) != 1:
@@ -141,8 +147,47 @@ def audit_coverage(*, root: Path = ROOT) -> dict[str, Any]:
                 )
                 continue
             syntax_checked[language] += 1
+        elif language in external_syntax_candidates:
+            external_syntax_candidates[language].append((slug, solution_path))
         valid_candidates.add(slug)
         candidate_hashes[slug] = hashlib.sha256(source.encode("utf-8")).hexdigest()
+
+    syntax_gate_availability = {
+        "javascript": bool(shutil.which("node")),
+        "bash": bool(shutil.which("sh")),
+        "typescript": bool(shutil.which("tsc")),
+        "mysql": False,
+    }
+    syntax_gate_skipped = Counter(
+        {
+            language: language_counts[language]
+            for language in ("bash", "typescript", "mysql")
+            if language_counts[language] and not syntax_gate_availability[language]
+        }
+    )
+    for language, candidates in external_syntax_candidates.items():
+        executable = "node" if language == "javascript" else "sh"
+        if not syntax_gate_availability[language]:
+            continue
+        for slug, solution_path in candidates:
+            command = (
+                [executable, "--check", str(solution_path)]
+                if language == "javascript"
+                else [executable, "-n", str(solution_path)]
+            )
+            result = subprocess.run(command, capture_output=True, text=True, timeout=10)
+            if result.returncode:
+                valid_candidates.discard(slug)
+                candidate_hashes.pop(slug, None)
+                issues.append(
+                    {
+                        "slug": slug,
+                        "kind": f"{language}_syntax_error",
+                        "reason": (result.stderr or result.stdout).strip(),
+                    }
+                )
+            else:
+                syntax_checked[language] += 1
 
     return {
         "schemaVersion": 1,
@@ -153,6 +198,8 @@ def audit_coverage(*, root: Path = ROOT) -> dict[str, Any]:
         "invalidLocalCandidates": len(eligible) - len(valid_candidates),
         "languageCounts": dict(sorted(language_counts.items())),
         "syntaxChecked": dict(sorted(syntax_checked.items())),
+        "syntaxGateAvailability": syntax_gate_availability,
+        "syntaxGateSkipped": dict(sorted(syntax_gate_skipped.items())),
         "missingDirectories": missing_directories,
         "duplicateDirectories": duplicate_directories,
         "malformedDirectories": malformed_directories,
@@ -161,7 +208,8 @@ def audit_coverage(*, root: Path = ROOT) -> dict[str, Any]:
         "issues": issues,
         "policy": (
             "本地候选仅表示目录、必要文件、语言映射、占位标记与可用静态语法门禁通过；"
-            "不等于远程 Accepted。"
+            "可用原语言门禁会执行；缺少本机检查器的语言仅做文件和占位静态门禁。"
+            "本地候选不等于远程 Accepted。"
         ),
     }
 

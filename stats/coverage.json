@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T02:12:06Z",
+  "generatedAt": "2026-08-13T02:19:42Z",
   "eligibleProblems": 3628,
   "directoriesPresent": 3628,
-  "validLocalCandidates": 3612,
-  "invalidLocalCandidates": 16,
+  "validLocalCandidates": 3614,
+  "invalidLocalCandidates": 14,
   "languageCounts": {
     "bash": 4,
     "javascript": 36,
@@ -14,8 +14,20 @@
     "typescript": 2
   },
   "syntaxChecked": {
-    "python3": 3450,
+    "javascript": 36,
+    "python3": 3452,
     "pythondata": 19
+  },
+  "syntaxGateAvailability": {
+    "javascript": true,
+    "bash": false,
+    "typescript": false,
+    "mysql": false
+  },
+  "syntaxGateSkipped": {
+    "bash": 4,
+    "mysql": 101,
+    "typescript": 2
   },
   "missingDirectories": [],
   "duplicateDirectories": {},
@@ -33,9 +45,7 @@
     "kskhHQ",
     "maximum-total-subarray-value-ii",
     "minimum-steps-to-convert-string-with-operations",
-    "rMeRt2",
     "rdmXM7",
-    "threshold-majority-queries",
     "you-le-yuan-de-you-lan-ji-hua"
   ],
   "candidateCodeSha256": {
@@ -2885,6 +2895,7 @@
     "queries-quality-and-percentage": "5a1563f1661d3ab3b4a7c93bf5ee6d7289e9f2c907f697c1e6e5bf61364841ff",
     "query-kth-smallest-trimmed-number": "0bf170fcbc489e8137027879df628ba93cbe6df0db8b9a31ff3ee52d7e180d37",
     "queue-reconstruction-by-height": "ed6bf31a31abf603edfbb8e92cf421d6fabaae5dd60190a8cb2700c397fa9a3f",
+    "rMeRt2": "5eacfa06fcf6b041734497602a980d26e07bb8d7994ed869a4bc588b66ace0b8",
     "rabbits-in-forest": "cecb2d2b4e6de225edd21909a48fbb2c900fb4158dc46c825707482308673acc",
     "race-car": "47ab28f87c55f66887b8b38ce53229db5035985237ec4fa2cf566161a08453d2",
     "random-flip-matrix": "0b37be03fc5bb4b448f09ca04684aa88e2f2c44e751ac86344ab3ecb93c4207d",
@@ -3453,6 +3464,7 @@
     "three-equal-parts": "ea59024bf05f40f2b1f4299a6849c4cf768723a25de9b70ecb98c136bfef75cc",
     "three-in-one-lcci": "28a2a48877e60928b2941324998591cbcaa5b1d3926ce5b006464b82c014808f",
     "three-steps-problem-lcci": "05653bee44fe6a254e373c88a98778c977b23770e38a03bf6e4cc83f3ecb2f62",
+    "threshold-majority-queries": "0616ddd66d0379eab3371738b1ddbb901b78fe3875f3187194ef8897481564e3",
     "throne-inheritance": "cc17f6fc32ad8c9849e5d02f49e6f39338d92de2fde3ac77184f6e78d7cade7b",
     "ti-huan-kong-ge-lcof": "697f619f8ba54390ad501a8bbaf0aa9adedddcce5a2231952cc8fa9b9e53de16",
     "tic-tac-toe-lcci": "a0062741841b88f53761b6b0c34eb325297aed37bb614068beff56acde100990",
@@ -3702,15 +3714,7 @@
       "kind": "placeholder_marker"
     },
     {
-      "slug": "rMeRt2",
-      "kind": "placeholder_marker"
-    },
-    {
       "slug": "rdmXM7",
-      "kind": "placeholder_marker"
-    },
-    {
-      "slug": "threshold-majority-queries",
       "kind": "placeholder_marker"
     },
     {
@@ -3718,5 +3722,5 @@
       "kind": "placeholder_marker"
     }
   ],
-  "policy": "本地候选仅表示目录、必要文件、语言映射、占位标记与可用静态语法门禁通过；不等于远程 Accepted。"
+  "policy": "本地候选仅表示目录、必要文件、语言映射、占位标记与可用静态语法门禁通过；可用原语言门禁会执行；缺少本机检查器的语言仅做文件和占位静态门禁。本地候选不等于远程 Accepted。"
 }
