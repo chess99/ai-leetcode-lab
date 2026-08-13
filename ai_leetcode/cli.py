@@ -32,6 +32,7 @@ from .config import (
 from .coverage import audit_coverage, write_coverage
 from .doctor import print_checks, run_doctor
 from .events import BudgetError, EventStore
+from .quota import submission_quota_status
 from .runner import RemoteActionLock, run_remote_test, submit_solution
 from .stats import build_summary, write_stats
 
@@ -431,6 +432,17 @@ def _cmd_stats(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_quota_status(args: argparse.Namespace) -> int:
+    status = submission_quota_status(
+        EventStore().effective_events(),
+        limit=args.limit,
+        window_hours=args.window_hours,
+        buffer_seconds=args.buffer_seconds,
+    )
+    print(json.dumps(status, ensure_ascii=False, separators=(",", ":")))
+    return 0
+
+
 def _cmd_audit(args: argparse.Namespace) -> int:
     report = write_coverage()
     _print_json(report)
@@ -584,6 +596,14 @@ def build_parser() -> argparse.ArgumentParser:
 
     stats = subparsers.add_parser("stats", help="重建统计报告")
     stats.set_defaults(func=_cmd_stats)
+
+    quota_status = subparsers.add_parser(
+        "quota-status", help="按本地判题证据计算滚动提交额度窗口"
+    )
+    quota_status.add_argument("--limit", type=int, default=500)
+    quota_status.add_argument("--window-hours", type=float, default=24)
+    quota_status.add_argument("--buffer-seconds", type=int, default=15)
+    quota_status.set_defaults(func=_cmd_quota_status)
 
     audit = subparsers.add_parser("audit", help="审计全部免费题的本地候选覆盖与静态门禁")
     audit.set_defaults(func=_cmd_audit)

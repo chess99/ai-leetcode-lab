@@ -26,7 +26,7 @@ sol-low（可选） → sol-medium → sol-high → sol-xhigh → sol-max（可�
 - 统计首次成功 Profile × 难度、首投通过率、失败/defer、墙钟时间、远程耗时和 Token 覆盖率。
 - 只有客户端提供精确 Token 数据时才记录；缺失值不会估算。
 - 多 worker 可并行推理不同题，远程动作通过共享锁串行化。
-- 连续 HTTP 429 使用 60 秒起步、最高 15 分钟的指数退避；任一正常判题响应会重置退避级别。
+- 连续 HTTP 429 使用 60 秒起步、最高 15 分钟的指数退避；任一正常判题响应会重置退避级别。另有可配置的滚动 24 小时 / 500 次正式提交保护门禁，避免已观察到额度耗尽形态时反复探测；这是本实验的保守策略，不宣称为平台官方公开配额。
 - Git 提交前扫描 LeetCode 会话和常见密钥格式。
 
 ## 快速开始
@@ -72,7 +72,7 @@ sol-low（可选） → sol-medium → sol-high → sol-xhigh → sol-max（可�
 .\scripts\run-profile-ladder.ps1
 ```
 
-队列始终通过仓库 CLI 提交，并只选择“当前 Profile 的 candidate-ready 哈希与工作区代码一致”的题；选择器和提交器均执行此门禁。队列遵守共享锁、13 秒最小间隔和指数退避。一次正常判题失败会把该题 defer 给更高 Profile；HTTP 429、网络和平台故障不计模型失败，队列等待后重试同一道题。运行状态保存在忽略目录 `.runtime/submit-queue-state.json`；创建 `.runtime/submit-queue.stop` 可在当前动作结束后安全停止。`-MaxTerminalResults` 可用于小批量试运行，`-StatsEvery` 控制统计刷新频率。
+队列始终通过仓库 CLI 提交，并只选择“当前 Profile 的 candidate-ready 哈希与工作区代码一致”的题；选择器和提交器均执行此门禁。队列遵守共享锁、13 秒最小间隔、滚动提交额度门禁和指数退避。一次正常判题失败会把该题 defer 给更高 Profile；HTTP 429、网络和平台故障不计模型失败，队列等待后重试同一道题。运行状态保存在忽略目录 `.runtime/submit-queue-state.json`；创建 `.runtime/submit-queue.stop` 可在当前动作结束后安全停止。`-MaxTerminalResults` 可用于小批量试运行，`-StatsEvery` 控制统计刷新频率；`ai-lc.ps1 quota-status` 可查看本地证据计算出的窗口占用和下次允许时间。
 
 更高档位接手同一题时，`start` 不会覆盖现有解答：
 

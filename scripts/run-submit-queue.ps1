@@ -7,6 +7,12 @@ param(
 
     [int] $InfrastructureDelaySeconds = 60,
 
+    [int] $RemoteQuotaLimit = 500,
+
+    [double] $RemoteQuotaWindowHours = 24,
+
+    [int] $RemoteQuotaBufferSeconds = 15,
+
     [switch] $ClearStop
 )
 
@@ -38,6 +44,8 @@ $deferredThisRun = 0
 $infrastructureFailures = 0
 $terminalSinceStats = 0
 $currentSlug = $null
+$quotaWaitSeconds = 0
+$quotaNextAllowedAt = $null
 $instanceLockStream = $null
 
 function Acquire-InstanceLock {
@@ -102,6 +110,8 @@ function Write-QueueState {
         acceptedThisRun = $acceptedThisRun
         deferredThisRun = $deferredThisRun
         infrastructureFailures = $infrastructureFailures
+        quotaWaitSeconds = $quotaWaitSeconds
+        quotaNextAllowedAt = $quotaNextAllowedAt
         updatedAt = [DateTimeOffset]::UtcNow.ToString("o")
     }
     $state | ConvertTo-Json | Set-Content -LiteralPath $statePath -Encoding utf8
@@ -209,6 +219,27 @@ function Get-BackoffSeconds {
     }
 }
 
+function Get-QuotaStatus {
+    if ($RemoteQuotaLimit -le 0) {
+        return [pscustomobject]@{ waitSeconds = 0; nextAllowedAt = $null }
+    }
+    $quota = Invoke-AiLc -Arguments @(
+        "quota-status",
+        "--limit", "$RemoteQuotaLimit",
+        "--window-hours", "$RemoteQuotaWindowHours",
+        "--buffer-seconds", "$RemoteQuotaBufferSeconds"
+    )
+    if ($quota.ExitCode -ne 0) {
+        throw "Failed to calculate the local submission quota window."
+    }
+    try {
+        return $quota.Text | ConvertFrom-Json
+    }
+    catch {
+        throw "Could not parse quota status: $($quota.Text)"
+    }
+}
+
 function Wait-Interruptibly {
     param([Parameter(Mandatory = $true)][int] $Seconds)
 
@@ -257,6 +288,20 @@ try {
             ($acceptedThisRun + $deferredThisRun) -ge $MaxTerminalResults
         ) {
             break
+        }
+
+        $quota = Get-QuotaStatus
+        $quotaWaitSeconds = [int]$quota.waitSeconds
+        $quotaNextAllowedAt = $quota.nextAllowedAt
+        if ($quotaWaitSeconds -gt 0) {
+            Write-QueueState -Status "quota_wait" -Outcome "rolling_window_quota"
+            Write-Output "WAIT rolling quota $quotaWaitSeconds seconds until $quotaNextAllowedAt"
+            if (-not (Wait-Interruptibly -Seconds $quotaWaitSeconds)) {
+                break
+            }
+            $quotaWaitSeconds = 0
+            $quotaNextAllowedAt = $null
+            continue
         }
 
         $next = Invoke-AiLc -Arguments @(
