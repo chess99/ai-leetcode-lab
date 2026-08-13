@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T10:16:57Z",
+  "generatedAt": "2026-08-13T10:24:23Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -17,17 +17,17 @@
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
   "started": 3628,
-  "accepted": 1117,
+  "accepted": 1122,
   "deferredProblems": 15,
   "deferredProfileAssignments": 31,
   "reviewRequired": 0,
-  "remainingAccessible": 2511,
+  "remainingAccessible": 2506,
   "remoteTests": 1,
-  "submissions": 1147,
-  "firstSubmissionAccepted": 1098,
-  "firstRoundAccepted": 1117,
-  "firstSubmissionAcceptanceRate": 0.9829901521933752,
-  "overallSubmissionAcceptanceRate": 0.97384481255449,
+  "submissions": 1152,
+  "firstSubmissionAccepted": 1103,
+  "firstRoundAccepted": 1122,
+  "firstSubmissionAcceptanceRate": 0.9830659536541889,
+  "overallSubmissionAcceptanceRate": 0.9739583333333334,
   "byDifficulty": {
     "EASY": {
       "eligible": 949,
@@ -41,8 +41,8 @@
     },
     "MEDIUM": {
       "eligible": 1836,
-      "accepted": 145,
-      "remoteAcceptanceCoverage": 0.0789760348583878
+      "accepted": 150,
+      "remoteAcceptanceCoverage": 0.08169934640522876
     }
   },
   "catalogByDifficulty": {
@@ -86,12 +86,12 @@
     "MEDIUM": {
       "eligible": 1836,
       "started": 1836,
-      "submitted": 146,
-      "remoteAccepted": 145,
+      "submitted": 151,
+      "remoteAccepted": 150,
       "failedSubmissionProblems": 1,
       "deferred": 1,
-      "awaitingRemoteAccepted": 1691,
-      "remoteAcceptanceCoverage": 0.0789760348583878
+      "awaitingRemoteAccepted": 1686,
+      "remoteAcceptanceCoverage": 0.08169934640522876
     }
   },
   "failedSubmissions": {
@@ -104,9 +104,9 @@
     "total": 140,
     "countsAgainstModelMetrics": false
   },
-  "awaitingRemoteAccepted": 2511,
+  "awaitingRemoteAccepted": 2506,
   "acceptedCodeDrift": [],
-  "acceptedCodeExactMatchCount": 1117,
+  "acceptedCodeExactMatchCount": 1122,
   "candidateCodeDrift": [],
   "candidateReady": 3628,
   "candidateReadyProfileAssignments": 3629,
@@ -1564,7 +1564,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "4e4e621d540882f30a1193bd30a76cefd1825bd16e0031042661a4c71c0785e9",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "adjacent-increasing-subarrays-detection-i": [
@@ -2518,7 +2518,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "fa07f747750d1cb97ffb52afb9f2a0058be6d6d07767005114286b1ca15712a0",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "best-time-to-buy-and-sell-stock-with-transaction-fee": [
@@ -20511,7 +20511,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e5ab3ed2f8c5f63cbddfdbaf9edc91a7fea966aed5d55dfe95c52cfb6ed68f0c",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "minimum-hours-of-training-to-win-a-competition": [
@@ -26168,7 +26168,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e8e03cbdaf778dac638d1417dd00089fe0749d2c32fc136010f16c1284b2ccd0",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "range-sum-query-immutable": [
@@ -26186,7 +26186,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "88294cbb8d9207238559cb4880afb79eaca3d3becfaec1651108bf48b19ae76e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "rank-from-stream-lcci": [
@@ -33130,9 +33130,9 @@
         "byDifficulty": {
           "EASY": 485,
           "HARD": 486,
-          "MEDIUM": 145
+          "MEDIUM": 150
         },
-        "total": 1116
+        "total": 1121
       },
       {
         "kind": "firstAccepted",
@@ -33190,9 +33190,9 @@
         "byDifficulty": {
           "EASY": 463,
           "HARD": 357,
-          "MEDIUM": 1691
+          "MEDIUM": 1686
         },
-        "total": 2511
+        "total": 2506
       }
     ],
     "accountedByDifficulty": {
@@ -33205,7 +33205,7 @@
       "HARD": 843,
       "MEDIUM": 1836
     },
-    "pending": 2511,
+    "pending": 2506,
     "isComplete": false,
     "byProblem": {
       "01-matrix": {
@@ -34379,10 +34379,10 @@
       "additive-number": {
         "frontendId": "306",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "adjacent-increasing-subarrays-detection-i": {
         "frontendId": "3349",
@@ -35227,10 +35227,10 @@
       "best-time-to-buy-and-sell-stock-with-cooldown": {
         "frontendId": "309",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "best-time-to-buy-and-sell-stock-with-transaction-fee": {
         "frontendId": "714",
@@ -51171,10 +51171,10 @@
       "minimum-height-trees": {
         "frontendId": "310",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "minimum-hours-of-training-to-win-a-competition": {
         "frontendId": "2383",
@@ -56187,10 +56187,10 @@
       "range-sum-query-2d-immutable": {
         "frontendId": "304",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "range-sum-query-immutable": {
         "frontendId": "303",
@@ -56203,10 +56203,10 @@
       "range-sum-query-mutable": {
         "frontendId": "307",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "rank-from-stream-lcci": {
         "frontendId": "面试题 10.10",
@@ -62243,7 +62243,7 @@
       "terra-medium": 486
     },
     "MEDIUM": {
-      "terra-medium": 145
+      "terra-medium": 150
     }
   },
   "firstSuccessByProblem": {
@@ -62347,6 +62347,13 @@
     },
     "add-two-numbers": {
       "frontendId": "2",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "additive-number": {
+      "frontendId": "306",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -62523,6 +62530,13 @@
     "best-time-to-buy-and-sell-stock-iv": {
       "frontendId": "188",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "best-time-to-buy-and-sell-stock-with-cooldown": {
+      "frontendId": "309",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -66664,6 +66678,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "minimum-height-trees": {
+      "frontendId": "310",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "minimum-incompatibility": {
       "frontendId": "1681",
       "difficulty": "HARD",
@@ -68015,9 +68036,23 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "range-sum-query-2d-immutable": {
+      "frontendId": "304",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "range-sum-query-immutable": {
       "frontendId": "303",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "range-sum-query-mutable": {
+      "frontendId": "307",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -70069,11 +70104,11 @@
   },
   "acceptedByProfile": {
     "sol-xhigh": 1,
-    "terra-medium": 1116
+    "terra-medium": 1121
   },
   "acceptedByAgent": {
     "Codex Desktop / gpt-5.6-sol": 1,
-    "Codex Desktop / gpt-5.6-terra": 1116
+    "Codex Desktop / gpt-5.6-terra": 1121
   },
   "profiles": {
     "sol-low": {
@@ -70482,23 +70517,23 @@
       "stage": 1,
       "enabled": true,
       "started": 3627,
-      "accepted": 1116,
+      "accepted": 1121,
       "deferred": 15,
       "candidateReady": 3613,
       "reviewRequired": 0,
       "remoteTests": 0,
-      "submissions": 1146,
+      "submissions": 1151,
       "failedSubmissions": 30,
       "failedSubmissionProblems": 24,
       "infrastructureErrors": {
         "remoteTests": 0,
         "submissions": 140
       },
-      "firstSubmissionAccepted": 1097,
-      "remoteElapsedReports": 1286,
-      "remoteElapsedSeconds": 4664.549,
-      "averageSolveWallSeconds": 22327.46146953405,
-      "medianSolveWallSeconds": 2055.5,
+      "firstSubmissionAccepted": 1102,
+      "remoteElapsedReports": 1291,
+      "remoteElapsedSeconds": 4679.017,
+      "averageSolveWallSeconds": 22895.57627118644,
+      "medianSolveWallSeconds": 2077.0,
       "byDifficulty": {
         "EASY": {
           "started": 948,
@@ -70516,7 +70551,7 @@
         },
         "MEDIUM": {
           "started": 1836,
-          "accepted": 145,
+          "accepted": 150,
           "deferred": 1,
           "failedSubmissionAttempts": 1,
           "failedSubmissionProblems": 1
