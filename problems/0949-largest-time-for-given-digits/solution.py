@@ -1,9 +1,9 @@
 # AI solution attribution
 # Client: Codex Desktop
-# Model: gpt-5.6-terra
+# Model: gpt-5.6-sol
 # Reasoning effort: medium
-# Profile: terra-medium
-# Created: 2026-08-11T18:00:12Z
+# Profile: sol-medium
+# Created: 2026-08-13
 # Experiment: ai-leetcode-lab, round 1
 from itertools import permutations
 from typing import List
@@ -12,7 +12,13 @@ from typing import List
 class Solution:
     def largestTimeFromDigits(self, arr: List[int]) -> str:
         best = -1
+
         for a, b, c, d in permutations(arr):
-            value = 600 * a + 60 * b + 10 * c + d
-            if value < 1440: best = max(best, value)
-        return "" if best < 0 else f"{best // 60:02d}:{best % 60:02d}"
+            hour = 10 * a + b
+            minute = 10 * c + d
+            if hour < 24 and minute < 60:
+                best = max(best, 60 * hour + minute)
+
+        if best < 0:
+            return ""
+        return f"{best // 60:02d}:{best % 60:02d}"
