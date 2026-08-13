@@ -58,6 +58,14 @@ sol-low（可选） → sol-medium → sol-high → sol-xhigh → sol-max（可�
 .\ai-lc.ps1 next --profile sol-medium
 ```
 
+批量候选都完成本地验证后，可启动可恢复的串行送判队列：
+
+```powershell
+.\scripts\run-submit-queue.ps1 -Profile terra-medium
+```
+
+队列始终通过仓库 CLI 提交，并遵守共享锁、13 秒最小间隔和指数退避。一次正常判题失败会把该题 defer 给更高 Profile；HTTP 429、网络和平台故障不计模型失败，队列等待后重试同一道题。运行状态保存在忽略目录 `.runtime/submit-queue-state.json`；创建 `.runtime/submit-queue.stop` 可在当前动作结束后安全停止。`-MaxTerminalResults` 可用于小批量试运行，`-StatsEvery` 控制统计刷新频率。
+
 更高档位接手同一题时，`start` 不会覆盖现有解答：
 
 ```powershell
