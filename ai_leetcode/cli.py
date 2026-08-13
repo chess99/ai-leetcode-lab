@@ -270,6 +270,21 @@ def _cmd_annotate_profile(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_annotate_result(args: argparse.Namespace) -> int:
+    problem = resolve_problem(args.selector)
+    slug = str(problem["titleSlug"])
+    event = EventStore().annotate_result(
+        slug,
+        args.event_id,
+        outcome=args.outcome,
+        counts_against_budget=args.counts_against_budget,
+        classification=args.classification,
+        reason=args.reason,
+    )
+    _print_json(event)
+    return 0
+
+
 def _cmd_report_usage(args: argparse.Namespace) -> int:
     identity = _identity(args)
     assert identity is not None
@@ -312,6 +327,12 @@ def _cmd_candidate_ready(args: argparse.Namespace) -> int:
 
 
 def _candidate_profile(source: str) -> str | None:
+    revisions = re.findall(
+        r"(?m)^(?:#|//|--)\s*Revised by:.*?/\s*([\w-]+)\s*$",
+        source[:2000],
+    )
+    if revisions:
+        return revisions[-1]
     match = re.search(r"(?m)^(?:#|//|--)\s*Profile:\s*([\w-]+)\s*$", source[:1000])
     if match:
         return match.group(1)
@@ -338,6 +359,7 @@ def _cmd_backfill_candidates(args: argparse.Namespace) -> int:
         and event.get("profile_id")
     }
     current_candidates: dict[tuple[str, str], str] = {}
+    current_candidate_profiles_by_slug_and_hash: dict[tuple[str, str], str] = {}
     for event in events:
         if (
             event.get("type") == "candidate_ready"
@@ -347,6 +369,9 @@ def _cmd_backfill_candidates(args: argparse.Namespace) -> int:
             current_candidates[(str(event["slug"]), str(event["profile_id"]))] = str(
                 event.get("code_sha256") or ""
             )
+            current_candidate_profiles_by_slug_and_hash[
+                (str(event["slug"]), str(event.get("code_sha256") or ""))
+            ] = str(event["profile_id"])
 
     appended = 0
     skipped = 0
@@ -364,6 +389,8 @@ def _cmd_backfill_candidates(args: argparse.Namespace) -> int:
             failures.append(f"{slug}: {exc}")
             continue
         profile_id = _candidate_profile(source)
+        if profile_id is None:
+            profile_id = current_candidate_profiles_by_slug_and_hash.get((slug, code_hash))
         pair = (slug, str(profile_id))
         if profile_id not in configured:
             failures.append(f"{slug}: unrecognized Profile in solution header: {profile_id}")
@@ -445,6 +472,7 @@ def _cmd_quota_status(args: argparse.Namespace) -> int:
         limit=args.limit,
         window_hours=args.window_hours,
         buffer_seconds=args.buffer_seconds,
+        accounting=args.accounting,
     )
     print(json.dumps(status, ensure_ascii=False, separators=(",", ":")))
     return 0
@@ -581,6 +609,26 @@ def build_parser() -> argparse.ArgumentParser:
     add_profile(annotate, required=True)
     annotate.set_defaults(func=_cmd_annotate_profile)
 
+    annotate_result = subparsers.add_parser(
+        "annotate-result", help="以追加事件无损校正远程结果分类"
+    )
+    annotate_result.add_argument("selector")
+    annotate_result.add_argument("--event-id", required=True, help="待校正结果事件 ID")
+    annotate_result.add_argument(
+        "--outcome",
+        required=True,
+        choices=["infrastructure_error", "failed", "rejected", "accepted"],
+    )
+    annotate_result.add_argument(
+        "--counts-against-budget",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="是否计入模型实验尝试预算",
+    )
+    annotate_result.add_argument("--classification", required=True)
+    annotate_result.add_argument("--reason", required=True)
+    annotate_result.set_defaults(func=_cmd_annotate_result)
+
     report_usage = subparsers.add_parser("report-usage", help="追加客户端提供的精确 Token/耗时数据")
     report_usage.add_argument("selector")
     report_usage.add_argument("--input-tokens", type=int)
@@ -631,6 +679,12 @@ def build_parser() -> argparse.ArgumentParser:
     quota_status.add_argument("--limit", type=int, default=500)
     quota_status.add_argument("--window-hours", type=float, default=24)
     quota_status.add_argument("--buffer-seconds", type=int, default=15)
+    quota_status.add_argument(
+        "--accounting",
+        choices=["remote", "experiment"],
+        default="remote",
+        help="remote 保护实际请求频率；experiment 按模型尝试预算核算",
+    )
     quota_status.set_defaults(func=_cmd_quota_status)
 
     escalation_status = subparsers.add_parser(

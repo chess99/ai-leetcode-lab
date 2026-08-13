@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:45:40Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 
 class Solution:
     def findTargetNode(self, root: Optional[TreeNode], cnt: int) -> int:

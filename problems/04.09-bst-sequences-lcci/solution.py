@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-12T18:34:29Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 import sys
 from typing import List, Optional
 

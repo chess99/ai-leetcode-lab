@@ -12,7 +12,7 @@ from unittest.mock import patch
 from ai_leetcode.client import JudgeTask
 from ai_leetcode.config import ArchiveConfig, AttemptBudget, ExperimentConfig, Identity
 from ai_leetcode.events import EventStore
-from ai_leetcode.runner import RemoteActionLock, submit_solution
+from ai_leetcode.runner import RemoteActionLock, _validate_submission_source, submit_solution
 
 
 class AcceptedClient:
@@ -40,6 +40,15 @@ class AcceptedClient:
 
 
 class RunnerTests(unittest.TestCase):
+    def test_python_future_annotations_is_blocked_before_remote_submission(self) -> None:
+        with self.assertRaisesRegex(Exception, "LeetCode.*注入"):
+            _validate_submission_source(
+                "python3", "from __future__ import annotations\nclass Solution:\n    pass\n"
+            )
+        _validate_submission_source("python3", "class Solution:\n    pass\n")
+        _validate_submission_source(
+            "javascript", "from __future__ import annotations"
+        )
     def setUp(self) -> None:
         self.temp = tempfile.TemporaryDirectory()
         self.root = Path(self.temp.name)

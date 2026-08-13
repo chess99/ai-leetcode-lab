@@ -187,6 +187,18 @@ def _working_problem(selector: str, root: Path) -> tuple[dict[str, Any], dict[st
     return problem, meta, solution_path, code
 
 
+def _validate_submission_source(language: str, code: str) -> None:
+    if language != "python3":
+        return
+    for line_number, line in enumerate(code.splitlines(), start=1):
+        if line.strip() == "from __future__ import annotations":
+            raise ArchiveError(
+                "Python3 候选不能包含 `from __future__ import annotations`："
+                "LeetCode 可能在源码前注入节点类型，导致该导入不再位于文件开头；"
+                f"当前位于第 {line_number} 行"
+            )
+
+
 def _safe_judge_result(raw: dict[str, Any]) -> dict[str, Any]:
     return {key: raw[key] for key in RESULT_FIELDS if key in raw and raw[key] not in (None, "")}
 
@@ -213,6 +225,7 @@ def run_remote_test(
     problem, meta, _, code = _working_problem(selector, root)
     code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
     language = str(meta["language"])
+    _validate_submission_source(language, code)
     sample = test_input
     if sample is None:
         from .archive import load_detail

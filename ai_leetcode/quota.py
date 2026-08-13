@@ -18,6 +18,7 @@ def submission_quota_status(
     window_hours: float = 24,
     buffer_seconds: int = 15,
     now: datetime | None = None,
+    accounting: str = "remote",
 ) -> dict[str, Any]:
     """Return a conservative rolling-window gate for formal submissions.
 
@@ -31,6 +32,8 @@ def submission_quota_status(
         raise ValueError("window_hours must be positive")
     if buffer_seconds < 0:
         raise ValueError("buffer_seconds cannot be negative")
+    if accounting not in {"remote", "experiment"}:
+        raise ValueError("accounting must be remote or experiment")
 
     current = (now or datetime.now(timezone.utc)).astimezone(timezone.utc)
     window = timedelta(hours=window_hours)
@@ -48,8 +51,18 @@ def submission_quota_status(
     charged: list[datetime] = []
     for action_id, started_at in starts.items():
         result = results.get(action_id)
-        if result is not None and not bool(result.get("counts_against_budget", True)):
-            continue
+        if result is not None:
+            if accounting == "experiment" and not bool(
+                result.get("counts_against_budget", True)
+            ):
+                continue
+            if accounting == "remote" and not bool(
+                result.get(
+                    "remote_counts_against_quota",
+                    result.get("counts_against_budget", True),
+                )
+            ):
+                continue
         if current - window < started_at <= current:
             charged.append(started_at)
     charged.sort()
@@ -72,5 +85,6 @@ def submission_quota_status(
         "remaining": max(0, limit - len(charged)),
         "waitSeconds": wait_seconds,
         "nextAllowedAt": next_allowed_at,
-        "policy": "rolling_window_local_evidence",
+        "accounting": accounting,
+        "policy": f"rolling_window_{accounting}_evidence",
     }

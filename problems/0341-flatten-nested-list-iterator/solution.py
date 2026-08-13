@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T16:47:58Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 # """
 # This is the interface that allows for creating nested lists.
 # You should not implement it, or speculate about its implementation

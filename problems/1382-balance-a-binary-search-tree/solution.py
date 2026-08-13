@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T18:43:09Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val, self.left, self.right = val, left, right

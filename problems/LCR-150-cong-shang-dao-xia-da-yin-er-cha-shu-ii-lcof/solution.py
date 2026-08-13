@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:43:02Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 
 class Solution:
     def decorateRecord(self, root: Optional[TreeNode]) -> List[List[int]]:

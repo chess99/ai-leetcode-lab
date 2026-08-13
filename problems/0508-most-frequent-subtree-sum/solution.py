@@ -5,7 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T17:13:08Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
 from collections import Counter
 from typing import List, Optional
 

@@ -229,7 +229,8 @@ function Get-QuotaStatus {
         "quota-status",
         "--limit", "$RemoteQuotaLimit",
         "--window-hours", "$RemoteQuotaWindowHours",
-        "--buffer-seconds", "$RemoteQuotaBufferSeconds"
+        "--buffer-seconds", "$RemoteQuotaBufferSeconds",
+        "--accounting", "remote"
     )
     if ($quota.ExitCode -ne 0) {
         throw "Failed to calculate the local submission quota window."

@@ -61,7 +61,7 @@ class EventStore:
         return event
 
     def effective_events(self) -> list[dict[str, Any]]:
-        """Return events with append-only profile annotations projected onto their targets."""
+        """Return events with append-only annotations projected onto their targets."""
         events = self.load()
         known_ids = {str(event.get("event_id")) for event in events}
         patches: dict[str, dict[str, Any]] = {}
@@ -80,9 +80,30 @@ class EventStore:
                 target_id = str(target)
                 if target_id in known_ids:
                     patches.setdefault(target_id, {}).update(patch)
+        for annotation in events:
+            if annotation.get("type") != "result_annotation":
+                continue
+            target_id = str(
+                annotation.get("target_event_id")
+                or annotation.get("targetEventId")
+                or ""
+            )
+            if target_id not in known_ids:
+                continue
+            patch = {
+                key: annotation[key]
+                for key in (
+                    "outcome",
+                    "counts_against_budget",
+                    "remote_counts_against_quota",
+                    "classification",
+                )
+                if key in annotation
+            }
+            patches.setdefault(target_id, {}).update(patch)
         return [
             {**event, **patches.get(str(event.get("event_id")), {})}
-            if event.get("type") != "profile_annotation"
+            if event.get("type") not in {"profile_annotation", "result_annotation"}
             else dict(event)
             for event in events
         ]
@@ -308,6 +329,47 @@ class EventStore:
             client=identity.client,
             model=identity.model,
             reasoning_effort=identity.reasoning_effort,
+            reason=reason.strip(),
+        )
+
+    def annotate_result(
+        self,
+        slug: str,
+        target_event_id: str,
+        *,
+        outcome: str,
+        counts_against_budget: bool,
+        classification: str,
+        reason: str,
+    ) -> dict[str, Any]:
+        raw_events = self.load()
+        target = next(
+            (
+                event
+                for event in raw_events
+                if str(event.get("event_id")) == str(target_event_id)
+                and event.get("slug") == slug
+                and event.get("type") in {"remote_test_result", "submission_result"}
+            ),
+            None,
+        )
+        if target is None:
+            raise BudgetError(f"结果事件不属于题目 {slug} 或不存在：{target_event_id}")
+        if outcome not in {"infrastructure_error", "failed", "rejected", "accepted"}:
+            raise BudgetError(f"不支持的校正结果：{outcome}")
+        if not classification.strip() or not reason.strip():
+            raise BudgetError("结果校正必须提供分类与可核验依据")
+        return self.append(
+            "result_annotation",
+            slug=slug,
+            target_event_id=str(target_event_id),
+            original_outcome=target.get("outcome"),
+            outcome=outcome,
+            counts_against_budget=bool(counts_against_budget),
+            remote_counts_against_quota=bool(
+                target.get("counts_against_budget", True)
+            ),
+            classification=classification.strip(),
             reason=reason.strip(),
         )
 

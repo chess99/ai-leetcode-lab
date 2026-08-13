@@ -6,8 +6,6 @@
 # Created: 2026-08-11T20:05:31Z
 # Experiment: ai-leetcode-lab, round 1
 
-from __future__ import annotations
-
 from typing import Optional
 
 

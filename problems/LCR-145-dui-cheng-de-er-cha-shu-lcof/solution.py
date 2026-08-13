@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T15:43:01Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 
 class Solution:
     def checkSymmetricTree(self, root: Optional[TreeNode]) -> bool:

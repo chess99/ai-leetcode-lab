@@ -90,6 +90,30 @@ class EventBudgetTests(unittest.TestCase):
         self.assertEqual(effective["model"], "test-model")
         self.assertTrue(self.store.path.read_text(encoding="utf-8").startswith(original))
 
+    def test_result_annotation_reclassifies_without_rewriting_history(self) -> None:
+        result = self.store.append(
+            "submission_result",
+            slug="two-sum",
+            outcome="failed",
+            counts_against_budget=True,
+        )
+        original = self.store.path.read_text(encoding="utf-8")
+        annotation = self.store.annotate_result(
+            "two-sum",
+            result["event_id"],
+            outcome="infrastructure_error",
+            counts_against_budget=False,
+            classification="submission_packaging_error",
+            reason="判题器注入前缀使 future import 失去文件首行位置",
+        )
+        effective = self.store.effective_events()[0]
+        self.assertEqual(annotation["type"], "result_annotation")
+        self.assertEqual(effective["outcome"], "infrastructure_error")
+        self.assertFalse(effective["counts_against_budget"])
+        self.assertTrue(effective["remote_counts_against_quota"])
+        self.assertEqual(effective["classification"], "submission_packaging_error")
+        self.assertTrue(self.store.path.read_text(encoding="utf-8").startswith(original))
+
     def test_usage_report_requires_source_and_keeps_exact_values(self) -> None:
         self.store.ensure_profile_started(self.problem, "python3", self.identity)
         event = self.store.report_usage(

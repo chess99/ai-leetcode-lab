@@ -177,6 +177,20 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(report["interfaceChecked"], {"python3": 1})
         self.assertEqual(report["issues"], [])
 
+    def test_python_future_annotations_is_submission_incompatible(self) -> None:
+        report = self._audit_single_python(
+            "class Solution:\n    def run(self, value: int):\n        ",
+            "from __future__ import annotations\n"
+            "class Solution:\n"
+            "    def run(self, value):\n"
+            "        return value\n",
+        )
+        self.assertEqual(report["validLocalCandidates"], 0)
+        self.assertEqual(
+            report["issues"][0]["kind"],
+            "python_submission_incompatible_future_annotations",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

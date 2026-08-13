@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T18:51:30Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 class Solution:
     def pseudoPalindromicPaths(self, root: TreeNode) -> int:
         count = 0; stack = [(root, 0)]

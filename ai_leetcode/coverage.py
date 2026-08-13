@@ -331,6 +331,16 @@ def audit_coverage(*, root: Path = ROOT) -> dict[str, Any]:
             issues.append({"slug": slug, "kind": "placeholder_marker"})
             continue
         if language in {"python3", "pythondata"}:
+            if language == "python3" and re.search(
+                r"(?m)^\s*from\s+__future__\s+import\s+annotations\s*$", source
+            ):
+                issues.append(
+                    {
+                        "slug": slug,
+                        "kind": "python_submission_incompatible_future_annotations",
+                    }
+                )
+                continue
             try:
                 candidate_tree = ast.parse(source, filename=str(solution_path))
             except SyntaxError as exc:

@@ -6,8 +6,6 @@
 # Created: 2026-08-11T20:37:10Z
 # Experiment: ai-leetcode-lab, round 1
 
-from __future__ import annotations
-
 from collections import defaultdict, deque
 from typing import Optional
 

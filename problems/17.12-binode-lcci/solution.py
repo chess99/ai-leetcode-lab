@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T16:02:45Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 
 # Definition for a binary tree node.
 # class TreeNode:

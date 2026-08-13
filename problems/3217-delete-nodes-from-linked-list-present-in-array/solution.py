@@ -5,7 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T21:46:15Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
 from typing import List, Optional
 
 # Definition for singly-linked list.

@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-12T04:46:34Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 from typing import List, Optional
 from collections import deque
 # Definition for a binary tree node.

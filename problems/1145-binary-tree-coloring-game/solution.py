@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-11T18:24:05Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 
 class Solution:
     def btreeGameWinningMove(self, root: Optional[TreeNode], n: int, x: int) -> bool:

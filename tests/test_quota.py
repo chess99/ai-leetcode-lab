@@ -54,10 +54,35 @@ class SubmissionQuotaTests(unittest.TestCase):
         status = submission_quota_status(
             events,
             limit=1,
+            accounting="experiment",
             now=datetime(2026, 8, 12, 12, tzinfo=timezone.utc),
         )
         self.assertEqual(status["used"], 0)
         self.assertEqual(status["waitSeconds"], 0)
+
+    def test_remote_accounting_still_counts_reclassified_sent_request(self) -> None:
+        events = [
+            {
+                "type": "submission_started",
+                "action_id": "packaging-error",
+                "timestamp": "2026-08-12T11:59:00Z",
+            },
+            {
+                "type": "submission_result",
+                "action_id": "packaging-error",
+                "outcome": "infrastructure_error",
+                "counts_against_budget": False,
+                "remote_counts_against_quota": True,
+            },
+        ]
+        status = submission_quota_status(
+            events,
+            limit=1,
+            accounting="remote",
+            now=datetime(2026, 8, 12, 12, tzinfo=timezone.utc),
+        )
+        self.assertEqual(status["used"], 1)
+        self.assertGreater(status["waitSeconds"], 0)
 
     def test_unfinished_submission_is_counted_conservatively(self) -> None:
         events = [

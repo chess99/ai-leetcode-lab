@@ -5,8 +5,6 @@
 # Profile: terra-medium
 # Created: 2026-08-12T04:15:27Z
 # Experiment: ai-leetcode-lab, round 1
-from __future__ import annotations
-
 
 # Definition for singly-linked list.
 # class ListNode:
