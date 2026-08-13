@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13T09:33:38Z",
+  "generatedAt": "2026-08-13T09:39:53Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -17,17 +17,17 @@
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
   "started": 3628,
-  "accepted": 1088,
+  "accepted": 1093,
   "deferredProblems": 14,
   "deferredProfileAssignments": 30,
   "reviewRequired": 0,
-  "remainingAccessible": 2540,
+  "remainingAccessible": 2535,
   "remoteTests": 1,
-  "submissions": 1117,
-  "firstSubmissionAccepted": 1069,
-  "firstRoundAccepted": 1088,
-  "firstSubmissionAcceptanceRate": 0.9825367647058824,
-  "overallSubmissionAcceptanceRate": 0.9740376007162042,
+  "submissions": 1122,
+  "firstSubmissionAccepted": 1074,
+  "firstRoundAccepted": 1093,
+  "firstSubmissionAcceptanceRate": 0.9826166514181153,
+  "overallSubmissionAcceptanceRate": 0.9741532976827094,
   "byDifficulty": {
     "EASY": {
       "eligible": 949,
@@ -41,8 +41,8 @@
     },
     "MEDIUM": {
       "eligible": 1836,
-      "accepted": 117,
-      "remoteAcceptanceCoverage": 0.06372549019607843
+      "accepted": 122,
+      "remoteAcceptanceCoverage": 0.0664488017429194
     }
   },
   "catalogByDifficulty": {
@@ -86,12 +86,12 @@
     "MEDIUM": {
       "eligible": 1836,
       "started": 1836,
-      "submitted": 117,
-      "remoteAccepted": 117,
+      "submitted": 122,
+      "remoteAccepted": 122,
       "failedSubmissionProblems": 0,
       "deferred": 0,
-      "awaitingRemoteAccepted": 1719,
-      "remoteAcceptanceCoverage": 0.06372549019607843
+      "awaitingRemoteAccepted": 1714,
+      "remoteAcceptanceCoverage": 0.0664488017429194
     }
   },
   "failedSubmissions": {
@@ -104,9 +104,9 @@
     "total": 140,
     "countsAgainstModelMetrics": false
   },
-  "awaitingRemoteAccepted": 2540,
+  "awaitingRemoteAccepted": 2535,
   "acceptedCodeDrift": [],
-  "acceptedCodeExactMatchCount": 1088,
+  "acceptedCodeExactMatchCount": 1093,
   "candidateCodeDrift": [],
   "candidateReady": 3628,
   "candidateReadyProfileAssignments": 3628,
@@ -6960,7 +6960,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "c1e1527a6a605b99ef931b82e78a4859bbd7f4d97ef1e1b6f71c01a3af30e088",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "course-schedule-iii": [
@@ -7653,7 +7653,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "403e9e3f492af2168794a45b76443032b1f7fd1c797ff369e3bef06dd25a6834",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "design-an-atm-machine": [
@@ -12909,7 +12909,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "3a3b36073e8291228066e5efee46a8cf8683169825ee2da36f0ce85c1f76ab65",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "house-robber-iii": [
@@ -13098,7 +13098,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "05870f3b593406bc52bb4d634b6f16c063db9c2557b01e1c21b72feeb2e1fd19",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "increasing-decreasing-string": [
@@ -22061,7 +22061,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "7513534ec2c0bac34014da07bc01043761b275059de4c51f67f6bf0e2be81661",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "minimum-skips-to-arrive-at-meeting-on-time": [
@@ -33116,9 +33116,9 @@
         "byDifficulty": {
           "EASY": 485,
           "HARD": 485,
-          "MEDIUM": 117
+          "MEDIUM": 122
         },
-        "total": 1087
+        "total": 1092
       },
       {
         "kind": "firstAccepted",
@@ -33176,9 +33176,9 @@
         "byDifficulty": {
           "EASY": 463,
           "HARD": 358,
-          "MEDIUM": 1719
+          "MEDIUM": 1714
         },
-        "total": 2540
+        "total": 2535
       }
     ],
     "accountedByDifficulty": {
@@ -33191,7 +33191,7 @@
       "HARD": 843,
       "MEDIUM": 1836
     },
-    "pending": 2540,
+    "pending": 2535,
     "isComplete": false,
     "byProblem": {
       "01-matrix": {
@@ -39149,10 +39149,10 @@
       "course-schedule-ii": {
         "frontendId": "210",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "course-schedule-iii": {
         "frontendId": "630",
@@ -39765,10 +39765,10 @@
       "design-add-and-search-words-data-structure": {
         "frontendId": "211",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "design-an-atm-machine": {
         "frontendId": "2241",
@@ -44437,10 +44437,10 @@
       "house-robber-ii": {
         "frontendId": "213",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "house-robber-iii": {
         "frontendId": "337",
@@ -44605,10 +44605,10 @@
       "implement-trie-prefix-tree": {
         "frontendId": "208",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "increasing-decreasing-string": {
         "frontendId": "1370",
@@ -52541,10 +52541,10 @@
       "minimum-size-subarray-sum": {
         "frontendId": "209",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "minimum-skips-to-arrive-at-meeting-on-time": {
         "frontendId": "1883",
@@ -62229,7 +62229,7 @@
       "terra-medium": 485
     },
     "MEDIUM": {
-      "terra-medium": 117
+      "terra-medium": 122
     }
   },
   "firstSuccessByProblem": {
@@ -63619,6 +63619,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "course-schedule-ii": {
+      "frontendId": "210",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "course-schedule-iii": {
       "frontendId": "630",
       "difficulty": "HARD",
@@ -63867,6 +63874,13 @@
     "design-a-text-editor": {
       "frontendId": "2296",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "design-add-and-search-words-data-structure": {
+      "frontendId": "211",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -64949,6 +64963,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "house-robber-ii": {
+      "frontendId": "213",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "how-many-numbers-are-smaller-than-the-current-number": {
       "frontendId": "1365",
       "difficulty": "EASY",
@@ -64973,6 +64994,13 @@
     "implement-stack-using-queues": {
       "frontendId": "225",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "implement-trie-prefix-tree": {
+      "frontendId": "208",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -66744,6 +66772,13 @@
     "minimum-score-after-removals-on-a-tree": {
       "frontendId": "2322",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "minimum-size-subarray-sum": {
+      "frontendId": "209",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -69852,11 +69887,11 @@
   },
   "acceptedByProfile": {
     "sol-xhigh": 1,
-    "terra-medium": 1087
+    "terra-medium": 1092
   },
   "acceptedByAgent": {
     "Codex Desktop / gpt-5.6-sol": 1,
-    "Codex Desktop / gpt-5.6-terra": 1087
+    "Codex Desktop / gpt-5.6-terra": 1092
   },
   "profiles": {
     "sol-low": {
@@ -70265,23 +70300,23 @@
       "stage": 1,
       "enabled": true,
       "started": 3627,
-      "accepted": 1087,
+      "accepted": 1092,
       "deferred": 14,
       "candidateReady": 3613,
       "reviewRequired": 0,
       "remoteTests": 0,
-      "submissions": 1116,
+      "submissions": 1121,
       "failedSubmissions": 29,
       "failedSubmissionProblems": 23,
       "infrastructureErrors": {
         "remoteTests": 0,
         "submissions": 140
       },
-      "firstSubmissionAccepted": 1068,
-      "remoteElapsedReports": 1256,
-      "remoteElapsedSeconds": 4566.786,
-      "averageSolveWallSeconds": 19002.316467341305,
-      "medianSolveWallSeconds": 1871.0,
+      "firstSubmissionAccepted": 1073,
+      "remoteElapsedReports": 1261,
+      "remoteElapsedSeconds": 4582.052,
+      "averageSolveWallSeconds": 19592.236263736264,
+      "medianSolveWallSeconds": 1910.5,
       "byDifficulty": {
         "EASY": {
           "started": 948,
@@ -70299,7 +70334,7 @@
         },
         "MEDIUM": {
           "started": 1836,
-          "accepted": 117,
+          "accepted": 122,
           "deferred": 0,
           "failedSubmissionAttempts": 0,
           "failedSubmissionProblems": 0
