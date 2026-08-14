@@ -1,16 +1,41 @@
 # AI solution attribution
 # Client: Codex Desktop
-# Model: gpt-5.6-terra
+# Model: gpt-5.6-sol
 # Reasoning effort: medium
-# Profile: terra-medium
-# Created: 2026-08-11T18:28:42Z
+# Profile: sol-medium
+# Created: 2026-08-14
 # Experiment: ai-leetcode-lab, round 1
-from threading import Lock, Semaphore
+from threading import Condition
+
+
 class DiningPhilosophers:
     def __init__(self):
-        self.forks=[Lock() for _ in range(5)]
-        self.room=Semaphore(4)
-    def wantsToEat(self, philosopher, pickLeftFork, pickRightFork, eat, putLeftFork, putRightFork):
-        left,right=philosopher,(philosopher+1)%5
-        self.room.acquire(); self.forks[left].acquire(); pickLeftFork(); self.forks[right].acquire(); pickRightFork()
-        eat(); putRightFork(); self.forks[right].release(); putLeftFork(); self.forks[left].release(); self.room.release()
+        self.condition = Condition()
+        self.next_ticket = 0
+        self.serving = 0
+
+    def wantsToEat(
+        self,
+        philosopher,
+        pickLeftFork,
+        pickRightFork,
+        eat,
+        putLeftFork,
+        putRightFork,
+    ):
+        with self.condition:
+            ticket = self.next_ticket
+            self.next_ticket += 1
+            while ticket != self.serving:
+                self.condition.wait()
+
+        try:
+            pickLeftFork()
+            pickRightFork()
+            eat()
+            putLeftFork()
+            putRightFork()
+        finally:
+            with self.condition:
+                self.serving += 1
+                self.condition.notify_all()
