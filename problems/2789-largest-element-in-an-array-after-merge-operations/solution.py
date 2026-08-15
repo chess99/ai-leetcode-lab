@@ -1,13 +1,21 @@
 # AI solution attribution
 # Client: Codex Desktop
-# Model: gpt-5.6-terra
+# Model: gpt-5.6-sol
 # Reasoning effort: medium
-# Profile: terra-medium
-# Created: 2026-08-11T21:14:14Z
+# Profile: sol-medium
+# Created: 2026-08-15
 # Experiment: ai-leetcode-lab, round 1
 from typing import List
+
+
 class Solution:
     def maxArrayValue(self, nums: List[int]) -> int:
-        total=nums[-1]
-        for x in reversed(nums[:-1]): total=total+x if x<=total else total
-        return total
+        merged = nums[-1]
+
+        for value in reversed(nums[:-1]):
+            if value <= merged:
+                merged += value
+            else:
+                merged = value
+
+        return merged
