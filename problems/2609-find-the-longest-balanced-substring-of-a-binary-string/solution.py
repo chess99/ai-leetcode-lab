@@ -1,17 +1,24 @@
 # AI solution attribution
 # Client: Codex Desktop
-# Model: gpt-5.6-terra
+# Model: gpt-5.6-sol
 # Reasoning effort: medium
-# Profile: terra-medium
-# Created: 2026-08-11T14:10:09Z
+# Profile: sol-medium
+# Created: 2026-08-15
 # Experiment: ai-leetcode-lab, round 1
 class Solution:
     def findTheLongestBalancedSubstring(self, s: str) -> int:
-        best = zeros = ones = 0
-        for char in s + '0':
-            if char == '0':
-                best = max(best, 2 * min(zeros, ones))
-                zeros, ones = zeros + 1, 0
+        best = 0
+        zero_run = 0
+        one_run = 0
+
+        for char in s:
+            if char == "0":
+                if one_run > 0:
+                    zero_run = 0
+                    one_run = 0
+                zero_run += 1
             else:
-                ones += 1
+                one_run += 1
+                best = max(best, 2 * min(zero_run, one_run))
+
         return best
