@@ -1,15 +1,23 @@
 -- AI solution attribution
 -- Client: Codex Desktop
--- Model: gpt-5.6-terra
+-- Model: gpt-5.6-sol
 -- Reasoning effort: medium
--- Profile: terra-medium
--- Created: 2026-08-11T15:04:25Z
--- Experiment: ai-leetcode-lab, round 1
-SELECT lb.book_id, lb.title, lb.author, lb.genre, lb.publication_year,
-       COUNT(br.record_id) AS current_borrowers
+-- Profile: sol-medium
+-- Created: 2026-08-16
+-- Experiment: ai-leetcode-lab, next candidate after terra-medium TLE
+SELECT lb.book_id,
+       lb.title,
+       lb.author,
+       lb.genre,
+       lb.publication_year,
+       active.current_borrowers
 FROM library_books AS lb
-JOIN borrowing_records AS br
-  ON br.book_id = lb.book_id AND br.return_date IS NULL
-GROUP BY lb.book_id, lb.title, lb.author, lb.genre, lb.publication_year, lb.total_copies
-HAVING COUNT(br.record_id) = lb.total_copies
-ORDER BY current_borrowers DESC, lb.title ASC;
+JOIN (
+    SELECT book_id, COUNT(*) AS current_borrowers
+    FROM borrowing_records
+    WHERE return_date IS NULL
+    GROUP BY book_id
+) AS active
+  ON active.book_id = lb.book_id
+ AND active.current_borrowers = lb.total_copies
+ORDER BY active.current_borrowers DESC, lb.title ASC;
