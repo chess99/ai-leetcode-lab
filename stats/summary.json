@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-16T12:06:18Z",
+  "generatedAt": "2026-08-16T12:14:06Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -17,17 +17,17 @@
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
   "started": 3628,
-  "accepted": 2660,
-  "deferredProblems": 36,
-  "deferredProfileAssignments": 52,
+  "accepted": 2663,
+  "deferredProblems": 37,
+  "deferredProfileAssignments": 53,
   "reviewRequired": 0,
-  "remainingAccessible": 968,
+  "remainingAccessible": 965,
   "remoteTests": 1,
-  "submissions": 2711,
-  "firstSubmissionAccepted": 2638,
-  "firstRoundAccepted": 2660,
-  "firstSubmissionAcceptanceRate": 0.9917293233082707,
-  "overallSubmissionAcceptanceRate": 0.9811877535964588,
+  "submissions": 2715,
+  "firstSubmissionAccepted": 2641,
+  "firstRoundAccepted": 2663,
+  "firstSubmissionAcceptanceRate": 0.9917386406308675,
+  "overallSubmissionAcceptanceRate": 0.9808471454880294,
   "byDifficulty": {
     "EASY": {
       "eligible": 949,
@@ -36,13 +36,13 @@
     },
     "HARD": {
       "eligible": 843,
-      "accepted": 603,
-      "remoteAcceptanceCoverage": 0.7153024911032029
+      "accepted": 604,
+      "remoteAcceptanceCoverage": 0.7164887307236062
     },
     "MEDIUM": {
       "eligible": 1836,
-      "accepted": 1344,
-      "remoteAcceptanceCoverage": 0.7320261437908496
+      "accepted": 1346,
+      "remoteAcceptanceCoverage": 0.7331154684095861
     }
   },
   "catalogByDifficulty": {
@@ -76,27 +76,27 @@
     "HARD": {
       "eligible": 843,
       "started": 843,
-      "submitted": 608,
-      "remoteAccepted": 603,
-      "failedSubmissionProblems": 18,
-      "deferred": 19,
-      "awaitingRemoteAccepted": 240,
-      "remoteAcceptanceCoverage": 0.7153024911032029
+      "submitted": 610,
+      "remoteAccepted": 604,
+      "failedSubmissionProblems": 19,
+      "deferred": 20,
+      "awaitingRemoteAccepted": 239,
+      "remoteAcceptanceCoverage": 0.7164887307236062
     },
     "MEDIUM": {
       "eligible": 1836,
       "started": 1836,
-      "submitted": 1355,
-      "remoteAccepted": 1344,
+      "submitted": 1357,
+      "remoteAccepted": 1346,
       "failedSubmissionProblems": 11,
       "deferred": 11,
-      "awaitingRemoteAccepted": 492,
-      "remoteAcceptanceCoverage": 0.7320261437908496
+      "awaitingRemoteAccepted": 490,
+      "remoteAcceptanceCoverage": 0.7331154684095861
     }
   },
   "failedSubmissions": {
-    "attempts": 51,
-    "uniqueProblems": 44
+    "attempts": 52,
+    "uniqueProblems": 45
   },
   "infrastructureErrors": {
     "remoteTests": 0,
@@ -104,12 +104,12 @@
     "total": 140,
     "countsAgainstModelMetrics": false
   },
-  "awaitingRemoteAccepted": 968,
+  "awaitingRemoteAccepted": 965,
   "acceptedCodeDrift": [],
-  "acceptedCodeExactMatchCount": 2660,
+  "acceptedCodeExactMatchCount": 2663,
   "candidateCodeDrift": [],
   "candidateReady": 3628,
-  "candidateReadyProfileAssignments": 3649,
+  "candidateReadyProfileAssignments": 3650,
   "ladderPaths": {
     "01-matrix": [
       {
@@ -11911,7 +11911,7 @@
         "profileId": "terra-medium",
         "candidateReady": true,
         "candidateCodeSha256": "8807932c505d722ba7ea04d1fc94d688c1b2964f9f041dfabf22df7981d376b9",
-        "deferred": false,
+        "deferred": true,
         "remoteAccepted": false
       }
     ],
@@ -13064,7 +13064,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "2c8dcab7289f19106f8cc93363360dfbb6c4c2e967b80d19acf6ac34f7b731d5",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "image-overlap": [
@@ -16614,7 +16614,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "152979d001cc5c7e72b3b452f3eb620b4521a21ab2779548f799f7d606175b65",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "maximize-the-number-of-target-nodes-after-connecting-trees-ii": [
@@ -16623,7 +16623,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e2fc629d36b502167fc6870da7f0222ca7d8f6232c4d91f7d71b03338aa4a972",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "maximize-the-profit-as-the-salesman": [
@@ -28860,6 +28860,13 @@
     ],
     "smallest-divisible-digit-product-ii": [
       {
+        "profileId": "sol-medium",
+        "candidateReady": true,
+        "candidateCodeSha256": "2ccfde780f31774a474c9bba2f255f169189025f4371a290d8571f4968413af6",
+        "deferred": false,
+        "remoteAccepted": false
+      },
+      {
         "profileId": "terra-medium",
         "candidateReady": true,
         "candidateCodeSha256": "48eec368bf0da44f99dc87c6fa63905fafc81ab4bd432821facce975765c8dab",
@@ -33216,6 +33223,13 @@
         "needsNewCandidate": false
       },
       {
+        "slug": "first-letter-capitalization-ii",
+        "fromProfile": "terra-medium",
+        "targetStarted": false,
+        "targetCandidateReady": false,
+        "needsNewCandidate": true
+      },
+      {
         "slug": "kth-largest-element-in-an-array",
         "fromProfile": "terra-medium",
         "targetStarted": true,
@@ -33323,9 +33337,9 @@
       {
         "slug": "smallest-divisible-digit-product-ii",
         "fromProfile": "terra-medium",
-        "targetStarted": false,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
       },
       {
         "slug": "the-dining-philosophers",
@@ -33416,10 +33430,10 @@
         "reasoningEffort": "medium",
         "byDifficulty": {
           "EASY": 712,
-          "HARD": 603,
-          "MEDIUM": 1344
+          "HARD": 604,
+          "MEDIUM": 1346
         },
-        "total": 2659
+        "total": 2662
       },
       {
         "kind": "firstAccepted",
@@ -33476,10 +33490,10 @@
         "reasoningEffort": null,
         "byDifficulty": {
           "EASY": 236,
-          "HARD": 240,
-          "MEDIUM": 492
+          "HARD": 239,
+          "MEDIUM": 490
         },
-        "total": 968
+        "total": 965
       }
     ],
     "accountedByDifficulty": {
@@ -33492,7 +33506,7 @@
       "HARD": 843,
       "MEDIUM": 1836
     },
-    "pending": 968,
+    "pending": 965,
     "isComplete": false,
     "byProblem": {
       "01-matrix": {
@@ -44826,10 +44840,10 @@
       "identify-the-largest-outlier-in-an-array": {
         "frontendId": "3371",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "image-overlap": {
         "frontendId": "835",
@@ -47938,18 +47952,18 @@
       "maximize-the-number-of-target-nodes-after-connecting-trees-i": {
         "frontendId": "3372",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "maximize-the-number-of-target-nodes-after-connecting-trees-ii": {
         "frontendId": "3373",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "maximize-the-profit-as-the-salesman": {
         "frontendId": "2830",
@@ -62527,10 +62541,10 @@
       "terra-medium": 712
     },
     "HARD": {
-      "terra-medium": 603
+      "terra-medium": 604
     },
     "MEDIUM": {
-      "terra-medium": 1344
+      "terra-medium": 1346
     }
   },
   "firstSuccessByProblem": {
@@ -69576,6 +69590,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "identify-the-largest-outlier-in-an-array": {
+      "frontendId": "3371",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "image-overlap": {
       "frontendId": "835",
       "difficulty": "MEDIUM",
@@ -71559,6 +71580,20 @@
     },
     "maximize-the-number-of-partitions-after-operations": {
       "frontendId": "3003",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "maximize-the-number-of-target-nodes-after-connecting-trees-i": {
+      "frontendId": "3372",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "maximize-the-number-of-target-nodes-after-connecting-trees-ii": {
+      "frontendId": "3373",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -81157,11 +81192,11 @@
   },
   "acceptedByProfile": {
     "sol-xhigh": 1,
-    "terra-medium": 2659
+    "terra-medium": 2662
   },
   "acceptedByAgent": {
     "Codex Desktop / gpt-5.6-sol": 1,
-    "Codex Desktop / gpt-5.6-terra": 2659
+    "Codex Desktop / gpt-5.6-terra": 2662
   },
   "profiles": {
     "sol-low": {
@@ -81227,10 +81262,10 @@
       "cohort": "sol-escalation",
       "stage": 1,
       "enabled": true,
-      "started": 37,
+      "started": 38,
       "accepted": 0,
       "deferred": 8,
-      "candidateReady": 27,
+      "candidateReady": 28,
       "reviewRequired": 0,
       "remoteTests": 0,
       "submissions": 0,
@@ -81254,7 +81289,7 @@
           "failedSubmissionProblems": 0
         },
         "HARD": {
-          "started": 20,
+          "started": 21,
           "accepted": 0,
           "deferred": 8,
           "failedSubmissionAttempts": 0,
@@ -81570,23 +81605,23 @@
       "stage": 1,
       "enabled": true,
       "started": 3627,
-      "accepted": 2659,
-      "deferred": 36,
+      "accepted": 2662,
+      "deferred": 37,
       "candidateReady": 3613,
       "reviewRequired": 0,
       "remoteTests": 0,
-      "submissions": 2710,
-      "failedSubmissions": 51,
-      "failedSubmissionProblems": 44,
+      "submissions": 2714,
+      "failedSubmissions": 52,
+      "failedSubmissionProblems": 45,
       "infrastructureErrors": {
         "remoteTests": 0,
         "submissions": 140
       },
-      "firstSubmissionAccepted": 2637,
-      "remoteElapsedReports": 2850,
-      "remoteElapsedSeconds": 9500.912,
-      "averageSolveWallSeconds": 160252.16509966154,
-      "medianSolveWallSeconds": 157487.0,
+      "firstSubmissionAccepted": 2640,
+      "remoteElapsedReports": 2854,
+      "remoteElapsedSeconds": 9513.647,
+      "averageSolveWallSeconds": 160494.19534184824,
+      "medianSolveWallSeconds": 157493.5,
       "byDifficulty": {
         "EASY": {
           "started": 948,
@@ -81597,14 +81632,14 @@
         },
         "HARD": {
           "started": 843,
-          "accepted": 603,
-          "deferred": 19,
-          "failedSubmissionAttempts": 21,
-          "failedSubmissionProblems": 18
+          "accepted": 604,
+          "deferred": 20,
+          "failedSubmissionAttempts": 22,
+          "failedSubmissionProblems": 19
         },
         "MEDIUM": {
           "started": 1836,
-          "accepted": 1344,
+          "accepted": 1346,
           "deferred": 11,
           "failedSubmissionAttempts": 11,
           "failedSubmissionProblems": 11
@@ -81666,6 +81701,7 @@
       "find-the-maximum-number-of-fruits-collected",
       "find-the-number-of-good-pairs-i",
       "find-users-with-valid-e-mails",
+      "first-letter-capitalization-ii",
       "kskhHQ",
       "kth-largest-element-in-an-array",
       "largest-element-in-an-array-after-merge-operations",
@@ -81698,7 +81734,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 3681,
+    "startedProfileAssignments": 3682,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"
