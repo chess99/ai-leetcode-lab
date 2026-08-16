@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-16T15:13:51Z",
+  "generatedAt": "2026-08-16T15:19:19Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -109,7 +109,7 @@
   "acceptedCodeExactMatchCount": 2933,
   "candidateCodeDrift": [],
   "candidateReady": 3628,
-  "candidateReadyProfileAssignments": 3663,
+  "candidateReadyProfileAssignments": 3664,
   "ladderPaths": {
     "01-matrix": [
       {
@@ -9904,6 +9904,13 @@
       }
     ],
     "find-golden-hour-customers": [
+      {
+        "profileId": "sol-medium",
+        "candidateReady": true,
+        "candidateCodeSha256": "5424d6bc3aed9b0dbc3ab8dca22074273a3846c2d145656d04a17b4673aa4691",
+        "deferred": false,
+        "remoteAccepted": false
+      },
       {
         "profileId": "terra-medium",
         "candidateReady": true,
@@ -33302,9 +33309,9 @@
       {
         "slug": "find-golden-hour-customers",
         "fromProfile": "terra-medium",
-        "targetStarted": false,
-        "targetCandidateReady": false,
-        "needsNewCandidate": true
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
       },
       {
         "slug": "find-invalid-ip-addresses",
@@ -83334,10 +83341,10 @@
       "cohort": "sol-escalation",
       "stage": 1,
       "enabled": true,
-      "started": 51,
+      "started": 52,
       "accepted": 0,
       "deferred": 8,
-      "candidateReady": 41,
+      "candidateReady": 42,
       "reviewRequired": 0,
       "remoteTests": 0,
       "submissions": 0,
@@ -83368,7 +83375,7 @@
           "failedSubmissionProblems": 0
         },
         "MEDIUM": {
-          "started": 14,
+          "started": 15,
           "accepted": 0,
           "deferred": 0,
           "failedSubmissionAttempts": 0,
@@ -83819,7 +83826,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 3695,
+    "startedProfileAssignments": 3696,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"
