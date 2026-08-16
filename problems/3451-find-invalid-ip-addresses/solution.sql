@@ -1,15 +1,16 @@
 -- AI solution attribution
--- Client: Codex Desktop
--- Model: gpt-5.6-terra
--- Reasoning effort: medium
--- Profile: terra-medium
--- Created: 2026-08-12T16:39:41Z
--- Experiment: ai-leetcode-lab, round 1
+-- Original creator: Codex Desktop / gpt-5.6-terra / medium / terra-medium
+-- Terra handoff: full-IPv4 validation incorrectly rejected empty segments
+-- Current client: Codex Desktop
+-- Current model: gpt-5.6-sol
+-- Current reasoning effort: medium
+-- Current profile: sol-medium
 SELECT ip, COUNT(*) AS invalid_count
 FROM logs
-WHERE NOT REGEXP_LIKE(
-    ip,
-    '^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]?|0)(\\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]?|0)){3}$'
-)
+WHERE LENGTH(ip) - LENGTH(REPLACE(ip, '.', '')) <> 3
+   OR REGEXP_LIKE(
+        ip,
+        '(^|\\.)(0[0-9]+|25[6-9]|2[6-9][0-9]|[3-9][0-9]{2}|[0-9]{4,})(\\.|$)'
+      )
 GROUP BY ip
 ORDER BY invalid_count DESC, ip DESC;

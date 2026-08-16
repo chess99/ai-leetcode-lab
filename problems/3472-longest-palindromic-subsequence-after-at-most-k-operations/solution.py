@@ -1,19 +1,41 @@
 # AI solution attribution
-# Client: Codex Desktop
-# Model: gpt-5.6-terra
-# Reasoning effort: medium
-# Profile: terra-medium
-# Created: 2026-08-11T21:59:19Z
+# Original handoff: Codex Desktop / gpt-5.6-terra / medium / terra-medium
+# Current client: Codex Desktop
+# Current model: gpt-5.6-sol
+# Current reasoning effort: medium
+# Current profile: sol-medium
 # Experiment: ai-leetcode-lab, round 1
-from functools import lru_cache
 class Solution:
     def longestPalindromicSubsequence(self, s: str, k: int) -> int:
-        @lru_cache(None)
-        def dp(left,right,budget):
-            if left>right:return 0
-            if left==right:return 1
-            best=max(dp(left+1,right,budget),dp(left,right-1,budget))
-            diff=abs(ord(s[left])-ord(s[right])); cost=min(diff,26-diff)
-            if cost<=budget: best=max(best,2+dp(left+1,right-1,budget-cost))
-            return best
-        return dp(0,len(s)-1,k)
+        n = len(s)
+        width = k + 1
+
+        # prev1 stores intervals of length length - 1, while prev2 stores
+        # intervals of length length - 2.  An answer never exceeds n <= 200,
+        # so one byte per state is sufficient.
+        prev2 = [bytearray(width) for _ in range(n + 1)]
+        prev1 = [bytearray([1]) * width for _ in range(n)]
+
+        for length in range(2, n + 1):
+            current = []
+            for left in range(n - length + 1):
+                right = left + length - 1
+                skip_left = prev1[left + 1]
+                skip_right = prev1[left]
+                inner = prev2[left + 1]
+
+                difference = abs(ord(s[left]) - ord(s[right]))
+                cost = min(difference, 26 - difference)
+                values = bytearray(width)
+
+                for budget in range(width):
+                    best = max(skip_left[budget], skip_right[budget])
+                    if budget >= cost:
+                        best = max(best, inner[budget - cost] + 2)
+                    values[budget] = best
+
+                current.append(values)
+
+            prev2, prev1 = prev1, current
+
+        return prev1[0][k]

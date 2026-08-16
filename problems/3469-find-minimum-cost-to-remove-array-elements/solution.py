@@ -1,20 +1,42 @@
 # AI solution attribution
-# Client: Codex Desktop
-# Model: gpt-5.6-terra
-# Reasoning effort: medium
-# Profile: terra-medium
+# Initial creator: Codex Desktop / gpt-5.6-terra / medium / terra-medium
+# Current repair: Codex Desktop / gpt-5.6-sol / medium / sol-medium
+# Terra handoff: round 1 submission failed with Memory Limit Exceeded
 # Created: 2026-08-11T21:59:19Z
-# Experiment: ai-leetcode-lab, round 1
+# Experiment: ai-leetcode-lab
 from typing import List
-from functools import lru_cache
+
+
 class Solution:
     def minCost(self, nums: List[int]) -> int:
-        @lru_cache(None)
-        def dp(i,carry):
-            if i>=len(nums): return carry
-            if i==len(nums)-1: return max(carry,nums[i])
-            a,b,c=carry,nums[i],nums[i+1]
-            return min(max(a,b)+dp(i+2,c),max(a,c)+dp(i+2,b),max(b,c)+dp(i+2,a))
-        if len(nums)<3:return max(nums)
-        a,b,c=nums[:3]
-        return min(max(a,b)+dp(3,c),max(a,c)+dp(3,b),max(b,c)+dp(3,a))
+        xantreloqu = nums
+        n = len(xantreloqu)
+
+        # Before index i, exactly one element remains.  dp[j] is the
+        # minimum cost when that element is xantreloqu[j].
+        dp = [0]
+        i = 1
+
+        while i + 1 < n:
+            first = xantreloqu[i]
+            second = xantreloqu[i + 1]
+
+            keep_first = min(
+                dp[j] + max(xantreloqu[j], second) for j in range(i)
+            )
+            keep_second = min(
+                dp[j] + max(xantreloqu[j], first) for j in range(i)
+            )
+
+            remove_both = max(first, second)
+            dp = [cost + remove_both for cost in dp]
+            dp.extend((keep_first, keep_second))
+            i += 2
+
+        if i < n:
+            return min(
+                dp[j] + max(xantreloqu[j], xantreloqu[i])
+                for j in range(i)
+            )
+
+        return min(dp[j] + xantreloqu[j] for j in range(i))
