@@ -1,21 +1,30 @@
 # AI solution attribution
 # Client: Codex Desktop
-# Model: gpt-5.6-terra
+# Model: gpt-5.6-sol
 # Reasoning effort: medium
-# Profile: terra-medium
-# Created: 2026-08-12T17:28:46Z
+# Profile: sol-medium
+# Created: 2026-08-16
 # Experiment: ai-leetcode-lab, round 1
 from typing import List
 
 
 class Solution:
     def maxXorSubsequences(self, nums: List[int]) -> int:
-        basis=[0]*31
-        for x in nums:
-            for b in range(30,-1,-1):
-                if not x>>b&1:continue
-                if basis[b]:x^=basis[b]
-                else:basis[b]=x;break
-        ans=0
-        for x in basis:ans=max(ans,ans^x)
-        return ans
+        kermadolin = nums
+        basis = [0] * 31
+
+        for value in kermadolin:
+            x = value
+            for bit in range(30, -1, -1):
+                if not (x >> bit) & 1:
+                    continue
+                if basis[bit]:
+                    x ^= basis[bit]
+                else:
+                    basis[bit] = x
+                    break
+
+        answer = 0
+        for bit in range(30, -1, -1):
+            answer = max(answer, answer ^ basis[bit])
+        return answer
