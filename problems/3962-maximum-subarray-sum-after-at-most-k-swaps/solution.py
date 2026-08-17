@@ -5,90 +5,122 @@
 # Profile: terra-medium
 # Created: 2026-08-12T17:58:40Z
 # Experiment: ai-leetcode-lab, round 1
+# Handoff: terra-medium -> sol-medium; incremental-heap rewrite after TLE
+from heapq import heapify, heappop, heappush
+
+
 class Solution:
     def maxSum(self, nums: list[int], k: int) -> int:
         luntharivo = (nums, k)
         n = len(nums)
-        values = sorted(set(nums))
-        ranks = {value: index + 1 for index, value in enumerate(values)}
-        size = len(values)
+        answer = current = nums[0]
+        for value in nums[1:]:
+            current = max(value, current + value)
+            answer = max(answer, current)
 
-        def add(bit, index, delta):
-            while index <= size:
-                bit[index] += delta
-                index += index & -index
+        # No subarray of any permutation can exceed the sum of all positives
+        # (or the largest element when every value is nonpositive).
+        upper_bound = sum(value for value in nums if value > 0)
+        if upper_bound == 0:
+            upper_bound = max(nums)
+        if k == 0 or answer == upper_bound:
+            return answer
 
-        def kth(bit, order):
-            index = 0
-            step = 1 << (size.bit_length() - 1)
-            while step:
-                nxt = index + step
-                if nxt <= size and bit[nxt] < order:
-                    order -= bit[nxt]
-                    index = nxt
-                step >>= 1
-            return index + 1
+        # States: outside/inside x unselected/selected for swapping.
+        OUT_FREE, OUT_TAKE, IN_FREE, IN_TAKE = range(4)
 
-        def prefix(bit, index):
-            result = 0
-            while index:
-                result += bit[index]
-                index -= index & -index
-            return result
-
-        global_count = [0] * (size + 1)
-        global_sum = [0] * (size + 1)
-        for value in nums:
-            rank = ranks[value]
-            add(global_count, rank, 1)
-            add(global_sum, rank, value)
-
-        answer = max(nums)
         for left in range(n):
-            in_count = [0] * (size + 1)
-            in_sum = [0] * (size + 1)
-            out_count = global_count[:]
-            out_sum = global_sum[:]
-            current_sum = 0
-            swaps = 0
+            state = [OUT_FREE] * n
+            outside_free = [(-value, index) for index, value in enumerate(nums)]
+            heapify(outside_free)       # largest free outside value
+            outside_take = []           # smallest selected outside value
+            inside_free = []            # smallest free inside value
+            inside_take = []            # largest selected inside value (negated)
+
+            selected_count = 0
+            selected_out_sum = 0
+            selected_in_sum = 0
+            interval_sum = 0
+
+            def clean(heap, wanted_state):
+                while heap and state[heap[0][1]] != wanted_state:
+                    heappop(heap)
+
             for right in range(left, n):
                 value = nums[right]
-                rank = ranks[value]
-                add(out_count, rank, -1)
-                add(out_sum, rank, -value)
-                current_sum += value
-                add(in_count, rank, 1)
-                add(in_sum, rank, value)
+                interval_sum += value
 
-                maximum_swaps = min(k, right - left + 1, n - (right - left + 1))
-                outside_total = n - (right - left + 1)
-                while swaps > maximum_swaps or (swaps and
-                        values[kth(in_count, swaps) - 1] >=
-                        values[kth(out_count, outside_total - swaps + 1) - 1]):
-                    swaps -= 1
-                while swaps < maximum_swaps:
-                    candidate = swaps + 1
-                    if (values[kth(in_count, candidate) - 1] >=
-                            values[kth(out_count, outside_total - candidate + 1) - 1]):
-                        break
-                    swaps = candidate
-                if swaps:
-                    small_rank = kth(in_count, swaps)
-                    before_count = prefix(in_count, small_rank - 1)
-                    small_sum = prefix(in_sum, small_rank - 1)
-                    small_sum += (swaps - before_count) * values[small_rank - 1]
+                # This index crosses the interval boundary: outside -> inside.
+                if state[right] == OUT_TAKE:
+                    selected_count -= 1
+                    selected_out_sum -= value
+                    clean(inside_take, IN_TAKE)
+                    neg_value, index = heappop(inside_take)
+                    removed = -neg_value
+                    state[index] = IN_FREE
+                    heappush(inside_free, (removed, index))
+                    selected_in_sum -= removed
 
-                    cutoff = outside_total - swaps
-                    if cutoff:
-                        cut_rank = kth(out_count, cutoff)
-                        before_count = prefix(out_count, cut_rank - 1)
-                        lower_sum = prefix(out_sum, cut_rank - 1)
-                        lower_sum += (cutoff - before_count) * values[cut_rank - 1]
-                    else:
-                        lower_sum = 0
-                    outside_sum = prefix(out_sum, size)
-                    gain = outside_sum - lower_sum - small_sum
-                else:
-                    gain = 0
-                answer = max(answer, current_sum + gain)
+                state[right] = IN_FREE
+                heappush(inside_free, (value, right))
+
+                # A newly inserted inside value can replace at most one of the
+                # currently selected (removed) values.
+                clean(inside_free, IN_FREE)
+                clean(inside_take, IN_TAKE)
+                if (inside_free and inside_take and
+                        inside_free[0][0] < -inside_take[0][0]):
+                    low, low_index = heappop(inside_free)
+                    neg_high, high_index = heappop(inside_take)
+                    high = -neg_high
+                    state[low_index] = IN_TAKE
+                    state[high_index] = IN_FREE
+                    heappush(inside_take, (-low, low_index))
+                    heappush(inside_free, (high, high_index))
+                    selected_in_sum += low - high
+
+                length = right - left + 1
+                limit = min(k, length, n - length)
+
+                # The interval may have grown beyond half the array, reducing
+                # the number of possible cross-boundary swaps by one.
+                while selected_count > limit:
+                    clean(outside_take, OUT_TAKE)
+                    clean(inside_take, IN_TAKE)
+                    out_value, out_index = heappop(outside_take)
+                    neg_in_value, in_index = heappop(inside_take)
+                    in_value = -neg_in_value
+                    state[out_index] = OUT_FREE
+                    state[in_index] = IN_FREE
+                    heappush(outside_free, (-out_value, out_index))
+                    heappush(inside_free, (in_value, in_index))
+                    selected_count -= 1
+                    selected_out_sum -= out_value
+                    selected_in_sum -= in_value
+
+                # Marginal gains are nonincreasing: pair the largest free
+                # outside value with the smallest free inside value.
+                clean(outside_free, OUT_FREE)
+                clean(inside_free, IN_FREE)
+                while (selected_count < limit and outside_free and inside_free and
+                       -outside_free[0][0] > inside_free[0][0]):
+                    neg_out_value, out_index = heappop(outside_free)
+                    in_value, in_index = heappop(inside_free)
+                    out_value = -neg_out_value
+                    state[out_index] = OUT_TAKE
+                    state[in_index] = IN_TAKE
+                    heappush(outside_take, (out_value, out_index))
+                    heappush(inside_take, (-in_value, in_index))
+                    selected_count += 1
+                    selected_out_sum += out_value
+                    selected_in_sum += in_value
+                    clean(outside_free, OUT_FREE)
+                    clean(inside_free, IN_FREE)
+
+                candidate = interval_sum + selected_out_sum - selected_in_sum
+                if candidate > answer:
+                    answer = candidate
+                    if answer == upper_bound:
+                        return answer
+
         return answer

@@ -11,33 +11,38 @@ from typing import List
 class Solution:
     def minMaxWaitingTime(self, demand: List[int], fuel: List[int]) -> int:
         telmorvian = (demand, fuel)
-        # state: (used fuel 0, used fuel 1, free time 0, free time 1,
-        #         release time of next car) -> minimum maximum wait
-        states = {(0, 0, 0, 0, 0): 0}
-        best_count = 0
-        best_wait = -1
-        for index, amount in enumerate(demand):
+        # At the release time of the next car, keep each pump's remaining
+        # busy time.  Absolute timestamps are unnecessary and would create
+        # far too many distinct states.
+        # (used fuel of pump 0, busy time 0, busy time 1) -> best max wait
+        states = {(0, 0, 0): 0}
+        used_total = 0
+        answer = -1
+
+        for amount in demand:
             next_states = {}
-            for (used0, used1, free0, free1, release), maximum_wait in states.items():
-                for pump in range(2):
-                    used = used0 if pump == 0 else used1
-                    if used + amount > fuel[pump]:
-                        continue
-                    free = free0 if pump == 0 else free1
-                    start = max(release, free)
-                    wait = start - release
-                    if pump == 0:
-                        state = (used0 + amount, used1, start + amount,
-                                 free1, start)
-                    else:
-                        state = (used0, used1 + amount, free0,
-                                 start + amount, start)
+            for (used0, busy0, busy1), maximum_wait in states.items():
+                used1 = used_total - used0
+
+                if used0 + amount <= fuel[0]:
+                    wait = busy0
+                    state = (used0 + amount, amount,
+                             max(0, busy1 - wait))
                     value = max(maximum_wait, wait)
                     if value < next_states.get(state, 10 ** 9):
                         next_states[state] = value
+
+                if used1 + amount <= fuel[1]:
+                    wait = busy1
+                    state = (used0, max(0, busy0 - wait), amount)
+                    value = max(maximum_wait, wait)
+                    if value < next_states.get(state, 10 ** 9):
+                        next_states[state] = value
+
             if not next_states:
                 break
             states = next_states
-            best_count = index + 1
-            best_wait = min(states.values())
-        return best_wait if best_count else -1
+            used_total += amount
+            answer = min(states.values())
+
+        return answer
