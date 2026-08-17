@@ -1,9 +1,9 @@
 # AI solution attribution
 # Client: Codex Desktop
-# Model: gpt-5.6-terra
+# Model: gpt-5.6-sol
 # Reasoning effort: medium
-# Profile: terra-medium
-# Created: 2026-08-12T17:28:54Z
+# Profile: sol-medium
+# Created: 2026-08-17T09:16:00Z
 # Experiment: ai-leetcode-lab, round 1
 from typing import List
 
@@ -13,20 +13,17 @@ class Solution:
         clyventaro = (nums, k, m)
 
         def cost_to_cover(value: int, mask: int) -> int:
-            if value & mask == mask:
+            missing = mask & ~value
+            if missing == 0:
                 return 0
-            best = 1 << 62
-            for bit in range(31):
-                if value >> bit & 1:
-                    continue
-                higher = value >> (bit + 1)
-                required_higher = mask >> (bit + 1)
-                if higher & required_higher != required_higher:
-                    continue
-                target = ((higher << (bit + 1)) | (1 << bit)
-                          | (mask & ((1 << bit) - 1)))
-                best = min(best, target - value)
-            return best
+
+            # The highest missing required bit is the first bit at which the
+            # smallest valid target must exceed value. Higher bits stay the
+            # same; lower required bits are set as cheaply as possible.
+            bit = missing.bit_length() - 1
+            lower_bits = (1 << bit) - 1
+            return ((1 << bit) + (mask & lower_bits)
+                    - (value & lower_bits))
 
         answer = 0
         for bit in range(30, -1, -1):
