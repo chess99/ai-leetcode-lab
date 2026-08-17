@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-17T12:41:30Z",
+  "generatedAt": "2026-08-17T13:35:05Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -17,32 +17,32 @@
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
   "started": 3628,
-  "accepted": 3208,
-  "deferredProblems": 57,
-  "deferredProfileAssignments": 73,
+  "accepted": 3296,
+  "deferredProblems": 59,
+  "deferredProfileAssignments": 75,
   "reviewRequired": 0,
-  "remainingAccessible": 420,
+  "remainingAccessible": 332,
   "remoteTests": 1,
-  "submissions": 3280,
-  "firstSubmissionAccepted": 3186,
-  "firstRoundAccepted": 3208,
-  "firstSubmissionAcceptanceRate": 0.993142144638404,
-  "overallSubmissionAcceptanceRate": 0.9780487804878049,
+  "submissions": 3371,
+  "firstSubmissionAccepted": 3274,
+  "firstRoundAccepted": 3296,
+  "firstSubmissionAcceptanceRate": 0.9933252427184466,
+  "overallSubmissionAcceptanceRate": 0.9777514090774251,
   "byDifficulty": {
     "EASY": {
       "eligible": 949,
-      "accepted": 826,
-      "remoteAcceptanceCoverage": 0.8703898840885143
+      "accepted": 851,
+      "remoteAcceptanceCoverage": 0.8967334035827187
     },
     "HARD": {
       "eligible": 843,
-      "accepted": 756,
-      "remoteAcceptanceCoverage": 0.896797153024911
+      "accepted": 779,
+      "remoteAcceptanceCoverage": 0.9240806642941874
     },
     "MEDIUM": {
       "eligible": 1836,
-      "accepted": 1626,
-      "remoteAcceptanceCoverage": 0.8856209150326797
+      "accepted": 1666,
+      "remoteAcceptanceCoverage": 0.9074074074074074
     }
   },
   "catalogByDifficulty": {
@@ -66,37 +66,37 @@
     "EASY": {
       "eligible": 949,
       "started": 949,
-      "submitted": 834,
-      "remoteAccepted": 826,
-      "failedSubmissionProblems": 17,
-      "deferred": 8,
-      "awaitingRemoteAccepted": 123,
-      "remoteAcceptanceCoverage": 0.8703898840885143
+      "submitted": 861,
+      "remoteAccepted": 851,
+      "failedSubmissionProblems": 18,
+      "deferred": 9,
+      "awaitingRemoteAccepted": 98,
+      "remoteAcceptanceCoverage": 0.8967334035827187
     },
     "HARD": {
       "eligible": 843,
       "started": 843,
-      "submitted": 776,
-      "remoteAccepted": 756,
-      "failedSubmissionProblems": 33,
-      "deferred": 34,
-      "awaitingRemoteAccepted": 87,
-      "remoteAcceptanceCoverage": 0.896797153024911
+      "submitted": 800,
+      "remoteAccepted": 779,
+      "failedSubmissionProblems": 34,
+      "deferred": 35,
+      "awaitingRemoteAccepted": 64,
+      "remoteAcceptanceCoverage": 0.9240806642941874
     },
     "MEDIUM": {
       "eligible": 1836,
       "started": 1836,
-      "submitted": 1641,
-      "remoteAccepted": 1626,
+      "submitted": 1681,
+      "remoteAccepted": 1666,
       "failedSubmissionProblems": 15,
       "deferred": 15,
-      "awaitingRemoteAccepted": 210,
-      "remoteAcceptanceCoverage": 0.8856209150326797
+      "awaitingRemoteAccepted": 170,
+      "remoteAcceptanceCoverage": 0.9074074074074074
     }
   },
   "failedSubmissions": {
-    "attempts": 72,
-    "uniqueProblems": 65
+    "attempts": 74,
+    "uniqueProblems": 67
   },
   "infrastructureErrors": {
     "remoteTests": 0,
@@ -104,12 +104,12 @@
     "total": 140,
     "countsAgainstModelMetrics": false
   },
-  "awaitingRemoteAccepted": 420,
+  "awaitingRemoteAccepted": 332,
   "acceptedCodeDrift": [],
-  "acceptedCodeExactMatchCount": 3208,
+  "acceptedCodeExactMatchCount": 3296,
   "candidateCodeDrift": [],
   "candidateReady": 3628,
-  "candidateReadyProfileAssignments": 3671,
+  "candidateReadyProfileAssignments": 3673,
   "ladderPaths": {
     "01-matrix": [
       {
@@ -126,7 +126,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "136828b671a245ac3459c5aeba56053317d16f601e63fec0e62d6857e1400bff",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "0H97ZC": [
@@ -144,7 +144,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "dc329c98da3c37ba51c320072265253614e1f6fab3ecc10b01dc804d51fdee57",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "0i0mDW": [
@@ -162,7 +162,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "0790508fcb9b8e68054bbad4b73f1d02fc77e272f8bdd3447180e6bb838ecdc8",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "0on3uN": [
@@ -207,7 +207,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "69753734196c45c6172063c7427d108b1aa83bafe79365c04eec5b24228b58bf",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "1fGaJU": [
@@ -216,7 +216,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "c0605da9ab6b5392a596cf95df4cbce6d5db81d1b3a7a75b3a987a6658d2cdbf",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof": [
@@ -293,7 +293,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "64619723b5da4aefb04fd4d65f7613155d29859aa8136cb905b496312d0c61c1",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "2bCMpM": [
@@ -311,7 +311,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "38960a4569c983693b70db867bcb7a4325c9d33a39359fead4cebd7e7b6da8b6",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "3Etpl5": [
@@ -372,7 +372,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "8e706ffb910706151f0072e5155596415c98f861881f24af03fd41d23ba55f8e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "4sjJUc": [
@@ -408,7 +408,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "942b1e30004b9457983556c7093c92a6a5f1192aee01256275e51f29c5fe0abb",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "4xy4Wx": [
@@ -417,7 +417,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "b4de7b3106719a4e2357ded1e26c4c36c5f584ed37bfca2eaeebf8f22adc4cb1",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "569nqc": [
@@ -435,7 +435,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "23e981dba3804243f79b52c806a78cae402afed65dea34265995dc7f70c088a5",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "600YaG": [
@@ -444,7 +444,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "172aa73e51567971cb7481c08255704720c26d8159a9b1053f497a2e8d5074f1",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "6CE719": [
@@ -453,7 +453,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "35059e69ef7f381e83f94090873bfa9705fce4af1ddabf7fb9aefd1f336e6a4f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "6UEx57": [
@@ -462,7 +462,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "855344e5c7eab2533649015aa9c3a8e63c41158e53bc0a05ca53ac8cbf02c441",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "6eUYwP": [
@@ -516,7 +516,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "456cbe288f423aafeca844a6a12a132849198c28440cb326e516a6da6c687f46",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "8Zf90G": [
@@ -534,7 +534,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "7ebe298315bffe2dba90bd07c347fa400d2d3935f2b51c0215643705f6d51adf",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "B1IidL": [
@@ -561,7 +561,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "c7ea8854d21fb8a3366af672fbb9f7ea7f71aa8d25edbd8f3c288313386befa7",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "DFPeFJ": [
@@ -570,7 +570,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "9010de6bf0cbf327237f5f9b188e2f09bdb344fcf982b984a101a3bcb3ca75ce",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "Db3wC1": [
@@ -618,7 +618,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "1f65a95070b078cce45a26af05708080aeec1eb7b534e650b472e64739efeb96",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "EXvqDp": [
@@ -627,7 +627,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "1daaa9d99c77abbfbe3e230af8d3e0ed4c8a00de477f417a27de58ef2386235c",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "FortPu": [
@@ -636,7 +636,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "8b63911b6afbbf3d6a2ee3298c5a6d98755fe3c23d0760065061bc517a16160a",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "Gu0c2T": [
@@ -690,7 +690,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "fd02a312e9508000c25074cc7990ae87fdf0fd6067cc1292d67c8e05b07ab836",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "IY6buf": [
@@ -726,7 +726,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "136f8eb86d90a052a0c9e85f53564fcf441c361988c04098a10996e7d63c1cd1",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "Jf1JuT": [
@@ -790,7 +790,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "9f2830cb14b6134f667bdc6321515980f8e1a0d838a67ca060ea5b235f85d436",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "LGjMqU": [
@@ -799,7 +799,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "8167c0d3d3043591888d050fa9e731de0de0240053b6e2879b9c42e8f9ef7d3e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "LwUNpT": [
@@ -817,7 +817,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e19ebf7b23a1cfc37c3c35213ce68b7e0888b012973379ccfb3149f0f4679983",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "M99OJA": [
@@ -835,7 +835,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "d330a279d6cfb77ef6b639a5a744ed6759152357b78a72305096febf9137c886",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "N6YdxV": [
@@ -896,7 +896,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "a2bb5cb6233a87f2c73af7afc7f5e5da8b83afae51d80abd007c999fca0c253e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "O4NDxx": [
@@ -905,7 +905,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "ba60c0c113fc7c8272da3cb38628be57ad68d7ecdab49663092b7c25f97c8d2a",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "OrIXps": [
@@ -914,7 +914,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "f8e82f51f92e5be7a92b45fa184cdc28c0cfa1887ac2d66487180e919d941a11",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "P5rCT8": [
@@ -941,7 +941,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "c1e8f55e194189ad0c18c8b7ae220f74b2666355439e7e8e1aeace1237ef872a",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "PzWKhm": [
@@ -986,7 +986,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "4e0e6af884a492aef56658ee0b331473863fbe67d4adea25507494dd4d1bc8e7",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "QTMn0o": [
@@ -995,7 +995,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "d0a975ec79bb3994a647f008154537649810df978be1ffd18b621067bdc9196e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "Qv1Da2": [
@@ -1004,7 +1004,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "6165b53300065017b6e18bb665c79f4b1abd6261ebc817768cd1e396f8d3159b",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "RQku0D": [
@@ -1013,7 +1013,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "2c2411994fd90a8143a180635b3d5587dfe7fc56c9fc97dc5f7aa2aede6bb18c",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "SLwz0R": [
@@ -1022,7 +1022,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "d9a1bce491f91d668c95cd124fb30fcf3e7be0bd3f433e9fd01dc3a81575a79b",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "SNJvJP": [
@@ -1031,7 +1031,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "372054c9b1c1538080db5e1e5e38ba5bc3eac437bb5cf9219f3b37b6f80ffd6d",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "SsGoHC": [
@@ -1058,7 +1058,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "f7469cd4c1daee4056457132078bf53401ad341d8dc923d8e1edc870f79e2bbc",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "UEcfPD": [
@@ -1067,7 +1067,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "52efa26c6641574018c628ffa5820d61402c56b0f3a2d95a407ca5bce6bf6a04",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "UHnkqh": [
@@ -1076,7 +1076,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "31a19fcd4a8b4f142b6e7cb8e95d51d1829a4afaccdbe1b7791f38838562186e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "US1pGT": [
@@ -1094,7 +1094,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "595a0040a805a982c090de0d7c876e9ac660408aba13c40943686aa52b4453a3",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "UhWRSj": [
@@ -1112,7 +1112,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "29d4808a0503a2fd015c0825c524ed05061c0c44956c7d27b8c8b20f0b468f83",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "Up5XYM": [
@@ -1121,7 +1121,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "56006c7eacdd710eab8b6c534f5d5161dea0cddae82c62e2f8f62f8652b09283",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "VabMRr": [
@@ -1130,7 +1130,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "8b4cba11e5835a24453c108cb6d023163fd1db36d72cead4c6dbf13c8b709a3a",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "VvJkup": [
@@ -1148,7 +1148,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "12e4221acb84de7712fef32ad03b70d793cb53d7167bbc8058bba62bf50a099f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "WGki4K": [
@@ -1157,7 +1157,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "5e61d5a6e1b6caf138c26bb5f3fa285e21fdbd7ebc853cdb374c71d8b9268a57",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "WHnhjV": [
@@ -1166,7 +1166,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e79a9a10140752743d79dba433fc3a600acbe97504cd6697d16de9191ad1fa9e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "WInSav": [
@@ -1248,7 +1248,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "95f53f2914055eeef0049cca6c4a88e11cbee27785274390d2bb1de8abd5f0a8",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "XxZZjK": [
@@ -1294,7 +1294,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "ab42e1acf183575ffecf9aa9961c6c5d399df44e3c9efc9ac5308cda630a07c3",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "YaVDxD": [
@@ -1339,7 +1339,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "403e5d1afa8b22954c6c978b154a5d60c909832d48ad096026c9ec005f4b2bec",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "Za25hA": [
@@ -1348,7 +1348,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "4ac92e5f8430036d927eb10e0c8cbba75c110b9feea8b667c6151ba0d0511d66",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "ZbAuEH": [
@@ -1357,7 +1357,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e8d3c011dd0c2d14ef4cc2216193bcd9cf413cf913251587389f8860ab492003",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "a-number-after-a-double-reversal": [
@@ -1375,7 +1375,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "0b96e93db567f92d90e7ea2168b51e9a6a8ba8d381c7c1cddd1a4533e15a1a69",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "aMhZSa": [
@@ -1384,7 +1384,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "0874e8abc3d039c3f6850e8a24726350426dfa31680c5536200d6f2f84b6daf7",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "abbreviating-the-product-of-a-range": [
@@ -2086,7 +2086,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "a9d3a75d6fe9f38eda0cb68892a14158950b5024fc1cc15fe696f6a5db5daebe",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "assign-cookies": [
@@ -3085,7 +3085,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "2b3c4beb8f3a89de89cb0069a7dce167f4e25eaadbd9789f8e134b434e2108a7",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "cache-with-time-limit": [
@@ -3349,10 +3349,17 @@
     ],
     "ccw6C7": [
       {
+        "profileId": "sol-medium",
+        "candidateReady": true,
+        "candidateCodeSha256": "1fb0aad76f5ee75cb3e02811becf28d3f721039c358ae7c25446d645efe91b80",
+        "deferred": false,
+        "remoteAccepted": false
+      },
+      {
         "profileId": "terra-medium",
         "candidateReady": true,
         "candidateCodeSha256": "5e378e4152d5d8971d02d2cc723dbf99a19531d9af98a8746cdf9af77aecb052",
-        "deferred": false,
+        "deferred": true,
         "remoteAccepted": false
       }
     ],
@@ -7233,7 +7240,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "5b5af0a671abf8a21bc867e7ec7878995e3976edee6057cc29f7bba9f9c562a4",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "da-yin-cong-1dao-zui-da-de-nwei-shu-lcof": [
@@ -8898,7 +8905,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "c147602fbb81f983667f5a324e47794f02c8edc4d961cb939056e0e97458976c",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "er-cha-shu-ren-wu-diao-du": [
@@ -8979,7 +8986,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "6f66d72bbf67cadebf0dc0c563694f5f82252388ff16fa708808ab8295f11a6f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "erect-the-fence": [
@@ -9204,7 +9211,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "b03cc77eb5f9d65e7e14d4c70f8c3b2e315e09b13f390001e2d6e370de009e99",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "factorial-trailing-zeroes": [
@@ -12344,7 +12351,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e2af6b7d4ae557f408c7a5a8c6ea502183952e834919d906266b4b472d310c4f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "fu-za-lian-biao-de-fu-zhi-lcof": [
@@ -12866,7 +12873,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "b539c1536505230ec9a000069825580655f3ba1f313913a46268276d46157dfa",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "hamming-distance": [
@@ -13073,7 +13080,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "365fc4f844f2d30a21a3e513b4956ca52b0ff8dd1497a932ca71447a9a799b96",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "html-entity-parser": [
@@ -13901,7 +13908,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "4add88818ae5726e8da1f6664c6e1a9e83514e713b96228a4d4ae856ef657773",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "kTOapQ": [
@@ -13955,7 +13962,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "5825c510b9b60e0135a20cb2c476b7bdcbe7506ddf9a87dee682256b456e87f6",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "knight-dialer": [
@@ -13991,7 +13998,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "45ea4a7d9721b487d827eded2107aa2ee2d6fcd9b491a19d19c138457a78124f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "kskhHQ": [
@@ -14170,7 +14177,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "d0c863b922c1db300b9f23780a0c1b5edb4db828d64603fa2dd1475be9cc3cc1",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "langtons-ant-lcci": [
@@ -19199,7 +19206,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e8530564c598788f468d8d42d0dc2c811e1257f3239456f6728be724c9e36105",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "mean-of-array-after-removing-some-elements": [
@@ -23251,7 +23258,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "ffdbcd826de47340fa6ec1930e13d04cb3331700c2295bfbdbd4a26fc015cfad",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "nZZqjQ": [
@@ -24662,7 +24669,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "f9b1034428c669318fd95daf12fe69b897a96468123a6b1b2c78a5b3c0a9844c",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "oPs9Bm": [
@@ -24671,7 +24678,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "0dd4c6f38f6d02de023ac4f35ff886b94add569a939d59cd9207c572d96016d4",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "occurrences-after-bigram": [
@@ -24867,7 +24874,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e2301aebeee0b60855d57a84fa7cdddb53931f623a9e2af5a607602478b10ef6",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "pOCWxh": [
@@ -26179,7 +26186,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "0595f8e26534dc36ab34c04ad9f83c899f8310a6ee00cfb4c6946d64687ff1df",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "qing-wa-tiao-tai-jie-wen-ti-lcof": [
@@ -26215,7 +26222,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "b914c34c063ecfab6b604a93a551be705a2c7d42ed0bd095c5ef1942ef68f994",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "que-shi-de-shu-zi-lcof": [
@@ -26284,8 +26291,8 @@
     "rMeRt2": [
       {
         "profileId": "sol-medium",
-        "candidateReady": false,
-        "candidateCodeSha256": null,
+        "candidateReady": true,
+        "candidateCodeSha256": "41111752fc54022b3ad075f227648024e6c448e17140517b9974adc6ac1d3c70",
         "deferred": false,
         "remoteAccepted": false
       },
@@ -26293,7 +26300,7 @@
         "profileId": "terra-medium",
         "candidateReady": true,
         "candidateCodeSha256": "5eacfa06fcf6b041734497602a980d26e07bb8d7994ed869a4bc588b66ace0b8",
-        "deferred": false,
+        "deferred": true,
         "remoteAccepted": false
       }
     ],
@@ -27967,7 +27974,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "d1745839dfe123c153cd065b8cb7963ca29c79732b068f7a90b049060b6ba64f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "s5kipK": [
@@ -27976,7 +27983,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "db1b37c3cb0a13b4ee0962a8918f032f0e7f8f500f49a368de771c978cc51e1d",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "sZ59z6": [
@@ -27985,7 +27992,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "0097d4cdaeae27d1bcfdc71c129a40f13ccab6f8d1a230c3f37151a041fc2114",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "sales-analysis-iii": [
@@ -28390,7 +28397,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "8dc4bd153234b62973cb11b4dbfcd79f4870382c6c17586d755b435b3bdfe41e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "shan-chu-lian-biao-de-jie-dian-lcof": [
@@ -31106,7 +31113,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "b04147a29d472025d70d080212c20e098933af1672b7ff1efc7c84bcb9edd379",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "t9-lcci": [
@@ -31939,7 +31946,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "16ad8c08f29ee1e57cd5cbe226a05a81d85259e3e52031bb60eb1d9994f582e0",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "tweet-counts-per-frequency": [
@@ -32047,7 +32054,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "19e27075dfb4754addd2329a7765bad20af8fa8130c1cfbbbe4fc10395ee8e9f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "uUsW3B": [
@@ -32281,7 +32288,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "9a3531c773cc57cee69e4133474fe6036c65873331c7edc0353587ac599d4f8f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "valid-anagram": [
@@ -32632,7 +32639,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "8ffb00290dfd86eabf7bbe9fa0a15eae1964aeb5360b65e88fed4251faebf7b4",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "w6cpku": [
@@ -32947,7 +32954,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "8f878501d3b58040eb256d3e18d289bba0f79db4fd3794d61ed961d54e21933b",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "x-of-a-kind-in-a-deck-of-cards": [
@@ -32965,7 +32972,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "59e3d923b1bf4b2da1380ed1a83cfadc8783a582b3d606b0098b29d6c1e0b398",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "xiao-zhang-shua-ti-ji-hua": [
@@ -32983,7 +32990,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "d4e231d2c2ce87401bf750acc12f7ceedd45aa8b8385a8fb032d8ef4a230b78e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "xor-after-range-multiplication-queries-i": [
@@ -33073,7 +33080,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "6a47e8ed4e1dbed21b1df63655f36e9b1a8d17d76df93509a5885bb01f0175c9",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "you-le-yuan-de-you-lan-ji-hua": [
@@ -33258,7 +33265,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "aefc25a0aaf472b8e7e0cdf82cf7afad789e02c5baa9c48910f15688c295aaa3",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "zui-xiao-tiao-yue-ci-shu": [
@@ -33315,6 +33322,13 @@
       },
       {
         "slug": "can-you-eat-your-favorite-candy-on-your-favorite-day",
+        "fromProfile": "terra-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
+        "slug": "ccw6C7",
         "fromProfile": "terra-medium",
         "targetStarted": true,
         "targetCandidateReady": true,
@@ -33587,6 +33601,13 @@
         "needsNewCandidate": false
       },
       {
+        "slug": "rMeRt2",
+        "fromProfile": "terra-medium",
+        "targetStarted": true,
+        "targetCandidateReady": true,
+        "needsNewCandidate": false
+      },
+      {
         "slug": "random-pick-index",
         "fromProfile": "terra-medium",
         "targetStarted": true,
@@ -33716,11 +33737,11 @@
         "model": "gpt-5.6-terra",
         "reasoningEffort": "medium",
         "byDifficulty": {
-          "EASY": 825,
-          "HARD": 756,
-          "MEDIUM": 1626
+          "EASY": 850,
+          "HARD": 779,
+          "MEDIUM": 1666
         },
-        "total": 3207
+        "total": 3295
       },
       {
         "kind": "firstAccepted",
@@ -33776,11 +33797,11 @@
         "model": null,
         "reasoningEffort": null,
         "byDifficulty": {
-          "EASY": 123,
-          "HARD": 87,
-          "MEDIUM": 210
+          "EASY": 98,
+          "HARD": 64,
+          "MEDIUM": 170
         },
-        "total": 420
+        "total": 332
       }
     ],
     "accountedByDifficulty": {
@@ -33793,7 +33814,7 @@
       "HARD": 843,
       "MEDIUM": 1836
     },
-    "pending": 420,
+    "pending": 332,
     "isComplete": false,
     "byProblem": {
       "01-matrix": {
@@ -33807,10 +33828,10 @@
       "05ZEDJ": {
         "frontendId": "LCP 46",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "0H97ZC": {
         "frontendId": "LCR 075",
@@ -33823,10 +33844,10 @@
       "0Zeoeg": {
         "frontendId": "LCP 73",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "0i0mDW": {
         "frontendId": "LCR 099",
@@ -33839,10 +33860,10 @@
       "0jQkd0": {
         "frontendId": "LCP 39",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "0on3uN": {
         "frontendId": "LCR 087",
@@ -33879,18 +33900,18 @@
       "1GxJYY": {
         "frontendId": "LCP 68",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "1fGaJU": {
         "frontendId": "LCR 007",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof": {
         "frontendId": "LCR 162",
@@ -33943,10 +33964,10 @@
       "2VG8Kg": {
         "frontendId": "LCR 008",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "2bCMpM": {
         "frontendId": "LCR 107",
@@ -33959,10 +33980,10 @@
       "2vYnGI": {
         "frontendId": "LCP 18",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "3Etpl5": {
         "frontendId": "LCR 049",
@@ -34007,10 +34028,10 @@
       "3u1WK4": {
         "frontendId": "LCR 023",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "4sjJUc": {
         "frontendId": "LCR 082",
@@ -34039,18 +34060,18 @@
       "4ueAj6": {
         "frontendId": "LCR 029",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "4xy4Wx": {
         "frontendId": "LCP 28",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "569nqc": {
         "frontendId": "LCR 035",
@@ -34063,34 +34084,34 @@
       "5TxKeK": {
         "frontendId": "LCP 24",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "600YaG": {
         "frontendId": "LCP 66",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "6CE719": {
         "frontendId": "LCP 61",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "6UEx57": {
         "frontendId": "LCP 56",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "6eUYwP": {
         "frontendId": "LCR 050",
@@ -34135,10 +34156,10 @@
       "7rLGCR": {
         "frontendId": "LCP 38",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "8Zf90G": {
         "frontendId": "LCR 036",
@@ -34151,10 +34172,10 @@
       "A1NYOS": {
         "frontendId": "LCR 011",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "B1IidL": {
         "frontendId": "LCR 069",
@@ -34175,18 +34196,18 @@
       "D9PW8w": {
         "frontendId": "LCP 62",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "DFPeFJ": {
         "frontendId": "LCP 35",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "Db3wC1": {
         "frontendId": "LCP 31",
@@ -34207,26 +34228,26 @@
       "EJvmW4": {
         "frontendId": "LCP 53",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "EXvqDp": {
         "frontendId": "LCP 63",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "FortPu": {
         "frontendId": "LCR 030",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "Gu0c2T": {
         "frontendId": "LCR 089",
@@ -34271,10 +34292,10 @@
       "IQvJ9i": {
         "frontendId": "LCP 27",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "IY6buf": {
         "frontendId": "LCR 096",
@@ -34303,10 +34324,10 @@
       "JFETK5": {
         "frontendId": "LCR 002",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "Jf1JuT": {
         "frontendId": "LCR 114",
@@ -34335,18 +34356,18 @@
       "KnLfVT": {
         "frontendId": "LCP 67",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "LGjMqU": {
         "frontendId": "LCR 026",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "LwUNpT": {
         "frontendId": "LCR 045",
@@ -34359,10 +34380,10 @@
       "M1oyTv": {
         "frontendId": "LCR 017",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "M99OJA": {
         "frontendId": "LCR 086",
@@ -34375,10 +34396,10 @@
       "MPnaiL": {
         "frontendId": "LCR 014",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "N6YdxV": {
         "frontendId": "LCR 068",
@@ -34423,26 +34444,26 @@
       "Nsibyl": {
         "frontendId": "LCP 78",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "O4NDxx": {
         "frontendId": "LCR 013",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "OrIXps": {
         "frontendId": "LCR 031",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "P5rCT8": {
         "frontendId": "LCR 053",
@@ -34463,10 +34484,10 @@
       "PTXy4P": {
         "frontendId": "LCP 55",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "PzWKhm": {
         "frontendId": "LCR 090",
@@ -34503,50 +34524,50 @@
       "QO5KpG": {
         "frontendId": "LCP 52",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "QTMn0o": {
         "frontendId": "LCR 010",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "Qv1Da2": {
         "frontendId": "LCR 028",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "RQku0D": {
         "frontendId": "LCR 019",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "SLwz0R": {
         "frontendId": "LCR 021",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "SNJvJP": {
         "frontendId": "LCP 29",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "SsGoHC": {
         "frontendId": "LCR 074",
@@ -34567,26 +34588,26 @@
       "U7WvvU": {
         "frontendId": "LCP 64",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "UEcfPD": {
         "frontendId": "LCP 51",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "UHnkqh": {
         "frontendId": "LCR 024",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "US1pGT": {
         "frontendId": "LCR 064",
@@ -34599,10 +34620,10 @@
       "Uh984O": {
         "frontendId": "LCP 25",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "UhWRSj": {
         "frontendId": "LCR 063",
@@ -34615,26 +34636,26 @@
       "UlBDOe": {
         "frontendId": "LCP 19",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "Up5XYM": {
         "frontendId": "LCP 36",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "VabMRr": {
         "frontendId": "LCR 015",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "VvJkup": {
         "frontendId": "LCR 083",
@@ -34647,26 +34668,26 @@
       "W2ZX4X": {
         "frontendId": "LCP 77",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "WGki4K": {
         "frontendId": "LCR 004",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "WHnhjV": {
         "frontendId": "LCP 50",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "WInSav": {
         "frontendId": "LCP 60",
@@ -34711,10 +34732,10 @@
       "XltzEq": {
         "frontendId": "LCR 018",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "XxZZjK": {
         "frontendId": "LCP 70",
@@ -34727,10 +34748,10 @@
       "Y1VbOX": {
         "frontendId": "LCP 43",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "YaVDxD": {
         "frontendId": "LCR 102",
@@ -34767,26 +34788,26 @@
       "ZVAVXX": {
         "frontendId": "LCR 009",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "Za25hA": {
         "frontendId": "LCP 21",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "ZbAuEH": {
         "frontendId": "LCP 57",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "a-number-after-a-double-reversal": {
         "frontendId": "2119",
@@ -34799,18 +34820,18 @@
       "a7VOhD": {
         "frontendId": "LCR 020",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "aMhZSa": {
         "frontendId": "LCR 027",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "abbreviating-the-product-of-a-range": {
         "frontendId": "2117",
@@ -35431,10 +35452,10 @@
       "aseY1I": {
         "frontendId": "LCR 005",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "assign-cookies": {
         "frontendId": "455",
@@ -36319,10 +36340,10 @@
       "c32eOV": {
         "frontendId": "LCR 022",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "cache-with-time-limit": {
         "frontendId": "2622",
@@ -39975,10 +39996,10 @@
       "dKk3P7": {
         "frontendId": "LCR 032",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "da-yin-cong-1dao-zui-da-de-nwei-shu-lcof": {
         "frontendId": "LCR 135",
@@ -41455,10 +41476,10 @@
       "er-cha-shu-ran-se-UGC": {
         "frontendId": "LCP 34",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "er-cha-shu-ren-wu-diao-du": {
         "frontendId": "LCP 10",
@@ -41527,10 +41548,10 @@
       "er94lq": {
         "frontendId": "LCP 23",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "erect-the-fence": {
         "frontendId": "587",
@@ -41727,10 +41748,10 @@
       "fHi6rV": {
         "frontendId": "LCP 41",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "factorial-trailing-zeroes": {
         "frontendId": "172",
@@ -44431,10 +44452,10 @@
       "fsa7oZ": {
         "frontendId": "LCP 48",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "fu-za-lian-biao-de-fu-zhi-lcof": {
         "frontendId": "LCR 154",
@@ -44895,10 +44916,10 @@
       "hSRGyL": {
         "frontendId": "LCP 26",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "hamming-distance": {
         "frontendId": "461",
@@ -45079,10 +45100,10 @@
       "hqCnmP": {
         "frontendId": "LCP 72",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "html-entity-parser": {
         "frontendId": "1410",
@@ -45815,10 +45836,10 @@
       "kLl5u1": {
         "frontendId": "LCR 006",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "kTOapQ": {
         "frontendId": "LCR 055",
@@ -45863,10 +45884,10 @@
       "kjpLFZ": {
         "frontendId": "LCP 79",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "knight-dialer": {
         "frontendId": "935",
@@ -45895,10 +45916,10 @@
       "kplEvH": {
         "frontendId": "LCP 45",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "kskhHQ": {
         "frontendId": "LCP 71",
@@ -46023,10 +46044,10 @@
       "lMSNwu": {
         "frontendId": "LCR 025",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "langtons-ant-lcci": {
         "frontendId": "面试题 16.22",
@@ -50431,10 +50452,10 @@
       "meChtZ": {
         "frontendId": "LCP 20",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "mean-of-array-after-removing-some-elements": {
         "frontendId": "1619",
@@ -53983,10 +54004,10 @@
       "nGK0Fy": {
         "frontendId": "LCP 17",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "nZZqjQ": {
         "frontendId": "LCR 073",
@@ -55231,18 +55252,18 @@
       "o8SXZn": {
         "frontendId": "LCP 33",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "oPs9Bm": {
         "frontendId": "LCP 47",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "occurrences-after-bigram": {
         "frontendId": "1078",
@@ -55407,10 +55428,10 @@
       "p0NxJO": {
         "frontendId": "LCP 30",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "pOCWxh": {
         "frontendId": "LCR 047",
@@ -56567,10 +56588,10 @@
       "qie-fen-shu-zu": {
         "frontendId": "LCP 14",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "qing-wa-tiao-tai-jie-wen-ti-lcof": {
         "frontendId": "LCR 127",
@@ -56599,10 +56620,10 @@
       "qoQAMX": {
         "frontendId": "LCP 80",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "que-shi-de-shu-zi-lcof": {
         "frontendId": "LCR 173",
@@ -58119,26 +58140,26 @@
       "ryfUiz": {
         "frontendId": "LCP 81",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "s5kipK": {
         "frontendId": "LCP 54",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "sZ59z6": {
         "frontendId": "LCP 44",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "sales-analysis-iii": {
         "frontendId": "1084",
@@ -58495,10 +58516,10 @@
       "sfvd7V": {
         "frontendId": "LCR 033",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "shan-chu-lian-biao-de-jie-dian-lcof": {
         "frontendId": "LCR 136",
@@ -60903,10 +60924,10 @@
       "t3fKg1": {
         "frontendId": "LCP 32",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "t9-lcci": {
         "frontendId": "面试题 16.20",
@@ -61631,10 +61652,10 @@
       "tvdfij": {
         "frontendId": "LCR 012",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "tweet-counts-per-frequency": {
         "frontendId": "1348",
@@ -61727,10 +61748,10 @@
       "uOAnQW": {
         "frontendId": "LCP 40",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "uUsW3B": {
         "frontendId": "LCR 080",
@@ -61935,10 +61956,10 @@
       "vFjcfV": {
         "frontendId": "LCP 42",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "valid-anagram": {
         "frontendId": "242",
@@ -62247,10 +62268,10 @@
       "w3tCBm": {
         "frontendId": "LCR 003",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "w6cpku": {
         "frontendId": "LCR 054",
@@ -62527,10 +62548,10 @@
       "wtcaE1": {
         "frontendId": "LCR 016",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "x-of-a-kind-in-a-deck-of-cards": {
         "frontendId": "914",
@@ -62543,10 +62564,10 @@
       "xepqZ5": {
         "frontendId": "LCP 74",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "xiao-zhang-shua-ti-ji-hua": {
         "frontendId": "LCP 12",
@@ -62559,10 +62580,10 @@
       "xoh6Oh": {
         "frontendId": "LCR 001",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "xor-after-range-multiplication-queries-i": {
         "frontendId": "3653",
@@ -62639,10 +62660,10 @@
       "you-le-yuan-de-mi-gong": {
         "frontendId": "LCP 15",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "you-le-yuan-de-you-lan-ji-hua": {
         "frontendId": "LCP 16",
@@ -62791,10 +62812,10 @@
       "zui-xiao-ju-xing-mian-ji": {
         "frontendId": "LCP 37",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "zui-xiao-tiao-yue-ci-shu": {
         "frontendId": "LCP 09",
@@ -62825,19 +62846,40 @@
   "firstSuccessByDifficulty": {
     "EASY": {
       "sol-xhigh": 1,
-      "terra-medium": 825
+      "terra-medium": 850
     },
     "HARD": {
-      "terra-medium": 756
+      "terra-medium": 779
     },
     "MEDIUM": {
-      "terra-medium": 1626
+      "terra-medium": 1666
     }
   },
   "firstSuccessByProblem": {
     "01-matrix": {
       "frontendId": "542",
       "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "05ZEDJ": {
+      "frontendId": "LCP 46",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "0Zeoeg": {
+      "frontendId": "LCP 73",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "0jQkd0": {
+      "frontendId": "LCP 39",
+      "difficulty": "EASY",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -62856,6 +62898,20 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "1GxJYY": {
+      "frontendId": "LCP 68",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "1fGaJU": {
+      "frontendId": "LCR 007",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "2-keys-keyboard": {
       "frontendId": "650",
       "difficulty": "MEDIUM",
@@ -62866,6 +62922,20 @@
     "24-game": {
       "frontendId": "679",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "2VG8Kg": {
+      "frontendId": "LCR 008",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "2vYnGI": {
+      "frontendId": "LCP 18",
+      "difficulty": "EASY",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -62891,6 +62961,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "3u1WK4": {
+      "frontendId": "LCR 023",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "4sum": {
       "frontendId": "18",
       "difficulty": "MEDIUM",
@@ -62905,8 +62982,330 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "4ueAj6": {
+      "frontendId": "LCR 029",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "4xy4Wx": {
+      "frontendId": "LCP 28",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "5TxKeK": {
+      "frontendId": "LCP 24",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "600YaG": {
+      "frontendId": "LCP 66",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "6CE719": {
+      "frontendId": "LCP 61",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "6UEx57": {
+      "frontendId": "LCP 56",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "7rLGCR": {
+      "frontendId": "LCP 38",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "A1NYOS": {
+      "frontendId": "LCR 011",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "D9PW8w": {
+      "frontendId": "LCP 62",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "DFPeFJ": {
+      "frontendId": "LCP 35",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "EJvmW4": {
+      "frontendId": "LCP 53",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "EXvqDp": {
+      "frontendId": "LCP 63",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "FortPu": {
+      "frontendId": "LCR 030",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "IQvJ9i": {
+      "frontendId": "LCP 27",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "JFETK5": {
+      "frontendId": "LCR 002",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "KnLfVT": {
+      "frontendId": "LCP 67",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "LGjMqU": {
+      "frontendId": "LCR 026",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "M1oyTv": {
+      "frontendId": "LCR 017",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "MPnaiL": {
+      "frontendId": "LCR 014",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "Nsibyl": {
+      "frontendId": "LCP 78",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "O4NDxx": {
+      "frontendId": "LCR 013",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "OrIXps": {
+      "frontendId": "LCR 031",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "PTXy4P": {
+      "frontendId": "LCP 55",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "QO5KpG": {
+      "frontendId": "LCP 52",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "QTMn0o": {
+      "frontendId": "LCR 010",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "Qv1Da2": {
+      "frontendId": "LCR 028",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "RQku0D": {
+      "frontendId": "LCR 019",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "SLwz0R": {
+      "frontendId": "LCR 021",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "SNJvJP": {
+      "frontendId": "LCP 29",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "U7WvvU": {
+      "frontendId": "LCP 64",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "UEcfPD": {
+      "frontendId": "LCP 51",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "UHnkqh": {
+      "frontendId": "LCR 024",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "Uh984O": {
+      "frontendId": "LCP 25",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "UlBDOe": {
+      "frontendId": "LCP 19",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "Up5XYM": {
+      "frontendId": "LCP 36",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "VabMRr": {
+      "frontendId": "LCR 015",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "W2ZX4X": {
+      "frontendId": "LCP 77",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "WGki4K": {
+      "frontendId": "LCR 004",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "WHnhjV": {
+      "frontendId": "LCP 50",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "XltzEq": {
+      "frontendId": "LCR 018",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "Y1VbOX": {
+      "frontendId": "LCP 43",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "ZVAVXX": {
+      "frontendId": "LCR 009",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "Za25hA": {
+      "frontendId": "LCP 21",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "ZbAuEH": {
+      "frontendId": "LCP 57",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "a-number-after-a-double-reversal": {
       "frontendId": "2119",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "a7VOhD": {
+      "frontendId": "LCR 020",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "aMhZSa": {
+      "frontendId": "LCR 027",
       "difficulty": "EASY",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -63432,6 +63831,13 @@
     },
     "as-far-from-land-as-possible": {
       "frontendId": "1162",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "aseY1I": {
+      "frontendId": "LCR 005",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -64084,6 +64490,13 @@
     "buy-two-chocolates": {
       "frontendId": "2706",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "c32eOV": {
+      "frontendId": "LCR 022",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -67112,6 +67525,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "dKk3P7": {
+      "frontendId": "LCR 032",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "daily-leads-and-partners": {
       "frontendId": "1693",
       "difficulty": "EASY",
@@ -68309,9 +68729,23 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "er-cha-shu-ran-se-UGC": {
+      "frontendId": "LCP 34",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "er-cha-shu-ren-wu-diao-du": {
       "frontendId": "LCP 10",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "er94lq": {
+      "frontendId": "LCP 23",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -68472,6 +68906,13 @@
     },
     "extra-characters-in-a-string": {
       "frontendId": "2707",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "fHi6rV": {
+      "frontendId": "LCP 41",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -70668,6 +71109,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "fsa7oZ": {
+      "frontendId": "LCP 48",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "function-composition": {
       "frontendId": "2629",
       "difficulty": "EASY",
@@ -71004,6 +71452,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "hSRGyL": {
+      "frontendId": "LCP 26",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "hamming-distance": {
       "frontendId": "461",
       "difficulty": "EASY",
@@ -71125,6 +71580,13 @@
     },
     "how-many-numbers-are-smaller-than-the-current-number": {
       "frontendId": "1365",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "hqCnmP": {
+      "frontendId": "LCP 72",
       "difficulty": "EASY",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -71662,6 +72124,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "kLl5u1": {
+      "frontendId": "LCR 006",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "keep-multiplying-found-values-by-two": {
       "frontendId": "2154",
       "difficulty": "EASY",
@@ -71690,6 +72159,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "kjpLFZ": {
+      "frontendId": "LCP 79",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "knight-dialer": {
       "frontendId": "935",
       "difficulty": "MEDIUM",
@@ -71706,6 +72182,13 @@
     },
     "koko-eating-bananas": {
       "frontendId": "875",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "kplEvH": {
+      "frontendId": "LCP 45",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -71791,6 +72274,13 @@
     "kth-smallest-product-of-two-sorted-arrays": {
       "frontendId": "2040",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "lMSNwu": {
+      "frontendId": "LCR 025",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -75456,6 +75946,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "meChtZ": {
+      "frontendId": "LCP 20",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "mean-of-array-after-removing-some-elements": {
       "frontendId": "1619",
       "difficulty": "EASY",
@@ -78459,6 +78956,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "nGK0Fy": {
+      "frontendId": "LCP 17",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "na-ying-bi": {
       "frontendId": "LCP 06",
       "difficulty": "EASY",
@@ -79516,6 +80020,20 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "o8SXZn": {
+      "frontendId": "LCP 33",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "oPs9Bm": {
+      "frontendId": "LCP 47",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "occurrences-after-bigram": {
       "frontendId": "1078",
       "difficulty": "EASY",
@@ -79609,6 +80127,13 @@
     },
     "out-of-boundary-paths": {
       "frontendId": "576",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "p0NxJO": {
+      "frontendId": "LCP 30",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -80499,6 +81024,20 @@
     "qi-wang-ge-shu-tong-ji": {
       "frontendId": "LCP 11",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "qie-fen-shu-zu": {
+      "frontendId": "LCP 14",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "qoQAMX": {
+      "frontendId": "LCP 80",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -81721,6 +82260,27 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "ryfUiz": {
+      "frontendId": "LCP 81",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "s5kipK": {
+      "frontendId": "LCP 54",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "sZ59z6": {
+      "frontendId": "LCP 44",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "sales-analysis-iii": {
       "frontendId": "1084",
       "difficulty": "EASY",
@@ -82018,6 +82578,13 @@
     "set-mismatch": {
       "frontendId": "645",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "sfvd7V": {
+      "frontendId": "LCR 033",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -83919,6 +84486,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "t3fKg1": {
+      "frontendId": "LCP 32",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "tag-validator": {
       "frontendId": "591",
       "difficulty": "HARD",
@@ -84500,6 +85074,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "tvdfij": {
+      "frontendId": "LCR 012",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "tweet-counts-per-frequency": {
       "frontendId": "1348",
       "difficulty": "MEDIUM",
@@ -84572,6 +85153,13 @@
     },
     "type-of-triangle": {
       "frontendId": "3024",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "uOAnQW": {
+      "frontendId": "LCP 40",
       "difficulty": "EASY",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -84727,6 +85315,13 @@
     "utf-8-validation": {
       "frontendId": "393",
       "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "vFjcfV": {
+      "frontendId": "LCP 42",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -84976,6 +85571,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "w3tCBm": {
+      "frontendId": "LCR 003",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "walking-robot-simulation": {
       "frontendId": "874",
       "difficulty": "MEDIUM",
@@ -85186,6 +85788,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "wtcaE1": {
+      "frontendId": "LCR 016",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "x-of-a-kind-in-a-deck-of-cards": {
       "frontendId": "914",
       "difficulty": "EASY",
@@ -85193,9 +85802,23 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "xepqZ5": {
+      "frontendId": "LCP 74",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "xiao-zhang-shua-ti-ji-hua": {
       "frontendId": "LCP 12",
       "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "xoh6Oh": {
+      "frontendId": "LCR 001",
+      "difficulty": "EASY",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -85230,6 +85853,13 @@
     },
     "xun-bao": {
       "frontendId": "LCP 13",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "you-le-yuan-de-mi-gong": {
+      "frontendId": "LCP 15",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -85277,6 +85907,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "zui-xiao-ju-xing-mian-ji": {
+      "frontendId": "LCP 37",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "zui-xiao-tiao-yue-ci-shu": {
       "frontendId": "LCP 09",
       "difficulty": "HARD",
@@ -85294,11 +85931,11 @@
   },
   "acceptedByProfile": {
     "sol-xhigh": 1,
-    "terra-medium": 3207
+    "terra-medium": 3295
   },
   "acceptedByAgent": {
     "Codex Desktop / gpt-5.6-sol": 1,
-    "Codex Desktop / gpt-5.6-terra": 3207
+    "Codex Desktop / gpt-5.6-terra": 3295
   },
   "profiles": {
     "sol-low": {
@@ -85364,10 +86001,10 @@
       "cohort": "sol-escalation",
       "stage": 1,
       "enabled": true,
-      "started": 59,
+      "started": 60,
       "accepted": 0,
       "deferred": 8,
-      "candidateReady": 49,
+      "candidateReady": 51,
       "reviewRequired": 0,
       "remoteTests": 0,
       "submissions": 0,
@@ -85384,7 +86021,7 @@
       "medianSolveWallSeconds": null,
       "byDifficulty": {
         "EASY": {
-          "started": 8,
+          "started": 9,
           "accepted": 0,
           "deferred": 0,
           "failedSubmissionAttempts": 0,
@@ -85707,41 +86344,41 @@
       "stage": 1,
       "enabled": true,
       "started": 3627,
-      "accepted": 3207,
-      "deferred": 57,
+      "accepted": 3295,
+      "deferred": 59,
       "candidateReady": 3613,
       "reviewRequired": 0,
       "remoteTests": 0,
-      "submissions": 3279,
-      "failedSubmissions": 72,
-      "failedSubmissionProblems": 65,
+      "submissions": 3370,
+      "failedSubmissions": 74,
+      "failedSubmissionProblems": 67,
       "infrastructureErrors": {
         "remoteTests": 0,
         "submissions": 140
       },
-      "firstSubmissionAccepted": 3185,
-      "remoteElapsedReports": 3419,
-      "remoteElapsedSeconds": 11701.821,
-      "averageSolveWallSeconds": 204352.6598066729,
-      "medianSolveWallSeconds": 227627.0,
+      "firstSubmissionAccepted": 3273,
+      "remoteElapsedReports": 3509,
+      "remoteElapsedSeconds": 12026.77,
+      "averageSolveWallSeconds": 211287.91168437025,
+      "medianSolveWallSeconds": 230979.0,
       "byDifficulty": {
         "EASY": {
           "started": 948,
-          "accepted": 825,
-          "deferred": 8,
-          "failedSubmissionAttempts": 21,
-          "failedSubmissionProblems": 17
+          "accepted": 850,
+          "deferred": 9,
+          "failedSubmissionAttempts": 22,
+          "failedSubmissionProblems": 18
         },
         "HARD": {
           "started": 843,
-          "accepted": 756,
-          "deferred": 34,
-          "failedSubmissionAttempts": 36,
-          "failedSubmissionProblems": 33
+          "accepted": 779,
+          "deferred": 35,
+          "failedSubmissionAttempts": 37,
+          "failedSubmissionProblems": 34
         },
         "MEDIUM": {
           "started": 1836,
-          "accepted": 1626,
+          "accepted": 1666,
           "deferred": 15,
           "failedSubmissionAttempts": 15,
           "failedSubmissionProblems": 15
@@ -85795,6 +86432,7 @@
       "WInSav",
       "XxZZjK",
       "can-you-eat-your-favorite-candy-on-your-favorite-day",
+      "ccw6C7",
       "cnHoX6",
       "count-beautiful-numbers",
       "count-the-number-of-incremovable-subarrays-ii",
@@ -85835,6 +86473,7 @@
       "number-of-effective-subsequences",
       "odd-string-difference",
       "palindrome-rearrangement-queries",
+      "rMeRt2",
       "random-pick-index",
       "rdmXM7",
       "reduction-operations-to-make-the-array-elements-equal",
@@ -85856,7 +86495,7 @@
     "terra-medium": []
   },
   "usageCoverage": {
-    "startedProfileAssignments": 3703,
+    "startedProfileAssignments": 3704,
     "reportedProfileAssignments": 0,
     "coverage": 0.0,
     "policy": "仅统计客户端提供且注明来源的数据；缺失值不估算"
