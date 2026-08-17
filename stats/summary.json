@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-17T10:11:19Z",
+  "generatedAt": "2026-08-17T11:11:57Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -17,32 +17,32 @@
   "archivedReadableDetails": 3628,
   "archivedLockedOrUnavailable": 778,
   "started": 3628,
-  "accepted": 3075,
+  "accepted": 3114,
   "deferredProblems": 52,
   "deferredProfileAssignments": 68,
   "reviewRequired": 0,
-  "remainingAccessible": 553,
+  "remainingAccessible": 514,
   "remoteTests": 1,
-  "submissions": 3142,
-  "firstSubmissionAccepted": 3053,
-  "firstRoundAccepted": 3075,
-  "firstSubmissionAcceptanceRate": 0.9928455284552845,
-  "overallSubmissionAcceptanceRate": 0.978676002546149,
+  "submissions": 3181,
+  "firstSubmissionAccepted": 3092,
+  "firstRoundAccepted": 3114,
+  "firstSubmissionAcceptanceRate": 0.9929351316634554,
+  "overallSubmissionAcceptanceRate": 0.9789374410562716,
   "byDifficulty": {
     "EASY": {
       "eligible": 949,
-      "accepted": 794,
-      "remoteAcceptanceCoverage": 0.8366701791359326
+      "accepted": 803,
+      "remoteAcceptanceCoverage": 0.8461538461538461
     },
     "HARD": {
       "eligible": 843,
-      "accepted": 721,
-      "remoteAcceptanceCoverage": 0.8552787663107948
+      "accepted": 733,
+      "remoteAcceptanceCoverage": 0.8695136417556346
     },
     "MEDIUM": {
       "eligible": 1836,
-      "accepted": 1560,
-      "remoteAcceptanceCoverage": 0.8496732026143791
+      "accepted": 1578,
+      "remoteAcceptanceCoverage": 0.8594771241830066
     }
   },
   "catalogByDifficulty": {
@@ -66,32 +66,32 @@
     "EASY": {
       "eligible": 949,
       "started": 949,
-      "submitted": 802,
-      "remoteAccepted": 794,
+      "submitted": 811,
+      "remoteAccepted": 803,
       "failedSubmissionProblems": 17,
       "deferred": 8,
-      "awaitingRemoteAccepted": 155,
-      "remoteAcceptanceCoverage": 0.8366701791359326
+      "awaitingRemoteAccepted": 146,
+      "remoteAcceptanceCoverage": 0.8461538461538461
     },
     "HARD": {
       "eligible": 843,
       "started": 843,
-      "submitted": 736,
-      "remoteAccepted": 721,
+      "submitted": 748,
+      "remoteAccepted": 733,
       "failedSubmissionProblems": 28,
       "deferred": 29,
-      "awaitingRemoteAccepted": 122,
-      "remoteAcceptanceCoverage": 0.8552787663107948
+      "awaitingRemoteAccepted": 110,
+      "remoteAcceptanceCoverage": 0.8695136417556346
     },
     "MEDIUM": {
       "eligible": 1836,
       "started": 1836,
-      "submitted": 1575,
-      "remoteAccepted": 1560,
+      "submitted": 1593,
+      "remoteAccepted": 1578,
       "failedSubmissionProblems": 15,
       "deferred": 15,
-      "awaitingRemoteAccepted": 276,
-      "remoteAcceptanceCoverage": 0.8496732026143791
+      "awaitingRemoteAccepted": 258,
+      "remoteAcceptanceCoverage": 0.8594771241830066
     }
   },
   "failedSubmissions": {
@@ -104,9 +104,9 @@
     "total": 140,
     "countsAgainstModelMetrics": false
   },
-  "awaitingRemoteAccepted": 553,
+  "awaitingRemoteAccepted": 514,
   "acceptedCodeDrift": [],
-  "acceptedCodeExactMatchCount": 3075,
+  "acceptedCodeExactMatchCount": 3114,
   "candidateCodeDrift": [],
   "candidateReady": 3628,
   "candidateReadyProfileAssignments": 3666,
@@ -1807,7 +1807,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "6187382a850e4fc7c78f5f247cde2d651e346837faa34242736c37412d1d4fa8",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "animal-shelter-lcci": [
@@ -4393,7 +4393,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "d9e200523c3719a3a384f4a2ff1c27f3894be95eb33028a3b7e2f1f312ccf9cd",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "compare-version-numbers": [
@@ -4780,7 +4780,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "4597e09801f2839b91dd0ae07bcea1cbba00ca9c0b83c466295940486464d182",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "construct-uniform-parity-array-ii": [
@@ -4789,7 +4789,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e36c1e203a155aa6e94d9bc037096c9ffd89558b0844d822dc5000a4c11467e5",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "contain-virus": [
@@ -5282,7 +5282,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "952401d0d8987fb974bf79f7e5ab81528ec50db4f1dda3f7bf9ecc4129db0592",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "count-covered-buildings": [
@@ -5327,7 +5327,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "3cc83435cce34ba70455ddddb7787c04e588c769fa35bb693441251cca24acb6",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "count-distinct-integers-after-removing-zeros": [
@@ -5453,7 +5453,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "20563eef0314ed5ba426619a5cfe0252a4118dbbf796eaa8cb46d487ef2475e8",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "count-good-meals": [
@@ -5489,7 +5489,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "b600fb344bed794352ac8cccab2b6bee118b0acec5df0c75069ec6f6ee23d73f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "count-good-triplets": [
@@ -5534,7 +5534,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "85a80cb53835238097b17b2437b2c580999ff61412a43172305f1015edb10f77",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "count-integers-in-intervals": [
@@ -5696,7 +5696,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "509611522d7ebf15d8688e2f366ebc5a3d5fe100a03c1ea3a34945b596cf0357",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "count-non-decreasing-subarrays-after-k-operations": [
@@ -7764,7 +7764,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "e9ee96c90b278b2fa8582ff69b3b747d324629cce667c86df012979e0ef2257c",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "design-exam-scores-tracker": [
@@ -8205,7 +8205,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "d83a58f4ca5d8487de28704824f9775ddd1195fb8e292d97b9c2e5ea2b1c332d",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "disconnect-path-in-a-binary-matrix-by-at-most-one-flip": [
@@ -10761,7 +10761,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "f892ed4457d36e3ae46672991b7b2d19b9a3f2bd9e5d21c941869a68af6fcd3f",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "find-the-difference": [
@@ -11993,7 +11993,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "aa084aa92727316296a6eeda3821ab9a5bb1b75a9227fb321ab8bbb6675aa833",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "first-missing-positive": [
@@ -12614,7 +12614,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "12faf839c6d7596308da852b852cf645ec4a7879be069fd8d89a3fcb86b30edd",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "gou-jian-cheng-ji-shu-zu-lcof": [
@@ -13262,7 +13262,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "89478f0f9d260bda715b7c00e0b1edb2aac5648a78327e156129374d26cf2a0c",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "incremental-memory-leak": [
@@ -13388,7 +13388,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "211398331c82178d1d1891a29c0e0c6339a14714f583d5a6eab951768ce9c978",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "interleaving-string": [
@@ -13883,7 +13883,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "a0267fd28e5926002c706caf3c39c2f1f56ec34c867cf5c40dd1893c6f004260",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "k-th-symbol-in-grammar": [
@@ -15138,7 +15138,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "f5726f166d8fc90ff69fdc59c60a775102b1b95d616125a1278c8ddb5a58cc1b",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "longest-balanced-substring-i": [
@@ -18021,7 +18021,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "10642a3b01baf3d1ddd08a3b7d3d9187bcccb376e6c850e56f46299bf3dda155",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "maximum-points-after-collecting-coins-from-all-nodes": [
@@ -18703,7 +18703,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "cb5b7d5c54a3184d5f7893a923fbc04537b7fdbdf42eb79fb4065552d14167ac",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "maximum-sum-of-an-hourglass": [
@@ -19034,7 +19034,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "712a930444b7f25c61ae87aac2a4c5981c2193238b6f37fd002956e402d0fda4",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "maximum-value-of-k-coins-from-piles": [
@@ -19671,7 +19671,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "cac372bd9c3b5db3ac44ea93df5a3454f7593f832b16212e647c1bc8042c1ae4",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "minimum-absolute-difference-in-bst": [
@@ -20715,7 +20715,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "f5f02092623a62ba5f71dec6c63c357e77476cf5cd8b9416455e6e161facea62",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "minimum-increment-operations-to-make-array-beautiful": [
@@ -21577,7 +21577,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "4bed1d1a392e727e8e7b8c16d8e4ad18148124fd6dde3692594b366fda48d062",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "minimum-operations-to-collect-elements": [
@@ -21764,7 +21764,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "4a1086d822c813f3ef4c0de11bbfe9314063488645bc55e769e01fdd130e34f6",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "minimum-operations-to-make-array-parity-alternating": [
@@ -21969,7 +21969,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "55f96f8b91ac2858e152ebbfa58f5f253d1f13c60e4584587b4565c9d6e2537c",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "minimum-operations-to-transform-binary-string": [
@@ -22122,7 +22122,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "3003ee5d49d35f044233d6e1cbdec5d8b3b32bdf02eaca9b3e170eeeb89b1ad3",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "minimum-removals-to-balance-array": [
@@ -22793,7 +22793,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "85c97742bcb6d49a2935594d321834eedb436dffa09436e59cb7592482edbc5a",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "minimum-xor-sum-of-two-arrays": [
@@ -22820,7 +22820,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "f95066890c2763bf8db1c958e2a9f8daeeddee89cf83672e3f40a10973076dd3",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "mirror-reflection": [
@@ -23108,7 +23108,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "80d639ed05af448e3101835fcbda54f9be0750072d1cb3bc5cc5fb70f8c4d0f0",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "multiply-strings": [
@@ -29172,7 +29172,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "932efd5de8a42048a4ce6e34d653cd5d8a50786d0b9f24efb1a08dcf7e3811db",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "smallest-stable-index-ii": [
@@ -29181,7 +29181,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "30d7164d06925ad8353341bada90cadd6e68ee44f1bb5c0892413bc64f9b9206",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "smallest-string-starting-from-leaf": [
@@ -29523,7 +29523,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "cc39381f19bd0e07ed29a722e1af619354a422526ad255173c4a3d0f1416633a",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "sort-vowels-in-a-string": [
@@ -30783,7 +30783,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "43ebc0093da150240cd1161fb9cff8e19b50d4b7613bce2fe3579f0c3b3e654e",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "sum-of-root-to-leaf-binary-numbers": [
@@ -30810,7 +30810,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "426cfeb0b40c9422997151202576c5a5fa722703de903e6488d4acf0938f18d7",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "sum-of-square-numbers": [
@@ -31706,7 +31706,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "7895ebb12f0e2cc6be16847b819fb45019c958c7e1a967fc5ef0e8ef735ce9a6",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "transform-array-by-parity": [
@@ -32291,7 +32291,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "1535619bcbfe6877d050dc9bb7ff49de6145295a8e4c95641d6032c85c929a52",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "valid-elements-in-an-array": [
@@ -32300,7 +32300,7 @@
         "candidateReady": true,
         "candidateCodeSha256": "5aab8ae55318ba6ae0594293fe6546c9a660066599a040b09a88691c98d64b5a",
         "deferred": false,
-        "remoteAccepted": false
+        "remoteAccepted": true
       }
     ],
     "valid-mountain-array": [
@@ -33646,11 +33646,11 @@
         "model": "gpt-5.6-terra",
         "reasoningEffort": "medium",
         "byDifficulty": {
-          "EASY": 793,
-          "HARD": 721,
-          "MEDIUM": 1560
+          "EASY": 802,
+          "HARD": 733,
+          "MEDIUM": 1578
         },
-        "total": 3074
+        "total": 3113
       },
       {
         "kind": "firstAccepted",
@@ -33706,11 +33706,11 @@
         "model": null,
         "reasoningEffort": null,
         "byDifficulty": {
-          "EASY": 155,
-          "HARD": 122,
-          "MEDIUM": 276
+          "EASY": 146,
+          "HARD": 110,
+          "MEDIUM": 258
         },
-        "total": 553
+        "total": 514
       }
     ],
     "accountedByDifficulty": {
@@ -33723,7 +33723,7 @@
       "HARD": 843,
       "MEDIUM": 1836
     },
-    "pending": 553,
+    "pending": 514,
     "isComplete": false,
     "byProblem": {
       "01-matrix": {
@@ -35113,10 +35113,10 @@
       "angles-of-a-triangle": {
         "frontendId": "3899",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "animal-shelter-lcci": {
         "frontendId": "面试题 03.06",
@@ -37393,10 +37393,10 @@
       "compare-sums-of-bitonic-parts": {
         "frontendId": "3909",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "compare-version-numbers": {
         "frontendId": "165",
@@ -37737,18 +37737,18 @@
       "construct-uniform-parity-array-i": {
         "frontendId": "3875",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "construct-uniform-parity-array-ii": {
         "frontendId": "3876",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "contain-virus": {
         "frontendId": "749",
@@ -38177,10 +38177,10 @@
       "count-connected-subgraphs-with-even-node-sum": {
         "frontendId": "3910",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "count-covered-buildings": {
         "frontendId": "3531",
@@ -38217,10 +38217,10 @@
       "count-digit-appearances": {
         "frontendId": "3895",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "count-distinct-integers-after-removing-zeros": {
         "frontendId": "3747",
@@ -38329,10 +38329,10 @@
       "count-good-integers-on-a-grid-path": {
         "frontendId": "3906",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "count-good-meals": {
         "frontendId": "1711",
@@ -38361,10 +38361,10 @@
       "count-good-subarrays": {
         "frontendId": "3878",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "count-good-triplets": {
         "frontendId": "1534",
@@ -38401,10 +38401,10 @@
       "count-indices-with-opposite-parity": {
         "frontendId": "3917",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "count-integers-in-intervals": {
         "frontendId": "2276",
@@ -38545,10 +38545,10 @@
       "count-non-decreasing-arrays-with-given-digit-sums": {
         "frontendId": "3883",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "count-non-decreasing-subarrays-after-k-operations": {
         "frontendId": "3420",
@@ -40377,10 +40377,10 @@
       "design-event-manager": {
         "frontendId": "3885",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "design-exam-scores-tracker": {
         "frontendId": "3709",
@@ -40769,10 +40769,10 @@
       "direction-assignments-with-exactly-k-visible-people": {
         "frontendId": "3881",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "disconnect-path-in-a-binary-matrix-by-at-most-one-flip": {
         "frontendId": "2556",
@@ -42985,10 +42985,10 @@
       "find-the-degree-of-each-vertex": {
         "frontendId": "3898",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "find-the-difference": {
         "frontendId": "389",
@@ -44049,10 +44049,10 @@
       "first-matching-character-from-both-ends": {
         "frontendId": "3884",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "first-missing-positive": {
         "frontendId": "41",
@@ -44601,10 +44601,10 @@
       "good-subsequence-queries": {
         "frontendId": "3901",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "gou-jian-cheng-ji-shu-zu-lcof": {
         "frontendId": "LCR 191",
@@ -45177,10 +45177,10 @@
       "incremental-even-weighted-cycle-queries": {
         "frontendId": "3887",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "incremental-memory-leak": {
         "frontendId": "1860",
@@ -45289,10 +45289,10 @@
       "integers-with-multiple-sum-of-two-cubes": {
         "frontendId": "3890",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "interleaving-string": {
         "frontendId": "97",
@@ -45729,10 +45729,10 @@
       "k-th-smallest-remaining-even-integer-in-subarray-queries": {
         "frontendId": "3911",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "k-th-symbol-in-grammar": {
         "frontendId": "779",
@@ -46801,10 +46801,10 @@
       "longest-balanced-substring-after-one-swap": {
         "frontendId": "3900",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "longest-balanced-substring-i": {
         "frontendId": "3713",
@@ -49345,10 +49345,10 @@
       "maximum-points-activated-with-one-addition": {
         "frontendId": "3873",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "maximum-points-after-collecting-coins-from-all-nodes": {
         "frontendId": "2920",
@@ -49945,10 +49945,10 @@
       "maximum-sum-of-alternating-subsequence-with-distance-at-least-k": {
         "frontendId": "3915",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "maximum-sum-of-an-hourglass": {
         "frontendId": "2428",
@@ -50233,10 +50233,10 @@
       "maximum-value-of-concatenated-binary-segments": {
         "frontendId": "3897",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "maximum-value-of-k-coins-from-piles": {
         "frontendId": "2218",
@@ -50793,10 +50793,10 @@
       "minimum-absolute-difference-between-two-values": {
         "frontendId": "3880",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "minimum-absolute-difference-in-bst": {
         "frontendId": "530",
@@ -51721,10 +51721,10 @@
       "minimum-increase-to-maximize-special-indices": {
         "frontendId": "3891",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "minimum-increment-operations-to-make-array-beautiful": {
         "frontendId": "2919",
@@ -52481,10 +52481,10 @@
       "minimum-operations-to-achieve-at-least-k-peaks": {
         "frontendId": "3892",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "minimum-operations-to-collect-elements": {
         "frontendId": "2869",
@@ -52641,10 +52641,10 @@
       "minimum-operations-to-make-array-non-decreasing": {
         "frontendId": "3914",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "minimum-operations-to-make-array-parity-alternating": {
         "frontendId": "3854",
@@ -52817,10 +52817,10 @@
       "minimum-operations-to-transform-array-into-alternating-prime": {
         "frontendId": "3896",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "minimum-operations-to-transform-binary-string": {
         "frontendId": "3980",
@@ -52953,10 +52953,10 @@
       "minimum-removals-to-achieve-target-xor": {
         "frontendId": "3877",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "minimum-removals-to-balance-array": {
         "frontendId": "3634",
@@ -53537,10 +53537,10 @@
       "minimum-xor-path-in-a-grid": {
         "frontendId": "3882",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "minimum-xor-sum-of-two-arrays": {
         "frontendId": "1879",
@@ -53561,10 +53561,10 @@
       "mirror-frequency-distance": {
         "frontendId": "3889",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "mirror-reflection": {
         "frontendId": "858",
@@ -53817,10 +53817,10 @@
       "multi-source-flood-fill": {
         "frontendId": "3905",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "multiply-strings": {
         "frontendId": "43",
@@ -59145,18 +59145,18 @@
       "smallest-stable-index-i": {
         "frontendId": "3903",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "smallest-stable-index-ii": {
         "frontendId": "3904",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "smallest-string-starting-from-leaf": {
         "frontendId": "988",
@@ -59457,10 +59457,10 @@
       "sort-vowels-by-frequency": {
         "frontendId": "3913",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "sort-vowels-in-a-string": {
         "frontendId": "2785",
@@ -60577,10 +60577,10 @@
       "sum-of-primes-between-number-and-its-reverse": {
         "frontendId": "3918",
         "difficulty": "MEDIUM",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "sum-of-root-to-leaf-binary-numbers": {
         "frontendId": "1022",
@@ -60601,10 +60601,10 @@
       "sum-of-sortable-integers": {
         "frontendId": "3886",
         "difficulty": "HARD",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "sum-of-square-numbers": {
         "frontendId": "633",
@@ -61385,10 +61385,10 @@
       "traffic-signal-color": {
         "frontendId": "3894",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "transform-array-by-parity": {
         "frontendId": "3467",
@@ -61905,18 +61905,18 @@
       "valid-digit-number": {
         "frontendId": "3908",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "valid-elements-in-an-array": {
         "frontendId": "3912",
         "difficulty": "EASY",
-        "kind": "pendingInLadder",
-        "profileId": null,
-        "model": null,
-        "reasoningEffort": null
+        "kind": "firstAccepted",
+        "profileId": "terra-medium",
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
       },
       "valid-mountain-array": {
         "frontendId": "941",
@@ -62755,13 +62755,13 @@
   "firstSuccessByDifficulty": {
     "EASY": {
       "sol-xhigh": 1,
-      "terra-medium": 793
+      "terra-medium": 802
     },
     "HARD": {
-      "terra-medium": 721
+      "terra-medium": 733
     },
     "MEDIUM": {
-      "terra-medium": 1560
+      "terra-medium": 1578
     }
   },
   "firstSuccessByProblem": {
@@ -63145,6 +63145,13 @@
     },
     "angle-between-hands-of-a-clock": {
       "frontendId": "1344",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "angles-of-a-triangle": {
+      "frontendId": "3899",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -64879,6 +64886,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "compare-sums-of-bitonic-parts": {
+      "frontendId": "3909",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "compare-version-numbers": {
       "frontendId": "165",
       "difficulty": "MEDIUM",
@@ -65127,6 +65141,20 @@
     "construct-the-rectangle": {
       "frontendId": "492",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "construct-uniform-parity-array-i": {
+      "frontendId": "3875",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "construct-uniform-parity-array-ii": {
+      "frontendId": "3876",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -65474,6 +65502,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "count-connected-subgraphs-with-even-node-sum": {
+      "frontendId": "3910",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "count-covered-buildings": {
       "frontendId": "3531",
       "difficulty": "MEDIUM",
@@ -65498,6 +65533,13 @@
     "count-different-palindromic-subsequences": {
       "frontendId": "730",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "count-digit-appearances": {
+      "frontendId": "3895",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -65572,6 +65614,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "count-good-integers-on-a-grid-path": {
+      "frontendId": "3906",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "count-good-meals": {
       "frontendId": "1711",
       "difficulty": "MEDIUM",
@@ -65589,6 +65638,13 @@
     "count-good-numbers": {
       "frontendId": "1922",
       "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "count-good-subarrays": {
+      "frontendId": "3878",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -65617,6 +65673,13 @@
     "count-increasing-quadruplets": {
       "frontendId": "2552",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "count-indices-with-opposite-parity": {
+      "frontendId": "3917",
+      "difficulty": "EASY",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -65722,6 +65785,13 @@
     "count-nodes-with-the-highest-score": {
       "frontendId": "2049",
       "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "count-non-decreasing-arrays-with-given-digit-sums": {
+      "frontendId": "3883",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -67217,6 +67287,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "design-event-manager": {
+      "frontendId": "3885",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "design-exam-scores-tracker": {
       "frontendId": "3709",
       "difficulty": "MEDIUM",
@@ -67528,6 +67605,13 @@
     "dinner-plate-stacks": {
       "frontendId": "1172",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "direction-assignments-with-exactly-k-visible-people": {
+      "frontendId": "3881",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -69170,6 +69254,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "find-the-degree-of-each-vertex": {
+      "frontendId": "3898",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "find-the-difference": {
       "frontendId": "389",
       "difficulty": "EASY",
@@ -70045,6 +70136,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "first-matching-character-from-both-ends": {
+      "frontendId": "3884",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "first-missing-positive": {
       "frontendId": "41",
       "difficulty": "HARD",
@@ -70472,6 +70570,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "good-subsequence-queries": {
+      "frontendId": "3901",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "graph-connectivity-with-threshold": {
       "frontendId": "1627",
       "difficulty": "HARD",
@@ -70857,6 +70962,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "incremental-even-weighted-cycle-queries": {
+      "frontendId": "3887",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "incremental-memory-leak": {
       "frontendId": "1860",
       "difficulty": "MEDIUM",
@@ -70936,6 +71048,13 @@
     },
     "integer-to-roman": {
       "frontendId": "12",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "integers-with-multiple-sum-of-two-cubes": {
+      "frontendId": "3890",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -71238,6 +71357,13 @@
     "k-th-smallest-prime-fraction": {
       "frontendId": "786",
       "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "k-th-smallest-remaining-even-integer-in-subarray-queries": {
+      "frontendId": "3911",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -72008,6 +72134,13 @@
     "longest-balanced-subarray-ii": {
       "frontendId": "3721",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "longest-balanced-substring-after-one-swap": {
+      "frontendId": "3900",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -74091,6 +74224,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "maximum-points-activated-with-one-addition": {
+      "frontendId": "3873",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "maximum-points-after-collecting-coins-from-all-nodes": {
       "frontendId": "2920",
       "difficulty": "HARD",
@@ -74581,6 +74721,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "maximum-sum-of-alternating-subsequence-with-distance-at-least-k": {
+      "frontendId": "3915",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "maximum-sum-of-an-hourglass": {
       "frontendId": "2428",
       "difficulty": "MEDIUM",
@@ -74766,6 +74913,13 @@
     "maximum-value-of-an-ordered-triplet-ii": {
       "frontendId": "2874",
       "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "maximum-value-of-concatenated-binary-segments": {
+      "frontendId": "3897",
+      "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -75221,6 +75375,13 @@
     "minimum-absolute-difference-between-elements-with-constraint": {
       "frontendId": "2817",
       "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "minimum-absolute-difference-between-two-values": {
+      "frontendId": "3880",
+      "difficulty": "EASY",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -75967,6 +76128,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "minimum-increase-to-maximize-special-indices": {
+      "frontendId": "3891",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "minimum-increment-operations-to-make-array-beautiful": {
       "frontendId": "2919",
       "difficulty": "MEDIUM",
@@ -76597,6 +76765,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "minimum-operations-to-achieve-at-least-k-peaks": {
+      "frontendId": "3892",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "minimum-operations-to-collect-elements": {
       "frontendId": "2869",
       "difficulty": "EASY",
@@ -76712,6 +76887,13 @@
     "minimum-operations-to-make-array-equal-to-target": {
       "frontendId": "3229",
       "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "minimum-operations-to-make-array-non-decreasing": {
+      "frontendId": "3914",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -76849,6 +77031,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "minimum-operations-to-transform-array-into-alternating-prime": {
+      "frontendId": "3896",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "minimum-operations-to-transform-string": {
       "frontendId": "3675",
       "difficulty": "MEDIUM",
@@ -76942,6 +77131,13 @@
     },
     "minimum-rectangles-to-cover-points": {
       "frontendId": "3111",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "minimum-removals-to-achieve-target-xor": {
+      "frontendId": "3877",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -77402,6 +77598,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "minimum-xor-path-in-a-grid": {
+      "frontendId": "3882",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "minimum-xor-sum-of-two-arrays": {
       "frontendId": "1879",
       "difficulty": "HARD",
@@ -77412,6 +77615,13 @@
     "mirror-distance-of-an-integer": {
       "frontendId": "3783",
       "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "mirror-frequency-distance": {
+      "frontendId": "3889",
+      "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
@@ -77600,6 +77810,13 @@
     },
     "moving-stones-until-consecutive-ii": {
       "frontendId": "1040",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "multi-source-flood-fill": {
+      "frontendId": "3905",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -81679,6 +81896,20 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "smallest-stable-index-i": {
+      "frontendId": "3903",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "smallest-stable-index-ii": {
+      "frontendId": "3904",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "smallest-string-starting-from-leaf": {
       "frontendId": "988",
       "difficulty": "MEDIUM",
@@ -81919,6 +82150,13 @@
     },
     "sort-the-students-by-their-kth-score": {
       "frontendId": "2545",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "sort-vowels-by-frequency": {
+      "frontendId": "3913",
       "difficulty": "MEDIUM",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -82806,6 +83044,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "sum-of-primes-between-number-and-its-reverse": {
+      "frontendId": "3918",
+      "difficulty": "MEDIUM",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "sum-of-root-to-leaf-binary-numbers": {
       "frontendId": "1022",
       "difficulty": "EASY",
@@ -82815,6 +83060,13 @@
     },
     "sum-of-scores-of-built-strings": {
       "frontendId": "2223",
+      "difficulty": "HARD",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "sum-of-sortable-integers": {
+      "frontendId": "3886",
       "difficulty": "HARD",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -83429,6 +83681,13 @@
       "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
     },
+    "traffic-signal-color": {
+      "frontendId": "3894",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
     "transform-array-by-parity": {
       "frontendId": "3467",
       "difficulty": "EASY",
@@ -83809,6 +84068,20 @@
     },
     "valid-boomerang": {
       "frontendId": "1037",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "valid-digit-number": {
+      "frontendId": "3908",
+      "difficulty": "EASY",
+      "profileId": "terra-medium",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "valid-elements-in-an-array": {
+      "frontendId": "3912",
       "difficulty": "EASY",
       "profileId": "terra-medium",
       "model": "gpt-5.6-terra",
@@ -84293,11 +84566,11 @@
   },
   "acceptedByProfile": {
     "sol-xhigh": 1,
-    "terra-medium": 3074
+    "terra-medium": 3113
   },
   "acceptedByAgent": {
     "Codex Desktop / gpt-5.6-sol": 1,
-    "Codex Desktop / gpt-5.6-terra": 3074
+    "Codex Desktop / gpt-5.6-terra": 3113
   },
   "profiles": {
     "sol-low": {
@@ -84706,41 +84979,41 @@
       "stage": 1,
       "enabled": true,
       "started": 3627,
-      "accepted": 3074,
+      "accepted": 3113,
       "deferred": 52,
       "candidateReady": 3613,
       "reviewRequired": 0,
       "remoteTests": 0,
-      "submissions": 3141,
+      "submissions": 3180,
       "failedSubmissions": 67,
       "failedSubmissionProblems": 60,
       "infrastructureErrors": {
         "remoteTests": 0,
         "submissions": 140
       },
-      "firstSubmissionAccepted": 3052,
-      "remoteElapsedReports": 3281,
-      "remoteElapsedSeconds": 11180.152,
-      "averageSolveWallSeconds": 193357.04977228367,
-      "medianSolveWallSeconds": 222744.5,
+      "firstSubmissionAccepted": 3091,
+      "remoteElapsedReports": 3320,
+      "remoteElapsedSeconds": 11323.261,
+      "averageSolveWallSeconds": 196597.50787022166,
+      "medianSolveWallSeconds": 224287.0,
       "byDifficulty": {
         "EASY": {
           "started": 948,
-          "accepted": 793,
+          "accepted": 802,
           "deferred": 8,
           "failedSubmissionAttempts": 21,
           "failedSubmissionProblems": 17
         },
         "HARD": {
           "started": 843,
-          "accepted": 721,
+          "accepted": 733,
           "deferred": 29,
           "failedSubmissionAttempts": 31,
           "failedSubmissionProblems": 28
         },
         "MEDIUM": {
           "started": 1836,
-          "accepted": 1560,
+          "accepted": 1578,
           "deferred": 15,
           "failedSubmissionAttempts": 15,
           "failedSubmissionProblems": 15
