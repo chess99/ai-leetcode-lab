@@ -1,6 +1,6 @@
 # AI 刷题实验统计
 
-更新时间：2026-08-18T11:50:58Z
+更新时间：2026-08-18T12:13:41Z
 
 ## 总览
 
@@ -14,19 +14,19 @@
 | 归档中锁定/不可用题面 | 778 |
 | 已开始 | 3628 |
 | 已记录本地候选 | 3628 |
-| Accepted | 3622 |
-| 免费题仍待远程 Accepted | 6 |
+| Accepted | 3628 |
+| 免费题仍待远程 Accepted | 0 |
 | 已 defer 的题 | 61 |
 | 等待复盘的 Profile/题组合 | 0 |
 | 远程试跑 | 1 |
-| 正式提交 | 3700 |
+| 正式提交 | 3706 |
 
 ## 通过质量
 
-- 首次提交通过：3600
-- 第一轮内通过：3622
+- 首次提交通过：3606
+- 第一轮内通过：3628
 - 首投通过占已通过题比例：99.39%
-- 正式提交整体通过率：97.89%
+- 正式提交整体通过率：97.90%
 
 ## Profile 阶梯
 
@@ -34,10 +34,10 @@
 |---|---|---|---:|---:|---:|---:|---:|---:|
 | sol-low | gpt-5.6-sol | low | 0 | 0 | 0 | 0 | 0 | 0.00% |
 | sol-medium | gpt-5.6-sol | medium | 62 | 53 | 52 | 9 | 53 | 0.00% |
-| sol-high | gpt-5.6-sol | high | 8 | 4 | 3 | 5 | 4 | 0.00% |
-| sol-xhigh | gpt-5.6-sol | xhigh | 5 | 1 | 1 | 4 | 1 | 0.00% |
+| sol-high | gpt-5.6-sol | high | 9 | 5 | 4 | 5 | 5 | 0.00% |
+| sol-xhigh | gpt-5.6-sol | xhigh | 6 | 2 | 2 | 4 | 2 | 0.00% |
 | sol-max | gpt-5.6-sol | max | 0 | 0 | 0 | 0 | 0 | 0.00% |
-| sol-ultra | gpt-5.6-sol | ultra | 4 | 4 | 0 | 0 | 0 | 0.00% |
+| sol-ultra | gpt-5.6-sol | ultra | 4 | 4 | 4 | 0 | 4 | 0.00% |
 | terra-low | gpt-5.6-terra | low | 0 | 0 | 0 | 0 | 0 | 0.00% |
 | terra-medium | gpt-5.6-terra | medium | 3627 | 3613 | 3566 | 61 | 3642 | 0.00% |
 
@@ -49,7 +49,7 @@
 | 难度 | 免费题 | 远程 Accepted | 覆盖率 |
 |---|---:|---:|---:|
 | EASY | 949 | 949 | 100.00% |
-| HARD | 843 | 837 | 99.29% |
+| HARD | 843 | 843 | 100.00% |
 | MEDIUM | 1836 | 1836 | 100.00% |
 
 ## 模型能力分布矩阵
@@ -60,31 +60,30 @@
 |---|---:|---:|---:|---:|
 | 首次 Accepted：terra-medium (gpt-5.6-terra / medium) | 939 | 807 | 1820 | 3566 |
 | 首次 Accepted：sol-medium (gpt-5.6-sol / medium) | 9 | 27 | 16 | 52 |
-| 首次 Accepted：sol-high (gpt-5.6-sol / high) | 0 | 3 | 0 | 3 |
-| 首次 Accepted：sol-xhigh (gpt-5.6-sol / xhigh) | 1 | 0 | 0 | 1 |
-| 首次 Accepted：sol-ultra (gpt-5.6-sol / ultra) | 0 | 0 | 0 | 0 |
-| 仍在阶梯中 | 0 | 6 | 0 | 6 |
+| 首次 Accepted：sol-high (gpt-5.6-sol / high) | 0 | 4 | 0 | 4 |
+| 首次 Accepted：sol-xhigh (gpt-5.6-sol / xhigh) | 1 | 1 | 0 | 2 |
+| 首次 Accepted：sol-ultra (gpt-5.6-sol / ultra) | 0 | 4 | 0 | 4 |
+| 仍在阶梯中 | 0 | 0 | 0 | 0 |
 
-矩阵核算：3628 / 3628 题；仍是阶段性分布，仍在阶梯中 6 题。
+矩阵核算：3628 / 3628 题；已形成最终分布，仍在阶梯中 0 题。
 
 ## 免费题流程进度 × 难度
 
 | 难度 | 已开始 | 已提交 | 远程 Accepted | 有失败提交 | 曾 defer | 待 Accepted |
 |---|---:|---:|---:|---:|---:|---:|
 | EASY | 949 | 949 | 949 | 18 | 9 | 0 |
-| HARD | 843 | 839 | 837 | 36 | 36 | 6 |
+| HARD | 843 | 843 | 843 | 36 | 36 | 0 |
 | MEDIUM | 1836 | 1836 | 1836 | 16 | 16 | 0 |
 
 失败正式提交：78 次，涉及 70 题。
 基础设施错误：远程试跑 0 次，正式提交 140 次；均不计入模型提交数、失败数或通过率。
 当前本地代码与 Accepted 代码哈希不同：0 题；其中 0 题已另有可追溯 candidate-ready，首次 Accepted 归因保持不变。
-当前本地代码与 Accepted 代码哈希完全一致：3622 题。
+当前本地代码与 Accepted 代码哈希完全一致：3628 题。
 当前本地代码与 candidate-ready 哈希漂移：0 个 Profile/题组合。
 
 ## 待升级重新解题
 
-- sol-high：1 题待产出新的本地候选
-- sol-xhigh：1 题待产出新的本地候选
+当前没有等待更高 Profile 重新解题的题目。
 
 ## 最高档仍未解决
 
@@ -92,7 +91,7 @@
 
 ## Agent 贡献
 
-- Codex Desktop / gpt-5.6-sol: 56
+- Codex Desktop / gpt-5.6-sol: 62
 - Codex Desktop / gpt-5.6-terra: 3566
 
 ## Token 数据完整性
