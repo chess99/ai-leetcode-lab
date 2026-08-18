@@ -343,6 +343,7 @@ def submit_solution(
     events: EventStore,
     *,
     root: Path = ROOT,
+    account_reconciliation: bool = False,
 ) -> dict[str, Any]:
     problem, meta, _, code = _working_problem(selector, root)
     code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
@@ -355,9 +356,17 @@ def submit_solution(
             f"当前代码没有匹配 Profile {identity.profile_id} 的 candidate-ready 哈希；"
             "请先完成本地验证并记录候选"
         )
+    if account_reconciliation:
+        if str(problem.get("status") or "") != "ATTEMPTED":
+            raise ArchiveError(
+                "账号状态对账只允许当前已认证目录明确标记为 ATTEMPTED 的题目；请先运行 sync"
+            )
+        if not events.usage(str(problem["titleSlug"])).accepted:
+            raise ArchiveError("账号状态对账要求仓库已有可追溯的远程 Accepted 记录")
     with RemoteActionLock(root) as remote_lock:
         working_problem = {**problem, "questionId": meta["questionId"]}
-        events.ensure_profile_started(working_problem, language, identity)
+        if not account_reconciliation:
+            events.ensure_profile_started(working_problem, language, identity)
         reservation = events.reserve_action(
             kind="submission",
             problem=working_problem,
@@ -365,6 +374,9 @@ def submit_solution(
             language=language,
             code_hash=code_hash,
             budget=config.attempt_budget,
+            allow_already_accepted=account_reconciliation,
+            counts_against_budget=not account_reconciliation,
+            purpose="account_status_reconciliation" if account_reconciliation else None,
         )
         task_sent = False
         action_started = time.monotonic()
@@ -375,6 +387,14 @@ def submit_solution(
             remote_lock.clear_backoff()
             status = str(raw.get("status_msg") or "")
             accepted = status == "Accepted" and bool(raw.get("run_success", True))
+            reconciliation_fields = (
+                {
+                    "purpose": "account_status_reconciliation",
+                    "remote_counts_against_quota": True,
+                }
+                if account_reconciliation
+                else {}
+            )
             return events.append(
                 "submission_result",
                 action_id=reservation["action_id"],
@@ -382,7 +402,7 @@ def submit_solution(
                 round=reservation["round"],
                 attempt=reservation["attempt"],
                 outcome="accepted" if accepted else "failed",
-                counts_against_budget=True,
+                counts_against_budget=not account_reconciliation,
                 client=identity.client,
                 model=identity.model,
                 reasoning_effort=identity.reasoning_effort,
@@ -391,19 +411,33 @@ def submit_solution(
                 remote_elapsed_ms=round((time.monotonic() - action_started) * 1000),
                 submission_id=task.task_id,
                 result=_safe_judge_result(raw),
+                **reconciliation_fields,
             )
         except ApiError as exc:
             backoff_seconds = None
             if "HTTP 429" in str(exc):
                 backoff_seconds = remote_lock.register_backoff()
+            infrastructure_failure = exc.infrastructure or exc.authentication
+            reconciliation_fields = (
+                {
+                    "purpose": "account_status_reconciliation",
+                    "remote_counts_against_quota": task_sent or not infrastructure_failure,
+                }
+                if account_reconciliation
+                else {}
+            )
             events.append(
                 "submission_result",
                 action_id=reservation["action_id"],
                 slug=problem["titleSlug"],
                 round=reservation["round"],
                 attempt=reservation["attempt"],
-                outcome="infrastructure_error" if exc.infrastructure or exc.authentication else "rejected",
-                counts_against_budget=task_sent or not (exc.infrastructure or exc.authentication),
+                outcome="infrastructure_error" if infrastructure_failure else "rejected",
+                counts_against_budget=(
+                    False
+                    if account_reconciliation
+                    else task_sent or not infrastructure_failure
+                ),
                 client=identity.client,
                 model=identity.model,
                 reasoning_effort=identity.reasoning_effort,
@@ -412,5 +446,6 @@ def submit_solution(
                 remote_elapsed_ms=round((time.monotonic() - action_started) * 1000),
                 error=str(exc),
                 backoff_seconds=backoff_seconds,
+                **reconciliation_fields,
             )
             raise

@@ -164,13 +164,18 @@ class EventStore:
         language: str,
         code_hash: str,
         budget: AttemptBudget,
+        allow_already_accepted: bool = False,
+        counts_against_budget: bool = True,
+        purpose: str | None = None,
     ) -> dict[str, Any]:
         usage = self.usage(str(problem["titleSlug"]), identity.profile_id)
-        if usage.accepted:
+        if usage.accepted and not allow_already_accepted:
             raise BudgetError("该题已经 Accepted，不允许继续消耗远程尝试")
-        if usage.deferred:
+        if allow_already_accepted and kind != "submission":
+            raise BudgetError("仅正式提交允许执行账号状态对账")
+        if usage.deferred and counts_against_budget:
             raise BudgetError(f"该题已在 Profile {identity.profile_id} 标记为 defer")
-        if usage.round_number > budget.max_rounds:
+        if usage.round_number > budget.max_rounds and counts_against_budget:
             raise BudgetError("该题已用完全部轮次")
         if kind == "remote_test":
             limit, used = budget.remote_tests_per_round, usage.remote_tests
@@ -178,7 +183,7 @@ class EventStore:
             limit, used = budget.submissions_per_round, usage.submissions
         else:
             raise ValueError(f"未知动作类型：{kind}")
-        if used >= limit:
+        if used >= limit and counts_against_budget:
             label = "远程试跑" if kind == "remote_test" else "正式提交"
             raise BudgetError(f"第 {usage.round_number} 轮{label}预算已用完（{used}/{limit}）")
         action_id = str(uuid.uuid4())
@@ -196,6 +201,8 @@ class EventStore:
             reasoning_effort=identity.reasoning_effort,
             profile_id=identity.profile_id,
             code_sha256=code_hash,
+            counts_against_budget=counts_against_budget,
+            **({"purpose": purpose} if purpose else {}),
         )
 
     def open_retry(self, slug: str, reason: str, budget: AttemptBudget, identity: Identity) -> dict[str, Any]:

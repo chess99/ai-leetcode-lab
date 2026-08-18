@@ -68,6 +68,7 @@ class RunnerTests(unittest.TestCase):
             "titleSlug": "two-sum",
             "difficulty": "EASY",
             "paidOnly": False,
+            "status": "ATTEMPTED",
         }
         (self.root / "archive").mkdir()
         (self.root / "archive" / "catalog.json").write_text(
@@ -145,6 +146,95 @@ class RunnerTests(unittest.TestCase):
                 Identity("test-client", "test-model", "medium", "sol-medium"),
                 EventStore(self.root),
                 root=self.root,
+            )
+
+    def test_account_reconciliation_resubmits_without_charging_experiment_budget(self) -> None:
+        client = AcceptedClient()
+        store = EventStore(self.root)
+        identity = Identity("test-client", "test-model", "medium", "sol-medium")
+        problem = {"titleSlug": "two-sum", "id": 1, "questionFrontendId": "1"}
+        code = "class Solution:\n    pass\n"
+        code_hash = hashlib.sha256(code.encode()).hexdigest()
+        store.ensure_profile_started(problem, "python3", identity)
+        store.record_candidate_ready(
+            problem=problem,
+            identity=identity,
+            language="python3",
+            code=code,
+            validation="unit test",
+        )
+        store.append(
+            "submission_started",
+            action_id="original-accepted",
+            slug="two-sum",
+            round=1,
+            attempt=1,
+            language="python3",
+            code_sha256=code_hash,
+            client=identity.client,
+            model=identity.model,
+            reasoning_effort=identity.reasoning_effort,
+            profile_id=identity.profile_id,
+        )
+        store.append(
+            "submission_result",
+            action_id="original-accepted",
+            slug="two-sum",
+            round=1,
+            attempt=1,
+            outcome="accepted",
+            counts_against_budget=True,
+            code_sha256=code_hash,
+            client=identity.client,
+            model=identity.model,
+            reasoning_effort=identity.reasoning_effort,
+            profile_id=identity.profile_id,
+        )
+
+        event = submit_solution(
+            "two-sum",
+            client,  # type: ignore[arg-type]
+            self.config,
+            identity,
+            store,
+            root=self.root,
+            account_reconciliation=True,
+        )
+
+        self.assertEqual(event["outcome"], "accepted")
+        self.assertFalse(event["counts_against_budget"])
+        self.assertTrue(event["remote_counts_against_quota"])
+        self.assertEqual(event["purpose"], "account_status_reconciliation")
+        self.assertEqual(store.usage("two-sum", "sol-medium").submissions, 1)
+
+    def test_account_reconciliation_requires_current_attempted_status(self) -> None:
+        catalog_path = self.root / "archive" / "catalog.json"
+        catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+        catalog["problems"][0]["status"] = "SOLVED"
+        catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+        store = EventStore(self.root)
+        identity = Identity("test-client", "test-model", "medium", "sol-medium")
+        problem = {"titleSlug": "two-sum", "id": 1, "questionFrontendId": "1"}
+        code = "class Solution:\n    pass\n"
+        store.ensure_profile_started(problem, "python3", identity)
+        store.record_candidate_ready(
+            problem=problem,
+            identity=identity,
+            language="python3",
+            code=code,
+            validation="unit test",
+        )
+        store.append("submission_result", slug="two-sum", outcome="accepted")
+
+        with self.assertRaisesRegex(Exception, "ATTEMPTED"):
+            submit_solution(
+                "two-sum",
+                AcceptedClient(),  # type: ignore[arg-type]
+                self.config,
+                identity,
+                store,
+                root=self.root,
+                account_reconciliation=True,
             )
 
     def test_remote_lock_queues_parallel_workers(self) -> None:

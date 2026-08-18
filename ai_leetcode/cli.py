@@ -216,6 +216,7 @@ def _cmd_submit(args: argparse.Namespace) -> int:
         config,
         identity,
         EventStore(),
+        account_reconciliation=args.account_reconciliation,
     )
     _print_json(result)
     if not args.defer_stats:
@@ -579,6 +580,14 @@ def build_parser() -> argparse.ArgumentParser:
         "--defer-stats",
         action="store_true",
         help="批量提交时暂缓重建统计；整批结束后必须运行 stats",
+    )
+    submit.add_argument(
+        "--account-reconciliation",
+        action="store_true",
+        help=(
+            "仅对 sync 后仍为 ATTEMPTED、且仓库已有 Accepted 与匹配候选哈希的题重提；"
+            "计入远程滚动额度但不计入模型实验指标"
+        ),
     )
     add_profile(submit)
     submit.set_defaults(func=_cmd_submit)

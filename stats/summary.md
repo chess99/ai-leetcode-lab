@@ -1,6 +1,6 @@
 # AI 刷题实验统计
 
-更新时间：2026-08-18T12:13:41Z
+更新时间：2026-08-18T15:37:57Z
 
 ## 总览
 
@@ -35,11 +35,11 @@
 | sol-low | gpt-5.6-sol | low | 0 | 0 | 0 | 0 | 0 | 0.00% |
 | sol-medium | gpt-5.6-sol | medium | 62 | 53 | 52 | 9 | 53 | 0.00% |
 | sol-high | gpt-5.6-sol | high | 9 | 5 | 4 | 5 | 5 | 0.00% |
-| sol-xhigh | gpt-5.6-sol | xhigh | 6 | 2 | 2 | 4 | 2 | 0.00% |
+| sol-xhigh | gpt-5.6-sol | xhigh | 5 | 1 | 1 | 4 | 1 | 0.00% |
 | sol-max | gpt-5.6-sol | max | 0 | 0 | 0 | 0 | 0 | 0.00% |
 | sol-ultra | gpt-5.6-sol | ultra | 4 | 4 | 4 | 0 | 4 | 0.00% |
 | terra-low | gpt-5.6-terra | low | 0 | 0 | 0 | 0 | 0 | 0.00% |
-| terra-medium | gpt-5.6-terra | medium | 3627 | 3613 | 3566 | 61 | 3642 | 0.00% |
+| terra-medium | gpt-5.6-terra | medium | 3628 | 3614 | 3567 | 61 | 3643 | 0.00% |
 
 > “首次成功 Profile”表示按既定升档流程首次获得 Accepted 的档位；高档可能继承低档失败产物，
 > 因此它衡量的是阶梯实验结果，不等同于各模型从空白起步的独立盲测能力。
@@ -58,10 +58,10 @@
 
 | 结果归属 | EASY | HARD | MEDIUM | 合计 |
 |---|---:|---:|---:|---:|
-| 首次 Accepted：terra-medium (gpt-5.6-terra / medium) | 939 | 807 | 1820 | 3566 |
+| 首次 Accepted：terra-medium (gpt-5.6-terra / medium) | 940 | 807 | 1820 | 3567 |
 | 首次 Accepted：sol-medium (gpt-5.6-sol / medium) | 9 | 27 | 16 | 52 |
 | 首次 Accepted：sol-high (gpt-5.6-sol / high) | 0 | 4 | 0 | 4 |
-| 首次 Accepted：sol-xhigh (gpt-5.6-sol / xhigh) | 1 | 1 | 0 | 2 |
+| 首次 Accepted：sol-xhigh (gpt-5.6-sol / xhigh) | 0 | 1 | 0 | 1 |
 | 首次 Accepted：sol-ultra (gpt-5.6-sol / ultra) | 0 | 4 | 0 | 4 |
 | 仍在阶梯中 | 0 | 0 | 0 | 0 |
 
@@ -91,8 +91,8 @@
 
 ## Agent 贡献
 
-- Codex Desktop / gpt-5.6-sol: 62
-- Codex Desktop / gpt-5.6-terra: 3566
+- Codex Desktop / gpt-5.6-sol: 61
+- Codex Desktop / gpt-5.6-terra: 3567
 
 ## Token 数据完整性
 

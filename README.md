@@ -89,6 +89,16 @@ Profile 的 `cohort` 表示模型家族/统计分组，`executionLadder` 则表�
 .\ai-lc.ps1 resume <slug> --profile sol-high --reason "已有可靠候选，恢复送判"
 ```
 
+若已认证目录把仓库中已有远程 Accepted 的题标记为 `ATTEMPTED`，可在先执行
+`sync` 后进行受限的账号状态对账提交：
+
+```powershell
+.\ai-lc.ps1 submit <slug> --profile <原候选-profile> --account-reconciliation
+```
+
+该入口只接受当前目录明确为 `ATTEMPTED`、已有远程 Accepted 且候选哈希完全匹配的题。
+提交会计入远程滚动额度，但不会改变首次成功 Profile、实验提交数或模型通过率。
+
 若客户端能给出精确用量，可单独追加；不能获取时不要调用：
 
 ```powershell

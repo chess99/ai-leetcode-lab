@@ -92,7 +92,12 @@ def build_summary(budget: AttemptBudget, *, root: Path = ROOT) -> dict[str, Any]
         charged: list[dict[str, Any]] = []
         for start in starts:
             result = results_by_action.get(start.get("action_id"))
-            if result is None or result.get("counts_against_budget", True):
+            if (
+                result is None
+                and start.get("counts_against_budget", True)
+            ) or (
+                result is not None and result.get("counts_against_budget", True)
+            ):
                 charged.append(start)
         return charged
 
