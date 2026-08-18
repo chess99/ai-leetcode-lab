@@ -33,7 +33,13 @@ from .coverage import audit_coverage, write_coverage
 from .doctor import print_checks, run_doctor
 from .events import BudgetError, EventStore
 from .quota import submission_quota_status
-from .runner import RemoteActionLock, run_remote_test, submit_solution
+from .runner import (
+    RemoteActionLock,
+    _python_template_for_problem,
+    _validate_submission_source,
+    run_remote_test,
+    submit_solution,
+)
 from .stats import build_summary, write_stats
 
 
@@ -315,6 +321,12 @@ def _cmd_candidate_ready(args: argparse.Namespace) -> int:
         raise ConfigError(f"无法读取本地候选：{directory}") from exc
     if "NotImplementedError" in code or "TODO" in code or "FIXME" in code:
         raise ConfigError("占位解答不能记录为 candidate-ready")
+    _validate_submission_source(
+        str(meta["language"]),
+        code,
+        template_source=_python_template_for_problem(problem, ROOT),
+        title_slug=str(problem["titleSlug"]),
+    )
     event = EventStore().record_candidate_ready(
         problem=problem,
         identity=identity,

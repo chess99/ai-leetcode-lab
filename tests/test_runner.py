@@ -12,7 +12,12 @@ from unittest.mock import patch
 from ai_leetcode.client import JudgeTask
 from ai_leetcode.config import ArchiveConfig, AttemptBudget, ExperimentConfig, Identity
 from ai_leetcode.events import EventStore
-from ai_leetcode.runner import RemoteActionLock, _validate_submission_source, submit_solution
+from ai_leetcode.runner import (
+    RemoteActionLock,
+    _judge_accepted,
+    _validate_submission_source,
+    submit_solution,
+)
 
 
 class AcceptedClient:
@@ -40,6 +45,45 @@ class AcceptedClient:
 
 
 class RunnerTests(unittest.TestCase):
+    def test_restriction_status_overrides_accepted_status_message(self) -> None:
+        self.assertFalse(
+            _judge_accepted(
+                {
+                    "state": "SUCCESS",
+                    "status_code": 10,
+                    "status_msg": "Accepted",
+                    "status_display": "Violation of Restriction",
+                    "run_success": True,
+                }
+            )
+        )
+
+    def test_problem_restrictions_are_blocked_before_remote_submission(self) -> None:
+        restricted = {
+            "sum-of-two-integers": ("python3", "value = (1 << 32) - 1\n"),
+            "design-hashset": ("python3", "values = set()\n"),
+            "design-hashmap": ("python3", "values = {}\n"),
+            "sort-an-array": ("python3", "answer = sorted(nums)\n"),
+            "apply-transform-over-each-element-in-array": (
+                "javascript",
+                "const answer = arr.map(fn);\n",
+            ),
+        }
+        for slug, (language, source) in restricted.items():
+            with self.subTest(slug=slug), self.assertRaisesRegex(Exception, "违反题目限制"):
+                _validate_submission_source(language, source, title_slug=slug)
+
+        _validate_submission_source(
+            "python3",
+            "mask = ~((~0) << 32)\n",
+            title_slug="sum-of-two-integers",
+        )
+        _validate_submission_source(
+            "javascript",
+            "var map = function(arr, fn) { return []; };\n",
+            title_slug="apply-transform-over-each-element-in-array",
+        )
+
     def test_python_future_annotations_is_blocked_before_remote_submission(self) -> None:
         with self.assertRaisesRegex(Exception, "LeetCode.*注入"):
             _validate_submission_source(

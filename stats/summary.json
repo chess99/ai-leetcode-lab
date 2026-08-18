@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-18T15:37:57Z",
+  "generatedAt": "2026-08-18T16:04:02Z",
   "catalogSyncedAt": "2026-08-11T08:37:30Z",
   "defaultProfile": "sol-medium",
   "executionLadder": [
@@ -22,7 +22,7 @@
   "deferredProfileAssignments": 79,
   "reviewRequired": 0,
   "remainingAccessible": 0,
-  "remoteTests": 1,
+  "remoteTests": 6,
   "submissions": 3706,
   "firstSubmissionAccepted": 3606,
   "firstRoundAccepted": 3628,
@@ -1965,7 +1965,7 @@
       {
         "profileId": "terra-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "72bb3dfbf4057c52df28619d5f093c65eb2c1162f9e0c0ad2d6dd7bf5c709485",
+        "candidateCodeSha256": "8572d573a7889f0d725899586d938bfe29c3459a6cfa0a4c755f424878f80fb5",
         "deferred": false,
         "remoteAccepted": true
       }
@@ -7819,7 +7819,7 @@
       {
         "profileId": "terra-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "80c47098b0328614a4c3e730a687a52762a52f52b4ef131211dbfc3e3b298658",
+        "candidateCodeSha256": "e99ff4477725849977eab4d5798508420e89d8ceaf4cf0e290be3f7f3f539d94",
         "deferred": false,
         "remoteAccepted": true
       }
@@ -7828,7 +7828,7 @@
       {
         "profileId": "terra-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "30ecf6441e5d0acecdd9a14c29b8f1c730f5f009a41d01d8b79519c1041803cc",
+        "candidateCodeSha256": "7efd2a881ac992563c66722b160cf2f930ce43391d59102bcb5d369101b86c03",
         "deferred": false,
         "remoteAccepted": true
       }
@@ -29413,7 +29413,7 @@
       {
         "profileId": "terra-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "a42837c16d7f8789118e78e66fa3a0a418d5479af30e54326328d426e91e2527",
+        "candidateCodeSha256": "84cb103dd2bd6fee23b526b2561a307103e4aa63244aea7a39a2a758aea1d6ad",
         "deferred": false,
         "remoteAccepted": true
       }
@@ -30941,7 +30941,7 @@
       {
         "profileId": "terra-medium",
         "candidateReady": true,
-        "candidateCodeSha256": "0133705e2f717a0ca472f39292052fb8f32f89e8bf2c7a6d981ef799bd5484db",
+        "candidateCodeSha256": "6d7b731f8df337e97f5f6a9f9c13c7f8872b11d6a0dee34541f0b9b4d56957a4",
         "deferred": false,
         "remoteAccepted": true
       }
@@ -88292,7 +88292,7 @@
       "deferred": 61,
       "candidateReady": 3614,
       "reviewRequired": 0,
-      "remoteTests": 1,
+      "remoteTests": 6,
       "submissions": 3643,
       "failedSubmissions": 76,
       "failedSubmissionProblems": 69,
@@ -88301,10 +88301,10 @@
         "submissions": 140
       },
       "firstSubmissionAccepted": 3545,
-      "remoteElapsedReports": 3787,
-      "remoteElapsedSeconds": 12817.638,
-      "averageSolveWallSeconds": 234050.43930473787,
-      "medianSolveWallSeconds": 234746.0,
+      "remoteElapsedReports": 3797,
+      "remoteElapsedSeconds": 12845.045,
+      "averageSolveWallSeconds": 234725.8519764508,
+      "medianSolveWallSeconds": 235653.0,
       "byDifficulty": {
         "EASY": {
           "started": 949,

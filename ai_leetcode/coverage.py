@@ -14,6 +14,7 @@ from typing import Any
 
 from .archive import load_catalog
 from .config import ROOT, atomic_write_json, utc_now
+from .restrictions import candidate_restriction_issues
 
 
 PLACEHOLDER_PATTERN = re.compile(r"\b(?:NotImplementedError|TODO|FIXME)\b", re.IGNORECASE)
@@ -344,6 +345,10 @@ def audit_coverage(*, root: Path = ROOT) -> dict[str, Any]:
             placeholder_slugs.add(slug)
             issues.append({"slug": slug, "kind": "placeholder_marker"})
             continue
+        restriction_issues = candidate_restriction_issues(slug, language, source)
+        if restriction_issues:
+            issues.extend(restriction_issues)
+            continue
         if language in {"python3", "pythondata"}:
             if language == "python3" and re.search(
                 r"(?m)^\s*from\s+__future__\s+import\s+annotations\s*$", source
@@ -456,6 +461,7 @@ def audit_coverage(*, root: Path = ROOT) -> dict[str, Any]:
         "policy": (
             "本地候选仅表示目录、必要文件、语言映射、占位标记与可用静态语法门禁通过；"
             "Python3 候选还会与归档判题模板核对顶层类、公开方法和位置参数数量；"
+            "题面明确禁止的运算符、内建哈希表、内建排序与 Array.map 也会被拦截；"
             "可用原语言门禁会执行；缺少本机检查器的语言仅做文件和占位静态门禁。"
             "本地候选不等于远程 Accepted。"
         ),

@@ -14,12 +14,15 @@ from .archive import ArchiveError, problem_key, resolve_problem
 from .client import ApiError, LeetCodeClient
 from .config import ExperimentConfig, Identity, ROOT, atomic_write_json, utc_now
 from .events import EventStore
+from .restrictions import candidate_restriction_issues
 
 
 RESULT_FIELDS = (
     "state",
     "status_code",
     "status_msg",
+    "status_display",
+    "is_pending",
     "run_success",
     "total_correct",
     "total_testcases",
@@ -190,8 +193,18 @@ def _working_problem(selector: str, root: Path) -> tuple[dict[str, Any], dict[st
 
 
 def _validate_submission_source(
-    language: str, code: str, *, template_source: str | None = None
+    language: str,
+    code: str,
+    *,
+    template_source: str | None = None,
+    title_slug: str | None = None,
 ) -> None:
+    if title_slug is not None:
+        restrictions = candidate_restriction_issues(title_slug, language, code)
+        if restrictions:
+            issue = restrictions[0]
+            line = f"（第 {issue['line']} 行）" if issue.get("line") else ""
+            raise ArchiveError(f"候选违反题目限制{line}：{issue['message']}")
     if language != "python3":
         return
     for line_number, line in enumerate(code.splitlines(), start=1):
@@ -247,6 +260,34 @@ def _judge_errors(raw: dict[str, Any]) -> list[str]:
     return errors
 
 
+def _judge_accepted(raw: dict[str, Any]) -> bool:
+    """Require a consistent final judge result, including restriction fields."""
+    searchable = json.dumps(raw, ensure_ascii=False, default=str).lower()
+    restriction_markers = (
+        "violation of restriction",
+        "violation restriction",
+        "restriction violation",
+        "violated restriction",
+        "违反限制",
+    )
+    if any(marker in searchable for marker in restriction_markers):
+        return False
+    if _judge_errors(raw):
+        return False
+    if raw.get("state") not in (None, "SUCCESS"):
+        return False
+    if raw.get("status_code") not in (None, 10, "10"):
+        return False
+    statuses = [
+        str(raw[key]).strip()
+        for key in ("status_msg", "status_display")
+        if raw.get(key) not in (None, "")
+    ]
+    if not statuses or any(status != "Accepted" for status in statuses):
+        return False
+    return bool(raw.get("run_success", True))
+
+
 def run_remote_test(
     selector: str,
     test_input: str | None,
@@ -261,7 +302,10 @@ def run_remote_test(
     code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
     language = str(meta["language"])
     _validate_submission_source(
-        language, code, template_source=_python_template_for_problem(problem, root)
+        language,
+        code,
+        template_source=_python_template_for_problem(problem, root),
+        title_slug=str(problem["titleSlug"]),
     )
     sample = test_input
     if sample is None:
@@ -349,7 +393,10 @@ def submit_solution(
     code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
     language = str(meta["language"])
     _validate_submission_source(
-        language, code, template_source=_python_template_for_problem(problem, root)
+        language,
+        code,
+        template_source=_python_template_for_problem(problem, root),
+        title_slug=str(problem["titleSlug"]),
     )
     if events.matching_candidate(str(problem["titleSlug"]), identity.profile_id, code_hash) is None:
         raise ArchiveError(
@@ -385,8 +432,7 @@ def submit_solution(
             task_sent = True
             raw = client.poll_judge(task.task_id)
             remote_lock.clear_backoff()
-            status = str(raw.get("status_msg") or "")
-            accepted = status == "Accepted" and bool(raw.get("run_success", True))
+            accepted = _judge_accepted(raw)
             reconciliation_fields = (
                 {
                     "purpose": "account_status_reconciliation",

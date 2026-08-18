@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T15:34:29Z",
+  "generatedAt": "2026-08-18T16:04:09Z",
   "eligibleProblems": 3628,
   "directoriesPresent": 3628,
   "validLocalCandidates": 3628,
@@ -228,7 +228,7 @@
     "apply-operations-to-make-two-strings-equal": "d2b5868b0560b3f9dc0a95b1e18dcc07e49c8e468a3870ed562d8e9d8fa6e50e",
     "apply-operations-to-maximize-frequency-score": "fc307fab225c7e1c5de13c1ecf05a64a6d7286c3700dc4a0873ea84e72488921",
     "apply-operations-to-maximize-score": "3cf97fc12312de505233a886124930d4f8e5a2a791fc118e481243e45644df7b",
-    "apply-transform-over-each-element-in-array": "72bb3dfbf4057c52df28619d5f093c65eb2c1162f9e0c0ad2d6dd7bf5c709485",
+    "apply-transform-over-each-element-in-array": "8572d573a7889f0d725899586d938bfe29c3459a6cfa0a4c755f424878f80fb5",
     "arithmetic-slices": "bd71ddb9b5a4a894a85bd944d16197a87db46ef23f58a561b582eca4a9a0cdad",
     "arithmetic-slices-ii-subsequence": "02c2d88271869ee56c485e1e122b975b282a7506b89f7f1f50d478743c57577d",
     "arithmetic-subarrays": "465322504ec945a49274e336ab8328167cd56062c38002d291e163cef66bb278",
@@ -873,8 +873,8 @@
     "design-exam-scores-tracker": "d1d0dab9f7a935d32dde89c7721d1dfb9ea2a2b28568b98f34b9e89ed0204abe",
     "design-front-middle-back-queue": "e920378215db5852efc3d47dd78c948c4402951e5d588bd3b67ba63f193d2390",
     "design-graph-with-shortest-path-calculator": "c430fd1ae2d5627afa0436133ced289aff7c4dab2da6a3814551a6e853d5f1f1",
-    "design-hashmap": "80c47098b0328614a4c3e730a687a52762a52f52b4ef131211dbfc3e3b298658",
-    "design-hashset": "30ecf6441e5d0acecdd9a14c29b8f1c730f5f009a41d01d8b79519c1041803cc",
+    "design-hashmap": "e99ff4477725849977eab4d5798508420e89d8ceaf4cf0e290be3f7f3f539d94",
+    "design-hashset": "7efd2a881ac992563c66722b160cf2f930ce43391d59102bcb5d369101b86c03",
     "design-linked-list": "00be25ec07d9e22af92ef153d221539e5c820aac544767bae19d347e3510d12c",
     "design-memory-allocator": "5780fbc135fb6663bd4c00ed748fa8ec18fbeb94e6825caaf5234d509e5273d0",
     "design-movie-rental-system": "7a3ee3bc5139d934f2f26dc32dc64c6da2aeea4e977dda2caf30e4e712c94d56",
@@ -3235,7 +3235,7 @@
     "snapshot-array": "794d19821ebba7e3e20280d713ae7b318867a626721315215ae3f3602db97c9e",
     "solve-the-equation": "21f0e59da3cf84a86e6125adbdf4f81cd21ee06981bd54211bb801f1484ee5ac",
     "solving-questions-with-brainpower": "79f38f01b62fabe769244da0ba52ef0bf8fa371bae97e09164c6e2db1e0bab8d",
-    "sort-an-array": "a42837c16d7f8789118e78e66fa3a0a418d5479af30e54326328d426e91e2527",
+    "sort-an-array": "84cb103dd2bd6fee23b526b2561a307103e4aa63244aea7a39a2a758aea1d6ad",
     "sort-array-by-increasing-frequency": "5acf8078d33d8cea0945d8a9a41e4bd48d0699591f3a33c3da4c12e624c10ca2",
     "sort-array-by-parity": "199edad09cbf67bf0d7e939216282531fc50d0a9a325afc2dcd0c187c193f1b1",
     "sort-array-by-parity-ii": "775fb7f45779aad5adcaf8a2edeecb3199df20115280328605ffc2d4b5dfaafa",
@@ -3404,7 +3404,7 @@
     "sum-of-subarray-ranges": "debbb0986c21fe38ee657a4805584a33c5467f3d2539526bc1220b4a4d6e4279",
     "sum-of-subsequence-widths": "5a6ceda2f60ef4add797aea1663299b0a219238b86bf23aea9aebb6c9f5ed46f",
     "sum-of-total-strength-of-wizards": "b8a393045eaa0fa47bb9337cec43c16ac24fee5a84b34b17ac9242e9be7f8f45",
-    "sum-of-two-integers": "0133705e2f717a0ca472f39292052fb8f32f89e8bf2c7a6d981ef799bd5484db",
+    "sum-of-two-integers": "6d7b731f8df337e97f5f6a9f9c13c7f8872b11d6a0dee34541f0b9b4d56957a4",
     "sum-of-unique-elements": "89dba7cd28d49cc067c209dff9c2bd5f27fbfae270caf3503b890762e6eca83c",
     "sum-of-values-at-indices-with-k-set-bits": "41244222bd9c562a676accdc9507e804d6fcc9f25debf25e8e968dcf76895297",
     "sum-of-variable-length-subarrays": "155f63bd3a43d8be2bde56c29f52aef8cc7b7a73fa472d3d368a446dfd9623ba",
@@ -3668,5 +3668,5 @@
     "zuo-xuan-zhuan-zi-fu-chuan-lcof": "191fefb16c9e414533f0c5876c2d715b18a95ab1afd84c8f1e91917c0d5f7f9c"
   },
   "issues": [],
-  "policy": "本地候选仅表示目录、必要文件、语言映射、占位标记与可用静态语法门禁通过；Python3 候选还会与归档判题模板核对顶层类、公开方法和位置参数数量；可用原语言门禁会执行；缺少本机检查器的语言仅做文件和占位静态门禁。本地候选不等于远程 Accepted。"
+  "policy": "本地候选仅表示目录、必要文件、语言映射、占位标记与可用静态语法门禁通过；Python3 候选还会与归档判题模板核对顶层类、公开方法和位置参数数量；题面明确禁止的运算符、内建哈希表、内建排序与 Array.map 也会被拦截；可用原语言门禁会执行；缺少本机检查器的语言仅做文件和占位静态门禁。本地候选不等于远程 Accepted。"
 }

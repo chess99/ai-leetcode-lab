@@ -7,7 +7,12 @@
 # Experiment: ai-leetcode-lab, round 1
 class Solution:
     def getSum(self, a: int, b: int) -> int:
-        mask=(1<<32)-1; maximum=(1<<31)-1
+        mask = ~((~0) << 32)
+        sign_bit = 1 << 31
+
         while b:
-            a,b=(a^b)&mask,((a&b)<<1)&mask
-        return a if a<=maximum else ~(a^mask)
+            carry = (a & b) << 1
+            a = (a ^ b) & mask
+            b = carry & mask
+
+        return a if a < sign_bit else ~(a ^ mask)

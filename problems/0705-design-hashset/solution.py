@@ -6,18 +6,17 @@
 # Created: 2026-08-11T11:04:51Z
 # Experiment: ai-leetcode-lab, round 1
 class MyHashSet:
-
     def __init__(self):
-        self.values=set()
+        self.present = bytearray(1_000_001)
 
     def add(self, key: int) -> None:
-        self.values.add(key)
+        self.present[key] = 1
 
     def remove(self, key: int) -> None:
-        self.values.discard(key)
+        self.present[key] = 0
 
     def contains(self, key: int) -> bool:
-        return key in self.values
+        return self.present[key] == 1
 
 
 # Your MyHashSet object will be instantiated and called as such:
