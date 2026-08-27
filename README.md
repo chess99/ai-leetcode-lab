@@ -4,6 +4,36 @@
 
 仓库与旧目录 `D:\code\LeetCode` 完全隔离。旧答案、官方题解、讨论区和搜索结果都不进入实验。
 
+## 实验结果
+
+固定实验集为 2026 年 8 月 11 日同步到的 3,628 道免费题。实验现已全部完成，所有题目均取得可追溯的远程 `Accepted` 终态。
+
+| 指标 | 结果 |
+|---|---:|
+| 免费实验集 | 3,628 |
+| 远程 Accepted | 3,628 / 3,628 |
+| 覆盖率 | 100% |
+| 首投通过率 | 99.39% |
+| 正式提交整体通过率 | 97.90% |
+| Accepted 代码哈希漂移 | 0 |
+| candidate 代码哈希漂移 | 0 |
+
+首次成功 Profile 与难度分布如下。
+
+| 首次成功 Profile | EASY | MEDIUM | HARD | 合计 |
+|---|---:|---:|---:|---:|
+| terra-medium | 940 | 1,820 | 807 | 3,567 |
+| sol-medium | 9 | 16 | 27 | 52 |
+| sol-high | 0 | 0 | 4 | 4 |
+| sol-xhigh | 0 | 0 | 1 | 1 |
+| sol-ultra | 0 | 0 | 4 | 4 |
+
+账号页显示 3,718 次提交，全部来自本轮实验。模型统计中的 3,706 次正式提交排除了 10 次题目限制违规和 2 次提交封装错误；另有 6 次远程试跑使用测试接口，不进入账号提交数。
+
+- 完整汇总见 [`stats/summary.md`](stats/summary.md)
+- 逐题能力归属见 `stats/summary.json` 的 `capabilityByDifficulty.byProblem`
+- 实验账号见 [LeetCode 个人页](https://leetcode.cn/u/funcsama/)
+
 ## 实验方法
 
 一次实验身份由 `Profile ID + 模型 + 推理档位` 组成。主阶梯配置在 `config/profiles.json`：
@@ -141,3 +171,7 @@ Claude、Codex、通用 Agents 和 CatPaw 的兼容 skill 入口均指向根目�
 只保存 `csrftoken` 与 `LEETCODE_SESSION`，不保存浏览器统计、广告或设备 Cookie。`.secrets/` 已被 Git 忽略，pre-commit hook 会继续扫描暂存内容。
 
 由于凭证曾经通过聊天传递，环境稳定后建议重新登录 LeetCode 并更新本地文件，使旧会话失效。
+
+## 仓库公开状态
+
+当前 GitHub 仓库保持私有。若准备公开，请先阅读 [`PUBLIC_RELEASE.md`](PUBLIC_RELEASE.md)。归档题面、原始事件日志、账号信息和仓库许可证需要分别处理，不能只检查当前工作区后直接切换可见性。
