@@ -33,6 +33,7 @@
 - 完整汇总见 [`stats/summary.md`](stats/summary.md)
 - 逐题能力归属见 `stats/summary.json` 的 `capabilityByDifficulty.byProblem`
 - 实验账号见 [LeetCode 个人页](https://leetcode.cn/u/funcsama/)
+- 实验过程与结论见[博客复盘](https://blog.cearl.cc/posts/ai-leetcode-3628/)
 
 ## 实验方法
 
